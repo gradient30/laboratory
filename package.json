@@ -1,0 +1,20 @@
+{
+  "name": "little-lab-cloudflare-github",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "小小实验室：独立 Cloudflare Workers Static Assets 部署副本（浏览器本地记录版）",
+  "scripts": {
+    "test": "node test.mjs && node verify-package.mjs && node --test scripts/deploy-guard.test.mjs && node scripts/check-workflow.mjs",
+    "check:syntax": "node --check dist/app.js && node --check dist/diagrams.js",
+    "dev": "wrangler dev",
+    "deploy:dry-run": "wrangler deploy --dry-run",
+    "manifest:update": "node scripts/update-manifest.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.3"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
