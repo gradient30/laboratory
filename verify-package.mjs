@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {readFileSync, readdirSync, existsSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+const config = JSON.parse(readFileSync('wrangler.jsonc', 'utf8'));
+const manifest = JSON.parse(readFileSync('source-manifest.json', 'utf8'));
+const expected=['app.js','data.json','diagrams.js','index.html','styles.css'];
+assert.equal(config.assets.directory,'./dist');
+assert.equal(config.workers_dev,true);
+assert.match(config.name,/^[a-z][a-z0-9-]{0,62}$/);
+assert.match(config.compatibility_date,/^\d{4}-\d{2}-\d{2}$/);
+for(const forbidden of ['main','d1_databases','r2_buckets','kv_namespaces','vars','routes','route','account_id'])assert.ok(!(forbidden in config),`Unexpected binding/account/deployment target: ${forbidden}`);
+assert.deepEqual(readdirSync('dist').sort(),expected);
+assert.ok(!existsSync('.openai')&&!existsSync('dist/.git'),'No Sites identity or Git metadata in public assets');
+let bytes=0;
+for(const name of expected){const data=readFileSync(`dist/${name}`);bytes+=data.length;assert.equal(createHash('sha256').update(data).digest('hex'),manifest.files[name],`Source content changed: ${name}`)}
+const html=readFileSync('dist/index.html','utf8');
+const resources=[...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(m=>m[1]).filter(s=>!/^https?:\/\//.test(s));
+for(const resource of resources)assert.ok(existsSync(`dist/${resource}`),`Missing relative resource ${resource}`);
+assert.match(readFileSync('dist/app.js','utf8'),/fetch\('\.\/data\.json'\)/);
+console.log(JSON.stringify({status:'passed',config:'Workers Static Assets; assets-only, no Worker code or databases',files:expected,totalStaticBytes:bytes,exactSourceHashes:true,relativeResourceLinks:resources,limits:'Configuration shape checked against official documentation; This script does not itself run Wrangler. See VERIFICATION.md for separate CLI dry-run result; live deployment/browser QA not performed.'},null,2));
