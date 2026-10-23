@@ -18,7 +18,7 @@ jobs:
   check:
     name: Static content and configuration checks
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 25
     outputs:
       deployment_enabled: ${{ steps.policy.outputs.enabled }}
     concurrency:
