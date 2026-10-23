@@ -33,3 +33,5 @@ console.log('Workflow policy assertions, verified action pins, and exact Wrangle
 assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock.packages['node_modules/@playwright/test'].version,'1.64.1');assert.match(check,/npx --no-install playwright install --with-deps chromium/);assert.match(check,/npm run test:browser/);
 
 assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);
+
+assert.match(check,/fc-list :lang=zh/);assert.match(check,/fonts-wqy-zenhei/);

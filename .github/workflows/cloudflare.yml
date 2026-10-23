@@ -56,6 +56,16 @@ jobs:
           else
             npx --no-install playwright install --with-deps chromium
           fi
+      - name: Ensure Chinese glyphs exist for actual visual review
+        shell: bash
+        run: |
+          if [ -z "$(fc-list :lang=zh)" ]; then
+            sudo apt-get update -o Acquire::Retries=2
+            sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei
+            fc-cache -f
+          fi
+          test -n "$(fc-list :lang=zh)"
+          fc-match -f '%{family}\n' ':lang=zh'
       - name: Verify desktop and mobile browser flows
         run: npm run test:browser
       - name: Retain synthetic interface screenshots for visual review
