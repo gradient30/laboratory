@@ -11,7 +11,10 @@ for(const [,action,sha] of uses)assert.equal(sha,pins[action],`Unexpected action
 assert.match(s,/permissions:\n  contents: read/);
 assert.ok(!/^\s+(pull_request_target|workflow_run):/m.test(s));
 assert.match(s,/github\.ref == 'refs\/heads\/main'/);
-assert.match(s,/vars\.CLOUDFLARE_DEPLOY_ENABLED == 'true'/);
+assert.match(s,/needs\.check\.outputs\.deployment_enabled == 'true'/);
+assert.match(s,/\(vars\.CLOUDFLARE_DEPLOY_ENABLED == '' \|\| vars\.CLOUDFLARE_DEPLOY_ENABLED == 'true'\)/);
+assert.match(s,/deployment_enabled: \$\{\{ steps\.policy\.outputs\.enabled \}\}/);
+assert.match(s,/typeof enabled !== 'boolean'/);
 assert.match(s,/needs: check/);
 assert.match(s,/environment: cloudflare-production/);
 assert.match(s,/cancel-in-progress: false/);
