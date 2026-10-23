@@ -60,8 +60,10 @@ jobs:
         shell: bash
         run: |
           if [ -z "$(fc-list :lang=zh)" ]; then
-            sudo apt-get update -o Acquire::Retries=2
-            sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei
+            if ! sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei; then
+              sudo apt-get update -o Acquire::Retries=2
+              sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei
+            fi
             fc-cache -f
           fi
           test -n "$(fc-list :lang=zh)"
