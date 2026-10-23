@@ -19,6 +19,8 @@ jobs:
     name: Static content and configuration checks
     runs-on: ubuntu-24.04
     timeout-minutes: 10
+    outputs:
+      deployment_enabled: ${{ steps.policy.outputs.enabled }}
     concurrency:
       group: little-lab-check-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
       cancel-in-progress: true
@@ -38,6 +40,16 @@ jobs:
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
+      - name: Read the reviewed source deployment policy
+        id: policy
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync, appendFileSync} from 'node:fs';
+          const {enabled} = JSON.parse(readFileSync('.github/deployment-policy.json', 'utf8'));
+          if (typeof enabled !== 'boolean') throw new Error('Deployment policy enabled must be boolean');
+          appendFileSync(process.env.GITHUB_OUTPUT, `enabled=${enabled}\n`);
+          NODE
       - name: Validate Wrangler package without deploying
         run: ./node_modules/.bin/wrangler deploy --dry-run --config wrangler.jsonc
         env:
@@ -46,9 +58,11 @@ jobs:
   deploy:
     name: Publish approved main revision
     needs: check
-    # This repository variable is unset by default. PRs can never enter this job.
+    # Source policy is authoritative. An optional repository switch may stop deployment.
+    # Unset or 'true' permits; 'false' and other nonempty values block. PRs never deploy.
     if: >-
-      vars.CLOUDFLARE_DEPLOY_ENABLED == 'true' &&
+      needs.check.outputs.deployment_enabled == 'true' &&
+      (vars.CLOUDFLARE_DEPLOY_ENABLED == '' || vars.CLOUDFLARE_DEPLOY_ENABLED == 'true') &&
       github.ref == 'refs/heads/main' &&
       (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-24.04
