@@ -31,3 +31,5 @@ for(const [path,p] of Object.entries(lock.packages))if(path){assert.ok(p.integri
 console.log('Workflow policy assertions, verified action pins, and exact Wrangler lockfile checks passed. These are local structural checks, not a GitHub Actions execution.');
 
 assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock.packages['node_modules/@playwright/test'].version,'1.64.1');assert.match(check,/npx --no-install playwright install --with-deps chromium/);assert.match(check,/npm run test:browser/);
+
+assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);

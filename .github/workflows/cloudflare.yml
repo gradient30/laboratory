@@ -40,8 +40,22 @@ jobs:
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
-      - name: Install pinned Playwright Chromium for local browser acceptance
-        run: npx --no-install playwright install --with-deps chromium
+      - name: Verify runner Chrome or install pinned Chromium
+        shell: bash
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            command -v google-chrome
+            google-chrome --version
+            node --input-type=module <<'NODE'
+          import {chromium} from '@playwright/test';
+          const browser = await chromium.launch({channel: 'chrome'});
+          console.log('Verified Playwright Chrome launch:', browser.version());
+          await browser.close();
+          NODE
+            echo 'PLAYWRIGHT_CHANNEL=chrome' >> "$GITHUB_ENV"
+          else
+            npx --no-install playwright install --with-deps chromium
+          fi
       - name: Verify desktop and mobile browser flows
         run: npm run test:browser
       - name: Retain synthetic interface screenshots for visual review
