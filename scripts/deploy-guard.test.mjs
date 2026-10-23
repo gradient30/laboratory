@@ -6,6 +6,9 @@ const policy = {enabled:true, repository:'example-owner/example-repo', accountId
 const config = {name:'little-lab-test', workers_dev:true, assets:{directory:'./dist'}};
 const env = {DEPLOY_ENABLED:'true', GITHUB_ACTIONS:'true', GITHUB_REF:'refs/heads/main', GITHUB_EVENT_NAME:'push', GITHUB_REPOSITORY:policy.repository, GITHUB_SHA:'b'.repeat(40), CLOUDFLARE_ACCOUNT_ID:policy.accountId};
 test('approved main push is eligible',()=>assert.equal(assertDeploymentAllowed(policy,config,env),true));
+test('approved policy works with an unset optional switch',()=>assert.equal(assertDeploymentAllowed(policy,config,{...env,DEPLOY_ENABLED:undefined}),true));
+test('approved policy works with an empty optional switch',()=>assert.equal(assertDeploymentAllowed(policy,config,{...env,DEPLOY_ENABLED:''}),true));
+test('disabled policy stays blocked even with optional switch unset',()=>assert.throws(()=>assertDeploymentAllowed({...policy,enabled:false},config,{...env,DEPLOY_ENABLED:undefined})));
 test('approved manual main run is eligible',()=>assert.equal(assertDeploymentAllowed(policy,config,{...env,GITHUB_EVENT_NAME:'workflow_dispatch'}),true));
 for (const [name,patch] of Object.entries({
   'pull request':{GITHUB_EVENT_NAME:'pull_request'},
@@ -15,7 +18,8 @@ for (const [name,patch] of Object.entries({
   'tag':{GITHUB_REF:'refs/tags/main'},
   'fork repository':{GITHUB_REPOSITORY:'other-owner/example-repo'},
   'wrong account':{CLOUDFLARE_ACCOUNT_ID:'c'.repeat(32)},
-  'unset switch':{DEPLOY_ENABLED:''},
+  'invalid switch':{DEPLOY_ENABLED:'yes'},
+  'uppercase false switch':{DEPLOY_ENABLED:'FALSE'},
   'false switch':{DEPLOY_ENABLED:'false'},
   'not GitHub Actions':{GITHUB_ACTIONS:''},
   'no triggering commit':{GITHUB_SHA:''}
@@ -26,8 +30,11 @@ test('unapproved repository is rejected',()=>assert.throws(()=>assertDeploymentA
 test('unapproved account is rejected',()=>assert.throws(()=>assertDeploymentAllowed({...policy,accountId:''},config,env)));
 test('wrong Worker is rejected',()=>assert.throws(()=>assertDeploymentAllowed(policy,{...config,name:'other-worker'},env)));
 test('unexpected database binding is rejected',()=>assert.throws(()=>assertDeploymentAllowed(policy,{...config,d1_databases:[]},env)));
-test('source policy cannot be deployed by default',()=>{
+test('checked-in source policy must remain valid for its static target',()=>{
  const actual=JSON.parse(readFileSync('.github/deployment-policy.json','utf8'));
  if(actual.enabled===false)assert.throws(()=>assertDeploymentAllowed(actual,config,env));
- else {assert.match(actual.repository,/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/);assert.match(actual.accountId,/^[0-9a-f]{32}$/)}
+ else {
+  const actualConfig=JSON.parse(readFileSync('wrangler.jsonc','utf8'));
+  assert.equal(assertDeploymentAllowed(actual,actualConfig,{...env,DEPLOY_ENABLED:undefined,GITHUB_REPOSITORY:actual.repository,CLOUDFLARE_ACCOUNT_ID:actual.accountId}),true);
+ }
 });
