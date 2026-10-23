@@ -18,7 +18,7 @@ jobs:
   check:
     name: Static content and configuration checks
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 25
     outputs:
       deployment_enabled: ${{ steps.policy.outputs.enabled }}
     concurrency:
@@ -40,6 +40,44 @@ jobs:
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
+      - name: Verify runner Chrome or install pinned Chromium
+        shell: bash
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            command -v google-chrome
+            google-chrome --version
+            node --input-type=module <<'NODE'
+          import {chromium} from '@playwright/test';
+          const browser = await chromium.launch({channel: 'chrome'});
+          console.log('Verified Playwright Chrome launch:', browser.version());
+          await browser.close();
+          NODE
+            echo 'PLAYWRIGHT_CHANNEL=chrome' >> "$GITHUB_ENV"
+          else
+            npx --no-install playwright install --with-deps chromium
+          fi
+      - name: Ensure Chinese glyphs exist for actual visual review
+        shell: bash
+        run: |
+          if [ -z "$(fc-list :lang=zh)" ]; then
+            if ! sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei; then
+              sudo apt-get update -o Acquire::Retries=2
+              sudo apt-get install --no-install-recommends -y fonts-wqy-zenhei
+            fi
+            fc-cache -f
+          fi
+          test -n "$(fc-list :lang=zh)"
+          fc-match -f '%{family}\n' ':lang=zh'
+      - name: Verify desktop and mobile browser flows
+        run: npm run test:browser
+      - name: Retain synthetic interface screenshots for visual review
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: annual-interface-review
+          path: test-results/visual-review/*.png
+          retention-days: 7
+          if-no-files-found: ignore
       - name: Read the reviewed source deployment policy
         id: policy
         shell: bash

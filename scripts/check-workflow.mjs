@@ -2,11 +2,12 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const s=readFileSync('.github/workflows/cloudflare.yml','utf8');
 const pins={
+ 'actions/upload-artifact':'cf430e030ddbb5b0abf93d22962f4752f3646cd9',
  'actions/checkout':'3d3c42e5aac5ba805825da76410c181273ba90b1',
  'actions/setup-node':'949feb2413d6458794dcd2491c4babbbce0c15c1'
 };
 const uses=[...s.matchAll(/uses:\s+([^@\s]+)@([a-f0-9]{40})/g)];
-assert.equal(uses.length,4);
+assert.equal(uses.length,5);
 for(const [,action,sha] of uses)assert.equal(sha,pins[action],`Unexpected action revision: ${action}`);
 assert.match(s,/permissions:\n  contents: read/);
 assert.ok(!/^\s+(pull_request_target|workflow_run):/m.test(s));
@@ -28,3 +29,9 @@ const pkg=JSON.parse(readFileSync('package.json','utf8')),lock=JSON.parse(readFi
 assert.equal(pkg.devDependencies.wrangler,'4.151.3');assert.equal(lock.packages[''].devDependencies.wrangler,'4.151.3');assert.equal(lock.packages['node_modules/wrangler'].version,'4.151.3');
 for(const [path,p] of Object.entries(lock.packages))if(path){assert.ok(p.integrity,`Missing lock integrity: ${path}`);assert.match(p.resolved,/^https:\/\/registry\.npmjs\.org\//)}
 console.log('Workflow policy assertions, verified action pins, and exact Wrangler lockfile checks passed. These are local structural checks, not a GitHub Actions execution.');
+
+assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock.packages['node_modules/@playwright/test'].version,'1.64.1');assert.match(check,/npx --no-install playwright install --with-deps chromium/);assert.match(check,/npm run test:browser/);
+
+assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);
+
+assert.match(check,/fc-list :lang=zh/);assert.match(check,/fonts-wqy-zenhei/);

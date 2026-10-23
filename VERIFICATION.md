@@ -1,25 +1,34 @@
-# Verification scope — 2026-10-23
+# 全年版本验收记录（2026-10-23）
 
-## Passed locally
+## 本地已通过
+- JavaScript语法、365项数据完整性、7学科覆盖、原版30标题身份、全部365稳定ID映射。
+- 4年龄 × 4步骤 × 365项 = 5,840次SVG渲染，检查可访问标题描述和非法输出；这是渲染覆盖数，不是5,840张独立绘画。
+- 8项旧高龄记录字段的精确标签保留契约、各年龄图中记录标签，以及DST/闰日/无效日期辅助函数。
+- 24个部署防护测试、只读无密钥PR检查、固定依赖/action版本、5个静态发布文件及其SHA256清单。
+- Wrangler 4.151.3 dry-run成功，无新增数据库绑定；未修改现有域名或认证配置。
+- 7学科 × 4年龄的真实活动SVG代表样本已栅格化检查。新增图示复用经适配的结构与操作流程，不声称每项均为独立装置插画。
 
-- JavaScript syntax checks for app, diagram module and deployment guard.
-- Content integrity: 30 experiments, 4 age modes, 480 SVG render cases, 140 normalized artwork outputs and 18 activity-source links.
-- All five static files remain identical to the reviewed snapshot, 483145 bytes in total.
-- 24 deployment guard cases: approved push/manual-main; unset optional switch; explicit false and invalid switches; disabled source policy; rejected PR/privileged events, non-main/tag/fork, wrong account/Worker, missing target/commit and unexpected D1 binding.
-- Workflow assertions: contents-read, no PR secrets, exact official action revisions, checked-source policy output, optional fail-closed repository kill switch, main-only deployment after successful checks, environment/concurrency, locked Wrangler 4.151.3.
-- YAML parsing and source-policy output validation.
+## 浏览器与上线验收
+桌面Chromium及Pixel 7视口的自动化测试已配置，包括导航、分龄执行条件、安全门、旧记录归档、清除、损坏存储、365/366边界、对话框Back/Forward、打印安全与Dots快照。**GitHub Actions实际浏览器结果与截图验收已完成，见文末；公开域名发布后的验收仍需单独记录。** 本地执行容器不允许启动浏览器，未绕过该限制。
 
-## Verified GitHub-hosted checks before enablement
+CI只保留合成界面PNG用于目视审查，7天到期；不上传真实用户记录、浏览器状态、环境文件或trace。
 
-[Run 39898361852](https://github.com/gradient30/laboratory/actions/runs/39898361852) checked commit `c1761c407014fdb38bf1f1c35705c45517f51770`: dependency installation, syntax, tests and Wrangler dry-run succeeded; deployment was skipped. This proves the previous check-only workflow, not a live Cloudflare deployment.
+## 内容与隐私边界
+见 `docs/annual-review.md` 与各学科来源记录。资料核查非真人专家认证、法律合规批准或家庭实测。应用无登录与跨设备同步，记录仅存在当前域名、当前浏览器；不同域名的localStorage互不共享。Dots看板仅为允许公开字段的静态执行容器快照。
 
-## Authorized enablement
+## 首轮真实浏览器结果与修正
+候选 d906e96 的 GitHub run 39941357842 中，桌面16项和移动14项通过；移动Dots访问因原移动样式隐藏导航而超时，随后15分钟作业预算耗尽，最后一项未完成。已修正为移动端可见的第二行主导航，不删除或弱化测试。已生成56张真实候选内容界面截图。上述失败不能作为发布通过。
 
-The owner expressly authorized main automatic publication and the first deployment on 2026-10-23. The source policy remains the required enablement gate. The optional repository variable may stop deployment: unset or `true` permits an enabled source policy, while `false` and other nonempty values block. Source-policy changes are staged last; no secrets are needed by the check job.
+首轮Ubuntu依赖18.7MB下载耗时11分39秒，而浏览器下载正常。后续CI优先验证官方ubuntu-24.04镜像预装Chrome的实际路径、版本和Playwright真实启动，再使用官方支持的chrome channel；若未安装则仍安装锁定Playwright所需Chromium，不跳过浏览器测试。检查作业上限25分钟，部署密钥与发布条件不变。
 
-## Evidence still required for a deployment result
+候选20a30eb在run39943427354真实通过32项浏览器测试（2.2分钟），Chrome155.0.8059.39启动已核实；但截图目视检查发现CI镜像缺少中文字形，不能据DOM通过宣称视觉验收通过。后续加入条件式中文字体检查；仅在无中文字体时从Ubuntu官方包源安装fonts-wqy-zenhei，再重跑全部测试与截图。
 
-- Successful deploy job for the exact final commit, actual Cloudflare version and URL.
-- Browser checks of that deployed URL; a dry-run is not browser QA.
-- Token scope correctness is not established by local tests. Do not broaden scope or select another account to work around an authorization failure.
-- These checks are not a complete audit of Actions or npm transitive dependencies.
+## 最终候选工程与视觉验收
+2026-10-23，候选 `188d04107138b69105b1f7b4bf857784443be3bb` 的 [GitHub Actions run 39944019156](https://github.com/gradient30/laboratory/actions/runs/39944019156) 检查成功，PR发布步骤按设计跳过。
+- 实际Google Chrome155.0.8059.39由锁定Playwright启动验证；32项桌面/移动浏览器测试全部通过，耗时2.4分钟。
+- 数据、5,840次SVG渲染、24部署防护、清单校验及Wrangler dry-run均通过。
+- 中文字体条件检查通过，仅补装7,472kB字体包；没有加入网站外部字体请求。
+- 60张合成界面截图来自真实365项候选数据：7学科×4年龄×2视口，共56张；另4张Dots概览/资源视图。已目视检查七学科桌面/移动联系表、所有四年龄移动代表样本及Dots资源说明，中文清晰、未见样本关键内容遮挡。截图不是所有页面与所有设备的无障碍或视觉认证。
+- 当前原版记录保留、8项高龄旧字段归档、清除归档、损坏存储恢复、移动Dots入口与Back/Forward均包含实际通过的测试。
+
+该记录是发布前候选验收，不把PR成功当作Cloudflare生产发布成功。公开域名发布后的同源旧记录保留、实际内容和安全引导仍须在发布后复核。后续仅文档变更仍需通过对应提交CI。

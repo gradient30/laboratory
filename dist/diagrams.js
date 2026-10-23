@@ -320,4 +320,167 @@ export function renderDiagram(dayId,stepIndex=0,ageBand='7-9'){
   const caption=wrapped.map((t,i)=>txt(320,wrapped.length>1?326+i*25:339,t,22,C.ink,'middle',700)).join('');
   return `<svg xmlns="http://www.w3.org/2000/svg" class="science-diagram" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="${id}-title ${id}-desc" style="display:block;max-width:100%;height:auto;font-family:system-ui,-apple-system,'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><title id="${id}-title">第${day}天，第${s+1}步：${esc(DIAGRAM_TITLES[day-1])}</title><desc id="${id}-desc">${esc(label)}。${esc(scene.note||'图中现象仅为示意，记录实际观察。')}成人陪同，实验材料不入口。${young?'低龄版：大图示、简短动作提示。':advanced?'进阶版：注意对照、变量和实际记录。':'观察版：按顺序操作并记录。'}</desc>${rect(0,0,640,360,C.cream,0,'none',0)}${txt(25,36,DIAGRAM_TITLES[day-1]+' · 示意',23,C.ink,'start',750)}${txt(610,36,`${s+1} / 4`,22,C.teal,'end')}${line(24,58,616,58,'#DDE5D9',1.5)}${scene.art}${rect(0,307,640,53,'#E9EFE4',0,'none',0)}${caption}</svg>`;
 }
-export const diagramCoverage={days:30,stepsPerDay:4,ageBands:['4-6','7-9','10-12','13-16'],type:'experiment-specific procedural SVG',motion:false};
+export const diagramCoverage={days:365,legacyBespokeDays:30,stepsPerDay:4,ageBands:['4-6','7-9','10-12','13-16'],type:'legacy apparatus drawings plus activity-labelled procedural schematics; render combinations are not unique artwork counts',motion:false};
+
+// Annual activities use semantic operation maps. Labels come from the reviewed card;
+// no generated values are presented as observed measurements or historical facts.
+function wrappedText(text,x,y,width=20,size=17,color=C.ink,anchor='middle',maxLines=3){
+ const chars=Array.from(String(text||'')),lines=[];for(let i=0;i<chars.length;i+=width)lines.push(chars.slice(i,i+width).join(''));
+ return lines.slice(0,maxLines).map((t,i)=>txt(x,y+i*(size+6),t+(i===maxLines-1&&lines.length>maxLines?'…':''),size,color,anchor)).join('');
+}
+function materialGlyph(name,x,y){
+ const t=String(name);let z='';
+ if(/纸|卡|照片|记录|史料/.test(t))z=rect(x-24,y-29,48,58,C.paper,4,C.teal,2)+line(x-14,y-12,x+14,y-12,C.teal,2)+line(x-14,y,x+9,y,C.teal,2)+line(x-14,y+12,x+14,y+12,C.teal,2);
+ else if(/尺/.test(t)){z=rect(x-34,y-12,68,24,C.yellow,2,C.teal,2);for(let i=0;i<7;i++)z+=line(x-27+i*9,y-11,x-27+i*9,y-(i%2?3:0),C.teal,1.4)}
+ else if(/叶|植物|花/.test(t))z=leaf(x,y+25,.8,25);
+ else if(/钟|计时/.test(t))z=circle(x,y,26,C.paper,C.teal,2)+line(x,y,x,y-17,C.teal,2)+line(x,y,x+13,y+9,C.teal,2);
+ else if(/杯|水|液|醋|油/.test(t))z=cup(x-25,y-25,50,49,{level:.4,label:''});
+ else if(/笔/.test(t))z=poly(`${x-20},${y+25} ${x-15},${y+8} ${x+14},${y-25} ${x+25},${y-14} ${x-6},${y+20}`,C.yellow,C.teal,2);
+ else if(/书/.test(t))z=book(x-30,y-21,60,42,C.mint)+line(x,y-18,x,y+19,C.paper,2);
+ else z=rect(x-27,y-23,54,46,C.mint,9,C.teal,2)+txt(x,y+7,'观察',15,C.teal);
+ return z;
+}
+function operationScene(e,s,items){
+ let art=txt(320,91,s===1?'摆好对象，按步骤安排':'执行指定动作，留意发生什么',20,C.teal);
+ const names=items.slice(0,2);names.forEach((name,i)=>{const y=130+i*84;art+=materialGlyph(name,95,y+10)+wrappedText(name,162,y,10,15,C.ink,'start',3)});
+ art+=arrow(300,185,337,185,C.coral,3)+rect(351,107,237,182,C.paper,12,C.teal,2)+txt(370,136,`第 ${s+1} 步`,17,C.teal,'start')+wrappedText(e.steps[s].shortText,370,165,11,17,C.ink,'start',5);
+ return {art,label:e.visual?.labels?.[s]||e.steps[s].title,note:'材料小图标用于识别对象；箭头表示操作顺序，不表示物理因果。正文包含完整要求。'};
+}
+function specificAnnualScene(e,s){
+ if(s!==1&&s!==2)return null;
+ let art='',note='位置与形状为示意，按实际对象核对。';
+ if(e.title==='纸柱的截面挑战'){
+  art=rect(65,253,510,23,C.mint,8,C.teal,2)+path('M145 125 L220 105 L251 135 V245 L145 235 Z',C.paper,C.teal,3)+path('M145 125 L251 135 L220 105 M220 105 V215 L251 245', 'none',C.teal,2)+rect(375,128,103,115,C.paper,0,C.teal,3)+ellipse(426,128,51,16,C.paper,C.teal,3)+path('M375 242 Q426 265 478 242','none',C.teal,3)+txt(196,297,'三角筒 · 同高10厘米',16)+txt(426,297,'圆筒 · 同高10厘米',16);
+  if(s===2)art+=rect(163,85,69,25,C.yellow,4,C.teal,2)+rect(392,85,69,25,C.yellow,4,C.teal,2)+arrow(197,61,197,82)+arrow(426,61,426,82);
+  note=s===1?'先在托盘上检查能否站稳；示意接缝不代表制作尺寸。':'成人依次用同一块大橡皮；图中并排呈现两个测试状态。凹陷即取下。';
+ }else if(e.title==='糖块完整还是压碎'){
+  art=txt(177,96,'完整方糖',20)+txt(463,96,'同规格方糖压碎',20);
+  [177,463].forEach(x=>{art+=path(`M${x-75} 118 L${x-63} 265 H${x+63} L${x+75} 118`,C.paper,C.teal,3)+path(`M${x-68} 171 H${x+68} L${x+63} 262 H${x-63} Z`,C.mint,'none')+txt(x,294,'50毫升常温水',18)});
+  art+=rect(158,229,38,30,C.yellow,4,C.teal,2);[[439,244],[459,251],[478,240],[449,228],[478,257]].forEach(([x,y])=>{art+=rect(x,y,12,10,C.yellow,2,C.teal,1)});
+  note=s===1?'同时加入，不搅动。两幅表示初始物料形态，不是预设最终结果。':'每30秒观察，最多5分钟。图中残留仅示意，记录自己的实际变化。';
+ }else if(e.title==='袜子一一配对'){
+  [0,1,2].forEach(i=>{const y=120+i*61;art+=path(`M130 ${y-19} H157 V${y+8} H180 V${y+27} H130 Z`,C.mint,C.teal,2)+path(`M450 ${y-19} H477 V${y+8} H500 V${y+27} H450 Z`,C.yellow,C.teal,2)+line(199,y+5,427,y+5,C.teal,2,s===2?'5 5':null)});
+  art+=txt(153,83,'左组：3只',19)+txt(473,83,'右组：3只',19);note=s===1?'一只只对应，不重复配。连线是对应关系，不需要真实绳线。':'改变摆放距离再配对，检查是否出现落单；图示不是数量证明。';
+ }else if(e.title==='两本印本的年代线'){
+  art=rect(65,97,235,159,C.paper,10,C.teal,2)+rect(340,97,235,159,C.paper,10,C.teal,2)+txt(182,129,'《金刚经》印本',20)+txt(182,169,'868年',25)+txt(182,210,'敦煌发现 · 中国',18)+txt(457,129,'古腾堡《圣经》印本',19)+txt(457,169,'1454—1455年',23)+txt(457,210,'欧洲 · 美因茨',18)+arrow(287,278,365,278,C.teal,3)+txt(182,283,'较早',18)+txt(457,283,'较晚',18);note='两件具体印本的时间先后，不代表所有印刷术的起源；间距不是年代比例。';
+ }else if(e.title==='家里的“一杯”有多大'){
+  art=path('M86 120 L100 263 H212 L226 120',C.paper,C.teal,3)+line(96,192,217,192,C.coral,3,'6 4')+txt(156,94,'第一只杯',20)+txt(156,291,'外侧半高标记',18)+arrow(251,191,333,191,C.teal,3)+path('M380 105 V264 H514 V105',C.paper,C.teal,3)+txt(447,84,'量杯',20);
+  [140,175,210,245].forEach(y=>{art+=line(380,y,405,y,C.teal,2)});art+=txt(447,291,'平视读数，不预填',18);note='先加水到标记，再倒入量杯；每只最多100毫升，未到标记就停止。第二只同样做。';
+ }else if(e.title==='桌面也能变成地图'){
+  art=rect(82,87,476,205,'#EAE9D8',16,C.teal,2)+rect(117,115,114,64,C.mint,5,C.teal,2)+rect(304,113,77,121,C.coral,5,C.teal,2)+rect(416,199,110,54,C.yellow,5,C.teal,2)+txt(173,153,'A',25)+txt(343,180,'B',25)+txt(470,234,'C',25)+txt(320,278,s===1?'想象正上方的外形，不攀爬':'三个长方形代表三本书',18,C.teal);
+  note='这是三本书的一种示意摆法；自己的地图要对应实际桌面，孩子坐着观察。';
+ }else if(e.title==='路线长还是直线长'){
+  art=rect(71,86,498,210,C.paper,9,C.teal,2)+rect(283,139,100,101,C.mint,4,C.teal,2)+txt(333,194,'障碍',20)+circle(124,252,7,C.coral)+circle(514,115,7,C.teal)+txt(110,278,'A',20)+txt(530,111,'B',20)+line(124,252,514,115,s===1?C.coral:C.muted,s===1?4:2,'7 5')+path('M124 252 H249 V107 H514 V115','none',s===2?C.coral:C.teal,s===2?4:2)+txt(410,276,s===1?'测直线段 A—B':'各段长度相加',19,C.teal);
+  note='路线图不按真实比例。虚线为纸上直线距离，不表示可以穿过真实障碍。';
+ }else if(e.title==='植物观察的比例尺'){
+  art=rect(74,91,220,196,C.paper,8,C.teal,2)+rect(347,91,220,196,C.paper,8,C.teal,2)+line(184,237,184,171,C.teal,4)+leaf(184,211,.5,-45)+leaf(184,192,.5,45)+line(457,237,457,120,C.teal,5)+leaf(457,197,.8,-45)+leaf(457,160,.8,45)+txt(184,264,'标注实际：10厘米',18)+txt(457,264,'标注实际：10厘米',18)+txt(184,119,'图一',19)+txt(457,119,'图二',19);
+  note='两张图的画幅不同，但设定实际高度相同；图上长度不能直接当植物真实高度。';
+ }else if(e.title==='叶缘侦探：平滑还是锯齿'){
+  art=path('M172 263 C94 220 95 126 172 102 C249 126 250 220 172 263',C.mint,C.teal,3)+path('M462 263 L431 240 425 219 407 208 418 183 408 165 429 151 425 135 451 119 462 102 475 119 498 135 494 151 515 165 505 183 516 208 498 219 492 240 Z',C.mint,C.teal,3)+line(172,263,172,123,C.teal,2)+line(462,263,462,123,C.teal,2)+txt(172,293,'平滑边缘 · 示意',18)+txt(462,293,'锯齿边缘 · 示意',18);
+  note='这是两种叶缘形状示意，不是预先给白菜或薄荷作分类；按真实叶片观察。';
+ }else if(e.title==='叶脉像网还是平行线'){
+  art=path('M173 263 C95 220 100 125 173 102 C249 125 250 220 173 263',C.mint,C.teal,3)+line(173,254,173,117,C.teal,3)+path('M173 143 L138 167 M173 177 L128 202 M173 211 L146 233 M173 152 L207 175 M173 188 L221 211 M139 166 L129 184 M207 175 L214 191','none',C.teal,2)+path('M461 263 Q405 179 461 102 Q517 179 461 263',C.mint,C.teal,3)+path('M461 259 V109 M451 244 Q429 183 452 122 M471 244 Q493 183 470 122','none',C.teal,2)+txt(173,293,'网状脉 · 示意',18)+txt(461,293,'平行脉 · 示意',18);
+  note='示意帮助描述叶脉，不仅凭叶脉就断言植物种类。';
+ }else if(e.title==='地球模型的比例审查'){
+  art=txt(320,89,'练习图：故意不按真实比例',21,C.coral)+circle(141,180,75,C.yellow,C.teal,2)+circle(441,180,15,C.mint,C.teal,2)+txt(141,183,'太阳',22)+txt(441,221,'地球',20)+txt(141,275,'画直径5厘米',17)+txt(441,275,'画直径1厘米',17)+dim(141,110,441,110,'画图圆心距离10厘米');
+  note='这是步骤指定的故意不按真实比例的练习图，不能从图中测出真实太阳、地球大小或距离。';
+ }else if(e.title==='同一杯水为何读出不同数'){
+  art=cup(274,100,140,157,{level:.55,label:''})+line(278,172,410,172,C.teal,2)+eye(140,113)+eye(140,172)+eye(140,234)+line(163,113,277,172,C.muted,2,'5 5')+line(163,172,277,172,C.coral,3)+line(163,234,277,172,C.muted,2,'5 5')+txt(491,121,'稍上方',18)+txt(491,180,'液面高度',18,C.coral)+txt(491,242,'稍下方',18)+txt(320,291,'杯子不动，改变观察高度',19,C.teal);
+  note='眼睛位置仅为示意，不要求攀爬或钻桌底；实际读法遵循量杯说明，不预设三次数值不同。';
+ }else if(e.title==='称重时盒子的重量去哪了'){
+  art=rect(91,208,188,62,C.mint,11,C.teal,2)+rect(127,229,115,28,C.paper,4,C.teal,1)+txt(184,250,s===1?'总质量':'去皮后读数',16)+rect(109,125,151,81,C.paper,6,C.teal,2)+rect(132,106,104,46,C.yellow,4,C.teal,2)+txt(184,177,'盒＋纸',19)+txt(447,142,'总质量',23)+txt(447,184,'－ 空盒质量',23)+line(348,201,546,201,C.teal,2)+txt(447,237,'＝ 纸的质量',23)+txt(320,295,'记录实际读数，不超过秤量程',18,C.muted);
+  note='秤屏显示的是字段名，不是测量值。去皮和放置由成人按秤说明操作。';
+ }else if(e.title==='尺子没从零开始怎么办'){
+  art=rect(82,202,479,42,C.yellow,3,C.teal,2)+rect(181,135,283,57,C.mint,3,C.teal,2)+line(181,126,181,254,C.coral,2,'5 5')+line(464,126,464,254,C.coral,2,'5 5')+txt(181,280,'起点：3厘米',20)+txt(464,280,'终点：实际读数',20)+txt(323,171,'同一条纸，保持平行',18)+txt(320,95,s===1?'平移纸条，不改变它的长度':'长度＝终点读数－起点读数',21,C.teal);
+  for(let i=0;i<25;i++)art+=line(91+i*19,203,91+i*19,i%5?216:226,C.teal,1);
+  note='纸条长度和刻度间距为示意；起点3厘米来自步骤，终点由实际测量填写。';
+ }else if(e.title==='不靠颜色也能认出分类'){
+  art=rect(72,109,215,150,C.paper,12,C.teal,2)+rect(354,109,215,150,C.paper,12,C.teal,2)+rect(92,127,175,27,C.mint,3,C.teal,1)+rect(374,127,175,27,C.coral,3,C.teal,1);
+  if(s===1)art+=rect(87,122,185,38,C.paper,2,C.muted,1)+rect(369,122,185,38,C.paper,2,C.muted,1)+txt(180,219,'？',39)+txt(462,219,'？',39);
+  else art+=poly('125,217 149,174 173,217',C.paper,C.ink,3)+txt(220,205,'待整理',18)+circle(408,199,23,C.paper,C.ink,3)+txt(501,205,'已整理',18);
+  art+=txt(320,294,s===1?'盖住颜色后，还能判断吗？':'加入文字＋形状，不只靠颜色',19,C.teal);note='这些是活动约定的标签，不是通用安全标志；不蒙眼或模拟残障。';
+ }else if(e.title==='先放入的纸卡先取出'){
+  if(s===1){['A1','A2','A3','B1','B2','B3'].forEach((t,i)=>{art+=rect(179+i*8,243-i*24,207,36,i<3?C.mint:C.yellow,4,C.teal,2)+txt(199+i*8,267-i*24,t,17,C.ink,'start')});art+=arrow(464,88,391,125)+txt(485,80,'从上面取',18)+txt(320,297,'A先放入，B后放入',18,C.teal)}else{['A1','A2','A3','B1','B2','B3'].forEach((t,i)=>art+=rect(64+i*87,145,76,69,i<3?C.mint:C.yellow,5,C.teal,2)+txt(102+i*87,188,t,23));art+=arrow(76,238,76,277)+txt(122,279,'前端取',18)+arrow(565,96,565,134)+txt(513,90,'后端放入',18)+txt(320,272,'卡片是流程模型，不用食物',17,C.muted)}
+  note='箭头表示放入和取用方向；先观察实际次序，不把模型直接当食品储存建议。';
+ }else if(e.title==='纸盒展开后占地方吗'){
+  art=poly('107,161 217,121 286,162 176,205',C.paper,C.teal,2)+poly('107,161 176,205 176,263 107,220',C.mint,C.teal,2)+poly('176,205 286,162 286,220 176,263',C.yellow,C.teal,2)+arrow(303,191,350,191)+rect(381,135,192,113,C.paper,3,C.teal,2)+line(429,135,429,248,C.muted,1,'5 4')+line(477,135,477,248,C.muted,1,'5 4')+line(525,135,525,248,C.muted,1,'5 4')+txt(190,294,'立体状态',19)+txt(477,294,'沿原折线折平',19);
+  note='形状仅示意；折平可能增加桌面占地，不预设所有收纳指标都会减少。成人操作，不使用刀具。';
+ }else return null;
+ return{art,label:e.visual?.labels?.[s]||e.steps[s].title,note};
+}
+function annualScene(e,s,ageBand){
+ const young=ageBand==='4-6';
+ const specific=specificAnnualScene(e,s);if(specific)return specific;
+ const v=e.visual||{},kind=v.kind||'flow',labels=v.labels||e.steps.map(x=>x.title),items=v.items?.length?v.items:e.materials.slice(0,3);
+ const short=(i,fallback)=>items[i]||fallback;
+ let art='',note='图示表示操作关系，不预设观察结果。';
+ const text=e.title+' '+e.steps[s].shortText;
+ if((s===1||s===2)&&(['structure','pattern','flow','timeline'].includes(kind)||(['compare','evidence','sort'].includes(kind)&&!v.items?.length)||(kind==='map'&&!/路线|方格|平面图|地图/.test(text))||(kind==='light'&&!/影子|遮挡/.test(text))||(kind==='water'&&!/两杯|两个杯|两只杯|两杯水/.test(e.steps.map(x=>x.detail).join(' ')))||(kind==='measure'&&!/长度|距离|周长|宽度|高度|边长|尺/.test(text))||(kind==='plant'&&!/两株|两盆/.test(e.steps.map(x=>x.detail).join(' ')))))return operationScene(e,s,items);
+ const panel=(x,y,w,h,label,fill=C.paper)=>rect(x,y,w,h,fill,12,C.teal,2)+wrappedText(label,x+w/2,y+30,Math.floor(w/18),17);
+ if(s===0){
+  art=txt(320,93,'先确认对象与材料',20,C.teal);
+  const count=Math.min(3,items.length),w=150,gap=28,start=(640-count*w-(count-1)*gap)/2;
+  for(let i=0;i<count;i++)art+=panel(start+i*(w+gap),118,w,134,short(i,'观察对象'))+materialGlyph(short(i,'观察对象'),start+i*(w+gap)+w/2,219);
+  art+=txt(320,285,young?'成人准备，我指认与选择':'核对材料、条件与安全，再开始',18,C.muted);
+ }else if(s===3){
+  art=rect(83,88,474,198,C.paper,10,C.teal,2)+txt(115,118,'我的真实记录',20,C.teal,'start')+txt(520,118,'不预填答案',16,C.muted,'end');
+  const fields=(e.ageGuides?.[ageBand]?.recordFields||['观察或证据','条件或来源','还不确定']).slice(0,4);
+  fields.forEach((f,i)=>{const gap=fields.length>3?35:44;art+=line(104,138+i*gap,536,138+i*gap,C.mint,1)+wrappedText(f,113,155+i*gap,17,13,C.ink,'start',2)+line(367,159+i*gap,519,159+i*gap,C.muted,1,'4 5')});
+  note='横线留给自己的观察、计算或证据，不是标准答案。';
+ }else if(kind==='timeline'){
+  art=txt(320,98,'按证据排列，不凭想象补日期',20,C.teal)+line(85,219,555,219,C.teal,4)+arrow(528,219,555,219,C.teal,4);
+  [145,320,495].forEach((x,i)=>{art+=circle(x,219,10,s===2&&i===1?C.coral:C.mint)+line(x,209,x,180,C.teal,2)+panel(x-65,117,130,62,short(i,['证据甲','证据乙','证据丙'][i]))+txt(x,260,'先核对日期',16,C.muted)});
+  note='位置表示排列方式，不代表真实年代比例。';
+ }else if(kind==='map'){
+  art=rect(84,90,472,195,C.paper,8,C.teal,2);
+  for(let i=1;i<6;i++)art+=line(84+i*78,90,84+i*78,285,C.mint,1);
+  for(let i=1;i<4;i++)art+=line(84,90+i*48,556,90+i*48,C.mint,1);
+  art+=rect(133,129,374,117,C.paper,12,C.teal,2)+wrappedText(e.steps[s].shortText,320,161,19,18,C.ink,'middle',4);
+  note='方格只提供绘图参照；不代表实际地图、方向、比例或路线。';
+ }else if(kind==='evidence'){
+  art=panel(66,105,210,130,short(0,'证据或来源甲'))+panel(364,105,210,130,short(1,'证据或来源乙'))+materialGlyph('史料',171,193)+materialGlyph('史料',469,193)+arrow(282,170,355,170,C.muted,2)+txt(320,269,s===1?'分别查看：谁、何时、为什么留下？':'对照：一致处、差异处、缺少什么？',19,C.teal);
+  note='并排是对照，不表示两项来源同样可靠。';
+ }else if(kind==='pattern'){
+  art=txt(320,99,s===1?'按题目摆出关系':'改变一处，再检查规律',21,C.teal);
+  const colors=[C.mint,C.coral,C.mint,C.coral];
+  for(let i=0;i<4;i++)art+=rect(82+i*121,130,103,90,colors[i],12,C.teal,2)+txt(133+i*121,185,i%2?'B':'A',30,C.ink,'middle',700);
+  art+=wrappedText(short(0,'纸片、图形或数的关系'),320,258,27,20)+txt(320,288,'A / B 表示关系占位，请按正文替换',15,C.muted);
+  note='AB图是关系示意，不是所有题目的答案。';
+ }else if(kind==='plant'){
+  art=panel(64,92,214,185,short(0,'观察对象'))+panel(362,92,214,185,short(1,'参照对象'));
+  [171,469].forEach(x=>{art+=line(x,242,x,181,C.teal,4)+leaf(x,222,.7,-48)+leaf(x,203,.7,44)+path(`M${x-40} 245 h80 l-10 22 h-60z`,C.coral,C.teal,2)});
+  art+=txt(320,297,s===1?'先画下起点，不伤害生命':'保持观察位置与方法一致',17,C.teal);
+  note='叶形和数量仅为观察对象图标，不表示生长结果。';
+ }else if(kind==='water'){
+  art=cup(96,131,154,112,{level:.47,label:'对象 A'})+cup(389,131,154,112,{level:.47,label:'对象 B'})+wrappedText(short(0,'按正文准备'),173,98,13,17)+wrappedText(short(1,'按正文准备'),466,98,13,17)+txt(320,285,s===1?'按步骤确认用量、温度与容器':'只做正文指定动作，不另加材料',18,C.teal);
+  if(s===2)art+=arrow(278,182,361,182,C.muted,2)+txt(320,165,'比较',16,C.muted);
+  note='水位是容器图标，不代表精确用量；只按正文使用材料。';
+ }else if(kind==='light'){
+  art=rect(69,138,100,83,C.yellow,12,C.teal,2)+txt(119,186,'光源',22)+rect(312,111,24,142,C.teal,3,C.teal,1)+rect(471,101,83,171,C.paper,4,C.teal,2)+txt(512,294,'观察面',18)+line(176,159,308,159,C.yellow,5)+line(176,201,308,201,C.yellow,5)+arrow(350,181,453,181,C.muted,2)+txt(320,93,s===1?'摆好位置与参照':'改变正文指定条件',20,C.teal);
+  note='仅示意光源、物体与观察面；不得直视太阳、激光或强光。';
+ }else if(kind==='measure'){
+  art=panel(88,91,464,84,short(0,'待测对象'))+rect(98,194,444,40,C.yellow,3,C.teal,2);
+  for(let i=0;i<23;i++)art+=line(108+i*19,195,108+i*19,i%5===0?220:210,C.teal,1.5);
+  art+=arrow(109,254,530,254,C.teal,2)+txt(320,284,s===1?'对齐参照，确认单位':'重复读数，记录实际值和误差',18,C.teal);
+  note='尺子无刻度数值，不表示实际测量值或单位。';
+ }else if(kind==='structure'){
+  art=book(90,218,130,45,C.mint)+book(420,218,130,45,C.mint)+path('M130 204 L320 121 L510 204','none',C.teal,7)+line(130,204,510,204,C.teal,4)+line(320,121,320,204,C.teal,4)+txt(320,96,'形状与支撑关系示意',20,C.teal)+txt(320,294,s===1?'先确认连接和稳定，再比较':'保持低矮；变形、滑动立即停',17,C.muted);
+  note='三角框表示结构思考，不代替正文的装置形状或承载限制。';
+ }else if(kind==='sort'){
+  art=panel(61,102,223,164,short(0,'类别或对象 A'))+panel(356,102,223,164,short(1,'类别或对象 B'));
+  art+=materialGlyph(short(0,'观察对象'),171,211)+materialGlyph(short(1,'观察对象'),469,211);
+  art+=txt(320,294,s===1?'先说清分类规则':'检查同一规则能否一致使用',18,C.teal);
+  note='小图标提示分类对象，不代表实际对象数量或分类结果。';
+ }else if(kind==='compare'){
+  art=panel(67,107,213,147,short(0,'条件 A'))+panel(360,107,213,147,short(1,'条件 B'))+materialGlyph(short(0,'观察对象'),173,207)+materialGlyph(short(1,'观察对象'),466,207)+arrow(287,180,352,180,C.muted,2)+txt(320,94,s===1?'哪些保持一样？只改变什么？':'用同一方法观察或比较',20,C.teal)+txt(320,290,'对照不是预先规定谁赢',18,C.muted);
+ }else{
+  art=panel(55,129,150,109,short(0,'准备对象'))+arrow(213,182,243,182)+panel(247,129,150,109,s===1?'按正文安排':'执行本步动作')+arrow(405,182,435,182)+panel(439,129,150,109,short(1,'核对变化'))+txt(320,98,'按顺序操作，再检查证据',21,C.teal)+txt(320,286,'箭头只表示步骤，不自动表示因果',17,C.muted);
+ }
+ return {art,label:labels[s]||e.steps[s].title,note};
+}
+export function renderActivityDiagram(activity,stepIndex=0,ageBand='7-9'){
+ const e=activity,s=Math.min(3,Math.max(0,Math.floor(Number(stepIndex)||0)));
+ if(e.id<=30)return renderDiagram(e.id,s,ageBand);
+ const young=ageBand==='4-6',scene=annualScene(e,s,ageBand),id=`science-diagram-${e.id}-${s}-${++diagramSerial}`;
+ return `<svg xmlns="http://www.w3.org/2000/svg" class="science-diagram" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="${id}-title ${id}-desc" style="display:block;max-width:100%;height:auto;font-family:system-ui,-apple-system,'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><title id="${id}-title">第${e.day}天，第${s+1}步：${esc(e.title)}</title><desc id="${id}-desc">${esc(e.steps[s].detail)} ${esc(scene.note)} ${esc(e.ageGuides[ageBand].steps[s].caption)}</desc>${rect(0,0,640,360,C.cream,0,'none',0)}${wrappedText(e.title+' · 操作关系图',25,35,25,21,C.ink,'start',1)}${txt(610,36,`${s+1} / 4`,22,C.teal,'end')}${line(24,58,616,58,'#DDE5D9',1.5)}${scene.art}${rect(0,307,640,53,'#E9EFE4',0,'none',0)}${wrappedText(scene.label,320,338,29,21,C.ink,'middle',1)}</svg>`;
+}
