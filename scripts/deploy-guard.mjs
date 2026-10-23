@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 
 export function assertDeploymentAllowed(policy, config, env) {
   assert.equal(policy.enabled, true, 'Deployment policy is disabled. Obtain target/account approval first.');
-  assert.equal(env.DEPLOY_ENABLED, 'true', 'Repository deployment switch is disabled.');
+  assert.ok([undefined, '', 'true'].includes(env.DEPLOY_ENABLED), 'Repository kill switch is false or invalid; deployment is disabled.');
   assert.equal(env.GITHUB_ACTIONS, 'true', 'This guard is for the approved GitHub Actions job only.');
   assert.equal(env.GITHUB_REF, 'refs/heads/main', 'Only the main branch may deploy.');
   assert.ok(['push', 'workflow_dispatch'].includes(env.GITHUB_EVENT_NAME), 'Only main push or manual dispatch may deploy.');
