@@ -39,19 +39,19 @@ npm run deploy:dry-run
 
 ## 第一次启用前：先确定目标，再放入凭据
 
-仓库已选定为 `gradient30/laboratory`；**Cloudflare目标账户尚未填写，发布仍关闭。**
+仓库 `gradient30/laboratory`、Cloudflare目标账户及Worker名 `little-lab-30-q7r8` 已由所有者确认；**发布仍关闭。** 已确认的Account ID记录在公开的目标策略中，用于防止发错账户；它不是认证密钥，API Token绝不能写入源码。
 
-1. 确认 Cloudflare Account ID、Worker名 `little-lab-30-q7r8` 和公开访问范围。确认同名Worker不存在，或明确允许更新它。
+1. 在已确认的Cloudflare账户内，手动新建一个名为 `little-lab-30-q7r8` 的空白Worker。如果发现同名Worker已经存在，停止并报告，不直接覆盖。单Worker权限只能授予已经存在的Worker，因此先由所有者创建，再配置部署令牌。
 2. 保护 `main`：要求PR审核与检查通过；严格审查工作流、锁文件、部署脚本、Wrangler配置和资源哈希清单。限制仓库写入人员。
 3. 在GitHub建立 `cloudflare-production` Environment，限制允许部署的分支为main；若账户/仓库方案支持，配置Required reviewers。仅写上environment名称不会自动建立审批保护规则。
-4. 创建有限权限Cloudflare API token。此站没有数据库或自定义域名，先限定**选定账户的 Workers Scripts / Edit（API中称Write）**；不要使用Global API Key，也不要默认授予D1、KV、R2、DNS、Workers Routes或所有账户权限。如果实际部署明确报告缺少额外只读权限，先核对具体调用再单独审查，不盲目扩大令牌。
+4. 创建Cloudflare API token，资源限定为已确认账户中的**这一个Worker `little-lab-30-q7r8`**，角色选择 **Editor**。这个角色能部署已有Worker，但不能创建或删除Worker，所以不需要给CI管理员权限。不要使用Global API Key，也不要默认授予D1、KV、R2、DNS或其他Worker权限。如果令牌界面没有单Worker资源选择或Editor角色，停止并提供不含令牌的界面截图，不静默扩大权限。
 5. 把令牌直接保存为该Environment的GitHub Actions Secret：`CLOUDFLARE_API_TOKEN`。不要发到聊天、写进源码、README或日志。Account ID不是认证密钥，可保存为该Environment的Actions Variable：`ACCOUNT_ID`；工作流将其映射为 `CLOUDFLARE_ACCOUNT_ID`。
-6. 审核后在 `.github/deployment-policy.json` 填写相同的32位Account ID、确认Worker名称，并将 `enabled` 改为 `true`。以PR审核此项变更；仓库级开关此时仍应保持关闭。
-7. 最后设置**仓库级**Actions Variable `CLOUDFLARE_DEPLOY_ENABLED=true`。这个变量用于job是否启动，不能只设置为Environment级变量。首次建议手动选择main运行并检查日志。
+6. 现在保持 `.github/deployment-policy.json` 的 `enabled=false`，并让仓库级 `CLOUDFLARE_DEPLOY_ENABLED` 继续保持未设置。完成以上配置后，可回复“已配置，允许开启自动部署”；不要发送API Token。此项启用确认意味着允许该CI使用长期保存的部署凭据，在后续main更新并通过检查时自动公开发布。
+7. **启用阶段，当前不执行：**经单独确认后，先审核将源代码策略 `enabled` 改为 `true`，再由有权限的人员设置**仓库级**Actions Variable `CLOUDFLARE_DEPLOY_ENABLED=true`。这个变量用于job是否启动，不能只设置为Environment级变量。连接工具不一定支持写入设置，可能需要所有者手动设置。首次建议手动选择main运行并检查日志。
 
 两个启用条件缺一不可：仓库变量必须为字符串 `true`，源代码策略也必须为布尔值 `true`。策略还会校验实际仓库、main引用、事件类型、提交SHA、Account ID和Worker名；缺失或不匹配时，在调用Cloudflare之前退出。
 
-Account级Workers令牌可能能修改该账户下其他Worker；本项目的目标校验不是Cloudflare侧“单Worker令牌隔离”。因此仍需最小账户范围、保护Environment、限制仓库写入权限、合理有效期和定期轮换。
+不要把旧版 `Workers Scripts / Edit`（产品级Editor，范围可能涵盖账户内全部Worker）当作单Worker权限。本方案优先使用Cloudflare侧的指定Worker范围和Editor角色，代码中的目标校验只是第二道检查。仍需保护Environment、限制仓库写入权限、合理设置令牌有效期并定期轮换。
 
 ## 如何确认上线、暂停或回滚
 
@@ -72,6 +72,7 @@ Account级Workers令牌可能能修改该账户下其他Worker；本项目的目
 ## 官方依据与核验
 
 - [Cloudflare：GitHub Actions部署](https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/)
+- [Cloudflare：Worker级角色与资源范围](https://developers.cloudflare.com/workers/authorization/workers/)
 - [Cloudflare：API token权限](https://developers.cloudflare.com/fundamentals/api/reference/permissions/)
 - [GitHub：部署Environment和并发](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/control-deployments)
 - [GitHub：安全使用Actions](https://docs.github.com/en/actions/reference/security/secure-use)
