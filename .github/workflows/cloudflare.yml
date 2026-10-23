@@ -18,7 +18,7 @@ jobs:
   check:
     name: Static content and configuration checks
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     outputs:
       deployment_enabled: ${{ steps.policy.outputs.enabled }}
     concurrency:
@@ -40,6 +40,18 @@ jobs:
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
+      - name: Install pinned Playwright Chromium for local browser acceptance
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Verify desktop and mobile browser flows
+        run: npm run test:browser
+      - name: Retain synthetic interface screenshots for visual review
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: annual-interface-review
+          path: test-results/visual-review/*.png
+          retention-days: 7
+          if-no-files-found: ignore
       - name: Read the reviewed source deployment policy
         id: policy
         shell: bash

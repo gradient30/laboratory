@@ -9,9 +9,11 @@
     "check:syntax": "node --check dist/app.js && node --check dist/diagrams.js",
     "dev": "wrangler dev",
     "deploy:dry-run": "wrangler deploy --dry-run",
-    "manifest:update": "node scripts/update-manifest.mjs"
+    "manifest:update": "node scripts/update-manifest.mjs",
+    "test:browser": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "1.64.1",
     "wrangler": "4.151.3"
   },
   "engines": {

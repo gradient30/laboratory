@@ -1,25 +1,17 @@
-# Verification scope — 2026-10-23
+# 全年版本验收记录（2026-10-23）
 
-## Passed locally
+## 本地已通过
+- JavaScript语法、365项数据完整性、7学科覆盖、原版30标题身份、全部365稳定ID映射。
+- 4年龄 × 4步骤 × 365项 = 5,840次SVG渲染，检查可访问标题描述和非法输出；这是渲染覆盖数，不是5,840张独立绘画。
+- 8项旧高龄记录字段的精确标签保留契约、各年龄图中记录标签，以及DST/闰日/无效日期辅助函数。
+- 24个部署防护测试、只读无密钥PR检查、固定依赖/action版本、5个静态发布文件及其SHA256清单。
+- Wrangler 4.151.3 dry-run成功，无新增数据库绑定；未修改现有域名或认证配置。
+- 7学科 × 4年龄的真实活动SVG代表样本已栅格化检查。新增图示复用经适配的结构与操作流程，不声称每项均为独立装置插画。
 
-- JavaScript syntax checks for app, diagram module and deployment guard.
-- Content integrity: 30 experiments, 4 age modes, 480 SVG render cases, 140 normalized artwork outputs and 18 activity-source links.
-- All five static files remain identical to the reviewed snapshot, 483145 bytes in total.
-- 24 deployment guard cases: approved push/manual-main; unset optional switch; explicit false and invalid switches; disabled source policy; rejected PR/privileged events, non-main/tag/fork, wrong account/Worker, missing target/commit and unexpected D1 binding.
-- Workflow assertions: contents-read, no PR secrets, exact official action revisions, checked-source policy output, optional fail-closed repository kill switch, main-only deployment after successful checks, environment/concurrency, locked Wrangler 4.151.3.
-- YAML parsing and source-policy output validation.
+## 浏览器与上线验收
+桌面Chromium及Pixel 7视口的自动化测试已配置，包括导航、分龄执行条件、安全门、旧记录归档、清除、损坏存储、365/366边界、对话框Back/Forward、打印安全与Dots快照。**GitHub Actions实际结果及上线验收仍待记录，不能仅凭测试文件存在视为通过。** 本地执行容器不允许启动浏览器，未绕过该限制。
 
-## Verified GitHub-hosted checks before enablement
+CI只保留合成界面PNG用于目视审查，7天到期；不上传真实用户记录、浏览器状态、环境文件或trace。
 
-[Run 39898361852](https://github.com/gradient30/laboratory/actions/runs/39898361852) checked commit `c1761c407014fdb38bf1f1c35705c45517f51770`: dependency installation, syntax, tests and Wrangler dry-run succeeded; deployment was skipped. This proves the previous check-only workflow, not a live Cloudflare deployment.
-
-## Authorized enablement
-
-The owner expressly authorized main automatic publication and the first deployment on 2026-10-23. The source policy remains the required enablement gate. The optional repository variable may stop deployment: unset or `true` permits an enabled source policy, while `false` and other nonempty values block. Source-policy changes are staged last; no secrets are needed by the check job.
-
-## Evidence still required for a deployment result
-
-- Successful deploy job for the exact final commit, actual Cloudflare version and URL.
-- Browser checks of that deployed URL; a dry-run is not browser QA.
-- Token scope correctness is not established by local tests. Do not broaden scope or select another account to work around an authorization failure.
-- These checks are not a complete audit of Actions or npm transitive dependencies.
+## 内容与隐私边界
+见 `docs/annual-review.md` 与各学科来源记录。资料核查非真人专家认证、法律合规批准或家庭实测。应用无登录与跨设备同步，记录仅存在当前域名、当前浏览器；不同域名的localStorage互不共享。Dots看板仅为允许公开字段的静态执行容器快照。
