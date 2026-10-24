@@ -86,8 +86,8 @@ function renderExperiment(){
  <div class="source-line"><strong>来源与改编：</strong>${escapeHTML(e.sourceNote||'家庭探究改编，非机构认证课程。')} ${e.sources.length?e.sources.map(s=>`<a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.originalTitle||s.title)} ↗</a>`).join(''):'本方案自编／家庭改编，无逐项对应原页。'}<br>图示为操作与思考示意，不是实拍或结果保证；准确用量与安全要求以步骤正文为准。${renderReview(e)}</div></div>`;
  buildWorkspace();
  $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}}));
- $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog');focusProcedure()});
- $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog');focusProcedure()});
+ $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog',focusProcedure)});
+ $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog',focusProcedure)});
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
  $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
@@ -197,7 +197,7 @@ function renderMap(){
  $$('#map-grid [data-day]').forEach(btn=>btn.addEventListener('click',()=>{chooseDay(+btn.dataset.day);closeDialog('day-map');scrollTo('#lab')}));
 }
 function chooseDay(id){activePanel='procedure';if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}if(!Number.isInteger(id)||id<1||id>totalDays)return;state.day=id;journeyMonth=monthForDay(id);gate='locked';checks=[false,false,false];save();renderExperiment();renderJourney()}
-let dialogNavigation=false,appLoaded=false;
+let dialogNavigation=false,appLoaded=false,pendingDialogAction=null;
 const dialogOpeners=new Map();
 function trapDialogFocus(event){
  if(event.key!=='Tab')return;const dialog=event.currentTarget;if(!dialog.open)return;
@@ -211,7 +211,7 @@ function syncDialogUI(){const opened=!!$('dialog[open]');document.body.classList
 function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
 function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
-function closeDialog(id){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){dialogNavigation=true;history.back()}}
+function closeDialog(id,afterClose=null){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){pendingDialogAction=afterClose;dialogNavigation=true;history.back()}else afterClose?.()}
 function clearStaleDialogState(){if(history.state?.littleLabDialog){const next={...history.state};delete next.littleLabDialog;delete next.littleLabDialogContext;history.replaceState(next,'',location.href)}}
 window.addEventListener('popstate',()=>{
  const closing=$$('dialog[open]').map(d=>d.id);$$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;for(const id of closing)restoreDialogFocus(id);if(!appLoaded)return;
@@ -226,6 +226,8 @@ window.addEventListener('popstate',()=>{
   populateDiagram();$('#diagram-dialog').showModal();
  }
  syncDialogUI();
+ // Native history restores the opener scroll after popstate; align the requested step on the following frame.
+ const afterClose=pendingDialogAction;pendingDialogAction=null;if(afterClose)requestAnimationFrame(afterClose);
 });
 
 function renderDots(snapshot){
