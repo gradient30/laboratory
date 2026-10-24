@@ -86,8 +86,8 @@ function renderExperiment(){
  <div class="source-line"><strong>来源与改编：</strong>${escapeHTML(e.sourceNote||'家庭探究改编，非机构认证课程。')} ${e.sources.length?e.sources.map(s=>`<a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.originalTitle||s.title)} ↗</a>`).join(''):'本方案自编／家庭改编，无逐项对应原页。'}<br>图示为操作与思考示意，不是实拍或结果保证；准确用量与安全要求以步骤正文为准。${renderReview(e)}</div></div>`;
  buildWorkspace();
  $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}}));
- $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog');showPanel('procedure',true)});
- $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog');showPanel('procedure',true)});
+ $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog');focusProcedure()});
+ $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog');focusProcedure()});
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
  $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
@@ -113,10 +113,11 @@ function buildWorkspace(){
  tools.after($('.workspace-tabs',tools));
  for(const panel of [materials,procedure,observations,learning]){panel.classList.add('workspace-panel');panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby','tab-'+panel.id);panel.tabIndex=0;}
  $('#open-safety').addEventListener('click',()=>openDialog('safety-dialog'));
- $('#preview-main').addEventListener('click',()=>{gate='preview';renderStep();showPanel('procedure',true);toast('仅预览图示；真正动手前请完成家长确认。')});
+ $('#preview-main').addEventListener('click',()=>{gate='preview';renderStep();focusProcedure()});
  $$('[data-panel]').forEach((button,index,buttons)=>{button.addEventListener('click',()=>showPanel(button.dataset.panel,false,true));button.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%buttons.length;else if(event.key==='ArrowLeft')next=(index+buttons.length-1)%buttons.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else return;event.preventDefault();showPanel(buttons[next].dataset.panel,false,true);buttons[next].focus({preventScroll:true})})});
  showPanel(activePanel);
 }
+function focusProcedure(){showPanel('procedure');$('#step-stage').focus({preventScroll:true});scrollTo('#step-stage')}
 function showPanel(id,focus=false,align=false){
  if(!['procedure','materials-panel','observations','learning-panel'].includes(id))id='procedure';activePanel=id;
  $$('.workspace-panel').forEach(p=>p.hidden=p.id!==id);
@@ -198,6 +199,14 @@ function renderMap(){
 function chooseDay(id){activePanel='procedure';if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}if(!Number.isInteger(id)||id<1||id>totalDays)return;state.day=id;journeyMonth=monthForDay(id);gate='locked';checks=[false,false,false];save();renderExperiment();renderJourney()}
 let dialogNavigation=false,appLoaded=false;
 const dialogOpeners=new Map();
+function trapDialogFocus(event){
+ if(event.key!=='Tab')return;const dialog=event.currentTarget;if(!dialog.open)return;
+ const focusable=$$('button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), summary, [tabindex]:not([tabindex="-1"])',dialog).filter(el=>el.tabIndex>=0&&el.getClientRects().length&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('[hidden], [inert]'));
+ if(!focusable.length){event.preventDefault();dialog.focus();return}
+ const index=focusable.indexOf(document.activeElement),last=focusable.length-1;
+ if(index===-1||(event.shiftKey&&index===0)||(!event.shiftKey&&index===last)){event.preventDefault();focusable[event.shiftKey?last:0].focus()}
+}
+
 function syncDialogUI(){const opened=!!$('dialog[open]');document.body.classList.toggle('dialog-open',opened);$$('.map-trigger').forEach(b=>b.setAttribute('aria-expanded',String($('#day-map').open)))}
 function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
@@ -240,7 +249,7 @@ async function init(){
  $('#map-current-month').addEventListener('click',()=>{mapMonth=String(monthForDay(state.day));$('#map-month').value=mapMonth;renderMap()});
  $('#map-all-year').addEventListener('click',()=>{mapMonth='all';$('#map-month').value='all';renderMap()});
  $('#close-diagram').addEventListener('click',()=>closeDialog('diagram-dialog'));
- $$('dialog').forEach(d=>d.addEventListener('cancel',event=>{event.preventDefault();closeDialog(d.id)}));
+ $$('dialog').forEach(d=>{d.addEventListener('cancel',event=>{event.preventDefault();closeDialog(d.id)});d.addEventListener('keydown',trapDialogFocus)});
  $('#day-prev').addEventListener('click',()=>chooseDay(state.day-1));$('#day-next').addEventListener('click',()=>chooseDay(state.day+1));$('#today-btn').addEventListener('click',()=>{chooseDay(recommendation());toast('每天一个主活动即可，也可以自由换一天。')});
  $$('.map-trigger').forEach(btn=>btn.addEventListener('click',()=>{if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}renderMap();openDialog('day-map')}));$('#close-map').addEventListener('click',()=>closeDialog('day-map'));$('#day-map').addEventListener('click',event=>{if(event.target===$('#day-map')){const r=$('#day-map').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog('day-map')}});
  $$('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filter;$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));renderMap()}));
