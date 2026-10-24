@@ -35,7 +35,7 @@ state.day=Number.isInteger(state.day)?Math.max(1,Math.min(totalDays,state.day)):
 // A new local day opens its suggested activity; same-day visits resume the chosen one.
 if(state.lastOpenDate&&state.lastOpenDate!==localDate())state.day=recommendation();
 state.lastOpenDate=localDate();
-let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer;
+let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer,activePanel='procedure';
 const recordKey=()=>`${state.day}:${state.age}`;
 const current=()=>experiments[state.day-1];
 const guide=()=>current().ageGuides[state.age];
@@ -73,6 +73,7 @@ function renderExperiment(){
  $('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;
  $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===totalDays;
  document.title=`第${e.day}天 · ${e.title} | 小小实验室`;
+ $('#safety-dialog-content').replaceChildren();
  $('#experiment').innerHTML=`<div class="experiment-shell">
  <header class="experiment-top"><div><div class="activity-labels">${badge(e)}<span class="activity-kind">${escapeHTML(e.type)}</span></div><span class="subject-tag"><span class="subject-dot"></span>${escapeHTML(e.domain)} / ${escapeHTML(e.type)} <span style="margin-left:7px">主活动</span></span><h3>${escapeHTML(e.title)}</h3><p class="big-question">${category(e)==='history'?'带着问题找证据':'先想一想'}：${escapeHTML(e.question)}</p><div class="metadata"><span class="pill">◷ ${escapeHTML(e.duration)}</span>${e.wait?`<span class="pill">⏳ 等待：${escapeHTML(e.wait)}</span>`:''}<span class="pill">${a.label}岁 · ${a.name}</span></div></div><div class="day-stamp" aria-hidden="true"><small>DAY</small><b>${e.day}</b><small>DISCOVER</small></div></header>
  <section class="materials-section" aria-label="准备材料"><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div></section>
@@ -83,14 +84,44 @@ function renderExperiment(){
  <details class="extension"><summary><span class="extension-tag">可选 +1</span>${escapeHTML(e.extension.title||'再试一个小变化')}<span></span></summary><div><p>今天还有兴趣和精力，再选这一个就够了。也可以留给另一天。</p>${e.extension.ageNote?`<p class="extension-age-note"><strong>分龄参与：</strong>${escapeHTML(e.extension.ageNote)}</p>`:''}<div class="mini-flow">${extensionNodes(e).map((node,i)=>`<div class="mini-node"><b><span>${i+1}</span>${['先商量','再试试','说发现'][i]}</b><p>${escapeHTML(node)}</p></div>`).join('')}</div><p class="mini-note">成人提醒：${escapeHTML(e.extension.safety||e.safety)}</p></div></details>
  <div class="finish-row"><button id="complete-day" class="button ${done?'outline':'primary'}" aria-pressed="${done}">${done?'✓ 已留下这次探索足迹':'留下今天的探索足迹'} <span aria-hidden="true">✦</span></button><p>做到这里就很好。无需做延伸，也不需要得到“标准结果”。<br>同一天换一个年龄入口，记录会分别保存。</p></div></section>
  <div class="source-line"><strong>来源与改编：</strong>${escapeHTML(e.sourceNote||'家庭探究改编，非机构认证课程。')} ${e.sources.length?e.sources.map(s=>`<a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.originalTitle||s.title)} ↗</a>`).join(''):'本方案自编／家庭改编，无逐项对应原页。'}<br>图示为操作与思考示意，不是实拍或结果保证；准确用量与安全要求以步骤正文为准。${renderReview(e)}</div></div>`;
+ buildWorkspace();
  $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}}));
- $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();scrollTo('#procedure')});
- $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();scrollTo('#procedure')});
+ $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog');showPanel('procedure',true)});
+ $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog');showPanel('procedure',true)});
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
- $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)scrollTo('#observations');else setStep(stepNumber()+1)});
+ $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
  $('#complete-day').addEventListener('click',()=>{state.completed[recordKey()]=!state.completed[recordKey()];save();const done=state.completed[recordKey()];$('#complete-day').innerHTML=`${done?'✓ 已留下这次探索足迹':'留下今天的探索足迹'} <span aria-hidden="true">✦</span>`;$('#complete-day').setAttribute('aria-pressed',String(done));$('#complete-day').className=`button ${done?'outline':'primary'}`;renderJourney();toast(done?'这一点发现，已留在本设备的成长足迹里。':'已取消这次探索标记，随时可以再来。')});
  renderStep();renderRecord();
+}
+function buildWorkspace(){
+ const shell=$('.experiment-shell'),safety=$('.safety-box'),materials=$('.materials-section'),procedure=$('#procedure'),observations=$('#observations');
+ const learning=document.createElement('section');learning.id='learning-panel';learning.className='learning-panel';
+ learning.append($('.inquiry-section'),$('.extension'),$('.source-line'));
+ const source=$('.source-line',learning),details=document.createElement('details');details.className='source-disclosure';details.innerHTML='<summary>来源、改编与核查范围</summary>';source.replaceWith(details);details.append(source);
+ shell.append(learning);
+ const method=$('.age-method'),methodDetails=document.createElement('details');methodDetails.className='method-disclosure';methodDetails.innerHTML='<summary>分龄支持与比较条件</summary>';method.replaceWith(methodDetails);methodDetails.append(method);
+ // The full safety requirements and materials remain in the pre-flight dialog, not lost in a collapsed card.
+ const dialogMaterials=document.createElement('div');dialogMaterials.className='dialog-materials';dialogMaterials.innerHTML='<h3>1 / 核对材料</h3><ul>'+current().materials.map(m=>`<li>${escapeHTML(m)}</li>`).join('')+'</ul><h3>2 / 留意风险并确认</h3>';
+ $('#safety-dialog-content').append(dialogMaterials,safety);
+ if(guide().support){const ageSafety=document.createElement('p');ageSafety.className='dialog-age-support';ageSafety.innerHTML='<strong>本年龄支持与安全：</strong>'+escapeHTML(guide().support);$('.safety-specific',safety).append(ageSafety);}
+ const printSafety=document.createElement('section');printSafety.className='print-safety';printSafety.innerHTML='<h4>成人安全要求</h4>'+$('.safety-specific',safety).innerHTML;$('.experiment-top').after(printSafety);
+ const stepSafety=document.createElement('details');stepSafety.className='step-safety-reminder';stepSafety.innerHTML='<summary>◇ 当天安全提醒 · 成人在旁，不入口</summary>'+$('.safety-specific',safety).innerHTML;$('.step-controls').before(stepSafety);
+ materials.id='materials-panel';
+ const tools=document.createElement('div');tools.className='workspace-tools';tools.innerHTML='<div class="safety-compact"><div><b id="prep-summary">动手前，先请家长确认</b><span id="prep-hint">可先看图；未确认不代表可以独自操作。</span></div><button id="open-safety" class="button primary compact">开始前确认 →</button><button id="preview-main" class="text-button">先看图</button></div><div class="workspace-tabs" role="tablist" aria-label="当前实验内容"><button role="tab" id="tab-procedure" data-panel="procedure" aria-controls="procedure">操作步骤</button><button role="tab" id="tab-materials-panel" data-panel="materials-panel" aria-controls="materials-panel">准备材料</button><button role="tab" id="tab-observations" data-panel="observations" aria-controls="observations">记录发现</button><button role="tab" id="tab-learning-panel" data-panel="learning-panel" aria-controls="learning-panel">知识拓展</button></div>';
+ $('.experiment-top').after(tools);
+ tools.after($('.workspace-tabs',tools));
+ for(const panel of [materials,procedure,observations,learning]){panel.classList.add('workspace-panel');panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby','tab-'+panel.id);panel.tabIndex=0;}
+ $('#open-safety').addEventListener('click',()=>openDialog('safety-dialog'));
+ $('#preview-main').addEventListener('click',()=>{gate='preview';renderStep();showPanel('procedure',true);toast('仅预览图示；真正动手前请完成家长确认。')});
+ $$('[data-panel]').forEach((button,index,buttons)=>{button.addEventListener('click',()=>showPanel(button.dataset.panel,false,true));button.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%buttons.length;else if(event.key==='ArrowLeft')next=(index+buttons.length-1)%buttons.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else return;event.preventDefault();showPanel(buttons[next].dataset.panel,false,true);buttons[next].focus({preventScroll:true})})});
+ showPanel(activePanel);
+}
+function showPanel(id,focus=false,align=false){
+ if(!['procedure','materials-panel','observations','learning-panel'].includes(id))id='procedure';activePanel=id;
+ $$('.workspace-panel').forEach(p=>p.hidden=p.id!==id);
+ $$('[data-panel]').forEach(b=>{const selected=b.dataset.panel===id;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1});
+ if(focus)$('#'+id).focus({preventScroll:true});if(focus||align)scrollTo('#'+id)
 }
 function extensionNodes(e){const s=e.extension.steps||[];if(s.length>=3)return [s[0],s[1],s.slice(2).join(' ')];if(s.length===2)return [s[0],s[1],'和主活动比较：哪里一样，哪里不同？说出一个新发现。'];return ['先和成人商量：准备改变哪一点？预测会出现什么变化。',s[0]||'按当天的可选方案探索，不另加材料或增加用量。','把这次和主活动放在一起比较。这个结果支持你的预测吗？'];}
 function renderStep(){
@@ -104,6 +135,10 @@ function renderStep(){
  $('#step-prev').disabled=gate==='locked'||i===0;$('#step-next').disabled=gate==='locked';$('#step-next').textContent=i===3?'去记录发现 ↘':'下一步 →';
  $('#step-counter').innerHTML=`<b>${i+1}</b> / 4 步`;
  $('#locked-message').hidden=gate!=='locked';
+ $('#prep-summary').textContent=gate==='ready'?'✓ 已完成家长确认':gate==='preview'?'仅预览图示，尚未开始实验':'动手前，先请家长确认';
+ $('#prep-hint').textContent=gate==='ready'?'条件有变化？请重新核对，成人仍需在旁。':'可先看图；未确认不代表可以独自操作。';
+ $('#open-safety').textContent=gate==='ready'?'查看／调整确认':'开始前确认 →';
+ $('#preview-main').hidden=gate!=='locked';
 }
 function setStep(i){if(gate==='locked'||i<0||i>3)return;state.steps[recordKey()]=i;save();renderStep();$('#step-stage').focus({preventScroll:true})}
 function migrateLegacyRecords(){
@@ -154,25 +189,34 @@ function renderJourney(){
 function renderMap(){
  const query=mapQuery.trim().toLocaleLowerCase();
  const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.question,e.id,...e.materials].join(' ').toLocaleLowerCase().includes(query)));
+ $('#navigator-progress').textContent=`已探索 ${experiments.filter(e=>isDone(e.id)).length} / ${totalDays}`;
  $('#map-count').textContent=`找到 ${visible.length} 个活动 · 全年 ${totalDays} 个主活动`;
  $('#map-grid').innerHTML=visible.length?visible.map(e=>`<button class="map-day ${e.id===state.day?'current':''} ${isDone(e.id)?'done':''}" data-day="${e.id}" aria-label="第${e.day}天：${escapeHTML(e.title)}${isDone(e.id)?'，已探索':''}"><span class="map-top"><span>第${monthForDay(e.id)}月 / ${e.day}</span><span aria-hidden="true">${isDone(e.id)?'✓':e.id===state.day?'●':'○'}</span></span>${badge(e)}<strong>${escapeHTML(e.title)}</strong><span class="map-domain">${escapeHTML(e.type)} · ${escapeHTML(e.domain)}</span></button>`).join(''):`<div class="empty-map"><p>没有符合条件的活动。试试其他学科、月份，或缩短搜索词。</p>${mapMonth!=='all'?'<button id="map-show-year" class="button outline compact">查看全年该学科</button>':''}</div>`;
  $('#map-show-year')?.addEventListener('click',()=>{mapMonth='all';$('#map-month').value='all';renderMap()});
  $$('#map-grid [data-day]').forEach(btn=>btn.addEventListener('click',()=>{chooseDay(+btn.dataset.day);closeDialog('day-map');scrollTo('#lab')}));
 }
-function chooseDay(id){if(location.hash==='#dots'){history.replaceState(history.state,'','#lab');syncView()}if(!Number.isInteger(id)||id<1||id>totalDays)return;state.day=id;journeyMonth=monthForDay(id);gate='locked';checks=[false,false,false];save();renderExperiment();renderJourney()}
+function chooseDay(id){activePanel='procedure';if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}if(!Number.isInteger(id)||id<1||id>totalDays)return;state.day=id;journeyMonth=monthForDay(id);gate='locked';checks=[false,false,false];save();renderExperiment();renderJourney()}
 let dialogNavigation=false,appLoaded=false;
+const dialogOpeners=new Map();
+function syncDialogUI(){const opened=!!$('dialog[open]');document.body.classList.toggle('dialog-open',opened);$$('.map-trigger').forEach(b=>b.setAttribute('aria-expanded',String($('#day-map').open)))}
+function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
-function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialog.showModal();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
-function closeDialog(id){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();if(history.state?.littleLabDialog===id){dialogNavigation=true;history.back()}}
+function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
+function closeDialog(id){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){dialogNavigation=true;history.back()}}
 function clearStaleDialogState(){if(history.state?.littleLabDialog){const next={...history.state};delete next.littleLabDialog;delete next.littleLabDialogContext;history.replaceState(next,'',location.href)}}
 window.addEventListener('popstate',()=>{
- $$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;if(!appLoaded)return;
+ const closing=$$('dialog[open]').map(d=>d.id);$$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;for(const id of closing)restoreDialogFocus(id);if(!appLoaded)return;
  const id=history.state?.littleLabDialog,context=history.state?.littleLabDialogContext;
  if(id==='day-map'){renderMap();$('#day-map').showModal()}
+ else if(id==='safety-dialog'){
+  if(context&&(context.day!==state.day||context.age!==state.age)){if(ageBands.includes(context.age))state.age=context.age;chooseDay(context.day);renderAge()}
+  $('#safety-dialog').showModal()
+ }
  else if(id==='diagram-dialog'){
   if(context&&Number.isInteger(context.day)&&context.day>=1&&context.day<=totalDays){if(ageBands.includes(context.age))state.age=context.age;chooseDay(context.day);state.steps[recordKey()]=Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0;gate='preview';save();renderAge();renderStep()}
   populateDiagram();$('#diagram-dialog').showModal();
  }
+ syncDialogUI();
 });
 
 function renderDots(snapshot){
@@ -181,15 +225,24 @@ function renderDots(snapshot){
  const gib=bytes=>Number.isFinite(bytes)?(bytes/1073741824).toFixed(2)+' GiB':'未知';
  root.innerHTML=`<div class="dots-scope"><p><strong>${escapeHTML(snapshot.scope)}</strong></p><p>采集时间：<time datetime="${escapeHTML(snapshot.capturedAt)}">${escapeHTML(snapshot.capturedAt)}</time></p><p>这是已发布版本携带的静态快照，不会随访问重新采集。执行环境可能重建，快照可能过时；不是 Cloudflare Workers 配置，也不能证明模型推理后端硬件。</p></div><div class="dots-grid">${card('系统',[['操作系统',snapshot.os],['内核',snapshot.kernel],['架构',snapshot.architecture]])}${card('处理器',[['CPU 型号字符串',snapshot.cpuModel],['可见逻辑 CPU',snapshot.visibleLogicalCpus],['进程亲和性 CPU 数',snapshot.cpuAffinityCount],['cgroup CPU 配额',snapshot.cgroupCpuMax]],snapshot.cpuNote)}${card('内存',[['内核可见总量',snapshot.visibleMemTotal],['采集时可见可用量',snapshot.visibleMemAvailable],['已验证 cgroup 硬限额',snapshot.cgroupMemoryMax]],snapshot.memoryNote)}${card('可见文件系统',[['接口报告逻辑容量',gib(snapshot.visibleRootDisk?.totalBytes)],['已用 / 剩余', '未核实，不展示虚拟统计值']],snapshot.diskNote)}${card('软件版本',Object.entries(snapshot.software||{}))}${card('边界与隐私',[['未取得的数据',(snapshot.unavailable||[]).join('；')]],snapshot.privacy)}</div>`;
 }
-function syncView(){const dots=location.hash==='#dots';$('#learning-view').hidden=dots;$('#dots-view').hidden=!dots;document.title=dots?'Dots看板 · 小小实验室':'小小实验室 · 365天看得见的发现';if(dots)$('#dots-heading').focus({preventScroll:true})}
+function syncView(){
+ const hash=location.hash,dots=hash==='#dots',journey=hash==='#journey',parents=hash==='#sources';
+ $('#learning-view').hidden=dots;$('#dots-view').hidden=!dots;$('#lab').hidden=dots||journey||parents;$('#journey').hidden=!journey;$('#sources').hidden=!parents;
+ document.title=dots?'Dots看板 · 小小实验室':journey?'成长足迹 · 小小实验室':parents?'给家长 · 小小实验室':'小小实验室 · 365天看得见的发现';
+ $$('.site-header nav a').forEach(a=>{if(a.hash===(hash||'#lab'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+ if(dots)$('#dots-heading').focus({preventScroll:true});
+}
 window.addEventListener('hashchange',syncView);
 
 async function init(){
  try{const response=await fetch('./data.json');if(!response.ok)throw Error('data response');const data=await response.json();experiments=data.experiments;if(experiments.length!==365||experiments.some((e,i)=>e.id!==i+1))throw Error('incomplete annual data');totalDays=experiments.length;state.day=Math.min(totalDays,state.day);migrateLegacyRecords();save();renderAge();renderExperiment();renderJourney();clearStaleDialogState();appLoaded=true;renderDots(data.meta.environmentSnapshot);syncView();
+ $('#close-safety').addEventListener('click',()=>closeDialog('safety-dialog'));
+ $('#map-current-month').addEventListener('click',()=>{mapMonth=String(monthForDay(state.day));$('#map-month').value=mapMonth;renderMap()});
+ $('#map-all-year').addEventListener('click',()=>{mapMonth='all';$('#map-month').value='all';renderMap()});
  $('#close-diagram').addEventListener('click',()=>closeDialog('diagram-dialog'));
  $$('dialog').forEach(d=>d.addEventListener('cancel',event=>{event.preventDefault();closeDialog(d.id)}));
  $('#day-prev').addEventListener('click',()=>chooseDay(state.day-1));$('#day-next').addEventListener('click',()=>chooseDay(state.day+1));$('#today-btn').addEventListener('click',()=>{chooseDay(recommendation());toast('每天一个主活动即可，也可以自由换一天。')});
- $$('.map-trigger').forEach(btn=>btn.addEventListener('click',()=>{if(location.hash==='#dots'){history.replaceState(history.state,'','#lab');syncView()}renderMap();openDialog('day-map')}));$('#close-map').addEventListener('click',()=>closeDialog('day-map'));$('#day-map').addEventListener('click',event=>{if(event.target===$('#day-map')){const r=$('#day-map').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog('day-map')}});
+ $$('.map-trigger').forEach(btn=>btn.addEventListener('click',()=>{if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}renderMap();openDialog('day-map')}));$('#close-map').addEventListener('click',()=>closeDialog('day-map'));$('#day-map').addEventListener('click',event=>{if(event.target===$('#day-map')){const r=$('#day-map').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog('day-map')}});
  $$('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filter;$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));renderMap()}));
  $('#map-month').value=mapMonth;$('#map-month').addEventListener('change',e=>{mapMonth=e.target.value;renderMap()});$('#map-search').addEventListener('input',e=>{mapQuery=e.target.value;renderMap()});
  $('#reset-progress').addEventListener('click',()=>{if(confirm('清除这个浏览器里的全部探索足迹与实验记录？这无法撤销，不影响其他设备。')){state.completed={};state.records={};state.legacyRecords={};state.steps={};state.startDate=localDate();save();renderExperiment();renderJourney();toast('已清除本设备的探索记录。')}});
