@@ -40,3 +40,5 @@ html{scroll-padding-top:150px}body.dialog-open{overflow:hidden}.site-header{posi
 /* A short edge label uses explicit geometry; it must never spill outside its hit area. */
 .navigator-handle{width:30px;padding:12px 5px;gap:7px;line-height:1.2}.navigator-handle span{display:block;flex:none;writing-mode:horizontal-tb;text-orientation:mixed;width:12px;height:auto;white-space:normal;word-break:break-all;line-height:1.5;letter-spacing:0;font-size:12px}
 @media(max-width:760px){.navigator-handle{width:28px;padding:10px 5px;gap:6px}.navigator-handle span{width:11px;font-size:11px;line-height:1.5}}
+/* Measured mobile header + sticky tabs reach 135px; reserve clear space below both. */
+@media(max-width:760px){html{scroll-padding-top:150px}}
