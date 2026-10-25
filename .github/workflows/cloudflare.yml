@@ -16,7 +16,7 @@ env:
 
 jobs:
   check:
-    name: Static content and configuration checks
+    name: Content, account isolation and configuration checks
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     outputs:
@@ -130,7 +130,7 @@ jobs:
           DEPLOY_ENABLED: ${{ vars.CLOUDFLARE_DEPLOY_ENABLED }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
       # The Cloudflare token is supplied to this single step only, not installs/tests.
-      - name: Deploy static assets using the locked Wrangler CLI
+      - name: Migrate approved D1 and deploy account Worker using locked Wrangler
         shell: bash
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
@@ -142,5 +142,11 @@ jobs:
             echo "::error::CLOUDFLARE_API_TOKEN is missing; nothing was deployed."
             exit 1
           fi
+          # Name-only preflight. No secret values or database exports are logged.
+          ./node_modules/.bin/wrangler secret list --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-secret-names.json"
+          node scripts/check-runtime-secrets.mjs "$RUNNER_TEMP/little-lab-secret-names.json"
+          ./node_modules/.bin/wrangler d1 time-travel info DB --json --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-pre-migration-bookmark.json"
+          node scripts/report-recovery-bookmark.mjs "$RUNNER_TEMP/little-lab-pre-migration-bookmark.json"
+          ./node_modules/.bin/wrangler d1 migrations apply DB --remote --config wrangler.jsonc
           ./node_modules/.bin/wrangler deploy --config wrangler.jsonc
           printf 'Deployed repository commit `%s` with Wrangler 4.151.3. See the deploy log for the actual Cloudflare URL and version.\n' "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"

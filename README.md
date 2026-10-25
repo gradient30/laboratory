@@ -4,12 +4,15 @@
 
 公开自定义域名：https://labs.996fb.cn 。域名由所有者在 Cloudflare 配置，本次代码不修改 DNS 或绑定。
 
-**本仓库是浏览器本地记录版。没有邮箱/手机号登录、云数据库、儿童个人账户隔离或跨设备同步。所有者已授权main自动部署；是否实际公开上线，以GitHub Actions发布结果为准，不能把仓库上传成功当作上线成功。**
+**当前分支为家庭账户候选版，尚未激活生产：新增邮箱验证码登录、家长/儿童隔离、D1 云进度及管理员解锁。部署策略保持关闭，数据库 UUID 为阻断占位符；现网仍以原已部署版本为准。邮箱域名、私有首次管理员邮箱、邮件投递服务和新增资源须另行确认。手机与微信登录未实现。**
+
+详细启用、私有配置和恢复要求见 [`docs/account-operations.md`](docs/account-operations.md)。不能把代码或 CI 成功当作生产上线/合规认证。
 
 ## 目录与检查
 
-- `dist/`：实际公开资源，5个文件；应用无第三方运行时依赖。
-- `wrangler.jsonc`：Cloudflare Workers Static Assets 配置，无 D1/R2/KV、DNS路由或服务端逻辑。
+- `dist/`：5 个应用资源；完整课程与图示受 Worker 鉴权保护，不可直接公开。
+- `worker/`、`migrations/`：同源账户 API、访问控制及 D1 数据表迁移。
+- `wrangler.jsonc`：Worker-first Assets + 单个待批准 D1 绑定，无 R2/KV 或新增 DNS 路由。
 - `.github/workflows/cloudflare.yml`：检查及条件式发布。
 - `.github/deployment-policy.json`：目标核验和经过所有者批准的发布开关。
 - `scripts/deploy-guard.mjs`：发布前校验仓库、分支、账户、Worker与资源范围。
@@ -26,7 +29,7 @@ npm run test:browser
 npm run deploy:dry-run
 ```
 
-这是无构建步骤的网站，`dist/` 已是输出。`deploy:dry-run` 只验证打包，不正式发布。
+`dist/` 已是界面输出，Wrangler 将服务端 Worker 与课程数据打包。`deploy:dry-run` 只验证打包，不正式发布。浏览器测试运行真实 Worker + 本地合成 D1/邮件替身，测试服务不部署。
 
 ## 工作流的边界
 

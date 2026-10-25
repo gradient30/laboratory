@@ -44,7 +44,7 @@ for(const [index,e] of data.experiments.entries()){
 }
 assert.deepEqual(new Set(Object.keys(counts)),categories);
 const html=readFileSync('./dist/index.html','utf8'),js=readFileSync('./dist/app.js','utf8'),css=readFileSync('./dist/styles.css','utf8');
-assert.match(html,/lang="zh-CN"/);assert.match(html,/<dialog/);assert.match(html,/type="module"/);assert.match(css,/prefers-reduced-motion/);assert.match(js,/localStorage/);assert.ok(!/https?:\/\//.test(js),'App must not send records externally');
+assert.match(html,/lang="zh-CN"/);assert.match(html,/<dialog/);assert.match(html,/type="module"/);assert.match(css,/prefers-reduced-motion/);assert.match(js,/localStorage/);assert.ok(!/https?:\/\//.test(js),'App must use same-origin authenticated APIs, never external record endpoints');
 assert.ok(readdirSync('./dist').every(f=>['index.html','styles.css','app.js','data.json','diagrams.js'].includes(f)));
 console.log(JSON.stringify({status:'passed',experiments:365,categories:counts,ageModes:4,illustratedVariants:diagrams,distinctRenderedArtwork:hashes.size,sourceLinks:links,outputFiles:readdirSync('./dist'),scope:'Data integrity, exact duplicate detection (not semantic fact validation), age-scaffold uniqueness, SVG rendering, static privacy/accessibility contracts. Source accuracy and browser QA require separate review.'},null,2));
 

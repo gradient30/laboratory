@@ -35,3 +35,16 @@ assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock
 assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);
 
 assert.match(check,/fc-list :lang=zh/);assert.match(check,/fonts-wqy-zenhei/);
+
+assert.match(check,/npm test/);
+assert.match(pkg.scripts.test,/npm run test:backend/);
+assert.match(pkg.scripts['test:backend'],/node --test worker\/\*\.test\.mjs/);
+assert.match(deploy,/wrangler secret list --config wrangler\.jsonc/);
+assert.match(deploy,/node scripts\/check-runtime-secrets\.mjs/);
+assert.match(deploy,/d1 time-travel info DB --json/);
+assert.match(deploy,/d1 migrations apply DB --remote/);
+assert.ok(deploy.indexOf('check-runtime-secrets.mjs')<deploy.indexOf('d1 migrations apply'));
+assert.ok(deploy.indexOf('report-recovery-bookmark.mjs')<deploy.indexOf('d1 migrations apply'));
+assert.ok(deploy.indexOf('d1 migrations apply')<deploy.indexOf('wrangler deploy'));
+assert.ok(!/d1 (?:delete|time-travel restore|export)/.test(s),'No automatic destructive restore/delete or production data export');
+console.log('Account runtime tests, private-config preflight, recovery-bookmark and additive migration deployment ordering passed.');

@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "小小实验室：独立 Cloudflare Workers Static Assets 部署副本（浏览器本地记录版）",
+  "description": "小小实验室：Cloudflare Workers + D1 家庭账户与儿童学习进度（激活需独立批准）",
   "scripts": {
-    "test": "node test.mjs && node verify-package.mjs && node --test scripts/deploy-guard.test.mjs && node scripts/check-workflow.mjs",
-    "check:syntax": "node --check dist/app.js && node --check dist/diagrams.js",
+    "test": "node test.mjs && node verify-package.mjs && node --test scripts/*.test.mjs && node scripts/check-workflow.mjs && npm run test:backend",
+    "check:syntax": "node --check dist/app.js && node --check dist/diagrams.js && node --check worker/index.mjs && node --check worker/core.mjs && node --check scripts/account-test-harness.mjs && node --check scripts/serve-account-test.mjs",
     "dev": "wrangler dev",
     "deploy:dry-run": "wrangler deploy --dry-run",
     "manifest:update": "node scripts/update-manifest.mjs",
-    "test:browser": "playwright test"
+    "test:browser": "playwright test",
+    "test:backend": "node --test worker/*.test.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1",

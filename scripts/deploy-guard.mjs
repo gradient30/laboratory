@@ -16,10 +16,30 @@ export function assertDeploymentAllowed(policy, config, env) {
   assert.equal(env.CLOUDFLARE_ACCOUNT_ID, policy.accountId, 'Account ID differs from the approved target.');
   assert.equal(config.name, policy.workerName, 'Worker name differs from the approved target.');
   assert.match(policy.workerName, /^[a-z][a-z0-9-]{0,62}$/, 'Invalid approved Worker name.');
-  assert.equal(config.assets?.directory, './dist', 'Only the reviewed static directory may be published.');
-  assert.equal(config.workers_dev, true, 'This policy approves the public workers.dev static site only.');
-  for (const field of ['main','account_id','routes','route','d1_databases','r2_buckets','kv_namespaces','services','vars']) {
-    assert.ok(!(field in config), `Unexpected runtime resource, secret, or route: ${field}`);
+  assert.equal(config.assets?.directory, './dist', 'Only the reviewed assets directory may be published.');
+  assert.equal(config.workers_dev, true, 'Unexpected public Worker endpoint configuration.');
+  if (policy.runtime === 'family-accounts') {
+    assert.equal(policy.runtimeApproved, true, 'Account runtime has not been approved for activation.');
+    assert.equal(config.main, 'worker/index.mjs', 'Only the reviewed account Worker entry is allowed.');
+    assert.deepEqual(config.assets, {directory:'./dist', binding:'ASSETS', run_worker_first:true}, 'Worker must authorize before the exact reviewed static asset binding.');
+    const permitted = new Set(['$schema','name','compatibility_date','workers_dev','assets','main','keep_vars','d1_databases','vars','triggers']);
+    for (const key of Object.keys(config)) assert.ok(permitted.has(key), `Unapproved account runtime setting: ${key}`);
+    assert.deepEqual(config.triggers,{crons:['17 3 * * *']},'Only daily expired-auth cleanup is approved.');
+    assert.equal(config.keep_vars, true, 'Preserve privately configured runtime variables.');
+    assert.match(policy.database?.id || '', /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i, 'Approved D1 UUID is required.');
+    assert.notEqual(policy.database.id, '00000000-0000-0000-0000-000000000000', 'Placeholder database cannot deploy.');
+    assert.equal(policy.database.name, 'little-lab-family-progress', 'Database name differs from approved application resource.');
+    assert.deepEqual(config.d1_databases, [{binding:'DB', database_name:policy.database.name, database_id:policy.database.id, migrations_dir:'migrations'}], 'Only the exact approved D1 binding is allowed.');
+    assert.deepEqual(config.vars, {APP_ORIGIN:'https://labs.996fb.cn'}, 'Only the public canonical origin may be committed as a runtime variable.');
+    assert.ok(!('send_email' in config), 'Email binding requires a separately reviewed provider policy.');
+    for(const field of ['account_id','routes','route','r2_buckets','kv_namespaces','services','unsafe','durable_objects','queues','workflows','hyperdrive','secrets_store_secrets']) {
+      assert.ok(!(field in config), `Unexpected runtime resource, secret, or route: ${field}`);
+    }
+  } else {
+    assert.ok(!policy.runtime || policy.runtime === 'static', 'Unknown runtime policy.');
+    for (const field of ['main','account_id','routes','route','d1_databases','r2_buckets','kv_namespaces','services','vars','send_email']) {
+      assert.ok(!(field in config), `Unexpected runtime resource, secret, or route: ${field}`);
+    }
   }
   return true;
 }
