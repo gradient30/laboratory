@@ -1,8 +1,8 @@
 import {test,expect} from '@playwright/test';
 import {resetServer,fixture,loginAPI,waitForCode,authFetch,cloudSaved,openAccount,origin} from './account-helpers.mjs';
 test.beforeEach(async({page})=>{await resetServer(page)});
-async function readyFamily(page,options={}){const seeded=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/');await expect(page.locator('#family-bar')).toBeVisible();return seeded}
-async function shot(page,info,name){const{mkdir}=await import('node:fs/promises');await mkdir('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-accounts-${name}.png`,fullPage:false})}
+async function readyFamily(page,options={}){const seeded=await fixture(page,options);const verified=await loginAPI(page,options.email||'owner@qa.test');seeded.children=verified.children;await page.goto('/');await expect(page.locator('#family-bar')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(seeded.children.find(c=>!c.archivedAt).id);await cloudSaved(page);return seeded}
+async function shot(page,info,name){const{mkdir}=await import('node:fs/promises');await mkdir('test-results/visual-review',{recursive:true});await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.screenshot({path:`test-results/visual-review/${info.project.name}-accounts-${name}.png`,fullPage:false})}
 
 test('anonymous entry is a fail-closed account screen, not unlocked curriculum',async({page},info)=>{
  await page.goto('/#lab');await expect(page.locator('#email-form')).toBeVisible();await expect(page.locator('#learning-view')).not.toBeVisible();await expect(page.locator('#navigator-handle')).not.toBeVisible();expect((await page.request.get('/data.json')).status()).toBe(404);expect((await page.request.get('/diagrams.js')).status()).toBe(401);await expect(page.locator('.disabled-provider')).toBeDisabled();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await shot(page,info,'login');

@@ -6,7 +6,7 @@ import {createAccountHarness, TEST_ORIGIN} from './account-test-harness.mjs';
 const h=await createAccountHarness();
 const json=(res,status,value)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify(value));};
 async function payload(req){let text='';for await(const c of req){text+=c;if(Buffer.byteLength(text)>2*1024*1024)throw Error('Fixture body too large');}return text?JSON.parse(text):{};}
-async function reset(){const tables=['sessions','bootstrap_claim','auth_challenges','rate_limits','children','audit_log','settings','users'];await h.db.batch(tables.map(name=>h.db.prepare(`DELETE FROM ${name}`)));h.outbox.length=0;}
+async function reset(){const tables=['sessions','bootstrap_claim','auth_challenges','rate_limits','children','audit_log','settings','users'];await h.db.batch(tables.map(name=>h.db.prepare(`DELETE FROM ${name}`)));h.outbox.length=0; if(h.initialDomains.length)await h.db.prepare('INSERT INTO settings(key,value,updated_at) VALUES(?,?,?)').bind('allowedDomains',JSON.stringify(h.initialDomains),Math.floor(Date.now()/1000)).run();}
 async function seed(input){
   if(typeof input.email!=='string'||!input.email.endsWith('@qa.test'))throw Error('Only synthetic qa.test fixture addresses allowed');
   const now=Math.floor(Date.now()/1000),id=randomBytes(16).toString('hex'),role=input.role==='admin'?'admin':'parent';

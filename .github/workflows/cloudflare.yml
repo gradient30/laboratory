@@ -135,6 +135,9 @@ jobs:
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          BOOTSTRAP_ADMIN_EMAIL: ${{ secrets.BOOTSTRAP_ADMIN_EMAIL }}
           XDG_CONFIG_HOME: ${{ runner.temp }}/wrangler-deploy
         run: |
           set -euo pipefail
@@ -142,6 +145,8 @@ jobs:
             echo "::error::CLOUDFLARE_API_TOKEN is missing; nothing was deployed."
             exit 1
           fi
+          # Approved, serialized, exact-target private configuration only. Never log values.
+          node scripts/account-runtime-config.mjs
           # Name-only preflight. No secret values or database exports are logged.
           ./node_modules/.bin/wrangler secret list --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-secret-names.json"
           node scripts/check-runtime-secrets.mjs "$RUNNER_TEMP/little-lab-secret-names.json"

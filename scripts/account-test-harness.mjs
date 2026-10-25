@@ -15,7 +15,7 @@ async function workerBundle(){
   if(!bundle){const result=await build({entryPoints:[resolve(root,'worker/index.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',external:['cloudflare:*'],logLevel:'silent'});bundle=result.outputFiles[0].text;}
   return bundle;
 }
-export async function createAccountHarness({origin=TEST_ORIGIN,bindings={}}={}){
+export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initialDomains=['qa.test']}={}){
   const outbox=[];
   const mf=new Miniflare(convertV4MiniflareOptions({
     name:'little-lab-account-test',modules:true,script:await workerBundle(),compatibilityDate:'2026-10-22',
@@ -45,6 +45,7 @@ export async function createAccountHarness({origin=TEST_ORIGIN,bindings={}}={}){
       const sql=await readFile(resolve(root,'migrations',name),'utf8');
       await db.exec(sql);
     }
-    return {mf,db,outbox,origin,fetch:(path,init={})=>mf.dispatchFetch(new URL(path,origin).href,init),dispose:()=>mf.dispose()};
+    if(initialDomains.length)await db.prepare('INSERT INTO settings(key,value,updated_at) VALUES(?,?,?)').bind('allowedDomains',JSON.stringify(initialDomains),Math.floor(Date.now()/1000)).run();
+    return {mf,db,outbox,origin,initialDomains,fetch:(path,init={})=>mf.dispatchFetch(new URL(path,origin).href,init),dispose:()=>mf.dispose()};
   }catch(error){await mf.dispose();throw error;}
 }

@@ -48,3 +48,7 @@ assert.ok(deploy.indexOf('report-recovery-bookmark.mjs')<deploy.indexOf('d1 migr
 assert.ok(deploy.indexOf('d1 migrations apply')<deploy.indexOf('wrangler deploy'));
 assert.ok(!/d1 (?:delete|time-travel restore|export)/.test(s),'No automatic destructive restore/delete or production data export');
 console.log('Account runtime tests, private-config preflight, recovery-bookmark and additive migration deployment ordering passed.');
+
+assert.match(deploy,/node scripts\/account-runtime-config\.mjs/);
+for(const name of ['RESEND_API_KEY','EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL']){assert.ok(deploy.includes(`secrets.${name}`));assert.ok(!s.includes(`vars.${name}`),`Private configuration ${name} must never use public-log variables`);}
+assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('wrangler secret list'));
