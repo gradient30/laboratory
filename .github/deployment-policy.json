@@ -1,13 +1,13 @@
 {
-  "enabled": false,
+  "enabled": true,
   "repository": "gradient30/laboratory",
   "accountId": "69aa667ac081ed9ddac1e04d0822f164",
   "workerName": "little-lab-30-q7r8",
-  "note": "Account runtime prepared but not approved/provisioned. Activation requires owner-confirmed exact D1 binding, private auth/bootstrap configuration, verified mail delivery and passing checks. No placeholder may deploy.",
+  "note": "Owner approved exact isolated D1, current Worker private Resend/auth configuration and non-Mainland storage boundary on 2026-10-26. Release requires passing checks and reviewed main merge; no other resources or paid plan changes.",
   "runtime": "family-accounts",
-  "runtimeApproved": false,
+  "runtimeApproved": true,
   "database": {
     "name": "little-lab-family-progress",
-    "id": "00000000-0000-0000-0000-000000000000"
+    "id": "b3d2c512-e532-4cf5-aa50-22237beb77d3"
   }
 }
