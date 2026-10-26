@@ -309,7 +309,7 @@ function syncView(){
  $$('.site-header .map-trigger').forEach(b=>b.hidden=!signed||!hasChild||account||admin);$$('.site-header nav a').forEach(a=>{const restricted=['#lab','#journey','#sources','#dots'].includes(a.hash);a.hidden=restricted&&(!signed||!hasChild);if(a.hash==='#admin')a.hidden=session?.user?.role!=='admin';if(a.hash===(account?'#account':hash||'#lab'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
  if(account&&signed)renderFamily();if(admin)renderAdmin();if(dots)renderDots();document.title=account?'我的家庭 · 小小实验室':admin?'管理中心 · 小小实验室':dots?'Dots看板 · 小小实验室':journey?'成长足迹 · 小小实验室':parents?'给家长 · 小小实验室':'小小实验室 · 365天看得见的发现';
 }
-window.addEventListener('hashchange',()=>{syncView();if(location.hash==='#account')$('#account-heading')?.scrollIntoView({block:'start',behavior:'instant'});else if(location.hash==='#admin')$('#admin-heading')?.scrollIntoView({block:'start',behavior:'instant'})});
+window.addEventListener('hashchange',()=>{syncView();if(location.hash==='#dots'&&!$('#dots-view').hidden){$('#dots-heading')?.focus({preventScroll:true});$('#dots-heading')?.scrollIntoView({block:'start',behavior:'instant'})}else if(location.hash==='#account')$('#account-heading')?.scrollIntoView({block:'start',behavior:'instant'});else if(location.hash==='#admin')$('#admin-heading')?.scrollIntoView({block:'start',behavior:'instant'})});
 window.addEventListener('beforeunload',event=>{if(dirty||recoverySnapshot||familyMutationBusy){event.preventDefault();event.returnValue=''}});
 window.addEventListener('online',()=>{if(dirty&&!saveConflict)flushSave()});
 
