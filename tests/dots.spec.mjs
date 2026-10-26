@@ -3,7 +3,12 @@ import {readFileSync,mkdirSync} from 'node:fs';
 import {resetServer,fixture,loginAPI,authFetch,cloudSaved} from './account-helpers.mjs';
 const curriculum=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url),'utf8')).experiments;
 const progress=extra=>({startDate:'2026-01-01',day:1,age:'4-6',records:{},steps:{},completed:{},legacyRecords:{},...extra});
-async function ready(page,options={}){await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#dots');await expect(page.locator('#dots-completed')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(seed.children[0].id);return seed}
+async function ready(page,options={}){
+ await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#dots');await expect(page.locator('#dots-completed')).toBeVisible();
+ // Server order is not insertion order when created_at ties; explicitly select the scenario's intended child.
+ const desired=seed.children[0];if(await page.locator('#child-switch').inputValue()!==desired.id)await page.locator('#child-switch').selectOption(desired.id);
+ await expect(page.locator('#child-switch')).toHaveValue(desired.id);await expect(page.locator('#dots-child-name')).toHaveText(desired.nickname);return seed;
+}
 async function dashboardHeadingVisible(page){await expect(page.locator('#dots-heading')).toBeInViewport();await expect.poll(()=>page.evaluate(()=>{const heading=document.querySelector('#dots-heading').getBoundingClientRect(),header=document.querySelector('.site-header').getBoundingClientRect();return heading.top>=Math.max(0,header.bottom)&&heading.bottom<=innerHeight})).toBe(true)}
 async function snapshot(page,info,name){await expect(page.locator('#toast')).not.toHaveClass(/\bshow\b/);await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-dashboard-${name}.png`,fullPage:true})}
 
