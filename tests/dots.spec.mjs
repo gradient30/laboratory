@@ -3,7 +3,7 @@ import {readFileSync,mkdirSync} from 'node:fs';
 import {resetServer,fixture,loginAPI,authFetch,cloudSaved} from './account-helpers.mjs';
 const curriculum=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url),'utf8')).experiments;
 const progress=extra=>({startDate:'2026-01-01',day:1,age:'4-6',records:{},steps:{},completed:{},legacyRecords:{},...extra});
-async function ready(page,options={}){await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#dots');await expect(page.locator('#dots-completed')).toBeVisible();return seed}
+async function ready(page,options={}){await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#dots');await expect(page.locator('#dots-completed')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(seed.children[0].id);return seed}
 async function snapshot(page,info,name){mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-dashboard-${name}.png`,fullPage:true})}
 
 test('Dots shows truthful fresh data, unique completion, note counts and accessible subject totals',async({page},info)=>{
@@ -31,9 +31,13 @@ test('all locked and imported last-open completion cannot imply new access or al
  await loginAPI(page);expect((await authFetch(page,'/api/admin/users/'+parent.user.id+'/access','POST',{mode:'locked'})).ok()).toBe(true);await loginAPI(page,'parent@qa.test');await page.reload();await expect(page.locator('#dots-completed')).toHaveText('1');await expect(page.locator('#dots-access')).toContainText('当前开放 0 / 365');await expect(page.locator('#dots-access')).toContainText('1 项历史完成记录目前已锁定');await expect(page.locator('[data-dots-day]')).toHaveCount(0);await snapshot(page,info,'locked-history');
 });
 
-test('admin unlock is not completion, empty state is honest and all-marked state offers review',async({page},info)=>{
+test('admin unlock is not completion and empty state is honest',async({page},info)=>{
  await ready(page);await expect(page.locator('#dots-completed')).toHaveText('0');await expect(page.locator('#dots-noted')).toHaveText('0');await expect(page.locator('#dots-covered')).toHaveText('0');await expect(page.locator('#dots-available')).toHaveText('365');await snapshot(page,info,'empty');
- await ready(page,{children:[{nickname:'合成全部足迹',ageBand:'4-6',state:progress({completed:Object.fromEntries(curriculum.map(e=>[`${e.id}:4-6`,true]))})}]});await expect(page.locator('#dots-completed')).toHaveText('365');await expect(page.locator('#dots-covered')).toHaveText('7');await expect(page.locator('#dots-available')).toHaveText('0');await expect(page.locator('#dots-next-title')).toHaveText('365项，都留下了足迹');await expect(page.locator('#dots-continue')).toContainText('回顾');
+});
+
+// Use a fresh page/session: resetting the server under an existing #dots document leaves stale in-memory state.
+test('all-marked activity state offers review rather than pretending more activities are available',async({page},info)=>{
+ await ready(page,{children:[{nickname:'合成全部足迹',ageBand:'4-6',state:progress({completed:Object.fromEntries(curriculum.map(e=>[`${e.id}:4-6`,true]))})}]});await expect(page.locator('#dots-child-name')).toHaveText('合成全部足迹');await expect(page.locator('#dots-completed')).toHaveText('365');await expect(page.locator('#dots-covered')).toHaveText('7');await expect(page.locator('#dots-available')).toHaveText('0');await expect(page.locator('#dots-next-title')).toHaveText('365项，都留下了足迹');await expect(page.locator('#dots-continue')).toContainText('回顾');await snapshot(page,info,'all-marked');
 });
 
 test('unsaved dashboard markers are labeled and retry succeeds without losing local data',async({page},info)=>{
