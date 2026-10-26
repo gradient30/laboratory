@@ -1,0 +1,32 @@
+name: Provision approved dedicated laboratory D1
+on:
+  push:
+    branches: [account-d1-provision-20261025]
+permissions:
+  contents: read
+jobs:
+  provision:
+    if: github.repository == 'gradient30/laboratory' && github.ref == 'refs/heads/account-d1-provision-20261025'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment: cloudflare-production
+    concurrency:
+      group: little-lab-dedicated-d1-provision
+      cancel-in-progress: false
+    steps:
+      - name: Check out reviewed provisioning revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Confirm required private configuration presence only
+        env:
+          RESEND_PRESENT: ${{ secrets.RESEND_API_KEY != '' }}
+          SENDER_PRESENT: ${{ secrets.EMAIL_FROM != '' }}
+          OWNER_PRESENT: ${{ secrets.BOOTSTRAP_ADMIN_EMAIL != '' }}
+        run: test "$RESEND_PRESENT" = true && test "$SENDER_PRESENT" = true && test "$OWNER_PRESENT" = true
+      - name: Provision only the approved dedicated database
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          LAB_D1_CREATE_APPROVAL: approved-create-little-lab-family-progress-20261025
+        run: node scripts/provision-dedicated-account-d1.mjs
