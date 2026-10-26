@@ -1,4 +1,4 @@
-name: Read-only laboratory configuration capability probe
+name: Read-only private configuration diagnostic
 on:
   push:
     branches: [account-capability-probe-20261025]
@@ -11,30 +11,17 @@ jobs:
     timeout-minutes: 5
     environment: cloudflare-production
     steps:
-      - name: Report only expected configuration presence
+      - name: Check out reviewed diagnostic
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Verify synthetic output-safety tests without credentials
+        run: node --test .github/account-config-diagnostic/diagnostic.test.mjs
+      - name: Emit only fixed input categories and approved Worker secret presence
         env:
-          RESEND_KEY_PRESENT: ${{ secrets.RESEND_API_KEY != '' }}
-          EMAIL_FROM_SECRET_PRESENT: ${{ secrets.EMAIL_FROM != '' }}
-          BOOTSTRAP_EMAIL_SECRET_PRESENT: ${{ secrets.BOOTSTRAP_ADMIN_EMAIL != '' }}
-          EMAIL_FROM_VARIABLE_PRESENT: ${{ vars.EMAIL_FROM != '' }}
-          BOOTSTRAP_EMAIL_VARIABLE_PRESENT: ${{ vars.BOOTSTRAP_ADMIN_EMAIL != '' }}
-        shell: bash
-        run: |
-          printf '{"resendKeySecret":%s,"emailFromSecret":%s,"bootstrapEmailSecret":%s,"emailFromVariable":%s,"bootstrapEmailVariable":%s}\n' "$RESEND_KEY_PRESENT" "$EMAIL_FROM_SECRET_PRESENT" "$BOOTSTRAP_EMAIL_SECRET_PRESENT" "$EMAIL_FROM_VARIABLE_PRESENT" "$BOOTSTRAP_EMAIL_VARIABLE_PRESENT"
-      - name: Test exact environment variable read capability without logging values
-        env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: |
-          node --input-type=module <<'NODE'
-          for (const name of ['EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL']) {
-            try {
-              const url='https://api.github.com/repos/gradient30/laboratory/environments/cloudflare-production/variables/'+name;
-              const r=await fetch(url,{method:'GET',headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2026-03-10'},redirect:'error',signal:AbortSignal.timeout(30000)});
-              const result={name,httpStatus:r.status};
-              if(r.ok){const data=await r.json();result.valuePresent=typeof data.value==='string'&&data.value.length>0;}
-              else {await r.body?.cancel();}
-              console.log(JSON.stringify(result));
-            } catch {console.log(JSON.stringify({name,status:'request-failed-no-details-logged'}));}
-          }
-          NODE
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          BOOTSTRAP_ADMIN_EMAIL: ${{ secrets.BOOTSTRAP_ADMIN_EMAIL }}
+        run: node .github/account-config-diagnostic/diagnostic.mjs
