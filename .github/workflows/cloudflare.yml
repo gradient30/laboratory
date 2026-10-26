@@ -2,7 +2,7 @@ name: Check and deploy Little Lab
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, unified-email-access-20261026]
   push:
     branches: [main]
   workflow_dispatch:
