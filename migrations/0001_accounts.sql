@@ -1,0 +1,13 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE users (id TEXT PRIMARY KEY,email TEXT NOT NULL UNIQUE COLLATE NOCASE,role TEXT NOT NULL DEFAULT 'parent' CHECK(role IN('admin','parent')),status TEXT NOT NULL DEFAULT 'active' CHECK(status IN('active','disabled','archived','invited')),unlock_all INTEGER NOT NULL DEFAULT 0 CHECK(unlock_all IN(0,1)),unlock_through INTEGER NOT NULL DEFAULT 1 CHECK(unlock_through BETWEEN 0 AND 365),access_version INTEGER NOT NULL DEFAULT 0,verified_at INTEGER,consent_at INTEGER,privacy_version TEXT,created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL);
+CREATE TABLE bootstrap_claim(singleton INTEGER PRIMARY KEY CHECK(singleton=1),user_id TEXT NOT NULL REFERENCES users(id),claimed_at INTEGER NOT NULL);
+CREATE TABLE sessions(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id),csrf_token TEXT NOT NULL,created_at INTEGER NOT NULL,expires_at INTEGER NOT NULL);
+CREATE INDEX sessions_user ON sessions(user_id);
+CREATE TABLE auth_challenges(id TEXT PRIMARY KEY,email TEXT NOT NULL,intent TEXT NOT NULL CHECK(intent IN('register','login')),code_hash TEXT NOT NULL,attempts INTEGER NOT NULL DEFAULT 0,consumed_at INTEGER,expires_at INTEGER NOT NULL,created_at INTEGER NOT NULL,consent INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX challenges_expiry ON auth_challenges(expires_at);
+CREATE TABLE rate_limits(key TEXT PRIMARY KEY,hits INTEGER NOT NULL,expires_at INTEGER NOT NULL);
+CREATE TABLE children(id TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id),nickname TEXT NOT NULL,age_band TEXT NOT NULL CHECK(age_band IN('4-6','7-9','10-12','13-16')),state_json TEXT NOT NULL DEFAULT '{}',revision INTEGER NOT NULL DEFAULT 0,unlocked_through INTEGER NOT NULL DEFAULT 0 CHECK(unlocked_through BETWEEN 0 AND 365),guardian_consent_at INTEGER NOT NULL,created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,archived_at INTEGER);
+CREATE INDEX children_owner ON children(user_id,archived_at);
+CREATE TABLE settings(key TEXT PRIMARY KEY,value TEXT NOT NULL,updated_at INTEGER NOT NULL);
+CREATE TABLE audit_log(id TEXT PRIMARY KEY,actor_id TEXT NOT NULL REFERENCES users(id),action TEXT NOT NULL,target_id TEXT NOT NULL,detail_json TEXT NOT NULL DEFAULT '{}',created_at INTEGER NOT NULL);
+CREATE INDEX audit_created ON audit_log(created_at DESC);

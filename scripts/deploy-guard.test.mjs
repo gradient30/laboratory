@@ -38,3 +38,26 @@ test('checked-in source policy must remain valid for its static target',()=>{
   assert.equal(assertDeploymentAllowed(actual,actualConfig,{...env,DEPLOY_ENABLED:undefined,GITHUB_REPOSITORY:actual.repository,CLOUDFLARE_ACCOUNT_ID:actual.accountId}),true);
  }
 });
+
+const accountPolicy={...policy,runtime:'family-accounts',runtimeApproved:true,database:{name:'little-lab-family-progress',id:'12345678-1234-1234-1234-123456789abc'}};
+const accountConfig={...config,triggers:{crons:['17 3 * * *']},main:'worker/index.mjs',keep_vars:true,assets:{directory:'./dist',binding:'ASSETS',run_worker_first:true},vars:{APP_ORIGIN:'https://labs.996fb.cn'},d1_databases:[{binding:'DB',database_name:'little-lab-family-progress',database_id:accountPolicy.database.id,migrations_dir:'migrations'}]};
+test('only approved exact family runtime and D1 may deploy',()=>assert.equal(assertDeploymentAllowed(accountPolicy,accountConfig,env),true));
+test('account runtime activation requires explicit source approval',()=>assert.throws(()=>assertDeploymentAllowed({...accountPolicy,runtimeApproved:false},accountConfig,env)));
+test('account runtime rejects placeholder D1 UUID',()=>assert.throws(()=>assertDeploymentAllowed({...accountPolicy,database:{...accountPolicy.database,id:'00000000-0000-0000-0000-000000000000'}},accountConfig,env)));
+for(const [name,patch] of Object.entries({
+ 'asset-first bypass':{assets:{...accountConfig.assets,run_worker_first:false}},
+ 'selective worker-first bypass':{assets:{...accountConfig.assets,run_worker_first:['/api/*']}},
+ 'unknown runtime entry':{main:'other/index.mjs'},
+ 'unapproved database':{d1_databases:[{...accountConfig.d1_databases[0],database_id:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}]},
+ 'extra database':{d1_databases:[...accountConfig.d1_databases,{binding:'OTHER',database_id:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}]},
+ 'public bootstrap email':{vars:{...accountConfig.vars,BOOTSTRAP_ADMIN_EMAIL:'private@example.test'}},
+ 'different application origin':{vars:{APP_ORIGIN:'https://other.example.test'}},
+ 'unapproved mail binding':{send_email:[{name:'EMAIL'}]},
+ 'unapproved route':{routes:['*/*']},
+ 'unapproved KV':{kv_namespaces:[]},
+ 'unapproved secret store':{secrets_store_secrets:[]},
+ 'unapproved unsafe bindings':{unsafe:{}},
+ 'unapproved extra configuration':{logpush:true},
+ 'unapproved cron':{triggers:{crons:['* * * * *']}},
+ 'private vars lost':{keep_vars:false}
+}))test(`account runtime rejects ${name}`,()=>assert.throws(()=>assertDeploymentAllowed(accountPolicy,{...accountConfig,...patch},env)));
