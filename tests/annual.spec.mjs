@@ -44,7 +44,7 @@ test('legacy day1/day30 records import only after consent and day365 persists in
  const local=await page.evaluate(()=>JSON.parse(localStorage.getItem('little-lab-v2')));expect(local.records['30:7-9'].field0).toBe('QA legacy day30');expect(local.records['365:7-9']).toBeUndefined();
 });
 test('malformed old browser storage cannot overwrite valid cloud progress',async({page})=>{
- await page.addInitScript(()=>localStorage.setItem('little-lab-v2','{not valid'));await ready(page);await page.locator('#tab-observations').click();await page.locator('[data-field="spoken"]').fill('QA valid cloud');await cloudSaved(page);await page.reload();await expect(page.locator('[data-field="spoken"]')).toHaveValue('QA valid cloud');await page.locator('#account-nav').click();await page.locator('#import-details summary').click();await expect(page.locator('#legacy-import-preview')).toContainText('没有可导入');
+ await page.addInitScript(()=>localStorage.setItem('little-lab-v2','{not valid'));await ready(page);await page.locator('#tab-observations').click();await page.locator('[data-field="spoken"]').fill('QA valid cloud');await cloudSaved(page);await page.reload();await expect(page.locator('[data-field="spoken"]')).toHaveValue('QA valid cloud');await page.locator('#account-nav').click();await page.locator('#import-details summary').click();await expect(page.locator('#legacy-import-preview')).toContainText('没有找到可读取的旧记录');
 });
 test('cloud state day and future-date recommendations stay bounded',async({page})=>{
  await seed(page,{day:366,age:'4-6',startDate:localDate(),records:{},steps:{},completed:{},legacyRecords:{}});await ready(page);await expect(page.locator('#day-number')).toContainText('DAY 365 / 365');
