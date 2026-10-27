@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 import {mkdirSync} from 'node:fs';
-import {resetServer,fixture,loginAPI,authFetch,cloudSaved} from './account-helpers.mjs';
+import {resetServer,fixture,loginAPI,authFetch,cloudSaved,changeProfileAge} from './account-helpers.mjs';
 const progress=extra=>({startDate:'2026-10-26',day:1,age:'4-6',records:{},steps:{},completed:{},legacyRecords:{},...extra});
 async function ready(page,options={}){
  await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#lab');await expect(page.locator('#open-safety')).toBeVisible();
@@ -22,7 +22,7 @@ test('fresh hidden rendering does not imply views; explicit nonsequential viewin
 test('viewing all steps is not completion, observation, guardian confirmation or sequential unlocking',async({page})=>{
  const seed=await ready(page,{email:'reader@qa.test',role:'parent',unlockAll:false,unlockThrough:1});await preview(page);for(const i of [1,2,3])await view(page,i);await cloudSaved(page);
  const state=await stored(page,seed.children[0].id);expect(state.viewedSteps['1:4-6']).toBe(15);expect(state.completed).toEqual({});expect(Object.values(state.records).every(r=>Object.keys(r).length===0)).toBe(true);await expect(page.locator('#reading-next')).toContainText('尚未标记实际探索完成');await expect(page.locator('#prep-summary')).toContainText('仅预览');await expect(page.locator('#exploration-status')).toHaveText('实验 · 尚未标记完成');
- await page.locator('#continue-reading').click();await expect(page.locator('#observations')).toBeVisible();await expect(page.locator('#complete-day')).toHaveAttribute('aria-pressed','false');await page.locator('#day-next').click();await expect(page.locator('.locked-activity')).toBeVisible();await expect(page.locator('[data-step]')).toHaveCount(0);
+ await page.locator('#continue-reading').click();await expect(page.locator('#observations')).toBeVisible();await expect(page.locator('#complete-day')).toHaveAttribute('aria-pressed','false');await page.locator('#day-next').click();await expect(page.locator('#toast')).toHaveClass(/show/);await expect(page.locator('#day-number')).toContainText('DAY 01');await expect(page.locator('.locked-activity')).toHaveCount(0);await expect(page.locator('[data-step]')).toHaveCount(4);
 });
 
 test('legacy cursor and completed marker restore without fabricated viewed history; saved new views survive reload',async({page})=>{
@@ -33,16 +33,16 @@ test('legacy cursor and completed marker restore without fabricated viewed histo
 
 test('repeated child, age and day switching isolates view masks and safety confirmation',async({page})=>{
  const seed=await ready(page,{children:[{nickname:'合成甲',ageBand:'4-6'},{nickname:'合成乙',ageBand:'4-6'}]});const [a,b]=seed.children;await preview(page);await view(page,3);await cloudSaved(page);
- await page.locator('[data-age="7-9"]').click();await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await expect(page.locator('#step-next')).toBeDisabled();await preview(page);await view(page,1);await cloudSaved(page);
+ await changeProfileAge(page,'7-9');await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await expect(page.locator('#step-next')).toBeDisabled();await preview(page);await view(page,1);await cloudSaved(page);
  await page.locator('#day-next').click();await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await preview(page);await cloudSaved(page);
  for(let repeat=0;repeat<2;repeat++){
   await page.locator('#child-switch').selectOption(b.id);await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await expect(page.locator('#step-next')).toBeDisabled();await page.locator('#child-switch').selectOption(a.id);await expect(page.locator('#reading-count')).toHaveText('已查看 1 / 4 步');await expect(page.locator('#step-next')).toBeDisabled();
  }
- await page.locator('#day-prev').click();await page.locator('[data-age="4-6"]').click();await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');await expect(page.locator('#reading-position')).toContainText('第 4 / 4 步');await cloudSaved(page);expect((await stored(page,a.id)).viewedSteps).toEqual({'1:4-6':9,'1:7-9':3,'2:7-9':1});expect((await stored(page,b.id)).viewedSteps).toEqual({});
+ await page.locator('#day-prev').click();await changeProfileAge(page,'4-6');await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');await expect(page.locator('#reading-position')).toContainText('第 4 / 4 步');await cloudSaved(page);expect((await stored(page,a.id)).viewedSteps).toEqual({'1:4-6':9,'1:7-9':3,'2:7-9':1});expect((await stored(page,b.id)).viewedSteps).toEqual({});
 });
 
 test('read-only panels and hash navigation never manufacture new view state; resume returns to selected step',async({page})=>{
- const seed=await ready(page);await page.locator('#tab-observations').click();await page.locator('[data-age="7-9"]').click();await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await page.locator('#tab-procedure').click();await preview(page);await view(page,2);await cloudSaved(page);
+ const seed=await ready(page);await page.locator('#tab-observations').click();await changeProfileAge(page,'7-9');await expect(page.locator('#reading-count')).toHaveText('已查看 0 / 4 步');await page.locator('#tab-procedure').click();await preview(page);await view(page,2);await cloudSaved(page);
  let writes=0;page.on('request',request=>{if(request.method()==='PUT'&&request.url().endsWith('/state'))writes++});for(let i=0;i<2;i++){await page.locator('#tab-learning-panel').click();await page.locator('nav a[href="#dots"]').click();await page.locator('nav a[href="#lab"]').click();await expect(page.locator('#learning-panel')).toBeVisible();await page.locator('#continue-reading').click();await expect(page.locator('#procedure')).toBeVisible();await expect(page.locator('[data-step="2"]')).toHaveAttribute('aria-current','step')}
  expect(writes).toBe(0);expect((await stored(page,seed.children[0].id)).viewedSteps).toEqual({'1:7-9':5});
 });
@@ -74,7 +74,7 @@ test('server relock removes stale reading controls and preserves only previously
 test('keyboard step controls, accessible names and 360px hierarchy remain usable',async({page},info)=>{
  await page.setViewportSize({width:360,height:800});await ready(page);await page.locator('#continue-reading').focus();await page.keyboard.press('Enter');await page.locator('#step-stage').scrollIntoViewIfNeeded();await expect(page.locator('#reading-count')).toHaveText('已查看 1 / 4 步');await page.locator('[data-step="3"]').focus();await page.keyboard.press('Enter');await page.locator('#step-stage').scrollIntoViewIfNeeded();await expect(page.locator('#step-stage')).toBeFocused();await expect(page.locator('[data-step="3"]')).toHaveAttribute('aria-label',/第4步.+当前查看/);await expect(page.locator('.flow-text').first()).toBeVisible();await expect(page.locator('.flow-status').nth(1)).toHaveText('○ 未查看');await shot(page,info,'360-current');
  for(const id of ['procedure','materials-panel','observations','learning-panel']){await page.locator('#tab-'+id).click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await shot(page,info,'360-'+id)}
- await page.locator('#tab-learning-panel').focus();await page.keyboard.press('Home');await expect(page.locator('#tab-procedure')).toBeFocused();await expect(page.locator('#procedure')).toBeVisible();await page.keyboard.press('ArrowRight');await expect(page.locator('#materials-panel')).toBeVisible();await expect(page.locator('#tab-materials-panel')).toBeFocused();
+ await page.locator('#tab-learning-panel').focus();await page.keyboard.press('Home');await expect(page.locator('#tab-materials-panel')).toBeFocused();await expect(page.locator('#materials-panel')).toBeVisible();await page.keyboard.press('ArrowRight');await expect(page.locator('#procedure')).toBeVisible();await expect(page.locator('#tab-procedure')).toBeFocused();
 });
 
 

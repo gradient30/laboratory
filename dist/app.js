@@ -29,10 +29,39 @@ let session=null,authConfig=null,children=[],activeChild=null,revision=0,access=
 let environmentSnapshot=null,childLoadError='',curriculumError='';
 let dirty=false,saveVersion=0,saving=null,saveTimer=null,saveError='',saveConflict=false;
 let authChallenge=null,authEmail='',authConsent=false,resendAt=0,authTimer=null,adminSection='users',authEpoch=0,authBusy=false,recoverySnapshot=null,familyMutationBusy=false;
-let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer,activePanel='procedure';
+let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer,activePanel='materials-panel';
 const recordKey=()=>`${state.day}:${state.age}`;
 const current=()=>experiments[state.day-1];
 const guide=()=>current().ageGuides[state.age];
+const PREPARATION_PREFIX='little-lab-preparation-v1:';
+const preparationMemory=new Map();
+function preparationKey(){
+ const e=current();if(!session?.user?.id||!activeChild?.id||!e?.ageGuides||e.locked)return null;
+ const content=JSON.stringify([1,e.id,state.age,e.safety,e.materials,e.ageGuides[state.age]?.support,e.ageGuides[state.age]?.steps]);
+ let fingerprint=2166136261;for(let i=0;i<content.length;i++)fingerprint=Math.imul(fingerprint^content.charCodeAt(i),16777619);
+ return PREPARATION_PREFIX+[session.user.id,activeChild.id,e.id,state.age,(fingerprint>>>0).toString(16)].map(encodeURIComponent).join(':');
+}
+function rememberPreparation(){
+ const key=preparationKey();if(!key)return;const value={checks:checks.map(v=>v===true),gate:gate==='ready'&&checks.every(Boolean)?'ready':'locked'};
+ preparationMemory.set(key,value);try{sessionStorage.setItem(key,JSON.stringify(value))}catch{/* A blocked store still preserves this page's choices. */}
+}
+function restorePreparation(){
+ gate='locked';checks=[false,false,false];const key=preparationKey();if(!key)return;
+ let value=preparationMemory.get(key);try{const stored=sessionStorage.getItem(key);if(stored!==null)value=JSON.parse(stored)}catch{}
+ if(!isRecord(value)||!Array.isArray(value.checks)||value.checks.length!==3||value.checks.some(v=>typeof v!=='boolean'))return;
+ checks=[...value.checks];gate=value.gate==='ready'&&checks.every(Boolean)?'ready':'locked';
+}
+function clearPreparation(){
+ preparationMemory.clear();try{for(let i=sessionStorage.length-1;i>=0;i--){const key=sessionStorage.key(i);if(key?.startsWith(PREPARATION_PREFIX))sessionStorage.removeItem(key)}}catch{}
+}
+let toolbarObserver;
+function measureWorkspace(){
+ const header=$('.site-header'),toolbar=$('#workspace-toolbar');
+ document.documentElement.style.setProperty('--header-height',Math.ceil(header?.getBoundingClientRect().height||78)+'px');
+ document.documentElement.style.setProperty('--toolbar-height',Math.ceil(toolbar?.getBoundingClientRect().height||0)+'px');
+}
+function watchWorkspace(){toolbarObserver?.disconnect();toolbarObserver=new ResizeObserver(measureWorkspace);for(const el of [$('.site-header'),$('#workspace-toolbar')])if(el)toolbarObserver.observe(el);measureWorkspace()}
+
 const stepNumber=()=>{const value=Number(state.steps[recordKey()]);return Number.isInteger(value)?Math.max(0,Math.min(3,value)):0};
 // Reading is separate from experiment completion. Legacy cursors never imply earlier views.
 function readingProgress(mask,cursor,count=4){
@@ -106,12 +135,11 @@ function materialIcon(name){
  return `<svg viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="#53766a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${drawing}</svg>`;
 }
 function renderAge(){
- $('#age-tabs').innerHTML=ageBands.map(age=>`<button class="age-tab" data-age="${age}" aria-pressed="${state.age===age}"><b>${ages[age].label}<small style="font-size:8px;font-weight:500"> 岁</small></b><span>${ages[age].name}</span></button>`).join('');
- $('#age-context').innerHTML=`<b>${ages[state.age].skill}入口 · 建议${ages[state.age].time}</b><span>${ages[state.age].intro} 等待时间另计，可随兴趣调整。</span>`;
- $$('[data-age]').forEach(btn=>btn.addEventListener('click',()=>{state.age=btn.dataset.age;gate='locked';checks=[false,false,false];save();renderAge();renderExperiment();renderJourney()}));
+ state.age=ageBands.includes(activeChild?.ageBand)?activeChild.ageBand:'4-6';
+ $('#age-context').innerHTML=`<b>${ages[state.age].label}岁 · ${ages[state.age].skill}引导</b><span>${ages[state.age].intro} 可在“我的家庭”修改年龄段。</span>`;
 }
 function renderExperiment(){
- const e=current();if(!e||e.locked||!e.ageGuides){renderLockedActivity(e);return}const g=guide(),a=ages[state.age],done=!!state.completed[recordKey()];
+ const e=current();if(!e||e.locked||!e.ageGuides){renderLockedActivity(e);return}restorePreparation();const g=guide(),a=ages[state.age],done=!!state.completed[recordKey()];
  $('#day-number').textContent=`第 ${monthForDay(e.id)} 月 · DAY ${e.day} / ${totalDays}`;
  $('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;
  $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===totalDays;
@@ -125,12 +153,12 @@ function renderExperiment(){
  <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${a.recordTitle}</h4><p>${a.recordIntro}</p><div id="record-area"></div><p class="record-note">这里只记录实验现象，不填写姓名、生日或联系方式。<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
  ${renderInquiry(e)}
  <details class="extension"><summary><span class="extension-tag">可选 +1</span>${escapeHTML(e.extension.title||'再试一个小变化')}<span></span></summary><div><p>今天还有兴趣和精力，再选这一个就够了。也可以留给另一天。</p>${e.extension.ageNote?`<p class="extension-age-note"><strong>分龄参与：</strong>${escapeHTML(e.extension.ageNote)}</p>`:''}<div class="mini-flow">${extensionNodes(e).map((node,i)=>`<div class="mini-node"><b><span>${i+1}</span>${['先商量','再试试','说发现'][i]}</b><p>${escapeHTML(node)}</p></div>`).join('')}</div><p class="mini-note">成人提醒：${escapeHTML(e.extension.safety||e.safety)}</p></div></details>
- <div class="finish-row"><button id="complete-day" class="button ${done?'outline':'primary'}" aria-pressed="${done}">${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span></button><p>看完步骤不等于做过实验。实际探索后再自行标记；无需完成延伸或得到“标准结果”。<br>同一天换一个年龄入口，记录会分别保存。</p></div></section>
+ <div class="finish-row"><button id="complete-day" class="button ${done?'outline':'primary'}" aria-pressed="${done}">${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span></button><p>看完步骤不等于做过实验。实际探索后再自行标记；无需完成延伸或得到“标准结果”。<br>引导已按孩子的档案年龄准备，旧记录仍会保留。</p></div></section>
  <div class="source-line"><strong>来源与改编：</strong>${escapeHTML(e.sourceNote||'家庭探究改编，非机构认证课程。')} ${e.sources.length?e.sources.map(s=>`<a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.originalTitle||s.title)} ↗</a>`).join(''):'本方案自编／家庭改编，无逐项对应原页。'}<br>图示为操作与思考示意，不是实拍或结果保证；准确用量与安全要求以步骤正文为准。${renderReview(e)}</div></div>`;
  buildWorkspace();
- $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}}));
- $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog',focusProcedure)});
- $('#preview-steps').addEventListener('click',()=>{gate='preview';$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog',focusProcedure)});
+ $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}rememberPreparation();updatePreparationButton()}));
+ $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';rememberPreparation();updatePreparationButton();$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog',focusProcedure)});
+ $('#preview-steps').addEventListener('click',()=>{gate='preview';rememberPreparation();$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog',focusProcedure)});
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
  $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
@@ -146,33 +174,36 @@ function buildWorkspace(){
  const method=$('.age-method'),methodDetails=document.createElement('details');methodDetails.className='method-disclosure';methodDetails.innerHTML='<summary>分龄支持与比较条件</summary>';method.replaceWith(methodDetails);methodDetails.append(method);
  // The full safety requirements and materials remain in the pre-flight dialog, not lost in a collapsed card.
  const dialogMaterials=document.createElement('div');dialogMaterials.className='dialog-materials';dialogMaterials.innerHTML='<h3>1 / 核对材料</h3><ul>'+current().materials.map(m=>`<li>${escapeHTML(m)}</li>`).join('')+'</ul><h3>2 / 留意风险并确认</h3>';
- $('#safety-dialog-content').append(dialogMaterials,safety);
+ const overview=$('.experiment-top');overview.classList.add('dialog-overview');
+ const identity=document.createElement('div');identity.className='activity-heading';identity.innerHTML=`${badge(current())}<h3>${escapeHTML(current().title)}</h3><span>第 ${current().day} 项</span>`;shell.prepend(identity);
+ $('#safety-dialog-content').append(overview,dialogMaterials,safety);
  if(guide().support){const ageSafety=document.createElement('p');ageSafety.className='dialog-age-support';ageSafety.innerHTML='<strong>本年龄支持与安全：</strong>'+escapeHTML(guide().support);$('.safety-specific',safety).append(ageSafety);}
- const printSafety=document.createElement('section');printSafety.className='print-safety';printSafety.innerHTML='<h4>成人安全要求</h4>'+$('.safety-specific',safety).innerHTML;$('.experiment-top').after(printSafety);
+ const printSafety=document.createElement('section');printSafety.className='print-safety';printSafety.innerHTML='<h4>成人安全要求</h4>'+$('.safety-specific',safety).innerHTML;printSafety.insertAdjacentHTML('afterbegin','<h3>'+escapeHTML(current().title)+'</h3>');$('.activity-heading').after(printSafety);
  const stepSafety=document.createElement('details');stepSafety.className='step-safety-reminder';stepSafety.innerHTML='<summary>◇ 当天安全提醒 · 成人在旁，不入口</summary>'+$('.safety-specific',safety).innerHTML;$('.step-controls').before(stepSafety);
  materials.id='materials-panel';
- const tools=document.createElement('div');tools.className='workspace-tools';tools.innerHTML='<div class="safety-compact"><div><b id="prep-summary">动手前，先请家长确认</b><span id="prep-hint">可先看图；未确认不代表可以独自操作。</span></div><button id="open-safety" class="button primary compact">开始前确认 →</button><button id="preview-main" class="text-button">先看图</button></div><div class="workspace-tabs" role="tablist" aria-label="当前实验内容"><button role="tab" id="tab-procedure" data-panel="procedure" aria-controls="procedure">操作步骤</button><button role="tab" id="tab-materials-panel" data-panel="materials-panel" aria-controls="materials-panel">准备材料</button><button role="tab" id="tab-observations" data-panel="observations" aria-controls="observations">记录发现</button><button role="tab" id="tab-learning-panel" data-panel="learning-panel" aria-controls="learning-panel">知识拓展</button></div>';
- $('.experiment-top').after(tools);
- tools.after($('.workspace-tabs',tools));
+ const tools=document.createElement('div');tools.id='workspace-toolbar';tools.className='workspace-tools';tools.innerHTML='<div class="safety-compact"><div><b id="prep-summary">动手前，先请家长确认</b><span id="prep-hint">可先看图；未确认不代表可以独自操作。</span></div><button id="open-safety" class="button primary compact">开始前确认 →</button><button id="preview-main" class="text-button">先看图</button></div><div class="workspace-tabs" role="tablist" aria-label="当前实验内容"><button role="tab" id="tab-materials-panel" data-panel="materials-panel" aria-controls="materials-panel">准备材料</button><button role="tab" id="tab-procedure" data-panel="procedure" aria-controls="procedure">操作步骤</button><button role="tab" id="tab-observations" data-panel="observations" aria-controls="observations">记录发现</button><button role="tab" id="tab-learning-panel" data-panel="learning-panel" aria-controls="learning-panel">知识拓展</button></div>';
+ $('.activity-heading').after(tools);
+ const materialsNext=document.createElement('button');materialsNext.id='materials-next';materialsNext.className='button outline';materialsNext.textContent='材料看好了，查看操作步骤 →';materialsNext.addEventListener('click',()=>showPanel('procedure',true));materials.append(materialsNext);
  const progress=document.createElement('section');progress.id='reading-summary';progress.className='reading-summary';progress.setAttribute('aria-label','当前活动浏览进度');
  progress.innerHTML='<div class="reading-overview"><span class="reading-label">步骤浏览</span><strong id="reading-count" role="status" aria-live="polite" aria-atomic="true">已查看 0 / 4 步</strong><span id="reading-remaining">还有 4 步未查看</span><progress id="reading-meter" max="4" value="0" aria-label="已查看的操作步骤"></progress></div><div class="reading-action"><b id="reading-position"></b><button id="continue-reading" class="button outline compact">开始查看步骤 →</button></div><p id="reading-next"></p><span id="exploration-status" class="exploration-status"></span>';
- $('.workspace-tabs').after(progress);
+ tools.after(progress);
  $('#continue-reading').addEventListener('click',()=>{
   if(current()?.locked||!current()?.ageGuides)return;
-  if(gate==='locked'){gate='preview';renderStep();focusProcedure()}
+  if(gate==='locked'){gate='preview';rememberPreparation();renderStep();focusProcedure()}
   else if(activePanel!=='procedure')focusProcedure();
   else if(reading().remaining){setStep(reading().nextUnread);scrollTo('#step-stage')}
   else showPanel('observations',true);
  });
  for(const panel of [materials,procedure,observations,learning]){panel.classList.add('workspace-panel');panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby','tab-'+panel.id);panel.tabIndex=0;}
  $('#open-safety').addEventListener('click',()=>openDialog('safety-dialog'));
- $('#preview-main').addEventListener('click',()=>{gate='preview';renderStep();focusProcedure()});
+ $('#preview-main').addEventListener('click',()=>{gate='preview';rememberPreparation();renderStep();focusProcedure()});
  $$('[data-panel]').forEach((button,index,buttons)=>{button.addEventListener('click',()=>showPanel(button.dataset.panel,false,true));button.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%buttons.length;else if(event.key==='ArrowLeft')next=(index+buttons.length-1)%buttons.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else return;event.preventDefault();showPanel(buttons[next].dataset.panel,false,true);buttons[next].focus({preventScroll:true})})});
- showPanel(activePanel);
+ showPanel(activePanel);updatePreparationButton();watchWorkspace();
 }
-function focusProcedure(){showPanel('procedure');$('#step-stage').focus({preventScroll:true});scrollTo('#step-stage')}
+function updatePreparationButton(){const button=$('#begin');if(button){button.disabled=!checks.every(Boolean);button.textContent=gate==='ready'?'已确认，继续探索 →':'准备好了，开始探索 →'}}
+function focusProcedure(){showPanel('procedure');measureWorkspace();$('#step-stage').focus({preventScroll:true});requestAnimationFrame(()=>{measureWorkspace();scrollTo('#step-stage')})}
 function showPanel(id,focus=false,align=false){
- if(!['procedure','materials-panel','observations','learning-panel'].includes(id))id='procedure';activePanel=id;
+ if(!['procedure','materials-panel','observations','learning-panel'].includes(id))id='materials-panel';activePanel=id;
  $$('.workspace-panel').forEach(p=>p.hidden=p.id!==id);
  $$('[data-panel]').forEach(b=>{const selected=b.dataset.panel===id;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1});
  updateReadingProgress();queueDisplayedStep();
@@ -192,8 +223,8 @@ function renderStep(){
  $('#step-counter').innerHTML=`<b>${i+1}</b> / 4 步`;$('#step-counter').setAttribute('aria-label',`当前选中第${i+1}步，共4步`);
  $('#locked-message').hidden=gate!=='locked';
  $('#prep-summary').textContent=gate==='ready'?'✓ 已完成家长确认':gate==='preview'?'仅预览图示，尚未开始实验':'动手前，先请家长确认';
- $('#prep-hint').textContent=gate==='ready'?'条件有变化？请重新核对，成人仍需在旁。':'可先看图；未确认不代表可以独自操作。';
- $('#open-safety').textContent=gate==='ready'?'查看／调整确认':'开始前确认 →';
+ $('#prep-hint').textContent=gate==='ready'?'本次准备已记住；条件改变时可重新核对。':'可先看图；未确认不代表可以独自操作。';
+ $('#open-safety').textContent=gate==='ready'?'✓ 已确认 · 查看准备':'开始前确认 →';
  $('#preview-main').hidden=gate!=='locked';
  updateReadingProgress();queueDisplayedStep();
 }
@@ -236,23 +267,48 @@ function renderReview(e){
  const r=e.review;if(!r)return '<p class="review-note">原版活动：请同时核对来源和当天安全提示；不是机构认证课程。</p>';
  return `<details class="review-details"><summary>资料核查与证据范围（未实地试做）</summary><p>${escapeHTML(r.method||'来源核查')} · ${escapeHTML(r.checkedAt||'日期未标注')}</p><p>${escapeHTML(r.limitations||'未实地试做；家庭条件可能改变观察结果。')}</p><ul>${e.sources.map(s=>`<li><a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.title||s.originalTitle)} ↗</a>${[s.claim,s.scope,s.support].some(Boolean)?'：'+[...new Set([s.claim,s.scope,s.support].filter(Boolean))].map(escapeHTML).join('；'):'：主题或原理参考，具体家庭步骤为改编。'}</li>`).join('')}</ul><p>来源参考不代表来源机构背书；自动化检查不等于真人专家认证或法律合规认证。</p></details>`;
 }
+function groupAccess(month='all'){
+ const days=experiments.filter(e=>month==='all'||monthForDay(e.id)===Number(month));const available=days.filter(e=>!e.locked).length;
+ return {days,total:days.length,available,locked:available===0};
+}
+function lockedNotice(label='这项活动'){
+ const message=access?.mode==='sequential'&&access?.unlockedThrough>0?`${label}还没开放。先完成已开放的活动，下一项会自动开放，不用着急。`:`${label}暂未开放，请家长联系管理员。已有记录会保留。`;
+ const feedback=$('#day-map').open?$('#map-feedback'):$('#journey-feedback');
+ if(feedback){feedback.textContent=message;feedback.hidden=false}if(!$('#day-map').open)toast(message);
+ return false;
+}
+function setMapMonth(value){
+ if(value!=='all'&&(!/^\d+$/.test(value)||+value<1||+value>12))return false;
+ if(groupAccess(value).locked){$('#map-month').value=mapMonth;return lockedNotice(value==='all'?'这一年的活动':`第 ${value} 月`)}
+ mapMonth=value;$('#map-month').value=value;$('#map-feedback').hidden=true;renderMap();return true;
+}
 function renderJourney(){
- const completed=experiments.filter(e=>isDone(e.id)).length;
- const monthDays=experiments.filter(e=>monthForDay(e.id)===journeyMonth);
- $('#journey-content').innerHTML=`<div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const days=experiments.filter(e=>monthForDay(e.id)===i+1),count=days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" aria-pressed="${journeyMonth===i+1}"><b>第 ${i+1} 月</b><small>${count} / ${days.length}</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>天留下了探索足迹<br>可以跳过，也可以再发现一次</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
- $$('#journey-content [data-day]').forEach(b=>b.addEventListener('click',()=>{chooseDay(+b.dataset.day);scrollTo('#lab')}));
- $$('[data-journey-month]').forEach(b=>b.addEventListener('click',()=>{journeyMonth=+b.dataset.journeyMonth;renderJourney()}));
+ const completed=experiments.filter(e=>isDone(e.id)).length,year=groupAccess(),monthDays=groupAccess(journeyMonth).days;
+ $('#journey-content').innerHTML=`<button id="journey-year" class="journey-year ${year.locked?'locked':''}" aria-disabled="${year.locked}"><b>${year.locked?'🔒 ':''}第 1 年</b><span>已开放 ${year.available} / ${year.total} 项</span></button><p id="journey-feedback" class="access-feedback" role="status" hidden></p><div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const group=groupAccess(i+1),count=group.days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" class="${group.locked?'locked':''}" aria-disabled="${group.locked}" aria-pressed="${journeyMonth===i+1}"><b>${group.locked?'🔒 ':''}第 ${i+1} 月</b><small>${group.locked?'尚未开放':`开放 ${group.available} / ${group.total}`}</small><small>已探索 ${count} 项</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>项活动留下了探索足迹<br>按已开放的顺序慢慢发现</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
+ $('#journey-year').addEventListener('click',()=>{if(year.locked)lockedNotice('这一年的活动');else{setMapMonth('all');openDialog('day-map')}});
+ $$('#journey-content [data-day]').forEach(b=>b.addEventListener('click',()=>{if(chooseDay(+b.dataset.day))scrollTo('#lab')}));
+ $$('[data-journey-month]').forEach(b=>b.addEventListener('click',()=>{if(groupAccess(b.dataset.journeyMonth).locked){lockedNotice(`第 ${b.dataset.journeyMonth} 月`);return}journeyMonth=+b.dataset.journeyMonth;renderJourney()}));
 }
 function renderMap(){
- const query=mapQuery.trim().toLocaleLowerCase();
+ const query=mapQuery.trim().toLocaleLowerCase(),year=groupAccess();
  const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.question||'',e.id,...(e.materials||[])].join(' ').toLocaleLowerCase().includes(query)));
  $('#navigator-progress').textContent=`已探索 ${experiments.filter(e=>isDone(e.id)).length} / ${totalDays}`;
+ $('#map-all-year').textContent=`${year.locked?'🔒 ':''}全年 · 开放 ${year.available}/${year.total}`;$('#map-all-year').setAttribute('aria-disabled',String(year.locked));
+ const currentMonth=groupAccess(monthForDay(state.day));$('#map-current-month').setAttribute('aria-disabled',String(currentMonth.locked));$('#map-current-month').textContent=currentMonth.locked?'🔒 当前月':'当前月';
+ for(const option of $('#map-month').options){const group=groupAccess(option.value);option.textContent=`${group.locked?'🔒 ':''}${option.value==='all'?'全部月份':`第 ${option.value} 月`} · ${group.locked?'未开放':`开放 ${group.available}/${group.total}`}`;option.dataset.locked=String(group.locked)}
+ $('#map-month').value=mapMonth;
  $('#map-count').textContent=`找到 ${visible.length} 个活动 · 全年 ${totalDays} 个主活动`;
- $('#map-grid').innerHTML=visible.length?visible.map(e=>`<button class="map-day ${e.locked?'locked':''} ${e.id===state.day?'current':''} ${isDone(e.id)?'done':''}" data-day="${e.id}" aria-label="第${e.day}天：${escapeHTML(e.title)}${isDone(e.id)?'，已探索':''}"><span class="map-top"><span>第${monthForDay(e.id)}月 / ${e.day}</span><span aria-hidden="true">${e.locked?'🔒':isDone(e.id)?'✓':e.id===state.day?'●':'○'}</span></span>${badge(e)}<strong>${escapeHTML(e.title)}</strong><span class="map-domain">${e.locked?'尚未解锁':escapeHTML(e.type||'探究')+' · '+escapeHTML(e.domain)}</span></button>`).join(''):`<div class="empty-map"><p>没有符合条件的活动。试试其他学科、月份，或缩短搜索词。</p>${mapMonth!=='all'?'<button id="map-show-year" class="button outline compact">查看全年该学科</button>':''}</div>`;
- $('#map-show-year')?.addEventListener('click',()=>{mapMonth='all';$('#map-month').value='all';renderMap()});
- $$('#map-grid [data-day]').forEach(btn=>btn.addEventListener('click',()=>{chooseDay(+btn.dataset.day);closeDialog('day-map');scrollTo('#lab')}));
+ $('#map-grid').innerHTML=visible.length?visible.map(e=>`<button class="map-day ${e.locked?'locked':''} ${e.id===state.day?'current':''} ${isDone(e.id)?'done':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天：${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}"><span class="map-top"><span>第${monthForDay(e.id)}月 / ${e.day}</span><span aria-hidden="true">${e.locked?'🔒':isDone(e.id)?'✓':e.id===state.day?'●':'○'}</span></span>${badge(e)}<strong>${escapeHTML(e.title)}</strong><span class="map-domain">${e.locked?'尚未开放':escapeHTML(e.type||'探究')+' · '+escapeHTML(e.domain)}</span></button>`).join(''):`<div class="empty-map"><p>没有符合条件的活动。试试其他学科、月份，或缩短搜索词。</p>${mapMonth!=='all'?'<button id="map-show-year" class="button outline compact">查看全年该学科</button>':''}</div>`;
+ $('#map-show-year')?.addEventListener('click',()=>setMapMonth('all'));
+ $$('#map-grid [data-day]').forEach(btn=>btn.addEventListener('click',()=>{if(chooseDay(+btn.dataset.day)){closeDialog('day-map',()=>{history.replaceState(history.state,'','#lab');syncView();scrollTo('#lab')})}}));
 }
-function chooseDay(id){if(!appLoaded||loadedChildId!==activeChild?.id||loadingChild)return;activePanel='procedure';if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}if(!Number.isInteger(id)||id<1||id>totalDays)return;state.day=id;journeyMonth=monthForDay(id);gate='locked';checks=[false,false,false];save();renderExperiment();renderJourney()}
+function chooseDay(id){
+ if(!appLoaded||loadedChildId!==activeChild?.id||loadingChild||!Number.isInteger(id)||id<1||id>totalDays)return false;
+ const target=experiments[id-1];if(!target||target.locked||!target.ageGuides)return lockedNotice('这项活动');
+ rememberPreparation();activePanel='materials-panel';state.day=id;journeyMonth=monthForDay(id);
+ if(!$('#day-map').open&&['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}
+ save();renderExperiment();renderJourney();return true;
+}
 let dialogNavigation=false,appLoaded=false,pendingDialogAction=null,pendingDialogFocus=null;
 const dialogOpeners=new Map();
 function trapDialogFocus(event){
@@ -266,20 +322,21 @@ function trapDialogFocus(event){
 function syncDialogUI(){const opened=!!$('dialog[open]');if(!opened)queueDisplayedStep();document.body.classList.toggle('dialog-open',opened);$$('.map-trigger').forEach(b=>b.setAttribute('aria-expanded',String($('#day-map').open)))}
 function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
-function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
+function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{userId:session?.user.id,childId:activeChild?.id,day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
 function closeDialog(id,afterClose=null){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){pendingDialogAction=afterClose;pendingDialogFocus=id;dialogNavigation=true;history.back()}else afterClose?.()}
 function clearStaleDialogState(){if(history.state?.littleLabDialog){const next={...history.state};delete next.littleLabDialog;delete next.littleLabDialogContext;history.replaceState(next,'',location.href)}}
 window.addEventListener('popstate',()=>{
  const closing=$$('dialog[open]').map(d=>d.id);$$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;for(const id of closing)restoreDialogFocus(id);if(!appLoaded||!session||!activeChild)return;
  const id=history.state?.littleLabDialog,context=history.state?.littleLabDialogContext;
+ const sameContext=context?.userId===session.user.id&&context?.childId===activeChild.id&&context?.age===activeChild.ageBand;
  if(id==='day-map'){renderMap();$('#day-map').showModal()}
- else if(id==='safety-dialog'&&current()?.ageGuides&&!current().locked){
-  if(context&&(context.day!==state.day||context.age!==state.age)){if(ageBands.includes(context.age))state.age=context.age;chooseDay(context.day);renderAge()}
-  if(current()?.ageGuides&&!current().locked)$('#safety-dialog').showModal()
+ else if(id==='safety-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
+  const valid=context.day===state.day||chooseDay(context.day);
+  if(valid&&current()?.ageGuides&&!current().locked)$('#safety-dialog').showModal()
  }
- else if(id==='diagram-dialog'&&current()?.ageGuides&&!current().locked){
-  if(context&&Number.isInteger(context.day)&&context.day>=1&&context.day<=totalDays){if(ageBands.includes(context.age))state.age=context.age;chooseDay(context.day);state.steps[recordKey()]=Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0;gate='preview';save();renderAge();if(current()?.ageGuides&&!current().locked)renderStep()}
-  if(current()?.ageGuides&&!current().locked){populateDiagram();$('#diagram-dialog').showModal();}
+ else if(id==='diagram-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
+  const valid=context.day===state.day||chooseDay(context.day);
+  if(valid&&current()?.ageGuides&&!current().locked){state.steps[recordKey()]=Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0;if(gate!=='ready')gate='preview';rememberPreparation();save();renderStep();populateDiagram();$('#diagram-dialog').showModal();showPanel('procedure');}
  }
  syncDialogUI();
  // Native history restores the opener scroll after popstate; align the requested step on the following frame.
@@ -354,13 +411,13 @@ async function flushSave(){
  finally{if(epoch===contextEpoch){saving=null;updateCloudStatus();if(location.hash==='#dots')renderDots();if(dirty&&!saveError&&!saveConflict)saveTimer=setTimeout(()=>flushSave(),250)}}})();saving=operation;updateCloudStatus();return operation;
 }
 async function ensureSaved(){if(!dirty)return true;const ok=await flushSave();if(!ok||dirty){toast('还有记录未保存。请先重试，或到“我的家庭”导出待保存记录。');return false}return true}
-function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(s.age)?s.age:child?.ageBand||'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.recordSchemaVersion=3;return s}
-function clearPrivateState(){contextEpoch++;clearTimeout(saveTimer);session=null;children=[];activeChild=null;loadedChildId=null;state=freshState();experiments=[];access=null;environmentSnapshot=null;childLoadError='';curriculumError='';revision=0;dirty=false;saving=null;saveConflict=false;saveError='';gate='locked';checks=[false,false,false];for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();$('#experiment').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#admin-content').replaceChildren();$('#dots-content').replaceChildren();$('#child-switch').replaceChildren();appLoaded=false}
+function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(child?.ageBand)?child.ageBand:ageBands.includes(s.age)?s.age:'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.recordSchemaVersion=3;return s}
+function clearPrivateState({preservePreparation=false}={}){if(!preservePreparation)clearPreparation();contextEpoch++;clearTimeout(saveTimer);session=null;children=[];activeChild=null;loadedChildId=null;state=freshState();experiments=[];access=null;environmentSnapshot=null;childLoadError='';curriculumError='';revision=0;dirty=false;saving=null;saveConflict=false;saveError='';gate='locked';checks=[false,false,false];for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();$('#experiment').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#admin-content').replaceChildren();$('#dots-content').replaceChildren();$('#child-switch').replaceChildren();appLoaded=false}
 function expireSession(){if(dirty&&session&&activeChild)recoverySnapshot={userId:session.user.id,child:{id:activeChild.id,nickname:activeChild.nickname,ageBand:activeChild.ageBand},state:JSON.parse(JSON.stringify(state)),exportedAt:new Date().toISOString()};clearPrivateState();renderAuth(recoverySnapshot?'请重新登录。尚未保存的记录暂留在此页面，关闭会丢失；登录原账号后可导出。':'登录已失效，请重新验证邮箱。');syncView()}
 async function refreshCurriculum(epoch=contextEpoch,render=true){if(!session||!activeChild)return;const childId=activeChild.id,result=await api('/api/children/'+encodeURIComponent(childId)+'/curriculum');if(epoch!==contextEpoch||childId!==activeChild?.id)return;const list=result.experiments;if(!Array.isArray(list)||list.length!==365||list.some((e,i)=>e.id!==i+1))throw new Error('课程目录不完整，请稍后重试。');experiments=list.map(e=>({...e,day:String(e.id).padStart(2,'0')}));access=result.access;curriculumError='';environmentSnapshot=result.meta?.environmentSnapshot||null;if(location.hash==='#dots')renderDots();if(render){renderAge();renderExperiment();renderJourney()}}
 async function selectChild(id,{skipSave=false}={}){
  if(!skipSave&&!await ensureSaved()){renderFamilyBar();return false}const child=children.find(c=>c.id===id&&!c.archivedAt);if(!child)return false;
- const epoch=++contextEpoch;loadingChild=true;childLoadError='';curriculumError='';environmentSnapshot=null;clearTimeout(saveTimer);dirty=false;saving=null;saveError='';saveConflict=false;activeChild=child;loadedChildId=null;state=freshState();state.age=child.ageBand;revision=0;access=null;appLoaded=false;$('#age-tabs').replaceChildren();$('#age-context').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#dots-content').replaceChildren();gate='locked';checks=[false,false,false];activePanel='procedure';experiments=[];$('#experiment').innerHTML='<div class="account-loading" role="status">正在读取这个孩子的探索进度…</div>';for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();renderFamilyBar();renderDots();
+ const epoch=++contextEpoch;loadingChild=true;childLoadError='';curriculumError='';environmentSnapshot=null;clearTimeout(saveTimer);dirty=false;saving=null;saveError='';saveConflict=false;activeChild=child;loadedChildId=null;state=freshState();state.age=child.ageBand;revision=0;access=null;appLoaded=false;$('#age-context').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#dots-content').replaceChildren();gate='locked';checks=[false,false,false];activePanel='materials-panel';experiments=[];$('#experiment').innerHTML='<div class="account-loading" role="status">正在读取这个孩子的探索进度…</div>';for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();renderFamilyBar();renderDots();
  try{const result=await api('/api/children/'+encodeURIComponent(id)+'/state');if(epoch!==contextEpoch)return false;state=normalizeState(result.state,child);revision=result.revision;access=result.access;mapMonth=String(monthForDay(state.day));journeyMonth=monthForDay(state.day);await refreshCurriculum(epoch);if(epoch!==contextEpoch)return false;appLoaded=true;loadedChildId=id;loadingChild=false;renderFamilyBar();syncView();return true}catch(error){if(epoch===contextEpoch){loadingChild=false;childLoadError=error.message;renderDots();$('#experiment').innerHTML='<div class="service-error"><h3>进度暂时没有载入</h3><p>'+escapeHTML(error.message)+'</p><button id="retry-child" class="button primary">重新读取</button></div>';$('#retry-child')?.addEventListener('click',()=>selectChild(id,{skipSave:true}));updateCloudStatus()}return false}
 }
 function renderFamilyBar(){const active=children.filter(c=>!c.archivedAt);$('#child-switch').innerHTML=active.map(c=>`<option value="${escapeHTML(c.id)}" ${c.id===activeChild?.id?'selected':''}>${escapeHTML(c.nickname)} · ${escapeHTML(c.ageBand)}岁</option>`).join('');$('#admin-nav').hidden=session?.user?.role!=='admin';updateCloudStatus()}
@@ -369,11 +426,12 @@ function syncView(){
  const signed=!!session,hasChild=!!activeChild,hash=location.hash;const account=!signed||!hasChild||hash==='#account';const admin=signed&&hasChild&&hash==='#admin'&&session.user.role==='admin';const dots=!account&&!admin&&hash==='#dots',journey=!account&&!admin&&hash==='#journey',parents=!account&&!admin&&hash==='#sources';
  $('#account-view').hidden=!account;$('#admin-view').hidden=!admin;$('#learning-view').hidden=account||admin||dots;$('#dots-view').hidden=!dots;$('#lab').hidden=account||admin||dots||journey||parents;$('#journey').hidden=!journey;$('#sources').hidden=!parents;$('#family-bar').hidden=!signed||!hasChild||account;$('#navigator-handle').hidden=account||admin||!hasChild;
  $$('.site-header .map-trigger').forEach(b=>b.hidden=!signed||!hasChild||account||admin);$$('.site-header nav a').forEach(a=>{const restricted=['#lab','#journey','#sources','#dots'].includes(a.hash);a.hidden=restricted&&(!signed||!hasChild);if(a.hash==='#admin')a.hidden=session?.user?.role!=='admin';if(a.hash===(account?'#account':hash||'#lab'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
- queueDisplayedStep();if(account&&signed)renderFamily();if(admin)renderAdmin();if(dots)renderDots();document.title=account?'我的家庭 · 小小实验室':admin?'管理中心 · 小小实验室':dots?'Dots看板 · 小小实验室':journey?'成长足迹 · 小小实验室':parents?'给家长 · 小小实验室':'小小实验室 · 365天看得见的发现';
+ queueDisplayedStep();requestAnimationFrame(measureWorkspace);if(account&&signed)renderFamily();if(admin)renderAdmin();if(dots)renderDots();document.title=account?'我的家庭 · 小小实验室':admin?'管理中心 · 小小实验室':dots?'Dots看板 · 小小实验室':journey?'成长足迹 · 小小实验室':parents?'给家长 · 小小实验室':'小小实验室 · 365天看得见的发现';
 }
 window.addEventListener('hashchange',()=>{syncView();if(location.hash==='#dots'&&!$('#dots-view').hidden){$('#dots-heading')?.focus({preventScroll:true});$('#dots-heading')?.scrollIntoView({block:'start',behavior:'instant'})}else if(location.hash==='#account')$('#account-heading')?.scrollIntoView({block:'start',behavior:'instant'});else if(location.hash==='#admin')$('#admin-heading')?.scrollIntoView({block:'start',behavior:'instant'})});
 window.addEventListener('beforeunload',event=>{if(dirty||recoverySnapshot||familyMutationBusy){event.preventDefault();event.returnValue=''}});
 document.addEventListener('visibilitychange',queueDisplayedStep);
+window.addEventListener('resize',measureWorkspace);
 window.addEventListener('online',()=>{if(dirty&&!saveConflict)flushSave()});
 
 function privacyNote(){return `<section class="profile-privacy" aria-label="家长使用提醒"><strong>陪孩子一起发现</strong><p class="privacy-summary">请由家长登录和管理，只填写孩子的昵称与年龄段，不填写真实姓名等私人信息。</p><p class="privacy-location">资料可能保存在中国大陆以外的地区，请了解后再使用。</p><details id="privacy-details" class="privacy-details"><summary>隐私与资料说明</summary><div class="privacy-detail-content"><p><strong>我们使用哪些资料？</strong><br>家长邮箱用于登录验证；孩子的昵称、年龄段和探索记录用于保存学习进度。昵称仍可能让人认出孩子，请不要填写真实姓名、生日、学校、联系方式或健康资料。</p><p><strong>谁帮助提供服务？</strong><br>验证码邮件由 Resend 发送，它会接收家长邮箱；账号、儿童资料和学习记录由 Cloudflare 保存和处理。我们不能保证资料保存在中国大陆。</p><p><strong>如何保管记录？</strong><br>可以在“我的家庭”导出资料，建议定期留一份备份。网上保存也可能发生丢失，请妥善保管导出文件，不要公开分享。</p><p><strong>归档会删除资料吗？</strong><br>不会。归档只是暂时收起档案，记录仍保留，也可以恢复，并非永久删除。需要处理账号或资料，请联系本站管理员。</p></div></details></section>`}
@@ -393,7 +451,7 @@ function renderVerify(message=''){
  $('#change-email').addEventListener('click',()=>{if(authBusy)return;renderAuth()});$('#resend-code').addEventListener('click',()=>action($('#resend-code'),async()=>{if(authBusy||!authConsent)return;const flow=authEpoch;setAuthBusy(true);try{const r=await api('/api/auth/request-code',{method:'POST',body:{email:authEmail,intent:'continue',adultConsent:authConsent,privacyAccepted:authConsent}});if(flow!==authEpoch)return;authChallenge=r.challengeId;resendAt=Date.now()+60000;renderVerify('已重新申请。请使用最新邮件里的验证码。')}finally{if(flow===authEpoch)setAuthBusy(false)}},'auth-message'));
  $('#verify-form').addEventListener('submit',event=>{event.preventDefault();if(authBusy)return;action($('#verify-code'),async()=>{const flow=authEpoch;setAuthBusy(true);try{const result=await api('/api/auth/verify-code',{method:'POST',body:{challengeId:authChallenge,code:$('#auth-code').value.trim()}});if(flow!==authEpoch)return;clearInterval(authTimer);authChallenge=null;authEmail='';authConsent=false;await acceptSession(result)}finally{if(flow===authEpoch)setAuthBusy(false)}},'auth-message')});$('#auth-code').focus();
 }
-async function acceptSession(result){authEpoch++;authBusy=false;if(recoverySnapshot&&recoverySnapshot.userId!==result.user.id)recoverySnapshot=null;clearPrivateState();session={user:result.user,csrfToken:result.csrfToken};if(!renderActivityDiagram)({renderActivityDiagram}=await import('./diagrams.js'));children=result.children||[];renderFamilyBar();const first=children.find(c=>!c.archivedAt);if(first){await selectChild(first.id,{skipSave:true});if(location.hash==='#account'||!location.hash)history.replaceState(null,'','#lab')}else history.replaceState(null,'','#account');renderFamily();syncView()}
+async function acceptSession(result,{resume=false}={}){authEpoch++;authBusy=false;if(recoverySnapshot&&recoverySnapshot.userId!==result.user.id)recoverySnapshot=null;clearPrivateState({preservePreparation:resume});session={user:result.user,csrfToken:result.csrfToken};if(!renderActivityDiagram)({renderActivityDiagram}=await import('./diagrams.js'));children=result.children||[];renderFamilyBar();const first=children.find(c=>!c.archivedAt);if(first){await selectChild(first.id,{skipSave:true});if(location.hash==='#account'||!location.hash)history.replaceState(null,'','#lab')}else history.replaceState(null,'','#account');renderFamily();syncView()}
 function childForm(child=null){return `<form id="child-form" class="account-form"><label>孩子的昵称<input id="child-nickname" maxlength="24" required autocomplete="off" placeholder="例如：小探险家，不填真实姓名" value="${escapeHTML(child?.nickname||'')}"></label><label>年龄段<select id="child-age">${ageBands.map(age=>`<option value="${age}" ${child?.ageBand===age?'selected':''}>${ages[age].label}岁 · ${ages[age].name}</option>`).join('')}</select></label><label class="check-label"><input id="child-consent" type="checkbox" required><span>我是孩子的家长或监护人，已阅读下方隐私说明，同意在账号中保存孩子的昵称、年龄段和探索记录。</span></label><div class="form-actions"><button class="button primary" id="save-child" type="submit">${child?'保存档案':'创建儿童档案'} →</button>${children.some(c=>!c.archivedAt)?'<button class="text-button" type="button" id="cancel-child">取消</button>':''}</div><p id="child-message" class="form-message" role="status"></p></form>`}
 function renderChildEditor(child=null){$('#account-content').innerHTML=`<div class="account-card"><span class="account-kicker">A SMALL PROFILE, A LONG JOURNEY</span><h1 id="account-heading">${child?'编辑儿童档案':'先认识这位小探险家'}</h1><p>一个家长账号可管理多个孩子。每个孩子的记录独立保存。</p>${childForm(child)}${archivedChildrenHTML()}<button type="button" id="editor-logout" class="text-button">退出登录</button>${privacyNote()}</div>`;$('#cancel-child')?.addEventListener('click',renderFamily);$('#editor-logout')?.addEventListener('click',()=>action($('#editor-logout'),logout,'child-message'));bindRestoreChildren();$('#child-form').addEventListener('submit',event=>{event.preventDefault();action($('#save-child'),async()=>{const owner=session,epoch=contextEpoch,nickname=$('#child-nickname').value.trim(),ageBand=$('#child-age').value,guardianConsent=$('#child-consent')?.checked;if(!await ensureSaved()||session!==owner||contextEpoch!==epoch)return;const result=await api(child?'/api/children/'+encodeURIComponent(child.id):'/api/children',{method:child?'PATCH':'POST',body:child?{nickname,ageBand}:{nickname,ageBand,guardianConsent}});if(session!==owner||contextEpoch!==epoch)return;const existing=children.findIndex(c=>c.id===result.child.id);if(existing>=0)children[existing]=result.child;else children.push(result.child);await selectChild(result.child.id,{skipSave:true});history.replaceState(null,'','#lab');syncView()},'child-message')})}
 function renderFamily(){
@@ -434,14 +492,14 @@ function renderAdminSettings(settings){
 function bindInterface(){
  $('#close-safety').addEventListener('click',()=>closeDialog('safety-dialog'));$('#close-diagram').addEventListener('click',()=>closeDialog('diagram-dialog'));
  $$('dialog').forEach(d=>{d.addEventListener('cancel',event=>{event.preventDefault();closeDialog(d.id)});d.addEventListener('keydown',trapDialogFocus)});
- $('#map-current-month').addEventListener('click',()=>{mapMonth=String(monthForDay(state.day));$('#map-month').value=mapMonth;renderMap()});$('#map-all-year').addEventListener('click',()=>{mapMonth='all';$('#map-month').value='all';renderMap()});
- $('#day-prev').addEventListener('click',()=>chooseDay(state.day-1));$('#day-next').addEventListener('click',()=>chooseDay(state.day+1));$('#today-btn').addEventListener('click',()=>{chooseDay(recommendation());toast('每天一个主活动即可，按已开放的关卡慢慢探索。')});
- $$('.map-trigger').forEach(btn=>btn.addEventListener('click',()=>{if(!session||!activeChild||!experiments.length)return;if(['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}renderMap();openDialog('day-map')}));$('#close-map').addEventListener('click',()=>closeDialog('day-map'));$('#day-map').addEventListener('click',event=>{if(event.target===$('#day-map')){const r=$('#day-map').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog('day-map')}});
- $$('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filter;$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));renderMap()}));$('#map-month').value=mapMonth;$('#map-month').addEventListener('change',event=>{mapMonth=event.target.value;renderMap()});$('#map-search').addEventListener('input',event=>{mapQuery=event.target.value;renderMap()});
+ $('#map-current-month').addEventListener('click',()=>setMapMonth(String(monthForDay(state.day))));$('#map-all-year').addEventListener('click',()=>setMapMonth('all'));
+ $('#day-prev').addEventListener('click',()=>chooseDay(state.day-1));$('#day-next').addEventListener('click',()=>chooseDay(state.day+1));$('#today-btn').addEventListener('click',()=>{if(chooseDay(recommendation()))toast('每天一个主活动即可，按已开放的关卡慢慢探索。')});
+ $$('.map-trigger').forEach(btn=>btn.addEventListener('click',()=>{if(!session||!activeChild||!experiments.length)return;$('#map-feedback').hidden=true;renderMap();openDialog('day-map')}));$('#close-map').addEventListener('click',()=>closeDialog('day-map'));$('#day-map').addEventListener('click',event=>{if(event.target===$('#day-map')){const r=$('#day-map').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog('day-map')}});
+ $$('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{filter=btn.dataset.filter;$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));renderMap()}));$('#map-month').value=mapMonth;$('#map-month').addEventListener('change',event=>{setMapMonth(event.target.value)});$('#map-search').addEventListener('input',event=>{mapQuery=event.target.value;renderMap()});
  $('#child-switch').addEventListener('change',event=>selectChild(event.target.value));$('#retry-save').addEventListener('click',()=>{if(saveConflict){location.hash='#account';renderFamily()}else if(curriculumError&&!dirty)reloadDots();else flushSave()});
 }
 async function init(){
- bindInterface();clearStaleDialogState();syncView();try{authConfig=await api('/api/auth/config');let result;try{result=await api('/api/session')}catch(error){if(error.status!==401)throw error}if(result)await acceptSession(result);else{renderAuth();syncView()}}catch(error){$('#account-content').innerHTML='<div class="service-error"><h1 id="account-heading">家庭空间暂时没有连接</h1><p>'+escapeHTML(error.message)+'</p><p class="muted-note">为保护账号和儿童资料，连接失败时不会开放实验内容，也不会自动上传旧记录。</p><button id="retry-connection" class="button primary">重新连接</button></div>';$('#retry-connection').addEventListener('click',()=>location.reload());syncView()}
+ bindInterface();clearStaleDialogState();syncView();try{authConfig=await api('/api/auth/config');let result;try{result=await api('/api/session')}catch(error){if(error.status!==401)throw error}if(result)await acceptSession(result,{resume:true});else{clearPreparation();renderAuth();syncView()}}catch(error){$('#account-content').innerHTML='<div class="service-error"><h1 id="account-heading">家庭空间暂时没有连接</h1><p>'+escapeHTML(error.message)+'</p><p class="muted-note">为保护账号和儿童资料，连接失败时不会开放实验内容，也不会自动上传旧记录。</p><button id="retry-connection" class="button primary">重新连接</button></div>';$('#retry-connection').addEventListener('click',()=>location.reload());syncView()}
 }
 init();
 function archivedChildrenHTML(){const list=children.filter(c=>c.archivedAt);return list.length?`<section class="account-section"><details><summary>已归档的儿童档案（${list.length}）</summary><p class="muted-note">归档保留记录。恢复后可继续探索，每个账号最多8个有效档案。</p>${list.map(c=>`<div class="form-actions"><span>${escapeHTML(c.nickname)} · ${escapeHTML(c.ageBand)}岁</span><button type="button" class="text-button" data-restore-child="${escapeHTML(c.id)}">恢复档案</button></div>`).join('')}<p id="restore-message" class="form-message" role="status"></p></details></section>`:''}
