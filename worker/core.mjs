@@ -1,3 +1,4 @@
+import {hashPassword,verifyPassword,validPassword} from './password.mjs';
 import curriculum from '../dist/data.json' with {type:'json'};
 // Immutable curriculum serialization only: never cache sessions, authorization, children or responses.
 const fullCurriculumPrefix='{"ok":true,"meta":'+JSON.stringify(curriculum.meta)+',"experiments":'+JSON.stringify(curriculum.experiments)+',"access":';
@@ -18,7 +19,7 @@ function normalizedEmail(v){if(typeof v!=='string')return null;const s=v.trim().
 function domains(v){return [...new Set((Array.isArray(v)?v:String(v||'').split(',')).map(x=>String(x).trim().toLowerCase()).filter(x=>/^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)+$/.test(x)))].slice(0,100)}
 function validDate(s){return typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&Number.isFinite(Date.parse(s))&&new Date(s).toISOString().slice(0,10)===s}
 const today=()=>new Date().toISOString().slice(0,10);
-const publicUser=u=>({id:u.id,email:u.email,role:u.role,status:u.status,unlockAll:u.role==='admin'||!!u.unlock_all,unlockThrough:u.role==='admin'||u.unlock_all?365:u.unlock_through,createdAt:u.created_at});
+const publicUser=u=>({id:u.id,email:u.email,role:u.role,status:u.status,unlockAll:u.role==='admin'||!!u.unlock_all,unlockThrough:u.role==='admin'||u.unlock_all?365:u.unlock_through,createdAt:u.created_at,hasPassword:!!u.password_hash});
 const publicChild=c=>({id:c.id,nickname:c.nickname,ageBand:c.age_band,createdAt:c.created_at,archivedAt:c.archived_at});
 async function settings(env){const v=Object.fromEntries((await all(env,'SELECT key,value FROM settings')).map(r=>[r.key,r.value]));return {allowedDomains:domains(v.allowedDomains?JSON.parse(v.allowedDomains):[]),registrationEnabled:Object.hasOwn(v,'registrationEnabled')?v.registrationEnabled==='true':env.REGISTRATION_ENABLED==='true',progressionMode:(v.progressionMode||env.PROGRESSION_MODE)==='manual'?'manual':'sequential'}}
 function mailReady(env){return env.EMAIL_PROVIDER==='cloudflare'?!!env.EMAIL?.send&&!!env.EMAIL_FROM:env.EMAIL_PROVIDER==='resend'?!!env.RESEND_API_KEY&&!!env.EMAIL_FROM:false}
@@ -37,8 +38,8 @@ async function sendCode(env,email,code){
  throw new MailError('unknown','unavailable');
 }
 const cookie=(v,age=SESSION_SECONDS)=>`${COOKIE}=${v}; Path=/; Max-Age=${age}; HttpOnly; Secure; SameSite=Strict`;
-async function session(req,env){const raw=req.headers.get('Cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(COOKIE+'='))?.slice(COOKIE.length+1);if(!raw||!/^[a-f0-9]{64}$/.test(raw))fail(401,'UNAUTHENTICATED','请先登录。');const u=await first(env,"SELECT u.*,s.csrf_token,s.token_hash FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.token_hash=? AND s.expires_at>? AND u.status='active'",await sha(raw),now());if(!u)fail(401,'UNAUTHENTICATED','登录已过期或账号已停用，请重新登录。');if(!['GET','HEAD'].includes(req.method)&&req.headers.get('X-CSRF-Token')!==u.csrf_token)fail(403,'CSRF_DENIED','验证已失效，请刷新后重试。');return u}
-async function sessionData(env,u){const children=(await all(env,'SELECT * FROM children WHERE user_id=? ORDER BY created_at,id',u.id)).map(publicChild);return {user:publicUser(u),csrfToken:u.csrf_token,children,requiresChildSetup:!children.some(c=>!c.archivedAt)}}
+async function session(req,env){const raw=req.headers.get('Cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(COOKIE+'='))?.slice(COOKIE.length+1);if(!raw||!/^[a-f0-9]{64}$/.test(raw))fail(401,'UNAUTHENTICATED','请先登录。');const u=await first(env,"SELECT u.*,s.csrf_token,s.token_hash,s.email_verified_at FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.token_hash=? AND s.expires_at>? AND s.auth_version=u.auth_version AND u.status='active'",await sha(raw),now());if(!u)fail(401,'UNAUTHENTICATED','登录已过期或账号已停用，请重新登录。');if(!['GET','HEAD'].includes(req.method)&&req.headers.get('X-CSRF-Token')!==u.csrf_token)fail(403,'CSRF_DENIED','验证已失效，请刷新后重试。');return u}
+async function sessionData(env,u){const children=(await all(env,'SELECT * FROM children WHERE user_id=? ORDER BY created_at,id',u.id)).map(publicChild);return {user:publicUser(u),csrfToken:u.csrf_token,children,requiresChildSetup:!children.some(c=>!c.archivedAt),canSetPassword:!!u.email_verified_at&&u.email_verified_at>now()-600}}
 const admin=u=>{if(u.role!=='admin')fail(403,'ADMIN_REQUIRED','仅管理员可执行此操作。')};
 async function child(env,u,id){if(!isID(id))fail(404,'NOT_FOUND','没有找到儿童档案。');const c=await first(env,'SELECT * FROM children WHERE id=? AND user_id=? AND archived_at IS NULL',id,u.id);if(!c)fail(404,'NOT_FOUND','没有找到儿童档案。');return c}
 function access(u,c,s){const full=u.role==='admin'||!!u.unlock_all,through=full?365:Math.max(u.unlock_through,c.unlocked_through);return {unlockAll:full,unlockedThrough:through,unlockedIds:Array.from({length:through},(_,i)=>i+1),mode:s.progressionMode}}
@@ -54,7 +55,7 @@ function mergeImport(incoming,old){if(!object(incoming))fail(400,'INVALID_STATE'
 const auditStmt=(env,u,action,target,detail={})=>stmt(env,'INSERT INTO audit_log(id,actor_id,action,target_id,detail_json,created_at) VALUES(?,?,?,?,?,?)',token(16),u.id,action,target,JSON.stringify(detail),now());
 
 async function api(req,env,ctx){origin(req,env);if(!env.DB)fail(503,'SETUP_REQUIRED','云端存储尚未配置。');const path=new URL(req.url).pathname,method=req.method,s=await settings(env);
-if(path==='/api/auth/config'&&method==='GET')return response({...s,loginMethod:'email_code',setupRequired:!configReady(env,s),privacyVersion:PRIVACY_VERSION});
+if(path==='/api/auth/config'&&method==='GET')return response({...s,loginMethod:'email_code',loginMethods:['email_code','password'],setupRequired:!configReady(env,s),privacyVersion:PRIVACY_VERSION});
 if(path==='/api/auth/request-code'&&method==='POST'){
  if(!configReady(env,s))fail(503,'SETUP_REQUIRED','登录服务尚未配置完成，请联系管理员。');const b=await body(req,4096),email=normalizedEmail(b.email);if(!email||!['register','login','continue'].includes(b.intent))fail(400,'INVALID_EMAIL','请输入有效邮箱并使用支持的邮箱验证方式。');
  // The unified flow needs the same explicit consent for every email, without revealing account existence.
@@ -63,7 +64,7 @@ if(path==='/api/auth/request-code'&&method==='POST'){
  // Keep legacy explicit login/register contracts; only continue resolves the action on the server.
  const intent=b.intent==='continue'?(existing?.status==='active'&&existing.verified_at!==null?'login':'register'):b.intent;
  const eligible=intent==='login'?existing&&existing.status==='active'&&existing.verified_at!==null:s.registrationEnabled&&(!claimed?email===normalizedEmail(env.BOOTSTRAP_ADMIN_EMAIL):s.allowedDomains.includes(domain))&&(!existing||existing.status==='invited');const id=token(16);
- if(eligible){const code=String(crypto.getRandomValues(new Uint32Array(1))[0]%100000000).padStart(8,'0');await run(env,'INSERT INTO auth_challenges(id,email,intent,code_hash,expires_at,created_at,consent) VALUES(?,?,?,?,?,?,?)',id,email,intent,await hmac(env.AUTH_SECRET,id+':'+code),now()+600,now(),b.adultConsent===true&&b.privacyAccepted===true?1:0);
+ if(eligible){const code=String(crypto.getRandomValues(new Uint32Array(1))[0]%100000000).padStart(8,'0');await run(env,'INSERT INTO auth_challenges(id,email,intent,code_hash,expires_at,created_at,consent,auth_version) VALUES(?,?,?,?,?,?,?,?)',id,email,intent,await hmac(env.AUTH_SECRET,id+':'+code),now()+600,now(),b.adultConsent===true&&b.privacyAccepted===true?1:0,existing?.auth_version||0);
   const delivery=sendCode(env,email,code).catch(async error=>{mailDiagnostic(error);try{await run(env,'UPDATE auth_challenges SET consumed_at=? WHERE id=? AND consumed_at IS NULL',now(),id)}catch{console.warn(JSON.stringify({event:'auth_code_invalidation_failed',category:'storage_error'}))}});if(ctx?.waitUntil)ctx.waitUntil(delivery);else await delivery;
  }return response({challengeId:id,expiresIn:600,message:'如果邮箱符合条件，验证码将发送到该邮箱。'});
 }
@@ -85,12 +86,37 @@ if(path==='/api/auth/verify-code'&&method==='POST'){
   ]);
  }
  // Another valid challenge may already have created this identity; log it in without altering its permissions.
- const u=await first(env,"SELECT * FROM users WHERE email=? AND status='active' AND verified_at IS NOT NULL",c.email);if(!u)fail(403,'ACCOUNT_UNAVAILABLE','当前邮箱不能注册或账号暂不可用，请联系管理员。');const st=token(),csrf=token();
- const created=await first(env,"INSERT INTO sessions(token_hash,user_id,csrf_token,created_at,expires_at) SELECT ?,?,?,?,? WHERE EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND verified_at IS NOT NULL AND access_version=?) RETURNING token_hash",await sha(st),u.id,csrf,t,t+SESSION_SECONDS,u.id,u.access_version);if(!created)fail(403,'ACCOUNT_UNAVAILABLE','账号状态已更新，请重新验证邮箱。');u.csrf_token=csrf;return response(await sessionData(env,u),200,{'Set-Cookie':cookie(st)});
+ const u=await first(env,"SELECT * FROM users WHERE email=? AND status='active' AND verified_at IS NOT NULL",c.email);if(!u||u.auth_version!==c.auth_version)fail(403,'ACCOUNT_UNAVAILABLE','当前邮箱不能注册或账号暂不可用，请联系管理员。');const st=token(),csrf=token();
+ const created=await first(env,"INSERT INTO sessions(token_hash,user_id,csrf_token,created_at,expires_at,auth_version,email_verified_at) SELECT ?,?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND verified_at IS NOT NULL AND access_version=? AND auth_version=?) RETURNING token_hash",await sha(st),u.id,csrf,t,t+SESSION_SECONDS,u.auth_version,t,u.id,u.access_version,u.auth_version);if(!created)fail(403,'ACCOUNT_UNAVAILABLE','账号状态已更新，请重新验证邮箱。');u.csrf_token=csrf;u.email_verified_at=t;return response(await sessionData(env,u),200,{'Set-Cookie':cookie(st)});
+}
+if(path==='/api/auth/password-login'&&method==='POST'){
+ if(!configReady(env,s))fail(503,'SETUP_REQUIRED','登录服务尚未配置完成。');const b=await body(req,4096),email=normalizedEmail(b.email);
+ if(!email||!validPassword(b.password))fail(400,'INVALID_CREDENTIALS','请输入有效邮箱和8至128位密码。');
+ await limited(env,'password-ip:'+ip(req),30,900);await limited(env,'password-email:'+email,5,900);
+ const account=await first(env,'SELECT * FROM users WHERE email=?',email),eligible=account?.status==='active'&&account.verified_at!==null;
+ const valid=await verifyPassword(b.password,eligible?account.password_hash:null);if(!valid||!eligible)fail(401,'INVALID_CREDENTIALS','邮箱或密码不正确，请重试或使用邮箱验证码登录。');
+ const st=token(),csrf=token(),t=now();const created=await first(env,"INSERT INTO sessions(token_hash,user_id,csrf_token,created_at,expires_at,auth_version) SELECT ?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND verified_at IS NOT NULL AND auth_version=? AND access_version=? AND password_hash=?) RETURNING token_hash",await sha(st),account.id,csrf,t,t+SESSION_SECONDS,account.auth_version,account.id,account.auth_version,account.access_version,account.password_hash);
+ if(!created)fail(401,'INVALID_CREDENTIALS','邮箱或密码不正确，请重试或使用邮箱验证码登录。');account.csrf_token=csrf;return response(await sessionData(env,account),200,{'Set-Cookie':cookie(st)});
 }
 const u=await session(req,env);
 if(!['GET','HEAD'].includes(method))await limited(env,'write-user:'+u.id,180,60);
 if(path==='/api/session'&&method==='GET')return response(await sessionData(env,u));
+if(path==='/api/auth/password'&&method==='POST'){
+ const b=await body(req,4096);if(!validPassword(b.password))fail(400,'INVALID_PASSWORD','密码需要8至128个字符，不限制字母、数字或符号组合。');
+ if(!u.email_verified_at||u.email_verified_at<=now()-600)fail(403,'EMAIL_REAUTH_REQUIRED','为保护账号，请先用邮箱验证码重新登录，再设置密码。');
+ await limited(env,'password-set-user:'+u.id,5,900);await limited(env,'password-set-ip:'+ip(req),10,900);
+ const hash=await hashPassword(b.password),st=token(),stHash=await sha(st),csrf=token(),t=now();
+ // Compare the still-live one-use OTP session inside the transaction. Concurrent resets cannot overwrite each other.
+ const results=await env.DB.batch([
+  stmt(env,"UPDATE users SET password_hash=?,auth_version=auth_version+1,updated_at=? WHERE id=? AND status='active' AND auth_version=? AND access_version=? AND EXISTS(SELECT 1 FROM sessions WHERE token_hash=? AND user_id=users.id AND auth_version=users.auth_version AND expires_at>? AND email_verified_at>?) RETURNING id",hash,t,u.id,u.auth_version,u.access_version,u.token_hash,t,t-600),
+  stmt(env,"INSERT INTO sessions(token_hash,user_id,csrf_token,created_at,expires_at,auth_version) SELECT ?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND auth_version=? AND password_hash=?)",stHash,u.id,csrf,t,t+SESSION_SECONDS,u.auth_version+1,u.id,u.auth_version+1,hash),
+  stmt(env,'DELETE FROM sessions WHERE user_id=? AND token_hash!=? AND EXISTS(SELECT 1 FROM sessions WHERE token_hash=?)',u.id,stHash,stHash),
+  stmt(env,'UPDATE auth_challenges SET consumed_at=? WHERE email=? AND consumed_at IS NULL AND EXISTS(SELECT 1 FROM sessions WHERE token_hash=?)',t,u.email,stHash),
+  stmt(env,"INSERT INTO audit_log(id,actor_id,action,target_id,detail_json,created_at) SELECT ?,?,?,?,'{}',? WHERE EXISTS(SELECT 1 FROM sessions WHERE token_hash=?)",token(16),u.id,u.password_hash?'password.reset':'password.set',u.id,t,stHash),
+ ]);
+ if(!results[0]?.results?.length)fail(403,'EMAIL_REAUTH_REQUIRED','验证已使用或过期，请重新使用邮箱验证码登录。');
+ const updated={...u,password_hash:hash,auth_version:u.auth_version+1,csrf_token:csrf,email_verified_at:null};return response({...await sessionData(env,updated),message:'密码已保存，其他设备已退出登录。'},200,{'Set-Cookie':cookie(st)});
+}
 if(path==='/api/auth/logout'&&method==='POST'){await run(env,'DELETE FROM sessions WHERE token_hash=?',u.token_hash);return response({},200,{'Set-Cookie':cookie('',0)})}
 if(path==='/api/children'&&method==='GET')return response({children:(await all(env,'SELECT * FROM children WHERE user_id=? ORDER BY created_at,id',u.id)).map(publicChild)});
 if(path==='/api/children'&&method==='POST'){const b=await body(req,4096),p=profile(b);if(b.guardianConsent!==true)fail(400,'CONSENT_REQUIRED','创建档案前请确认您是监护人并同意云端保存最少必要资料。');const id=token(16),t=now(),c=await first(env,'INSERT INTO children(id,user_id,nickname,age_band,guardian_consent_at,created_at,updated_at) SELECT ?,?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM children WHERE user_id=? AND archived_at IS NULL)<8 AND (SELECT COUNT(*) FROM children WHERE user_id=?)<32 RETURNING *',id,u.id,p.nickname,p.ageBand,t,t,t,u.id,u.id);if(!c)fail(409,'CHILD_LIMIT','每个账号最多8个有效档案、32个总档案（含已归档）。请优先恢复已有档案。');return response({child:publicChild(c)},201)}
