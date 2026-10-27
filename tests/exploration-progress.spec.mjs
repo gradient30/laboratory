@@ -56,7 +56,7 @@ test('safety modal dismissal and revocation hide steps without clearing views or
 
 test('view save failure stays unsaved and retry persists; no note or completion is synthesized',async({page},info)=>{
  const seed=await ready(page);const path='**/api/children/'+seed.children[0].id+'/state';await page.route(path,route=>route.request().method()==='PUT'?route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({ok:false,error:{code:'QA_FAIL',message:'合成浏览保存失败'}})}):route.continue());
- await preview(page);await view(page,3);await expect(page.locator('#cloud-status')).toContainText('未保存到云端');await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');expect((await stored(page,seed.children[0].id)).viewedSteps).toEqual({});await shot(page,info,'save-error');await page.unroute(path);await page.locator('#retry-save').click();await cloudSaved(page);await page.reload();await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');expect((await stored(page,seed.children[0].id)).completed).toEqual({});
+ await preview(page);await view(page,3);await expect(page.locator('#cloud-status')).toContainText('尚未保存');await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');expect((await stored(page,seed.children[0].id)).viewedSteps).toEqual({});await shot(page,info,'save-error');await page.unroute(path);await page.locator('#retry-save').click();await cloudSaved(page);await page.reload();await expect(page.locator('#reading-count')).toHaveText('已查看 2 / 4 步');expect((await stored(page,seed.children[0].id)).completed).toEqual({});
 });
 
 test('concurrent revision conflict does not silently overwrite viewed history or observations',async({page})=>{
