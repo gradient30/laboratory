@@ -88,6 +88,7 @@ html{scroll-padding-top:calc(var(--header-height) + var(--toolbar-height) + 20px
 #safety-dialog .dialog-overview .day-stamp,#safety-dialog .dialog-overview .subject-tag{display:none}
 .journey-year{display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:16px 18px;margin-bottom:14px;text-align:left}
 .journey-year b{font-size:18px}.journey-year span{font-size:13px;color:var(--muted)}
+.journey-months button{flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;text-align:left}.journey-months button b,.journey-months button small{white-space:nowrap}
 .journey-months button.locked,.journey-year.locked{background:#f1f0eb;color:#777d73;border-style:dashed}
 .journey-months button[aria-disabled=true],.journey-dot[aria-disabled=true],.map-day[aria-disabled=true],[aria-disabled=true]#map-all-year,[aria-disabled=true]#map-current-month{cursor:pointer}
 .access-feedback{padding:12px 14px;background:#fff4df;border:1px solid #e5c98e;border-radius:9px;color:#73521e;font-size:13px;line-height:1.7;margin:12px 0}
