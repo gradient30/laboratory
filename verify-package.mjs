@@ -27,7 +27,7 @@ let bytes=0;
 for(const name of expected){const data=readFileSync(`dist/${name}`);bytes+=data.length;assert.equal(createHash('sha256').update(data).digest('hex'),manifest.files[name],`Source content changed: ${name}`)}
 const html=readFileSync('dist/index.html','utf8');
 const resources=[...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(m=>m[1]).filter(s=>!/^https?:\/\//.test(s));
-for(const resource of resources)assert.ok(existsSync(`dist/${resource}`),`Missing relative resource ${resource}`);
+for(const resource of resources){if(resource.startsWith('data:image/svg+xml,')){const icon=decodeURIComponent(resource.slice('data:image/svg+xml,'.length));assert.match(icon,/^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg"/);assert.ok(!/<script|on[a-z]+\s*=|(?:href|src)\s*=/i.test(icon),'Inline icon is inert vector art only');assert.ok(html.includes('rel="icon" type="image/svg+xml" sizes="any" href="'+resource+'"'));continue}assert.ok(existsSync(`dist/${resource}`),`Missing relative resource ${resource}`)}
 const app=readFileSync('dist/app.js','utf8');
 assert.ok(!/fetch\(['"](?:\.\/|\/)data\.json/.test(app),'Full curriculum must not be fetched as a public static asset');
 console.log(JSON.stringify({status:'passed',config:'Reviewed Worker + exact D1 + worker-first assets; activation separately gated',files:expected,totalStaticBytes:bytes,exactSourceHashes:true,relativeResourceLinks:resources,limits:'Configuration shape checked against official documentation; This script does not itself run Wrangler. See VERIFICATION.md for separate CLI dry-run result; live deployment/browser QA not performed.'},null,2));

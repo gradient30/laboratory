@@ -67,3 +67,37 @@ html{scroll-padding-top:150px}body.dialog-open{overflow:hidden}.site-header{posi
 
 /* Keep essential family guidance visible; technical privacy details stay available on demand. */
 .profile-privacy>strong{font-size:15px;color:var(--green)}.profile-privacy .privacy-summary{margin:7px 0;font-size:13px;line-height:1.8}.profile-privacy .privacy-location{margin:7px 0 12px;font-size:12px;line-height:1.8;color:var(--muted)}.privacy-details{border-top:1px solid var(--line);padding-top:7px}.privacy-details summary{cursor:pointer;color:var(--green);font-size:13px;font-weight:650;min-height:44px;display:list-item;align-content:center;padding:9px 0}.privacy-details summary:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:3px}.privacy-detail-content p{font-size:12px!important;line-height:1.85;margin:9px 0}.privacy-detail-content strong{color:var(--ink)}
+/* Profile-led exploration: one preparation area, materials first, no duplicate age switch. */
+:root{--header-height:78px;--toolbar-height:118px}
+html{scroll-padding-top:calc(var(--header-height) + var(--toolbar-height) + 20px)}
+.activity-heading{display:flex;align-items:center;gap:12px;padding:20px 26px 14px;background:#eef4e8;flex-wrap:wrap}
+.activity-heading h3{font-size:20px;line-height:1.5;margin:0;flex:1;min-width:160px;letter-spacing:0}
+.activity-heading>span:last-child{font-size:11px;color:var(--muted)}
+#workspace-toolbar{position:sticky;top:var(--header-height);z-index:10;padding:0 26px;background:#fffef8;box-shadow:0 5px 10px #24463f0d;border-bottom:1px solid var(--line)}
+#workspace-toolbar .safety-compact{padding-block:11px;margin:0;background:#fff7e9;border-left:3px solid #b97929;padding-right:10px;border-radius:0 0 8px 8px}
+#workspace-toolbar .workspace-tabs{position:static;margin:0;background:var(--paper);padding-top:7px;border-bottom:0}
+#workspace-toolbar .workspace-tabs button{white-space:nowrap;padding:12px 4px}
+#workspace-toolbar .safety-compact #open-safety{white-space:nowrap}
+#materials-next{margin-top:18px;gap:12px}
+.workspace-panel,#step-stage,.reading-summary{scroll-margin-top:0}
+#safety-dialog .dialog-overview{display:block;padding:20px;margin:10px 0 20px;border:1px solid #d6e2cf;border-radius:14px;background:linear-gradient(120deg,#eef4e8,#fffef8)}
+#safety-dialog .dialog-overview h3{font-size:27px;letter-spacing:-.5px;margin:12px 0;color:var(--green)}
+#safety-dialog .dialog-overview .big-question{font-size:15px;color:var(--ink);padding-left:12px;border-left:3px solid var(--coral)}
+#safety-dialog .dialog-overview .metadata{margin-top:15px}
+#safety-dialog .dialog-overview .pill{font-size:12px;background:#fffef8;border:1px solid var(--line)}
+#safety-dialog .dialog-overview .day-stamp,#safety-dialog .dialog-overview .subject-tag{display:none}
+.journey-year{display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:16px 18px;margin-bottom:14px;text-align:left}
+.journey-year b{font-size:18px}.journey-year span{font-size:13px;color:var(--muted)}
+.journey-months button.locked,.journey-year.locked{background:#f1f0eb;color:#777d73;border-style:dashed}
+.journey-months button[aria-disabled=true],.journey-dot[aria-disabled=true],.map-day[aria-disabled=true],[aria-disabled=true]#map-all-year,[aria-disabled=true]#map-current-month{cursor:pointer}
+.access-feedback{padding:12px 14px;background:#fff4df;border:1px solid #e5c98e;border-radius:9px;color:#73521e;font-size:13px;line-height:1.7;margin:12px 0}
+#map-feedback{position:sticky;top:85px;z-index:3;box-shadow:0 3px 12px #24463f12}
+.navigation-drawer .navigator-shortcuts{flex-wrap:wrap}.navigation-drawer .navigator-shortcuts>span{width:100%;margin:0}
+@media(max-width:760px){
+ .activity-heading{padding:12px 16px 10px;gap:7px}.activity-heading h3{font-size:17px;min-width:0}.activity-heading>span:last-child{display:none}
+ #workspace-toolbar{padding:0 10px}#workspace-toolbar .safety-compact{padding:8px;gap:7px}#workspace-toolbar .safety-compact b{font-size:11px}#workspace-toolbar .safety-compact .button{padding:9px 8px;font-size:11px;min-height:38px}#workspace-toolbar .safety-compact .text-button{font-size:10px;padding-inline:0}
+ #workspace-toolbar .workspace-tabs{padding-top:5px}#workspace-toolbar .workspace-tabs button{font-size:11px;padding:11px 0}
+ #safety-dialog .dialog-overview{padding:15px;margin-top:8px}#safety-dialog .dialog-overview h3{font-size:22px}#safety-dialog .dialog-overview .big-question{font-size:13px}#safety-dialog .dialog-overview .pill{font-size:11px}
+ .journey-year{padding:13px}.journey-year b{font-size:16px}.journey-year span{font-size:12px}#map-feedback{top:80px;font-size:12px}
+}
+@media print{#workspace-toolbar,.activity-heading{display:none!important}.print-safety h3{margin:0 0 12px}html{scroll-padding-top:0}}

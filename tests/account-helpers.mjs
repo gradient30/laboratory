@@ -11,3 +11,8 @@ export async function openAccount(page){await page.locator('#account-nav').click
 export async function importLocal(page){await openAccount(page);await page.locator('#import-details summary').click();await page.locator('#import-consent').check();page.once('dialog',d=>d.accept());await page.locator('#import-legacy').click();await expect(page.locator('#import-message')).toContainText('导入成功');await page.locator('[data-select-child]').first().click();await expect(page.locator('#open-safety')).toBeVisible()}
 
 export async function waitForCode(page,email,count=0){let box;await expect.poll(async()=>{box=await(await page.request.get('/__test/outbox?email='+encodeURIComponent(email))).json();return box.messages.length}).toBeGreaterThan(count);return box}
+
+// Age is a property of the selected child profile, never a learning-page override.
+export async function changeProfileAge(page,age){
+ const id=await page.locator('#child-switch').inputValue();await cloudSaved(page);await openAccount(page);await page.locator(`[data-edit-child="${id}"]`).click();await page.locator('#child-age').selectOption(age);await page.locator('#child-consent').check();await page.locator('#save-child').click();await expect(page.locator('#open-safety')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(id);await expect(page.locator('[data-age]')).toHaveCount(0);await cloudSaved(page);
+}
