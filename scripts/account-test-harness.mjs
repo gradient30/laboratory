@@ -12,7 +12,7 @@ export const TEST_OWNER='owner@qa.test';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
 let bundle;
 async function workerBundle(){
-  if(!bundle){const result=await build({entryPoints:[resolve(root,'worker/index.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',external:['cloudflare:*'],logLevel:'silent'});bundle=result.outputFiles[0].text;}
+  if(!bundle){const result=await build({entryPoints:[resolve(root,'worker/index.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',external:['cloudflare:*','node:*'],logLevel:'silent'});bundle=result.outputFiles[0].text;}
   return bundle;
 }
 export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initialDomains=['qa.test']}={}){

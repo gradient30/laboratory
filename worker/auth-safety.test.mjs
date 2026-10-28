@@ -6,7 +6,7 @@ import worker from './core.mjs';
 
 // Deterministic SQL interleavings and private-data sentinels use memory-only synthetic fixtures.
 function harness(){
- const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../migrations/0001_accounts.sql',import.meta.url),'utf8'));
+ const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../migrations/0001_accounts.sql',import.meta.url),'utf8'));db.exec(readFileSync(new URL('../migrations/0002_password_login.sql',import.meta.url),'utf8'));
  db.prepare('INSERT INTO settings(key,value,updated_at) VALUES(?,?,0)').run('allowedDomains','["example.test"]');
  const hooks={afterFirst:null,beforeRun:null},outbox=[];
  const prepare=sql=>({bind(...args){return {...query(sql,args),_sql:sql,_args:args}},...query(sql,[])});

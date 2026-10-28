@@ -1,0 +1,5 @@
+ALTER TABLE users ADD COLUMN password_hash TEXT;
+ALTER TABLE users ADD COLUMN auth_version INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE sessions ADD COLUMN auth_version INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE sessions ADD COLUMN email_verified_at INTEGER;
+ALTER TABLE auth_challenges ADD COLUMN auth_version INTEGER NOT NULL DEFAULT 0;
