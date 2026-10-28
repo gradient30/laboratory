@@ -1,0 +1,36 @@
+name: One-time approved Workers budget read
+on:
+  push:
+    branches: [workers-budget-probe-20261028]
+permissions:
+  contents: read
+jobs:
+  exact-budget-read:
+    if: github.repository == 'gradient30/laboratory' && github.ref == 'refs/heads/workers-budget-probe-20261028' && github.event_name == 'push' && github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment: cloudflare-production
+    concurrency:
+      group: little-lab-budget-read-20261028
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate reviewed source and run synthetic tests without credentials
+        run: |
+          printf '%s\n' '0c3e013e4d9aa08b083f7178e68942dcde5e7906f85083102930ccb8dac59357  .github/budget-probe/probe.mjs' | sha256sum --check --strict
+          node --test .github/budget-probe/probe.test.mjs
+      - name: Read exact existing Worker budget without changes
+        run: |
+          printf '%s\n' '0c3e013e4d9aa08b083f7178e68942dcde5e7906f85083102930ccb8dac59357  .github/budget-probe/probe.mjs' | sha256sum --check --strict
+          node .github/budget-probe/probe.mjs
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          BUDGET_READ_APPROVAL: owner-approved-readonly-20261028
