@@ -175,3 +175,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .account-tabs button,.admin-tabs button{background:#fff;color:#20584e;border:2px solid #91ada4;font-weight:750}
 .account-tabs [aria-pressed=true],.account-tabs [aria-selected=true],.admin-tabs [aria-pressed=true]{background:var(--state-current);color:#fff;border-color:var(--state-current-dark);box-shadow:0 3px 0 #b3c9ed}
 .lock-label{color:var(--state-locked);font-weight:750}
+/* A short account task should be a focused dialog, not a full-width lesson sheet. */
+#password-dialog{width:min(520px,calc(100vw - 32px));max-height:90vh;max-height:90dvh;margin:auto;padding:28px;border:2px solid #90ad9f;border-radius:18px;overflow-y:auto;overscroll-behavior:contain;scroll-padding-block:20px}
+.password-card{min-width:0;width:100%}.password-card h2{font-size:25px;line-height:1.4;margin:0 0 12px;color:#164b31}.password-card>p{font-size:14px;line-height:1.8;margin-bottom:22px}.password-card .account-form{gap:14px}.password-card .muted-note{margin:0;line-height:1.7;color:#4e6257}.password-card .account-form input{font-size:16px}.password-card #skip-password{display:block;min-height:44px;margin:14px auto 0;padding:10px 6px;max-width:100%;white-space:normal;text-align:center;line-height:1.6}.password-card .form-message{overflow-wrap:anywhere}
+.auth-methods{margin:18px 0 24px;gap:10px}.auth-methods .button{flex:1;gap:6px;padding:12px 10px;min-width:0;min-height:44px}
+@media(max-width:760px){#password-dialog{width:calc(100vw - 24px);padding:22px 18px;max-height:92vh;max-height:92dvh;border-radius:15px}.password-card h2{font-size:23px}.password-card>p{font-size:13px;margin-bottom:18px}.auth-methods .button{font-size:13px;padding:12px 8px}}
