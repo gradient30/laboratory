@@ -16,8 +16,11 @@ assert.deepEqual(config.triggers,{crons:['17 3 * * *']});
 assert.deepEqual(config.vars,{APP_ORIGIN:'https://labs.996fb.cn'},'Private bootstrap and credentials must never be committed as vars');
 assert.deepEqual(config.d1_databases,[{binding:'DB',database_name:'little-lab-family-progress',database_id:policy.database.id,migrations_dir:'migrations'}]);
 assert.equal(policy.runtime,'family-accounts');
+assert.deepEqual(config.durable_objects,{bindings:[{name:'PASSWORD_HASHER',class_name:'PasswordHasher'}]});
+assert.deepEqual(config.migrations,[{tag:'password-hasher-v1',new_sqlite_classes:['PasswordHasher']}]);
+assert.deepEqual(policy.passwordHashing,{approved:true,binding:'PASSWORD_HASHER',className:'PasswordHasher',migrationTag:'password-hasher-v1',storage:'sqlite',freeOnly:true});
 if(policy.database.id==='00000000-0000-0000-0000-000000000000'){assert.equal(policy.enabled,false);assert.equal(policy.runtimeApproved,false);}
-const allowedKeys=new Set(['$schema','name','compatibility_date','workers_dev','main','keep_vars','assets','vars','d1_databases','triggers']);
+const allowedKeys=new Set(['$schema','name','compatibility_date','workers_dev','main','keep_vars','assets','vars','d1_databases','triggers','durable_objects','migrations']);
 for(const key of Object.keys(config))assert.ok(allowedKeys.has(key),`Unreviewed runtime setting: ${key}`);
 assert.ok(existsSync('worker/index.mjs')&&existsSync('migrations/0001_accounts.sql'));
 assert.ok(!readFileSync('worker/index.mjs','utf8').includes('__test'),'No test fixture endpoint in production entry');

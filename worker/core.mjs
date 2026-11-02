@@ -1,4 +1,4 @@
-import {hashPassword,verifyPassword,validPassword} from './password.mjs';
+import {hashPassword,verifyPassword,validPassword} from './password-client.mjs';
 import curriculum from '../dist/data.json' with {type:'json'};
 // Immutable curriculum serialization only: never cache sessions, authorization, children or responses.
 const fullCurriculumPrefix='{"ok":true,"meta":'+JSON.stringify(curriculum.meta)+',"experiments":'+JSON.stringify(curriculum.experiments)+',"access":';
@@ -94,7 +94,7 @@ if(path==='/api/auth/password-login'&&method==='POST'){
  if(!email||!validPassword(b.password))fail(400,'INVALID_CREDENTIALS','请输入有效邮箱和8至128位密码。');
  await limited(env,'password-ip:'+ip(req),30,900);await limited(env,'password-email:'+email,5,900);
  const account=await first(env,'SELECT * FROM users WHERE email=?',email),eligible=account?.status==='active'&&account.verified_at!==null;
- const valid=await verifyPassword(b.password,eligible?account.password_hash:null);if(!valid||!eligible)fail(401,'INVALID_CREDENTIALS','邮箱或密码不正确，请重试或使用邮箱验证码登录。');
+ const valid=await verifyPassword(env,email,b.password,eligible?account.password_hash:null);if(!valid||!eligible)fail(401,'INVALID_CREDENTIALS','邮箱或密码不正确，请重试或使用邮箱验证码登录。');
  const st=token(),csrf=token(),t=now();const created=await first(env,"INSERT INTO sessions(token_hash,user_id,csrf_token,created_at,expires_at,auth_version) SELECT ?,?,?,?,?,? WHERE EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND verified_at IS NOT NULL AND auth_version=? AND access_version=? AND password_hash=?) RETURNING token_hash",await sha(st),account.id,csrf,t,t+SESSION_SECONDS,account.auth_version,account.id,account.auth_version,account.access_version,account.password_hash);
  if(!created)fail(401,'INVALID_CREDENTIALS','邮箱或密码不正确，请重试或使用邮箱验证码登录。');account.csrf_token=csrf;return response(await sessionData(env,account),200,{'Set-Cookie':cookie(st)});
 }
@@ -105,7 +105,7 @@ if(path==='/api/auth/password'&&method==='POST'){
  const b=await body(req,4096);if(!validPassword(b.password))fail(400,'INVALID_PASSWORD','密码需要8至128个字符，不限制字母、数字或符号组合。');
  if(!u.email_verified_at||u.email_verified_at<=now()-600)fail(403,'EMAIL_REAUTH_REQUIRED','为保护账号，请先用邮箱验证码重新登录，再设置密码。');
  await limited(env,'password-set-user:'+u.id,5,900);await limited(env,'password-set-ip:'+ip(req),10,900);
- const hash=await hashPassword(b.password),st=token(),stHash=await sha(st),csrf=token(),t=now();
+ const hash=await hashPassword(env,u.email,b.password),st=token(),stHash=await sha(st),csrf=token(),t=now();
  // Compare the still-live one-use OTP session inside the transaction. Concurrent resets cannot overwrite each other.
  const results=await env.DB.batch([
   stmt(env,"UPDATE users SET password_hash=?,auth_version=auth_version+1,updated_at=? WHERE id=? AND status='active' AND auth_version=? AND access_version=? AND EXISTS(SELECT 1 FROM sessions WHERE token_hash=? AND user_id=users.id AND auth_version=users.auth_version AND expires_at>? AND email_verified_at>?) RETURNING id",hash,t,u.id,u.auth_version,u.access_version,u.token_hash,t,t-600),

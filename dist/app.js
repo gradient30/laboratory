@@ -212,6 +212,7 @@ function showPanel(id,focus=false,align=false){
 }
 function extensionNodes(e){const s=e.extension.steps||[];if(s.length>=3)return [s[0],s[1],s.slice(2).join(' ')];if(s.length===2)return [s[0],s[1],'和主活动比较：哪里一样，哪里不同？说出一个新发现。'];return ['先和成人商量：准备改变哪一点？预测会出现什么变化。',s[0]||'按当天的可选方案探索，不另加材料或增加用量。','把这次和主活动放在一起比较。这个结果支持你的预测吗？'];}
 function renderStep(){
+ if($('#workspace-toolbar'))$('#workspace-toolbar').dataset.preparation=gate;
  const e=current();if(!e?.ageGuides||e.locked||!$('#step-stage'))return;const g=guide(),i=stepNumber(),step=e.steps[i],gs=g.steps[i],a=ages[state.age];
  const actor=gs.actor||step.actor,actionIncludesCore=typeof gs.action==='string'&&gs.action.includes(step.detail);
  const role={adult:'成人操作 · 孩子观察',child:'孩子探索 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁 · 一起探索';

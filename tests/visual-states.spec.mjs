@@ -7,7 +7,7 @@ async function contrast(node){return node.evaluate(el=>{const s=getComputedStyle
 async function shot(page,info,name){mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-visual-states-${name}.png`,fullPage:false})}
 
 test('current viewed and unviewed steps use distinct accessible treatments and labels',async({page},info)=>{
- await ready(page);await page.locator('#preview-main').click();await page.locator('#step-next').click();
+ await ready(page);await page.locator('#preview-main').click();await expect(page.locator('#workspace-toolbar')).toHaveAttribute('data-preparation','preview');await expect(page.locator('.safety-compact')).toHaveCSS('background-color','rgb(234, 241, 255)');await page.locator('#step-next').click();
  const current=page.locator('.flow-button[data-read-state=current]'),viewed=page.locator('.flow-button[data-read-state=viewed]').first(),unviewed=page.locator('.flow-button[data-read-state=unviewed]').first();
  await expect(current).toContainText('当前查看');await expect(viewed).toContainText('已查看');await expect(unviewed).toContainText('未查看');
  const styles=await Promise.all([current,viewed,unviewed].map(appearance));expect(new Set(styles.map(s=>s.background)).size).toBe(3);expect(styles[2].border).toBe('dashed');
@@ -23,7 +23,11 @@ test('preparation and primary secondary disabled states are visually distinguish
  for(const i of [0,1,2])await page.locator(`[data-check="${i}"]`).check();await expect(page.locator('#begin')).toBeEnabled();
  // Wait for the declared transition to reach its real enabled color, not an intermediate frame.
  await expect(page.locator('#begin')).toHaveCSS('background-color','rgb(18, 100, 84)');expect((await appearance(page.locator('#begin'))).background).not.toBe(disabled.background);expect(await contrast(page.locator('#begin'))).toBeGreaterThanOrEqual(4.5);await page.locator('#begin').click();await expect(page.locator('#workspace-toolbar')).toHaveAttribute('data-preparation','ready');await expect(page.locator('#open-safety')).toContainText('已确认');const after=await appearance(page.locator('.safety-compact'));expect(after.background).not.toBe(before.background);
- await page.locator('#workspace-toolbar').evaluate(el=>el.scrollIntoView({block:'center',behavior:'instant'}));await shot(page,info,'confirmed');await cloudSaved(page);await expect(page.locator('#cloud-status')).toHaveAttribute('data-save-state','saved');expect(await contrast(page.locator('#cloud-status'))).toBeGreaterThanOrEqual(4.5);
+ await expect(page.locator('#safety-dialog')).not.toBeVisible();await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null);
+ await expect(page.locator('#open-safety')).toHaveCSS('background-color','rgb(255, 255, 255)');expect(await contrast(page.locator('#open-safety'))).toBeGreaterThanOrEqual(4.5);
+ await expect.poll(()=>page.evaluate(()=>{const stage=document.querySelector('#step-stage').getBoundingClientRect(),padding=parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop),max=Math.max(0,document.scrollingElement.scrollHeight-innerHeight);return Math.abs(scrollY-Math.max(0,Math.min(stage.top+scrollY-padding,max)))})).toBeLessThan(2);
+ await expect.poll(async()=>Math.abs((await page.locator('.site-header').boundingBox()).y)).toBeLessThan(2);
+ await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await shot(page,info,'confirmed');await cloudSaved(page);await expect(page.locator('#cloud-status')).toHaveAttribute('data-save-state','saved');expect(await contrast(page.locator('#cloud-status'))).toBeGreaterThanOrEqual(4.5);
 });
 
 test('locked months retain readable contrast and opaque friendly explanation',async({page},info)=>{
