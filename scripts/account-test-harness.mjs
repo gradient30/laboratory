@@ -12,7 +12,7 @@ export const TEST_OWNER='owner@qa.test';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
 let bundle;
 async function workerBundle(){
-  if(!bundle){const result=await build({entryPoints:[resolve(root,'worker/index.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',external:['cloudflare:*'],logLevel:'silent'});bundle=result.outputFiles[0].text;}
+  if(!bundle){const result=await build({entryPoints:[resolve(root,'worker/index.mjs')],bundle:true,write:false,format:'esm',platform:'browser',target:'es2022',external:['cloudflare:*','node:*'],logLevel:'silent'});bundle=result.outputFiles[0].text;}
   return bundle;
 }
 export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initialDomains=['qa.test']}={}){
@@ -21,6 +21,7 @@ export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initi
     name:'little-lab-account-test',modules:true,script:await workerBundle(),compatibilityDate:'2026-10-22',
     host:'127.0.0.1',port:0,inspectorPort:0,cf:false,
     d1Databases:{DB:'test-family-progress'},d1Persist:false,
+    durableObjects:{PASSWORD_HASHER:{className:'PasswordHasher',useSQLite:true}},durableObjectsPersist:false,
     bindings:{APP_ORIGIN:origin,BOOTSTRAP_ADMIN_EMAIL:TEST_OWNER,ALLOWED_EMAIL_DOMAINS:'qa.test',EMAIL_FROM:'lab@qa.test',REGISTRATION_ENABLED:'true',PROGRESSION_MODE:'sequential',EMAIL_PROVIDER:'resend',RESEND_API_KEY:'synthetic-not-a-real-provider-key',AUTH_SECRET:'synthetic-test-only-auth-secret-never-used-in-production-20261025',...bindings},
     serviceBindings:{ASSETS:async request=>{
       const path=new URL(request.url).pathname;

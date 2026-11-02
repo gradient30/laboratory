@@ -29,7 +29,8 @@ async function verifyCode(page,email,priorCount=0){
  await page.locator('#verify-code').click();
  const response=await verified;
  expect(response.ok()).toBe(true);
- return response.json();
+ const result=await response.json();if(!result.user.hasPassword){await expect(page.locator('#password-dialog')).toBeVisible();await page.locator('#skip-password').click()}
+ return result;
 }
 
 test('one email entry creates an eligible parent only after OTP without creating a child',async({page,request},info)=>{

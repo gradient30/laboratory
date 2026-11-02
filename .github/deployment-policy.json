@@ -9,5 +9,13 @@
   "database": {
     "name": "little-lab-family-progress",
     "id": "b3d2c512-e532-4cf5-aa50-22237beb77d3"
+  },
+  "passwordHashing": {
+    "approved": true,
+    "binding": "PASSWORD_HASHER",
+    "className": "PasswordHasher",
+    "migrationTag": "password-hasher-v1",
+    "storage": "sqlite",
+    "freeOnly": true
   }
 }

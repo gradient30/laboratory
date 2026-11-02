@@ -22,8 +22,13 @@ export function assertDeploymentAllowed(policy, config, env) {
     assert.equal(policy.runtimeApproved, true, 'Account runtime has not been approved for activation.');
     assert.equal(config.main, 'worker/index.mjs', 'Only the reviewed account Worker entry is allowed.');
     assert.deepEqual(config.assets, {directory:'./dist', binding:'ASSETS', run_worker_first:true}, 'Worker must authorize before the exact reviewed static asset binding.');
-    const permitted = new Set(['$schema','name','compatibility_date','workers_dev','assets','main','keep_vars','d1_databases','vars','triggers']);
+    const permitted = new Set(['$schema','name','compatibility_date','workers_dev','assets','main','keep_vars','d1_databases','vars','triggers','durable_objects','migrations']);
     for (const key of Object.keys(config)) assert.ok(permitted.has(key), `Unapproved account runtime setting: ${key}`);
+    if('durable_objects' in config||'migrations' in config||'passwordHashing' in policy){
+      assert.deepEqual(policy.passwordHashing,{approved:true,binding:'PASSWORD_HASHER',className:'PasswordHasher',migrationTag:'password-hasher-v1',storage:'sqlite',freeOnly:true},'Only explicitly approved Free password hashing is allowed.');
+      assert.deepEqual(config.durable_objects,{bindings:[{name:'PASSWORD_HASHER',class_name:'PasswordHasher'}]},'Only the exact internal password binding is allowed.');
+      assert.deepEqual(config.migrations,[{tag:'password-hasher-v1',new_sqlite_classes:['PasswordHasher']}],'Only the initial SQLite password class is allowed.');
+    }
     assert.deepEqual(config.triggers,{crons:['17 3 * * *']},'Only daily expired-auth cleanup is approved.');
     assert.equal(config.keep_vars, true, 'Preserve privately configured runtime variables.');
     assert.match(policy.database?.id || '', /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i, 'Approved D1 UUID is required.');
@@ -32,11 +37,13 @@ export function assertDeploymentAllowed(policy, config, env) {
     assert.deepEqual(config.d1_databases, [{binding:'DB', database_name:policy.database.name, database_id:policy.database.id, migrations_dir:'migrations'}], 'Only the exact approved D1 binding is allowed.');
     assert.deepEqual(config.vars, {APP_ORIGIN:'https://labs.996fb.cn'}, 'Only the public canonical origin may be committed as a runtime variable.');
     assert.ok(!('send_email' in config), 'Email binding requires a separately reviewed provider policy.');
-    for(const field of ['account_id','routes','route','r2_buckets','kv_namespaces','services','unsafe','durable_objects','queues','workflows','hyperdrive','secrets_store_secrets']) {
+    for(const field of ['account_id','routes','route','r2_buckets','kv_namespaces','services','unsafe','queues','workflows','hyperdrive','secrets_store_secrets']) {
       assert.ok(!(field in config), `Unexpected runtime resource, secret, or route: ${field}`);
     }
   } else {
     assert.ok(!policy.runtime || policy.runtime === 'static', 'Unknown runtime policy.');
+    const staticKeys=new Set(['$schema','name','compatibility_date','workers_dev','assets']);
+    for(const key of Object.keys(config))assert.ok(staticKeys.has(key),`Unapproved static setting: ${key}`);
     for (const field of ['main','account_id','routes','route','d1_databases','r2_buckets','kv_namespaces','services','vars','send_email']) {
       assert.ok(!(field in config), `Unexpected runtime resource, secret, or route: ${field}`);
     }

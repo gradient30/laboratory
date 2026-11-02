@@ -25,5 +25,21 @@
     "crons": [
       "17 3 * * *"
     ]
-  }
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PASSWORD_HASHER",
+        "class_name": "PasswordHasher"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "password-hasher-v1",
+      "new_sqlite_classes": [
+        "PasswordHasher"
+      ]
+    }
+  ]
 }

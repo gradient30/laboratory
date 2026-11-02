@@ -1,0 +1,1 @@
+export function validPassword(value){return typeof value==='string'&&Array.from(value).length>=8&&Array.from(value).length<=128&&new TextEncoder().encode(value).length<=512&&!/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/u.test(value)}
