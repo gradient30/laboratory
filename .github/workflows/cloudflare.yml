@@ -40,6 +40,8 @@ jobs:
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
+      - name: Audit authored age protocols without pretending the remaining curriculum is complete
+        run: npm run test:curriculum:partial
       - name: Verify runner Chrome or install pinned Chromium
         shell: bash
         run: |
@@ -93,9 +95,26 @@ jobs:
         env:
           XDG_CONFIG_HOME: ${{ runner.temp }}/wrangler-check
 
+  curriculum-release-readiness:
+    name: Complete curriculum and review evidence release gate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out the triggering revision without credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node.js for dependency-free curriculum checks
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - name: Reject incomplete independent protocols for PR and main alike
+        run: npm run test:curriculum:complete
+
   deploy:
     name: Publish approved main revision
-    needs: check
+    needs: [check, curriculum-release-readiness]
     # Source policy is authoritative. An optional repository switch may stop deployment.
     # Unset or 'true' permits; 'false' and other nonempty values block. PRs never deploy.
     if: >-
@@ -123,7 +142,7 @@ jobs:
       - name: Install exact locked dependencies without lifecycle scripts
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Recheck deployable content
-        run: npm run check:syntax && npm test
+        run: npm run check:syntax && npm test && npm run test:curriculum:complete
       - name: Verify approved repository, branch, account and Worker
         run: node scripts/deploy-guard.mjs
         env:

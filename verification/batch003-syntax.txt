@@ -1,0 +1,5 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> little-lab-cloudflare-github@1.0.0 check:syntax
+> node --check dist/app.js && node --check dist/diagrams.js && node --check worker/index.mjs && node --check worker/core.mjs && node --check scripts/account-test-harness.mjs && node --check scripts/serve-account-test.mjs
+

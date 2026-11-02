@@ -1,0 +1,185 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Listing tests:
+  [desktop-chromium] › accounts.spec.mjs:7:1 › anonymous entry is a fail-closed account screen, not unlocked curriculum
+  [desktop-chromium] › accounts.spec.mjs:10:1 › first approved verified registration guides guardian through minimal child onboarding
+  [desktop-chromium] › accounts.spec.mjs:13:1 › server enforces registration domain without revealing mailbox eligibility
+  [desktop-chromium] › accounts.spec.mjs:16:1 › administrator-locked accounts stay locked until access is restored; completion unlocks next only
+  [desktop-chromium] › accounts.spec.mjs:20:1 › each child has separate records and successive saved edits in same input persist
+  [desktop-chromium] › accounts.spec.mjs:24:1 › failed cloud save remains visibly unsaved, blocks profile switch, and retries without losing edits
+  [desktop-chromium] › accounts.spec.mjs:27:1 › revision conflict does not silently overwrite another device and offers explicit reload
+  [desktop-chromium] › accounts.spec.mjs:30:1 › failed sibling profile load cannot save previous child data under the new child ID
+  [desktop-chromium] › accounts.spec.mjs:33:1 › late401 from old profile request cannot log out a successfully loaded newer profile
+  [desktop-chromium] › accounts.spec.mjs:36:1 › expired login clears private content instead of copying it to another account
+  [desktop-chromium] › accounts.spec.mjs:39:1 › administrator can invite and manage account access without exposing child notes
+  [desktop-chromium] › accounts.spec.mjs:43:1 › pending email challenge disables identity switching until its response finishes
+  [desktop-chromium] › accounts.spec.mjs:47:1 › child mutation temporarily pauses editing and restores interaction after server response
+  [desktop-chromium] › accounts.spec.mjs:51:1 › new verified parent starts with first lesson only and completion opens second lesson
+  [desktop-chromium] › accounts.spec.mjs:55:1 › adult safety confirmation belongs to the current child and never carries across login
+  [desktop-chromium] › age-protocols.spec.mjs:8:1 › four genuine protocol views share no old instructions and keep old records separate
+  [desktop-chromium] › age-protocols.spec.mjs:27:1 › unmigrated activity remains honest legacy mode and protocol history does not leak to sibling
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 2: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 3: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 4: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 6: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 7: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 8: every age loads its own materials, procedure, apparatus and saved observation
+  [desktop-chromium] › annual.spec.mjs:14:1 › annual navigation, subject badges, inquiry and month boundaries
+  [desktop-chromium] › annual.spec.mjs:25:1 › each subject and age has safe four-step guidance, zoom and Back/Escape
+  [desktop-chromium] › annual.spec.mjs:37:1 › adult preparation is a gate and relocks when conditions change
+  [desktop-chromium] › annual.spec.mjs:40:1 › legacy day1/day30 records import only after consent and day365 persists in cloud
+  [desktop-chromium] › annual.spec.mjs:49:1 › malformed old browser storage cannot overwrite valid cloud progress
+  [desktop-chromium] › annual.spec.mjs:52:1 › cloud state day and future-date recommendations stay bounded
+  [desktop-chromium] › annual.spec.mjs:56:1 › no horizontal page overflow; interactive controls retain readable access
+  [desktop-chromium] › annual.spec.mjs:61:1 › blocked localStorage does not prevent authenticated cloud records
+  [desktop-chromium] › annual.spec.mjs:64:1 › changed legacy teenager fields are archived under original labels exactly once
+  [desktop-chromium] › annual.spec.mjs:71:1 › dialog reload normalizes stale history and Back then Forward restores modal
+  [desktop-chromium] › annual.spec.mjs:76:1 › printed view retains activity-specific safety and warns it is a single-step view
+  [desktop-chromium] › annual.spec.mjs:80:1 › fresh first-month subject filtering offers a direct whole-year escape
+  [desktop-chromium] › annual.spec.mjs:84:1 › synthetic visual review snapshots for seven subjects and four ages
+  [desktop-chromium] › annual.spec.mjs:92:1 › recoverable child archive preserves cloud records and can restore them
+  [desktop-chromium] › annual.spec.mjs:96:1 › Dots overview preserves a collapsed truthful system snapshot and Back navigation
+  [desktop-chromium] › annual.spec.mjs:100:1 › header map from Dots returns to the chosen learning activity
+  [desktop-chromium] › annual.spec.mjs:104:1 › focused panels retain records and support keyboard tab navigation
+  [desktop-chromium] › annual.spec.mjs:108:1 › safety dismissal never authorizes; popup traps focus and resets on day or age change
+  [desktop-chromium] › annual.spec.mjs:115:1 › persistent drawer works after scrolling and retains month, search and subject filters
+  [desktop-chromium] › annual.spec.mjs:118:1 › compact mobile 360px layout has no overflow in tabs, safety or navigator
+  [desktop-chromium] › annual.spec.mjs:122:1 › safety Forward restores its own activity checks without transferring confirmation
+  [desktop-chromium] › annual.spec.mjs:126:1 › switching from long knowledge to records aligns the selected panel
+  [desktop-chromium] › annual.spec.mjs:129:1 › focused interface review screenshots include first fold, modal and drawer
+  [desktop-chromium] › annual.spec.mjs:135:1 › Begin and dialog preview settle on the current diagram after history closes
+  [desktop-chromium] › dots.spec.mjs:15:1 › Dots shows truthful fresh data, unique completion, note counts and accessible subject totals
+  [desktop-chromium] › dots.spec.mjs:22:1 › repeated Dots navigation refreshes completion without writes, continues only open activity and preserves safety gate
+  [desktop-chromium] › dots.spec.mjs:29:1 › child switch clears old charts during loading, exposes errors and retries without crossing child records
+  [desktop-chromium] › dots.spec.mjs:35:1 › all locked and imported last-open completion cannot imply new access or all-course completion
+  [desktop-chromium] › dots.spec.mjs:40:1 › admin unlock is not completion and empty state is honest
+  [desktop-chromium] › dots.spec.mjs:45:1 › all-marked activity state offers review rather than pretending more activities are available
+  [desktop-chromium] › dots.spec.mjs:49:1 › unsaved dashboard markers are labeled and retry succeeds without losing local data
+  [desktop-chromium] › dots.spec.mjs:53:1 › successful save followed by failed permission refresh stays saved and can recover
+  [desktop-chromium] › dots.spec.mjs:57:1 › pending save preserves keyboard focus and expanded explanations across dashboard refresh
+  [desktop-chromium] › exploration-progress.spec.mjs:19:1 › fresh hidden rendering does not imply views; explicit nonsequential viewing has truthful text and next unseen action
+  [desktop-chromium] › exploration-progress.spec.mjs:26:1 › viewing all steps is not completion, observation, guardian confirmation or sequential unlocking
+  [desktop-chromium] › exploration-progress.spec.mjs:32:1 › unmigrated activity: legacy cursor and completed marker restore without fabricated viewed history; saved new views survive reload
+  [desktop-chromium] › exploration-progress.spec.mjs:41:1 › repeated child, age and day switching isolates view masks and safety confirmation
+  [desktop-chromium] › exploration-progress.spec.mjs:51:1 › read-only panels and hash navigation never manufacture new view state; resume returns to selected step
+  [desktop-chromium] › exploration-progress.spec.mjs:57:1 › safety modal dismissal and revocation hide steps without clearing views or authorizing operation
+  [desktop-chromium] › exploration-progress.spec.mjs:64:1 › view save failure stays unsaved and retry persists; no note or completion is synthesized
+  [desktop-chromium] › exploration-progress.spec.mjs:69:1 › concurrent revision conflict does not silently overwrite viewed history or observations
+  [desktop-chromium] › exploration-progress.spec.mjs:74:1 › server relock removes stale reading controls and preserves only previously saved history
+  [desktop-chromium] › exploration-progress.spec.mjs:81:1 › keyboard step controls, accessible names and 360px hierarchy remain usable
+  [desktop-chromium] › exploration-progress.spec.mjs:88:1 › history Forward never views the step beneath a diagram modal; closing counts the now-displayed step
+  [desktop-chromium] › learning-flow.spec.mjs:13:1 › profile age wins over an old saved view; title and preparation are clearly grouped
+  [desktop-chromium] › learning-flow.spec.mjs:18:1 › partial checks survive reopening and refresh but never confirm themselves
+  [desktop-chromium] › learning-flow.spec.mjs:22:1 › confirmed preparation survives same activity reload and return, and unchecking revokes it
+  [desktop-chromium] › learning-flow.spec.mjs:27:1 › preparation is isolated by profile, age, account and updated safety content
+  [desktop-chromium] › learning-flow.spec.mjs:33:1 › blocked or malformed session preparation storage fails closed without breaking exploration
+  [desktop-chromium] › learning-flow.spec.mjs:37:1 › corrupt preparation storage never grants readiness
+  [desktop-chromium] › learning-flow.spec.mjs:41:1 › locked activities and months explain in place in journey and drawer
+  [desktop-chromium] › learning-flow.spec.mjs:46:1 › fully locked year has a friendly explanation while fully open groups remain navigable
+  [desktop-chromium] › learning-flow.spec.mjs:51:1 › preparation toolbar stays above content with material-first keyboard order and compact layouts
+  [desktop-chromium] › learning-flow.spec.mjs:64:1 › favicon has a readable local-brand SVG and is usable before login
+  [desktop-chromium] › learning-flow.spec.mjs:68:1 › logging out removes preparation before the same account signs in again
+  [desktop-chromium] › plain-language.spec.mjs:5:1 › family sign-in uses short guidance with accessible complete privacy details
+  [desktop-chromium] › plain-language.spec.mjs:9:1 › child onboarding keeps explicit guardian consent and no technical wall of text
+  [desktop-chromium] › plain-language.spec.mjs:12:1 › family record management explains archive and recovery in everyday language
+  [desktop-chromium] › plain-language.spec.mjs:16:1 › ordinary family dashboard omits technical diagnostics while admin retains them
+  [desktop-chromium] › unified-auth.spec.mjs:35:1 › one email entry creates an eligible parent only after OTP without creating a child
+  [desktop-chromium] › unified-auth.spec.mjs:67:1 › one email entry keeps existing login available after registration closes and domains empty
+  [desktop-chromium] › unified-auth.spec.mjs:90:1 › guardian consent is unchecked and prevents email requests until explicitly confirmed
+  [desktop-chromium] › unified-auth.spec.mjs:107:1 › resend keeps the confirmed email but changing email resets consent and challenge
+  [desktop-chromium] › unified-auth.spec.mjs:140:1 › repeated submission while code request is pending cannot change identity or send twice
+  [desktop-chromium] › unified-auth.spec.mjs:167:1 › refresh drops an unfinished challenge and does not preserve consent or OTP
+  [desktop-chromium] › visual-states.spec.mjs:9:1 › current viewed and unviewed steps use distinct accessible treatments and labels
+  [desktop-chromium] › visual-states.spec.mjs:20:1 › preparation and primary secondary disabled states are visually distinguishable
+  [desktop-chromium] › visual-states.spec.mjs:33:1 › locked months retain readable contrast and opaque friendly explanation
+  [mobile-chromium] › accounts.spec.mjs:7:1 › anonymous entry is a fail-closed account screen, not unlocked curriculum
+  [mobile-chromium] › accounts.spec.mjs:10:1 › first approved verified registration guides guardian through minimal child onboarding
+  [mobile-chromium] › accounts.spec.mjs:13:1 › server enforces registration domain without revealing mailbox eligibility
+  [mobile-chromium] › accounts.spec.mjs:16:1 › administrator-locked accounts stay locked until access is restored; completion unlocks next only
+  [mobile-chromium] › accounts.spec.mjs:20:1 › each child has separate records and successive saved edits in same input persist
+  [mobile-chromium] › accounts.spec.mjs:24:1 › failed cloud save remains visibly unsaved, blocks profile switch, and retries without losing edits
+  [mobile-chromium] › accounts.spec.mjs:27:1 › revision conflict does not silently overwrite another device and offers explicit reload
+  [mobile-chromium] › accounts.spec.mjs:30:1 › failed sibling profile load cannot save previous child data under the new child ID
+  [mobile-chromium] › accounts.spec.mjs:33:1 › late401 from old profile request cannot log out a successfully loaded newer profile
+  [mobile-chromium] › accounts.spec.mjs:36:1 › expired login clears private content instead of copying it to another account
+  [mobile-chromium] › accounts.spec.mjs:39:1 › administrator can invite and manage account access without exposing child notes
+  [mobile-chromium] › accounts.spec.mjs:43:1 › pending email challenge disables identity switching until its response finishes
+  [mobile-chromium] › accounts.spec.mjs:47:1 › child mutation temporarily pauses editing and restores interaction after server response
+  [mobile-chromium] › accounts.spec.mjs:51:1 › new verified parent starts with first lesson only and completion opens second lesson
+  [mobile-chromium] › accounts.spec.mjs:55:1 › adult safety confirmation belongs to the current child and never carries across login
+  [mobile-chromium] › age-protocols.spec.mjs:8:1 › four genuine protocol views share no old instructions and keep old records separate
+  [mobile-chromium] › age-protocols.spec.mjs:27:1 › unmigrated activity remains honest legacy mode and protocol history does not leak to sibling
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 2: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 3: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 4: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 6: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 7: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › age-protocols.spec.mjs:33:99 › sampled authored theme 8: every age loads its own materials, procedure, apparatus and saved observation
+  [mobile-chromium] › annual.spec.mjs:14:1 › annual navigation, subject badges, inquiry and month boundaries
+  [mobile-chromium] › annual.spec.mjs:25:1 › each subject and age has safe four-step guidance, zoom and Back/Escape
+  [mobile-chromium] › annual.spec.mjs:37:1 › adult preparation is a gate and relocks when conditions change
+  [mobile-chromium] › annual.spec.mjs:40:1 › legacy day1/day30 records import only after consent and day365 persists in cloud
+  [mobile-chromium] › annual.spec.mjs:49:1 › malformed old browser storage cannot overwrite valid cloud progress
+  [mobile-chromium] › annual.spec.mjs:52:1 › cloud state day and future-date recommendations stay bounded
+  [mobile-chromium] › annual.spec.mjs:56:1 › no horizontal page overflow; interactive controls retain readable access
+  [mobile-chromium] › annual.spec.mjs:61:1 › blocked localStorage does not prevent authenticated cloud records
+  [mobile-chromium] › annual.spec.mjs:64:1 › changed legacy teenager fields are archived under original labels exactly once
+  [mobile-chromium] › annual.spec.mjs:71:1 › dialog reload normalizes stale history and Back then Forward restores modal
+  [mobile-chromium] › annual.spec.mjs:76:1 › printed view retains activity-specific safety and warns it is a single-step view
+  [mobile-chromium] › annual.spec.mjs:80:1 › fresh first-month subject filtering offers a direct whole-year escape
+  [mobile-chromium] › annual.spec.mjs:84:1 › synthetic visual review snapshots for seven subjects and four ages
+  [mobile-chromium] › annual.spec.mjs:92:1 › recoverable child archive preserves cloud records and can restore them
+  [mobile-chromium] › annual.spec.mjs:96:1 › Dots overview preserves a collapsed truthful system snapshot and Back navigation
+  [mobile-chromium] › annual.spec.mjs:100:1 › header map from Dots returns to the chosen learning activity
+  [mobile-chromium] › annual.spec.mjs:104:1 › focused panels retain records and support keyboard tab navigation
+  [mobile-chromium] › annual.spec.mjs:108:1 › safety dismissal never authorizes; popup traps focus and resets on day or age change
+  [mobile-chromium] › annual.spec.mjs:115:1 › persistent drawer works after scrolling and retains month, search and subject filters
+  [mobile-chromium] › annual.spec.mjs:118:1 › compact mobile 360px layout has no overflow in tabs, safety or navigator
+  [mobile-chromium] › annual.spec.mjs:122:1 › safety Forward restores its own activity checks without transferring confirmation
+  [mobile-chromium] › annual.spec.mjs:126:1 › switching from long knowledge to records aligns the selected panel
+  [mobile-chromium] › annual.spec.mjs:129:1 › focused interface review screenshots include first fold, modal and drawer
+  [mobile-chromium] › annual.spec.mjs:135:1 › Begin and dialog preview settle on the current diagram after history closes
+  [mobile-chromium] › dots.spec.mjs:15:1 › Dots shows truthful fresh data, unique completion, note counts and accessible subject totals
+  [mobile-chromium] › dots.spec.mjs:22:1 › repeated Dots navigation refreshes completion without writes, continues only open activity and preserves safety gate
+  [mobile-chromium] › dots.spec.mjs:29:1 › child switch clears old charts during loading, exposes errors and retries without crossing child records
+  [mobile-chromium] › dots.spec.mjs:35:1 › all locked and imported last-open completion cannot imply new access or all-course completion
+  [mobile-chromium] › dots.spec.mjs:40:1 › admin unlock is not completion and empty state is honest
+  [mobile-chromium] › dots.spec.mjs:45:1 › all-marked activity state offers review rather than pretending more activities are available
+  [mobile-chromium] › dots.spec.mjs:49:1 › unsaved dashboard markers are labeled and retry succeeds without losing local data
+  [mobile-chromium] › dots.spec.mjs:53:1 › successful save followed by failed permission refresh stays saved and can recover
+  [mobile-chromium] › dots.spec.mjs:57:1 › pending save preserves keyboard focus and expanded explanations across dashboard refresh
+  [mobile-chromium] › exploration-progress.spec.mjs:19:1 › fresh hidden rendering does not imply views; explicit nonsequential viewing has truthful text and next unseen action
+  [mobile-chromium] › exploration-progress.spec.mjs:26:1 › viewing all steps is not completion, observation, guardian confirmation or sequential unlocking
+  [mobile-chromium] › exploration-progress.spec.mjs:32:1 › unmigrated activity: legacy cursor and completed marker restore without fabricated viewed history; saved new views survive reload
+  [mobile-chromium] › exploration-progress.spec.mjs:41:1 › repeated child, age and day switching isolates view masks and safety confirmation
+  [mobile-chromium] › exploration-progress.spec.mjs:51:1 › read-only panels and hash navigation never manufacture new view state; resume returns to selected step
+  [mobile-chromium] › exploration-progress.spec.mjs:57:1 › safety modal dismissal and revocation hide steps without clearing views or authorizing operation
+  [mobile-chromium] › exploration-progress.spec.mjs:64:1 › view save failure stays unsaved and retry persists; no note or completion is synthesized
+  [mobile-chromium] › exploration-progress.spec.mjs:69:1 › concurrent revision conflict does not silently overwrite viewed history or observations
+  [mobile-chromium] › exploration-progress.spec.mjs:74:1 › server relock removes stale reading controls and preserves only previously saved history
+  [mobile-chromium] › exploration-progress.spec.mjs:81:1 › keyboard step controls, accessible names and 360px hierarchy remain usable
+  [mobile-chromium] › exploration-progress.spec.mjs:88:1 › history Forward never views the step beneath a diagram modal; closing counts the now-displayed step
+  [mobile-chromium] › learning-flow.spec.mjs:13:1 › profile age wins over an old saved view; title and preparation are clearly grouped
+  [mobile-chromium] › learning-flow.spec.mjs:18:1 › partial checks survive reopening and refresh but never confirm themselves
+  [mobile-chromium] › learning-flow.spec.mjs:22:1 › confirmed preparation survives same activity reload and return, and unchecking revokes it
+  [mobile-chromium] › learning-flow.spec.mjs:27:1 › preparation is isolated by profile, age, account and updated safety content
+  [mobile-chromium] › learning-flow.spec.mjs:33:1 › blocked or malformed session preparation storage fails closed without breaking exploration
+  [mobile-chromium] › learning-flow.spec.mjs:37:1 › corrupt preparation storage never grants readiness
+  [mobile-chromium] › learning-flow.spec.mjs:41:1 › locked activities and months explain in place in journey and drawer
+  [mobile-chromium] › learning-flow.spec.mjs:46:1 › fully locked year has a friendly explanation while fully open groups remain navigable
+  [mobile-chromium] › learning-flow.spec.mjs:51:1 › preparation toolbar stays above content with material-first keyboard order and compact layouts
+  [mobile-chromium] › learning-flow.spec.mjs:64:1 › favicon has a readable local-brand SVG and is usable before login
+  [mobile-chromium] › learning-flow.spec.mjs:68:1 › logging out removes preparation before the same account signs in again
+  [mobile-chromium] › plain-language.spec.mjs:5:1 › family sign-in uses short guidance with accessible complete privacy details
+  [mobile-chromium] › plain-language.spec.mjs:9:1 › child onboarding keeps explicit guardian consent and no technical wall of text
+  [mobile-chromium] › plain-language.spec.mjs:12:1 › family record management explains archive and recovery in everyday language
+  [mobile-chromium] › plain-language.spec.mjs:16:1 › ordinary family dashboard omits technical diagnostics while admin retains them
+  [mobile-chromium] › unified-auth.spec.mjs:35:1 › one email entry creates an eligible parent only after OTP without creating a child
+  [mobile-chromium] › unified-auth.spec.mjs:67:1 › one email entry keeps existing login available after registration closes and domains empty
+  [mobile-chromium] › unified-auth.spec.mjs:90:1 › guardian consent is unchecked and prevents email requests until explicitly confirmed
+  [mobile-chromium] › unified-auth.spec.mjs:107:1 › resend keeps the confirmed email but changing email resets consent and challenge
+  [mobile-chromium] › unified-auth.spec.mjs:140:1 › repeated submission while code request is pending cannot change identity or send twice
+  [mobile-chromium] › unified-auth.spec.mjs:167:1 › refresh drops an unfinished challenge and does not preserve consent or OTP
+  [mobile-chromium] › visual-states.spec.mjs:9:1 › current viewed and unviewed steps use distinct accessible treatments and labels
+  [mobile-chromium] › visual-states.spec.mjs:20:1 › preparation and primary secondary disabled states are visually distinguishable
+  [mobile-chromium] › visual-states.spec.mjs:33:1 › locked months retain readable contrast and opaque friendly explanation
+Total: 182 tests in 9 files

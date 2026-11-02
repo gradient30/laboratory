@@ -7,7 +7,7 @@ const pins={
  'actions/setup-node':'949feb2413d6458794dcd2491c4babbbce0c15c1'
 };
 const uses=[...s.matchAll(/uses:\s+([^@\s]+)@([a-f0-9]{40})/g)];
-assert.equal(uses.length,5);
+assert.equal(uses.length,7);
 for(const [,action,sha] of uses)assert.equal(sha,pins[action],`Unexpected action revision: ${action}`);
 assert.match(s,/permissions:\n  contents: read/);
 assert.ok(!/^\s+(pull_request_target|workflow_run):/m.test(s));
@@ -16,10 +16,10 @@ assert.match(s,/needs\.check\.outputs\.deployment_enabled == 'true'/);
 assert.match(s,/\(vars\.CLOUDFLARE_DEPLOY_ENABLED == '' \|\| vars\.CLOUDFLARE_DEPLOY_ENABLED == 'true'\)/);
 assert.match(s,/deployment_enabled: \$\{\{ steps\.policy\.outputs\.enabled \}\}/);
 assert.match(s,/typeof enabled !== 'boolean'/);
-assert.match(s,/needs: check/);
+assert.match(s,/needs: \[check, curriculum-release-readiness\]/);
 assert.match(s,/environment: cloudflare-production/);
 assert.match(s,/cancel-in-progress: false/);
-assert.equal((s.match(/persist-credentials: false/g)||[]).length,2);
+assert.equal((s.match(/persist-credentials: false/g)||[]).length,3);
 const [check,deploy]=s.split('\n  deploy:');assert.ok(deploy);
 assert.ok(!/secrets\./.test(check),'PR job must not reference secrets');
 assert.equal((s.match(/secrets\.CLOUDFLARE_API_TOKEN/g)||[]).length,1);
@@ -31,6 +31,10 @@ for(const [path,p] of Object.entries(lock.packages))if(path){assert.ok(p.integri
 console.log('Workflow policy assertions, verified action pins, and exact Wrangler lockfile checks passed. These are local structural checks, not a GitHub Actions execution.');
 
 assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock.packages['node_modules/@playwright/test'].version,'1.64.1');assert.match(check,/npx --no-install playwright install --with-deps chromium/);assert.match(check,/npm run test:browser/);
+assert.match(check,/npm run test:curriculum:complete/,'Incomplete age protocols must block publication');
+assert.match(check,/npm run test:curriculum:partial/);
+assert.match(deploy,/npm run test:curriculum:complete/,'Exact deployed content must recheck coverage');
+assert.equal(pkg.scripts['test:curriculum:complete'],'node scripts/check-age-protocols.mjs');
 
 assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);
 

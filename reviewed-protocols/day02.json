@@ -1,0 +1,3423 @@
+{
+  "activityId": 2,
+  "activityTitle": "搅拌能让糖更快“消失”吗",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "透明塑料杯2个（各至少200毫升）",
+        "同袋白砂糖1平茶匙（5毫升；分为每杯半平茶匙）",
+        "室温水100毫升",
+        "100毫升刻度量杯1个；干燥小勺2把；托盘1个",
+        "白纸1张；铅笔1支；纸巾若干"
+      ],
+      "safety": "成人全程近距离陪伴，糖由成人保管和操作；孩子只看、指认或画图，不碰散糖。所有杯子放托盘内，实验糖和糖水不入口、不尝味；不用热水、酒精或其他溶剂。成人量取和倒水，轻搅不甩溅；杯破损、溅到眼部或孩子想尝食立即停止，清水冲洗溅到的部位。洒水立即擦干，结束洗手并清洗器具。",
+      "steps": [
+        {
+          "title": "把糖分成两份",
+          "action": "成人给两个干杯各放半平茶匙同袋白砂糖，标为“干杯”和“加水杯”，放在白背景前。先一起看杯底的小颗粒。",
+          "actor": "adult",
+          "caption": "两杯里都先有小糖粒。",
+          "adultNote": "只用透明塑料杯；不让孩子用口尝来判断。"
+        },
+        {
+          "title": "只给一杯加水",
+          "action": "成人往“加水杯”缓缓加入100毫升室温水；“干杯”不加水，位置不动。先指认哪杯有水，再各看一次杯底。",
+          "actor": "adult",
+          "caption": "哪杯有水，哪杯没水？",
+          "adultNote": "水杯与干杯的标签在成人一侧也应可见，避免混杯。"
+        },
+        {
+          "title": "同样轻轻搅十圈",
+          "action": "成人用各自的干净勺子，分别在两杯中慢慢转10圈，不用力压碎糖。放下勺后观察，再静置约1分钟复看。若仍有颗粒，就保留这个观察，不加热或尝味。",
+          "actor": "adult",
+          "caption": "大人搅一搅，我们再看。",
+          "adultNote": "干杯轻转不扬起糖粉；两勺不互换，不把水带入干杯。"
+        },
+        {
+          "title": "画看见和看不见",
+          "action": "孩子指认或画出两杯仍能看到的糖粒，允许说“看不清”。成人写下原话，并说明：水里看不见糖粒不表示糖不存在；今天没有测糖还剩多少。",
+          "actor": "child",
+          "caption": "眼睛看不到，就一定没有吗？",
+          "adultNote": "解释是科学知识，不把口述当成测得糖的质量；结束成人倒掉糖水、收好糖。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "有水与没有水的对照",
+          "溶解：糖进入水里",
+          "看不见不等于不存在"
+        ],
+        "explanation": "水可以把糖从可见晶体中分散开，让小糖粒逐渐难以看见。干杯帮助我们对照“只转动勺子”和“有水又转勺子”。没有尝味也能进行观察。",
+        "limits": "今天看的是可见颗粒，没有测量水里糖的多少，也没有直接看见分子。若加水杯还有糖粒，不能说糖不溶于水；可能需要更多时间。",
+        "observation": "分别指出干杯和加水杯在搅动前后的可见颗粒；可以画图、口述或写看不清。",
+        "nextQuestion": "不用尝味，还能怎样把你看到的变化告诉别人？"
+      },
+      "guide": {
+        "goal": "实际比较干糖和加水的糖，辨认颗粒变化。",
+        "observe": "同样轻搅十圈后，干杯和加水杯的糖粒有什么不同？",
+        "support": "成人全程处理糖、量水和搅动；孩子观察、指认或画图。",
+        "control": "同袋糖、各半平茶匙、同样十圈轻搅；一杯100毫升水，另一杯无水。",
+        "time": "约5–10分钟。",
+        "recordFields": [
+          "干杯：搅前／搅后看到什么",
+          "加水杯：搅前／搅后看到什么",
+          "孩子原话或看不清的地方"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sugar-46-two-dry",
+          "description": "两个干杯各有半茶匙糖。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 75,
+              "y": 93,
+              "text": "干杯",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 93,
+              "text": "加水杯",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 434,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 454,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 150,
+              "y": 285,
+              "text": "各半平茶匙；尚未加水",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-46-add-water",
+          "description": "只给右杯加100毫升水。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 75,
+              "y": 93,
+              "text": "不加水",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 93,
+              "text": "加100毫升水",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 434,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 454,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 455,
+              "y1": 104,
+              "x2": 455,
+              "y2": 153,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-46-ten-turns",
+          "description": "每杯使用自己的勺子各轻搅十圈。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 75,
+              "y": 93,
+              "text": "各自的勺",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 93,
+              "text": "轻搅10圈",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 191.5,
+              "y1": 105,
+              "x2": 180.7,
+              "y2": 232,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 130.75,
+              "y1": 144,
+              "x2": 167.2,
+              "y2": 144,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 434,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 454,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 501.5,
+              "y1": 105,
+              "x2": 490.7,
+              "y2": 217,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 440.75,
+              "y1": 144,
+              "x2": 477.2,
+              "y2": 144,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 284,
+              "text": "两把勺不互换",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-46-look",
+          "description": "静置一分钟后看两杯底部。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 80,
+              "y": 93,
+              "text": "静置约1分钟后再看",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 240,
+              "y1": 185,
+              "x2": 185,
+              "y2": 230,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 550,
+              "y1": 185,
+              "x2": 495,
+              "y2": 230,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 285,
+              "text": "按实际所见说或画",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同样轻搅十圈后，干杯和加水杯的糖粒有什么不同？",
+      "sources": [
+        {
+          "title": "ACS｜Why Does Water Dissolve Sugar?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson4.html",
+          "claim": "水与蔗糖分子的相互吸引使糖分散进入水中；可见晶体消失并非物质消失。",
+          "scope": "用于溶解原理，不使用来源中的酒精、矿物油或糖衣巧克力；本方案室温水、用量与观察安排为独立改编。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编为室温水家庭探究；本方案未实地试做，不代表来源机构认证。图示不是实测结果，不尝味验证，不填补超时或无法判断的数据。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "透明塑料杯4个（每杯至少200毫升，4杯分别做一次）",
+        "同袋白砂糖2平茶匙（总10毫升；每杯半平茶匙）",
+        "同一壶室温水400毫升（每杯100毫升）",
+        "100毫升刻度量杯1个；半茶匙量勺1把；搅拌小勺1把",
+        "秒计时器1个；托盘1个；白纸1张；铅笔1支；标签和纸巾若干",
+        "另备清水少量供器具清洗（不计入4杯各100毫升实验用水）"
+      ],
+      "safety": "所有杯子放托盘内，实验糖和糖水不入口、不尝味；不用热水、酒精或其他溶剂。成人量取和倒水，轻搅不甩溅；杯破损、溅到眼部或孩子想尝食立即停止，清水冲洗溅到的部位。洒水立即擦干，结束洗手并清洗器具。",
+      "steps": [
+        {
+          "title": "准备两对新糖水",
+          "action": "将四个干杯标为搅A、静A、搅B、静B，成人各放半平茶匙同袋白砂糖；水保持在同一壶中。A、B是两轮新材料，不重复搅已经测过的糖水。四份干糖先全部制备好；量糖勺保持干燥，只用于干糖，不接触糖水。",
+          "actor": "together",
+          "caption": "两轮各有搅拌杯和静置杯。",
+          "adultNote": "用半茶匙量勺刮平，不用堆尖的糖量；杯规格和底部观察背景一致。"
+        },
+        {
+          "title": "一杯一杯开始",
+          "action": "每次把100毫升同一壶室温水缓缓倒入已有糖的杯中，尽量在约3秒内倒完；从水首次接触糖时开始计时。每杯独立启动计时，不要求同时操作两杯。第一轮按搅A、静A顺序；第二轮按静B、搅B顺序，减少先后顺序只偏向一种条件。",
+          "actor": "adult",
+          "caption": "一杯一个计时起点。",
+          "adultNote": "倒水本身也会使水运动，这是两组都做的相同准备；静置组是倒完后不再主动搅拌。"
+        },
+        {
+          "title": "只让指定杯搅动",
+          "action": "搅拌杯由成人或在监督下的孩子沿杯壁每秒约1圈轻搅，不碰压杯底糖粒；静置杯不放勺、不碰杯。把杯放在相同白背景前，不拿起或摇晃。每10秒短暂停搅约2秒观察杯底和液体，再按原节奏继续；记最后仍可见糖粒与首次看不见糖粒的检查时刻，作为一个时间区间，不写成精确瞬间。看不清记“无法判断”。每杯最多3分钟；到时仍有糖写“超过180秒”，停止观察。",
+          "actor": "together",
+          "caption": "搅一圈、数一秒，不压糖。",
+          "adultNote": "接近检查时成人提醒轻停；不把检查间隔10秒当作溶解所需的精确时间。搅拌勺仅用于湿杯，每杯结束后由成人用另备清水冲洗并彻底擦干，下一杯才使用；不回到干糖杯或糖袋。"
+        },
+        {
+          "title": "对照两轮区间",
+          "action": "记录四杯最后有糖粒/首次看不见的时刻或超过180秒。把两轮结果分开放，再看是否出现相同趋势；区间重叠或终点看不清就说明无法分清，不强行排快慢。",
+          "actor": "child",
+          "caption": "两轮证据都支持同一说法吗？",
+          "adultNote": "两次不是稳定规律的证明；不把“超过180秒”算作正好180秒，也不把没搅杯说成永远不溶。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "搅拌变量与静置对照",
+          "计时区间而非精确终点",
+          "溶解速度不等于最大溶解量"
+        ],
+        "explanation": "搅拌让糖表面的水更容易与周围水交换，常使可见糖粒更快减少。静置的水中也能发生溶解。这里只比较过程快慢，不是在测一杯水最多能溶多少糖。",
+        "limits": "半茶匙不是精确质量，倒水速度、搅动节奏和目测都会有误差。每10秒看一次，只能把终点夹在两次检查之间；超时记录不能按完成时间计算。",
+        "observation": "搅A/静A/搅B/静B的终点区间、是否超时或看不清，以及两轮趋势是否一致。",
+        "nextQuestion": "如果两轮结论不同，先检查哪些操作差异？"
+      },
+      "guide": {
+        "goal": "用四杯新材料完成搅拌/静置两轮真实比较。",
+        "observe": "搅拌和静置两轮的糖粒消失时间区间，是否显示相同趋势？",
+        "support": "成人量水倒水、看护；孩子可慢搅、计时和记录，疲倦可分轮完成。",
+        "control": "同袋糖、每杯半茶匙、100毫升同壶室温水、相同杯和检查间隔；只改变倒水后是否主动搅拌。",
+        "time": "约20–25分钟；每杯观察不超过3分钟。",
+        "recordFields": [
+          "A轮：搅拌／静置终点区间或超时",
+          "B轮：静置／搅拌终点区间或超时",
+          "共同条件、异常与两轮趋势"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sugar-79-four-cups",
+          "description": "四份新糖的准备。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 50,
+              "y": 91,
+              "text": "搅A",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 91,
+              "text": "静A",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 91,
+              "text": "搅B",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 500,
+              "y": 91,
+              "text": "静B",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 38,
+              "y1": 140,
+              "x2": 38,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 38,
+              "y1": 240,
+              "x2": 150,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 240,
+              "x2": 150,
+              "y2": 140,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 58,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 223,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 112,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 133,
+              "y": 224,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 188,
+              "y1": 140,
+              "x2": 188,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 188,
+              "y1": 240,
+              "x2": 300,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 240,
+              "x2": 300,
+              "y2": 140,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 208,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 226,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 242,
+              "y": 223,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 262,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 283,
+              "y": 224,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 338,
+              "y1": 140,
+              "x2": 338,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 338,
+              "y1": 240,
+              "x2": 450,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 240,
+              "x2": 450,
+              "y2": 140,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 358,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 376,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 392,
+              "y": 223,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 412,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 433,
+              "y": 224,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 140,
+              "x2": 488,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 240,
+              "x2": 600,
+              "y2": 240,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 600,
+              "y1": 240,
+              "x2": 600,
+              "y2": 140,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 508,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 526,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 542,
+              "y": 223,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 562,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 583,
+              "y": 224,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 285,
+              "text": "每杯半茶匙；水另量100毫升",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-79-water",
+          "description": "逐杯加水从接触糖时计时。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 75,
+              "y": 92,
+              "text": "每杯100毫升",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 130,
+              "x2": 80,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 242,
+              "x2": 215,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 215,
+              "y1": 242,
+              "x2": 215,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 134,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 154,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 120,
+              "width": 130,
+              "height": 90,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 158,
+              "text": "00:00",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 250,
+              "text": "首次接触糖：启动",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 150,
+              "y1": 102,
+              "x2": 150,
+              "y2": 160,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-79-stir",
+          "description": "搅与静两种条件的装置。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 75,
+              "y": 91,
+              "text": "搅：每秒约1圈",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 91,
+              "text": "静：不碰杯",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 73,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 191.5,
+              "y1": 105,
+              "x2": 180.7,
+              "y2": 217,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 130.75,
+              "y1": 144,
+              "x2": 167.2,
+              "y2": 144,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 434,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 454,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 285,
+              "text": "每10秒短暂停搅检查",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-79-inspect",
+          "description": "观察杯底而不移动杯子。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 91,
+              "text": "白背景；看杯底和液体",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 130,
+              "x2": 90,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 242,
+              "x2": 225,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 242,
+              "x2": 225,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 270,
+              "y1": 196,
+              "x2": 205,
+              "y2": 232,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 370,
+              "y": 125,
+              "width": 170,
+              "height": 95,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 387,
+              "y": 162,
+              "text": "最后有糖粒",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 387,
+              "y": 200,
+              "text": "首次看不见",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 285,
+              "text": "终点记区间；最多180秒",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "搅拌和静置两轮的糖粒消失时间区间，是否显示相同趋势？",
+      "sources": [
+        {
+          "title": "ACS｜Why Does Water Dissolve Sugar?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson4.html",
+          "claim": "水与蔗糖分子的相互吸引使糖分散进入水中；可见晶体消失并非物质消失。",
+          "scope": "用于溶解原理，不使用来源中的酒精、矿物油或糖衣巧克力；本方案室温水、用量与观察安排为独立改编。"
+        },
+        {
+          "title": "AACT｜What's the Solution?",
+          "url": "https://teachchemistry.org/classroom-resources/what-s-the-solution",
+          "claim": "搅拌和颗粒大小会影响溶解过程的快慢；相同条件下搅拌影响速率，不等于改变最终溶解度。",
+          "scope": "采用来源的变量比较与重复思路；只用室温水和糖，不沿用热水或实验室器材。目测终点、两因素组合和次数为独立家庭改编。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编为室温水家庭探究；本方案未实地试做，不代表来源机构认证。图示不是实测结果，不尝味验证，不填补超时或无法判断的数据。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "同品牌同规格白方糖6块（每杯1块；3块完整、3块压碎）",
+        "透明塑料杯6个（每杯至少200毫升，全部独立新样本）",
+        "同一壶室温水600毫升（每杯100毫升）",
+        "干燥小碟1个；勺子2把；干净纸漏斗1张（折纸即可）",
+        "100毫升刻度量杯1个；毫米直尺1把（检查碎块大致大小）",
+        "秒计时器1个；托盘1个；白纸1张；记录纸1张；铅笔、标签、纸巾"
+      ],
+      "safety": "压糖只由成人用勺背在平稳小碟上轻压；不敲击、不用刀、不扬起糖粉。所有杯子放托盘内，实验糖和糖水不入口、不尝味；不用热水、酒精或其他溶剂。成人量取和倒水，轻搅不甩溅；杯破损、溅到眼部或孩子想尝食立即停止，清水冲洗溅到的部位。洒水立即擦干，结束洗手并清洗器具。",
+      "steps": [
+        {
+          "title": "制备三对方糖",
+          "action": "使用同一品牌、同规格白方糖，每份1块。完整组不处理；碎糖组由成人在干燥小碟上用勺背轻压，直到没有大于约3毫米的块；用折纸漏斗和干勺把这1块的全部碎屑转入干杯，不加水冲洗。可见糖留在碟上或洒出时标记失配，不悄悄补糖。六杯标为整A/碎A、整B/碎B、整C/碎C。记录包装标称单块质量；若包装未给出，写“同规格1块，质量未实测”，不能写成精确等质量。",
+          "actor": "adult",
+          "caption": "每杯原来都是1块糖。",
+          "adultNote": "碎糖不是另舀一勺代替；每对用新方糖和新水，保留转移损失记录。六份糖先全部用干器具制备好；小碟、纸漏斗和转移勺不接触糖水，若湿了先彻底擦干再继续。"
+        },
+        {
+          "title": "统一注水与顺序",
+          "action": "每次把100毫升同一壶室温水缓缓倒入已有糖的杯中，尽量在约3秒内倒完；从水首次接触糖时开始计时。每杯独立启动计时，不要求同时操作两杯。全程不再主动搅拌。按整A/碎A、碎B/整B、整C/碎C顺序逐杯测，注水位置、约3秒完成的动作保持相近；换杯不续用旧糖水。",
+          "actor": "together",
+          "caption": "只改初始颗粒状态。",
+          "adultNote": "放在同一位置和光照下；倒水产生的初始运动无法完全消除，需记为方法限制。"
+        },
+        {
+          "title": "逐杯检查终点",
+          "action": "不移动杯子，每10秒对照白背景看杯底和液体，记录最后有糖粒/首次看不见的时刻；每杯最多5分钟，仍有糖记“超过300秒”。若方糖只是裂成小粒仍不算终点。",
+          "actor": "child",
+          "caption": "裂开不等于已经溶解。",
+          "adultNote": "成人监督时间和杯子位置；小颗粒太难看清时记无法判断，不以水看起来透明替代检查杯底。"
+        },
+        {
+          "title": "保留三对原始证据",
+          "action": "写六杯的区间、超时和转移损失。逐对比较完整与压碎是否方向一致；用区间和异常讨论证据，不把区间中点当真值，不把超时填300秒求平均。",
+          "actor": "child",
+          "caption": "相同材料，表面接触不同。",
+          "adultNote": "三对只显示这次制作和条件的变动；不把方糖孔隙、碎粒大小差异全部忽略。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "颗粒大小与总接触表面",
+          "方糖解体与真正溶解的区别",
+          "独立样本与受限计时"
+        ],
+        "explanation": "一块糖被分成更多小块后，水能接触的总表面通常增加，可能使溶解过程更快。方糖本来由糖晶粒压成，有孔隙，也会在水中解体；因此“整块对压碎”是实际颗粒状态的比较，并不是精确测量表面积。",
+        "limits": "单块糖质量只按包装规格匹配，碎糖转移可能损失，粒径也非完全相同。目测终点、注水运动和方糖解体均影响结果；本次不求精确溶解速率或表面积值。",
+        "observation": "每对整/碎糖的可见终点区间、超时、残留碎粒与转移损失，比较三对的方向和不确定性。",
+        "nextQuestion": "若要更公平地比较接触表面，还需测量或统一哪些量？"
+      },
+      "guide": {
+        "goal": "真实制备完整/压碎方糖各3份，控制水与动作并记录可见终点。",
+        "observe": "不再主动搅拌时，完整与压碎方糖三对样本的终点区间有何差异？",
+        "support": "成人压糖、量水；孩子编号、检查粒径大致范围、计时和保留异常。",
+        "control": "同品牌同规格各1块、每杯100毫升同壶室温水、相近注水动作、静置、10秒检查；改变初始糖块状态。",
+        "time": "约40–50分钟，可分准备和逐杯观察；单杯最多5分钟。",
+        "recordFields": [
+          "A对：整／碎区间、超时或缺测",
+          "B对：整／碎区间、超时或缺测",
+          "C对：整／碎区间、超时或缺测",
+          "标称质量、转移损失及三对证据限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sugar-1012-prep",
+          "description": "每份一块糖，成人在小碟上压碎其中三份。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 35,
+              "height": 35,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 102,
+              "text": "完整：1块",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 195,
+              "width": 220,
+              "height": 12,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 178,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 377,
+              "y": 185,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 404,
+              "y": 178,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 431,
+              "y": 185,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 458,
+              "y": 178,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 485,
+              "y": 185,
+              "width": 9,
+              "height": 9,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 115,
+              "x2": 430,
+              "y2": 169,
+              "stroke": "#9E7654",
+              "strokeWidth": 8
+            },
+            {
+              "type": "text",
+              "x": 335,
+              "y": 102,
+              "text": "成人轻压",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 279,
+              "text": "压碎：保留同一块的全部碎屑",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1012-pair",
+          "description": "一对新糖样本等量注水。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 65,
+              "y": 92,
+              "text": "整A：1块",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 92,
+              "text": "碎A：1块",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 73,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 130,
+              "x2": 70,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 242,
+              "x2": 205,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 242,
+              "x2": 205,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 124.5,
+              "y": 214,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 130,
+              "x2": 380,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 242,
+              "x2": 515,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 242,
+              "x2": 515,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 434,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 454,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 128,
+              "y": 285,
+              "text": "各100毫升；不再主动搅拌",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1012-watch",
+          "description": "区分方糖碎裂和糖粒看不见。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 92,
+              "text": "有小颗粒：还未到终点",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 130,
+              "x2": 90,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 242,
+              "x2": 225,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 242,
+              "x2": 225,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 227,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 225,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 164,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 226,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 265,
+              "y1": 180,
+              "x2": 202,
+              "y2": 228,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 130,
+              "width": 180,
+              "height": 95,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 170,
+              "text": "每10秒检查",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 206,
+              "text": "最多300秒",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 102,
+              "y": 285,
+              "text": "不用“整块散了”代替终点",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1012-repeats",
+          "description": "三对独立新材料示意。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 91,
+              "text": "A对",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 91,
+              "text": "B对",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 450,
+              "y": 91,
+              "text": "C对",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 42,
+              "y1": 150,
+              "x2": 42,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 42,
+              "y1": 235,
+              "x2": 107,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 107,
+              "y1": 235,
+              "x2": 107,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 142,
+              "y1": 150,
+              "x2": 142,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 142,
+              "y1": 235,
+              "x2": 207,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 207,
+              "y1": 235,
+              "x2": 207,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 150,
+              "x2": 237,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 235,
+              "x2": 302,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 302,
+              "y1": 235,
+              "x2": 302,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 337,
+              "y1": 150,
+              "x2": 337,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 337,
+              "y1": 235,
+              "x2": 402,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 402,
+              "y1": 235,
+              "x2": 402,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 432,
+              "y1": 150,
+              "x2": 432,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 432,
+              "y1": 235,
+              "x2": 497,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 497,
+              "y1": 235,
+              "x2": 497,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 150,
+              "x2": 532,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 235,
+              "x2": 597,
+              "y2": 235,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 597,
+              "y1": 235,
+              "x2": 597,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 210,
+              "width": 17,
+              "height": 17,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 261,
+              "y": 210,
+              "width": 17,
+              "height": 17,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 456,
+              "y": 210,
+              "width": 17,
+              "height": 17,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 178,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 357,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 373,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 552,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 560,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 568,
+              "y": 220,
+              "width": 4,
+              "height": 4,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 284,
+              "text": "每对整／碎；六杯分别开始计时",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "不再主动搅拌时，完整与压碎方糖三对样本的终点区间有何差异？",
+      "sources": [
+        {
+          "title": "ACS｜Why Does Water Dissolve Sugar?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson4.html",
+          "claim": "水与蔗糖分子的相互吸引使糖分散进入水中；可见晶体消失并非物质消失。",
+          "scope": "用于溶解原理，不使用来源中的酒精、矿物油或糖衣巧克力；本方案室温水、用量与观察安排为独立改编。"
+        },
+        {
+          "title": "AACT｜What's the Solution?",
+          "url": "https://teachchemistry.org/classroom-resources/what-s-the-solution",
+          "claim": "搅拌和颗粒大小会影响溶解过程的快慢；相同条件下搅拌影响速率，不等于改变最终溶解度。",
+          "scope": "采用来源的变量比较与重复思路；只用室温水和糖，不沿用热水或实验室器材。目测终点、两因素组合和次数为独立家庭改编。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编为室温水家庭探究；本方案未实地试做，不代表来源机构认证。图示不是实测结果，不尝味验证，不填补超时或无法判断的数据。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "同品牌同规格白方糖8块（4块保持完整、4块压碎，每杯1块）",
+        "透明塑料杯8个（每杯至少200毫升，每个条件2杯）",
+        "同一壶室温水800毫升（每杯100毫升）",
+        "干燥小碟1个；干净勺子2把；纸漏斗1张；毫米直尺1把",
+        "100毫升刻度量杯1个；秒计时器1个；托盘1个",
+        "白背景纸1张；记录纸2张；铅笔、标签、纸巾若干",
+        "另备清水少量供搅拌勺清洗（不计入8杯各100毫升实验用水）"
+      ],
+      "safety": "压糖由成人在平稳小碟上用勺背轻压，不敲打、不扬起粉末。所有杯子放托盘内，实验糖和糖水不入口、不尝味；不用热水、酒精或其他溶剂。成人量取和倒水，轻搅不甩溅；杯破损、溅到眼部或孩子想尝食立即停止，清水冲洗溅到的部位。洒水立即擦干，结束洗手并清洗器具。",
+      "steps": [
+        {
+          "title": "建四条件两轮矩阵",
+          "action": "使用同一品牌、同规格白方糖，每份1块。完整组不处理；碎糖组由成人在干燥小碟上用勺背轻压，直到没有大于约3毫米的块；用折纸漏斗和干勺把这1块的全部碎屑转入干杯，不加水冲洗。可见糖留在碟上或洒出时标记失配，不悄悄补糖。四条件为整-静、整-搅、碎-静、碎-搅，每条件A/B两杯，共8份。记录单块包装标称质量或“未实测”，不假设每块完全同重。八份干糖先全部制备好；两勺明确分工：一把干勺用于压碎及转移，另一把仅用于湿杯搅拌，两勺不互换。",
+          "actor": "together",
+          "caption": "两因素，四条件，两轮新材料。",
+          "adultNote": "成人完成压糖；将条件与杯号写在杯外，避免将同一杯先静再搅冒充两个独立样本。"
+        },
+        {
+          "title": "按平衡次序逐杯开始",
+          "action": "每次把100毫升同一壶室温水缓缓倒入已有糖的杯中，尽量在约3秒内倒完；从水首次接触糖时开始计时。每杯独立启动计时，不要求同时操作两杯。A轮顺序整-静、碎-搅、整-搅、碎-静；B轮反向。静组倒完不再动杯；搅组每秒约1圈沿杯壁轻搅，不碰压糖块，检查时统一停约2秒。",
+          "actor": "together",
+          "caption": "每一杯都重新计时。",
+          "adultNote": "保持同一壶水与室内位置；如分两次做，A/B各完整一轮，并记录时间和环境变化，不能宣称温度完全一样。"
+        },
+        {
+          "title": "统一终点并留异常",
+          "action": "把杯放在相同白背景前，不拿起或摇晃。每10秒短暂停搅约2秒观察杯底和液体，再按原节奏继续；记最后仍可见糖粒与首次看不见糖粒的检查时刻，作为一个时间区间，不写成精确瞬间。看不清记“无法判断”。每杯最多5分钟，仍有粒写“>300秒”，无法确认写缺测。方糖碎裂仍算可见固体；记录误压糖块、洒糖、搅速偏离等情况，而不是事后删除不合预期的数据。",
+          "actor": "child",
+          "caption": "记终点区间，也记操作偏差。",
+          "adultNote": "不为追赶终点改快搅拌或加热；每杯检查与停止标准一致。湿搅拌勺每杯结束后用另备清水冲洗并彻底擦干再用于下一杯；不回到干糖制备器具。"
+        },
+        {
+          "title": "分别比较两个因素",
+          "action": "分别在完整糖、碎糖条件内比较搅/静，再分别在静置、搅动条件内比较整/碎，A/B两轮都保留。只用未超时且可判断的区间谈相对快慢；区间重叠就写不能分清。讨论一个因素的作用是否随另一因素变化，但两轮不足以确认统计交互。",
+          "actor": "child",
+          "caption": "不把四组混成一个平均数。",
+          "adultNote": "没有连续质量/浓度数据，不能把1/时间当作已测得的本征速率常数；超时不是精确完成时间。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "搅拌×初始颗粒状态的两因素设计",
+          "界面交换与可接触表面",
+          "区间终点、超时与模型边界"
+        ],
+        "explanation": "搅拌改变糖表面附近液体的交换，压碎通常增加水可接触的表面；两种操作可能一起影响可见晶粒消失的过程。溶解时蔗糖分子进入水中，并不是把蔗糖分子打碎成另一种物质。这个四条件实验比较操作组合，不直接测分子运动或饱和溶解度。",
+        "limits": "方糖孔隙、解体、实际质量和碎粒大小未精密测量。搅拌检查时暂停，倒水先产生扰动；可见终点不是浓度连续测量。每格仅2份，不能确认统计交互，更不能由目测时间给出本征速率常数。",
+        "observation": "四条件各A/B终点区间或超时，以及转移损失/误压等异常；在固定另一因素时比较趋势，保留重叠与无法判断。",
+        "nextQuestion": "若要区分界面交换与颗粒大小的影响，下一步优先改善哪一个测量或控制条件？"
+      },
+      "guide": {
+        "goal": "实施颗粒状态×搅拌四条件、每条件2份新样本，并分层比较证据。",
+        "observe": "搅拌的影响在完整糖与碎糖中是否相同，两轮证据能支持到什么程度？",
+        "support": "成人压糖、量水及监督；学习者设计矩阵、执行计时、保存异常并分析限制。",
+        "control": "各1块同规格糖、100毫升同壶室温水、相近注水、同杯和检查频率；改变糖状态和倒水后搅拌，顺序A/B反转。",
+        "time": "约50–65分钟，可分两轮；单杯最多5分钟，分轮时记录环境变化。",
+        "recordFields": [
+          "整-静／整-搅：A/B终点区间或超时",
+          "碎-静／碎-搅：A/B终点区间或超时",
+          "标称质量、操作异常与环境变化",
+          "分层比较结论及不能判断的关系"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sugar-1316-matrix",
+          "description": "四条件装置，每个条件两份新样本。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 42,
+              "y": 91,
+              "text": "整-静",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 194,
+              "y": 91,
+              "text": "整-搅",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 91,
+              "text": "碎-静",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 495,
+              "y": 91,
+              "text": "碎-搅",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 38,
+              "y": 190,
+              "width": 109,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 35,
+              "y1": 150,
+              "x2": 35,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 35,
+              "y1": 245,
+              "x2": 150,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 245,
+              "x2": 150,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 79.5,
+              "y": 217,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 188,
+              "y": 190,
+              "width": 109,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 150,
+              "x2": 185,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 245,
+              "x2": 300,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 245,
+              "x2": 300,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 229.5,
+              "y": 217,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 288.5,
+              "y1": 125,
+              "x2": 279.3,
+              "y2": 220,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 236.75,
+              "y1": 164,
+              "x2": 267.8,
+              "y2": 164,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 338,
+              "y": 190,
+              "width": 109,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 335,
+              "y1": 150,
+              "x2": 335,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 335,
+              "y1": 245,
+              "x2": 450,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 245,
+              "x2": 450,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 373,
+              "y": 233,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 389,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 409,
+              "y": 232,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 488,
+              "y": 190,
+              "width": 109,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 150,
+              "x2": 485,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 245,
+              "x2": 600,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 600,
+              "y1": 245,
+              "x2": 600,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 230,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 523,
+              "y": 233,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 539,
+              "y": 228,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 559,
+              "y": 232,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 580,
+              "y": 229,
+              "width": 5,
+              "height": 5,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 588.5,
+              "y1": 125,
+              "x2": 579.3,
+              "y2": 220,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 536.75,
+              "y1": 164,
+              "x2": 567.8,
+              "y2": 164,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 285,
+              "text": "每条件A/B；共8杯",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1316-start",
+          "description": "每杯独立起点，同量注水。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 62,
+              "y": 92,
+              "text": "首次接触糖即计时",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 88,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 130,
+              "x2": 85,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 242,
+              "x2": 220,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 220,
+              "y1": 242,
+              "x2": 220,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 139.5,
+              "y": 214,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 150,
+              "y1": 105,
+              "x2": 150,
+              "y2": 160,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 120,
+              "width": 180,
+              "height": 95,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 393,
+              "y": 160,
+              "text": "100毫升",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 393,
+              "y": 200,
+              "text": "00:00",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 285,
+              "text": "相近注水；A/B反向顺序",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1316-observe",
+          "description": "不压碎完整糖，统一间隔检查。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 65,
+              "y": 92,
+              "text": "沿杯壁轻搅，不压糖",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 170,
+              "width": 129,
+              "height": 69,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 130,
+              "x2": 80,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 242,
+              "x2": 215,
+              "y2": 242,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 215,
+              "y1": 242,
+              "x2": 215,
+              "y2": 130,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 134.5,
+              "y": 214,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 201.5,
+              "y1": 105,
+              "x2": 190.7,
+              "y2": 217,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 140.75,
+              "y1": 144,
+              "x2": 177.2,
+              "y2": 144,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 123,
+              "width": 190,
+              "height": 109,
+              "fill": "#FFF9E9",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 160,
+              "text": "每10秒检查",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 198,
+              "text": "最多300秒",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 285,
+              "text": "看不清／超时如实保留",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sugar-1316-compare",
+          "description": "固定糖形态比较搅静，避免混合四条件。装置示意，不按比例；糖粒图标表示观察位置，不是预设实验结果；水面高度不是容量刻度，按量杯取100毫升。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 58,
+              "y": 92,
+              "text": "先在相同糖状态内比较",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 124,
+              "text": "整-静",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 124,
+              "text": "整-搅",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 73,
+              "y": 190,
+              "width": 129,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 150,
+              "x2": 70,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 245,
+              "x2": 205,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 245,
+              "x2": 205,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 124.5,
+              "y": 217,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 190,
+              "width": 129,
+              "height": 52,
+              "fill": "#CBE8F2",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 150,
+              "x2": 380,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 245,
+              "x2": 515,
+              "y2": 245,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 245,
+              "x2": 515,
+              "y2": 150,
+              "stroke": "#408F9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 434.5,
+              "y": 217,
+              "width": 26,
+              "height": 26,
+              "fill": "#E6D7A8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 501.5,
+              "y1": 125,
+              "x2": 490.7,
+              "y2": 220,
+              "stroke": "#9E7654",
+              "strokeWidth": 6
+            },
+            {
+              "type": "arrow",
+              "x1": 440.75,
+              "y1": 164,
+              "x2": 477.2,
+              "y2": 164,
+              "stroke": "#B96E40",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 285,
+              "text": "再看碎糖组；A/B分别保留",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "搅拌的影响在完整糖与碎糖中是否相同，两轮证据能支持到什么程度？",
+      "sources": [
+        {
+          "title": "ACS｜Why Does Water Dissolve Sugar?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson4.html",
+          "claim": "水与蔗糖分子的相互吸引使糖分散进入水中；可见晶体消失并非物质消失。",
+          "scope": "用于溶解原理，不使用来源中的酒精、矿物油或糖衣巧克力；本方案室温水、用量与观察安排为独立改编。"
+        },
+        {
+          "title": "AACT｜What's the Solution?",
+          "url": "https://teachchemistry.org/classroom-resources/what-s-the-solution",
+          "claim": "搅拌和颗粒大小会影响溶解过程的快慢；相同条件下搅拌影响速率，不等于改变最终溶解度。",
+          "scope": "采用来源的变量比较与重复思路；只用室温水和糖，不沿用热水或实验室器材。目测终点、两因素组合和次数为独立家庭改编。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编为室温水家庭探究；本方案未实地试做，不代表来源机构认证。图示不是实测结果，不尝味验证，不填补超时或无法判断的数据。"
+    }
+  }
+}

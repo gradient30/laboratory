@@ -1,0 +1,58 @@
+{
+  "batch": "007",
+  "days": [
+    21,
+    22,
+    23,
+    24
+  ],
+  "items": [
+    {
+      "day": 21,
+      "sourcePath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day21-age-protocols.json",
+      "sourceSha256": "bc89ea190dc5d6f0bcba0951ebdc3a8569d6b2c810ed63a0221015269b61944e",
+      "independentReportPath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day21-independent-review.md",
+      "independentReportSha256": "5ce18aedf5359ddc7f4b11e756a9d20e7929f0ed416333c71fed80f9aeb5fa4b",
+      "pixelManifestPath": "/tmp/day21-independent-qa/manifest.json",
+      "sharedSchemaValidation": "PASS all four protocols",
+      "status": "frozen standalone independent content/static PASS; integration separate"
+    },
+    {
+      "day": 22,
+      "sourcePath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day22-age-protocols.json",
+      "sourceSha256": "bd54572cb6a090291ff6c700c879ec11a81211277846262a56c582e297a18436",
+      "independentReportPath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day22-independent-review.md",
+      "independentReportSha256": "f5a5581d88744b6f7696a1371edfb452d779f4a246a6387af01b7baf9b4521f6",
+      "pixelManifestPath": "/tmp/day22-independent-qa/manifest.json",
+      "sharedSchemaValidation": "PASS all four protocols",
+      "status": "frozen standalone independent content/static PASS; integration separate"
+    },
+    {
+      "day": 23,
+      "sourcePath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day23-age-protocols.json",
+      "sourceSha256": "c47c1d127acf95ba460e6967cecb8ab8b7783ac6fdc444285f24789832faea93",
+      "independentReportPath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day23-independent-review.md",
+      "independentReportSha256": "398dff57bd8ef1cf16495382b4f7a500cca465c94a4eeaa967c8494189468297",
+      "pixelManifestPath": "/tmp/day23-independent-qa/manifest.json",
+      "sharedSchemaValidation": "PASS all four protocols",
+      "status": "frozen standalone independent content/static PASS; integration separate"
+    },
+    {
+      "day": 24,
+      "sourcePath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day24-age-protocols.json",
+      "sourceSha256": "6f2295dac1c930a22945e8f3c5ac891b91c63f922cc261d1b896b990923acdbd",
+      "independentReportPath": "/workspace/scratch/f0a87fc37c92/curriculum-batch007-20261102/day24-independent-review.md",
+      "independentReportSha256": "bf46e6016009da87260a87c302b34b4ec882bce1e55435ac2f2fd6c579465b59",
+      "pixelManifestPath": "/tmp/day24-independent-qa/manifest.json",
+      "sharedSchemaValidation": "PASS all four protocols",
+      "status": "frozen standalone independent content/static PASS; integration separate"
+    }
+  ],
+  "scope": "16 protocols and64 matching diagrams, independent standalone content/static review",
+  "limits": [
+    "未实地试做，不预填观察结果。",
+    "作者未声称浏览器或集成测试通过。",
+    "不代表最终五门发布批准或全年365完成。"
+  ],
+  "remoteWrites": "none by author"
+}

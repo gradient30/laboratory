@@ -1,0 +1,1832 @@
+{
+  "activityId": 7,
+  "activityTitle": "影子会自己移动吗",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "纸盒不动，只把手电移到另一边，白纸上的影子会变位置吗？",
+      "materials": [
+        "普通LED手电1支（成人持握，不用激光/高功率强光）",
+        "封口不透明小纸盒1个（约5×5×10厘米，可稳立）",
+        "白色A4纸1张、可稳定竖放的硬封面书1本（作屏幕支撑）",
+        "可移除纸胶带约30厘米、直尺1把、粗笔1支"
+      ],
+      "safety": "成人全程近距离陪伴并拿手电；只照纸盒和屏幕，不照眼睛，不用激光、镜子或透镜。室内保留足够照明以看清地面，不摸电池，不拆手电，不触市电；不用手机闪光灯或会发烫的照明装置。书和纸盒放在低矮稳固桌面中央，远离桌缘、插座、热源和水；手电发烫就关掉并停止。",
+      "steps": [
+        {
+          "title": "固定盒与白纸屏",
+          "action": "成人把A4白纸贴在稳固竖放的硬封面书上，纸盒放在屏前约15厘米。用可移除胶带标出盒和书的位置，确保它们不会倒；孩子找到光、盒和白纸。",
+          "actor": "adult",
+          "caption": "这里有光、挡光的盒和白纸。",
+          "adultNote": "不要让孩子扶着高书或摸手电灯头；书不稳就换低稳支撑，不能勉强继续。"
+        },
+        {
+          "title": "在中间照一照",
+          "action": "成人拿手电，灯口位于盒前约30厘米、距桌面约5厘米，朝纸盒照。只看屏上是否有较暗的区域；成人在白纸旁边记“中”，孩子指出影子大致位置。",
+          "actor": "together",
+          "caption": "盒子挡住了哪一片光？",
+          "adultNote": "室内太亮看不清可移到较暗但地面看得清的区域，不把房间全关黑。"
+        },
+        {
+          "title": "把光移到两侧",
+          "action": "保持盒、屏不动，成人将灯口沿同一条平行于屏的线从中间向左移约10厘米，再到中间右侧约10厘米，灯口高度约5厘米并继续对准盒。孩子每次只指出或描出影子的大致轮廓，不需量长度。",
+          "actor": "adult",
+          "caption": "光换了位置，影子呢？",
+          "adultNote": "这会同时改变照射角度及灯口到盒的距离，不称作只改变角度的精确实验；描画由成人帮助。"
+        },
+        {
+          "title": "回到原来位置",
+          "action": "成人把手电放回中间标记，问影子是否回到大致原位置；孩子用三幅小图或口述说出中、左、右位置看到的情况。关灯并收好手电。",
+          "actor": "child",
+          "caption": "回到中间，再看一次。",
+          "adultNote": "接受看不清或没有明显变化，不引导孩子填固定方向。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "光源、挡光物和接收面",
+          "固定物体也可出现移动影子",
+          "室内光源模型"
+        ],
+        "explanation": "纸盒挡住了一部分光，白纸上的那一片就较暗。盒不动时，改变光从哪里来，影子的位置也可能改变。影子不是从盒里跑出来的东西。",
+        "limits": "手电是近处光源，不能直接当作真实太阳的等比例模型；本次没有测影长或太阳运动。多个灯光可能让影子模糊。",
+        "observation": "中间、左侧、右侧、回中间时，影子在哪边或是否看不清；允许图画与口述。",
+        "nextQuestion": "如果光和盒都不动，只移动白纸屏，影子还会一样吗？"
+      },
+      "guide": {
+        "goal": "实际移动LED光源，观察固定纸盒在固定屏幕上的影子。",
+        "observe": "纸盒不动，只把手电移到另一边，白纸上的影子会变位置吗？",
+        "support": "成人持灯、搭稳书屏并协助描画；孩子观察、指认或口述。",
+        "control": "盒与白纸屏固定；灯口沿标线换位置，实际距离与角度也随之改变。",
+        "time": "约10–15分钟；孩子参与5–10分钟即可。",
+        "recordFields": [
+          "中间光源时影子的位置",
+          "左右光源时的影子变化",
+          "回中间后的观察或看不清"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Florida State University｜Investigating Shadows",
+          "url": "https://micro.magnet.fsu.edu/optics/activities/students/investigatingshadows.html",
+          "claim": "不透明物阻挡光可形成影子；手电和物体可用于研究影子的变化。",
+          "scope": "仅参考光影原理和材料类型；本页三光源位置、距离及儿童分工未由来源验证。"
+        },
+        {
+          "title": "Exploratorium｜Outdoor Shadows",
+          "url": "https://www.exploratorium.edu/snacks/outdoor-shadows",
+          "claim": "影子需要光、遮光物和接收表面；固定位置隔时描影可以观察日影变化。",
+          "scope": "支持影子形成与重复描影思路；本页固定物、低卡条、限时与测量规则为独立改编，不照搬来源的道路/人行道场地举例。"
+        }
+      ],
+      "sourceNote": "本龄段是基于所列原始科学教育资料的独立家庭改编；未实地试做，不代表来源机构认证。图是装置与量法示意，不是实际影子位置、方向或测量结果。没有清楚影子时保留缺测；不承诺某地某时一定向特定方向移动。",
+      "diagrams": [
+        {
+          "sceneKey": "shadow-46-setup",
+          "description": "固定纸盒和白纸屏；装置/几何示意不按比例，影端须实测，不是预设结果。；俯视图中上下位置代表桌面上的左右位置，灯口实际同高",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 105,
+              "width": 35,
+              "height": 160,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 158,
+              "width": 40,
+              "height": 45,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 340,
+              "y1": 220,
+              "x2": 430,
+              "y2": 220,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 249,
+              "text": "约15厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 90,
+              "text": "白纸屏",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 145,
+              "text": "纸盒",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 102,
+              "y": 290,
+              "text": "胶带标位置，不让盒与书移动",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 290,
+              "text": "俯视示意",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-46-center",
+          "description": "中间手电对准固定纸盒；装置/几何示意不按比例，影端须实测，不是预设结果。；俯视图中上下位置代表桌面上的左右位置，灯口实际同高",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 100,
+              "width": 28,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 158,
+              "width": 40,
+              "height": 45,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 167,
+              "width": 60,
+              "height": 26,
+              "fill": "#F6D28C",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 180,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 434,
+              "y": 88,
+              "text": "白纸屏",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 145,
+              "text": "纸盒",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 88,
+              "text": "手电位置",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 285,
+              "text": "同高移灯；盒与屏固定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 290,
+              "text": "俯视示意",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-46-sides",
+          "description": "手电移到两侧，图不预设影子方向；装置/几何示意不按比例，影端须实测，不是预设结果。；俯视图中上下位置代表桌面上的左右位置，灯口实际同高",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 100,
+              "width": 28,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 158,
+              "width": 40,
+              "height": 45,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 102,
+              "width": 60,
+              "height": 26,
+              "fill": "#F6D28C",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 115,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 434,
+              "y": 88,
+              "text": "白纸屏",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 145,
+              "text": "纸盒",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 88,
+              "text": "手电位置",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 285,
+              "text": "同高移灯；盒与屏固定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 232,
+              "width": 60,
+              "height": 26,
+              "fill": "#F6D28C",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 245,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 115,
+              "x2": 105,
+              "y2": 245,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 30,
+              "y": 180,
+              "text": "两侧",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 290,
+              "text": "俯视示意",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-46-return",
+          "description": "回中间位置验证是否回到原状；装置/几何示意不按比例，影端须实测，不是预设结果。；俯视图中上下位置代表桌面上的左右位置，灯口实际同高",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 100,
+              "width": 28,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 158,
+              "width": 40,
+              "height": 45,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 167,
+              "width": 60,
+              "height": 26,
+              "fill": "#F6D28C",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 180,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 434,
+              "y": 88,
+              "text": "白纸屏",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 145,
+              "text": "纸盒",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 88,
+              "text": "手电位置",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 285,
+              "text": "同高移灯；盒与屏固定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "arrow",
+              "x1": 154,
+              "y1": 112,
+              "x2": 154,
+              "y2": 155,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 111,
+              "text": "回中间再观察",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 290,
+              "text": "俯视示意",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一个固定户外物体，隔30分钟再看，影长和影端位置有什么变化？",
+      "materials": [
+        "安全平地上已有的固定直立矮柱或栏杆1处（不攀爬、不移动，顶部影子可辨）",
+        "可用于该地面的粉笔2支（不同颜色）",
+        "卷尺1把、时钟1个、记录纸1张、铅笔1支"
+      ],
+      "safety": "成人先确认地面平坦、允许做可移除标记，远离道路、车流、水边、楼梯和人行通道。不看太阳，包括透过相机、望远镜或其他器具看太阳；不用镜子、放大镜或透镜聚光。不攀高，不碰热表面。每次户外测量约3–5分钟，间隔在室内或阴凉处等待；做好遮阳、补水，天气炎热不适、雷雨、大风或地面湿滑立即停止。只看地面影子；影子不清或超出安全范围就记缺测，不追到危险区域。",
+      "steps": [
+        {
+          "title": "选同一个固定影子",
+          "action": "成人选择一个不在通道中的固定矮柱或栏杆竖杆，确认顶部轮廓和它投下的影端能分清。只看地面，不用眼睛寻找太阳；在地面标出竖杆底部中点O。记地点和日期。",
+          "actor": "adult",
+          "caption": "先找准同一个底部与影端。",
+          "adultNote": "不能确认影子属于哪根杆、影端在道路或栏杆外时，就换安全目标；不翻越围栏。"
+        },
+        {
+          "title": "标第一条影线",
+          "action": "写下实际时刻t1，标顶部中点对应的影端P1（顶影较宽时取中点），量O到P1的距离到厘米；沿这条线画箭头并在纸上记下周围一个固定参照物，不自行写东南西北。",
+          "actor": "together",
+          "caption": "从同一个O量到P1。",
+          "adultNote": "卷尺贴地收放，成人看护通行；人与记录纸不能挡住待测影子。"
+        },
+        {
+          "title": "回原处观察两次",
+          "action": "约30分钟和约60分钟后各回原处一次，记录实际t2、t3，以同样方法标P2/P3、量影长。等待期间去阴凉处，不在太阳下持续守候；每次都确认物体与O没变。",
+          "actor": "together",
+          "caption": "记录实际时间，不补猜测的点。",
+          "adultNote": "云遮、影端重叠或越过安全边界就记“本次无法读”，不把P1复制成新读数。"
+        },
+        {
+          "title": "比较三个时刻",
+          "action": "孩子比较三次影长是否有可见差别、影线相对固定参照物如何变化。只描述这段观察期间，不说全天一直变长/变短，也不把每30分钟的方向转动当成一样多。",
+          "actor": "child",
+          "caption": "这三个点能说明什么，不能说明什么？",
+          "adultNote": "少于两个有效时刻就写证据不足；不拿不同物体的影子凑够三个点。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同一物体的隔时观察",
+          "影长与影子方向是不同记录",
+          "日影与太阳视位置变化"
+        ],
+        "explanation": "地球自转使太阳在天空中的视位置随时间变化，因此固定物体的日影也可能改变。要看出这种变化，应一直从同一个底部量同一个物体的影子。",
+        "limits": "三次短时观察不能代表全天、所有季节或所有地点。云、地面不平及模糊影端会影响记录；不预设影子向哪一方移动。",
+        "observation": "t1/t2/t3的实际时刻、O到P的厘米数、影线相对参照物的方向，以及缺测原因。",
+        "nextQuestion": "换一天的相近时刻，哪些条件需要保持才便于比较？"
+      },
+      "guide": {
+        "goal": "对固定户外物影进行三时刻真实描影和测长。",
+        "observe": "同一个固定户外物体，隔30分钟再看，影长和影端位置有什么变化？",
+        "support": "成人选址与看护，孩子标点、计时、测量和比较；等待到阴凉处。",
+        "control": "同一物体、同一底部O和影端识别方法；时刻改变，记录云和地面条件。",
+        "time": "主动操作约15分钟，跨约1小时三次短观察；天气不适可提前结束。",
+        "recordFields": [
+          "t1时刻、影长、影线参照",
+          "t2时刻、影长或缺测原因",
+          "t3时刻、影长或缺测原因",
+          "这段时间的变化与结论限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Exploratorium｜Outdoor Shadows",
+          "url": "https://www.exploratorium.edu/snacks/outdoor-shadows",
+          "claim": "影子需要光、遮光物和接收表面；固定位置隔时描影可以观察日影变化。",
+          "scope": "支持影子形成与重复描影思路；本页固定物、低卡条、限时与测量规则为独立改编，不照搬来源的道路/人行道场地举例。"
+        }
+      ],
+      "sourceNote": "本龄段是基于所列原始科学教育资料的独立家庭改编；未实地试做，不代表来源机构认证。图是装置与量法示意，不是实际影子位置、方向或测量结果。没有清楚影子时保留缺测；不承诺某地某时一定向特定方向移动。",
+      "diagrams": [
+        {
+          "sceneKey": "shadow-79-object",
+          "description": "已有固定矮柱，不看太阳；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 110,
+              "width": 24,
+              "height": 142,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 252,
+              "x2": 560,
+              "y2": 252,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 187,
+              "y1": 252,
+              "x2": 455,
+              "y2": 252,
+              "stroke": "#6A7D78",
+              "strokeWidth": 7
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 88,
+              "text": "固定矮柱；不攀爬",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 312,
+              "y": 214,
+              "text": "只看地面影子",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 284,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 448,
+              "y": 284,
+              "text": "P",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-79-mark",
+          "description": "标记同一底部与本次影端；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 108,
+              "width": 500,
+              "height": 155,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 165,
+              "y": 193,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "line",
+              "x1": 165,
+              "y1": 193,
+              "x2": 420,
+              "y2": 193,
+              "stroke": "#6A7D78",
+              "strokeWidth": 7
+            },
+            {
+              "type": "circle",
+              "x": 420,
+              "y": 193,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 225,
+              "text": "P",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 210,
+              "y": 171,
+              "text": "影线示意，按实际标点",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 90,
+              "text": "俯视：固定底部O到影端P",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 292,
+              "text": "图不指定东南西北或移动方向",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-79-return",
+          "description": "回到相同底部，不画预设轨迹；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 115,
+              "width": 35,
+              "height": 120,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 235,
+              "x2": 220,
+              "y2": 235,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 112,
+              "y": 235,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "text",
+              "x": 93,
+              "y": 267,
+              "text": "O固定",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 310,
+              "y": 118,
+              "width": 220,
+              "height": 107,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 330,
+              "y": 151,
+              "text": "时钟：读实际时刻",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 330,
+              "y": 190,
+              "text": "约30分钟后再来",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 225,
+              "y": 291,
+              "text": "等待到阴凉处，影端重新找",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-79-compare",
+          "description": "保留原点和各次记录，不指定天文方向；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 110,
+              "width": 150,
+              "height": 150,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 155,
+              "y": 185,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 218,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 93,
+              "text": "原地点",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 110,
+              "width": 230,
+              "height": 150,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 148,
+              "text": "t1：实际记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 190,
+              "text": "t2：实际记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 232,
+              "text": "t3：实际记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 117,
+              "y": 292,
+              "text": "云遮住：缺测，不补点",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "在近乎同一时刻，10厘米和20厘米高的直立卡条，其影长与高度的比值是否接近？",
+      "materials": [
+        "硬纸板1张（至少12×25厘米；成人裁3×15和3×25厘米各1条）",
+        "纸胶带约60厘米、硬封面书1本（检查直角）",
+        "30厘米毫米刻度直尺1把、卷尺1把、粉笔1支",
+        "时钟1个、记录纸1张、铅笔1支",
+        "成人用剪刀1把（剪完立即收好）"
+      ],
+      "safety": "成人先确认地面平坦、允许做可移除标记，远离道路、车流、水边、楼梯和人行通道。不看太阳，包括透过相机、望远镜或其他器具看太阳；不用镜子、放大镜或透镜聚光。不攀高，不碰热表面。每次户外测量约3–5分钟，间隔在室内或阴凉处等待；做好遮阳、补水，天气炎热不适、雷雨、大风或地面湿滑立即停止。只看地面影子；影子不清或超出安全范围就记缺测，不追到危险区域。剪裁、贴底脚和检查稳定由成人负责；卡条低矮且不留在无人看管的通道。观察完成立即收回卡条和胶带。 剪刀仅成人使用，剪裁后立即收回儿童触及不到处。",
+      "steps": [
+        {
+          "title": "制成两种实测高度",
+          "action": "成人把硬纸板裁成宽3厘米的长条，底端5厘米折成直角底脚，以纸胶带贴平固定在地面，直立部分不要弯曲。用一本硬封面书的直角作靠尺检查卡条与地面近似垂直；实际直立高度从地面量至顶边中点。底脚转向不会遮住待测影子的一侧。3×15厘米条折出约10厘米直立段，3×25厘米条折出约20厘米直立段；分别写S/L，量出实际HS、HL，记录毫米数，不用“约10/20”代替实测。",
+          "actor": "adult",
+          "caption": "高度不同，实际量一遍。",
+          "adultNote": "硬纸板太软弯曲或有风摇晃就停止；不用手扶着卡条测，因为手可能挡光或改变倾角。"
+        },
+        {
+          "title": "同地摆好并定量法",
+          "action": "两条放在同一片平坦、近似水平且有清楚影子的安全地面，朝向一致并相距至少30厘米；确保两影不重叠。把直立卡条底边中点标为O，找出顶边中点对应的影端P；若只见宽的顶边影，取其两端的中点。量O到P的地面直线距离，记到毫米，另记端点模糊宽度；不要把卡条底脚或邻物的影子算入影长。",
+          "actor": "together",
+          "caption": "每条都有自己的O与P。",
+          "adultNote": "底脚和胶带必须贴平；书只用于检查垂直，检查后移开，不让其遮影。"
+        },
+        {
+          "title": "短时配对读三轮",
+          "action": "在同一短时段内做3轮配对读数，每轮尽量在1分钟内先后读S和L，轮间不移动装置。顺序为S→L、L→S、S→L；记录每个读数的实际时刻和端点清晰度，全部尽量在5分钟内完成。若超过5分钟或云况改变，注明不同条件，不把数据当同时测得。",
+          "actor": "together",
+          "caption": "把短条与长条的同轮记录配成对。",
+          "adultNote": "三轮是同两条卡的重复读数，不是三套独立制作样本；端点不能分辨则写缺测。"
+        },
+        {
+          "title": "比较影长除以高度",
+          "action": "每轮分别算LS/HS与LL/HL（全部先用同一单位）；比值没有单位。比较两比值的差与三轮读数波动，不要求恰好一样；也可比较影长倍数与实际高度倍数。说明这不能检验全天变化。",
+          "actor": "child",
+          "caption": "比的是比例，不只比哪条影子长。",
+          "adultNote": "任何影长接近0或端点模糊到无法定位置时，不用该轮硬算比值；保留原始读数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相似形中的影长/高度比例",
+          "近似平行阳光与近同时比较",
+          "重复读数不是独立样本"
+        ],
+        "explanation": "同一地点、近乎同一时刻，阳光方向可近似相同。直立物与水平影面形成相似的几何关系，因此影长/高度有理由接近；这是要用实测检查的预测，不是预填答案。",
+        "limits": "地面倾斜、卡条弯曲、时刻不同、影端半影及底脚遮影都会影响比例。3轮仅检查看端点和读尺的波动，不能代表制作差异，也不能证明太阳距离或纬度。",
+        "observation": "实际HS/HL；3轮各LS/LL、时刻、端点清晰度与比值或无法计算原因。",
+        "nextQuestion": "若两比值差很多，先检查哪些实际条件，而不是先宣布相似关系失效？"
+      },
+      "guide": {
+        "goal": "真实制作两高度卡条，在同一短时段配对测影并比较比例。",
+        "observe": "在近乎同一时刻，10厘米和20厘米高的直立卡条，其影长与高度的比值是否接近？",
+        "support": "成人剪裁、固定与选址；孩子量实际高度、配对记录并计算同单位比值。",
+        "control": "同地面同朝向、近乎同时、同端点定义；改变实际高度，记录非同时与模糊读数。",
+        "time": "准备约15分钟；户外读数尽量5分钟内完成，计算回阴凉处。",
+        "recordFields": [
+          "实际高度HS/HL及垂直检查",
+          "第1/2/3轮LS/LL、时刻与清晰度",
+          "各轮影长/高度比值或缺测",
+          "重复波动、可能干扰与结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Exploratorium｜Outdoor Shadows",
+          "url": "https://www.exploratorium.edu/snacks/outdoor-shadows",
+          "claim": "影子需要光、遮光物和接收表面；固定位置隔时描影可以观察日影变化。",
+          "scope": "支持影子形成与重复描影思路；本页固定物、低卡条、限时与测量规则为独立改编，不照搬来源的道路/人行道场地举例。"
+        },
+        {
+          "title": "Harvard-Smithsonian｜Eyes on the Sky, Feet on the Ground, Chapter Two",
+          "url": "https://hea-www.harvard.edu/ECT/the_book/Chap2/Chapter2.html",
+          "claim": "直立物高度与水平影长构成直角三角形，可用高度/影长的反正切求太阳高度角。",
+          "scope": "仅使用Activity 2-10 Analysis Option的几何关系；不使用该章镜面反射活动或有地域限制的季节描述。不由本次短时记录推断纬度、地轴倾角或全天规律。"
+        }
+      ],
+      "sourceNote": "本龄段是基于所列原始科学教育资料的独立家庭改编；未实地试做，不代表来源机构认证。图是装置与量法示意，不是实际影子位置、方向或测量结果。没有清楚影子时保留缺测；不承诺某地某时一定向特定方向移动。",
+      "diagrams": [
+        {
+          "sceneKey": "shadow-1012-build",
+          "description": "两条卡纸和折底脚后的直立高度；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 125,
+              "width": 36,
+              "height": 140,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 225,
+              "x2": 136,
+              "y2": 225,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 370,
+              "y": 85,
+              "width": 36,
+              "height": 180,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 225,
+              "x2": 406,
+              "y2": 225,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 95,
+              "text": "3×15厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 424,
+              "y": 107,
+              "text": "3×25厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 172,
+              "text": "立起约10厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 428,
+              "y": 175,
+              "text": "立起约20厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 250,
+              "text": "底脚5厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 426,
+              "y": 250,
+              "text": "底脚5厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1012-setup",
+          "description": "两条垂直卡在同一平面，不指定影子实际方向；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 255,
+              "x2": 580,
+              "y2": 255,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 165,
+              "width": 12,
+              "height": 90,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 250,
+              "width": 38,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 405,
+              "y": 85,
+              "width": 12,
+              "height": 170,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 417,
+              "y": 250,
+              "width": 38,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 147,
+              "text": "S：量HS",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 440,
+              "y": 130,
+              "text": "L：量HL",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 151,
+              "y": 290,
+              "text": "同地面，间距至少30厘米",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1012-length",
+          "description": "从底部中点量到顶边影的中点；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 252,
+              "x2": 570,
+              "y2": 252,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 117,
+              "width": 15,
+              "height": 135,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 247,
+              "width": 50,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 193,
+              "y": 252,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "circle",
+              "x": 475,
+              "y": 252,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 252,
+              "x2": 475,
+              "y2": 252,
+              "stroke": "#6A7D78",
+              "strokeWidth": 7
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 117,
+              "x2": 475,
+              "y2": 252,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 179,
+              "text": "量H",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 165,
+              "y": 282,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 282,
+              "text": "P",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 282,
+              "text": "量影长L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 88,
+              "text": "P的位置由实际影子确定",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1012-repeat",
+          "description": "卡条不移动，三次重复读端点；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 120,
+              "width": 15,
+              "height": 135,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140,
+              "y": 250,
+              "width": 45,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 255,
+              "x2": 265,
+              "y2": 255,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 123,
+              "width": 220,
+              "height": 127,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 346,
+              "y": 158,
+              "text": "第1轮 S→L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 346,
+              "y": 195,
+              "text": "第2轮 L→S",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 346,
+              "y": 232,
+              "text": "第3轮 S→L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 290,
+              "text": "同两条卡；不是三套样本",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "用同一张直立卡条三次实测影长得到的太阳高度角区间如何变化，模型又依赖哪些条件？",
+      "materials": [
+        "硬纸板1张（成人裁1条3×25厘米，折底脚后直立约20厘米）",
+        "纸胶带约40厘米、硬封面书1本（检查直角）",
+        "毫米刻度直尺1把、卷尺1把、粉笔1支、时钟1个",
+        "记录纸2张、铅笔1支；带arctan/atan的计算器1个（角度设为度）",
+        "可选小水平尺1把（仅检查地面；无此工具时明确水平条件未经仪器确认）",
+        "成人用剪刀1把（剪完立即收好）"
+      ],
+      "safety": "成人先确认地面平坦、允许做可移除标记，远离道路、车流、水边、楼梯和人行通道。不看太阳，包括透过相机、望远镜或其他器具看太阳；不用镜子、放大镜或透镜聚光。不攀高，不碰热表面。每次户外测量约3–5分钟，间隔在室内或阴凉处等待；做好遮阳、补水，天气炎热不适、雷雨、大风或地面湿滑立即停止。只看地面影子；影子不清或超出安全范围就记缺测，不追到危险区域。剪裁与低卡条固定仅成人操作；水平尺或手机计算器只朝地面，不用任何观测太阳的软件取景或对准太阳。完成后清理卡条与胶带。 剪刀仅成人使用，剪裁后立即收回儿童触及不到处。",
+      "steps": [
+        {
+          "title": "建立并检查几何装置",
+          "action": "成人把硬纸板裁成宽3厘米的长条，底端5厘米折成直角底脚，以纸胶带贴平固定在地面，直立部分不要弯曲。用一本硬封面书的直角作靠尺检查卡条与地面近似垂直；实际直立高度从地面量至顶边中点。底脚转向不会遮住待测影子的一侧。制作3×25厘米卡条，折起底脚5厘米后约20厘米高。用直尺量实际高度H；选择近似水平地面，有水平尺则检查，没有则记录“仅目测平坦，水平未仪器确认”。画O，记日期、地点和地面状态。",
+          "actor": "together",
+          "caption": "先检查模型条件，再代公式。",
+          "adultNote": "水平地面与卡条垂直是两个不同条件；书的直角只能帮助检查卡条与地面的夹角，不能单独证明地面水平。"
+        },
+        {
+          "title": "记录影长不确定范围",
+          "action": "把直立卡条底边中点标为O，找出顶边中点对应的影端P；若只见宽的顶边影，取其两端的中点。量O到P的地面直线距离，记到毫米，另记端点模糊宽度；不要把卡条底脚或邻物的影子算入影长。对当前影端的模糊过渡带，用靠近O和远离O的可辨界限分别记录Lmin、Lmax；清楚到毫米尺分辨限时至少保留±1毫米读尺范围，不宣称无限精确。记录实际时刻t1，画一张H、影长和地面的直角三角形。",
+          "actor": "together",
+          "caption": "不是选一个最好看的端点。",
+          "adultNote": "若看不出模糊界限、Lmin小于5毫米、过渡带宽大于影长中值的一半，或影子超出安全场地，本次不换算角度，记短影/边界不清；这是本活动读数筛选规则，不是通用天文界限。不找太阳来校准。"
+        },
+        {
+          "title": "隔时重新测量",
+          "action": "约30分钟、约60分钟后，检查卡条/O未移动，再按同法测t2/t3的Lmin/Lmax。每次主动操作不超过约5分钟，间隔离开日晒处；云遮、风吹弯或胶带松动的记录标异常。",
+          "actor": "together",
+          "caption": "三次都回到同一装置。",
+          "adultNote": "装置移动后不可把新位置当同一序列续写；可结束并注明缺口，不为了凑三次延长暴晒。"
+        },
+        {
+          "title": "把影长区间转成角度区间",
+          "action": "若影长通过前述读数筛选、0<Lmin≤Lmax，且装置条件可接受，用度数模式计算α低=arctan(H/Lmax)、α高=arctan(H/Lmin)，比较三个时刻的区间。说明这仅传播影端/读尺的不确定性，未包括H、地面倾斜和卡条倾斜等全部误差；不报告超过证据支持的小数位。缺测保留，不断言本轮就找到正午或全天最短影。",
+          "actor": "child",
+          "caption": "影长越大，对应角度越小；区间要反过来配。",
+          "adultNote": "不能把arctan当tan，也不能在弧度模式下直接标“度”；H和L先统一单位。不根据这个单点模型推断纬度、季节或地球大小。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "太阳高度角α=arctan(H/L)",
+          "阴影端点不确定性传播",
+          "模型条件与局部时间序列"
+        ],
+        "explanation": "当卡条竖直、地面水平且光线近似平行时，高度H和水平影长L构成直角三角形，tanα=H/L；α是相对水平面的太阳高度角。对同一H，较长影对应较小角度，因此影长区间的两端要反向换算。这里仅通过地面影子间接估计，不直接观测太阳。",
+        "limits": "这不是精密天文测量。高度误差、水平/垂直偏差、卡条厚度和弯曲、半影以及太阳视运动都会影响估计。影子近0或无法辨认时不用此算法硬算；三个时刻不能确定全天极值、北方或纬度。",
+        "observation": "H与装置检查；t1/t2/t3的Lmin/Lmax、端点状态、推算角度区间或缺测；另列未传播的系统误差。",
+        "nextQuestion": "如果角度区间重叠，哪些证据还能支持变化？优先改进端点识别、垂直度还是水平度？"
+      },
+      "guide": {
+        "goal": "用实际日影三时段测量与区间计算，检验太阳高度角模型的适用边界。",
+        "observe": "用同一张直立卡条三次实测影长得到的太阳高度角区间如何变化，模型又依赖哪些条件？",
+        "support": "成人负责现场安全与固定；学习者量H、影长边界、做三角计算并说明误差。",
+        "control": "同卡条、同底部O、同地面与量法；时刻改变，记录水平/垂直与天气状态。",
+        "time": "主动操作约25分钟，跨约1小时；间隔在阴凉处，天气不适即止。",
+        "recordFields": [
+          "实际H、水平/垂直检查及日期地点",
+          "t1/t2/t3的Lmin/Lmax、时刻与缺测",
+          "各次α低/α高及单位检查",
+          "未传播误差、变化证据与模型限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Exploratorium｜Outdoor Shadows",
+          "url": "https://www.exploratorium.edu/snacks/outdoor-shadows",
+          "claim": "影子需要光、遮光物和接收表面；固定位置隔时描影可以观察日影变化。",
+          "scope": "支持影子形成与重复描影思路；本页固定物、低卡条、限时与测量规则为独立改编，不照搬来源的道路/人行道场地举例。"
+        },
+        {
+          "title": "Harvard-Smithsonian｜Eyes on the Sky, Feet on the Ground, Chapter Two",
+          "url": "https://hea-www.harvard.edu/ECT/the_book/Chap2/Chapter2.html",
+          "claim": "直立物高度与水平影长构成直角三角形，可用高度/影长的反正切求太阳高度角。",
+          "scope": "仅使用Activity 2-10 Analysis Option的几何关系；不使用该章镜面反射活动或有地域限制的季节描述。不由本次短时记录推断纬度、地轴倾角或全天规律。"
+        }
+      ],
+      "sourceNote": "本龄段是基于所列原始科学教育资料的独立家庭改编；未实地试做，不代表来源机构认证。图是装置与量法示意，不是实际影子位置、方向或测量结果。没有清楚影子时保留缺测；不承诺某地某时一定向特定方向移动。",
+      "diagrams": [
+        {
+          "sceneKey": "shadow-1316-level",
+          "description": "低卡条与地面直角检查；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 255,
+              "x2": 580,
+              "y2": 255,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 105,
+              "width": 15,
+              "height": 150,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 250,
+              "width": 45,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 195,
+              "width": 80,
+              "height": 60,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308,
+              "y": 215,
+              "text": "书检查直角",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 239,
+              "width": 130,
+              "height": 16,
+              "fill": "#F6D28C",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 278,
+              "text": "水平尺可选",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 87,
+              "text": "书不能证明地面水平",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1316-range",
+          "description": "观察端点过渡区而不是伪精确点；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 230,
+              "x2": 570,
+              "y2": 230,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 95,
+              "width": 15,
+              "height": 135,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 157,
+              "y1": 230,
+              "x2": 440,
+              "y2": 230,
+              "stroke": "#6A7D78",
+              "strokeWidth": 7
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 216,
+              "width": 34,
+              "height": 28,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 423,
+              "y1": 207,
+              "x2": 423,
+              "y2": 255,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 457,
+              "y1": 207,
+              "x2": 457,
+              "y2": 255,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 274,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 334,
+              "y": 291,
+              "text": "Lmin",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 468,
+              "y": 291,
+              "text": "Lmax",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 112,
+              "text": "端点过渡带",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 152,
+              "text": "界限由实际观察确定",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1316-return",
+          "description": "同卡条隔时重测，户外等待转移至阴凉处；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 252,
+              "x2": 570,
+              "y2": 252,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 117,
+              "width": 15,
+              "height": 135,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 247,
+              "width": 50,
+              "height": 5,
+              "fill": "#C8DCC4",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 193,
+              "y": 252,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "circle",
+              "x": 475,
+              "y": 252,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 252,
+              "x2": 475,
+              "y2": 252,
+              "stroke": "#6A7D78",
+              "strokeWidth": 7
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 117,
+              "x2": 475,
+              "y2": 252,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 179,
+              "text": "H不变",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 165,
+              "y": 282,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 282,
+              "text": "P",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 282,
+              "text": "量影长L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 88,
+              "text": "P的位置由实际影子确定",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 92,
+              "text": "t1 / t2 / t3",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "shadow-1316-model",
+          "description": "几何模型而不是实测太阳位置；装置/几何示意不按比例，影端须实测，不是预设结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 120,
+              "y1": 252,
+              "x2": 535,
+              "y2": 252,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 112,
+              "x2": 160,
+              "y2": 252,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 112,
+              "x2": 500,
+              "y2": 252,
+              "stroke": "#D8AC4E",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 232,
+              "x2": 180,
+              "y2": 232,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 232,
+              "x2": 180,
+              "y2": 252,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 112,
+              "y": 187,
+              "text": "H",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 280,
+              "text": "L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 453,
+              "y": 237,
+              "text": "α",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 225,
+              "y": 90,
+              "text": "模型：tan α = H / L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 299,
+              "text": "不画太阳，不需朝天看",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

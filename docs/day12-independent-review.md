@@ -1,0 +1,18 @@
+# Day 12 independent static review
+
+Verdict: PASS for standalone content and static diagrams only.
+Source SHA256 `4f036662d97eb70b621cb502ec943b588fba1ab4cb1d511b895557d353e0d0b0` (`day12-age-protocols.json`). All four final protocols pass the shared structural validator without errors.
+
+Reviewed four distinct procedures: adult radial centre-drop observation; two black-pen suspended-strip comparison; three fresh strips from one pen with approximate migration ratios; two pens × two paper types × two repeats (eight fresh strips) assessing method dependence. Material counts, fresh-sample rules, endpoints and recording requirements agree. No guaranteed colour separation or chemical identification is promised.
+
+Resolved practical issues: cups now have usable inner height 10–11 cm for 12 cm strips, folded/taped pencil support, paper bottom approximately 1 mm above the cup bottom and touching approximately 5 mm water while the 15 mm origin stays dry. Cup base diameter is limited and each 20 mL water allowance has an explicit unsuitable-cup/stop rule rather than unlisted extra water or extended paper. A separate recording/front-marking pencil is supplied. Youngest-age safety now refers to radial-paper flooding/tearing rather than inappropriate immersed-strip rules. The oldest protocol now independently defines Rf=b/a and approximate reporting, without requiring another age's instructions.
+
+Rf uses band centre and actual water-front distances from the same origin. Front travel below 20 mm, unclear fronts, overlapping bands and damaged strips can invalidate calculation. Band-width ranges are not confidence intervals, computed half-millimetre midpoints are not instrument accuracy, and two decimal places do not imply calibrated precision. Paper changes affect several properties; colour or matching ratios do not uniquely establish compound identity.
+
+Primary sources checked: Exploratorium https://annex.exploratorium.edu/science-explorer/black_magic.html explicitly includes both water-driven separation and centre-drop circular paper; ACS https://www.acs.org/education/activities/investigating-ink.html supports comparison of black markers. IUPAC https://goldbook.iupac.org/terms/view/R05353 initially returned HTTP 403 to direct web retrieval; its official indexed term/plain representation was independently readable and confirmed the centre/front definition and ratio. No restricted access was bypassed. Specific home geometry and timings are adaptations, not validated laboratory results.
+
+Only labelled washable water-based children's markers and room-temperature water are allowed; no alcohol, cleaners, permanent markers, ingestion or eye rubbing. Adults cut, manage caps and assist with wet strips; low-age liquid handling is adult-only. Unclear results are recorded, not pursued with stronger solvents or additional water.
+
+Actually viewed all 16 final static raster diagrams in `/tmp/day12-qa`: shallow-water contact, origin above water, pencil/tape/cup support and common-origin a/b arrows match the procedure. Blank result panels explicitly request actual observations rather than prefilled colours. No new visible overlap/clipping or misleading geometric contradiction found. Manifest binds the source above, 16 SVGs, 20 PNGs and renderer SHA256 `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`.
+
+No physical trial, browser acceptance, integrated progress regression or full-year/five-gate release approval is claimed. Rasterization was librsvg/cairo. No remaining concrete standalone static blocker identified.

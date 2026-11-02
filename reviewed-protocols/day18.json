@@ -1,0 +1,3337 @@
+{
+  "activityId": 18,
+  "activityTitle": "小水滴从哪里来",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "杯外壁开始干燥，放冰后以及擦干一小块后，会出现什么变化？",
+      "materials": [
+        "透明敞口塑料杯1个，容量至少300毫升",
+        "室温水100毫升；约2厘米见方冰块2块",
+        "带50/100毫升刻度的量杯1个",
+        "成人用食品夹1把；干燥吸水布2块",
+        "稳定大托盘1个；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "成人负责倒水、夹冰、擦拭、放取盖和冰碟；孩子不摸冰、不把材料入口。只用室温饮用水，不加温水，不用热水、火、加热灯、日晒或电加热。用无裂纹稳定塑料容器放托盘，桌面远离电器；容器不密封、不加压，不用袋套头、玻璃或生物培养。冰和融水留在指定杯或浅碟内，禁止把水洒到观察面制造结果；溅水、裂漏、倾倒立即停止该装置并记录污染/无效，成人擦干地面。完成后倒掉水、清洗晾干，不留置培养。",
+      "steps": [
+        {
+          "title": "先看干燥的外面",
+          "action": "成人在托盘中给杯倒入100毫升室温水，擦干外壁和托盘，静置1分钟检查裂漏。确认无连续漏水后，孩子指认水在杯内、外壁起点干燥。",
+          "actor": "adult",
+          "caption": "先认清里面和外面。",
+          "adultNote": "若漏水换完好杯重做准备；不要把漏出的水当凝结。"
+        },
+        {
+          "title": "冰只放在杯里面",
+          "action": "成人用夹子把2块冰轻放水中，不溅湿外壁；必要时重新擦干外壁和托盘，作为0分钟起点。保持杯敞口静置，到5分钟只看外壁，不摸、不吹气。",
+          "actor": "adult",
+          "caption": "冰在里面，看杯外面。",
+          "adultNote": "加冰若溅水须擦干并重新计时；不把脸贴杯。"
+        },
+        {
+          "title": "成人擦一个小区域",
+          "action": "5分钟时先记录外壁干/有薄雾/有水滴/看不清；成人用干布轻擦面对自己的一条竖区，孩子指出该区。杯不移动，继续到10分钟观察该区是否又有变化。",
+          "actor": "together",
+          "caption": "擦过的小块后来怎样？",
+          "adultNote": "成人扶稳杯；擦拭改变局部状态，不把它当严格重复试验；未见水滴也可擦一次干区。"
+        },
+        {
+          "title": "说出看见的位置",
+          "action": "孩子画杯内冰和杯外观察区，口述5与10分钟的真实样子。成人倒水清洗，擦干托盘。",
+          "actor": "child",
+          "caption": "画看到的，不补上想象的滴。",
+          "adultNote": "不要断言擦后一定有水滴；记录漏水、溅水或无变化。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "杯内的水与杯外观察面",
+          "看不见的水蒸气可变成液滴",
+          "擦拭前后是不同观察时刻"
+        ],
+        "explanation": "冷杯外壁可能使接触它的空气中的水蒸气凝结成液态水。水蒸气本身通常看不见；看到的雾状小滴不是“气态水”。",
+        "limits": "单杯观察和擦拭不能独自排除所有渗漏或飞溅；先查漏并保持外壁干燥只是减少这些误判。低湿度可能没有可见滴。",
+        "observation": "0、5、10分钟的外壁状态；5分钟擦过区域位置和任何污染。",
+        "nextQuestion": "不放冰的同样杯子外面会怎样？"
+      },
+      "guide": {
+        "goal": "完成一次单杯位置辨认与擦拭后再次观察。",
+        "observe": "杯外壁开始干燥，放冰后以及擦干一小块后，会出现什么变化？",
+        "support": "成人完成水、冰和容器处理；孩子负责按时观察、标位置与口述或记录，低龄可由成人代记。",
+        "control": "100毫升室温水、2块冰、同一杯静置10分钟；仅5分钟擦一个区域。",
+        "time": "准备约3分钟，观察10分钟。",
+        "recordFields": [
+          "起点内外位置",
+          "5分钟外壁与擦拭区",
+          "10分钟真实变化或异常"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "condense-46-start",
+          "description": "室温水杯起点外壁干燥；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 145,
+              "x2": 250,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 260,
+              "x2": 370,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 260,
+              "x2": 370,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 165,
+              "y": 90,
+              "text": "起点：外壁擦干、检查漏水",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 430,
+              "y1": 185,
+              "x2": 375,
+              "y2": 185,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 435,
+              "y": 180,
+              "text": "外侧",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-46-ice",
+          "description": "两块冰只在杯内；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 145,
+              "x2": 250,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 260,
+              "x2": 370,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 260,
+              "x2": 370,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 268,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 319,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 90,
+              "text": "成人放入2块冰，开始计时",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 290,
+              "text": "0 → 5分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-46-wipe",
+          "description": "外壁一条竖区由成人擦拭；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 145,
+              "x2": 250,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 260,
+              "x2": 370,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 260,
+              "x2": 370,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 268,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 319,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 175,
+              "width": 30,
+              "height": 55,
+              "fill": "#EEE3C5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 460,
+              "y1": 185,
+              "x2": 389,
+              "y2": 195,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 150,
+              "text": "成人擦一条",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 290,
+              "text": "5 → 10分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-46-end",
+          "description": "观察同一擦拭区域不预填水滴；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 145,
+              "x2": 250,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 260,
+              "x2": 370,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 260,
+              "x2": 370,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 268,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 319,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 445,
+              "y1": 180,
+              "x2": 373,
+              "y2": 190,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 150,
+              "text": "再看此区",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 90,
+              "text": "10分钟：有变化也可能没有",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Condensation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+          "claim": "水蒸气变为液态水称为凝结；潮湿环境中冷杯外壁可出现凝结水。",
+          "scope": "用于气态水与可见液滴的区别；不是本家庭装置的成功保证。"
+        },
+        {
+          "title": "ACS｜Changing State—Condensation",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter2/lesson3.html",
+          "claim": "冷表面与空气水蒸气有关；外壁凝结展示在低湿度下可能不明显。",
+          "scope": "只核对原理及湿度限制。不采用原文50℃水、密封袋或其成功保证。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做；来源支持原理而非认证本步骤。室温、湿度、盖子导热与观察角度会使水滴不明显，允许无可见变化，不提高水温或延长过夜追结果。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "冰水杯与室温水杯外壁，在相同观察时刻有什么不同？",
+      "materials": [
+        "相同透明敞口塑料杯2个，各至少300毫升；标签2张",
+        "室温水200毫升，两杯各100毫升；约2厘米见方冰块2块",
+        "带50/100毫升刻度的量杯1个",
+        "成人用食品夹1把；干燥吸水布2块",
+        "稳定大托盘1个；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "成人负责倒水、夹冰、擦拭、放取盖和冰碟；孩子不摸冰、不把材料入口。只用室温饮用水，不加温水，不用热水、火、加热灯、日晒或电加热。用无裂纹稳定塑料容器放托盘，桌面远离电器；容器不密封、不加压，不用袋套头、玻璃或生物培养。冰和融水留在指定杯或浅碟内，禁止把水洒到观察面制造结果；溅水、裂漏、倾倒立即停止该装置并记录污染/无效，成人擦干地面。完成后倒掉水、清洗晾干，不留置培养。",
+      "steps": [
+        {
+          "title": "两杯从干燥开始",
+          "action": "成人给两杯各倒100毫升同一份室温水，标A冰水、B室温，放托盘并排。擦干外壁和托盘，静置1分钟查漏；孩子画起点。",
+          "actor": "adult",
+          "caption": "先有两杯相同的室温水。",
+          "adultNote": "杯间留出手宽，避开直吹风口与日晒。"
+        },
+        {
+          "title": "只给A加入两块冰",
+          "action": "成人只给A夹入2块冰，B不加冰；不搅拌。擦掉任何准备溅水后两杯同时开始计时，保持敞口、不移动。",
+          "actor": "adult",
+          "caption": "A加冰，B不加。",
+          "adultNote": "加冰也改变总水量与水位，不把这套比较写成精确的单一温度测量。"
+        },
+        {
+          "title": "同刻观察同一侧",
+          "action": "在0、5、10分钟从同侧观察两杯外壁，分别记干/薄雾/水滴/无法分辨，不摸、不擦、不开风扇。只记录外壁，不拿杯内冰融水当答案。",
+          "actor": "child",
+          "caption": "每个时刻都看两杯。",
+          "adultNote": "有滴会并合下流，所以不逐滴计数换算凝结量；若污染，注明该杯失效。"
+        },
+        {
+          "title": "比较并清理",
+          "action": "并列同刻记录，写哪些差异本次能看清、哪些看不清。成人倒水清洗，擦干托盘。",
+          "actor": "together",
+          "caption": "没看出差别也是真记录。",
+          "adultNote": "每条件只有一杯，不能保证任何房间都相同。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "并行参照杯",
+          "冷却与空气湿度",
+          "液滴外观不是凝结速率"
+        ],
+        "explanation": "并排的室温杯帮助比较加冰冷却这一整套条件与外壁现象的关系；水蒸气可在较冷表面变成液滴。",
+        "limits": "未测表面温度与湿度，且加冰使总水量、水位改变；这不是定量温度效应或凝结速率测量。两杯都干不能证明空气没有水蒸气。",
+        "observation": "两杯0/5/10分钟外壁类别和位置，异常单独记录。",
+        "nextQuestion": "冷却盖子时，盒内一面也可能出现水滴吗？"
+      },
+      "guide": {
+        "goal": "完成实际冰水与室温双杯外壁对照。",
+        "observe": "冰水杯与室温水杯外壁，在相同观察时刻有什么不同？",
+        "support": "成人完成水、冰和容器处理；孩子负责按时观察、标位置与口述或记录，低龄可由成人代记。",
+        "control": "同杯型、初始水各100毫升、同位置同观察时刻；A额外2块冰。",
+        "time": "准备约3分钟，观察10分钟。",
+        "recordFields": [
+          "两杯起点与加冰情况",
+          "A外壁0/5/10分钟",
+          "B外壁0/5/10分钟",
+          "差别、不确定与污染"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "condense-79-start",
+          "description": "两杯初始100毫升室温水；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 145,
+              "x2": 125,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 260,
+              "x2": 245,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 260,
+              "x2": 245,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 396,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 145,
+              "x2": 395,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 260,
+              "x2": 515,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 260,
+              "x2": 515,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 95,
+              "text": "两杯同型、初始水各100毫升",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 290,
+              "text": "A 待加冰",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 290,
+              "text": "B 室温",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-79-ice",
+          "description": "只A加入两冰块；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 145,
+              "x2": 125,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 260,
+              "x2": 245,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 260,
+              "x2": 245,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 143,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 194,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 396,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 145,
+              "x2": 395,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 260,
+              "x2": 515,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 260,
+              "x2": 515,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 95,
+              "text": "A加2块冰，B不加；都敞口",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 290,
+              "text": "A 冰水",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 290,
+              "text": "B 室温",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-79-watch",
+          "description": "同时看两杯外侧；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 145,
+              "x2": 125,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 260,
+              "x2": 245,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 260,
+              "x2": 245,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 143,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 194,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 396,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 145,
+              "x2": 395,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 260,
+              "x2": 515,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 260,
+              "x2": 515,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 150,
+              "y": 95,
+              "text": "0、5、10分钟：只看外壁",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 280,
+              "y1": 180,
+              "x2": 248,
+              "y2": 195,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 550,
+              "y1": 180,
+              "x2": 518,
+              "y2": 195,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-79-end",
+          "description": "两杯不擦不摇，保留真实外壁差异；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 145,
+              "x2": 125,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 260,
+              "x2": 245,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 260,
+              "x2": 245,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 143,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 194,
+              "y": 195,
+              "width": 24,
+              "height": 24,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 396,
+              "y": 205,
+              "width": 118,
+              "height": 55,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 145,
+              "x2": 395,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 260,
+              "x2": 515,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 515,
+              "y1": 260,
+              "x2": 515,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 95,
+              "text": "对照同一时刻，不按滴数求量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 290,
+              "text": "A 原位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 290,
+              "text": "B 原位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Condensation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+          "claim": "水蒸气变为液态水称为凝结；潮湿环境中冷杯外壁可出现凝结水。",
+          "scope": "用于气态水与可见液滴的区别；不是本家庭装置的成功保证。"
+        },
+        {
+          "title": "ACS｜Changing State—Condensation",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter2/lesson3.html",
+          "claim": "冷表面与空气水蒸气有关；外壁凝结展示在低湿度下可能不明显。",
+          "scope": "只核对原理及湿度限制。不采用原文50℃水、密封袋或其成功保证。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做；来源支持原理而非认证本步骤。室温、湿度、盖子导热与观察角度会使水滴不明显，允许无可见变化，不提高水温或延长过夜追结果。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "同样室温水上方，放冰碟的盖与空碟盖内侧，在20分钟内有什么不同？",
+      "materials": [
+        "相同透明食品盒2个，各容量约500毫升、平底、盒高约8厘米；匹配平整硬盖2个（可松放，不能扣紧）",
+        "同样轻质塑料浅碟2个，各至少100毫升、平底直径约6厘米，可稳放盖中央",
+        "室温水100毫升，两盒各50毫升；约2厘米见方冰块2块；标签2张",
+        "带50/100毫升刻度的量杯1个",
+        "成人用食品夹1把；干燥吸水布2块",
+        "稳定大托盘1个；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "成人负责倒水、夹冰、擦拭、放取盖和冰碟；孩子不摸冰、不把材料入口。只用室温饮用水，不加温水，不用热水、火、加热灯、日晒或电加热。用无裂纹稳定塑料容器放托盘，桌面远离电器；容器不密封、不加压，不用袋套头、玻璃或生物培养。冰和融水留在指定杯或浅碟内，禁止把水洒到观察面制造结果；溅水、裂漏、倾倒立即停止该装置并记录污染/无效，成人擦干地面。完成后倒掉水、清洗晾干，不留置培养。",
+      "steps": [
+        {
+          "title": "同水量的两盒",
+          "action": "成人检验盒与盖完好，把盒A、B放托盘，分别量入50毫升室温水，擦干两盖正反面及盒外。记录盖两面的初始干燥状态，再轻放盖。成人先用空碟确认盖不弯曲、不滑移。盖只松放不扣紧；碟放盖中央，冰碟最多2块冰，融水不倒出。不要触碰盒或盖；从透明侧面看，分不清滴在哪一面就记“位置不明”，不能当内侧结果。",
+          "actor": "adult",
+          "caption": "同样的水，同样干燥的盖。",
+          "adultNote": "不用温水；若盖不够透明或侧面看不到盖内侧，应换合适容器，不能猜结果。"
+        },
+        {
+          "title": "一碟放冰，一碟空着",
+          "action": "成人将相同干燥浅碟放在两盖中央。A碟轻放2块冰，B碟留空；两装置尽快完成并各记起始时刻，不将冰或融水直接放在盖上。",
+          "actor": "adult",
+          "caption": "冰只在A的浅碟里。",
+          "adultNote": "冰碟是冷却来源，融水不是模型“下雨”；一旦碟溢出、滑动或滴到盖，标A污染并停止。"
+        },
+        {
+          "title": "分开记录内外侧",
+          "action": "各装置从自己的起点在0、5、10、20分钟观察盖内侧、盖外侧两个位置，记干/薄雾/可见滴/位置不明。视线从侧面略向上，但脸不伸到装置上方，不开盖、不移动碟。",
+          "actor": "child",
+          "caption": "同一块盖，有里面和外面。",
+          "adultNote": "冰碟会挡视线，可看碟下方附近的可见区域；不要移动装置找更好的结果。"
+        },
+        {
+          "title": "比较冷盖与参照盖",
+          "action": "比较两盖内侧在各自相同经过时间的记录，画盒底水、盒内空气、盖内侧的可能路径，并单列盖外滴和冰碟融水。成人先取碟再收盖，倒水清洗；不把拆卸时的滴水算观察结果。",
+          "actor": "together",
+          "caption": "水有不同位置，也可能不同来源。",
+          "adultNote": "只比较能确定位置的记录；没有滴不延时过夜、不改热水。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同一盖的内面与外面",
+          "冷却条件的并行比较",
+          "液态水蒸发与气态水凝结"
+        ],
+        "explanation": "室温水也会蒸发；盖下面空气原有的水蒸气和盒底水蒸发形成的水蒸气，都可能在较冷的盖内侧凝结。盖外滴则可来自室内空气，冰碟里是融冰水。",
+        "limits": "两盖冷却程度未测，塑料盖导热、室温和湿度会影响可见性；只看滴不能证明每滴来自盒底水。松盖会交换空气，此装置不是密闭水量守恒测量，更不是完整云雨模型。",
+        "observation": "盖内/外分开记0/5/10/20分钟类别与位置不明、溢水污染。",
+        "nextQuestion": "没有盒底水但仍放冷盖，会出现什么？"
+      },
+      "guide": {
+        "goal": "搭两套实际冷盖/空碟盖装置，分辨内外侧而非只看总滴数。",
+        "observe": "同样室温水上方，放冰碟的盖与空碟盖内侧，在20分钟内有什么不同？",
+        "support": "成人完成水、冰和容器处理；孩子负责按时观察、标位置与口述或记录，低龄可由成人代记。",
+        "control": "盒型、盖型、室温水各50毫升、相同浅碟和观察时点；仅A碟2块冰、B空碟。",
+        "time": "准备约5分钟，观察20分钟后清理。",
+        "recordFields": [
+          "A/B初始条件与起始时间",
+          "A内侧／外侧各时点状态",
+          "B内侧／外侧各时点状态",
+          "位置不明、污染与可能来源"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "condense-1012-start",
+          "description": "两盒50毫升室温水、干盖和空碟；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 165,
+              "x2": 80,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 255,
+              "x2": 280,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 255,
+              "x2": 280,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 140,
+              "x2": 150.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 165,
+              "x2": 360,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 255,
+              "x2": 560,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 560,
+              "y1": 255,
+              "x2": 560,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 356,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 140,
+              "x2": 430.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 490.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 90,
+              "text": "两盒室温水各50毫升；盖松放",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 285,
+              "text": "A 待冷却",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 285,
+              "text": "B 参照",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1012-cool",
+          "description": "A浅碟内2冰块，B浅碟空置；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 165,
+              "x2": 80,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 255,
+              "x2": 280,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 255,
+              "x2": 280,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 140,
+              "x2": 150.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 144,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 144,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 165,
+              "x2": 360,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 255,
+              "x2": 560,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 560,
+              "y1": 255,
+              "x2": 560,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 356,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 140,
+              "x2": 430.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 490.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 90,
+              "text": "A碟2块冰；B空碟；不扣盖",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 285,
+              "text": "A 冷盖",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 285,
+              "text": "B 空碟盖",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1012-watch",
+          "description": "单套放大剖示，冰碟在外，观察盖内侧；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 254,
+              "width": 248,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 155,
+              "x2": 190,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 270,
+              "x2": 440,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 440,
+              "y1": 270,
+              "x2": 440,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 149,
+              "width": 258,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 285.0,
+              "y1": 130,
+              "x2": 285.0,
+              "y2": 148,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 285.0,
+              "y1": 148,
+              "x2": 345.0,
+              "y2": 148,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 345.0,
+              "y1": 148,
+              "x2": 345.0,
+              "y2": 130,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 134,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320.0,
+              "y": 134,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 90,
+              "text": "两盒均在0、5、10、20分钟观察",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 90,
+              "y1": 195,
+              "x2": 205,
+              "y2": 160,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 225,
+              "text": "盖内侧",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 525,
+              "y1": 140,
+              "x2": 438,
+              "y2": 150,
+              "stroke": "#B47747",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 120,
+              "text": "盖外侧",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1012-end",
+          "description": "两装置原位比较，未画预期滴；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 165,
+              "x2": 80,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 255,
+              "x2": 280,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 255,
+              "x2": 280,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 140,
+              "x2": 150.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 158,
+              "x2": 210.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 144,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 144,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 239,
+              "width": 198,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 165,
+              "x2": 360,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 255,
+              "x2": 560,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 560,
+              "y1": 255,
+              "x2": 560,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 356,
+              "y": 159,
+              "width": 208,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 140,
+              "x2": 430.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 430.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 490.0,
+              "y1": 158,
+              "x2": 490.0,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 90,
+              "text": "先分内外，再比较；不算融冰水",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 285,
+              "text": "A 内／外分记",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 285,
+              "text": "B 内／外分记",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Condensation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+          "claim": "水蒸气变为液态水称为凝结；潮湿环境中冷杯外壁可出现凝结水。",
+          "scope": "用于气态水与可见液滴的区别；不是本家庭装置的成功保证。"
+        },
+        {
+          "title": "ACS｜Changing State—Condensation",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter2/lesson3.html",
+          "claim": "冷表面与空气水蒸气有关；外壁凝结展示在低湿度下可能不明显。",
+          "scope": "只核对原理及湿度限制。不采用原文50℃水、密封袋或其成功保证。"
+        },
+        {
+          "title": "UCAR｜Water Cycle Activity",
+          "url": "https://scied.ucar.edu/activity/water-cycle",
+          "claim": "冰放在盖顶浅碟中可冷却盖子，模型用于讨论蒸发和凝结。",
+          "scope": "独立删去原文灯、烟、火柴、密封和加热，只用室温水、松盖与少量冰；不等同完整云雨过程。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做；来源支持原理而非认证本步骤。室温、湿度、盖子导热与观察角度会使水滴不明显，允许无可见变化，不提高水温或延长过夜追结果。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "有水与干盒各配冷盖和空碟盖，四个装置能提供哪些关于盖内侧水滴来源的线索？",
+      "materials": [
+        "相同透明食品盒4个，各约500毫升、盒高约8厘米；匹配平整硬盖4个，可松放不扣紧",
+        "相同轻质塑料浅碟4个，各至少100毫升、平底直径约6厘米，可稳放盖中央",
+        "室温水100毫升（A、B各50毫升）；C、D不加水并保持干燥",
+        "约2厘米见方冰块4块（A、C的碟各2块）；标签4张",
+        "带50/100毫升刻度的量杯1个",
+        "成人用食品夹1把；干燥吸水布2块",
+        "稳定大托盘1个；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "成人负责倒水、夹冰、擦拭、放取盖和冰碟；孩子不摸冰、不把材料入口。只用室温饮用水，不加温水，不用热水、火、加热灯、日晒或电加热。用无裂纹稳定塑料容器放托盘，桌面远离电器；容器不密封、不加压，不用袋套头、玻璃或生物培养。冰和融水留在指定杯或浅碟内，禁止把水洒到观察面制造结果；溅水、裂漏、倾倒立即停止该装置并记录污染/无效，成人擦干地面。完成后倒掉水、清洗晾干，不留置培养。",
+      "steps": [
+        {
+          "title": "实际设置四个组合",
+          "action": "成人检查盒盖、擦干各盒与盖的两面。并排成2×2摆在托盘：A水+冷盖、B水+空碟盖、C干盒+冷盖、D干盒+空碟盖。A/B各加入50毫升室温水，C/D不加水。记录各盖起点，四盒轻放盖与空碟。成人先用空碟确认盖不弯曲、不滑移。盖只松放不扣紧；碟放盖中央，冰碟最多2块冰，融水不倒出。不要触碰盒或盖；从透明侧面看，分不清滴在哪一面就记“位置不明”，不能当内侧结果。",
+          "actor": "adult",
+          "caption": "四个实际装置，不是只写计划。",
+          "adultNote": "干盒是无另加液态水，不是无水蒸气：原有空气和进出空气都有湿度。"
+        },
+        {
+          "title": "同时改变两个条件",
+          "action": "成人给A/C碟各放2块冰，B/D碟空置；记录四装置各自起始时刻，尽量在1分钟内完成。每个浅碟底都保持干净干燥，盖不扣。固定位置不互换盖、碟或盒。",
+          "actor": "adult",
+          "caption": "A、C冷却；A、B有盒底水。",
+          "adultNote": "不能用湿手摸盖制造滴；任何冰碟溢水或滑落，停止该装置并标污染，不补做数据。"
+        },
+        {
+          "title": "四格独立记录",
+          "action": "按每个装置自己的起点在0、5、10、20分钟，从透明侧面观察盖内侧并另记外侧。类别统一为干/薄雾/可见滴/位置不明。每次都记录四格，留空不是“无滴”，错过时刻写实际时间。",
+          "actor": "child",
+          "caption": "四格都看，不只找最明显的一盒。",
+          "adultNote": "不开盖、不挪冰碟；视线不清写位置不明，冰碟融水与拆装滴水一律不作盖内证据。"
+        },
+        {
+          "title": "做两组有条件比较",
+          "action": "先比较A与B、C与D的冷却差别，再比较A与C、B与D的盒底水差别。允许全部相同或全部不明显；即使C有滴也只能支持“另加盒底水不是必需来源”的本次线索，不能分配每滴来源。成人依次收碟和盖、倒水清洗。",
+          "actor": "together",
+          "caption": "配对比较，结论有边界。",
+          "adultNote": "每组合仅一盒，不是独立重复；多个时点是同装置追踪，不当多次独立实验。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "水供应×冷却的四组合",
+          "无液态水对照不等于无水蒸气",
+          "条件比较与来源归属不同"
+        ],
+        "explanation": "四组合把是否另加盒底水和是否用冰碟冷却交叉安排。冷却影响凝结条件，盒底水可补充水蒸气；没有盒底水的盒仍有湿空气。凝结时水蒸气向较冷表面传递能量，并非水滴穿过完好的盖。",
+        "limits": "开放交换空气、湿度与表面温度未测，每格仅一盒；盒底水也改变热容量，不能把A/C差异全部归为水蒸气浓度。滴形和覆盖受并合、流动影响，不用类别做差计算产水量，不用四格结果断言每滴来源比例。",
+        "observation": "四组合的实际起点、内外侧时间序列、位置不明和污染；分别按是否冷却/是否加水配对。",
+        "nextQuestion": "若要区分水供应与热容量的影响，还需增加怎样的对照或测量？"
+      },
+      "guide": {
+        "goal": "实际执行水/干盒×冷/空碟盖四组合，检查来源的替代解释。",
+        "observe": "有水与干盒各配冷盖和空碟盖，四个装置能提供哪些关于盖内侧水滴来源的线索？",
+        "support": "成人完成水、冰和容器处理；孩子负责按时观察、标位置与口述或记录，低龄可由成人代记。",
+        "control": "四盒同型同盖同碟，A/B水各50毫升，A/C冰各2块；每装置0/5/10/20分钟。",
+        "time": "准备约8分钟，观察20分钟后清理。",
+        "recordFields": [
+          "四组合条件与实际起始时刻",
+          "四组合内侧各时点状态",
+          "外侧、位置不明与污染记录",
+          "两种配对比较及不能推出的结论"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "condense-1316-start",
+          "description": "四盒初始水/干差别，冰尚未加入，图中空碟；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 120,
+              "x2": 95,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 165,
+              "x2": 265,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 165,
+              "x2": 265,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 95,
+              "x2": 150.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 185,
+              "text": "A 水＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 120,
+              "x2": 365,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 165,
+              "x2": 535,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 165,
+              "x2": 535,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 95,
+              "x2": 420.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 185,
+              "text": "B 水＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 230,
+              "x2": 95,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 275,
+              "x2": 265,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 275,
+              "x2": 265,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 205,
+              "x2": 150.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 295,
+              "text": "C 干＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 230,
+              "x2": 365,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 275,
+              "x2": 535,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 275,
+              "x2": 535,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 205,
+              "x2": 420.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 295,
+              "text": "D 干＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "起点：先配水／干，四碟暂空",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1316-cool",
+          "description": "A/C浅碟各2冰块，B/D空碟；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 120,
+              "x2": 95,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 165,
+              "x2": 265,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 165,
+              "x2": 265,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 95,
+              "x2": 150.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 185,
+              "text": "A 水＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 120,
+              "x2": 365,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 165,
+              "x2": 535,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 165,
+              "x2": 535,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 95,
+              "x2": 420.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 185,
+              "text": "B 水＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 230,
+              "x2": 95,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 275,
+              "x2": 265,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 275,
+              "x2": 265,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 205,
+              "x2": 150.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 295,
+              "text": "C 干＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 230,
+              "x2": 365,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 275,
+              "x2": 535,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 275,
+              "x2": 535,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 205,
+              "x2": 420.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 295,
+              "text": "D 干＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "加冰：只给A、C；盖不扣紧",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1316-watch",
+          "description": "四装置原位按各自0/5/10/20分钟观察；图不填滴；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 120,
+              "x2": 95,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 165,
+              "x2": 265,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 165,
+              "x2": 265,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 95,
+              "x2": 150.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 185,
+              "text": "A 水＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 120,
+              "x2": 365,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 165,
+              "x2": 535,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 165,
+              "x2": 535,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 95,
+              "x2": 420.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 185,
+              "text": "B 水＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 230,
+              "x2": 95,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 275,
+              "x2": 265,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 275,
+              "x2": 265,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 205,
+              "x2": 150.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 295,
+              "text": "C 干＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 230,
+              "x2": 365,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 275,
+              "x2": 535,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 275,
+              "x2": 535,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 205,
+              "x2": 420.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 295,
+              "text": "D 干＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "各自0、5、10、20分钟看内外",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "condense-1316-end",
+          "description": "固定四组合用于两方向配对，不移动装置；装置示意非比例图，不预画实际水滴结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 120,
+              "x2": 95,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 165,
+              "x2": 265,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 165,
+              "x2": 265,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 95,
+              "x2": 150.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 113,
+              "x2": 210.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 99,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 185,
+              "text": "A 水＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 149,
+              "width": 168,
+              "height": 16,
+              "fill": "#DCEEEE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 120,
+              "x2": 365,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 165,
+              "x2": 535,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 165,
+              "x2": 535,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 114,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 95,
+              "x2": 420.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 113,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 113,
+              "x2": 480.0,
+              "y2": 95,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 185,
+              "text": "B 水＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 230,
+              "x2": 95,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 275,
+              "x2": 265,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 275,
+              "x2": 265,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 205,
+              "x2": 150.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 223,
+              "x2": 210.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 209,
+              "width": 20,
+              "height": 14,
+              "fill": "#C5DDE9",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 113,
+              "y": 295,
+              "text": "C 干＋冷",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 230,
+              "x2": 365,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 275,
+              "x2": 535,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 535,
+              "y1": 275,
+              "x2": 535,
+              "y2": 230,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 224,
+              "width": 178,
+              "height": 5,
+              "fill": "#F4F0DE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 205,
+              "x2": 420.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 223,
+              "x2": 480.0,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 383,
+              "y": 295,
+              "text": "D 干＋空",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "横比冷却，竖比盒底水",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Condensation and the Water Cycle",
+          "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+          "claim": "水蒸气变为液态水称为凝结；潮湿环境中冷杯外壁可出现凝结水。",
+          "scope": "用于气态水与可见液滴的区别；不是本家庭装置的成功保证。"
+        },
+        {
+          "title": "ACS｜Changing State—Condensation",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter2/lesson3.html",
+          "claim": "冷表面与空气水蒸气有关；外壁凝结展示在低湿度下可能不明显。",
+          "scope": "只核对原理及湿度限制。不采用原文50℃水、密封袋或其成功保证。"
+        },
+        {
+          "title": "UCAR｜Water Cycle Activity",
+          "url": "https://scied.ucar.edu/activity/water-cycle",
+          "claim": "冰放在盖顶浅碟中可冷却盖子，模型用于讨论蒸发和凝结。",
+          "scope": "独立删去原文灯、烟、火柴、密封和加热，只用室温水、松盖与少量冰；不等同完整云雨过程。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做；来源支持原理而非认证本步骤。室温、湿度、盖子导热与观察角度会使水滴不明显，允许无可见变化，不提高水温或延长过夜追结果。"
+    }
+  }
+}

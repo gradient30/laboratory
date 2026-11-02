@@ -1,0 +1,15 @@
+# Day 21 independent static review
+
+**PASS — scoped content and static diagrams.** Source SHA256: `bc89ea190dc5d6f0bcba0951ebdc3a8569d6b2c810ed63a0221015269b61944e`.
+
+Read all four complete protocols. Genuine differentiation consists of three-minute behavior observation; three two-minute maximum-simultaneous-count segments separated by rest; five paired near-instantaneous independent observer counts; continuous versus sparse sampling in two ten-minute rounds with exchanged roles. These are different operations, sampling rules and interpretation tasks, not merely harder questions. Shared paper, pencils, timer and safe viewpoint are appropriate; adding decorative equipment would not improve differentiation.
+
+Timings, rest periods, observer roles and paper allocations cover the procedures. Predetermined starts avoid deliberately selecting busy moments. Repeated visits and segment maxima are not summed into unique birds. Zero is distinguished from interruption, uncertainty and missing observations. Five-second samples are explicitly approximate rather than frozen images, agreement is not accuracy, and two observers can both miss birds. Sparse maxima require all planned samples or carry an uncertainty warning. Role exchange cannot remove natural changes between rounds, and reverse-direction results must not be edited to fit expectations. No invented counts, species identification, detection probabilities or population estimates are required.
+
+Directly read [Cornell Lab's maximum-simultaneous-count explanation](https://feederwatch.org/feederwatch-tips/methods-behind-the-madness-why-only-count-the-most-birds-seen-at-once/). It supports avoiding double-counted visits and recognizing incomplete detection. The curriculum clearly distinguishes its all-visible-bird household method from Cornell's per-species formal FeederWatch protocol; it does not claim institutional validation or offer these observations for formal submission.
+
+Safety specifies adult-selected floor-level viewing behind a closed window, no climbing/leaning/opening, no looking at the sun, no feeding/playback/pursuit/contact, and no photographing private interiors or publishing precise home location. Fatigue and unsuitable visibility allow stopping without forcing a result.
+
+Independently generated all 16 actual-renderer SVGs, rasterized using librsvg/cairo and viewed all four age sheets. Fixed windows, common viewpoints, timings and exchanged roles agree with text. Illustrations do not fabricate bird counts or measured outcomes; an unpopulated schematic is not an observed zero. No obvious clipping or obstructed labels was found. Evidence: `/tmp/day21-independent-qa/manifest.json`, with 16 SVG and 20 PNG hashes. Renderer SHA256: `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`. All four shared validator results were empty arrays.
+
+No browser or physical observation trial was performed. No blocking defect was found within this scope. This is not whole-application regression, all five release gates, or full-year approval.

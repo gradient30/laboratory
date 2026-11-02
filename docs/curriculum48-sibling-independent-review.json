@@ -1,0 +1,34 @@
+{
+  "reviewer": "Independent AI-assisted review",
+  "scope": "PR11 first48 sibling isolation failed browser test; read-only investigation, no production data",
+  "sourceCommit": "dd1e4869810ea4ed4aad48926d7d8577b93029be",
+  "sourceTree": "f4350afd12b9a1079c6ed77134a9404c24830d1c",
+  "reportedRemoteHead": "1ee0aeabd9310e34940b4e8378210805b63fed8d",
+  "ciRun": 41421457308,
+  "findings": [
+    {
+      "status": "CONFIRMED_TEST_DEFECT",
+      "location": "tests/age-protocols.spec.mjs:28",
+      "detail": "options[1] chooses UI position, not seeded empty sibling identity. Fixture random IDs share one created_at timestamp; sessionData sorts created_at,id; UI retains session order."
+    },
+    {
+      "status": "DETERMINISTIC_REPRODUCTION",
+      "detail": "Actual migrations/0001_accounts.sql in memory with exact ORDER BY query: source ID 000.. and empty ID fff.. yields second empty; reverse IDs yields second source with viewedSteps15/completed true/secret record. No browser or production state was needed to demonstrate selection defect."
+    },
+    {
+      "status": "NO_LEAK_FOUND_IN_REVIEWED_FLOW",
+      "detail": "worker/core.mjs child query constrains ID plus user ID. selectChild resets state/DOM/private context, loads selected ID state, and rejects stale epochs. This is bounded source review, not proof all interleavings are safe."
+    }
+  ],
+  "historicalEvidenceLimit": "CI logs establish desktop received4/4 instead of0/4 and mobile passed. Failed screenshot/error context are named in logs but not retained by current visual-review-only artifact path; actual failing-run IDs were not observed. The confirmed selection defect explains the symptom, but no fabricated historical ID proof is claimed.",
+  "requiredFixValidation": [
+    "Capture fixture-returned child IDs by nickname, never option ordinal.",
+    "Explicitly select source; assert selected ID,4/4 and seeded secret record.",
+    "Select empty sibling by ID; await its state response/UI readiness; assert selected ID,0/4,blank observation and no secret.",
+    "Switch back to source and confirm original secret/progress, then back to empty.",
+    "Fetch both states by exact IDs and assert source protocol unchanged and empty sibling protocol has no copied record/progress.",
+    "Retain legacy-mode assertion; run desktop/mobile regression on new exact source."
+  ],
+  "releaseStatus": "Current CI is failed. Do not claim regression pass or release readiness until corrected test and full required CI pass.",
+  "actions": "No file edits in repository, no remote writes, no credential or production data access; report file only."
+}

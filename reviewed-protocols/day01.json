@@ -1,0 +1,2424 @@
+{
+  "activityId": 1,
+  "activityTitle": "纸桥为什么变结实",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "同批A4复印纸2张（各裁1张桥用纸，不加负重）",
+        "两本同厚、平放且高度2–3厘米的书（各1本，宽度足以支撑纸桥）",
+        "30厘米毫米刻度直尺1把；铅笔1支",
+        "边缘平整的大托盘1个（能容纳书和纸桥）；成人用剪刀1把"
+      ],
+      "safety": "成人全程近距离陪伴，负责剪裁、折边和搭稳书墩；本龄段只看纸自身支撑，不放任何负重。在托盘内低位操作，不按压或固定桥头。纸明显折坏、滑落、碰托盘或书移动就立即停止并取走纸桥；不追求破坏极限。材料不入口，收好剪刀。",
+      "steps": [
+        {
+          "title": "准备两张纸",
+          "action": "成人把桥用纸每张裁成24×12厘米，长边作为桥长；只用同批干燥普通复印纸，不叠层、不贴胶带。保留一张平纸，成人帮助另一张做U形：沿两条长边各向内量2厘米，沿长方向折起直立侧边，做成底宽8厘米、侧边高2厘米的U形。",
+          "actor": "adult",
+          "caption": "看一看：纸一样大。",
+          "adultNote": "剪刀只由成人使用；不要求孩子量尺或折出精确尺寸。"
+        },
+        {
+          "title": "搭一座小桥",
+          "action": "成人把两本书放在托盘中，内边相距12厘米。先把平纸居中跨在书上，每端搭上6厘米；不按住桥头。",
+          "actor": "together",
+          "caption": "把平纸轻轻搭上去。",
+          "adultNote": "检查书不滑动；孩子可指认中间没有书的区域。"
+        },
+        {
+          "title": "换一种形状",
+          "action": "取走平纸，在同一位置放U形纸，仍每端搭6厘米。只观察各自的重量下，中央是较平还是明显下垂；不要用手按桥。",
+          "actor": "together",
+          "caption": "换成有两边的桥，再看看。",
+          "adultNote": "不承诺一定出现明显差异；若都较平，保留这个观察，不加重制造效果。"
+        },
+        {
+          "title": "画自己看到的桥",
+          "action": "把两种桥的样子各画一笔或口述，指出桥下面空着的地方、纸和书接触的地方；成人记录孩子原话。",
+          "actor": "child",
+          "caption": "哪一处有书托着？",
+          "adultNote": "记录“看不出不同”也是有效结果；收走纸边和剪刀。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "支撑：书托住纸的两端",
+          "形状：平纸与折边纸",
+          "观察不是比赛"
+        ],
+        "explanation": "书给纸两端支撑，中间的纸需要跨过空隙。折出侧边改变了纸的形状，可能让它不容易向下弯；纸仍是同一种纸。",
+        "limits": "这次只观察自重，没有测承重，也不能据此说哪一种能托住人。两张都不明显下垂时，不猜测差异。",
+        "observation": "分别说出平纸、U形纸中央看到的样子：较平／下垂／看不清。",
+        "nextQuestion": "家里哪些纸盒也有立起来的边？"
+      },
+      "guide": {
+        "goal": "用两种真实纸形，观察没有负重时怎样跨过空隙。",
+        "observe": "纸的中间和两端有什么不同？",
+        "support": "成人剪裁、折边、搭书；孩子摆放、指认或口述任选一种。",
+        "control": "同样大小的纸、同一对书、12厘米空隙；只换纸形，不加负重。",
+        "time": "约5–10分钟；孩子疲倦即可停。",
+        "recordFields": [
+          "平纸中央：较平／下垂／看不清",
+          "U形中央：较平／下垂／看不清",
+          "孩子指出的支撑位置或原话"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "bridge-46-prepare",
+          "description": "成人准备两张同尺寸纸（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 190,
+              "height": 95,
+              "fill": "#F6F5EB",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 120,
+              "width": 190,
+              "height": 95,
+              "fill": "#F6F5EB",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 94,
+              "text": "平纸",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 355,
+              "y": 94,
+              "text": "折边用纸",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 264,
+              "text": "每张24×12厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-46-support",
+          "description": "平纸跨过两个书墩（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 281,
+              "text": "12厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 96,
+              "text": "只搭纸，不放东西",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-46-shape",
+          "description": "平纸和U形纸端面（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 97,
+              "y": 243,
+              "text": "平纸",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 146,
+              "x2": 260,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 190,
+              "x2": 380,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 190,
+              "x2": 380,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-46-observe",
+          "description": "用U形纸观察中间和支撑点（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 540,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 100,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 177,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 263,
+              "x2": 430,
+              "y2": 263,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 256,
+              "x2": 210,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 256,
+              "x2": 430,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 291,
+              "text": "12厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 102,
+              "text": "同高低书墩",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 102,
+              "text": "两端不固定",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "折叠改变截面形状，从而影响纸桥抗弯表现；资料包含槽形与W形探究。",
+          "scope": "仅用于形状与抗弯原理。本文尺寸、单个轻纸包、自重观察和重复安排是独立家庭改编，不沿用原文硬币或破坏加载，也未由该来源验证。"
+        }
+      ],
+      "sourceNote": "本龄段方案为依据所列力学教学资料进行的独立家庭改编；未实地试做，不代表来源机构认证或安全保证。图为装置示意，不是实测结果；不能分辨的变化按缺测/观察限制记录，不追加负重制造结果。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "同批A4复印纸5张（3张桥用、1张纸包、1张备用）",
+        "两本同厚、平放且高度2–3厘米的书（各1本，宽度足以支撑纸桥）",
+        "30厘米毫米刻度直尺1把；铅笔1支",
+        "边缘平整的大托盘1个（能容纳书和纸桥）；成人用剪刀1把"
+      ],
+      "safety": "成人负责剪裁、搭稳书墩和放取纸包；在托盘内低位操作，不用硬币、积木或其他重物，不按压或固定桥头。纸明显折坏、滑落、碰托盘或书移动就立即停止并取下纸包；不追求破坏极限。材料不入口，收好剪刀。",
+      "steps": [
+        {
+          "title": "做三种截面",
+          "action": "成人把桥用纸每张裁成24×12厘米，长边作为桥长；只用同批干燥普通复印纸，不叠层、不贴胶带。分别做平纸、U形、W形三座桥。沿两条长边各向内量2厘米，沿长方向折起直立侧边，做成底宽8厘米、侧边高2厘米的U形。W形：把12厘米宽分成4个3厘米宽条带，沿长边交替正反折，展开成W形，调整端面总宽约6厘米。",
+          "actor": "together",
+          "caption": "从一端看：平、U、W。",
+          "adultNote": "成人裁纸，帮助保持直折痕；这次比较完整截面设计，不声称只改变一个尺寸。"
+        },
+        {
+          "title": "固定跨度与纸包",
+          "action": "书的内边间距12厘米，每座桥居中放，桥长24厘米，每端搭6厘米。把另1张完整A4纸的长边方向、短边方向各连续对折两次，得到约7.4×5.3厘米的16层轻纸包；全程只用这1包，不加其他物品。放置时7.4厘米边横跨桥宽，5.3厘米边沿桥长。",
+          "actor": "adult",
+          "caption": "三座桥用同一个轻纸包。",
+          "adultNote": "不压住桥头；纸包应横跨W形上方的峰，不能塞进沟槽或挤扁折形。"
+        },
+        {
+          "title": "依次轻载观察",
+          "action": "按平纸、U形、W形顺序，每次只搭一座新桥。先看无纸包的样子，再由成人在中央轻放纸包（平纸放纸面中央，U形放槽内底板中央，W形横跨上峰），约5秒后取下。记录“新增下垂可见／看不出新增下垂／触发停止”，不逐次加重。",
+          "actor": "adult",
+          "caption": "看放上前，再看放上后。",
+          "adultNote": "若纸包无法稳定放置，记“摆放失败”，不要扶住它继续测；损坏桥不重用。"
+        },
+        {
+          "title": "用三行记录比较",
+          "action": "分别画出三种端面，在旁写本次观察和是否恢复。把跨度、同一个纸包、中央位置圈出来；区别看不清时如实写，不按预想排第一。",
+          "actor": "child",
+          "caption": "形状变了，其他条件呢？",
+          "adultNote": "这轮每种只做一次，不能给出稳定排名；备用纸仅用于意外损坏，不删去失败记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "截面：从桥端看到的形状",
+          "固定跨度与负重的比较",
+          "抗弯表现不等于极限承重"
+        ],
+        "explanation": "同量纸折成不同截面，会改变纸在上下方向的分布，从而影响抗弯表现。这里用同一个轻纸包比较三种结构的下垂变化，而不是测试哪座能撑到断。",
+        "limits": "折痕、W形开口和负重接触位置也不同；一次观察不能证明某形状永远最好。未明显下垂不表示不会弯。",
+        "observation": "平/U/W分别记录放纸包前后是否出现可见差别、取下是否恢复以及停止原因。",
+        "nextQuestion": "如果再各做一座新桥，结果还相同吗？"
+      },
+      "guide": {
+        "goal": "制作平/U/W三种真实截面，在相同轻载下比较。",
+        "observe": "同一个纸包放上前后，各桥有什么变化？",
+        "support": "成人裁纸和放取纸包；孩子折纸、配对条件并记三行结果。",
+        "control": "同批24×12厘米纸、12厘米跨度、各端搭6厘米、同一个纸包和中央加载位置。",
+        "time": "约20–25分钟，可分两次完成。",
+        "recordFields": [
+          "平纸：前后差别、恢复或停止原因",
+          "U形：前后差别、恢复或停止原因",
+          "W形：前后差别、恢复或停止原因",
+          "共同条件与无法公平比较之处"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "bridge-79-sections",
+          "description": "三种纸桥端面（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 97,
+              "y": 243,
+              "text": "平纸",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 146,
+              "x2": 260,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 190,
+              "x2": 380,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 190,
+              "x2": 380,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 146,
+              "x2": 480,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 480,
+              "y1": 190,
+              "x2": 510,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 146,
+              "x2": 540,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 190,
+              "x2": 570,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 467,
+              "y": 243,
+              "text": "W形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-79-setup",
+          "description": "相同12厘米跨度和一个纸包（装置示意，不按比例；不是实测结果）；U形沿桥长侧面剖示，省略近侧边遮挡；纸包底部接触槽底，不跨接两侧壁；圆点为中央底板的可见边缘记号",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 540,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 100,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 177,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 263,
+              "x2": 430,
+              "y2": 263,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 256,
+              "x2": 210,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 256,
+              "x2": 430,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 291,
+              "text": "12厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 102,
+              "text": "同高低书墩",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 102,
+              "text": "两端不固定",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 282,
+              "y": 179,
+              "width": 76,
+              "height": 20,
+              "fill": "#F5D99A",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 320,
+              "y1": 112,
+              "x2": 320,
+              "y2": 169,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 85,
+              "text": "仅1个轻纸包",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 145,
+              "text": "侧面剖示",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 170,
+              "text": "纸包放槽底",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-79-load",
+          "description": "一个纸包横跨W形上峰（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 146,
+              "x2": 100,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 190,
+              "x2": 130,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 130,
+              "y1": 146,
+              "x2": 160,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 190,
+              "x2": 190,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 87,
+              "y": 243,
+              "text": "W形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 127,
+              "width": 148,
+              "height": 16,
+              "fill": "#F5D99A",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 153,
+              "text": "轻放，不塞入沟槽",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 190,
+              "text": "不稳就停止",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 227,
+              "text": "每次只放1包",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-79-record",
+          "description": "三种新桥分别进行同样加载（装置示意，不按比例；不是实测结果）",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 97,
+              "y": 243,
+              "text": "平纸",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 146,
+              "x2": 260,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 190,
+              "x2": 380,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 190,
+              "x2": 380,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 146,
+              "x2": 480,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 480,
+              "y1": 190,
+              "x2": 510,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 146,
+              "x2": 540,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 190,
+              "x2": 570,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 467,
+              "y": 243,
+              "text": "W形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 285,
+              "text": "各观察1次；不追加负重",
+              "fontSize": 23,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "折叠改变截面形状，从而影响纸桥抗弯表现；资料包含槽形与W形探究。",
+          "scope": "仅用于形状与抗弯原理。本文尺寸、单个轻纸包、自重观察和重复安排是独立家庭改编，不沿用原文硬币或破坏加载，也未由该来源验证。"
+        }
+      ],
+      "sourceNote": "本龄段方案为依据所列力学教学资料进行的独立家庭改编；未实地试做，不代表来源机构认证或安全保证。图为装置示意，不是实测结果；不能分辨的变化按缺测/观察限制记录，不追加负重制造结果。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "同批A4复印纸12张（9张桥用、1张纸包、2张备用）",
+        "两本同厚、平放且高度2–3厘米的书（各1本，宽度足以支撑纸桥）",
+        "30厘米毫米刻度直尺1把；铅笔1支",
+        "边缘平整的大托盘1个（能容纳书和纸桥）；成人用剪刀1把",
+        "记录纸1张",
+        "直尺兼作浅折边辅助，成人操作；侧高2毫米"
+      ],
+      "safety": "成人负责剪裁、搭稳书墩和放取纸包；在托盘内低位操作，不用硬币、积木或其他重物，不按压或固定桥头。纸明显折坏、滑落、碰托盘或书移动就立即停止并取下纸包；不追求破坏极限。材料不入口，收好剪刀。",
+      "steps": [
+        {
+          "title": "做九座同形新桥",
+          "action": "成人把桥用纸每张裁成24×12厘米，长边作为桥长；只用同批干燥普通复印纸，不叠层、不贴胶带。成人用直尺边辅助：沿两条长边各向内量2毫米，沿长方向折起直立浅边，底宽11.6厘米；每座用同样方法折边。共做9座，编号8A/8B/8C、12A/12B/12C、16A/16B/16C；数字表示分配的跨度（厘米），每座只用于一个条件。把另1张完整A4纸的长边方向、短边方向各连续对折两次，得到约7.4×5.3厘米的16层轻纸包；全程只用这1包，不加其他物品。放置时7.4厘米边横跨桥宽，5.3厘米边沿桥长。",
+          "actor": "together",
+          "caption": "9座新桥，只换跨度。",
+          "adultNote": "成人裁纸；每座折法与纸张一致，不用已变形的桥当新重复。"
+        },
+        {
+          "title": "布置三种跨度",
+          "action": "把两书内边分别设为8、12、16厘米，桥居中；对应每端搭接为8、6、4厘米。按8A、12A、16A，接着B轮、C轮顺序轮换。每次都检查实际间距，不固定桥头。",
+          "actor": "together",
+          "caption": "8、12、16厘米轮流测。",
+          "adultNote": "跨度改变必然改变搭接长度，须记录，不能声称搭接也保持不变。"
+        },
+        {
+          "title": "测新增下垂",
+          "action": "在中央可见侧边上点一个铅笔记号，把直尺竖在旁边且不碰桥，视线与记号等高，分别读取加载前高度h0、放纸包约5秒后的高度h1，记录向下位移h0−h1（毫米）。同一座桥读同一个点；纸包不遮住侧边。小于1毫米或看不清写“分辨不出”，不要写成准确的0。每座新桥只放同一个纸包1次，由成人轻放在桥中央，读取后立即取下；已触发停止的只记停止原因，不记成精确数值。",
+          "actor": "together",
+          "caption": "读前后高度，求差值。",
+          "adultNote": "成人放取纸包并观察是否滑动；读尺不能伸手压纸或托住桥。"
+        },
+        {
+          "title": "比较三次新桥结果",
+          "action": "表格写跨度、编号、h0、h1、差值或停止原因。每个跨度保留3座新桥的原始记录；只有3个有效可分辨数值时才算平均值，并写最大/最小值。缺测保留空缺，不补成0。",
+          "actor": "child",
+          "caption": "先看每次，再看范围。",
+          "adultNote": "不把本轮重复当成所有纸张的结论；未分辨出的差值只报告测量限制，不再加重。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "跨度：书内边之间的距离",
+          "增量下垂：同一点加载前后的高度差",
+          "独立重复与读尺分辨能力"
+        ],
+        "explanation": "固定纸形和轻载后，改变无支撑的长度，可以检验跨度与下垂是否有关。用加载前后同一点的高度差减少初始形状差异的影响；每条件三座新桥用于观察制作差异。",
+        "limits": "搭接长度随跨度变化，纸的折痕和支撑摩擦也会影响结果。毫米尺未必分辨轻纸包带来的变化；三次相近也不证明没有误差。浅折边制作误差可能与设计差异相近；记录实际侧高，不把纸上尺寸当作准确实物。",
+        "observation": "各跨度3座桥的h0、h1和差值；并保留滑动、永久变形、看不清等情况。",
+        "nextQuestion": "哪种误差最可能遮住跨度带来的差别，能怎样改进观察而不增加负重？"
+      },
+      "guide": {
+        "goal": "实际改变8/12/16厘米跨度，各测3座新桥的加载增量下垂。",
+        "observe": "三个跨度的结果范围是否重叠？哪些差值无法分辨？",
+        "support": "成人裁纸和放取纸包；孩子编号、布置、读尺和保留异常。",
+        "control": "纸形、纸张、纸包、加载位置和约5秒读数时点相同；跨度改变，搭接随之变化并记录。",
+        "time": "约35–45分钟；可分准备与测量两次。",
+        "recordFields": [
+          "8厘米：A/B/C的h0、h1、差值或缺测原因",
+          "12厘米：A/B/C的h0、h1、差值或缺测原因",
+          "16厘米：A/B/C的h0、h1、差值或缺测原因",
+          "有效均值与范围；误差和搭接变化"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "bridge-1012-shape",
+          "description": "九座新U形纸桥的截面（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 146,
+              "x2": 70,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 190,
+              "x2": 190,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 149,
+              "text": "同规格新桥×9",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 190,
+              "text": "每跨度3座",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 280,
+              "text": "浅边2毫米（放大）",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1012-spans",
+          "description": "三个实际跨度（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 86,
+              "text": "同一折法；每个跨度用新桥",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 180.0,
+              "y": 125,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.0,
+              "y": 125,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 125,
+              "x2": 540,
+              "y2": 125,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 129,
+              "text": "8厘米",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 155.0,
+              "y": 187,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 395.0,
+              "y": 187,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 187,
+              "x2": 540,
+              "y2": 187,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 191,
+              "text": "12厘米",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 130.0,
+              "y": 249,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420.0,
+              "y": 249,
+              "width": 90,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 249,
+              "x2": 540,
+              "y2": 249,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 253,
+              "text": "16厘米",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1012-measure",
+          "description": "纸包轻载并读取侧边同一点（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作；U形沿桥长侧面剖示，省略近侧边遮挡；纸包底部接触槽底，不跨接两侧壁；圆点为中央底板的可见边缘记号",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 540,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 100,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 177,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 263,
+              "x2": 430,
+              "y2": 263,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 256,
+              "x2": 210,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 256,
+              "x2": 430,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 291,
+              "text": "记录实际跨度",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 102,
+              "text": "同高低书墩",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 102,
+              "text": "两端不固定",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 282,
+              "y": 179,
+              "width": 76,
+              "height": 20,
+              "fill": "#F5D99A",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 320,
+              "y1": 112,
+              "x2": 320,
+              "y2": 169,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 85,
+              "text": "仅1个轻纸包",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 145,
+              "text": "侧面剖示",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 170,
+              "text": "纸包放槽底",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 370,
+              "y": 135,
+              "width": 16,
+              "height": 112,
+              "fill": "#FFF2CF",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 145,
+              "x2": 380,
+              "y2": 145,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 155,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 165,
+              "x2": 380,
+              "y2": 165,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 175,
+              "x2": 380,
+              "y2": 175,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 185,
+              "x2": 380,
+              "y2": 185,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 195,
+              "x2": 380,
+              "y2": 195,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 205,
+              "x2": 380,
+              "y2": 205,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 215,
+              "x2": 380,
+              "y2": 215,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 225,
+              "x2": 380,
+              "y2": 225,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 235,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 320,
+              "y": 199,
+              "r": 4,
+              "fill": "#C1573B"
+            },
+            {
+              "type": "text",
+              "x": 397,
+              "y": 147,
+              "text": "尺不碰桥",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 397,
+              "y": 172,
+              "text": "读同一点",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1012-repeat",
+          "description": "同一跨度的三个新桥编号（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 146,
+              "x2": 70,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 190,
+              "x2": 190,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 146,
+              "x2": 260,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 190,
+              "x2": 380,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 190,
+              "x2": 380,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 146,
+              "x2": 450,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 190,
+              "x2": 570,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 570,
+              "y1": 190,
+              "x2": 570,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 462,
+              "y": 243,
+              "text": "U形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 104,
+              "y": 285,
+              "text": "A",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 285,
+              "text": "B",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 484,
+              "y": 285,
+              "text": "C",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 124,
+              "text": "浅边2毫米（放大示意）",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "折叠改变截面形状，从而影响纸桥抗弯表现；资料包含槽形与W形探究。",
+          "scope": "仅用于形状与抗弯原理。本文尺寸、单个轻纸包、自重观察和重复安排是独立家庭改编，不沿用原文硬币或破坏加载，也未由该来源验证。"
+        },
+        {
+          "title": "University of Manchester｜Span and Deflection",
+          "url": "https://www.mub.eps.manchester.ac.uk/structural-concepts/span-and-deflection/",
+          "claim": "跨度、截面和支撑边界影响梁下垂；理想集中载荷条件下有跨度三次方关系。",
+          "scope": "大学教学模型的原理参考，并非本纸桥方案的试做证据。只支持趋势和模型条件讨论，不保证浅折纸、有限尺寸纸包与书面支撑符合其假设。"
+        }
+      ],
+      "sourceNote": "本龄段方案为依据所列力学教学资料进行的独立家庭改编；未实地试做，不代表来源机构认证或安全保证。图为装置示意，不是实测结果；不能分辨的变化按缺测/观察限制记录，不追加负重制造结果。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "同批A4复印纸15张（12张桥用、1张纸包、2张备用）",
+        "两本同厚、平放且高度2–3厘米的书（各1本，宽度足以支撑纸桥）",
+        "30厘米毫米刻度直尺1把；铅笔1支",
+        "边缘平整的大托盘1个（能容纳书和纸桥）；成人用剪刀1把",
+        "记录纸2张；可选计算器1个（不需额外测量设备）",
+        "直尺兼作浅折边辅助，成人操作；侧高2毫米和4毫米"
+      ],
+      "safety": "成人负责剪裁、搭稳书墩和放取纸包；在托盘内低位操作，不用硬币、积木或其他重物，不按压或固定桥头。纸明显折坏、滑落、碰托盘或书移动就立即停止并取下纸包；不追求破坏极限。材料不入口，收好剪刀。",
+      "steps": [
+        {
+          "title": "设计两截面四组样本",
+          "action": "成人把桥用纸每张裁成24×12厘米，长边作为桥长；只用同批干燥普通复印纸，不叠层、不贴胶带。做两种U形：U1为两侧各折起2毫米（底宽11.6厘米）；U2为两侧各折起4毫米（底宽11.2厘米）；由成人用直尺边辅助折出浅边。两种都沿长边折直，侧边直立。每种分别分配8厘米、16厘米跨度，各做3座新桥，共12座，编号含形状/跨度/A、B、C。把另1张完整A4纸的长边方向、短边方向各连续对折两次，得到约7.4×5.3厘米的16层轻纸包；全程只用这1包，不加其他物品。放置时7.4厘米边横跨桥宽，5.3厘米边沿桥长。",
+          "actor": "together",
+          "caption": "两截面×两跨度×3座。",
+          "adultNote": "成人裁纸；此比较同时改变侧高和底宽，不能解释为仅改变侧高。"
+        },
+        {
+          "title": "控制位置并交替测试",
+          "action": "书内边8厘米或16厘米，桥长24厘米居中，每端分别搭8厘米或4厘米。每轮按U1-8、U2-8、U1-16、U2-16测新桥，共A/B/C三轮；同一个纸包在桥底中央，保持方向不变，不压桥头。",
+          "actor": "together",
+          "caption": "四个条件交替做，不重用旧桥。",
+          "adultNote": "每轮确认书高一致、间距正确；固定时间和读数人，记录异常，不事后删异常求整齐。"
+        },
+        {
+          "title": "测量并检查恢复",
+          "action": "在中央可见侧边上点一个铅笔记号，把直尺竖在旁边且不碰桥，视线与记号等高，分别读取加载前高度h0、放纸包约5秒后的高度h1，记录向下位移h0−h1（毫米）。同一座桥读同一个点；纸包不遮住侧边。小于1毫米或看不清写“分辨不出”，不要写成准确的0。每座由成人加载一次，约5秒读数后卸载，再看记号是否回到原读数附近（1毫米内只称“未分辨出残余”）。永久变形、滑动或接触托盘则记失效条件，停止该座。",
+          "actor": "together",
+          "caption": "读高度差，也看卸载后。",
+          "adultNote": "不为了获得较大数值追加重量；本实验不测极限承载力。"
+        },
+        {
+          "title": "用数据审查模型",
+          "action": "保留四组各3座原始值；有3个有效可分辨值才算该组均值与范围。分别在同一截面内比较8与16厘米的差值，不把不同截面混合。若短跨差值接近尺的分辨限或为0，不算比值；用文字解释为何不能拿结果硬套理想梁比例。",
+          "actor": "child",
+          "caption": "比较趋势，指出模型失配。",
+          "adultNote": "模型讨论是本次实测后的解释，不是只在纸上设计下一次；无有效数值也可报告测量失败及原因。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "弯曲刚度EI：材料与截面共同作用",
+          "截面×跨度的两因素比较",
+          "理想模型的适用条件与测量下限"
+        ],
+        "explanation": "梁的小变形模型用EI表示弯曲刚度：E描述材料弹性，I描述截面相对弯曲轴的面积分布。材料相同不等于结构刚度相同。理想条件下，固定集中载荷引起的下垂随跨度三次方变化；本次用两截面、两跨度的实际轻载观察，讨论是否出现相同方向的趋势，不把该比例当必达结果。",
+        "limits": "纸包不是理想点载荷，书面有接触摩擦，纸有折痕、自重和可能的局部变形；改变跨度也改变搭接。U1/U2的侧高与底宽共同变化，不能单独归因于某一尺寸。毫米尺不能验证小于其分辨能力的模型差异，更不能由此估算真实桥梁安全载荷。浅折边制作误差可能与设计差异相近；记录实际侧高，不把纸上尺寸当作准确实物。",
+        "observation": "每组保留3个高度差或缺测原因、卸载后读数情况；只在有效且可分辨数据内比较趋势与范围。",
+        "nextQuestion": "哪些条件最偏离理想梁？若只改进一种测量或支撑条件，应先改哪种，为什么？"
+      },
+      "guide": {
+        "goal": "实际完成两种U形截面×8/16厘米跨度的四组轻载测试，每组3座新桥，再评价模型边界。",
+        "observe": "同截面换跨度、同跨度换截面，结果分别怎样？哪些比较缺证据？",
+        "support": "成人剪裁、搭稳与轻加载；学习者负责样本矩阵、原始数据、误差与模型讨论。",
+        "control": "同批纸、同一纸包与方向、中央位置和约5秒读数；改变截面设计与跨度，记录搭接和所有异常。",
+        "time": "约45–60分钟；可分两次完成，后一次重查装置尺寸。",
+        "recordFields": [
+          "U1：8/16厘米各A/B/C原始读数及恢复情况",
+          "U2：8/16厘米各A/B/C原始读数及恢复情况",
+          "可分辨数据的组均值、范围及趋势",
+          "异常、模型条件偏离与无法计算的原因"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "bridge-1316-sections",
+          "description": "U1和U2截面尺寸不同（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "text",
+              "x": 38,
+              "y": 91,
+              "text": "从桥的一端看：折痕沿24厘米长边",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 168,
+              "x2": 70,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 190,
+              "x2": 190,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 190,
+              "x2": 190,
+              "y2": 168,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 243,
+              "text": "U1形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 146,
+              "x2": 260,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 190,
+              "x2": 380,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 190,
+              "x2": 380,
+              "y2": 146,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 243,
+              "text": "U2形",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 280,
+              "text": "2毫米（放大）",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 270,
+              "y": 280,
+              "text": "4毫米（放大）",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1316-matrix",
+          "description": "两截面分别测试两跨度（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "每一条件：3座新桥",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 124,
+              "text": "8厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 124,
+              "text": "16厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 140,
+              "width": 85,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 140,
+              "width": 65,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 95,
+              "y1": 140,
+              "x2": 290,
+              "y2": 140,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 140,
+              "width": 45,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 535,
+              "y": 140,
+              "width": 65,
+              "height": 20,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 375,
+              "y1": 140,
+              "x2": 580,
+              "y2": 140,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 199,
+              "text": "U1：A / B / C",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 199,
+              "text": "U1：A / B / C",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 252,
+              "text": "U2：A / B / C",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 252,
+              "text": "U2：A / B / C",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1316-measure",
+          "description": "加载前后同点读数并检查恢复（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作；U形沿桥长侧面剖示，省略近侧边遮挡；纸包底部接触槽底，不跨接两侧壁；圆点为中央底板的可见边缘记号",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 540,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 100,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 177,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 263,
+              "x2": 430,
+              "y2": 263,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 256,
+              "x2": 210,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 256,
+              "x2": 430,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 291,
+              "text": "8或16厘米",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 102,
+              "text": "同高低书墩",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 102,
+              "text": "两端不固定",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 282,
+              "y": 179,
+              "width": 76,
+              "height": 20,
+              "fill": "#F5D99A",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 320,
+              "y1": 112,
+              "x2": 320,
+              "y2": 169,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 85,
+              "text": "仅1个轻纸包",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 145,
+              "text": "侧面剖示",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 170,
+              "text": "纸包放槽底",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 370,
+              "y": 135,
+              "width": 16,
+              "height": 112,
+              "fill": "#FFF2CF",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 145,
+              "x2": 380,
+              "y2": 145,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 155,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 165,
+              "x2": 380,
+              "y2": 165,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 175,
+              "x2": 380,
+              "y2": 175,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 185,
+              "x2": 380,
+              "y2": 185,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 195,
+              "x2": 380,
+              "y2": 195,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 205,
+              "x2": 380,
+              "y2": 205,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 215,
+              "x2": 380,
+              "y2": 215,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 225,
+              "x2": 380,
+              "y2": 225,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 235,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#52715B",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 320,
+              "y": 199,
+              "r": 4,
+              "fill": "#C1573B"
+            },
+            {
+              "type": "text",
+              "x": 397,
+              "y": 147,
+              "text": "尺不碰桥",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 397,
+              "y": 172,
+              "text": "读同一点",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "bridge-1316-unload",
+          "description": "卸下纸包再看桥是否恢复（装置示意，不按比例；不是实测结果）；浅折边为便于辨识作高度夸张，按文字尺寸制作",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 199,
+              "width": 130,
+              "height": 45,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 199,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 540,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 177,
+              "x2": 100,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 540,
+              "y1": 177,
+              "x2": 540,
+              "y2": 199,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 263,
+              "x2": 430,
+              "y2": 263,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 256,
+              "x2": 210,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "line",
+              "x1": 430,
+              "y1": 256,
+              "x2": 430,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 291,
+              "text": "不追加负重",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 83,
+              "y": 102,
+              "text": "同高低书墩",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 102,
+              "text": "两端不固定",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 119,
+              "width": 76,
+              "height": 20,
+              "fill": "#F5D99A",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 345,
+              "y1": 158,
+              "x2": 460,
+              "y2": 129,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 140,
+              "text": "取下后再读同一点",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "折叠改变截面形状，从而影响纸桥抗弯表现；资料包含槽形与W形探究。",
+          "scope": "仅用于形状与抗弯原理。本文尺寸、单个轻纸包、自重观察和重复安排是独立家庭改编，不沿用原文硬币或破坏加载，也未由该来源验证。"
+        },
+        {
+          "title": "University of Manchester｜Span and Deflection",
+          "url": "https://www.mub.eps.manchester.ac.uk/structural-concepts/span-and-deflection/",
+          "claim": "跨度、截面和支撑边界影响梁下垂；理想集中载荷条件下有跨度三次方关系。",
+          "scope": "大学教学模型的原理参考，并非本纸桥方案的试做证据。只支持趋势和模型条件讨论，不保证浅折纸、有限尺寸纸包与书面支撑符合其假设。"
+        }
+      ],
+      "sourceNote": "本龄段方案为依据所列力学教学资料进行的独立家庭改编；未实地试做，不代表来源机构认证或安全保证。图为装置示意，不是实测结果；不能分辨的变化按缺测/观察限制记录，不追加负重制造结果。"
+    }
+  }
+}

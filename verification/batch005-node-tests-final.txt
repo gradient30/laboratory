@@ -1,0 +1,309 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> little-lab-cloudflare-github@1.0.0 test
+> node test.mjs && node verify-package.mjs && node --test scripts/*.test.mjs && node scripts/check-workflow.mjs && npm run test:backend
+
+{
+  "status": "passed",
+  "experiments": 365,
+  "categories": {
+    "physics": 75,
+    "chemistry": 55,
+    "biology": 47,
+    "geography": 43,
+    "maths": 65,
+    "history": 45,
+    "everyday": 35
+  },
+  "ageModes": 4,
+  "illustratedVariants": 5840,
+  "distinctRenderedArtwork": 2819,
+  "sourceLinks": 505,
+  "outputFiles": [
+    "app.js",
+    "data.json",
+    "diagrams.js",
+    "index.html",
+    "styles.css"
+  ],
+  "scope": "Data integrity, exact duplicate detection (not semantic fact validation), age-scaffold uniqueness, SVG rendering, static privacy/accessibility contracts. Source accuracy and browser QA require separate review."
+}
+Annual schedule, legacy storage key, category labels, navigation contracts passed.
+Exact legacy field schema and age-specific SVG recording prompts passed.
+{
+  "status": "passed",
+  "config": "Reviewed Worker + exact D1 + worker-first assets; activation separately gated",
+  "files": [
+    "app.js",
+    "data.json",
+    "diagrams.js",
+    "index.html",
+    "styles.css"
+  ],
+  "totalStaticBytes": 6934651,
+  "exactSourceHashes": true,
+  "relativeResourceLinks": [
+    "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2218%22%20fill%3D%22%23176c61%22%2F%3E%3Cg%20stroke%3D%22%23faf8f0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M32%2012v40M12%2032h40M18%2018l28%2028M18%2046l28-28%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+    "styles.css",
+    "app.js"
+  ],
+  "limits": "Configuration shape checked against official documentation; This script does not itself run Wrangler. See VERIFICATION.md for separate CLI dry-run result; live deployment/browser QA not performed."
+}
+✔ first activation targets only exact Worker secret endpoint and generates 32-byte auth secret (16.49973ms)
+✔ existing authentication secret is never read by name, regenerated or overwritten (6.325041ms)
+✔ missing RESEND_API_KEY fails before network; no public vars fallback (1.160217ms)
+✔ missing EMAIL_FROM fails before network; no public vars fallback (0.64464ms)
+✔ missing BOOTSTRAP_ADMIN_EMAIL fails before network; no public vars fallback (0.781205ms)
+✔ missing CLOUDFLARE_API_TOKEN fails before network; no public vars fallback (0.63184ms)
+✔ unapproved target or execution context is blocked before network (2.807832ms)
+✔ unapproved target or execution context is blocked before network (1.328289ms)
+✔ unapproved target or execution context is blocked before network (3.056015ms)
+✔ unapproved target or execution context is blocked before network (0.867814ms)
+✔ unapproved target or execution context is blocked before network (1.013309ms)
+✔ unapproved target or execution context is blocked before network (0.781255ms)
+✔ unapproved target or execution context is blocked before network (0.250576ms)
+✔ unapproved target or execution context is blocked before network (0.177851ms)
+✔ unapproved target or execution context is blocked before network (0.172619ms)
+✔ invalid private input fails without echoing value or making requests (1.119678ms)
+✔ invalid private input fails without echoing value or making requests (0.316781ms)
+✔ invalid private input fails without echoing value or making requests (0.192731ms)
+✔ invalid private input fails without echoing value or making requests (14.24966ms)
+✔ invalid private input fails without echoing value or making requests (1.046504ms)
+✔ secret-list failure or bad metadata blocks all writes (2.406702ms)
+✔ unexpected existing auth binding type blocks writes (1.140759ms)
+✔ network failure cannot expose token or response details (0.702271ms)
+✔ partial failure stops immediately; no deletion or restore attempted (1.332612ms)
+✔ legacy fallback is explicit and input is unchanged (5.583312ms)
+✔ locked metadata never resolves or exposes protocols (0.296303ms)
+✔ all displayed fields derive from selected protocol, preserving legacy field labels (10.111656ms)
+✔ partial four-age contracts and malformed selected protocols do not silently fall back (1.688425ms)
+✔ new protocol has fresh cursor/views/completion and leaves legacy maps byte-for-byte unchanged (3.346115ms)
+✔ age, version, activity and restored child state use independent namespaces (5.64145ms)
+✔ history remains visibly retrievable with old labels and raw prior-version records (0.422991ms)
+✔ protocol renderer uses authored geometry before legacy day dispatch (4.811086ms)
+✔ projected active protocol is supported (2.024364ms)
+✔ different authored apparatus geometry changes artwork (2.050909ms)
+✔ text and metadata cannot become executable SVG (1.373161ms)
+✔ malformed primitive types, attributes, colors and coordinates fail closed (1.303885ms)
+✔ invalid text anchor, radius, zero-length line and excessive scenes reject (0.861995ms)
+✔ partial protocol does not silently pretend to render legacy content (0.507284ms)
+✔ unmigrated legacy and annual diagrams retain existing behavior (92.026156ms)
+✔ every currently authored protocol passes the shared structure and frozen identity contract (45.943557ms)
+✔ an unmigrated year cannot pass the complete publication gate (64.011939ms)
+✔ partial development audit is explicitly labelled, never production readiness (29.74839ms)
+✔ development mode still refuses replaced identities or missing activity rows (96.066715ms)
+✔ malformed protocol never becomes legacy fallback (82.077982ms)
+✔ legitimate shared materials do not erase different actions, knowledge and diagrams (59.587445ms)
+✔ whole-protocol copies are rejected even when sharing materials is legitimate (44.309725ms)
+✔ dashboard completion deduplicates valid activity IDs and accepts exact true only (7.142943ms)
+✔ empty records and step navigation are not notes or completion; choice zero and legacy text are notes (5.583367ms)
+✔ admin permissions and historical completion remain independent, including relock and imported last-open marker (10.671707ms)
+✔ all-complete and separate child data are not confused with no-open or no-data states (7.419748ms)
+✔ approved main push is eligible (3.424156ms)
+✔ approved policy works with an unset optional switch (0.338812ms)
+✔ approved policy works with an empty optional switch (0.184829ms)
+✔ disabled policy stays blocked even with optional switch unset (2.437402ms)
+✔ approved manual main run is eligible (0.359323ms)
+✔ rejects pull request (0.488237ms)
+✔ rejects pull_request_target (1.26406ms)
+✔ rejects workflow_run (0.639119ms)
+✔ rejects non-main branch (0.680188ms)
+✔ rejects tag (0.995449ms)
+✔ rejects fork repository (0.523045ms)
+✔ rejects wrong account (1.260067ms)
+✔ rejects invalid switch (0.61464ms)
+✔ rejects uppercase false switch (0.222739ms)
+✔ rejects false switch (0.193836ms)
+✔ rejects not GitHub Actions (0.788278ms)
+✔ rejects no triggering commit (0.216223ms)
+✔ manual non-main run is rejected (0.676018ms)
+✔ disabled source policy rejects even when repository switch enabled (0.239932ms)
+✔ unapproved repository is rejected (0.140247ms)
+✔ unapproved account is rejected (0.107167ms)
+✔ wrong Worker is rejected (0.323175ms)
+✔ unexpected database binding is rejected (0.183265ms)
+✔ checked-in source policy must remain valid for its static target (2.232277ms)
+✔ only approved exact family runtime and D1 may deploy (0.371058ms)
+✔ account runtime activation requires explicit source approval (0.317804ms)
+✔ account runtime rejects placeholder D1 UUID (0.290048ms)
+✔ account runtime rejects asset-first bypass (1.439065ms)
+✔ account runtime rejects selective worker-first bypass (0.63826ms)
+✔ account runtime rejects unknown runtime entry (0.1932ms)
+✔ account runtime rejects unapproved database (1.182443ms)
+✔ account runtime rejects extra database (0.407779ms)
+✔ account runtime rejects public bootstrap email (1.345873ms)
+✔ account runtime rejects different application origin (0.413354ms)
+✔ account runtime rejects unapproved mail binding (0.369284ms)
+✔ account runtime rejects unapproved route (0.409807ms)
+✔ account runtime rejects unapproved KV (0.17127ms)
+✔ account runtime rejects unapproved secret store (0.139502ms)
+✔ account runtime rejects unapproved unsafe bindings (0.090633ms)
+✔ account runtime rejects unapproved extra configuration (0.143685ms)
+✔ account runtime rejects unapproved cron (0.202325ms)
+✔ account runtime rejects private vars lost (0.113936ms)
+✔ exact 4-bit reading mask, not cursor prefix or completed inference (6.404078ms)
+✔ displaying only 1 and 4 creates 1001, repeated renders do not save again (2.080618ms)
+✔ hidden panels, dialogs, locked content, loading and offscreen rendering never count (44.019586ms)
+✔ stale animation frames cannot leak views across child, age, day, cursor, epoch (9.854693ms)
+✔ same-frame skipped steps count only the final displayed cursor (2.178467ms)
+✔ view evidence is separate from all experiment records and completion code (0.737449ms)
+✔ idempotent integration preserves all legacy content and does not mutate input data (238.170851ms)
+✔ title swaps, duplicate IDs and incomplete protocols are rejected (98.576733ms)
+✔ an unconverted new activity cannot be counted as an integration (31.750352ms)
+✔ changed semantic content cannot reuse a saved-record version (78.332259ms)
+✔ local review manifest binds source bytes and refuses author-only/pending status (7.795957ms)
+✔ shared materials require a rationale inside the exact independent report, not cosmetic uniqueness (5.339198ms)
+✔ preparation keeps partial choices but requires explicit begin, and revocation persists (8.768606ms)
+✔ preparation is isolated by account, child, activity, age and safety content (2.729191ms)
+✔ preview is not a safety confirmation; locked curriculum never restores preparation (2.715094ms)
+✔ logout clears only app preparation keys and blocked storage uses in-page fallback (2.798564ms)
+✔ malformed preparation cannot restore readiness into a fresh runtime (6.726547ms)
+✔ month/year locks aggregate only when no underlying activity is accessible (2.026394ms)
+✔ browser sample selects subject boundary activities without claiming all lessons (26.935361ms)
+✔ empty or legacy-only curriculum has an explicitly empty protocol sample (2.868375ms)
+✔ all five named exact-source and report-bound synthetic reviews accepted structurally (6.524078ms)
+✔ generic five rounds cannot substitute for five required review categories (1.898158ms)
+✔ missing, duplicate, pending, stale source, stale data and changed report fail closed (2.977886ms)
+✔ actual release-source fingerprint is deterministic (50.954681ms)
+✔ runtime preflight accepts required names without exposing values (146.236766ms)
+✔ runtime preflight blocks missing AUTH_SECRET (177.09377ms)
+✔ runtime preflight blocks missing BOOTSTRAP_ADMIN_EMAIL (119.249674ms)
+✔ runtime preflight blocks missing EMAIL_FROM (123.919483ms)
+✔ runtime preflight blocks missing EMAIL_PROVIDER (89.849744ms)
+✔ runtime preflight blocks missing REGISTRATION_ENABLED (109.789886ms)
+✔ runtime preflight blocks missing RESEND_API_KEY (106.745035ms)
+✔ runtime preflight blocks malformed name metadata (101.741731ms)
+✔ recovery reporter records only validated bookmark (100.560394ms)
+✔ missing or invalid recovery bookmark blocks migration (101.986944ms)
+✔ missing or invalid recovery bookmark blocks migration (81.546156ms)
+✔ missing or invalid recovery bookmark blocks migration (88.427717ms)
+✔ every integrated protocol has retained static evidence and no evidence claims an unintegrated activity (1.708858ms)
+✔ day01 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (31.568965ms)
+✔ day02 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (22.748678ms)
+✔ day03 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (27.401271ms)
+✔ day04 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (42.334662ms)
+✔ day05 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (23.136411ms)
+✔ day06 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (35.31411ms)
+✔ day07 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (25.179129ms)
+✔ day08 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (23.97052ms)
+✔ day09 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (20.352001ms)
+✔ day10 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (17.090964ms)
+✔ day11 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (14.7763ms)
+✔ day12 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (17.057752ms)
+✔ day13 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (14.142052ms)
+✔ day14 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (25.292492ms)
+✔ day15 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (15.763379ms)
+✔ day16 retained source, SVG and PNG evidence has exact hashes and current equivalent rendering (14.836446ms)
+✔ current text palette exceeds 4.5:1 contrast (1.919532ms)
+✔ viewed text palette exceeds 4.5:1 contrast (0.455246ms)
+✔ unviewed text palette exceeds 4.5:1 contrast (0.330524ms)
+✔ locked text palette exceeds 4.5:1 contrast (0.848891ms)
+✔ error text palette exceeds 4.5:1 contrast (0.431423ms)
+✔ primary text palette exceeds 4.5:1 contrast (0.290481ms)
+✔ secondary text palette exceeds 4.5:1 contrast (0.581763ms)
+✔ disabled text palette exceeds 4.5:1 contrast (0.59429ms)
+✔ materials text palette exceeds 4.5:1 contrast (0.425627ms)
+✔ learning text palette exceeds 4.5:1 contrast (0.676106ms)
+✔ toast text palette exceeds 4.5:1 contrast (0.599931ms)
+✔ state colors retain visible shapes and textual state hooks (1.297823ms)
+ℹ tests 157
+ℹ suites 0
+ℹ pass 157
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1893.060124
+Workflow policy assertions, verified action pins, and exact Wrangler lockfile checks passed. These are local structural checks, not a GitHub Actions execution.
+Account runtime tests, private-config preflight, recovery-bookmark and additive migration deployment ordering passed.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> little-lab-cloudflare-github@1.0.0 test:backend
+> node --test worker/*.test.mjs
+
+✔ mail diagnostics redact sensitive values for cloudflare_binding (181.716619ms)
+✔ mail diagnostics redact sensitive values for resend_http (76.821147ms)
+✔ mail diagnostics redact sensitive values for resend_network (9.809495ms)
+✔ background delivery failure remains generic and invalidation failure logs no raw storage error (7.797935ms)
+✔ registration SQL rechecks registrationEnabled after OTP consumption, not stale API settings (14.286116ms)
+✔ registration SQL rechecks allowedDomains after OTP consumption, not stale API settings (10.888231ms)
+✔ session insertion rejects account disabled after the verified-user SELECT (15.701756ms)
+✔ continue retains email and IP request limits even for policy-blocked emails (202.441372ms)
+✔ legacy explicit login keeps its no-registration-consent contract without creating unknown accounts (47.502286ms)
+✔ configuration fails closed until mail and bootstrap are configured (17.624573ms)
+✔ first verified owner is sole bootstrap administrator; strangers cannot race claim (33.930768ms)
+✔ OTP expires, has bounded attempts, and cannot be replayed (160.845824ms)
+✔ concurrent valid challenge consumption allows only one session (8.580952ms)
+✔ secure cookie, CSRF and same-origin enforcement (9.052156ms)
+✔ direct curriculum assets and encoded aliases never leak (3.873321ms)
+✔ first ordinary activity open; owner-scoped child state and curriculum (50.258982ms)
+✔ admin unlock + sequential completion opens exactly next, stale writes conflict (50.692635ms)
+✔ admin lock clears child entitlements and preserves read/export historical records (49.801344ms)
+✔ import requires explicit consent, preserves cloud conflicts and never unlocks (24.735486ms)
+✔ disabled sessions fail immediately; self/last-admin removal prohibited (20.759005ms)
+✔ children archive and restore are owner-only, eight active profile limit (27.917224ms)
+✔ domain rules normalize exact domain, not suffix matches; settings preserves old login (28.634479ms)
+{"event":"auth_code_delivery_failed","provider":"cloudflare","category":"binding_error","httpStatus":null}
+✔ mail delivery failure keeps generic response and consumes failed challenge (3.797106ms)
+✔ exact admin range reduces prior child sequential access without deleting notes (21.288967ms)
+✔ total child quota includes archived profiles and bounded body stops oversized input (156.910121ms)
+✔ actual Workers/D1: protected assets, no public curriculum aliases, production fixture routes absent (1969.200296ms)
+✔ actual Workers/D1: atomic owner-bound bootstrap under concurrent verified registrations (1284.852759ms)
+✔ actual Workers/D1: OTP one-use concurrency, expiry and attempt cap (1158.500104ms)
+✔ actual Workers/D1: cookies, CSRF, Origin and cross-family IDOR (948.52322ms)
+✔ actual Workers/D1: first-open default; concurrent progress CAS; next-only progression (1219.28548ms)
+✔ actual Workers/D1: admin relock resets child grants, blocks stale writes, preserves existing own notes (1184.856871ms)
+✔ actual Workers/D1: imported completion does not unlock and conflicts do not overwrite (883.230889ms)
+✔ actual Workers/D1: disable invalidates existing session; last-admin guard and recoverable archive (795.840325ms)
+✔ actual Workers/D1: exact allowed domains and rate limits without code leakage (909.378606ms)
+✔ actual Workers/D1: empty domains allow only private owner bootstrap, admin configuration, existing login and first lesson (880.496466ms)
+✔ actual Workers/D1: immutable full curriculum remains equivalent and never caches user authorization (1354.297293ms)
+✔ protocol progress unit: separate history, old-client omission and locked retention (4.889013ms)
+✔ protocol progress unit: keys, version range, shapes, fields and size fail closed (13.937402ms)
+✔ protocol progress unit: exact imports conflict safely and legacy completion semantics remain (1.28739ms)
+✔ protocol progress unit: older versions remain separate and cannot acquire new edits or unlock (1.436881ms)
+✔ protocol progress unit: nested records remain subject to total one MiB state cap (10.271905ms)
+✔ protocol progress D1: roundtrip, legacy notes, omission, export and next-level unlock (2079.036902ms)
+✔ protocol progress D1: locks, revisions, foreign families and imports remain isolated (990.539024ms)
+✔ unified Workers/D1: new eligible email gets a code, not an account, until verified (2058.992093ms)
+✔ unified Workers/D1: existing verified account logs in with registration closed and domain removed (1212.908139ms)
+✔ unified Workers/D1: blocked and eligible requests have the same non-enumerating response (1099.808349ms)
+✔ unified Workers/D1: empty domains retain private owner-only bootstrap, never first-caller admin (1075.004858ms)
+✔ unified Workers/D1: explicit consent is uniformly required before continue sends any email (1081.97176ms)
+✔ unified Workers/D1: invited account activates only with consent plus valid ownership code (964.876611ms)
+✔ unified Workers/D1: an active flag without verified ownership is not an existing login account (963.065999ms)
+✔ unified Workers/D1: verification rejects a registration challenge lacking recorded consent (917.298645ms)
+✔ unified Workers/D1: disabled accounts cannot receive new codes or revive via pending codes (1000.702002ms)
+✔ unified Workers/D1: archived accounts cannot receive new codes or revive via pending codes (1040.962578ms)
+✔ unified Workers/D1: legacy login/register remain explicit rather than silently becoming continue (937.706129ms)
+✔ unified Workers/D1: expired, exhausted and replayed codes never create extra users or sessions (2009.969761ms)
+✔ unified Workers/D1: concurrent verification consumes one challenge once and distinct codes create one account (1945.56172ms)
+✔ unified Workers/D1: domain restriction changed after issuance blocks a new account (1409.022974ms)
+✔ unified Workers/D1: registration restriction changed after issuance blocks a new account (1504.290001ms)
+✔ unified Workers/D1: an already verified concurrent registration logs in after rules close without changing grants (1159.079871ms)
+✔ viewed steps D1: fresh and legacy reads default empty without inferring history or rewriting old state (2066.364246ms)
+✔ viewed steps D1: each four-bit mask round-trips without completing an activity or unlocking a lesson (1077.28767ms)
+✔ viewed steps D1: old-client writes omit the field safely and retain notes, selected step and completed semantics (884.217294ms)
+✔ viewed steps D1: invalid map shape, unknown activity-age keys and out-of-range masks are rejected atomically (1092.839372ms)
+✔ viewed steps D1: imports union only valid read masks, preserve old imports and do not unlock (1373.009173ms)
+✔ viewed steps D1: locked writes and imports cannot add history; relock retains prior history and rejects stale revisions (1217.061887ms)
+✔ viewed steps D1: child/family isolation and revision CAS prevent cross-context history overwrite (1015.963659ms)
+✔ viewed steps validator: maximum 1460 activity-age masks fit, cumulative JSON remains bounded, unknown note keys remain invalid (25.832492ms)
+ℹ tests 67
+ℹ suites 0
+ℹ pass 67
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21405.639095
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

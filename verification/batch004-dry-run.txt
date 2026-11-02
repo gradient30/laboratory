@@ -1,0 +1,21 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.151.3
+────────────────────
+✨ Read 5 files from the assets directory /workspace/scratch/f0a87fc37c92/curriculum-candidate-20261102/dist
+Total Upload: 9299.95 KiB / gzip: 930.57 KiB
+Your Worker has access to the following bindings:
+Binding                                          Resource                  
+env.DB (little-lab-family-progress)              D1 Database               
+env.ASSETS                                       Assets                    
+env.APP_ORIGIN ("https://labs.996fb.cn")         Environment Variable      
+
+--dry-run: exiting now.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
