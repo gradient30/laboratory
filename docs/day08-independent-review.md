@@ -16,4 +16,4 @@ Primary sources opened and checked: ACS Density: Sink and Float for Liquids (htt
 
 Actual static raster inspection covered all 16 diagrams and final revised 10–12 sheet. Latest first diagram has only the currently prepared cup filled and three future cups empty, with unobstructed timing label. No visible clipping, misleading prefilled numerical results, unsupported apparatus or material-count contradiction found. Evidence: `/tmp/day08-qa/manifest.json`, binding source above, 16 SVGs and 20 PNGs; renderer SHA256 `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`. Rasterization uses librsvg/cairo, not a browser.
 
-Not performed: physical household trials, browser acceptance, integrated progress regression or complete 365-theme release gates. No denied browser operation was retried. No remaining concrete standalone static blocker identified.
+Not performed: physical household trials, browser acceptance, integrated progress regression or complete 365-theme release gates. No remaining concrete standalone static blocker identified.

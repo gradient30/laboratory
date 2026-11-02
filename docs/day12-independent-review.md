@@ -15,4 +15,4 @@ Only labelled washable water-based children's markers and room-temperature water
 
 Actually viewed all 16 final static raster diagrams in `/tmp/day12-qa`: shallow-water contact, origin above water, pencil/tape/cup support and common-origin a/b arrows match the procedure. Blank result panels explicitly request actual observations rather than prefilled colours. No new visible overlap/clipping or misleading geometric contradiction found. Manifest binds the source above, 16 SVGs, 20 PNGs and renderer SHA256 `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`.
 
-No physical trial, browser acceptance, integrated progress regression or full-year/five-gate release approval is claimed. Rasterization was librsvg/cairo; no denied browser launch was retried. No remaining concrete standalone static blocker identified.
+No physical trial, browser acceptance, integrated progress regression or full-year/five-gate release approval is claimed. Rasterization was librsvg/cairo. No remaining concrete standalone static blocker identified.

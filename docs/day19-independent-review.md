@@ -1,0 +1,13 @@
+# Day 19 independent static review
+
+**PASS — scoped content and static diagrams.** Source SHA256: `f8833ba5af8e0eaa0ae2356f1cb3ee3cd946ac138c99dded20a1f7a572d9602e`.
+
+Read all four protocols. Real differentiation comprises a wet/dry visual reference; two paper products with two fresh strips each; two widths with three strips each and multiple times; two orthogonal cut directions × two widths represented within each of two original sheets. Quantities, cutting layouts and fresh-water totals agree. The 15 cm total strip length includes a folded dry upper attachment; cup depth, approximately 1 cm water depth, 0.5 cm immersion and clearance are compatible. Adults cut and mount strips; plain room-temperature water, no ingestion, stable tray and contact/collapse/loosening stop rules are explicit.
+
+The review found an operational sign ambiguity in h=f−w: an ordinary ruler mounted with numbers increasing downward would yield negative height. The final source explicitly places its zero end downward and numbers increasing upward for every measuring age, keeps it fixed, and reads the current water surface rather than an old line. This closes the finding. Unreadable fronts remain missing; reaching the upper boundary is censored, not an exact scheduled reading. Width is not pore diameter or absorbed volume; repeated times are not independent specimens. Paired source sheets and small sample limitations are preserved.
+
+Directly checked [USGS capillary action](https://www.usgs.gov/water-science-school/science/capillary-action-and-water) and the [original Micromachines paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6190155/). They support porous-paper water transport and investigation of geometry/direction. The household adaptation does not import chromatography-paper numerical trends, identify machine direction from appearance, infer pore radius, or pretend paper wicking explains all tree transport.
+
+Generated and rasterized 16 actual-renderer SVGs with librsvg/cairo and viewed all four age sheets. Clearances, water/front definitions, cut layout, strip counts and recording diagrams agree; no obvious cropping or overlap. After the text-only ruler fix, regenerated all 16 SVGs and verified exact hash equality to the inspected raster inputs. Evidence: `/tmp/day19-independent-qa/manifest.json`, including 16 SVG and 20 PNG hashes. Renderer SHA256: `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`. All four shared validator results were empty arrays.
+
+No browser or physical trial was performed. Wet-front visibility and household timing are not empirically guaranteed. This is not whole-application regression, all five release gates, or full-year approval.

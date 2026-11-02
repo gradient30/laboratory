@@ -13,4 +13,4 @@ Adult-checked accessible low-vegetation edges, no specimen contact/collection/fe
 
 Actually viewed all 16 final static raster diagrams at `/tmp/day11-qa`. Revised two-quadrat headings and labels are separated; blank recording frames do not prefill organisms, appearances or sample results. Geometric subdivisions, six candidates and outside observation match text. Manifest binds final source, 16 SVGs, 20 PNGs and renderer SHA256 `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`.
 
-Scope excludes browser acceptance, integrated progress regression, physical trials and full-year release gates. Only librsvg/cairo static rasterization was used; no denied browser operation retried. No remaining concrete standalone static blocker identified.
+Scope excludes browser acceptance, integrated progress regression, physical trials and full-year release gates. Only librsvg/cairo static rasterization was used. No remaining concrete standalone static blocker identified.

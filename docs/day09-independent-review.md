@@ -13,7 +13,7 @@ Adult restraint, smooth flexible plastic only, book supported on table, face/eye
 
 All 16 librsvg/cairo raster diagrams were actually viewed. Book/ruler/table contact, changing labelled lengths, noncontact displacement card and optional screen inset are consistent; no visible clipping or prefilled frequency outcomes found. Final source correction changes procedure wording only. Pixel evidence directory: `/tmp/day09-qa`; renderer SHA256 `c2ccfcae94d6cd5f136921a9e9a1060edc6d6f1e97427187d65f2ca1f3f94a82`.
 
-No household physical trial, browser acceptance, integrated progress regression or full-year release approval is claimed. No denied browser operation was retried. No remaining concrete standalone static blocker identified.
+No household physical trial, browser acceptance, integrated progress regression or full-year release approval is claimed. No remaining concrete standalone static blocker identified.
 
 ## Cross-age shared-material assessment
 

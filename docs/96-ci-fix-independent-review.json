@@ -1,0 +1,26 @@
+{
+  "reviewer": "Independent AI-assisted review",
+  "signedAtUtc": "2026-11-02T09:54:00.748027+00:00",
+  "verdict": "PASS_STATIC_PATCH_REVIEW_ONLY",
+  "scope": "Final test-only sibling identity/order regression and 360px viewport hit-testing additions; not a curriculum-content or full regression verdict",
+  "patchSha256": "295631afe2714798e2bd3eda2928f732eaf493747ab7cc9e3b5299771c489248",
+  "resultingTestFileSha256": "bd9ec659d8c4a3b096bbf8bcc9b5ac7addb15e7519189baa3c51a1024ff7da78",
+  "checks": [
+    "Independently verified patch and resulting file hashes; node --check succeeds.",
+    "Original state isolation, blank sibling, unchanged source record/progress and legacy mode assertions are retained or strengthened.",
+    "Two parameterized cases reorder only children array from route.fetch actual /api/session JSON. No child IDs, state, contents, authorization, HTTP status or API state response are fabricated. Real child-state fetches remain unmocked.",
+    "Both initial identities are asserted, then explicit source and sibling IDs are switched twice with loaded child status and exact observation/view-count assertions. Direct API reads independently confirm persisted source state and absence of copied sibling data.",
+    "360x640 case scrolls actual controls, checks viewport intersection and elementFromPoint center visibility, performs normal clicks/checks (no force), verifies active step and final ready preparation state. This tests interactive reachability, not just screenshot aesthetics.",
+    "Legacy/new record and sibling screenshots supplement assertions; viewport screenshots do not replace any assertion."
+  ],
+  "limitations": [
+    "No browser execution or retry performed during this independent review. New assertions must execute successfully in hosted CI on exact integrated source.",
+    "Center hit-testing proves center clickability after scroll, not visibility of every control pixel or every device/layout.",
+    "Two session display orders test UI robustness; they intentionally do not assert or change server canonical ordering.",
+    "Initial failed-run actual child IDs remain unobserved; confirmed test ordering defect and deterministic SQL reproduction are described in prior report.",
+    "No edits to application or test source by reviewer, no remote writes, no production data access."
+  ],
+  "priorReport": "curriculum48-sibling-independent-review.json",
+  "blockingFindings": [],
+  "nextGate": "Freeze the reviewed source after authorized integration, then require full exact-head regression CI; inspect emitted viewport screenshots before claiming visual acceptance."
+}
