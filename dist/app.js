@@ -1,4 +1,4 @@
-let renderActivityDiagram;
+let renderActivityDiagram,resolveAgeProtocol;
 
 const $ = (s,root=document)=>root.querySelector(s);
 const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
@@ -22,7 +22,7 @@ const ages={
 const localDate=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
 let storageWorks=true;
 const isRecord=(value)=>!!value&&typeof value==='object'&&!Array.isArray(value);
-const freshState=()=>({startDate:localDate(),day:1,age:'4-6',records:{},steps:{},viewedSteps:{},completed:{},legacyRecords:{},recordSchemaVersion:3});
+const freshState=()=>({startDate:localDate(),day:1,age:'4-6',records:{},steps:{},viewedSteps:{},completed:{},legacyRecords:{},protocolProgress:{},recordSchemaVersion:3});
 let state=freshState();
 const recommendation=()=>Math.min(totalDays,Math.max(1,dateOrdinal(localDate())-dateOrdinal(state.startDate)+1));
 let session=null,authConfig=null,children=[],activeChild=null,revision=0,access=null,contextEpoch=0,loadingChild=false,loadedChildId=null;
@@ -31,13 +31,13 @@ let dirty=false,saveVersion=0,saving=null,saveTimer=null,saveError='',saveConfli
 let authChallenge=null,authEmail='',authConsent=false,resendAt=0,authTimer=null,adminSection='users',authEpoch=0,authBusy=false,recoverySnapshot=null,familyMutationBusy=false;
 let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer,activePanel='materials-panel';
 const recordKey=()=>`${state.day}:${state.age}`;
-const current=()=>experiments[state.day-1];
+const current=()=>resolveAgeProtocol?resolveAgeProtocol(experiments[state.day-1],state.age):experiments[state.day-1];
 const guide=()=>current().ageGuides[state.age];
 const PREPARATION_PREFIX='little-lab-preparation-v1:';
 const preparationMemory=new Map();
 function preparationKey(){
  const e=current();if(!session?.user?.id||!activeChild?.id||!e?.ageGuides||e.locked)return null;
- const content=JSON.stringify([1,e.id,state.age,e.safety,e.materials,e.ageGuides[state.age]?.support,e.ageGuides[state.age]?.steps]);
+ const content=JSON.stringify([2,e.activeAgeProtocol?.version||0,e.id,state.age,e.safety,e.materials,e.ageGuides[state.age]?.support,e.ageGuides[state.age]?.steps]);
  let fingerprint=2166136261;for(let i=0;i<content.length;i++)fingerprint=Math.imul(fingerprint^content.charCodeAt(i),16777619);
  return PREPARATION_PREFIX+[session.user.id,activeChild.id,e.id,state.age,(fingerprint>>>0).toString(16)].map(encodeURIComponent).join(':');
 }
@@ -62,31 +62,46 @@ function measureWorkspace(){
 }
 function watchWorkspace(){toolbarObserver?.disconnect();toolbarObserver=new ResizeObserver(measureWorkspace);for(const el of [$('.site-header'),$('#workspace-toolbar')])if(el)toolbarObserver.observe(el);measureWorkspace()}
 
-const stepNumber=()=>{const value=Number(state.steps[recordKey()]);return Number.isInteger(value)?Math.max(0,Math.min(3,value)):0};
+const stepNumber=()=>{const value=Number(currentProgress('steps'));return Number.isInteger(value)?Math.max(0,Math.min(3,value)):0};
 // Reading is separate from experiment completion. Legacy cursors never imply earlier views.
+function activeProtocolProgress(create=false){
+ const e=current(),version=e?.activeAgeProtocol?.version;if(!version)return null;
+ const key=`${e.id}:${state.age}:v${version}`;
+ if(!isRecord(state.protocolProgress)){if(!create)return null;state.protocolProgress={};}
+ if(!isRecord(state.protocolProgress[key])&&create)state.protocolProgress[key]={records:{},step:0,viewedSteps:0,completed:false};
+ return state.protocolProgress[key]||null;
+}
+function currentProgress(kind){
+ if(current()?.activeAgeProtocol){const p=activeProtocolProgress();return p?.[kind==='steps'?'step':kind]??(kind==='completed'?false:0);}
+ return state[kind]?.[recordKey()];
+}
+function setCurrentProgress(kind,value){
+ if(current()?.activeAgeProtocol)activeProtocolProgress(true)[kind==='steps'?'step':kind]=value;
+ else state[kind][recordKey()]=value;
+}
 function readingProgress(mask,cursor,count=4){
  const safeMask=Number.isInteger(mask)&&mask>=0&&mask<2**count?mask:0;
  const viewed=Array.from({length:count},(_,i)=>!!(safeMask&(1<<i)));
  const unread=viewed.flatMap((seen,i)=>seen?[]:[i]);
  return {mask:safeMask,viewed,count:viewed.filter(Boolean).length,remaining:unread.length,nextUnread:unread.find(i=>i>cursor)??unread[0]??null};
 }
-const reading=()=>readingProgress(state.viewedSteps[recordKey()],stepNumber());
+const reading=()=>readingProgress(currentProgress('viewedSteps'),stepNumber());
 let stepViewObserver=null,viewFrame=null;
 function displayedStepContext(){
  const stage=$('#step-stage');
  if(!session||!activeChild||loadingChild||loadedChildId!==activeChild.id||!current()?.ageGuides||current().locked||gate==='locked'||activePanel!=='procedure'||document.visibilityState==='hidden'||$('#lab').hidden||$('#learning-view').hidden||$('#procedure')?.hidden||$('dialog[open]')||!stage||stage.hidden)return null;
  const rect=stage.getBoundingClientRect();
  if(rect.width<=0||rect.height<=0||rect.bottom<=0||rect.top>=innerHeight)return null;
- return {stage,child:activeChild.id,epoch:contextEpoch,key:recordKey(),step:stepNumber()};
+ return {stage,child:activeChild.id,epoch:contextEpoch,key:recordKey()+':v'+(current()?.activeAgeProtocol?.version||0),step:stepNumber()};
 }
 function queueDisplayedStep(){
  if(viewFrame!==null)cancelAnimationFrame(viewFrame);
- const context={epoch:contextEpoch,child:activeChild?.id,key:recordKey(),step:stepNumber()};
+ const context={epoch:contextEpoch,child:activeChild?.id,key:recordKey()+':v'+(current()?.activeAgeProtocol?.version||0),step:stepNumber()};
  viewFrame=requestAnimationFrame(()=>{
   viewFrame=null;const visible=displayedStepContext();
   if(!visible||visible.epoch!==context.epoch||visible.child!==context.child||visible.key!==context.key||visible.step!==context.step)return;
   const progress=reading();if(progress.viewed[visible.step])return;
-  state.viewedSteps[visible.key]=progress.mask|(1<<visible.step);save();updateReadingProgress();
+  setCurrentProgress('viewedSteps',progress.mask|(1<<visible.step));save();updateReadingProgress();
  });
 }
 function watchDisplayedStep(){
@@ -96,10 +111,10 @@ function watchDisplayedStep(){
 }
 function updateReadingProgress(){
  if(!$('#reading-summary')||!current()?.ageGuides||current().locked)return;
- const p=reading(),i=stepNumber(),visible=gate!=='locked'&&activePanel==='procedure',done=state.completed[recordKey()]===true;
+ const p=reading(),i=stepNumber(),visible=gate!=='locked'&&activePanel==='procedure',done=currentProgress('completed')===true;
  $('#reading-count').textContent=`已查看 ${p.count} / 4 步`;
  $('#reading-remaining').textContent=p.remaining?`还有 ${p.remaining} 步未查看`:'4 步都已查看';
- $('#reading-position').textContent=visible?`当前第 ${i+1} / 4 步`:(p.count||Object.hasOwn(state.steps,recordKey())?`上次停在第 ${i+1} / 4 步`:'从第 1 / 4 步开始');
+ $('#reading-position').textContent=visible?`当前第 ${i+1} / 4 步`:(p.count||(current()?.activeAgeProtocol?!!activeProtocolProgress():Object.hasOwn(state.steps,recordKey()))?`上次停在第 ${i+1} / 4 步`:'从第 1 / 4 步开始');
  $('#reading-meter').value=p.count;
  $('#reading-next').textContent=done?'已自行标记实际探索完成；可以继续回看。':gate==='ready'?'按安全要求实际探索后，再记录发现、手动标记完成。':p.remaining?'浏览不等于完成实验；动手前仍需家长确认。':'步骤已看完，但尚未标记实际探索完成。';
  $('#exploration-status').textContent=done?'实验 · 已自行标记完成':'实验 · 尚未标记完成';
@@ -112,7 +127,7 @@ function updateReadingProgress(){
   if(currentStep)btn.setAttribute('aria-current','step');else btn.removeAttribute('aria-current');
  });
 }
-const isDone=(id)=>ageBands.some(age=>state.completed[`${id}:${age}`]);
+const isDone=(id)=>ageBands.some(age=>state.completed[`${id}:${age}`])||Object.entries(state.protocolProgress||{}).some(([key,p])=>Number(key.split(':')[0])===id&&p.completed===true);
 const scrollTo=(s)=>$(s)?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
 function save(){if(!session||!activeChild||loadingChild||loadedChildId!==activeChild.id)return;dirty=true;saveVersion++;saveError='';updateCloudStatus();clearTimeout(saveTimer);saveTimer=setTimeout(()=>flushSave(),500)}
 function toast(text){$('#toast').textContent=text;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),3100)}
@@ -139,7 +154,7 @@ function renderAge(){
  $('#age-context').innerHTML=`<b>${ages[state.age].label}岁 · ${ages[state.age].skill}引导</b><span>${ages[state.age].intro} 可在“我的家庭”修改年龄段。</span>`;
 }
 function renderExperiment(){
- const e=current();if(!e||e.locked||!e.ageGuides){renderLockedActivity(e);return}restorePreparation();const g=guide(),a=ages[state.age],done=!!state.completed[recordKey()];
+ const e=current();if(!e||e.locked||!e.ageGuides){renderLockedActivity(e);return}restorePreparation();const g=guide(),a=ages[state.age],done=!!currentProgress('completed');
  $('#day-number').textContent=`第 ${monthForDay(e.id)} 月 · DAY ${e.day} / ${totalDays}`;
  $('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;
  $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===totalDays;
@@ -147,7 +162,7 @@ function renderExperiment(){
  $('#safety-dialog-content').replaceChildren();
  $('#experiment').innerHTML=`<div class="experiment-shell">
  <header class="experiment-top"><div><div class="activity-labels">${badge(e)}<span class="activity-kind">${escapeHTML(e.type)}</span></div><span class="subject-tag"><span class="subject-dot"></span>${escapeHTML(e.domain)} / ${escapeHTML(e.type)} <span style="margin-left:7px">主活动</span></span><h3>${escapeHTML(e.title)}</h3><p class="big-question">${category(e)==='history'?'带着问题找证据':'先想一想'}：${escapeHTML(e.question)}</p><div class="metadata"><span class="pill">◷ ${escapeHTML(e.duration)}</span>${e.wait?`<span class="pill">⏳ 等待：${escapeHTML(e.wait)}</span>`:''}<span class="pill">${a.label}岁 · ${a.name}</span></div></div><div class="day-stamp" aria-hidden="true"><small>DAY</small><b>${e.day}</b><small>DISCOVER</small></div></header>
- <section class="materials-section" aria-label="准备材料"><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div></section>
+ <section class="materials-section" aria-label="准备材料"><p class="protocol-status" role="note">${e.activeAgeProtocol?'本年龄独立方案 · 候选核查中；旧记录在“记录发现”保留。':'当前为原有分龄引导；独立材料、操作和图示方案仍在补齐。'}</p><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div></section>
  <section class="safety-box" aria-labelledby="safety-title"><div class="safety-title"><b id="safety-title"><span aria-hidden="true">◇</span> 开始前，请大人一起确认</b><small>安全不会随年龄降低</small></div><div class="safety-specific"><p><strong>今天特别留意：</strong>${escapeHTML(e.safety)}</p><p>${state.age==='4-6'?'4–6岁：成人全程在触手可及处；小件、剪切与指定准备步骤由成人完成。':state.age==='7-9'?'7–9岁：成人协助摆好两组；剪切、预处理及指定小件由成人负责。':'成人需知情并能及时介入；工具、热水预处理与当天指定成人步骤不能自行省略陪护。'}</p></div><div class="checks"><label><input type="checkbox" data-check="0" ${checks[0]?'checked':''}>${state.age==='4-6'?'我（成人）会全程近距离陪同，并负责今天的成人步骤。':'成人已了解今天的活动、能及时介入，并会完成指定成人步骤。'}</label><label><input type="checkbox" data-check="1" ${checks[1]?'checked':''}>已核对当天材料、用量与安全提醒，选择稳定位置，液体远离插座。</label><label><input type="checkbox" data-check="2" ${checks[2]?'checked':''}>实验材料不入口、不凑近闻；小件远离口鼻，结束后洗手并收好。</label></div><div class="prep-actions"><button id="begin" class="button primary" ${checks.every(Boolean)?'':'disabled'}>准备好了，开始探索 <span aria-hidden="true">→</span></button><button id="preview-steps" class="text-button">仅查看图示，暂不动手</button></div><p id="gate-status" class="gate-status">${gate==='ready'?'✓ 已确认准备；过程中仍需持续判断安全。':gate==='preview'?'当前为图示预览；真正动手前仍需成人完成上方确认。':'完成三项准备确认后，再按步骤动手；也可以先预览图示。'}</p></section>
  <section class="procedure" id="procedure" aria-labelledby="procedure-title"><div class="procedure-header"><h4 class="minor-heading" id="procedure-title">02 / 跟着图，一步一步来</h4><span id="view-state" class="view-state"></span></div><div class="age-method">${g.support?`<p class="age-support"><strong>支持与安全提醒：</strong>${escapeHTML(g.support)}</p>`:''}${g.control?`<p class="age-control-note"><strong>比较条件／证据要求：</strong>${escapeHTML(g.control)}</p>`:''}${g.time?`<p>${escapeHTML(g.time)}</p>`:''}</div><div class="flow" aria-label="四步操作流程">${e.steps.map((step,i)=>`<button class="flow-button" data-step="${i}" aria-label="第${i+1}步：${escapeHTML(step.title)}"><span class="flow-number">${i+1}</span><span class="flow-text">${escapeHTML(step.title)}</span><span class="flow-status">○ 未查看</span></button>`).join('')}</div><div id="step-stage" class="step-stage" tabindex="-1" aria-label="当前步骤"></div><div class="step-controls"><button id="step-prev" class="button outline">← 上一步</button><span id="step-counter" class="step-counter"></span><button id="step-next" class="button primary">下一步 →</button></div><div id="locked-message" class="locked-message">先请成人完成安全准备，或选择“仅查看图示”。</div></section>
  <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${a.recordTitle}</h4><p>${a.recordIntro}</p><div id="record-area"></div><p class="record-note">这里只记录实验现象，不填写姓名、生日或联系方式。<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
@@ -162,7 +177,7 @@ function renderExperiment(){
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
  $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
- $('#complete-day').addEventListener('click',()=>{state.completed[recordKey()]=!state.completed[recordKey()];save();const done=state.completed[recordKey()];$('#complete-day').innerHTML=`${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span>`;$('#complete-day').setAttribute('aria-pressed',String(done));$('#complete-day').className=`button ${done?'outline':'primary'}`;updateReadingProgress();renderJourney();toast(done?'已标记这次探索，正在保存。':'已取消本次标记，正在保存。')});
+ $('#complete-day').addEventListener('click',()=>{setCurrentProgress('completed',!currentProgress('completed'));save();const done=currentProgress('completed');$('#complete-day').innerHTML=`${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span>`;$('#complete-day').setAttribute('aria-pressed',String(done));$('#complete-day').className=`button ${done?'outline':'primary'}`;updateReadingProgress();renderJourney();toast(done?'已标记这次探索，正在保存。':'已取消本次标记，正在保存。')});
  renderStep();renderRecord();watchDisplayedStep();
 }
 function buildWorkspace(){
@@ -229,7 +244,7 @@ function renderStep(){
  $('#preview-main').hidden=gate!=='locked';
  updateReadingProgress();queueDisplayedStep();
 }
-function setStep(i){if(gate==='locked'||current()?.locked||!current()?.ageGuides||!Number.isInteger(i)||i<0||i>3)return;state.steps[recordKey()]=i;save();renderStep();$('#step-stage').focus({preventScroll:true})}
+function setStep(i){if(gate==='locked'||current()?.locked||!current()?.ageGuides||!Number.isInteger(i)||i<0||i>3)return;setCurrentProgress('steps',i);save();renderStep();$('#step-stage').focus({preventScroll:true})}
 function migrateLegacyRecords(){
  if(state.recordSchemaVersion===3)return;
  for(const [key,labels] of Object.entries(legacyRecordSchemas)){
@@ -247,17 +262,25 @@ function renderLegacyRecord(key){
  const legacy=state.legacyRecords[key];if(!isRecord(legacy)||!Array.isArray(legacy.fields))return '';
  return `<section class="legacy-record" aria-label="旧版记录（原字段保留）"><h5>旧版记录（原字段保留）</h5><p>引导内容已完善。以下是你原来的字段和记录，不改写其含义；新版记录可在下方重新填写。</p><dl>${legacy.fields.filter(f=>isRecord(f)&&typeof f.label==='string').map(f=>`<dt>${escapeHTML(f.label)}</dt><dd>${escapeHTML(f.value)||'（原字段为空）'}</dd>`).join('')}</dl></section>`;
 }
+function renderPreviousProtocolHistory(key){
+ const e=current(),rec=state.records[key]||{},labels=e.legacyAgeGuide?.recordFields||[];
+ const rows=Object.entries(rec).map(([field,value])=>{const index=/^field(\d+)$/.exec(field);return [index?labels[Number(index[1])]||field:field==='spoken'?'孩子原话':field==='choice'?'当时的感受选项':field,value];});
+ const oldDone=state.completed[key]===true,oldViews=state.viewedSteps[key]||0;
+ const previous=Object.entries(state.protocolProgress||{}).filter(([k])=>k.startsWith(key+':v')&&k!==key+':v'+e.activeAgeProtocol.version);
+ if(!rows.length&&!oldDone&&!oldViews&&!Object.hasOwn(state.steps,key)&&!previous.length)return '';
+ return `<section class="legacy-record protocol-history" aria-label="原方案记录与进度"><h5>原方案记录与进度（保留不改写）</h5><p>这些是此前方案的记录，不表示新版已经做过。原方案${oldDone?'已标记完成':'未标记完成'}；此前看过 ${readingProgress(oldViews,0).count} / 4 步。原有开放关卡不收回。</p><dl>${rows.map(([label,value])=>`<dt>${escapeHTML(label)}</dt><dd>${escapeHTML(String(value??''))||'（空）'}</dd>`).join('')}</dl>${previous.map(([k,p])=>`<details><summary>旧分龄方案 ${escapeHTML(k.split(':').at(-1))} 的原始记录</summary><pre>${escapeHTML(JSON.stringify(p,null,2))}</pre></details>`).join('')}</section>`;
+}
 function renderRecord(){
- const g=guide(),key=recordKey(),rec=isRecord(state.records[key])?state.records[key]:{};state.records[key]=rec;
+ const g=guide(),key=recordKey(),protocol=!!current().activeAgeProtocol,container=protocol?activeProtocolProgress(true).records:state.records;const rec=protocol?container:isRecord(container[key])?container[key]:{};if(!protocol)container[key]=rec;const getRecord=()=>protocol?activeProtocolProgress(true).records:(state.records[key]||(state.records[key]={}));
  if(state.age==='4-6'){
  $('#record-area').innerHTML=`<div class="observation-chips" aria-label="选择今天的感受">${['我有了一个新发现','和我猜得不一样','我还想再试一次'].map((s,i)=>`<button class="observation-chip" data-choice="${i}" aria-pressed="${rec.choice===i}">${s}</button>`).join('')}</div><div class="record-fields"><label>请成人代记一句孩子的原话（可留空）<textarea data-field="spoken" maxlength="400" placeholder="我看到……">${escapeHTML(rec.spoken||'')}</textarea></label></div>`;
- $$('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=state.records[key]||(state.records[key]={});currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;save();renderRecord()}));
+ $$('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=getRecord();currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;save();renderRecord()}));
  }else{
  const fields=g.recordFields||['我猜','我看到','还想知道'];
  $('#record-area').innerHTML=`<div class="record-fields">${fields.map((f,i)=>`<label>${escapeHTML(f)}<${i===fields.length-1?'textarea':'input'} data-field="field${i}" maxlength="600" ${i===fields.length-1?'':`value="${escapeHTML(rec['field'+i]||'')}"`} placeholder="${state.age==='7-9'?'写下或请大人代记……':'如实写下条件、结果或疑问……'}">${i===fields.length-1?escapeHTML(rec['field'+i]||'')+'</textarea>':''}</label>`).join('')}</div>`;
  }
- $('#record-area').insertAdjacentHTML('afterbegin',renderLegacyRecord(key));
- $$('[data-field]').forEach(input=>input.addEventListener('input',()=>{const currentRecord=state.records[key]||(state.records[key]={});currentRecord[input.dataset.field]=input.value;save();updateCloudStatus()}));
+ $('#record-area').insertAdjacentHTML('afterbegin',renderLegacyRecord(key)+(protocol?renderPreviousProtocolHistory(key):''));
+ $$('[data-field]').forEach(input=>input.addEventListener('input',()=>{const currentRecord=getRecord();currentRecord[input.dataset.field]=input.value;save();updateCloudStatus()}));
 }
 function renderInquiry(e){
  const q=e.inquiry;if(!q)return '';
@@ -285,14 +308,14 @@ function setMapMonth(value){
 }
 function renderJourney(){
  const completed=experiments.filter(e=>isDone(e.id)).length,year=groupAccess(),monthDays=groupAccess(journeyMonth).days;
- $('#journey-content').innerHTML=`<button id="journey-year" class="journey-year ${year.locked?'locked':''}" aria-disabled="${year.locked}"><b>${year.locked?'🔒 ':''}第 1 年</b><span>已开放 ${year.available} / ${year.total} 项</span></button><p id="journey-feedback" class="access-feedback" role="status" hidden></p><div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const group=groupAccess(i+1),count=group.days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" class="${group.locked?'locked':''}" aria-disabled="${group.locked}" aria-pressed="${journeyMonth===i+1}"><b>${group.locked?'🔒 ':''}第 ${i+1} 月</b><small>${group.locked?'尚未开放':`开放 ${group.available} / ${group.total}`}</small><small>已探索 ${count} 项</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>项活动留下了探索足迹<br>按已开放的顺序慢慢发现</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
+ $('#journey-content').innerHTML=`<button id="journey-year" class="journey-year ${year.locked?'locked':''}" aria-disabled="${year.locked}"><b>${year.locked?'🔒 ':''}第 1 年</b><span>已开放 ${year.available} / ${year.total} 项</span></button><p id="journey-feedback" class="access-feedback" role="status" hidden></p><div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const group=groupAccess(i+1),count=group.days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" class="${group.locked?'locked':''}" aria-disabled="${group.locked}" aria-pressed="${journeyMonth===i+1}"><b>${group.locked?'🔒 ':''}第 ${i+1} 月</b><small>${group.locked?'尚未开放':`开放 ${group.available} / ${group.total}`}</small><small>已探索 ${count} 项</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>项活动留下了探索足迹<br>按已开放的顺序慢慢发现</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]||Object.entries(state.protocolProgress||{}).some(([key,p])=>key.startsWith(`${e.id}:${age}:v`)&&p.completed===true)).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
  $('#journey-year').addEventListener('click',()=>{if(year.locked)lockedNotice('这一年的活动');else{setMapMonth('all');openDialog('day-map')}});
  $$('#journey-content [data-day]').forEach(b=>b.addEventListener('click',()=>{if(chooseDay(+b.dataset.day))scrollTo('#lab')}));
  $$('[data-journey-month]').forEach(b=>b.addEventListener('click',()=>{if(groupAccess(b.dataset.journeyMonth).locked){lockedNotice(`第 ${b.dataset.journeyMonth} 月`);return}journeyMonth=+b.dataset.journeyMonth;renderJourney()}));
 }
 function renderMap(){
  const query=mapQuery.trim().toLocaleLowerCase(),year=groupAccess();
- const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.question||'',e.id,...(e.materials||[])].join(' ').toLocaleLowerCase().includes(query)));
+ const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.question||'',e.id,...(e.ageProtocols?.[state.age]?.materials||e.materials||[])].join(' ').toLocaleLowerCase().includes(query)));
  $('#navigator-progress').textContent=`已探索 ${experiments.filter(e=>isDone(e.id)).length} / ${totalDays}`;
  $('#map-all-year').textContent=`${year.locked?'🔒 ':''}全年 · 开放 ${year.available}/${year.total}`;$('#map-all-year').setAttribute('aria-disabled',String(year.locked));
  const currentMonth=groupAccess(monthForDay(state.day));$('#map-current-month').setAttribute('aria-disabled',String(currentMonth.locked));$('#map-current-month').textContent=currentMonth.locked?'🔒 当前月':'当前月';
@@ -323,13 +346,13 @@ function trapDialogFocus(event){
 function syncDialogUI(){const opened=!!$('dialog[open]');if(!opened)queueDisplayedStep();document.body.classList.toggle('dialog-open',opened);$$('.map-trigger').forEach(b=>b.setAttribute('aria-expanded',String($('#day-map').open)))}
 function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
-function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{userId:session?.user.id,childId:activeChild?.id,day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
+function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{userId:session?.user.id,childId:activeChild?.id,day:state.day,age:state.age,protocolVersion:current()?.activeAgeProtocol?.version||0,step:stepNumber()}},'',location.href)}
 function closeDialog(id,afterClose=null){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){pendingDialogAction=afterClose;pendingDialogFocus=id;dialogNavigation=true;history.back()}else afterClose?.()}
 function clearStaleDialogState(){if(history.state?.littleLabDialog){const next={...history.state};delete next.littleLabDialog;delete next.littleLabDialogContext;history.replaceState(next,'',location.href)}}
 window.addEventListener('popstate',()=>{
  const closing=$$('dialog[open]').map(d=>d.id);$$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;for(const id of closing)restoreDialogFocus(id);if(!appLoaded||!session||!activeChild)return;
  const id=history.state?.littleLabDialog,context=history.state?.littleLabDialogContext;
- const sameContext=context?.userId===session.user.id&&context?.childId===activeChild.id&&context?.age===activeChild.ageBand;
+ const sameContext=context?.userId===session.user.id&&context?.childId===activeChild.id&&context?.age===activeChild.ageBand&&(context?.protocolVersion??0)===(experiments[context?.day-1]?.ageProtocols?.[state.age]?.version||0);
  if(id==='day-map'){renderMap();$('#day-map').showModal()}
  else if(id==='safety-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
   const valid=context.day===state.day||chooseDay(context.day);
@@ -337,7 +360,7 @@ window.addEventListener('popstate',()=>{
  }
  else if(id==='diagram-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
   const valid=context.day===state.day||chooseDay(context.day);
-  if(valid&&current()?.ageGuides&&!current().locked){state.steps[recordKey()]=Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0;if(gate!=='ready')gate='preview';rememberPreparation();save();renderStep();populateDiagram();$('#diagram-dialog').showModal();showPanel('procedure');}
+  if(valid&&current()?.ageGuides&&!current().locked){setCurrentProgress('steps',Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0);if(gate!=='ready')gate='preview';rememberPreparation();save();renderStep();populateDiagram();$('#diagram-dialog').showModal();showPanel('procedure');}
  }
  syncDialogUI();
  // Native history restores the opener scroll after popstate; align the requested step on the following frame.
@@ -346,9 +369,10 @@ window.addEventListener('popstate',()=>{
 
 // Dashboard counters describe saved markers, not measured ability, attendance or time spent.
 function dashboardMetrics(list,progress,selectedDay){
- const completed=new Set(list.filter(e=>ageBands.some(age=>progress.completed?.[`${e.id}:${age}`]===true)).map(e=>e.id));
+ const protocolEntries=Object.entries(progress.protocolProgress||{});
+ const completed=new Set(list.filter(e=>ageBands.some(age=>progress.completed?.[`${e.id}:${age}`]===true)||protocolEntries.some(([key,p])=>Number(key.split(':')[0])===e.id&&p.completed===true)).map(e=>e.id));
  const meaningful=value=>typeof value==='string'?value.trim().length>0:typeof value==='number'&&Number.isFinite(value);
- const noted=new Set(list.filter(e=>ageBands.some(age=>{const key=`${e.id}:${age}`;return Object.values(progress.records?.[key]||{}).some(meaningful)||(progress.legacyRecords?.[key]?.fields||[]).some(field=>meaningful(field.value))})).map(e=>e.id));
+ const noted=new Set(list.filter(e=>protocolEntries.some(([key,p])=>Number(key.split(':')[0])===e.id&&Object.values(p.records||{}).some(meaningful))||ageBands.some(age=>{const key=`${e.id}:${age}`;return Object.values(progress.records?.[key]||{}).some(meaningful)||(progress.legacyRecords?.[key]?.fields||[]).some(field=>meaningful(field.value))})).map(e=>e.id));
  const unlocked=list.filter(e=>!e.locked),remaining=unlocked.filter(e=>!completed.has(e.id));
  const coverage=Object.entries(subjects).map(([key,label])=>{const all=list.filter(e=>category(e)===key);return {key,label,total:all.length,completed:all.filter(e=>completed.has(e.id)).length,available:all.filter(e=>!e.locked&&!completed.has(e.id)).length,next:remaining.find(e=>category(e)===key)}});
  return {total:list.length,completed:completed.size,noted:noted.size,unlocked:unlocked.length,remaining:remaining.length,locked:list.length-unlocked.length,covered:coverage.filter(s=>s.completed>0).length,coverage,next:remaining.find(e=>e.id===selectedDay)||remaining[0],review:unlocked.find(e=>e.id===selectedDay)||unlocked[0],lockedCompleted:list.filter(e=>e.locked&&completed.has(e.id)).length};
@@ -412,7 +436,7 @@ async function flushSave(){
  finally{if(epoch===contextEpoch){saving=null;updateCloudStatus();if(location.hash==='#dots')renderDots();if(dirty&&!saveError&&!saveConflict)saveTimer=setTimeout(()=>flushSave(),250)}}})();saving=operation;updateCloudStatus();return operation;
 }
 async function ensureSaved(){if(!dirty)return true;const ok=await flushSave();if(!ok||dirty){toast('还有记录未保存。请先重试，或到“我的家庭”导出待保存记录。');return false}return true}
-function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(child?.ageBand)?child.ageBand:ageBands.includes(s.age)?s.age:'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.recordSchemaVersion=3;return s}
+function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(child?.ageBand)?child.ageBand:ageBands.includes(s.age)?s.age:'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.protocolProgress=isRecord(s.protocolProgress)?s.protocolProgress:{};s.recordSchemaVersion=3;return s}
 function clearPrivateState({preservePreparation=false}={}){if(!preservePreparation)clearPreparation();contextEpoch++;clearTimeout(saveTimer);session=null;children=[];activeChild=null;loadedChildId=null;state=freshState();experiments=[];access=null;environmentSnapshot=null;childLoadError='';curriculumError='';revision=0;dirty=false;saving=null;saveConflict=false;saveError='';gate='locked';checks=[false,false,false];for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();$('#experiment').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#admin-content').replaceChildren();$('#dots-content').replaceChildren();$('#child-switch').replaceChildren();appLoaded=false}
 function expireSession(){if(dirty&&session&&activeChild)recoverySnapshot={userId:session.user.id,child:{id:activeChild.id,nickname:activeChild.nickname,ageBand:activeChild.ageBand},state:JSON.parse(JSON.stringify(state)),exportedAt:new Date().toISOString()};clearPrivateState();renderAuth(recoverySnapshot?'请重新登录。尚未保存的记录暂留在此页面，关闭会丢失；登录原账号后可导出。':'登录已失效，请重新验证邮箱。');syncView()}
 async function refreshCurriculum(epoch=contextEpoch,render=true){if(!session||!activeChild)return;const childId=activeChild.id,result=await api('/api/children/'+encodeURIComponent(childId)+'/curriculum');if(epoch!==contextEpoch||childId!==activeChild?.id)return;const list=result.experiments;if(!Array.isArray(list)||list.length!==365||list.some((e,i)=>e.id!==i+1))throw new Error('课程目录不完整，请稍后重试。');experiments=list.map(e=>({...e,day:String(e.id).padStart(2,'0')}));access=result.access;curriculumError='';environmentSnapshot=result.meta?.environmentSnapshot||null;if(location.hash==='#dots')renderDots();if(render){renderAge();renderExperiment();renderJourney()}}
@@ -452,7 +476,7 @@ function renderVerify(message=''){
  $('#change-email').addEventListener('click',()=>{if(authBusy)return;renderAuth()});$('#resend-code').addEventListener('click',()=>action($('#resend-code'),async()=>{if(authBusy||!authConsent)return;const flow=authEpoch;setAuthBusy(true);try{const r=await api('/api/auth/request-code',{method:'POST',body:{email:authEmail,intent:'continue',adultConsent:authConsent,privacyAccepted:authConsent}});if(flow!==authEpoch)return;authChallenge=r.challengeId;resendAt=Date.now()+60000;renderVerify('已重新申请。请使用最新邮件里的验证码。')}finally{if(flow===authEpoch)setAuthBusy(false)}},'auth-message'));
  $('#verify-form').addEventListener('submit',event=>{event.preventDefault();if(authBusy)return;action($('#verify-code'),async()=>{const flow=authEpoch;setAuthBusy(true);try{const result=await api('/api/auth/verify-code',{method:'POST',body:{challengeId:authChallenge,code:$('#auth-code').value.trim()}});if(flow!==authEpoch)return;clearInterval(authTimer);authChallenge=null;authEmail='';authConsent=false;await acceptSession(result)}finally{if(flow===authEpoch)setAuthBusy(false)}},'auth-message')});$('#auth-code').focus();
 }
-async function acceptSession(result,{resume=false}={}){authEpoch++;authBusy=false;if(recoverySnapshot&&recoverySnapshot.userId!==result.user.id)recoverySnapshot=null;clearPrivateState({preservePreparation:resume});session={user:result.user,csrfToken:result.csrfToken};if(!renderActivityDiagram)({renderActivityDiagram}=await import('./diagrams.js'));children=result.children||[];renderFamilyBar();const first=children.find(c=>!c.archivedAt);if(first){await selectChild(first.id,{skipSave:true});if(location.hash==='#account'||!location.hash)history.replaceState(null,'','#lab')}else history.replaceState(null,'','#account');renderFamily();syncView()}
+async function acceptSession(result,{resume=false}={}){authEpoch++;authBusy=false;if(recoverySnapshot&&recoverySnapshot.userId!==result.user.id)recoverySnapshot=null;clearPrivateState({preservePreparation:resume});session={user:result.user,csrfToken:result.csrfToken};if(!renderActivityDiagram)({renderActivityDiagram,resolveAgeProtocol}=await import('./diagrams.js'));children=result.children||[];renderFamilyBar();const first=children.find(c=>!c.archivedAt);if(first){await selectChild(first.id,{skipSave:true});if(location.hash==='#account'||!location.hash)history.replaceState(null,'','#lab')}else history.replaceState(null,'','#account');renderFamily();syncView()}
 function childForm(child=null){return `<form id="child-form" class="account-form"><label>孩子的昵称<input id="child-nickname" maxlength="24" required autocomplete="off" placeholder="例如：小探险家，不填真实姓名" value="${escapeHTML(child?.nickname||'')}"></label><label>年龄段<select id="child-age">${ageBands.map(age=>`<option value="${age}" ${child?.ageBand===age?'selected':''}>${ages[age].label}岁 · ${ages[age].name}</option>`).join('')}</select></label><label class="check-label"><input id="child-consent" type="checkbox" required><span>我是孩子的家长或监护人，已阅读下方隐私说明，同意在账号中保存孩子的昵称、年龄段和探索记录。</span></label><div class="form-actions"><button class="button primary" id="save-child" type="submit">${child?'保存档案':'创建儿童档案'} →</button>${children.some(c=>!c.archivedAt)?'<button class="text-button" type="button" id="cancel-child">取消</button>':''}</div><p id="child-message" class="form-message" role="status"></p></form>`}
 function renderChildEditor(child=null){$('#account-content').innerHTML=`<div class="account-card"><span class="account-kicker">A SMALL PROFILE, A LONG JOURNEY</span><h1 id="account-heading">${child?'编辑儿童档案':'先认识这位小探险家'}</h1><p>一个家长账号可管理多个孩子。每个孩子的记录独立保存。</p>${childForm(child)}${archivedChildrenHTML()}<button type="button" id="editor-logout" class="text-button">退出登录</button>${privacyNote()}</div>`;$('#cancel-child')?.addEventListener('click',renderFamily);$('#editor-logout')?.addEventListener('click',()=>action($('#editor-logout'),logout,'child-message'));bindRestoreChildren();$('#child-form').addEventListener('submit',event=>{event.preventDefault();action($('#save-child'),async()=>{const owner=session,epoch=contextEpoch,nickname=$('#child-nickname').value.trim(),ageBand=$('#child-age').value,guardianConsent=$('#child-consent')?.checked;if(!await ensureSaved()||session!==owner||contextEpoch!==epoch)return;const result=await api(child?'/api/children/'+encodeURIComponent(child.id):'/api/children',{method:child?'PATCH':'POST',body:child?{nickname,ageBand}:{nickname,ageBand,guardianConsent}});if(session!==owner||contextEpoch!==epoch)return;const existing=children.findIndex(c=>c.id===result.child.id);if(existing>=0)children[existing]=result.child;else children.push(result.child);await selectChild(result.child.id,{skipSave:true});history.replaceState(null,'','#lab');syncView()},'child-message')})}
 function renderFamily(){

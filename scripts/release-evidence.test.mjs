@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {releaseGates,validateReleaseEvidence,releaseSourceFingerprint} from './release-evidence.mjs';
+const report='Synthetic report, never production evidence', hash=createHash('sha256').update(report).digest('hex');
+const context={dataSha256:'a'.repeat(64),sourceSha256:'b'.repeat(64),readReport:()=>report};
+const fixture=()=>({schemaVersion:2,reviews:releaseGates.map(gate=>({gate,status:'passed',dataSha256:context.dataSha256,sourceSha256:context.sourceSha256,reviewer:'Synthetic independent reviewer',report:`docs/${gate}.md`,reportSha256:hash}))});
+test('all five named exact-source and report-bound synthetic reviews accepted structurally',()=>assert.deepEqual(validateReleaseEvidence(fixture(),context),[]));
+test('generic five rounds cannot substitute for five required review categories',()=>{const e=fixture();e.reviews=e.reviews.map((r,i)=>({...r,gate:undefined,round:i+1}));assert.ok(validateReleaseEvidence(e,context).length>=5);});
+test('missing, duplicate, pending, stale source, stale data and changed report fail closed',()=>{for(const mutate of [e=>e.reviews.pop(),e=>e.reviews.push(e.reviews[0]),e=>e.reviews[0].status='pending',e=>e.reviews[0].sourceSha256='c'.repeat(64),e=>e.reviews[0].dataSha256='c'.repeat(64),e=>e.reviews[0].reportSha256='c'.repeat(64),e=>e.reviews[0].report='../outside.md']){const e=fixture();mutate(e);assert.ok(validateReleaseEvidence(e,context).length>0);}});
+test('actual release-source fingerprint is deterministic',()=>{const first=releaseSourceFingerprint();assert.match(first,/^[a-f0-9]{64}$/);assert.equal(releaseSourceFingerprint(),first);});

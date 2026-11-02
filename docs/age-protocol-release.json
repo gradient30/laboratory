@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "scope": "Whole 365-theme four-age curriculum release, not a one-theme pilot",
+  "reviews": [],
+  "note": "All five final joint-review gates remain pending. Each named gate must bind current course data SHA256, release-source fingerprint and exact independent report SHA256. Source fingerprint covers code, renderer, backend, tests, validators, CI and deployment configuration, excluding review evidence to avoid self-reference. Local theme reviews never substitute for complete-year final acceptance.",
+  "requiredGates": [
+    "specification",
+    "facts",
+    "quality",
+    "regression",
+    "user-feedback"
+  ]
+}

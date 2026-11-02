@@ -11,7 +11,9 @@
     "deploy:dry-run": "wrangler deploy --dry-run",
     "manifest:update": "node scripts/update-manifest.mjs",
     "test:browser": "playwright test",
-    "test:backend": "node --test worker/*.test.mjs"
+    "test:backend": "node --test worker/*.test.mjs",
+    "test:curriculum:complete": "node scripts/check-age-protocols.mjs",
+    "test:curriculum:partial": "node scripts/check-age-protocols.mjs --allow-incomplete"
   },
   "devDependencies": {
     "@playwright/test": "1.64.1",

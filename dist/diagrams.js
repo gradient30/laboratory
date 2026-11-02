@@ -322,6 +322,43 @@ export function renderDiagram(dayId,stepIndex=0,ageBand='7-9'){
 }
 export const diagramCoverage={days:365,legacyBespokeDays:30,stepsPerDay:4,ageBands:['4-6','7-9','10-12','13-16'],type:'legacy apparatus drawings plus activity-labelled procedural schematics; render combinations are not unique artwork counts',motion:false};
 
+// Additive curriculum contract. Neither resolution nor validation mutates stored progress.
+export const protocolAges=['4-6','7-9','10-12','13-16'];
+export function validateAgeProtocol(p){
+ const text=x=>typeof x==='string'&&x.trim().length>0;
+ const texts=x=>Array.isArray(x)&&x.length>0&&x.every(text);
+ const errors=[];
+ if(!p||typeof p!=='object'||Array.isArray(p))return ['protocol must be an object'];
+ if(!Number.isInteger(p.version)||p.version<1||p.version>999)errors.push('version');
+ if(!texts(p.materials))errors.push('materials');
+ if(!text(p.safety))errors.push('safety');
+ if(!text(p.sourceNote)||!Array.isArray(p.sources)||!p.sources.length||!p.sources.every(s=>s&&['title','claim','scope'].every(k=>text(s[k]))&&typeof s.url==='string'&&/^https:\/\//.test(s.url)))errors.push('sources');
+ if(!Array.isArray(p.steps)||p.steps.length!==4||!p.steps.every(s=>s&&['title','action','caption','adultNote'].every(k=>text(s[k]))&&['adult','child','together'].includes(s.actor)))errors.push('steps');
+ if(!texts(p.knowledge?.concepts)||!['explanation','limits','observation','nextQuestion'].every(k=>text(p.knowledge?.[k])))errors.push('knowledge');
+ if(!['goal','observe','support','control','time'].every(k=>text(p.guide?.[k]))||!texts(p.guide?.recordFields)||p.guide.recordFields.length>8)errors.push('guide');
+ if(!Array.isArray(p.diagrams)||p.diagrams.length!==4)errors.push('diagrams');
+ else for(let i=0;i<4;i++)try{validateProtocolScene(p.diagrams[i])}catch{errors.push(`diagrams[${i}]`)}
+ return errors;
+}
+export function resolveAgeProtocol(activity,age){
+ if(!activity||activity.locked)return activity;
+ if(!protocolAges.includes(age))throw new TypeError('Unknown age band');
+ if(!activity.ageProtocols)return {...activity,protocolStatus:'legacy'};
+ if(Object.keys(activity.ageProtocols).length!==4||protocolAges.some(a=>!Object.hasOwn(activity.ageProtocols,a)))throw new TypeError('Four explicit age protocols are required');
+ const p=activity.ageProtocols[age],errors=validateAgeProtocol(p);
+ if(errors.length)throw new TypeError('Incomplete age protocol: '+errors.join(', '));
+ const original=activity.ageGuides[age];
+ return {...activity,activeAgeProtocol:p,protocolStatus:'candidate',legacyAgeGuide:original,
+  materials:p.materials,materialsText:p.materials.join('、'),safety:p.safety,duration:p.guide.time,question:p.guide.observe,sources:p.sources,sourceNote:p.sourceNote,
+  steps:p.steps.map(s=>({title:s.title,shortText:s.action,detail:s.action,actor:s.actor})),
+  observations:p.knowledge.observation,explanation:p.knowledge.explanation,
+  ageGuides:{...activity.ageGuides,[age]:{...original,...p.guide,steps:p.steps}},
+  inquiry:{problem:p.guide.observe,solve:p.steps.map(s=>s.action).join(' '),learn:p.knowledge.explanation,evolve:p.knowledge.nextQuestion,limits:p.knowledge.limits},
+  extension:{title:'再想一步（可选）',steps:['先回看本次真实观察。',p.knowledge.nextQuestion,'先在纸上讨论；新增操作需重新核对材料和安全。'],safety:p.safety,ageNote:p.guide.support},
+  review:p.review||{status:'draft',checkedAt:'未独立审查',method:'分龄方案候选；资料与图文尚需独立复核',limitations:'未实地试做；不能把结构检查当作科学、安全或年龄适宜性认证。'}
+ };
+}
+
 // Annual activities use semantic operation maps. Labels come from the reviewed card;
 // no generated values are presented as observed measurements or historical facts.
 function wrappedText(text,x,y,width=20,size=17,color=C.ink,anchor='middle',maxLines=3){
@@ -478,8 +515,32 @@ function annualScene(e,s,ageBand){
  }
  return {art,label:labels[s]||e.steps[s].title,note};
 }
+// Authored age-specific apparatus scenes. Data is never interpreted as SVG markup.
+const protocolElementKeys=new Set(['type','id','x','y','width','height','r','x1','y1','x2','y2','text','fill','stroke','strokeWidth','fontSize','anchor']);
+function protocolNumber(value,min,max,name){if(typeof value!=='number'||!Number.isFinite(value)||value<min||value>max)throw new TypeError(`Invalid protocol diagram ${name}`);return value;}
+function protocolColor(value,fallback){if(value===undefined)return fallback;if(typeof value==='string'&&(value==='none'||/^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(value)))return value;if(typeof value==='string'&&Object.hasOwn(C,value))return C[value];throw new TypeError('Invalid protocol diagram color');}
+function protocolElement(element){
+ if(!element||typeof element!=='object'||Array.isArray(element)||Object.keys(element).some(key=>!protocolElementKeys.has(key)))throw new TypeError('Invalid protocol diagram element');
+ const p=element,fill=protocolColor(p.fill,C.paper),stroke=protocolColor(p.stroke,C.ink),sw=p.strokeWidth===undefined?2:protocolNumber(p.strokeWidth,0,8,'strokeWidth');
+ if(p.type==='rect'){const x=protocolNumber(p.x,24,616,'x'),y=protocolNumber(p.y,65,300,'y'),w=protocolNumber(p.width,1,592,'width'),h=protocolNumber(p.height,1,235,'height');if(x+w>616||y+h>300)throw new TypeError('Protocol diagram rectangle exceeds scene');return rect(x,y,w,h,fill,0,stroke,sw);}
+ if(p.type==='circle'){const x=protocolNumber(p.x,24,616,'x'),y=protocolNumber(p.y,65,300,'y'),r=protocolNumber(p.r,1,117,'r');if(x-r<24||x+r>616||y-r<65||y+r>300)throw new TypeError('Protocol diagram circle exceeds scene');return circle(x,y,r,fill,stroke,sw);}
+ if(p.type==='line'||p.type==='arrow'){const x1=protocolNumber(p.x1,24,616,'x1'),y1=protocolNumber(p.y1,65,300,'y1'),x2=protocolNumber(p.x2,24,616,'x2'),y2=protocolNumber(p.y2,65,300,'y2');if(x1===x2&&y1===y2)throw new TypeError('Protocol diagram line must have length');return p.type==='arrow'?arrow(x1,y1,x2,y2,stroke,sw):line(x1,y1,x2,y2,stroke,sw);}
+ if(p.type==='text'){const x=protocolNumber(p.x,24,616,'x'),y=protocolNumber(p.y,65,300,'y'),size=p.fontSize===undefined?18:protocolNumber(p.fontSize,10,28,'fontSize'),anchor=p.anchor??'middle';if(typeof p.text!=='string'||!p.text.trim()||p.text.length>100||!['start','middle','end'].includes(anchor))throw new TypeError('Invalid protocol diagram text');return txt(x,y,p.text,size,protocolColor(p.fill,C.ink),anchor);}
+ throw new TypeError('Unsupported protocol diagram element type');
+}
+export function validateProtocolScene(scene){
+ if(!scene||typeof scene!=='object'||typeof scene.sceneKey!=='string'||!scene.sceneKey.trim()||scene.sceneKey.length>120||typeof scene.description!=='string'||!scene.description.trim()||scene.description.length>2000||!Array.isArray(scene.elements)||!scene.elements.length||scene.elements.length>100)throw new TypeError('Invalid protocol diagram scene');
+ return scene.elements.map(protocolElement).join('');
+}
+function renderProtocolDiagram(e,s,ageBand,protocol){
+ if(!Array.isArray(protocol.diagrams)||protocol.diagrams.length!==4)throw new TypeError('Protocol requires four diagrams');
+ const artwork=protocol.diagrams.map(validateProtocolScene),scene=protocol.diagrams[s],id=`science-diagram-${e.id}-${s}-${++diagramSerial}`,label=protocol.steps?.[s]?.title||e.steps?.[s]?.title||`第${s+1}步`;
+ return `<svg xmlns="http://www.w3.org/2000/svg" class="science-diagram" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="${id}-title ${id}-desc" style="display:block;max-width:100%;height:auto;font-family:system-ui,-apple-system,'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><title id="${id}-title">第${esc(e.day??e.id)}天，第${s+1}步：${esc(e.title)} · ${esc(ageBand)}岁</title><desc id="${id}-desc">${esc(scene.description)}</desc>${rect(0,0,640,360,C.cream,0,'none',0)}${wrappedText(e.title+' · 分龄操作图',25,35,25,21,C.ink,'start',1)}${txt(610,36,`${s+1} / 4`,22,C.teal,'end')}${line(24,58,616,58,'#DDE5D9',1.5)}<defs><clipPath id="${id}-scene"><rect x="24" y="65" width="592" height="235"/></clipPath></defs><g clip-path="url(#${id}-scene)">${artwork[s]}</g>${rect(0,307,640,53,'#E9EFE4',0,'none',0)}${wrappedText(label,320,338,29,21,C.ink,'middle',1)}</svg>`;
+}
 export function renderActivityDiagram(activity,stepIndex=0,ageBand='7-9'){
  const e=activity,s=Math.min(3,Math.max(0,Math.floor(Number(stepIndex)||0)));
+ const protocol=e.activeAgeProtocol||e.ageProtocols?.[ageBand];
+ if(protocol)return renderProtocolDiagram(e,s,ageBand,protocol);
  if(e.id<=30)return renderDiagram(e.id,s,ageBand);
  const young=ageBand==='4-6',scene=annualScene(e,s,ageBand),id=`science-diagram-${e.id}-${s}-${++diagramSerial}`;
  return `<svg xmlns="http://www.w3.org/2000/svg" class="science-diagram" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="${id}-title ${id}-desc" style="display:block;max-width:100%;height:auto;font-family:system-ui,-apple-system,'Noto Sans CJK SC','Microsoft YaHei',sans-serif"><title id="${id}-title">第${e.day}天，第${s+1}步：${esc(e.title)}</title><desc id="${id}-desc">${esc(e.steps[s].detail)} ${esc(scene.note)} ${esc(e.ageGuides[ageBand].steps[s].caption)}</desc>${rect(0,0,640,360,C.cream,0,'none',0)}${wrappedText(e.title+' · 操作关系图',25,35,25,21,C.ink,'start',1)}${txt(610,36,`${s+1} / 4`,22,C.teal,'end')}${line(24,58,616,58,'#DDE5D9',1.5)}${scene.art}${rect(0,307,640,53,'#E9EFE4',0,'none',0)}${wrappedText(scene.label,320,338,29,21,C.ink,'middle',1)}</svg>`;

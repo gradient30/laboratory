@@ -39,5 +39,5 @@ test('same-frame skipped steps count only the final displayed cursor',()=>{
 test('view evidence is separate from all experiment records and completion code',()=>{
  assert.match(app,/steps:\{\},viewedSteps:\{\},completed:\{\}/);assert.match(app,/\['records','steps','viewedSteps','completed','legacyRecords'\]/);
  const marker=source.slice(source.indexOf('function queueDisplayedStep'),source.indexOf('function watchDisplayedStep'));
- assert.doesNotMatch(marker,/state\.(completed|records|legacyRecords)\s*\[/);assert.match(marker,/state\.viewedSteps\[visible\.key\]/);
+ assert.doesNotMatch(marker,/state\.(completed|records|legacyRecords)\s*\[/);assert.match(marker,/setCurrentProgress\('viewedSteps',progress\.mask/);
 });
