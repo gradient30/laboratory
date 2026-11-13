@@ -33,3 +33,9 @@ The owner requested omitting verification images for personal use. The verificat
 ## Source transport revision
 
 Four large JSON inputs are stored as <=300,000-byte raw pieces encoded in base64. Every part, the manifest and the reconstructed file are hash-pinned. npm run prepare:source runs before all Actions release selectors and asset builds. Reconstructed bytes are identical to the original candidate. Changed local authoring inputs cause an error instead of being overwritten. Source transport parts are not public runtime assets.
+
+## A4 print and password-save revision — 2026-11-13
+
+Adds a read-only current-age print preview with all materials, four complete operations, safety emphasis and discovery writing space. It targets A4 at 100% scale, fitting down to 9pt; longer content retains automatic continuation pages rather than clipping. Dimension-sensitive paper templates remain separate. Setting a password now preserves the current session object's identity so in-flight progress callbacks are not invalidated solely by that credential update.
+
+The exact candidate passed JavaScript syntax, 1,469 script tests and 146 backend tests, deterministic asset checks and Wrangler deploy dry-run. Three print tests cover all 1,460 age-specific materials/operations and escaping/fitting behavior. Native Chromium could not launch because socket creation was denied, including the permitted escalation attempt. Browser flows, actual PDF layout and all five final reviews remain UNVERIFIED; new Playwright regression cases are supplied, not claimed as passed. No workflow, production permission or standard-release requirement is changed.
