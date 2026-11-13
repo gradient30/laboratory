@@ -1,0 +1,5848 @@
+{
+  "activityId": 75,
+  "activityTitle": "十张一包的数位",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "十张卡叠成一包，再添一张，拆开后卡片总数变了吗？",
+      "materials": [
+        "A4纸4张：1张预裁同样的4×6厘米空白卡11张，余料收起；1张画2行×5列的十格板，每格4×6厘米；1张画工作区、备用区和“一包十张”位置；1张供记录",
+        "只备11张单卡，不用标10的替代卡；纸堆用工作区位置区分，不捆扎",
+        "直尺1把、笔2支；成人专用剪刀1把，预裁后收起；干燥平桌"
+      ],
+      "safety": "成人按4×6厘米或更大预裁全部卡片，剪刀立即收起；不用硬币、豆子、珠子、橡皮筋、订书钉、磁铁或塑料小件。卡片和笔不入口，不遮口鼻、不抛卡；有入口习惯时只由成人摆放。只在干燥平桌操作，离桌沿至少10厘米，疲倦就停，不做计时竞赛。纸堆仅十张一小叠，不搭高塔。所有计数单元靠标签与位置识别，颜色仅作辅助。",
+      "steps": [
+        {
+          "title": "摆十张，留一张备用",
+          "action": "成人把11张卡放桌上，和孩子逐张移动10张到十格板：每格只放一张，格子2行各5格。另1张放备用区，不算进当前工作区。孩子可指卡，成人数；不要求书写数字。",
+          "actor": "together",
+          "caption": "摆十张，留一张备用",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "把十张真的合成一包",
+          "action": "确认十格板满且没有叠卡后，把这10张逐张移到工作区“一包十张”处，叠成低矮一叠，备用那1张不动。这包真的有十张，不把一张写10的卡当十张实物。请孩子指“一包”，成人说明包数是一，里面仍十张。",
+          "actor": "together",
+          "caption": "把十张真的合成一包",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "添一张到包的旁边",
+          "action": "把备用那1张移到工作区，放在十张一包旁边。孩子说或指“一包，还有一张”；成人可以说这是十一张，但不强求会读写11。不可把“一包+一张”算成两张单卡。",
+          "actor": "together",
+          "caption": "添一张到包的旁边",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "拆包回十格再核对",
+          "action": "将包中10张逐张放回十格板，旁边新增的1张保持独立。孩子与成人点数全部11张，比较“十张一包+一张”与“十格满+一张”。不增加或拿走卡，只改变摆法；保留第一次口述，若不一致再逐张移动复查。",
+          "actor": "together",
+          "caption": "拆包回十格再核对",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "十个一组成一个十",
+          "包数与张数",
+          "合起和展开数量守恒"
+        ],
+        "explanation": "把十张合成一包改变了整理方法，没有增加或减少卡。一包十张和旁边一张，展开是十一张；“一包”和“一张”不是同一个计数单位。",
+        "limits": "只实际操作10和11，不要求幼儿理解一般位值公式；若无法点数由成人协助，不用完成速度评判。",
+        "observation": "工作区与备用区的卡数、满十格是否逐格一张、合包前后孩子的指认和复核。",
+        "nextQuestion": "为什么一包和一张不能直接说成两张卡？"
+      },
+      "guide": {
+        "goal": "实际把10张单卡合包、添1张并展开，感受十这个新单位。",
+        "observe": "十张卡叠成一包，再添一张，拆开后卡片总数变了吗？",
+        "support": "成人预裁、代数代记；孩子移动大卡、指认，不强求写11。",
+        "control": "全程仅11张：先10在工作区、1备用；添入后11；合包展开都不增减。",
+        "time": "约10–15分钟；儿童参与5–10分钟，可分段。",
+        "recordFields": [
+          "十格是否各一张",
+          "工作/备用区卡数",
+          "合包与展开时的口述",
+          "复核后改正或待定"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "place75-46-tenframe",
+          "description": "十格板上恰10张，右侧备用区另1张。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "十格板：逐格放满，另留1张",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 120,
+              "width": 272,
+              "height": 143,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 58,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 208,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 58,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 208,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 120,
+              "width": 140,
+              "height": 143,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 490,
+              "y": 151,
+              "text": "备用区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 182,
+              "width": 40,
+              "height": 60,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-46-pack",
+          "description": "左侧是实际十张叠放的一包，右侧备用1张保持不动。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "这包里面真的有10张",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 125,
+              "width": 240,
+              "height": 155,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 152,
+              "text": "工作区",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 178,
+              "y": 177,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 179,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 174,
+              "y": 181,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 172,
+              "y": 183,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 185,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 187,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 166,
+              "y": 189,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 164,
+              "y": 191,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 193,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 195,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 188.0,
+              "y": 272,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 125,
+              "width": 140,
+              "height": 155,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 490,
+              "y": 152,
+              "text": "备用区",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 185,
+              "width": 40,
+              "height": 60,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-46-add",
+          "description": "备用卡已移入工作区；工作区有一包10张和独立1张，备用区为空。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "把备用1张移到包旁边",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 125,
+              "width": 345,
+              "height": 160,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 148,
+              "y": 179,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 146,
+              "y": 181,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144,
+              "y": 183,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 142,
+              "y": 185,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140,
+              "y": 187,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 138,
+              "y": 189,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 191,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 134,
+              "y": 193,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 195,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 197,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 158.0,
+              "y": 274,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 185,
+              "width": 40,
+              "height": 60,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 125,
+              "width": 115,
+              "height": 160,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 512,
+              "y": 153,
+              "text": "备用区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 512,
+              "y": 215,
+              "text": "空",
+              "fontSize": 22,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 450,
+              "y1": 245,
+              "x2": 345,
+              "y2": 245,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 116,
+              "text": "一包十张 + 一张",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-46-unpack",
+          "description": "原十张铺回十格板，另一张仍独立，合计11张。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "只展开，没有添卡或拿走",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 120,
+              "width": 272,
+              "height": 143,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 58,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 208,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 134,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 58,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 208,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 199,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 465,
+              "y": 170,
+              "width": 40,
+              "height": 60,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 295,
+              "text": "十格满 + 1张，重新点数",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax｜Introduction to Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+          "claim": "十进制位值依位置决定数值；一十包含十个一，一百包含十个十。",
+          "scope": "支持十进制单位与重组概念；本页大纸卡和具体数例为原创家庭模型，卡面大小不代表数值大小。"
+        }
+      ],
+      "sourceNote": "依据OpenStax位值说明原创设计。4—6与7—9岁真的把十张单卡叠成一包并展开；10—12与13—16岁改用明确面值卡，在兑换区实际交出十张、领回一张，属于数值代币模型而非等面积模型。各龄真实操作、单元和核验任务不同。算式是规定规则下可核对的数学示例，不是替儿童填写观察记录；未实地试教或获机构认证。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "23张加上7张，怎样通过真正打包和拆包表示个位的0？",
+      "materials": [
+        "A4纸6张：2张预裁4×6厘米空白卡30张（每张纸最多裁20张，只取30张）；1张画2×5十格板（格4×6厘米）；1张画十包区和散张区；1张画备用区；1张供记录",
+        "工作区先用23张，备用区7张；所有“十包”都由十张真实单卡叠成，不准备代替十张的标签卡",
+        "直尺1把、笔2支；成人专用剪刀1把，预裁后收起；干燥平桌"
+      ],
+      "safety": "成人按4×6厘米或更大预裁全部卡片，剪刀立即收起；不用硬币、豆子、珠子、橡皮筋、订书钉、磁铁或塑料小件。卡片和笔不入口，不遮口鼻、不抛卡；有入口习惯时只由成人摆放。只在干燥平桌操作，离桌沿至少10厘米，疲倦就停，不做计时竞赛。纸堆仅十张一小叠，不搭高塔。所有计数单元靠标签与位置识别，颜色仅作辅助。",
+      "steps": [
+        {
+          "title": "分清23张与备用7张",
+          "action": "逐张点出23张放工作区，剩7张放备用区，记录两个区的数。工作区先在十格板逐次放满十格再移开，不把备用卡算进23；每一张都只计一次。",
+          "actor": "together",
+          "caption": "分清23张与备用7张",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "每满十张才叠一包",
+          "action": "用同一十格板连续装满两次，每次确认10格各一张后，把这10张叠成低矮一包放十包区。剩3张在散张区。实际核对2包各10张与3散张，写23=2×10+3；不把2包3张当5张。",
+          "actor": "together",
+          "caption": "每满十张才叠一包",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "加入七张，满十再成包",
+          "action": "把备用7张全部移到散张区，与原3张一起摆进十格板。确认10格满后将这10张叠成第三包，散张区现在没有卡。记录3个十、0个一，写30；0表示没有剩余单张，不是整个工作区没有卡。",
+          "actor": "together",
+          "caption": "加入七张，满十再成包",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "拆一包，检查同值表示",
+          "action": "拿第三包的10张真实单卡展开到十格板，另两包原地不动。记录2包和10散张仍为30张，这不是规范数位写法“210”。把这10张再合回第三包，写标准表示3个十、0个一。若点数不符先查漏移、重数，保留更正。",
+          "actor": "together",
+          "caption": "拆一包，检查同值表示",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "23的十与一",
+          "凑十进位",
+          "个位0占位",
+          "规范表示与非规范分组"
+        ],
+        "explanation": "23张可组成两包十张和三张；添七张后，三加七正好再成一包，因此是三包十张、没有散张。拆开一包得到两包与十张散卡，价值不变，但各位要少于十个本位单位才是规范位值表示。",
+        "limits": "这里只用30张真卡，展示23+7和30的重新分组；“2包10张”不能拼写成210，张数守恒不等于所有书写方法都正确。",
+        "observation": "23/7区域数量、每包内部10张核对、加入后和拆包后各区计数及算式。",
+        "nextQuestion": "为什么两包加十张散卡还是30，却不能把它写成210？"
+      },
+      "guide": {
+        "goal": "用30张大卡实际加入、跨十打包和拆包，建立个位0与规范书写。",
+        "observe": "23张加上7张，怎样通过真正打包和拆包表示个位的0？",
+        "support": "成人备大卡；孩子点数、整理真包、填十与一，成人提醒先分区再计数。",
+        "control": "共30张，先23工作+7备用；加入后30始终在工作区，合包拆包不改变总张数。",
+        "time": "约20–30分钟。",
+        "recordFields": [
+          "工作23/备用7的核数",
+          "两包和3散张",
+          "新增7张后的各区数",
+          "拆包前后总张数",
+          "30与非规范分组区别"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "place75-79-prepare",
+          "description": "工作区左侧23张，备用区右侧7张，实际画出全部30张。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "先点：工作区23张，备用7张",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 113,
+              "width": 360,
+              "height": 180,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 137,
+              "text": "工作区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 113,
+              "width": 180,
+              "height": 180,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 510,
+              "y": 137,
+              "text": "备用区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 281,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 314,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 347,
+              "y": 153,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 281,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 314,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 347,
+              "y": 197,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 244,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 244,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 244,
+              "width": 22,
+              "height": 33,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 436,
+              "y": 154,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 154,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 504,
+              "y": 154,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 538,
+              "y": 154,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 436,
+              "y": 200,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 200,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 504,
+              "y": 200,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-79-pack23",
+          "description": "工作区2包各10张加3散张；7张备用仍在右区。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "两包十张 + 三张，备用不计入",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 120,
+              "width": 360,
+              "height": 170,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 162,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 164,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 89,
+              "y": 166,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 168,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 170,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 172,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 174,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 79,
+              "y": 176,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 77,
+              "y": 178,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 180,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100.0,
+              "y": 253,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 173,
+              "y": 162,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 164,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 166,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 168,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 170,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 163,
+              "y": 172,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 161,
+              "y": 174,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 159,
+              "y": 176,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 157,
+              "y": 178,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 180,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 253,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 173,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 293,
+              "y": 173,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 331,
+              "y": 173,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 120,
+              "width": 180,
+              "height": 170,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 510,
+              "y": 143,
+              "text": "备用7张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 436,
+              "y": 160,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 160,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 504,
+              "y": 160,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 538,
+              "y": 160,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 436,
+              "y": 206,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 206,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 504,
+              "y": 206,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-79-carry",
+          "description": "已将原3张和备用7张叠成第三包；备用与散张区为空，三包共30张。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "3 + 7再满十，叠成第三包",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 122,
+              "width": 410,
+              "height": 166,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 103,
+              "y": 168,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 101,
+              "y": 170,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 99,
+              "y": 172,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 174,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 176,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 178,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 180,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 89,
+              "y": 182,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 184,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 186,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110.0,
+              "y": 259,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 223,
+              "y": 168,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 170,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 219,
+              "y": 172,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 217,
+              "y": 174,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 176,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 213,
+              "y": 178,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 211,
+              "y": 180,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 209,
+              "y": 182,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 207,
+              "y": 184,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 186,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 230.0,
+              "y": 259,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 343,
+              "y": 168,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 341,
+              "y": 170,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 339,
+              "y": 172,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 337,
+              "y": 174,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 176,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 333,
+              "y": 178,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 331,
+              "y": 180,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 329,
+              "y": 182,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 327,
+              "y": 184,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 186,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350.0,
+              "y": 259,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 122,
+              "width": 120,
+              "height": 166,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 540,
+              "y": 155,
+              "text": "散张区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 540,
+              "y": 214,
+              "text": "0张",
+              "fontSize": 22,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 540,
+              "y": 265,
+              "text": "写30",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-79-open",
+          "description": "两包保留，第三包真实10张展开；保持总30张。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "拆开一包：2个十 + 10个一",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 88,
+              "y": 169,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 86,
+              "y": 171,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 84,
+              "y": 173,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 82,
+              "y": 175,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 177,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 78,
+              "y": 179,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 181,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 183,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 185,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 187,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95.0,
+              "y": 260,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 183,
+              "y": 169,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 181,
+              "y": 171,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 179,
+              "y": 173,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 175,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 177,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 173,
+              "y": 179,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 181,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 183,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 185,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 187,
+              "width": 34,
+              "height": 51,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 190.0,
+              "y": 260,
+              "text": "10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 315,
+              "y": 127,
+              "width": 281,
+              "height": 146,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 333,
+              "y": 144,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 144,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 433,
+              "y": 144,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 483,
+              "y": 144,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 533,
+              "y": 144,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 333,
+              "y": 209,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 383,
+              "y": 209,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 433,
+              "y": 209,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 483,
+              "y": 209,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 533,
+              "y": 209,
+              "width": 40,
+              "height": 55,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 299,
+              "text": "再合包才写规范的30，不写210",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax｜Introduction to Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+          "claim": "十进制位值依位置决定数值；一十包含十个一，一百包含十个十。",
+          "scope": "支持十进制单位与重组概念；本页大纸卡和具体数例为原创家庭模型，卡面大小不代表数值大小。"
+        }
+      ],
+      "sourceNote": "依据OpenStax位值说明原创设计。4—6与7—9岁真的把十张单卡叠成一包并展开；10—12与13—16岁改用明确面值卡，在兑换区实际交出十张、领回一张，属于数值代币模型而非等面积模型。各龄真实操作、单元和核验任务不同。算式是规定规则下可核对的数学示例，不是替儿童填写观察记录；未实地试教或获机构认证。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "用十和一的面值卡做32+18，再拿走18，怎样实际进位和退位？",
+      "materials": [
+        "A4纸5张：1张预裁同尺寸4×6厘米面值卡15张，其中“1”卡10张、“10”卡5张；另4张分别作工作位值板（十/一列）、兑换区、移出区和记录纸",
+        "每张卡写清面值，不靠大小或颜色代表十倍；本龄是数值代币模型，不声称5张“10”卡本身就是50张纸",
+        "直尺1把、笔2支；成人专用剪刀1把，预裁后收起；干燥平桌"
+      ],
+      "safety": "成人按4×6厘米或更大预裁全部卡片，剪刀立即收起；不用硬币、豆子、珠子、橡皮筋、订书钉、磁铁或塑料小件。卡片和笔不入口，不遮口鼻、不抛卡；有入口习惯时只由成人摆放。只在干燥平桌操作，离桌沿至少10厘米，疲倦就停，不做计时竞赛。纸堆仅十张一小叠，不搭高塔。所有计数单元靠标签与位置识别，颜色仅作辅助。",
+      "steps": [
+        {
+          "title": "摆出两数和兑换库存",
+          "action": "先读约定：“10”卡代表十个一，十张“1”卡可交给兑换区换一张“10”，反向也可。把32摆成3张10和2张1，18摆成1张10和8张1，在工作板分上下两行且各自对齐十/一列；剩下1张10放兑换区。工作区代表50，兑换区库存不加进算式。记录实际卡数与所代表数值。",
+          "actor": "together",
+          "caption": "摆出两数和兑换库存",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "合并并真正十换一",
+          "action": "把两行合并：工作区有4张10和10张1。逐张将10张1全部交到兑换区，再从兑换区取出原备1张10到十列，不能既留十张1又增加一张10。核对工作区变成5张10、0张1，写32+18=50，兑换前14张卡、后5张卡，但数值都是50。",
+          "actor": "together",
+          "caption": "合并并真正十换一",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "要减18，先实际拆一个十",
+          "action": "从工作区5张10中交1张到兑换区，领回先前交出的10张1，放一列，工作区成4张10和10张1，仍代表50。再把1张10和8张1移入“移出区”，代表拿走18。剩下3张10和2张1，表示32；移出区不再计入余数，兑换区也不计。",
+          "actor": "together",
+          "caption": "要减18，先实际拆一个十",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "用逆操作查账",
+          "action": "将移出区1张10和8张1全移回工作区，回到4张10和10张1；再把10张1交入兑换区换回1张10，回到5张10。逐次写“工作区数值+移出数值=50”，兑换库存另列。解释5张纸和50个一是不同单位，不能仅凭纸张总数判断算式值。",
+          "actor": "together",
+          "caption": "用逆操作查账",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "数值卡与实体张数",
+          "进位十换一",
+          "退位一换十",
+          "逆操作与守恒"
+        ],
+        "explanation": "面值卡通过十个低位单位与一个高位单位互换来保持数值。32+18合并后，十张1换为一张10；50减18时反向换开一个十，再移走指定数值。卡片张数可以改变，工作区所代表的数值由面值加总。",
+        "limits": "这是约定值的交换模型，不是纸面积或实际50张单卡模型；兑换区库存不是被计算的数。示例只核验所列加减，不声称凭一次操作证明所有算法。",
+        "observation": "每次工作/兑换/移出区的两类卡数、实际交出领回数量、对应数值与逆操作核对。",
+        "nextQuestion": "为什么14张卡换成5张卡，工作区数值仍可保持50？"
+      },
+      "guide": {
+        "goal": "实际用面值卡完成进位、退位、移出及逆操作审计。",
+        "observe": "用十和一的面值卡做32+18，再拿走18，怎样实际进位和退位？",
+        "support": "成人预裁，学习者按两种面值搬卡，成人监督兑换同时交出领回避免重复计值。",
+        "control": "总库存固定10张1卡+5张10卡；每次仅10张1↔1张10；工作、兑换、移出分区计。",
+        "time": "约25–35分钟。",
+        "recordFields": [
+          "起始两数与兑换库存",
+          "进位前后卡数/数值",
+          "退位实际交出与领回",
+          "移出18后的余值",
+          "逆操作与总值核对"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "place75-1012-start",
+          "description": "左工作区分两行：32为3十2一，18为1十8一；右兑换区有1张10库存。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "面值卡：工作区两数，兑换另放",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 112,
+              "width": 415,
+              "height": 183,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 147,
+              "text": "32",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 238,
+              "text": "18",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 119,
+              "width": 29,
+              "height": 44,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 109.5,
+              "y": 146.28,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 119,
+              "width": 29,
+              "height": 44,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 146.5,
+              "y": 146.28,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 119,
+              "width": 29,
+              "height": 44,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.5,
+              "y": 146.28,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 119,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 249.5,
+              "y": 146.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 119,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 286.5,
+              "y": 146.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 211,
+              "width": 29,
+              "height": 44,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 109.5,
+              "y": 238.28,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 193,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 249.5,
+              "y": 220.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 193,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 286.5,
+              "y": 220.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 309,
+              "y": 193,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 323.5,
+              "y": 220.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 346,
+              "y": 193,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 360.5,
+              "y": 220.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 245,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 249.5,
+              "y": 272.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 245,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 286.5,
+              "y": 272.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 309,
+              "y": 245,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 323.5,
+              "y": 272.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 346,
+              "y": 245,
+              "width": 29,
+              "height": 44,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 360.5,
+              "y": 272.28,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 112,
+              "width": 135,
+              "height": 183,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 537,
+              "y": 142,
+              "text": "兑换区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520,
+              "y": 185,
+              "width": 32,
+              "height": 48,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 536.0,
+              "y": 214.76,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1012-carry",
+          "description": "显示交换前：工作区4十10一，右兑换区1十；箭头示十张1交出，一张10领回。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "十张1交出，才能领回一张10",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 113,
+              "width": 410,
+              "height": 183,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 133,
+              "width": 27,
+              "height": 41,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 63.5,
+              "y": 158.42,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 133,
+              "width": 27,
+              "height": 41,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 98.5,
+              "y": 158.42,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 133,
+              "width": 27,
+              "height": 41,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133.5,
+              "y": 158.42,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 133,
+              "width": 27,
+              "height": 41,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 168.5,
+              "y": 158.42,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 133,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235.0,
+              "y": 160.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 260,
+              "y": 133,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 275.0,
+              "y": 160.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 133,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 315.0,
+              "y": 160.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 133,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 355.0,
+              "y": 160.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 133,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395.0,
+              "y": 160.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 188,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235.0,
+              "y": 215.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 260,
+              "y": 188,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 275.0,
+              "y": 215.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 188,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 315.0,
+              "y": 215.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 188,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 355.0,
+              "y": 215.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 188,
+              "width": 30,
+              "height": 45,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395.0,
+              "y": 215.9,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 485,
+              "y": 125,
+              "width": 115,
+              "height": 155,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 542,
+              "y": 150,
+              "text": "兑换",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 525,
+              "y": 187,
+              "width": 32,
+              "height": 48,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 541.0,
+              "y": 216.76,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 445,
+              "y1": 188,
+              "x2": 483,
+              "y2": 188,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 483,
+              "y1": 255,
+              "x2": 445,
+              "y2": 255,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 240,
+              "y": 285,
+              "text": "完成后：5张10，0张1",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1012-subtract",
+          "description": "退位并移出18之后：工作区3十2一，移出区1十8一，兑换区1十。三地区分。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "拆十后移出18，余数按工作区算",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 113,
+              "width": 222,
+              "height": 181,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 138,
+              "text": "工作区：余32",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 153,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62.0,
+              "y": 179.04,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 84,
+              "y": 153,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 98.0,
+              "y": 179.04,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 153,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 179.04,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 219,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62.0,
+              "y": 245.04,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 84,
+              "y": 219,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 98.0,
+              "y": 245.04,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 113,
+              "width": 207,
+              "height": 181,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 138,
+              "text": "移出区：18",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 289,
+              "y": 153,
+              "width": 26,
+              "height": 39,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 302.0,
+              "y": 177.18,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 289,
+              "y": 206,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 302.0,
+              "y": 230.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 206,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 338.0,
+              "y": 230.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 206,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374.0,
+              "y": 230.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397,
+              "y": 206,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 410.0,
+              "y": 230.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 289,
+              "y": 255,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 302.0,
+              "y": 279.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 255,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 338.0,
+              "y": 279.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 255,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374.0,
+              "y": 279.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397,
+              "y": 255,
+              "width": 26,
+              "height": 39,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 410.0,
+              "y": 279.18,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 113,
+              "width": 102,
+              "height": 181,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 556,
+              "y": 138,
+              "text": "兑换区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 539,
+              "y": 181,
+              "width": 30,
+              "height": 45,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 554.0,
+              "y": 208.9,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1012-check",
+          "description": "逆操作完成：工作区5张10代表50，移出区空；兑换区收回10张1。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。 本场景所有面值卡绘为相同大小，实物均为4×6厘米；面值只由数字标签定义。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "加回18，再十换一查回50",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 115,
+              "width": 320,
+              "height": 177,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 142,
+              "text": "工作区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 62.5,
+              "y": 182.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 76.5,
+              "y": 207.2,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 119.5,
+              "y": 182.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133.5,
+              "y": 207.2,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 176.5,
+              "y": 182.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 190.5,
+              "y": 207.2,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 233.5,
+              "y": 182.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 247.5,
+              "y": 207.2,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 290.5,
+              "y": 182.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304.5,
+              "y": 207.2,
+              "text": "10",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 385,
+              "y": 115,
+              "width": 220,
+              "height": 177,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 495,
+              "y": 142,
+              "text": "兑换区：10张1",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 403.0,
+              "y": 158.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 417.0,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 443.0,
+              "y": 158.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 457.0,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 483.0,
+              "y": 158.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 497.0,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 523.0,
+              "y": 158.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 537.0,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 563.0,
+              "y": 158.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 577.0,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 403.0,
+              "y": 212.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 417.0,
+              "y": 237.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 443.0,
+              "y": 212.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 457.0,
+              "y": 237.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 483.0,
+              "y": 212.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 497.0,
+              "y": 237.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 523.0,
+              "y": 212.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 537.0,
+              "y": 237.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 563.0,
+              "y": 212.0,
+              "width": 28,
+              "height": 42,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 577.0,
+              "y": 237.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 275,
+              "text": "移出区空；库存不相加",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax｜Introduction to Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+          "claim": "十进制位值依位置决定数值；一十包含十个一，一百包含十个十。",
+          "scope": "支持十进制单位与重组概念；本页大纸卡和具体数例为原创家庭模型，卡面大小不代表数值大小。"
+        }
+      ],
+      "sourceNote": "依据OpenStax位值说明原创设计。4—6与7—9岁真的把十张单卡叠成一包并展开；10—12与13—16岁改用明确面值卡，在兑换区实际交出十张、领回一张，属于数值代币模型而非等面积模型。各龄真实操作、单元和核验任务不同。算式是规定规则下可核对的数学示例，不是替儿童填写观察记录；未实地试教或获机构认证。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "把十换一延伸到小数，1.23+0.87怎样连续进位，并用退位核验？",
+      "materials": [
+        "A4纸6张：2张预裁同样4×6厘米面值卡23张，包括“1”卡2张、“0.1”卡11张、“0.01”卡10张；余4张分别作工作位值板（个/十分/百分列）、兑换区、移出区和记录纸",
+        "每张面值大字清楚；只用这23张库存。十张0.01↔一张0.1，十张0.1↔一张1；卡片同大小，模型表达数值而不是面积",
+        "直尺1把、笔2支；成人专用剪刀1把，预裁后收起；干燥平桌"
+      ],
+      "safety": "成人按4×6厘米或更大预裁全部卡片，剪刀立即收起；不用硬币、豆子、珠子、橡皮筋、订书钉、磁铁或塑料小件。卡片和笔不入口，不遮口鼻、不抛卡；有入口习惯时只由成人摆放。只在干燥平桌操作，离桌沿至少10厘米，疲倦就停，不做计时竞赛。纸堆仅十张一小叠，不搭高塔。所有计数单元靠标签与位置识别，颜色仅作辅助。",
+      "steps": [
+        {
+          "title": "把小数和兑换区实摆出来",
+          "action": "读规则并画个、十分、百分三列：工作区第一行1.23摆1张1、2张0.1、3张0.01；第二行0.87摆0张1、8张0.1、7张0.01。剩1张1和1张0.1放兑换区，库存不算进和。先逐类点卡核对，再合并成1张1、10张0.1、10张0.01。以0.01作一个计数单位时，总值为123+87=210个百分之一。",
+          "actor": "together",
+          "caption": "把小数和兑换区实摆出来",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "十个百分之一换一个十分之一",
+          "action": "将10张0.01逐张全交入兑换区，领回其中1张0.1放十分列。工作区现在1张1、11张0.1、0张0.01。记录三类卡数，不把“1、11、0”直接拼成小数；十分列有11张，尚未规范化。每次交换记录交出和领回，不能让两边都留作有效值。",
+          "actor": "together",
+          "caption": "十个百分之一换一个十分之一",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "再把十个十分之一进一位",
+          "action": "从11张0.1中选10张交入兑换区，领回1张1放个位。工作区成2张1、1张0.1、0张0.01，规范表示2.10=2.1。用V=100a+10b+c核对：a、b、c分别是工作区1、0.1、0.01卡数，V的单位是百分之一；起始100×1+10×10+10=210，第一次100×1+10×11=210，第二次100×2+10×1=210。",
+          "actor": "together",
+          "caption": "再把十个十分之一进一位",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        },
+        {
+          "title": "真的退两位，减回0.87",
+          "action": "从2张1、1张0.1、0张0.01出发，先交1张0.1到兑换区换回10张0.01，再交1张1换回10张0.1。工作区成1张1、10张0.1、10张0.01。移8张0.1和7张0.01到移出区，工作区剩1张1、2张0.1、3张0.01，恢复1.23；移出区代表0.87，兑换库存另外核。用V=123及移出87核验123+87=210，说明模型中的守恒单位与纸张数不同。",
+          "actor": "together",
+          "caption": "真的退两位，减回0.87",
+          "adultNote": "成人只负责预裁、读规则和必要代记；先保留儿童首次点数，再用逐张移动复核，不把示例当作儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "十进制小数的相邻单位",
+          "连续进位与退位",
+          "非规范表示",
+          "加权数值不变量"
+        ],
+        "explanation": "相邻十进制单位仍按十换一：十个百分之一为一个十分之一，十个十分之一为一个一。连续交换可减少有效卡数但不改变所代表的数值；用百分之一为单位的加权和100a+10b+c能跟踪每次交换，反向交换再减回可核验。",
+        "limits": "同尺寸面值卡是人为编码，不是分割同面积纸张；2.10与2.1数学数值相等，这里不涉及测量有效数字。单次核验不是对所有小数运算的经验性证明，推广依赖交换等式。",
+        "observation": "三阶段各面值卡数、每次交出领回及库存、以百分之一计的V、减回后的工作与移出值。",
+        "nextQuestion": "如果把全部卡的张数相加代替100a+10b+c，为什么不再是正确的不变量？"
+      },
+      "guide": {
+        "goal": "用两级实际兑换完成小数连续进退位，建立以选定单位计的数值不变量。",
+        "observe": "把十换一延伸到小数，1.23+0.87怎样连续进位，并用退位核验？",
+        "support": "成人预裁，学习者独立分列搬卡和核对库存；遇库存不足先查前次交换，不临时加卡。",
+        "control": "固定2张1、11张0.1、10张0.01；十张较小单位换一张相邻较大单位，每次真正跨区交接。",
+        "time": "约30–40分钟。",
+        "recordFields": [
+          "两小数各列卡数和初始库存",
+          "第一次进位前后卡数",
+          "第二次进位前后卡数",
+          "每步V及其单位",
+          "两次退位/移出卡数",
+          "恢复1.23与移出0.87核验"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "place75-1316-start",
+          "description": "两数合并后的工作区为1张1、10张0.1、10张0.01，兑换区保留1张1和1张0.1。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。 本场景所有面值卡绘为相同大小，实物均为4×6厘米；面值只由数字标签定义。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "先实摆两数，再按面值合并",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 30,
+              "y": 111,
+              "width": 455,
+              "height": 185,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 136,
+              "text": "个",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 136,
+              "text": "十分",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 394,
+              "y": 136,
+              "text": "百分",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 72.5,
+              "y": 177.5,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 84.5,
+              "y": 199.7,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 139.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 151.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 171.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 203.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 247.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 267.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 139.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 151.5,
+              "y": 219.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 171.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.5,
+              "y": 219.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 203.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215.5,
+              "y": 219.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 247.5,
+              "y": 219.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 267.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279.5,
+              "y": 219.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 312.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 324.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 344.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 356.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 376.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 388.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 408.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 420.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 440.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 452.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 312.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 324.5,
+              "y": 219.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 344.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 356.5,
+              "y": 219.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 376.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 388.5,
+              "y": 219.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 408.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 420.5,
+              "y": 219.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 440.5,
+              "y": 198.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 452.5,
+              "y": 219.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 501,
+              "y": 111,
+              "width": 107,
+              "height": 185,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 554,
+              "y": 136,
+              "text": "兑换",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 541.0,
+              "y": 158.5,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 553.0,
+              "y": 180.7,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 541.0,
+              "y": 232.5,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 553.0,
+              "y": 254.0,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1316-hundredths",
+          "description": "第一兑换完成：工作区1张1、11张0.1；兑换区1张1及10张0.01。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。 本场景所有面值卡绘为相同大小，实物均为4×6厘米；面值只由数字标签定义。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "十个0.01换一个0.1：暂未写完",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 30,
+              "y": 110,
+              "width": 365,
+              "height": 186,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 136,
+              "text": "工作：1个一 + 11个十分之一",
+              "fontSize": 15,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 61.5,
+              "y": 173.5,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 73.5,
+              "y": 195.7,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 132.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 144.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 174.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 186.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 216.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 228.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 258.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 270.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 312.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 342.0,
+              "y": 159.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 354.0,
+              "y": 180.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 132.0,
+              "y": 217.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 144.0,
+              "y": 238.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 174.0,
+              "y": 217.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 186.0,
+              "y": 238.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 216.0,
+              "y": 217.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 228.0,
+              "y": 238.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 258.0,
+              "y": 217.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 270.0,
+              "y": 238.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 217.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 312.0,
+              "y": 238.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414,
+              "y": 110,
+              "width": 192,
+              "height": 186,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 510,
+              "y": 136,
+              "text": "兑换区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 433.0,
+              "y": 151.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 445.0,
+              "y": 173.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 431.5,
+              "y": 202.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 443.5,
+              "y": 223.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 463.5,
+              "y": 202.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475.5,
+              "y": 223.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 495.5,
+              "y": 202.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 507.5,
+              "y": 223.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 527.5,
+              "y": 202.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 539.5,
+              "y": 223.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 559.5,
+              "y": 202.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 571.5,
+              "y": 223.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 431.5,
+              "y": 247.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 443.5,
+              "y": 268.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 463.5,
+              "y": 247.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475.5,
+              "y": 268.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 495.5,
+              "y": 247.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 507.5,
+              "y": 268.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 527.5,
+              "y": 247.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 539.5,
+              "y": 268.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 559.5,
+              "y": 247.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 571.5,
+              "y": 268.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1316-tenths",
+          "description": "第二兑换完成：工作区2张1与1张0.1；兑换区10张0.1、10张0.01，没有额外1卡。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。 本场景所有面值卡绘为相同大小，实物均为4×6厘米；面值只由数字标签定义。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "再十换一：2.10 = 2.1",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 113,
+              "width": 250,
+              "height": 181,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 140,
+              "text": "工作区",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 63.5,
+              "y": 181.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 75.5,
+              "y": 203.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 119.5,
+              "y": 181.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 131.5,
+              "y": 203.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 208.5,
+              "y": 181.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220.5,
+              "y": 202.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 272,
+              "text": "V = 210个百分之一",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 305,
+              "y": 113,
+              "width": 305,
+              "height": 181,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 456,
+              "y": 138,
+              "text": "兑换区：两类各10张",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 314.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 326.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 343.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 355.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 372.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 384.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 401.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 413.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 430.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 442.5,
+              "y": 174.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 314.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 326.5,
+              "y": 212.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 343.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 355.5,
+              "y": 212.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 372.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 384.5,
+              "y": 212.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 401.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 413.5,
+              "y": 212.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 430.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 442.5,
+              "y": 212.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 462.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 474.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 491.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 532.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 549.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 561.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 578.5,
+              "y": 153.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 590.5,
+              "y": 174.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 462.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 474.5,
+              "y": 212.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 491.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.5,
+              "y": 212.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 532.5,
+              "y": 212.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 549.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 561.5,
+              "y": 212.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 578.5,
+              "y": 191.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 590.5,
+              "y": 212.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "place75-1316-reverse",
+          "description": "两次退位再移出0.87之后：工作区1/2/3张，移出区0/8/7张；兑换库存1张1与1张0.1。 图示为给定卡片与交换规则的操作示例，不按实际尺寸缩放，不是儿童已完成的表现。全部实体卡至少4×6厘米；摆放点数与首次记录须自己核对。兑换区的卡不加入工作区数值。 本场景所有面值卡绘为相同大小，实物均为4×6厘米；面值只由数字标签定义。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "退位减回：工作1.23，移出0.87",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 28,
+              "y": 113,
+              "width": 235,
+              "height": 183,
+              "fill": "#DCEDE5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 139,
+              "text": "工作区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 42.0,
+              "y": 158.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 54.0,
+              "y": 180.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 88.0,
+              "y": 158.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100.0,
+              "y": 179.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 124.0,
+              "y": 158.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 136.0,
+              "y": 179.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 42.0,
+              "y": 228.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 54.0,
+              "y": 249.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 78.0,
+              "y": 228.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 90.0,
+              "y": 249.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 114.0,
+              "y": 228.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 126.0,
+              "y": 249.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 113,
+              "width": 225,
+              "height": 183,
+              "fill": "#F3DFCE",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 139,
+              "text": "移出区",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 288.0,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 300.0,
+              "y": 169.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 314.0,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 326.0,
+              "y": 169.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340.0,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 352.0,
+              "y": 169.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 366.0,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 378.0,
+              "y": 169.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 288.0,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 300.0,
+              "y": 208.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 314.0,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 326.0,
+              "y": 208.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340.0,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 352.0,
+              "y": 208.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 366.0,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 378.0,
+              "y": 208.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 399.5,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 411.5,
+              "y": 169.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 429.5,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 441.5,
+              "y": 169.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 459.5,
+              "y": 148.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 471.5,
+              "y": 169.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 399.5,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 411.5,
+              "y": 208.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 429.5,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 441.5,
+              "y": 208.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 459.5,
+              "y": 187.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 471.5,
+              "y": 208.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 399.5,
+              "y": 226.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 411.5,
+              "y": 247.5,
+              "text": "0.01",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 518,
+              "y": 113,
+              "width": 88,
+              "height": 183,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 562,
+              "y": 139,
+              "text": "兑换区",
+              "fontSize": 15,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 547.5,
+              "y": 161.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#DFEAF1",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 559.5,
+              "y": 183.2,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 547.5,
+              "y": 234.0,
+              "width": 24,
+              "height": 36,
+              "fill": "#FFFDF4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 559.5,
+              "y": 255.5,
+              "text": "0.1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax｜Introduction to Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+          "claim": "十进制位值依位置决定数值；一十包含十个一，一百包含十个十。",
+          "scope": "支持十进制单位与重组概念；本页大纸卡和具体数例为原创家庭模型，卡面大小不代表数值大小。"
+        },
+        {
+          "title": "OpenStax｜Decimals",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+          "claim": "十分位、百分位分别表示十分之一、百分之一；十进制小数以十的幂为单位。",
+          "scope": "用于13—16岁相邻单位的十换一和单位换算，不宣称原书验证本纸卡交换课例。"
+        }
+      ],
+      "sourceNote": "依据OpenStax位值说明原创设计。4—6与7—9岁真的把十张单卡叠成一包并展开；10—12与13—16岁改用明确面值卡，在兑换区实际交出十张、领回一张，属于数值代币模型而非等面积模型。各龄真实操作、单元和核验任务不同。算式是规定规则下可核对的数学示例，不是替儿童填写观察记录；未实地试教或获机构认证。"
+    }
+  }
+}

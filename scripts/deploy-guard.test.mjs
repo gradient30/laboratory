@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {assertDeploymentAllowed} from './deploy-guard.mjs';
 const policy = {enabled:true, repository:'example-owner/example-repo', accountId:'a'.repeat(32), workerName:'little-lab-test'};
-const config = {name:'little-lab-test', workers_dev:true, assets:{directory:'./dist'}};
+const config = {name:'little-lab-test', workers_dev:true, assets:{directory:'./deployment-assets'}};
 const env = {DEPLOY_ENABLED:'true', GITHUB_ACTIONS:'true', GITHUB_REF:'refs/heads/main', GITHUB_EVENT_NAME:'push', GITHUB_REPOSITORY:policy.repository, GITHUB_SHA:'b'.repeat(40), CLOUDFLARE_ACCOUNT_ID:policy.accountId};
 test('approved main push is eligible',()=>assert.equal(assertDeploymentAllowed(policy,config,env),true));
 test('approved policy works with an unset optional switch',()=>assert.equal(assertDeploymentAllowed(policy,config,{...env,DEPLOY_ENABLED:undefined}),true));
@@ -40,7 +40,7 @@ test('checked-in source policy must remain valid for its static target',()=>{
 });
 
 const accountPolicy={...policy,runtime:'family-accounts',runtimeApproved:true,database:{name:'little-lab-family-progress',id:'12345678-1234-1234-1234-123456789abc'}};
-const accountConfig={...config,triggers:{crons:['17 3 * * *']},main:'worker/index.mjs',keep_vars:true,assets:{directory:'./dist',binding:'ASSETS',run_worker_first:true},vars:{APP_ORIGIN:'https://labs.996fb.cn'},d1_databases:[{binding:'DB',database_name:'little-lab-family-progress',database_id:accountPolicy.database.id,migrations_dir:'migrations'}]};
+const accountConfig={...config,build:{command:'npm run build:assets'},triggers:{crons:['17 3 * * *']},main:'worker/index.mjs',keep_vars:true,assets:{directory:'./deployment-assets',binding:'ASSETS',run_worker_first:true},vars:{APP_ORIGIN:'https://labs.996fb.cn'},d1_databases:[{binding:'DB',database_name:'little-lab-family-progress',database_id:accountPolicy.database.id,migrations_dir:'migrations'}]};
 test('only approved exact family runtime and D1 may deploy',()=>assert.equal(assertDeploymentAllowed(accountPolicy,accountConfig,env),true));
 test('account runtime activation requires explicit source approval',()=>assert.throws(()=>assertDeploymentAllowed({...accountPolicy,runtimeApproved:false},accountConfig,env)));
 test('account runtime rejects placeholder D1 UUID',()=>assert.throws(()=>assertDeploymentAllowed({...accountPolicy,database:{...accountPolicy.database,id:'00000000-0000-0000-0000-000000000000'}},accountConfig,env)));

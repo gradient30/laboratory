@@ -5,6 +5,7 @@ import {build} from 'esbuild';
 import {readFile, readdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {curriculumArtifacts} from './build-curriculum.mjs';
 import {randomUUID} from 'node:crypto';
 
 export const TEST_ORIGIN='http://127.0.0.1:4173';
@@ -16,7 +17,7 @@ async function workerBundle(){
   return bundle;
 }
 export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initialDomains=['qa.test']}={}){
-  const outbox=[];
+  const outbox=[],assets=curriculumArtifacts(root).files;
   const mf=new Miniflare(convertV4MiniflareOptions({
     name:'little-lab-account-test',modules:true,script:await workerBundle(),compatibilityDate:'2026-10-22',
     host:'127.0.0.1',port:0,inspectorPort:0,cf:false,
@@ -25,10 +26,10 @@ export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initi
     bindings:{APP_ORIGIN:origin,BOOTSTRAP_ADMIN_EMAIL:TEST_OWNER,ALLOWED_EMAIL_DOMAINS:'qa.test',EMAIL_FROM:'lab@qa.test',REGISTRATION_ENABLED:'true',PROGRESSION_MODE:'sequential',EMAIL_PROVIDER:'resend',RESEND_API_KEY:'synthetic-not-a-real-provider-key',AUTH_SECRET:'synthetic-test-only-auth-secret-never-used-in-production-20261025',...bindings},
     serviceBindings:{ASSETS:async request=>{
       const path=new URL(request.url).pathname;
-      const names={'/':'index.html','/index.html':'index.html','/app.js':'app.js','/styles.css':'styles.css','/diagrams.js':'diagrams.js','/data.json':'data.json'};
-      const file=names[path];if(!file)return new Response('Not found',{status:404});
+      const file=path==='/'?'index.html':path.slice(1);
+      if(!/^(?:index\.html|app\.js|progress-client\.js|styles\.css|diagrams\.js|_protected\/curriculum\/[a-f0-9]{64}\/[1-9]\d{0,2}\.json)$/.test(file))return new Response('Not found',{status:404});
       const types={html:'text/html; charset=utf-8',js:'text/javascript; charset=utf-8',css:'text/css; charset=utf-8',json:'application/json; charset=utf-8'};
-      return new Response(await readFile(resolve(root,'dist',file)),{headers:{'Content-Type':types[file.split('.').pop()]}});
+      const bytes=assets.get(file);return bytes?new Response(bytes,{headers:{'Content-Type':types[file.split('.').pop()]}}):new Response('Not found',{status:404});
     }},
     outboundService:async request=>{
       const url=new URL(request.url);

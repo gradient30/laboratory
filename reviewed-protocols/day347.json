@@ -1,0 +1,2741 @@
+{
+  "activityId": 347,
+  "activityTitle": "找最小值要比较几次",
+  "contentKey": "annual-m056",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "三格里哪个数最小？大人怎样保留候选？",
+      "materials": [
+        "A4整张普通纸1张、普通铅笔1支；成人在纸上画大格写数，不剪卡、不另备模板；幼儿用1、3、2，其余龄用7、2、9、4、5。 本龄记录：孩子指认/原话；成人代记两次候选；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿不剪裁、不使用小纸片或小筹码。成人读数、画格和代记，幼儿可只指点。结束收纸笔洗手。",
+      "steps": [
+        {
+          "title": "指三格的点数",
+          "caption": "指三格的点数",
+          "action": "成人在同纸写1、3、2，并各画相应数量的大点；孩子指或数点，不要求读数字。成人先指第一格，称它为“现在先留的”。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "先比第一和第二格",
+          "caption": "先比第一和第二格",
+          "action": "成人问1个点和3个点哪边少，孩子指；成人在1下面画小圈作候选，代记这是一回比较。孩子不操作剪卡或筹码。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "再拿候选比第三格",
+          "caption": "再拿候选比第三格",
+          "action": "成人用手指候选1与第三格2，孩子说或指哪边少；成人另画一个记号，保留1。不让孩子把原格搬成排序。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "回看两回比较",
+          "caption": "回看两回比较",
+          "action": "成人读两条记录，孩子指出最后保留哪格或说自己的发现。只需理解候选不是永远第一格，若不明白可停，不要求证明n−1。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "逐对比较",
+          "保留候选"
+        ],
+        "explanation": "只需把当前最小的与新格比较，不必先排好三格。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上提出下一步核查，不增加实物操作。"
+      },
+      "guide": {
+        "goal": "三格里哪个数最小？大人怎样保留候选？",
+        "observe": "三格里哪个数最小？大人怎样保留候选？",
+        "support": "成人画大格、读数并逐行代记，幼儿不必识字或书写。 可口述代记，不强求预期结论。",
+        "control": "成人维护候选，孩子只指点；同一组1、3、2。",
+        "time": "准备手画格约2—4分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "孩子指认/原话",
+          "成人代记两次候选"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day347-4-6-1",
+          "description": "指三格的点数。成人在同纸写1、3、2，并各画相应数量的大点；孩子指或数点，不要求读数字。成人先指第一格，称它为“现在先留的”。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "指三格的点数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 52.0,
+              "y": 153,
+              "width": 75.33333333333333,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65.0,
+              "y": 188,
+              "text": "1",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 67.0,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 135.33333333333331,
+              "y": 153,
+              "width": 75.33333333333333,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 148.33333333333331,
+              "y": 188,
+              "text": "3",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 150.33333333333331,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 167.33333333333331,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 184.33333333333331,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 218.66666666666666,
+              "y": 153,
+              "width": 75.33333333333333,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 231.66666666666666,
+              "y": 188,
+              "text": "2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 233.66666666666666,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 250.66666666666666,
+              "y": 225,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "同纸画格，不需剪卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 264,
+              "text": "从左到右，保留原顺序",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "1、3、2与对应点数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "先留第一格",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "只指点也可以",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-4-6-2",
+          "description": "先比第一和第二格。成人问1个点和3个点哪边少，孩子指；成人在1下面画小圈作候选，代记这是一回比较。孩子不操作剪卡或筹码。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先比第一和第二格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "比较记号",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "1与3比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "成人标一回",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "保留较少的",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-4-6-3",
+          "description": "再拿候选比第三格。成人用手指候选1与第三格2，孩子说或指哪边少；成人另画一个记号，保留1。不让孩子把原格搬成排序。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "再拿候选比第三格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "比较记号",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "候选1再比2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "成人标第二回",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不用搬动排序",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-4-6-4",
+          "description": "回看两回比较。成人读两条记录，孩子指出最后保留哪格或说自己的发现。只需理解候选不是永远第一格，若不明白可停，不要求证明n−1。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "回看两回比较",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "比较记号",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "两回记录一起看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "孩子说一句即可",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不要求公式证明",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "三格里哪个数最小？大人怎样保留候选？",
+        "solve": "若结论对不上，回到“备数卡”核对原始条件，再按“完成扫描”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "只需把当前最小的与新格比较，不必先排好三格。",
+        "evolve": "只在纸上提出下一步核查，不增加实物操作。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      }
+    },
+    "7-9": {
+      "version": 1,
+      "question": "五个数不排序，怎样找最小并数比较次数？",
+      "materials": [
+        "A4整张普通纸1张、普通铅笔1支；成人在纸上画大格写数，不剪卡、不另备模板；幼儿用1、3、2，其余龄用7、2、9、4、5。 本龄记录：四行候选变化；比较记号总数；找最小与排序的区别；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿不剪裁、不使用小纸片或小筹码。成人读数、画格和代记，幼儿可只指点。结束收纸笔洗手。",
+      "steps": [
+        {
+          "title": "写原顺序与候选栏",
+          "caption": "写原顺序与候选栏",
+          "action": "成人画五格写7、2、9、4、5。孩子在下面画“新数/原候选/新候选”四行表；先把7记作初始候选，这一步没有比较。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "走前两次挑战",
+          "caption": "走前两次挑战",
+          "action": "按顺序比较7与2，把较小数写为新候选；再把当前候选与9比。每做一对才画一个计数记号，不把写结果算比较。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "完成余下两次",
+          "caption": "完成余下两次",
+          "action": "依次用当前候选与4、5比较，逐行记录。五格都处理后才停止，未处理的格不能凭眼看过就省略步骤。核记录应有4次比较，最终候选2。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "分清找最小与排序",
+          "caption": "分清找最小与排序",
+          "action": "指出记录仍保留7、2、9、4、5原顺序，只找到了最小值，没有排出完整大小次序。若计数不同回查四行，保留原记录再旁注修正。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "顺序扫描",
+          "操作成本"
+        ],
+        "explanation": "处理五格只需四次候选与新数比较；求最小不要求完整排序。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上提出下一步核查，不增加实物操作。"
+      },
+      "guide": {
+        "goal": "五个数不排序，怎样找最小并数比较次数？",
+        "observe": "五个数不排序，怎样找最小并数比较次数？",
+        "support": "成人画大格、读数并逐行代记，幼儿不必识字或书写。 可口述代记，不强求预期结论。",
+        "control": "原顺序不动；只数数值间二元比较。",
+        "time": "准备手画格约2—4分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "四行候选变化",
+          "比较记号总数",
+          "找最小与排序的区别"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day347-7-9-1",
+          "description": "写原顺序与候选栏。成人画五格写7、2、9、4、5。孩子在下面画“新数/原候选/新候选”四行表；先把7记作初始候选，这一步没有比较。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写原顺序与候选栏",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 52.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65.0,
+              "y": 188,
+              "text": "7",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 102.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 115.0,
+              "y": 188,
+              "text": "2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 152.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 165.0,
+              "y": 188,
+              "text": "9",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 202.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 215.0,
+              "y": 188,
+              "text": "4",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 252.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 265.0,
+              "y": 188,
+              "text": "5",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "同纸画格，不需剪卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 264,
+              "text": "从左到右，保留原顺序",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "7、2、9、4、5",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "先记7不算比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "下方画四行",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-7-9-2",
+          "description": "走前两次挑战。按顺序比较7与2，把较小数写为新候选；再把当前候选与9比。每做一对才画一个计数记号，不把写结果算比较。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "走前两次挑战",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "原候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "新数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "新候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "每一对记一回",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "原候选 / 新数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "写新的候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-7-9-3",
+          "description": "完成余下两次。依次用当前候选与4、5比较，逐行记录。五格都处理后才停止，未处理的格不能凭眼看过就省略步骤。核记录应有4次比较，最终候选2。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "完成余下两次",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "原候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "新数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "新候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "再与4和5比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "五格都处理才停止",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "核对四回",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-7-9-4",
+          "description": "分清找最小与排序。指出记录仍保留7、2、9、4、5原顺序，只找到了最小值，没有排出完整大小次序。若计数不同回查四行，保留原记录再旁注修正。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "分清找最小与排序",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "原候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "新数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "新候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "得到最小值2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "原序没有排好",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "读数写字不计比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "五个数不排序，怎样找最小并数比较次数？",
+        "solve": "若结论对不上，回到“备数卡”核对原始条件，再按“完成扫描”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "处理五格只需四次候选与新数比较；求最小不要求完整排序。",
+        "evolve": "只在纸上提出下一步核查，不增加实物操作。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      }
+    },
+    "10-12": {
+      "version": 1,
+      "question": "最小值重复出现时，候选规则和次数怎样记录？",
+      "materials": [
+        "A4整张普通纸1张、普通铅笔1支；成人在纸上画大格写数，不剪卡、不另备模板；幼儿用1、3、2，其余龄用7、2、9、4、5。 本龄记录：相等时的规则；两列各四行候选与位置；最小值与全部位置；比较成本的定义；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿不剪裁、不使用小纸片或小筹码。成人读数、画格和代记，幼儿可只指点。结束收纸笔洗手。",
+      "steps": [
+        {
+          "title": "先写相等处理规则",
+          "caption": "先写相等处理规则",
+          "action": "纸上保留原列7、2、9、4、5，再写测试列7、2、2、4、5。规定新数更小才换候选，相等则保留先出现的位置；要找的是最小值，并另记出现位置。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "扫描原列作对照",
+          "caption": "扫描原列作对照",
+          "action": "用四行记录逐步比较原列，分别记候选值、候选位置、比较次数，核最后为值2、位置2、比较4次。索引从左边1起。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "扫描重复列",
+          "caption": "扫描重复列",
+          "action": "同样按四次比较走重复列；第二个2出现时不把候选改成更小，但另记相等位置3。因此最小值仍为2，出现位置2和3，不把“最小值”误说成只有一张卡。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "解释范围与成本",
+          "caption": "解释范围与成本",
+          "action": "并列两次扫描：每列4次，值可相同而位置不唯一。若想列出所有最小位置，要保留相等信息；只保留一个候选位置不够。此练习不证明所有算法任务都最优。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "重复值",
+          "值与位置",
+          "规则明确"
+        ],
+        "explanation": "重复最小值不增加顺序扫描的二元比较次数；但记录所有出现位置需要另存信息。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上提出下一步核查，不增加实物操作。"
+      },
+      "guide": {
+        "goal": "最小值重复出现时，候选规则和次数怎样记录？",
+        "observe": "最小值重复出现时，候选规则和次数怎样记录？",
+        "support": "成人画大格、读数并逐行代记，幼儿不必识字或书写。 可口述代记，不强求预期结论。",
+        "control": "同样五格与同一相等规则，原列和重复列分开记录。",
+        "time": "准备手画格约2—4分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "相等时的规则",
+          "两列各四行候选与位置",
+          "最小值与全部位置",
+          "比较成本的定义"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day347-10-12-1",
+          "description": "先写相等处理规则。纸上保留原列7、2、9、4、5，再写测试列7、2、2、4、5。规定新数更小才换候选，相等则保留先出现的位置；要找的是最小值，并另记出现位置。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先写相等处理规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 52.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65.0,
+              "y": 188,
+              "text": "7",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 102.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 115.0,
+              "y": 188,
+              "text": "2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 152.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 165.0,
+              "y": 188,
+              "text": "9",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 202.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 215.0,
+              "y": 188,
+              "text": "4",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 252.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 265.0,
+              "y": 188,
+              "text": "5",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "同纸画格，不需剪卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 264,
+              "text": "从左到右，保留原顺序",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "原列与重复列",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "相等保留先出现",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "另外记相等位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-10-12-2",
+          "description": "扫描原列作对照。用四行记录逐步比较原列，分别记候选值、候选位置、比较次数，核最后为值2、位置2、比较4次。索引从左边1起。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "扫描原列作对照",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选值",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "候选位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "相等位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "原列逐行扫描",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "值与位置分开",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "比较共四次",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-10-12-3",
+          "description": "扫描重复列。同样按四次比较走重复列；第二个2出现时不把候选改成更小，但另记相等位置3。因此最小值仍为2，出现位置2和3，不把“最小值”误说成只有一张卡。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "扫描重复列",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选值",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "候选位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "相等位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "重复列有两个2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "值2；位置2和3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "相等不是更小",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-10-12-4",
+          "description": "解释范围与成本。并列两次扫描：每列4次，值可相同而位置不唯一。若想列出所有最小位置，要保留相等信息；只保留一个候选位置不够。此练习不证明所有算法任务都最优。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "解释范围与成本",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "候选值",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "候选位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "相等位置",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "两列都四次比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "值与位置不等同",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不推广所有任务",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "最小值重复出现时，候选规则和次数怎样记录？",
+        "solve": "若结论对不上，回到“备数卡”核对原始条件，再按“完成扫描”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "重复最小值不增加顺序扫描的二元比较次数；但记录所有出现位置需要另存信息。",
+        "evolve": "只在纸上提出下一步核查，不增加实物操作。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      }
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样用循环不变式证明扫描正确并限定n−1的适用范围？",
+      "materials": [
+        "A4整张普通纸1张、普通铅笔1支；成人在纸上画大格写数，不剪卡、不另备模板；幼儿用1、3、2，其余龄用7、2、9、4、5。 本龄记录：伪过程与五数追踪；不变式初始/保持/结束；n−1计数及n=1；下界模型的适用前提；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿不剪裁、不使用小纸片或小筹码。成人读数、画格和代记，幼儿可只指点。结束收纸笔洗手。",
+      "steps": [
+        {
+          "title": "把过程写成明确规则",
+          "caption": "把过程写成明确规则",
+          "action": "对五数原列写伪过程：先令候选等于第一数；从第2到第n数，若新数更小则替换，否则保留。n≥1且数可比较；相等时保留旧候选。先手算五格四次作为实例。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "证明初始与保持",
+          "caption": "证明初始与保持",
+          "action": "写不变式“处理完前k个数，候选是其中一个最小值”。k=1成立。假设处理到k成立，第k+1数若更小便替换，否则旧候选仍不大于所有已处理数；相等也不破坏不变式。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "证明结束与计数",
+          "caption": "证明结束与计数",
+          "action": "处理到k=n，候选就是全列最小值。循环从2到n恰n−1步且每步一次二元比较；n=1时为0次。这里只计比较，不把读取、存储和输出算零成本。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        },
+        {
+          "title": "审查下界说法的前提",
+          "caption": "审查下界说法的前提",
+          "action": "只讨论任意互异输入、仅靠二元大小比较才能获知次序的模型：除最终最小外，其余n−1个都须在某次比较被证明较大；一次比较至多排除一个最小候选，故至少n−1次。已知答案、额外数值结构或不同任务不套此下界；重复值仍可扫描，但此下界论证以互异为前提。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画大格、读数并逐行代记，幼儿不必识字或书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "循环不变式",
+          "比较模型",
+          "正确性与成本"
+        ],
+        "explanation": "不变式证明正确，循环次数给上界；受限定的比较模型才支持最坏情形下界。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上提出下一步核查，不增加实物操作。"
+      },
+      "guide": {
+        "goal": "怎样用循环不变式证明扫描正确并限定n−1的适用范围？",
+        "observe": "怎样用循环不变式证明扫描正确并限定n−1的适用范围？",
+        "support": "成人画大格、读数并逐行代记，幼儿不必识字或书写。 可口述代记，不强求预期结论。",
+        "control": "仅二元比较、n≥1；下界部分特指任意互异输入。",
+        "time": "准备手画格约2—4分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "伪过程与五数追踪",
+          "不变式初始/保持/结束",
+          "n−1计数及n=1",
+          "下界模型的适用前提"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day347-13-16-1",
+          "description": "把过程写成明确规则。对五数原列写伪过程：先令候选等于第一数；从第2到第n数，若新数更小则替换，否则保留。n≥1且数可比较；相等时保留旧候选。先手算五格四次作为实例。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把过程写成明确规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 52.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65.0,
+              "y": 188,
+              "text": "7",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 102.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 115.0,
+              "y": 188,
+              "text": "2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 152.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 165.0,
+              "y": 188,
+              "text": "9",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 202.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 215.0,
+              "y": 188,
+              "text": "4",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 252.0,
+              "y": 153,
+              "width": 42.0,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 265.0,
+              "y": 188,
+              "text": "5",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "同纸画格，不需剪卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 264,
+              "text": "从左到右，保留原顺序",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "先写扫描规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "五数实例四次",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "相等保留旧候选",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-13-16-2",
+          "description": "证明初始与保持。写不变式“处理完前k个数，候选是其中一个最小值”。k=1成立。假设处理到k成立，第k+1数若更小便替换，否则旧候选仍不大于所有已处理数；相等也不破坏不变式。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "证明初始与保持",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "初始",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "保持",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "结束",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "初始：k=1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "保持：比较第k+1数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "候选始终为前缀最小",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-13-16-3",
+          "description": "证明结束与计数。处理到k=n，候选就是全列最小值。循环从2到n恰n−1步且每步一次二元比较；n=1时为0次。这里只计比较，不把读取、存储和输出算零成本。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "证明结束与计数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "初始",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "保持",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "结束",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "结束：k=n",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "循环共n−1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "n=1时零比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day347-13-16-4",
+          "description": "审查下界说法的前提。只讨论任意互异输入、仅靠二元大小比较才能获知次序的模型：除最终最小外，其余n−1个都须在某次比较被证明较大；一次比较至多排除一个最小候选，故至少n−1次。已知答案、额外数值结构或不同任务不套此下界；重复值仍可扫描，但此下界论证以互异为前提。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审查下界说法的前提",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "同纸手画空栏，填写自己的记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 147,
+              "width": 271,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 170,
+              "text": "初始",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 178,
+              "x2": 310,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 202,
+              "text": "保持",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 310,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 234,
+              "text": "结束",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 242,
+              "x2": 310,
+              "y2": 242,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "未做 / 看不清 / 异常都照实保留",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "下界有模型前提",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "每次至多排除一位",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不是所有任务的最优",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "怎样用循环不变式证明扫描正确并限定n−1的适用范围？",
+        "solve": "若结论对不上，回到“备数卡”核对原始条件，再按“完成扫描”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "不变式证明正确，循环次数给上界；受限定的比较模型才支持最坏情形下界。",
+        "evolve": "只在纸上提出下一步核查，不增加实物操作。",
+        "limits": "这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 这不是所有算法任务的最优性证明；有相等值时最小值可出现多次。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 比较次数仅指数值间二元大小比较，不把读数、移动手指或写字计为比较；已知写好的示例可练习算法，不能假装算法不知道事先给出的答案。"
+      }
+    }
+  }
+}

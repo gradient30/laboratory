@@ -1,0 +1,2294 @@
+{
+  "activityId": 283,
+  "activityTitle": "冰块大小与融化时间",
+  "contentKey": "chem-102",
+  "ageProtocols": {
+    "4-6": {
+      "version": 2,
+      "question": "两碟冰有什么不同？",
+      "materials": [
+        "成人预先用同批水同冰箱制得的一整块冰和若干小冰；电子秤；塑料勺；不碎浅碟2只；毛巾；纸笔；计时器；干燥托盘隔离电子秤，检查总质量未超过量程",
+        "本龄纸页：preschool/conclusion-4-6，成人填称量资格；公共safety/setup/method/print-log，参考作答后读。"
+      ],
+      "safety": "成人近距离全程负责取冰、称量和清理，孩子只看/说/画；手不持续触冰，不舔、不饮用，不砸冰、不用刀、不加热、不密封冻结。只用同批水同冰箱预制的一整块与若干小冰，不临时敲碎。两只同型不碎浅碟容量须容纳冰和融水。秤在干燥低桌、干托盘隔离，碟底保持干燥，远离其他电器插座；检查含碟托盘总质量不超量程。取放或调整只在桌面，绝不在秤上倒水或调冰。漏水/打滑/秤沾水/超量程/冷痛/疲倦即停，成人安全清理，保留未做。",
+      "steps": [
+        {
+          "title": "看成人准备两组",
+          "caption": "看成人准备两组",
+          "action": "成人独立完成safety/setup并记称量，孩子看A整块与B小块，在preschool第一框指画不同，不用读秤或摸冰。",
+          "actor": "adult",
+          "adultNote": "标A一整块、B若干小冰，两碟同型。成人先检查秤单位、显示分度d及量程；分别称干托盘加空干碟的皮重TA、TB，记组件，装冰后整套组件不变。两组同时取出冰箱就启动公共计时t=0；在桌面用塑料勺取放，依次称毛重GA、GB，逐次记实际经过时间。算mA=GA−TA、mB=GB−TB，不能直接比毛重；净值包括称量时已融水，并非精确固态冰质量。预定近似配平规则为两净显示差绝对值≤一个显示分度d，不把它当真值相等。最多在桌面调整B一次，重新记B称量时刻与读数；不倒掉融水、不砸A，仍不满足或明显流失就记不合格停止比较。"
+        },
+        {
+          "title": "先说一个猜想",
+          "caption": "先说一个猜想",
+          "action": "孩子在第二框指哪组可能先看不见冰，或说不知道；成人代记原话，不能预填小冰一定先融。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "隔一会看两碟",
+          "caption": "隔一会看两碟",
+          "action": "按method只参加一次后续观察，在第三框指/画两碟实际所见；成人管理其余等候，未完成可以结束。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "区分猜想和所见",
+          "caption": "区分猜想和所见",
+          "action": "conclusion-4-6由成人记录实际发现、还不知道与帮助；不要求比较分钟或解释面积公式。",
+          "actor": "together",
+          "adultNote": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "形状差别",
+          "猜想与所见"
+        ],
+        "explanation": "熔化是固态转液态的物理变化，周围环境向冰传热。传热受接触、温差、材料与几何等影响，普通家庭观察不能只凭块数推出固定融化顺序或速率。",
+        "limits": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。",
+        "observation": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。",
+        "nextQuestion": "怎样把称量延迟和接触条件写入下一次仅纸上的设计？"
+      },
+      "guide": {
+        "goal": "区分猜想和所见",
+        "observe": "看成人准备两组",
+        "control": "同批水同冰箱、同型碟、同处放置；成人按净显示规则近似配平，记录公共起点和各自称量时刻。",
+        "support": "成人负责冰水和秤，幼儿只看说画5—10分钟，未做/缺测/未完成均可。",
+        "time": "幼儿参与约5—10分钟，无需等候全程；成人从两组同时取出冰箱起约每5分钟查看一次，最长观察60分钟，两碟都无可见冰即停止记录；到时未融完记未完成，停止并由成人清理。",
+        "recordFields": [
+          "成人称量不触冰",
+          "A整块 B小块",
+          "孩子只看说画",
+          "未知可以保留"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。",
+          "claim": "物态探究的背景目录，不证明本次比较结果。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。",
+          "claim": "熔化为物理状态变化，不改变物质化学身份。"
+        },
+        {
+          "id": "SC-conduct",
+          "title": "OpenStax｜热传导",
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+          "originalTitle": "OpenStax｜热传导",
+          "scope": "不同材料和隔热层改变热传递速率。",
+          "claim": "热传导受面积、温差、材料和厚度等影响，不给本次融化时间比。"
+        }
+      ],
+      "sourceNote": "本轮实读ACS背景目录、OpenStax物理变化与热传导概念；原创新流程、图纸及模型，不是来源认证实验。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "icesize283-4-6-1",
+          "description": "看成人准备两组；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看成人准备两组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 234,
+              "width": 280,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 159,
+              "width": 39,
+              "height": 51,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 249,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 278,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 140,
+              "text": "A整块  B若干小冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 259,
+              "text": "干底碟／干托盘隔离秤",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人称量不触冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "A整块 B小块",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只看说画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未知可以保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-4-6-2",
+          "description": "先说一个猜想；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先说一个猜想",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "我猜：A / B / 不知道",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "指一指，说一说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 224,
+              "text": "成人记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "猜想不是结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人称量不触冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "A整块 B小块",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只看说画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未知可以保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-4-6-3",
+          "description": "隔一会看两碟；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "隔一会看两碟",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 175,
+              "width": 110,
+              "height": 70,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 175,
+              "width": 110,
+              "height": 70,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 155,
+              "text": "A所见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 155,
+              "text": "B所见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 213,
+              "text": "画 / 指",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 213,
+              "text": "画 / 指",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 274,
+              "text": "没看清也可以说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人称量不触冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "A整块 B小块",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只看说画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未知可以保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-4-6-4",
+          "description": "区分猜想和所见；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "区分猜想和所见",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "我看到了什么",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "和猜想一样吗",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 224,
+              "text": "还有什么不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "成人帮助记下来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人称量不触冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "A整块 B小块",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只看说画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未知可以保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 2,
+      "question": "两组实际怎样变化，能排先后吗？",
+      "materials": [
+        "成人预先用同批水同冰箱制得的一整块冰和若干小冰；电子秤；塑料勺；不碎浅碟2只；毛巾；纸笔；计时器；干燥托盘隔离电子秤，检查总质量未超过量程",
+        "本龄纸页：prediction-7-9/shape-work/timeline-1/2/compare-7-9/conclusion-7-9；公共safety/setup/method/print-log，参考作答后读。"
+      ],
+      "safety": "成人近距离全程负责取冰、称量和清理，孩子只看/说/画；手不持续触冰，不舔、不饮用，不砸冰、不用刀、不加热、不密封冻结。只用同批水同冰箱预制的一整块与若干小冰，不临时敲碎。两只同型不碎浅碟容量须容纳冰和融水。秤在干燥低桌、干托盘隔离，碟底保持干燥，远离其他电器插座；检查含碟托盘总质量不超量程。取放或调整只在桌面，绝不在秤上倒水或调冰。漏水/打滑/秤沾水/超量程/冷痛/疲倦即停，成人安全清理，保留未做。",
+      "steps": [
+        {
+          "title": "先为两碟建档",
+          "caption": "先为两碟建档",
+          "action": "prediction-7-9保猜想，shape-work画A整块、B块数与已融水；成人在weigh-A/B做称量，孩子核A/B标签不混。",
+          "actor": "adult",
+          "adultNote": "标A一整块、B若干小冰，两碟同型。成人先检查秤单位、显示分度d及量程；分别称干托盘加空干碟的皮重TA、TB，记组件，装冰后整套组件不变。两组同时取出冰箱就启动公共计时t=0；在桌面用塑料勺取放，依次称毛重GA、GB，逐次记实际经过时间。算mA=GA−TA、mB=GB−TB，不能直接比毛重；净值包括称量时已融水，并非精确固态冰质量。预定近似配平规则为两净显示差绝对值≤一个显示分度d，不把它当真值相等。最多在桌面调整B一次，重新记B称量时刻与读数；不倒掉融水、不砸A，仍不满足或明显流失就记不合格停止比较。"
+        },
+        {
+          "title": "保留两条实际时间线",
+          "caption": "保留两条实际时间线",
+          "action": "在timeline-1/2随成人读真实公共经过时间，分别填A/B状态，漏看写缺测，不把计划5分钟当实际读数。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "按证据比较结束先后",
+          "caption": "按证据比较结束先后",
+          "action": "compare-7-9引用两碟首次无可见冰和前一记录；只在记录支持时说先后，区间重叠或一碟未完成写不能判定。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "写没有控制好的条件",
+          "caption": "写没有控制好的条件",
+          "action": "conclusion-7-9列一项实际差异和成人帮助，允许结果与猜想不符；不把一次比较写成小冰总是快。",
+          "actor": "together",
+          "adultNote": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "配对记录",
+          "实际先后"
+        ],
+        "explanation": "熔化是固态转液态的物理变化，周围环境向冰传热。传热受接触、温差、材料与几何等影响，普通家庭观察不能只凭块数推出固定融化顺序或速率。",
+        "limits": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。",
+        "observation": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。",
+        "nextQuestion": "怎样把称量延迟和接触条件写入下一次仅纸上的设计？"
+      },
+      "guide": {
+        "goal": "写没有控制好的条件",
+        "observe": "先为两碟建档",
+        "control": "同批水同冰箱、同型碟、同处放置；成人按净显示规则近似配平，记录公共起点和各自称量时刻。",
+        "support": "成人负责冰水和秤，幼儿只看说画5—10分钟，未做/缺测/未完成均可。",
+        "time": "主活动约10—15分钟，观察间休息；成人从两组同时取出冰箱起约每5分钟查看一次，最长观察60分钟，两碟都无可见冰即停止记录；到时未融完记未完成，停止并由成人清理。",
+        "recordFields": [
+          "A/B标签对应",
+          "写真实公共时刻",
+          "漏看记缺测",
+          "先后不强求"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。",
+          "claim": "物态探究的背景目录，不证明本次比较结果。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。",
+          "claim": "熔化为物理状态变化，不改变物质化学身份。"
+        },
+        {
+          "id": "SC-conduct",
+          "title": "OpenStax｜热传导",
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+          "originalTitle": "OpenStax｜热传导",
+          "scope": "不同材料和隔热层改变热传递速率。",
+          "claim": "热传导受面积、温差、材料和厚度等影响，不给本次融化时间比。"
+        }
+      ],
+      "sourceNote": "本轮实读ACS背景目录、OpenStax物理变化与热传导概念；原创新流程、图纸及模型，不是来源认证实验。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "icesize283-7-9-1",
+          "description": "先为两碟建档；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先为两碟建档",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 234,
+              "width": 280,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 159,
+              "width": 39,
+              "height": 51,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 249,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 278,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 140,
+              "text": "A整块  B若干小冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 259,
+              "text": "干底碟／干托盘隔离秤",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "A/B标签对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "写真实公共时刻",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "漏看记缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先后不强求",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-7-9-2",
+          "description": "保留两条实际时间线；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留两条实际时间线",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 147,
+              "text": "公共t=0：同时取出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 182,
+              "text": "A实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "B实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 252,
+              "text": "漏看写缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "A/B标签对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "写真实公共时刻",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "漏看记缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先后不强求",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-7-9-3",
+          "description": "按证据比较结束先后；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "按证据比较结束先后",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "A：末有冰a → 首无冰b",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "B：末有冰a → 首无冰b",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "只按有效记录比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "重叠 / 未完成：未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "A/B标签对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "写真实公共时刻",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "漏看记缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先后不强求",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-7-9-4",
+          "description": "写没有控制好的条件；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写没有控制好的条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "结果：引用实录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "影响：延迟 / 温度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "面积不单独决定时间",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "反例与未知都保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "A/B标签对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "写真实公共时刻",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "漏看记缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先后不强求",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 2,
+      "question": "近似等量和时间记录支持什么结论？",
+      "materials": [
+        "成人预先用同批水同冰箱制得的一整块冰和若干小冰；电子秤；塑料勺；不碎浅碟2只；毛巾；纸笔；计时器；干燥托盘隔离电子秤，检查总质量未超过量程",
+        "本龄纸页：prediction-10-12/weigh-A/B/qualification/shape-work/control-audit/timeline-1/2/interval-A/B/order-work/interval-input/claim-audit/conclusion-10-12；公共safety/setup/method/print-log，参考作答后读。"
+      ],
+      "safety": "成人近距离全程负责取冰、称量和清理，孩子只看/说/画；手不持续触冰，不舔、不饮用，不砸冰、不用刀、不加热、不密封冻结。只用同批水同冰箱预制的一整块与若干小冰，不临时敲碎。两只同型不碎浅碟容量须容纳冰和融水。秤在干燥低桌、干托盘隔离，碟底保持干燥，远离其他电器插座；检查含碟托盘总质量不超量程。取放或调整只在桌面，绝不在秤上倒水或调冰。漏水/打滑/秤沾水/超量程/冷痛/疲倦即停，成人安全清理，保留未做。",
+      "steps": [
+        {
+          "title": "先检查近似等量条件",
+          "caption": "先检查近似等量条件",
+          "action": "weigh-A/B与qualification核皮重组件、净显示、分度d、配平差与称量时刻；prediction-10-12写净显示仍不能证明哪些量相同。",
+          "actor": "adult",
+          "adultNote": "标A一整块、B若干小冰，两碟同型。成人先检查秤单位、显示分度d及量程；分别称干托盘加空干碟的皮重TA、TB，记组件，装冰后整套组件不变。两组同时取出冰箱就启动公共计时t=0；在桌面用塑料勺取放，依次称毛重GA、GB，逐次记实际经过时间。算mA=GA−TA、mB=GB−TB，不能直接比毛重；净值包括称量时已融水，并非精确固态冰质量。预定近似配平规则为两净显示差绝对值≤一个显示分度d，不把它当真值相等。最多在桌面调整B一次，重新记B称量时刻与读数；不倒掉融水、不砸A，仍不满足或明显流失就记不合格停止比较。"
+        },
+        {
+          "title": "记录接触与观察区间",
+          "caption": "记录接触与观察区间",
+          "action": "shape-work、control-audit及timeline-1/2记录形状、块数、接触和实际时刻；interval-A/B引用有效a/b，说明判据前提和缺测。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "判断是否足以排先后",
+          "caption": "判断是否足以排先后",
+          "action": "order-work比较两个实际区间或未完成状态，区间重叠不强排；实录封存后用interval-input另题检验推理。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "限制因果解释",
+          "caption": "限制因果解释",
+          "action": "claim-audit逐条审查等量、面积与融化速度；conclusion-10-12指出称量用时、未测温度与融水，不声称只改面积。",
+          "actor": "together",
+          "adultNote": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "系统去皮",
+          "观察区间"
+        ],
+        "explanation": "熔化是固态转液态的物理变化，周围环境向冰传热。传热受接触、温差、材料与几何等影响，普通家庭观察不能只凭块数推出固定融化顺序或速率。",
+        "limits": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。",
+        "observation": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。",
+        "nextQuestion": "怎样把称量延迟和接触条件写入下一次仅纸上的设计？"
+      },
+      "guide": {
+        "goal": "限制因果解释",
+        "observe": "先检查近似等量条件",
+        "control": "同批水同冰箱、同型碟、同处放置；成人按净显示规则近似配平，记录公共起点和各自称量时刻。",
+        "support": "成人负责冰水和秤，幼儿只看说画5—10分钟，未做/缺测/未完成均可。",
+        "time": "主活动约15—20分钟，观察间休息；成人从两组同时取出冰箱起约每5分钟查看一次，最长观察60分钟，两碟都无可见冰即停止记录；到时未融完记未完成，停止并由成人清理。",
+        "recordFields": [
+          "净值要减各自皮重",
+          "延迟和融水要记录",
+          "区间重叠不强排",
+          "不是只改面积"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。",
+          "claim": "物态探究的背景目录，不证明本次比较结果。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。",
+          "claim": "熔化为物理状态变化，不改变物质化学身份。"
+        },
+        {
+          "id": "SC-conduct",
+          "title": "OpenStax｜热传导",
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+          "originalTitle": "OpenStax｜热传导",
+          "scope": "不同材料和隔热层改变热传递速率。",
+          "claim": "热传导受面积、温差、材料和厚度等影响，不给本次融化时间比。"
+        }
+      ],
+      "sourceNote": "本轮实读ACS背景目录、OpenStax物理变化与热传导概念；原创新流程、图纸及模型，不是来源认证实验。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "icesize283-10-12-1",
+          "description": "先检查近似等量条件；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先检查近似等量条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 234,
+              "width": 280,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 159,
+              "width": 39,
+              "height": 51,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 249,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 278,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 140,
+              "text": "A整块  B若干小冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 259,
+              "text": "干底碟／干托盘隔离秤",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "净值要减各自皮重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "延迟和融水要记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间重叠不强排",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不是只改面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-10-12-2",
+          "description": "记录接触与观察区间；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "记录接触与观察区间",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 147,
+              "text": "公共t=0：同时取出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 182,
+              "text": "A实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "B实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 252,
+              "text": "漏看写缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "净值要减各自皮重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "延迟和融水要记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间重叠不强排",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不是只改面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-10-12-3",
+          "description": "判断是否足以排先后；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "判断是否足以排先后",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "A：末有冰a → 首无冰b",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "B：末有冰a → 首无冰b",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "只按有效记录比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "重叠 / 未完成：未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "净值要减各自皮重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "延迟和融水要记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间重叠不强排",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不是只改面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-10-12-4",
+          "description": "限制因果解释；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "限制因果解释",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "结果：引用实录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "影响：延迟 / 温度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "面积不单独决定时间",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "反例与未知都保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "净值要减各自皮重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "延迟和融水要记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间重叠不强排",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不是只改面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 2,
+      "question": "如何区分几何模型、测量区间和因果推断？",
+      "materials": [
+        "成人预先用同批水同冰箱制得的一整块冰和若干小冰；电子秤；塑料勺；不碎浅碟2只；毛巾；纸笔；计时器；干燥托盘隔离电子秤，检查总质量未超过量程",
+        "本龄纸页：prediction-13-16/weigh-A/B/qualification/control-audit/timeline-1/2/interval-A/B/model-input/geometry-work/mass-work/model-limit/design-work/conclusion-13-16；公共safety/setup/method/print-log，参考作答后读。"
+      ],
+      "safety": "成人近距离全程负责取冰、称量和清理，孩子只看/说/画；手不持续触冰，不舔、不饮用，不砸冰、不用刀、不加热、不密封冻结。只用同批水同冰箱预制的一整块与若干小冰，不临时敲碎。两只同型不碎浅碟容量须容纳冰和融水。秤在干燥低桌、干托盘隔离，碟底保持干燥，远离其他电器插座；检查含碟托盘总质量不超量程。取放或调整只在桌面，绝不在秤上倒水或调冰。漏水/打滑/秤沾水/超量程/冷痛/疲倦即停，成人安全清理，保留未做。",
+      "steps": [
+        {
+          "title": "预注册系统与判据",
+          "caption": "预注册系统与判据",
+          "action": "prediction-13-16、weigh-A/B、qualification记录净显示规则、公共起点、单组称量延迟；提前定义有效判据与不合格条件。",
+          "actor": "adult",
+          "adultNote": "标A一整块、B若干小冰，两碟同型。成人先检查秤单位、显示分度d及量程；分别称干托盘加空干碟的皮重TA、TB，记组件，装冰后整套组件不变。两组同时取出冰箱就启动公共计时t=0；在桌面用塑料勺取放，依次称毛重GA、GB，逐次记实际经过时间。算mA=GA−TA、mB=GB−TB，不能直接比毛重；净值包括称量时已融水，并非精确固态冰质量。预定近似配平规则为两净显示差绝对值≤一个显示分度d，不把它当真值相等。最多在桌面调整B一次，重新记B称量时刻与读数；不倒掉融水、不砸A，仍不满足或明显流失就记不合格停止比较。"
+        },
+        {
+          "title": "保留实录及未控制量",
+          "caption": "保留实录及未控制量",
+          "action": "按method记录两条时间线、interval-A/B与control-audit，不因不合预期追加实验；实录结束后才打开model-input。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "分开几何与测量模型",
+          "caption": "分开几何与测量模型",
+          "action": "geometry-work算等体积立方体拆分的总面积，mass-work求给定毛重/皮重误差区间的净质量与差；纸题数字不能代填实录。",
+          "actor": "together",
+          "adultNote": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。"
+        },
+        {
+          "title": "反驳过强速率推断",
+          "caption": "反驳过强速率推断",
+          "action": "model-limit与design-work说明总几何面积不等于有效换热面积，不用面积比直接推出融化时间比；设计未来改善起点/接触/温度记录，仅纸上不实施。",
+          "actor": "together",
+          "adultNote": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "面积体积比",
+          "测量区间与因果边界"
+        ],
+        "explanation": "熔化是固态转液态的物理变化，周围环境向冰传热。传热受接触、温差、材料与几何等影响，普通家庭观察不能只凭块数推出固定融化顺序或速率。",
+        "limits": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。",
+        "observation": "称量后把两碟并排放同一平稳干托盘附近的桌面位置，避免日照、风口或热源，不搬换位置追结果。画实际形状、块数、已见液水和接触情况；温度未测就写未知。同一公共计时约每5分钟看两碟，分别记实际经过时间与可见冰/无可见冰/不清楚，漏看记缺测；两碟看完可能时刻不同，均如实记。最多记录到60分钟，或两碟都无可见冰后结束；没融完不加热赶进度。保留末次有冰a和首次无可见冰b；只有记录有效可比且无冰移除/洒失/遮挡、状态按判据不逆转时，才用(a,b]报告无可见冰判据转变区间，绝非精确完全熔化时刻。",
+        "nextQuestion": "怎样把称量延迟和接触条件写入下一次仅纸上的设计？"
+      },
+      "guide": {
+        "goal": "反驳过强速率推断",
+        "observe": "预注册系统与判据",
+        "control": "同批水同冰箱、同型碟、同处放置；成人按净显示规则近似配平，记录公共起点和各自称量时刻。",
+        "support": "成人负责冰水和秤，幼儿只看说画5—10分钟，未做/缺测/未完成均可。",
+        "time": "主活动约20—30分钟，可分次；成人从两组同时取出冰箱起约每5分钟查看一次，最长观察60分钟，两碟都无可见冰即停止记录；到时未融完记未完成，停止并由成人清理。",
+        "recordFields": [
+          "几何面积另题",
+          "误差区间非相等",
+          "热传递不只面积",
+          "不推固定时间比"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。",
+          "claim": "物态探究的背景目录，不证明本次比较结果。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。",
+          "claim": "熔化为物理状态变化，不改变物质化学身份。"
+        },
+        {
+          "id": "SC-conduct",
+          "title": "OpenStax｜热传导",
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+          "originalTitle": "OpenStax｜热传导",
+          "scope": "不同材料和隔热层改变热传递速率。",
+          "claim": "热传导受面积、温差、材料和厚度等影响，不给本次融化时间比。"
+        }
+      ],
+      "sourceNote": "本轮实读ACS背景目录、OpenStax物理变化与热传导概念；原创新流程、图纸及模型，不是来源认证实验。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "新编静态流程，未实物、儿童或打印试用，无安全/教学认证。等净显示不等于初始固冰质量或温度精确相同；称量与取放用时、已融水、碟接触、风和形状都会影响。小块可能有较大几何总面积，但本观察不是精确单变量测量，不保证哪组先融，也不能仅凭一次推普遍速率。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "icesize283-13-16-1",
+          "description": "预注册系统与判据；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预注册系统与判据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 234,
+              "width": 280,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 210,
+              "width": 105,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 159,
+              "width": 39,
+              "height": 51,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 220,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 249,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 278,
+              "y": 186,
+              "width": 21,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 140,
+              "text": "A整块  B若干小冰",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 259,
+              "text": "干底碟／干托盘隔离秤",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "几何面积另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "误差区间非相等",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "热传递不只面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不推固定时间比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-13-16-2",
+          "description": "保留实录及未控制量；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留实录及未控制量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 147,
+              "text": "公共t=0：同时取出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 182,
+              "text": "A实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "B实际时刻 / 状态",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 252,
+              "text": "漏看写缺测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "几何面积另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "误差区间非相等",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "热传递不只面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不推固定时间比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-13-16-3",
+          "description": "分开几何与测量模型；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "分开几何与测量模型",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "另题：1大块 / 8小块",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "体积相等，求总面积",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "毛重 − 皮重 = 净值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "题设区间另算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "几何面积另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "误差区间非相等",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "热传递不只面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不推固定时间比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "icesize283-13-16-4",
+          "description": "反驳过强速率推断；原创示意，不是现场照片或指定结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "反驳过强速率推断",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "结果：引用实录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 183,
+              "text": "影响：延迟 / 温度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 220,
+              "text": "面积不单独决定时间",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "反例与未知都保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "几何面积另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "误差区间非相等",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "热传递不只面积",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不推固定时间比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3636 @@
+{
+  "activityId": 59,
+  "activityTitle": "折痕朝哪边",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同一张纸折成波纹后，平放占的宽度还是20厘米吗？转一圈中的四分之一后，棱线朝向怎样变？",
+      "materials": [
+        "硬底平托盘1个（置地面），毫米尺1把、铅笔1支、记录纸1张、成人剪刀1把",
+        "普通A4复印纸1张，成人裁20×20厘米1片；本龄不用书、承载片或纸包"
+      ],
+      "safety": "地面托盘内，成人剪裁并收管剪刀，协助山谷折；纸边轻拿、不入口。不用书、承载片或纸包，全程零负重，不用手压检验。纸损伤即停，不反复揉折。",
+      "steps": [
+        {
+          "title": "先看未折纸的两边",
+          "action": "成人裁20×20厘米纸，轻画9条平行线，相隔2厘米，形成10个面板；在一条边外的托盘上画固定左右方向箭头。孩子量原纸两方向都约20厘米，指出面板线。",
+          "actor": "adult",
+          "caption": "先看未折纸的两边",
+          "adultNote": "本龄只折纸、量投影和旋转；全程无载荷，不用书或承载片。"
+        },
+        {
+          "title": "交替折并量平放投影",
+          "action": "沿9条标线交替山折/谷折一次，成为10个2厘米面板的手风琴褶；面板宽是未折纸面宽，不是峰距。轻轻张开到折叠方向投影约16厘米，松手5秒后记录实际停住的宽度；只轻调一次，不反复揉折，也不贴胶固定。本龄仅作无载观察，停不在约16厘米也如实记录。成人协助自然放托盘，孩子指峰和谷，尺在旁量两外边的平面距离，不沿斜面累计。",
+          "actor": "together",
+          "caption": "交替折并量平放投影",
+          "adultNote": "本龄只折纸、量投影和旋转；全程无载荷，不用书或承载片。"
+        },
+        {
+          "title": "整张转90度不重新折",
+          "action": "从托盘拿起同一张纸，保持褶开度，平面内转90度再放下，不翻面。对照托盘固定左右箭头画转前/转后的棱线方向，重新量投影长宽；不能因为转向重新拉成20厘米。",
+          "actor": "together",
+          "caption": "整张转90度不重新折",
+          "adultNote": "本龄只折纸、量投影和旋转；全程无载荷，不用书或承载片。"
+        },
+        {
+          "title": "指出纸没有消失",
+          "action": "把未折20×20与折后实际两个方向约值并列；孩子说宽度变小是纸面起伏，不是剪掉纸。若转动时开度变了也记下来，不把两次宽不同全归因于转向。全程不加载或按压试强弱。",
+          "actor": "child",
+          "caption": "指出纸没有消失",
+          "adultNote": "本龄只折纸、量投影和旋转；全程无载荷，不用书或承载片。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "原纸尺寸与投影不同",
+          "棱线方向与参照方向",
+          "旋转不是重新折叠"
+        ],
+        "explanation": "一部分纸面折斜后，桌面上占的平面宽度变小，纸面总宽没有凭空减少。转90度使棱线相对固定左右箭头改变朝向，不代表材料改变。",
+        "limits": "实际开度会在拿放时改变；无载观察只能说明几何和朝向，不能判哪方向承载多。",
+        "observation": "原纸与两次折后实际投影长宽、峰谷及固定箭头草图。",
+        "nextQuestion": "如果以后把两方向架在同样间距的书上，两端搭接会一样吗？"
+      },
+      "guide": {
+        "goal": "折一次同纸，量投影并旋转，区分材料宽度与占地尺寸。",
+        "observe": "同一张纸折成波纹后，平放占的宽度还是20厘米吗？转一圈中的四分之一后，棱线朝向怎样变？",
+        "support": "成人裁纸、画9条线并协助折一次；孩子看峰谷、量投影和整张旋转，不加载。",
+        "control": "同20×20纸、10个2厘米面板、固定托盘左右箭头；无载荷。",
+        "time": "约15–20分钟",
+        "recordFields": [
+          "原纸与折后投影约值",
+          "转前/后棱线和固定箭头",
+          "开度变化及不能推承载结论"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "改变纸的折叠截面会影响抗弯表现。",
+          "scope": "只支持折纸结构背景；不采用逐加硬币或加载至破坏，不继承承载数字。"
+        },
+        {
+          "title": "Australian National University｜Paper Bridge Challenge",
+          "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/paper-bridge-challenge-science-strong-shapes",
+          "claim": "给出手风琴褶纸桥及褶沿桥长摆放的教学方案，并提出褶宽可作为后续变量。",
+          "scope": "本页方向对照、投影尺寸检查和有限轻载是独立改编；不执行来源的继续加重至明显弯曲/倒塌，也不把纸褶视为理想刚性桁架。"
+        }
+      ],
+      "sourceNote": "根据所列教学资料独立改编，未实地试做，不代表机构测试或认证。图为折法、投影与接触示意，没有预填下移或优胜结果。波纹片的转向同时改变受弯方向和接触方式，纸裁向、褶高及承载片会影响表现；不由此推算强度、弹性模量或真实桥梁安全。",
+      "diagrams": [
+        {
+          "sceneKey": "corr59-46-flat",
+          "description": "未折20厘米正方纸有9条内折线；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 90,
+              "width": 180,
+              "height": 180,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 90,
+              "x2": 88,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 106,
+              "y1": 90,
+              "x2": 106,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 124,
+              "y1": 90,
+              "x2": 124,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 142,
+              "y1": 90,
+              "x2": 142,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 90,
+              "x2": 160,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 178,
+              "y1": 90,
+              "x2": 178,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 196,
+              "y1": 90,
+              "x2": 196,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 214,
+              "y1": 90,
+              "x2": 214,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 90,
+              "x2": 232,
+              "y2": 270,
+              "stroke": "#879D91",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 125,
+              "text": "20×20厘米原纸",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 175,
+              "text": "10个2厘米面板",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 225,
+              "text": "9条线，交替山谷折",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-46-section",
+          "description": "折后10面板端面，投影约16而纸面总宽20；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70.0,
+              "y1": 220,
+              "x2": 86.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 86.0,
+              "y1": 208,
+              "x2": 102.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 102.0,
+              "y1": 220,
+              "x2": 118.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 118.0,
+              "y1": 208,
+              "x2": 134.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134.0,
+              "y1": 220,
+              "x2": 150.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 208,
+              "x2": 166.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 166.0,
+              "y1": 220,
+              "x2": 182.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 182.0,
+              "y1": 208,
+              "x2": 198.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 220,
+              "x2": 214.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 214.0,
+              "y1": 208,
+              "x2": 230.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 130,
+              "text": "端面：峰与谷",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 177,
+              "text": "投影宽要重新实量",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 224,
+              "text": "不沿斜面累计读尺",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 245,
+              "x2": 230,
+              "y2": 245,
+              "stroke": "#278A9A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 286,
+              "text": "图示投影16厘米；实际可不同",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-46-before",
+          "description": "同纸转前俯视，长20宽约16；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 95,
+              "width": 180,
+              "height": 144,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 109.4,
+              "x2": 240,
+              "y2": 109.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 123.8,
+              "x2": 240,
+              "y2": 123.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 138.2,
+              "x2": 240,
+              "y2": 138.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 152.6,
+              "x2": 240,
+              "y2": 152.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 167.0,
+              "x2": 240,
+              "y2": 167.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 181.4,
+              "x2": 240,
+              "y2": 181.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 195.8,
+              "x2": 240,
+              "y2": 195.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 210.2,
+              "x2": 240,
+              "y2": 210.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 224.6,
+              "x2": 240,
+              "y2": 224.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 130,
+              "text": "转前：棱线平行左右",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 178,
+              "text": "俯视；不加载",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 240,
+              "x2": 510,
+              "y2": 240,
+              "stroke": "#278A9A",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-46-after",
+          "description": "同纸转90度后俯视，长约16宽20；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 85,
+              "width": 144,
+              "height": 180,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 74.4,
+              "y1": 85,
+              "x2": 74.4,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 88.8,
+              "y1": 85,
+              "x2": 88.8,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 103.2,
+              "y1": 85,
+              "x2": 103.2,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 117.6,
+              "y1": 85,
+              "x2": 117.6,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 132.0,
+              "y1": 85,
+              "x2": 132.0,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 146.4,
+              "y1": 85,
+              "x2": 146.4,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 160.8,
+              "y1": 85,
+              "x2": 160.8,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 175.2,
+              "y1": 85,
+              "x2": 175.2,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 189.6,
+              "y1": 85,
+              "x2": 189.6,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 130,
+              "text": "转后：棱线垂直左右",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 178,
+              "text": "仍按托盘固定方向看",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 240,
+              "x2": 510,
+              "y2": 240,
+              "stroke": "#278A9A",
+              "strokeWidth": 3
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "两张同样原尺寸的波纹纸分别顺着和横着跨度放，轻载现象能否比较，哪些投影尺寸也一起变了？",
+      "materials": [
+        "硬底平托盘1个（置地面），毫米尺1把、铅笔1支、记录纸1张、成人剪刀1把",
+        "等高硬封面薄书2本（各单放高约1–2厘米；沿跨度承托至少5.5厘米、横向至少21厘米），计时器1个",
+        "薄硬卡纸1片裁8×8厘米作承载片；另1张复印纸裁20片3×3厘米作纸包，胶带两小段",
+        "厨房秤1台（分度1克或更细），承载片和纸包合计显示≤5克",
+        "同批A4复印纸2张，每张裁20×20厘米1片，标P/T，20厘米裁向相同"
+      ],
+      "safety": "地面平稳硬底托盘内做，成人剪裁后收管剪刀。薄书各单放，等高约1–2厘米，不叠书、不在桌边做。仅用本页轻承载片和纸包，整套显示质量≤5克；不用橡皮、硬币、书、罐或手压加载。承载片不稳、纸褶塌陷或滑开、纸包移动、书移位、明显倾斜，或纸最低处距托盘不到空载间隙一半，立即取下整套并停该件。禁止胶粘固定褶宽、手扶承载片或反复开合追求效果；损伤件不得继续作正常样本。",
+      "steps": [
+        {
+          "title": "折两张新纸并实量",
+          "action": "沿裁片的20厘米方向每隔指定面板宽画线，交替山折/谷折一次成手风琴褶，折线延伸在另一方向。2厘米面板共10个面、9条内折线；1厘米面板共20个面、19条内折线。面板宽指未折纸面上的宽，不是折后峰距。轻轻张开到折叠方向投影宽约16厘米；松手5秒后用尺量实际宽，15.5–16.5厘米内且稳定才进入加载。只轻调一次，不反复揉折；不稳定或不能达到范围就记不可有效加载，不贴胶固定。两片20×20，均用2厘米面板。记录每张稳定后的两个投影尺寸。P预计沿跨度20、横向约16；T预计沿跨度约16、横向20，但必须实量不能照抄。",
+          "actor": "adult",
+          "caption": "折两张新纸并实量",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "按方向架桥核接触",
+          "action": "书内边净距固定10厘米，书顶等高约1–2厘米，每本沿跨度至少可承托5.5厘米、横向至少21厘米。纸在净跨中心对称放，检查两端确有谷底/纸面接书顶，不是悬空；记录实际投影长度、宽度和两端搭接，不沿折纸表面的起伏曲线量长度。P表示折线/棱线平行于从左书到右书的跨度方向，T表示与跨度垂直；取下纸后才换件或方向，不带载转动。成人裁硬挺平整薄卡纸承载片8×8厘米1片（不用厚木板），另裁20片3×3厘米复印纸叠齐，用两小段胶带封成纸包。厨房秤分度1克或更细，称承载片与包合计，显示≤5克；无秤或超限不加载，不估重。片放净跨与纸宽中心，四边平行书边，沿跨度两端各离书内边1厘米，绝不直接搭书。确认片底实际稳定接触至少两条不同峰线而不是只压单峰、插谷或一角悬翘；纸包放片上中央，不直接塞进谷里。若8厘米片不能稳定跨峰，本件记不可加载，不换大重片补救。P名义每端搭5厘米；T名义每端搭3厘米，实际由(投影沿跨长度−10)/2得到并量验证。两片宽度也不同，因此不是只改变方向的完全控制比较。",
+          "actor": "together",
+          "caption": "按方向架桥核接触",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "两新纸各一次轻载",
+          "action": "按P后T。每件新纸先无载检查，放承载片后约2秒读/观察一次，随后才把纸包放片中心，最多再5秒取下包和片；承载片在纸上总时长不超过10秒。异常立即卸载，时间来不及则记未完成。卸载10秒后看恢复，不再给同件第二次载荷；只有一次有限增载，不做疲劳或压垮测试。本龄只看是否可见下移、局部压峰、张开或倾斜，分别画现象；不要把所有变化统称纸梁弯曲。若承载片单独就不稳，记无法比较，不加包。",
+          "actor": "adult",
+          "caption": "两新纸各一次轻载",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "保留几何和现象",
+          "action": "将两方向的投影长宽、搭接、片的跨峰接触与实际现象放一起。没有明显变化不代表两方向一样强；每向仅1件且搭接和宽度也变了。写下如何把两方向投影都做成近似正方形的改进想法，但不自行剪已加载纸再测。",
+          "actor": "child",
+          "caption": "保留几何和现象",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "棱线平行与垂直跨度",
+          "转向伴随投影尺寸共变",
+          "局部压峰不同于整体弯曲"
+        ],
+        "explanation": "同一折法旋转后，受力跨越褶的方式和支承接触改变。原纸正方形折后却通常是长方形，转向会一起改变沿跨长度、搭接与桥宽，所以要同时记录。",
+        "limits": "只有各1件、纸裁向和手工折痕有差异；承载片也会弯曲。不能把观察全部归因于方向，更不能推出安全承载上限。",
+        "observation": "P/T投影长宽、净跨搭接、总载荷质量、峰接触与可见现象/停止。",
+        "nextQuestion": "若原纸裁20×16，再沿20方向折到约16，能否减少转向带来的占地差别？"
+      },
+      "guide": {
+        "goal": "比较两新折纸方向，同时识别投影与搭接共变。",
+        "observe": "两张同样原尺寸的波纹纸分别顺着和横着跨度放，轻载现象能否比较，哪些投影尺寸也一起变了？",
+        "support": "成人裁纸、核对实际尺寸及加载稳定；学习者读方向、量投影、记录，无法稳定即保留无效原因。",
+        "control": "2厘米面板、原20×20、净跨10、同8×8片与纸包总≤5克；每件只一次有限增载。",
+        "time": "约30–35分钟",
+        "recordFields": [
+          "P/T实际投影与搭接",
+          "总质量和承载片跨峰检查",
+          "现象、停止及卸载恢复",
+          "方向之外的共变限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "改变纸的折叠截面会影响抗弯表现。",
+          "scope": "只支持折纸结构背景；不采用逐加硬币或加载至破坏，不继承承载数字。"
+        },
+        {
+          "title": "Australian National University｜Paper Bridge Challenge",
+          "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/paper-bridge-challenge-science-strong-shapes",
+          "claim": "给出手风琴褶纸桥及褶沿桥长摆放的教学方案，并提出褶宽可作为后续变量。",
+          "scope": "本页方向对照、投影尺寸检查和有限轻载是独立改编；不执行来源的继续加重至明显弯曲/倒塌，也不把纸褶视为理想刚性桁架。"
+        }
+      ],
+      "sourceNote": "根据所列教学资料独立改编，未实地试做，不代表机构测试或认证。图为折法、投影与接触示意，没有预填下移或优胜结果。波纹片的转向同时改变受弯方向和接触方式，纸裁向、褶高及承载片会影响表现；不由此推算强度、弹性模量或真实桥梁安全。",
+      "diagrams": [
+        {
+          "sceneKey": "corr59-79-p",
+          "description": "俯视平行方向20×约16，书净跨10；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 91,
+              "width": 53.0,
+              "height": 152,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 185.0,
+              "y": 91,
+              "width": 53.0,
+              "height": 152,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 95,
+              "width": 180,
+              "height": 144,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 109.4,
+              "x2": 230,
+              "y2": 109.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 123.8,
+              "x2": 230,
+              "y2": 123.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 138.2,
+              "x2": 230,
+              "y2": 138.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 152.6,
+              "x2": 230,
+              "y2": 152.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 167.0,
+              "x2": 230,
+              "y2": 167.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 181.4,
+              "x2": 230,
+              "y2": 181.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 195.8,
+              "x2": 230,
+              "y2": 195.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 210.2,
+              "x2": 230,
+              "y2": 210.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 224.6,
+              "x2": 230,
+              "y2": 224.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 95.0,
+              "y1": 95,
+              "x2": 95.0,
+              "y2": 239,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 185.0,
+              "y1": 95,
+              "x2": 185.0,
+              "y2": 239,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 120,
+              "text": "P：棱线顺着跨度",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 166,
+              "text": "沿跨20；每端名义搭5",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 213,
+              "text": "净跨10厘米，实际复量",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-79-t",
+          "description": "俯视垂直方向约16×20，搭接约3；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 81,
+              "width": 35.0,
+              "height": 188,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 167.0,
+              "y": 81,
+              "width": 35.0,
+              "height": 188,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 85,
+              "width": 144,
+              "height": 180,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64.4,
+              "y1": 85,
+              "x2": 64.4,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 78.8,
+              "y1": 85,
+              "x2": 78.8,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 93.2,
+              "y1": 85,
+              "x2": 93.2,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 107.6,
+              "y1": 85,
+              "x2": 107.6,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 122.0,
+              "y1": 85,
+              "x2": 122.0,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 136.4,
+              "y1": 85,
+              "x2": 136.4,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 150.8,
+              "y1": 85,
+              "x2": 150.8,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 165.2,
+              "y1": 85,
+              "x2": 165.2,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 179.6,
+              "y1": 85,
+              "x2": 179.6,
+              "y2": 265,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 77.0,
+              "y1": 85,
+              "x2": 77.0,
+              "y2": 265,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 167.0,
+              "y1": 85,
+              "x2": 167.0,
+              "y2": 265,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 86.0,
+              "y": 139.0,
+              "width": 72,
+              "height": 72,
+              "fill": "#DBD6B7",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108.5,
+              "y": 161.5,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 120,
+              "text": "T：棱线横着跨度",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 166,
+              "text": "沿跨约16；搭接约3",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 300,
+              "y": 213,
+              "text": "中央8×8片，上放3×3包",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-79-contact",
+          "description": "垂直棱线的剖示，8厘米片底跨多个峰，包放片上；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70.0,
+              "y1": 220,
+              "x2": 86.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 86.0,
+              "y1": 208,
+              "x2": 102.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 102.0,
+              "y1": 220,
+              "x2": 118.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 118.0,
+              "y1": 208,
+              "x2": 134.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134.0,
+              "y1": 220,
+              "x2": 150.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 208,
+              "x2": 166.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 166.0,
+              "y1": 220,
+              "x2": 182.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 182.0,
+              "y1": 208,
+              "x2": 198.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 220,
+              "x2": 214.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 214.0,
+              "y1": 208,
+              "x2": 230.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 204,
+              "width": 80,
+              "height": 4,
+              "fill": "#DAD4B5",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 184,
+              "width": 30,
+              "height": 20,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 130,
+              "text": "片宽8厘米，包宽3厘米",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 177,
+              "text": "片底至少稳定跨两峰",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 224,
+              "text": "不能把小包直接塞谷",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 286,
+              "text": "端面剖示；此处不是U槽底加载",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-79-compare",
+          "description": "两方向新件俯视并列，不预填变形；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 111,
+              "width": 43.0,
+              "height": 120,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 145.0,
+              "y": 111,
+              "width": 43.0,
+              "height": 120,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 115,
+              "width": 140,
+              "height": 112,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 126.2,
+              "x2": 180,
+              "y2": 126.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 137.4,
+              "x2": 180,
+              "y2": 137.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 148.6,
+              "x2": 180,
+              "y2": 148.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 159.8,
+              "x2": 180,
+              "y2": 159.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 171.0,
+              "x2": 180,
+              "y2": 171.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 182.2,
+              "x2": 180,
+              "y2": 182.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 193.4,
+              "x2": 180,
+              "y2": 193.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 204.6,
+              "x2": 180,
+              "y2": 204.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 215.8,
+              "x2": 180,
+              "y2": 215.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75.0,
+              "y1": 115,
+              "x2": 75.0,
+              "y2": 227,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 145.0,
+              "y1": 115,
+              "x2": 145.0,
+              "y2": 227,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 357,
+              "y": 101,
+              "width": 29.0,
+              "height": 148,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 456.0,
+              "y": 101,
+              "width": 29.0,
+              "height": 148,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 105,
+              "width": 112,
+              "height": 140,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 376.2,
+              "y1": 105,
+              "x2": 376.2,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 387.4,
+              "y1": 105,
+              "x2": 387.4,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 398.6,
+              "y1": 105,
+              "x2": 398.6,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 409.8,
+              "y1": 105,
+              "x2": 409.8,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 421.0,
+              "y1": 105,
+              "x2": 421.0,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 432.2,
+              "y1": 105,
+              "x2": 432.2,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 443.4,
+              "y1": 105,
+              "x2": 443.4,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 454.6,
+              "y1": 105,
+              "x2": 454.6,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 465.8,
+              "y1": 105,
+              "x2": 465.8,
+              "y2": 245,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 386.0,
+              "y1": 105,
+              "x2": 386.0,
+              "y2": 245,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 456.0,
+              "y1": 105,
+              "x2": 456.0,
+              "y2": 245,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "P：投影20×约16",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 87,
+              "text": "T：投影约16×20",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 295,
+              "text": "不同搭接和宽度也须记入比较",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "把两方向都做成约16×16厘米投影后，各两件新纸的增载下移与局部变形能分辨差异吗？",
+      "materials": [
+        "硬底平托盘1个（置地面），毫米尺1把、铅笔1支、记录纸1张、成人剪刀1把",
+        "等高硬封面薄书2本（各单放高约1–2厘米；沿跨度承托至少5.5厘米、横向至少21厘米），计时器1个",
+        "薄硬卡纸1片裁8×8厘米作承载片；另1张复印纸裁20片3×3厘米作纸包，胶带两小段",
+        "厨房秤1台（分度1克或更细），承载片和纸包合计显示≤5克",
+        "同批A4复印纸4张，各裁20×16厘米1片，共4件，标P1/T1/P2/T2；20厘米方向统一沿A4同一裁向"
+      ],
+      "safety": "地面平稳硬底托盘内做，成人剪裁后收管剪刀。薄书各单放，等高约1–2厘米，不叠书、不在桌边做。仅用本页轻承载片和纸包，整套显示质量≤5克；不用橡皮、硬币、书、罐或手压加载。承载片不稳、纸褶塌陷或滑开、纸包移动、书移位、明显倾斜，或纸最低处距托盘不到空载间隙一半，立即取下整套并停该件。禁止胶粘固定褶宽、手扶承载片或反复开合追求效果；损伤件不得继续作正常样本。",
+      "steps": [
+        {
+          "title": "缩短未折方向保持近方形",
+          "action": "沿裁片的20厘米方向每隔指定面板宽画线，交替山折/谷折一次成手风琴褶，折线延伸在另一方向。2厘米面板共10个面、9条内折线；1厘米面板共20个面、19条内折线。面板宽指未折纸面上的宽，不是折后峰距。轻轻张开到折叠方向投影宽约16厘米；松手5秒后用尺量实际宽，15.5–16.5厘米内且稳定才进入加载。只轻调一次，不反复揉折；不稳定或不能达到范围就记不可有效加载，不贴胶固定。四片20×16，沿20方向每2厘米折，共10面；折线本身长16厘米。松手后折叠方向投影15.5–16.5厘米，另一方向16厘米，逐件量实际两边。P1/T1/P2/T2都是新纸，不旋转已加载件作另一方向。",
+          "actor": "adult",
+          "caption": "缩短未折方向保持近方形",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "共用支承与增载读法",
+          "action": "书内边净距固定10厘米，书顶等高约1–2厘米，每本沿跨度至少可承托5.5厘米、横向至少21厘米。纸在净跨中心对称放，检查两端确有谷底/纸面接书顶，不是悬空；记录实际投影长度、宽度和两端搭接，不沿折纸表面的起伏曲线量长度。P表示折线/棱线平行于从左书到右书的跨度方向，T表示与跨度垂直；取下纸后才换件或方向，不带载转动。成人裁硬挺平整薄卡纸承载片8×8厘米1片（不用厚木板），另裁20片3×3厘米复印纸叠齐，用两小段胶带封成纸包。厨房秤分度1克或更细，称承载片与包合计，显示≤5克；无秤或超限不加载，不估重。片放净跨与纸宽中心，四边平行书边，沿跨度两端各离书内边1厘米，绝不直接搭书。确认片底实际稳定接触至少两条不同峰线而不是只压单峰、插谷或一角悬翘；纸包放片上中央，不直接塞进谷里。若8厘米片不能稳定跨峰，本件记不可加载，不换大重片补救。在承载片靠观察者的边中央读片上表面高度：毫米尺固定在旁，不接触或支撑纸，零端向下、数值向上增大，视线水平对同一片边点。片单独放约2秒记h片，加包后最多5秒记h包，Δ=h片−h包。它是增加纸包后承载片边的下移，不是无载到全载的纸梁挠度；片本身弯曲、倾斜或压峰会影响。未能分辨毫米差值记“未分辨”，不填小数毫米或0；明显倾斜/塌峰只记现象，不拿Δ比较纯弯曲。每端搭接约3厘米，实际以沿跨投影计算并复量；不强称四件投影完全相同。",
+          "actor": "together",
+          "caption": "共用支承与增载读法",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "交替测四件",
+          "action": "顺序P1→T1→T2→P2。每件新纸先无载检查，放承载片后约2秒读/观察一次，随后才把纸包放片中心，最多再5秒取下包和片；承载片在纸上总时长不超过10秒。异常立即卸载，时间来不及则记未完成。卸载10秒后看恢复，不再给同件第二次载荷；只有一次有限增载，不做疲劳或压垮测试。同时观察片自身弯曲、纸峰是否压扁和开幅是否改变。记录h片/h包与Δ或未分辨；卸载10秒后仅目视恢复，不能把已损伤件再次加载修数据。",
+          "actor": "adult",
+          "caption": "交替测四件",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "同向重复先并列",
+          "action": "P/T各保留两件原始读数和实际几何；两件均有效且可辨才列两值范围，缺测/未分辨不作0。比较方向时同时检查实际开幅和倾斜。方形投影减少了搭接和宽度的共变，但纸张裁向相对跨度也随方向改变，不能宣称纯粹证明褶向因果。",
+          "actor": "child",
+          "caption": "同向重复先并列",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "近方形投影的改进控制",
+          "独立新件重复",
+          "增量读数与测量对象"
+        ],
+        "explanation": "裁短不折叠方向可把折后投影做成近似正方形，从而减少旋转造成的搭接和桥宽变化。承载片边高度差只表示加小包后的装置响应，还包含承载片与峰接触的影响。",
+        "limits": "手工开幅不完全相等、纸裁向与褶向关联，毫米尺也可能分不出变化。每方向仅2件，范围不是置信区间，不由Δ反推梁刚度。",
+        "observation": "四件实际投影/搭接、片包总质量、h片/h包/Δ或缺测、局部变化与卸载恢复。",
+        "nextQuestion": "面板从2厘米改成1厘米而保持同投影时，褶高也变了，方向差异是否仍相似？"
+      },
+      "guide": {
+        "goal": "用不同原纸尺寸控制近似投影，实际做两方向各两新件及增量读数。",
+        "observe": "把两方向都做成约16×16厘米投影后，各两件新纸的增载下移与局部变形能分辨差异吗？",
+        "support": "成人裁纸、核对实际尺寸及加载稳定；学习者读方向、量投影、记录，无法稳定即保留无效原因。",
+        "control": "原20×16，2厘米面板，投影约16×16；净跨10，同片同包，顺序P/T/T/P。",
+        "time": "约40–50分钟",
+        "recordFields": [
+          "四件实际投影/搭接/裁向",
+          "总质量、跨峰与顺序",
+          "h片/h包/Δ或未分辨",
+          "重复差异与片弯曲/纸裁向限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "改变纸的折叠截面会影响抗弯表现。",
+          "scope": "只支持折纸结构背景；不采用逐加硬币或加载至破坏，不继承承载数字。"
+        },
+        {
+          "title": "Australian National University｜Paper Bridge Challenge",
+          "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/paper-bridge-challenge-science-strong-shapes",
+          "claim": "给出手风琴褶纸桥及褶沿桥长摆放的教学方案，并提出褶宽可作为后续变量。",
+          "scope": "本页方向对照、投影尺寸检查和有限轻载是独立改编；不执行来源的继续加重至明显弯曲/倒塌，也不把纸褶视为理想刚性桁架。"
+        }
+      ],
+      "sourceNote": "根据所列教学资料独立改编，未实地试做，不代表机构测试或认证。图为折法、投影与接触示意，没有预填下移或优胜结果。波纹片的转向同时改变受弯方向和接触方式，纸裁向、褶高及承载片会影响表现；不由此推算强度、弹性模量或真实桥梁安全。",
+      "diagrams": [
+        {
+          "sceneKey": "corr59-1012-square",
+          "description": "裁片20×16，折后近方形投影；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 67,
+              "y": 106,
+              "width": 38.0,
+              "height": 168,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205.0,
+              "y": 106,
+              "width": 38.0,
+              "height": 168,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 110,
+              "width": 160,
+              "height": 160,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 126.0,
+              "x2": 235,
+              "y2": 126.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 142.0,
+              "x2": 235,
+              "y2": 142.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 158.0,
+              "x2": 235,
+              "y2": 158.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 174.0,
+              "x2": 235,
+              "y2": 174.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 190.0,
+              "x2": 235,
+              "y2": 190.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 206.0,
+              "x2": 235,
+              "y2": 206.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 222.0,
+              "x2": 235,
+              "y2": 222.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 238.0,
+              "x2": 235,
+              "y2": 238.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 254.0,
+              "x2": 235,
+              "y2": 254.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 105.0,
+              "y1": 110,
+              "x2": 105.0,
+              "y2": 270,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205.0,
+              "y1": 110,
+              "x2": 205.0,
+              "y2": 270,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 123,
+              "text": "原纸20×16厘米",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 169,
+              "text": "折后约16×16，必须实量",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 216,
+              "text": "每向两件新纸",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1012-turn",
+          "description": "近方形纸垂直方向俯视，同8厘米承载片居中；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 67,
+              "y": 106,
+              "width": 38.0,
+              "height": 168,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205.0,
+              "y": 106,
+              "width": 38.0,
+              "height": 168,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 110,
+              "width": 160,
+              "height": 160,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 91.0,
+              "y1": 110,
+              "x2": 91.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 107.0,
+              "y1": 110,
+              "x2": 107.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 123.0,
+              "y1": 110,
+              "x2": 123.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 139.0,
+              "y1": 110,
+              "x2": 139.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 155.0,
+              "y1": 110,
+              "x2": 155.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 171.0,
+              "y1": 110,
+              "x2": 171.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 187.0,
+              "y1": 110,
+              "x2": 187.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 203.0,
+              "y1": 110,
+              "x2": 203.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 219.0,
+              "y1": 110,
+              "x2": 219.0,
+              "y2": 270,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 105.0,
+              "y1": 110,
+              "x2": 105.0,
+              "y2": 270,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 205.0,
+              "y1": 110,
+              "x2": 205.0,
+              "y2": 270,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 115.0,
+              "y": 150.0,
+              "width": 80,
+              "height": 80,
+              "fill": "#DBD6B7",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140.0,
+              "y": 175.0,
+              "width": 30,
+              "height": 30,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 123,
+              "text": "净跨10，搭接约3厘米",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 169,
+              "text": "片沿跨两端离书各1厘米",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 216,
+              "text": "P/T不同新件，不重复压",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1012-read",
+          "description": "跨峰承载片边与旁置尺的水平视线，测片上表面而不是谷底；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70.0,
+              "y1": 220,
+              "x2": 86.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 86.0,
+              "y1": 208,
+              "x2": 102.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 102.0,
+              "y1": 220,
+              "x2": 118.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 118.0,
+              "y1": 208,
+              "x2": 134.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134.0,
+              "y1": 220,
+              "x2": 150.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 208,
+              "x2": 166.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 166.0,
+              "y1": 220,
+              "x2": 182.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 182.0,
+              "y1": 208,
+              "x2": 198.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 220,
+              "x2": 214.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 214.0,
+              "y1": 208,
+              "x2": 230.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 204,
+              "width": 80,
+              "height": 4,
+              "fill": "#DAD4B5",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 184,
+              "width": 30,
+              "height": 20,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 172,
+              "width": 10,
+              "height": 73,
+              "fill": "#E8DCBA",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 204,
+              "x2": 255,
+              "y2": 204,
+              "stroke": "#278A9A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 122,
+              "text": "片边同点水平读尺",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 167,
+              "text": "先片约2秒，再加包≤5秒",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 214,
+              "text": "Δ是增量，不是无载挠度",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 286,
+              "text": "单侧端面示意；尺不接触承载片",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1012-repeat",
+          "description": "两方向方形投影并列示意；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 37,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149.0,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 128,
+              "height": 128,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 122.8,
+              "x2": 173,
+              "y2": 122.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 135.6,
+              "x2": 173,
+              "y2": 135.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 148.4,
+              "x2": 173,
+              "y2": 148.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 161.2,
+              "x2": 173,
+              "y2": 161.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 174.0,
+              "x2": 173,
+              "y2": 174.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 186.8,
+              "x2": 173,
+              "y2": 186.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 199.6,
+              "x2": 173,
+              "y2": 199.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 212.4,
+              "x2": 173,
+              "y2": 212.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 225.2,
+              "x2": 173,
+              "y2": 225.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 69.0,
+              "y1": 110,
+              "x2": 69.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 149.0,
+              "y1": 110,
+              "x2": 149.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 357,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 469.0,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 110,
+              "width": 128,
+              "height": 128,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 377.8,
+              "y1": 110,
+              "x2": 377.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 390.6,
+              "y1": 110,
+              "x2": 390.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 403.4,
+              "y1": 110,
+              "x2": 403.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 416.2,
+              "y1": 110,
+              "x2": 416.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 429.0,
+              "y1": 110,
+              "x2": 429.0,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 441.8,
+              "y1": 110,
+              "x2": 441.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 454.6,
+              "y1": 110,
+              "x2": 454.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 467.4,
+              "y1": 110,
+              "x2": 467.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 480.2,
+              "y1": 110,
+              "x2": 480.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 389.0,
+              "y1": 110,
+              "x2": 389.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 469.0,
+              "y1": 110,
+              "x2": 469.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 86,
+              "text": "P1 / P2",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 86,
+              "text": "T1 / T2",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "原始两值保留，未分辨不当0",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "在相近16×16厘米投影下，1厘米与2厘米面板的两种波纹，方向差异是否依赖折褶尺度？",
+      "materials": [
+        "硬底平托盘1个（置地面），毫米尺1把、铅笔1支、记录纸1张、成人剪刀1把",
+        "等高硬封面薄书2本（各单放高约1–2厘米；沿跨度承托至少5.5厘米、横向至少21厘米），计时器1个",
+        "薄硬卡纸1片裁8×8厘米作承载片；另1张复印纸裁20片3×3厘米作纸包，胶带两小段",
+        "厨房秤1台（分度1克或更细），承载片和纸包合计显示≤5克",
+        "同批A4复印纸8张，每张裁20×16厘米1片；4件用1厘米面板、4件用2厘米面板，长20厘米方向统一裁向"
+      ],
+      "safety": "地面平稳硬底托盘内做，成人剪裁后收管剪刀。薄书各单放，等高约1–2厘米，不叠书、不在桌边做。仅用本页轻承载片和纸包，整套显示质量≤5克；不用橡皮、硬币、书、罐或手压加载。承载片不稳、纸褶塌陷或滑开、纸包移动、书移位、明显倾斜，或纸最低处距托盘不到空载间隙一半，立即取下整套并停该件。禁止胶粘固定褶宽、手扶承载片或反复开合追求效果；损伤件不得继续作正常样本。",
+      "steps": [
+        {
+          "title": "做面板尺度与方向四条件",
+          "action": "沿裁片的20厘米方向每隔指定面板宽画线，交替山折/谷折一次成手风琴褶，折线延伸在另一方向。2厘米面板共10个面、9条内折线；1厘米面板共20个面、19条内折线。面板宽指未折纸面上的宽，不是折后峰距。轻轻张开到折叠方向投影宽约16厘米；松手5秒后用尺量实际宽，15.5–16.5厘米内且稳定才进入加载。只轻调一次，不反复揉折；不稳定或不能达到范围就记不可有效加载，不贴胶固定。A=1厘米面板/P，B=1厘米/T，C=2厘米/P，D=2厘米/T；各2件新纸，标1/2共8件。每件20×16，投影折叠方向15.5–16.5、另一方向16厘米。量实际开幅，并从侧面量谷至峰的约高；不能把1/2厘米面板宽当实际褶高。只记录可辨毫米，不按理想三角计算值充实测。",
+          "actor": "adult",
+          "caption": "做面板尺度与方向四条件",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "逐件检查真实接触",
+          "action": "书内边净距固定10厘米，书顶等高约1–2厘米，每本沿跨度至少可承托5.5厘米、横向至少21厘米。纸在净跨中心对称放，检查两端确有谷底/纸面接书顶，不是悬空；记录实际投影长度、宽度和两端搭接，不沿折纸表面的起伏曲线量长度。P表示折线/棱线平行于从左书到右书的跨度方向，T表示与跨度垂直；取下纸后才换件或方向，不带载转动。成人裁硬挺平整薄卡纸承载片8×8厘米1片（不用厚木板），另裁20片3×3厘米复印纸叠齐，用两小段胶带封成纸包。厨房秤分度1克或更细，称承载片与包合计，显示≤5克；无秤或超限不加载，不估重。片放净跨与纸宽中心，四边平行书边，沿跨度两端各离书内边1厘米，绝不直接搭书。确认片底实际稳定接触至少两条不同峰线而不是只压单峰、插谷或一角悬翘；纸包放片上中央，不直接塞进谷里。若8厘米片不能稳定跨峰，本件记不可加载，不换大重片补救。在承载片靠观察者的边中央读片上表面高度：毫米尺固定在旁，不接触或支撑纸，零端向下、数值向上增大，视线水平对同一片边点。片单独放约2秒记h片，加包后最多5秒记h包，Δ=h片−h包。它是增加纸包后承载片边的下移，不是无载到全载的纸梁挠度；片本身弯曲、倾斜或压峰会影响。未能分辨毫米差值记“未分辨”，不填小数毫米或0；明显倾斜/塌峰只记现象，不拿Δ比较纯弯曲。细褶峰更多，但不因此跳过片稳定检查。两面板宽在相同投影缩短量下通常有不同褶高和峰距，这是折褶尺度组合变化，不是只多几条无影响的线。",
+          "actor": "together",
+          "caption": "逐件检查真实接触",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "反向次序测试两个制作组",
+          "action": "顺序A1→B1→C1→D1，接着D2→C2→B2→A2。每件新纸先无载检查，放承载片后约2秒读/观察一次，随后才把纸包放片中心，最多再5秒取下包和片；承载片在纸上总时长不超过10秒。异常立即卸载，时间来不及则记未完成。卸载10秒后看恢复，不再给同件第二次载荷；只有一次有限增载，不做疲劳或压垮测试。每件保留h片/h包及Δ、实际时刻、局部压峰/开幅变化。来不及读、不能稳定或损坏均记录，无效件不换成更好件抹去原记录。",
+          "actor": "adult",
+          "caption": "反向次序测试两个制作组",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        },
+        {
+          "title": "分面板尺度比较方向",
+          "action": "在1厘米面板内比较A/B两值范围，在2厘米内比较C/D；再在固定方向比较A/C或B/D。缺测或未分辨时不强算比值，不从一个偶然顺序反转宣称交互作用。讨论褶高、峰距、接触数量、纸裁向及卡片挠曲共同限制，不把本设计当材料各向异性精密测量。",
+          "actor": "child",
+          "caption": "分面板尺度比较方向",
+          "adultNote": "成人裁纸及放取载荷；先核实际投影和承载片跨峰稳定，异常即停，不加重。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "折褶尺度×方向",
+          "几何高度不等于面板宽",
+          "有限重复的条件性比较"
+        ],
+        "explanation": "面板宽不同而总纸宽和投影宽相近时，褶的数量、峰距和高度一起改变。把方向比较在两种尺度内分别做，可看观察是否依赖某一种褶结构，但没有预设统一优胜方向。",
+        "limits": "每条件仅2件，手工褶角、纸材裁向和承载片接触不受精密控制；单侧片边Δ不是纯梁变形。没有数据时不能套倍数或宣称交互作用。",
+        "observation": "8件条件/实际投影/褶高/顺序、质量与接触、h与Δ或无效原因、四条件分组比较。",
+        "nextQuestion": "若差异主要来自承载片局部压峰，下一步纸上方案怎样区分接触变形与整体跨中形变？"
+      },
+      "guide": {
+        "goal": "交叉改变实际面板尺度与方向，检查结论对折褶几何的依赖。",
+        "observe": "在相近16×16厘米投影下，1厘米与2厘米面板的两种波纹，方向差异是否依赖折褶尺度？",
+        "support": "成人裁纸、核对实际尺寸及加载稳定；学习者读方向、量投影、记录，无法稳定即保留无效原因。",
+        "control": "原20×16，同裁向，目标投影约16×16；1/2厘米面板×P/T各2件，同净跨10及同套轻载。",
+        "time": "约60–75分钟，可分两组并记录日期环境差异",
+        "recordFields": [
+          "8件条件/实际投影/褶高/顺序",
+          "总质量及跨峰稳定检查",
+          "h片/h包/Δ与停止原因",
+          "按尺度/方向分组的比较和限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Build the Best Paper Bridge",
+          "url": "https://www.sciencebuddies.org/stem-activities/build-best-bridge",
+          "claim": "改变纸的折叠截面会影响抗弯表现。",
+          "scope": "只支持折纸结构背景；不采用逐加硬币或加载至破坏，不继承承载数字。"
+        },
+        {
+          "title": "Australian National University｜Paper Bridge Challenge",
+          "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/paper-bridge-challenge-science-strong-shapes",
+          "claim": "给出手风琴褶纸桥及褶沿桥长摆放的教学方案，并提出褶宽可作为后续变量。",
+          "scope": "本页方向对照、投影尺寸检查和有限轻载是独立改编；不执行来源的继续加重至明显弯曲/倒塌，也不把纸褶视为理想刚性桁架。"
+        }
+      ],
+      "sourceNote": "根据所列教学资料独立改编，未实地试做，不代表机构测试或认证。图为折法、投影与接触示意，没有预填下移或优胜结果。波纹片的转向同时改变受弯方向和接触方式，纸裁向、褶高及承载片会影响表现；不由此推算强度、弹性模量或真实桥梁安全。",
+      "diagrams": [
+        {
+          "sceneKey": "corr59-1316-pitch",
+          "description": "同投影宽度的两种面板端面，褶高是示意非实测；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 65.0,
+              "y1": 145,
+              "x2": 73.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 73.0,
+              "y1": 139,
+              "x2": 81.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 81.0,
+              "y1": 145,
+              "x2": 89.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 89.0,
+              "y1": 139,
+              "x2": 97.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 97.0,
+              "y1": 145,
+              "x2": 105.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 105.0,
+              "y1": 139,
+              "x2": 113.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 113.0,
+              "y1": 145,
+              "x2": 121.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 121.0,
+              "y1": 139,
+              "x2": 129.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 129.0,
+              "y1": 145,
+              "x2": 137.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 137.0,
+              "y1": 139,
+              "x2": 145.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 145.0,
+              "y1": 145,
+              "x2": 153.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 153.0,
+              "y1": 139,
+              "x2": 161.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 161.0,
+              "y1": 145,
+              "x2": 169.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 169.0,
+              "y1": 139,
+              "x2": 177.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 177.0,
+              "y1": 145,
+              "x2": 185.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 185.0,
+              "y1": 139,
+              "x2": 193.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 145,
+              "x2": 201.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 201.0,
+              "y1": 139,
+              "x2": 209.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 209.0,
+              "y1": 145,
+              "x2": 217.0,
+              "y2": 139,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 139,
+              "x2": 225.0,
+              "y2": 145,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 65.0,
+              "y1": 240,
+              "x2": 81.0,
+              "y2": 228,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 81.0,
+              "y1": 228,
+              "x2": 97.0,
+              "y2": 240,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 97.0,
+              "y1": 240,
+              "x2": 113.0,
+              "y2": 228,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 113.0,
+              "y1": 228,
+              "x2": 129.0,
+              "y2": 240,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 129.0,
+              "y1": 240,
+              "x2": 145.0,
+              "y2": 228,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 145.0,
+              "y1": 228,
+              "x2": 161.0,
+              "y2": 240,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 161.0,
+              "y1": 240,
+              "x2": 177.0,
+              "y2": 228,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 177.0,
+              "y1": 228,
+              "x2": 193.0,
+              "y2": 240,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 240,
+              "x2": 209.0,
+              "y2": 228,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 209.0,
+              "y1": 228,
+              "x2": 225.0,
+              "y2": 240,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 119,
+              "text": "1厘米面板：20个面",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 158,
+              "text": "峰距和高度仍要实量",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 215,
+              "text": "2厘米面板：10个面",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 254,
+              "text": "两种都约16厘米投影",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1316-orient",
+          "description": "1厘米面板的P/T两方形投影；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 37,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149.0,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 128,
+              "height": 128,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 116.4,
+              "x2": 173,
+              "y2": 116.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 122.8,
+              "x2": 173,
+              "y2": 122.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 129.2,
+              "x2": 173,
+              "y2": 129.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 135.6,
+              "x2": 173,
+              "y2": 135.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 142.0,
+              "x2": 173,
+              "y2": 142.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 148.4,
+              "x2": 173,
+              "y2": 148.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 154.8,
+              "x2": 173,
+              "y2": 154.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 161.2,
+              "x2": 173,
+              "y2": 161.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 167.6,
+              "x2": 173,
+              "y2": 167.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 174.0,
+              "x2": 173,
+              "y2": 174.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 180.4,
+              "x2": 173,
+              "y2": 180.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 186.8,
+              "x2": 173,
+              "y2": 186.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 193.2,
+              "x2": 173,
+              "y2": 193.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 199.6,
+              "x2": 173,
+              "y2": 199.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 206.0,
+              "x2": 173,
+              "y2": 206.0,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 212.4,
+              "x2": 173,
+              "y2": 212.4,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 218.8,
+              "x2": 173,
+              "y2": 218.8,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 225.2,
+              "x2": 173,
+              "y2": 225.2,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 231.6,
+              "x2": 173,
+              "y2": 231.6,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 69.0,
+              "y1": 110,
+              "x2": 69.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 149.0,
+              "y1": 110,
+              "x2": 149.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 357,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 469.0,
+              "y": 106,
+              "width": 32.0,
+              "height": 136,
+              "fill": "#D7E3D9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 110,
+              "width": 128,
+              "height": 128,
+              "fill": "#F7F1DE",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 371.4,
+              "y1": 110,
+              "x2": 371.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 377.8,
+              "y1": 110,
+              "x2": 377.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 384.2,
+              "y1": 110,
+              "x2": 384.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 390.6,
+              "y1": 110,
+              "x2": 390.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 397.0,
+              "y1": 110,
+              "x2": 397.0,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 403.4,
+              "y1": 110,
+              "x2": 403.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 409.8,
+              "y1": 110,
+              "x2": 409.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 416.2,
+              "y1": 110,
+              "x2": 416.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 422.6,
+              "y1": 110,
+              "x2": 422.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 429.0,
+              "y1": 110,
+              "x2": 429.0,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 435.4,
+              "y1": 110,
+              "x2": 435.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 441.8,
+              "y1": 110,
+              "x2": 441.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 448.2,
+              "y1": 110,
+              "x2": 448.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 454.6,
+              "y1": 110,
+              "x2": 454.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 461.0,
+              "y1": 110,
+              "x2": 461.0,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 467.4,
+              "y1": 110,
+              "x2": 467.4,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 473.8,
+              "y1": 110,
+              "x2": 473.8,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 480.2,
+              "y1": 110,
+              "x2": 480.2,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 486.6,
+              "y1": 110,
+              "x2": 486.6,
+              "y2": 238,
+              "stroke": "#7D9A8A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 389.0,
+              "y1": 110,
+              "x2": 389.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 469.0,
+              "y1": 110,
+              "x2": 469.0,
+              "y2": 238,
+              "stroke": "#2C8E9B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 86,
+              "text": "A：细褶P",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 86,
+              "text": "B：细褶T",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "C/D用2厘米面板；每条件两件",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1316-load",
+          "description": "细褶承载片同宽8厘米，接触多个峰；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70.0,
+              "y1": 220,
+              "x2": 78.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 78.0,
+              "y1": 214,
+              "x2": 86.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 86.0,
+              "y1": 220,
+              "x2": 94.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 94.0,
+              "y1": 214,
+              "x2": 102.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 102.0,
+              "y1": 220,
+              "x2": 110.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 110.0,
+              "y1": 214,
+              "x2": 118.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 118.0,
+              "y1": 220,
+              "x2": 126.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 126.0,
+              "y1": 214,
+              "x2": 134.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134.0,
+              "y1": 220,
+              "x2": 142.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 142.0,
+              "y1": 214,
+              "x2": 150.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 220,
+              "x2": 158.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 158.0,
+              "y1": 214,
+              "x2": 166.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 166.0,
+              "y1": 220,
+              "x2": 174.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 214,
+              "x2": 182.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 182.0,
+              "y1": 220,
+              "x2": 190.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 190.0,
+              "y1": 214,
+              "x2": 198.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 220,
+              "x2": 206.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 206.0,
+              "y1": 214,
+              "x2": 214.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 214.0,
+              "y1": 220,
+              "x2": 222.0,
+              "y2": 214,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 222.0,
+              "y1": 214,
+              "x2": 230.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 210,
+              "width": 80,
+              "height": 4,
+              "fill": "#DAD4B5",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 190,
+              "width": 30,
+              "height": 20,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 130,
+              "text": "同8厘米片、同3厘米包",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 177,
+              "text": "总显示质量≤5克",
+              "fontSize": 20,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 224,
+              "text": "不能为了显差异增加载荷",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 285,
+              "text": "示意接触；实际不稳就不加载",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "corr59-1316-read",
+          "description": "粗褶片边增量读数，不将高度比例当刚度比；几何示意，不表示实际挠度或承载结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70.0,
+              "y1": 220,
+              "x2": 86.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 86.0,
+              "y1": 208,
+              "x2": 102.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 102.0,
+              "y1": 220,
+              "x2": 118.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 118.0,
+              "y1": 208,
+              "x2": 134.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134.0,
+              "y1": 220,
+              "x2": 150.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 150.0,
+              "y1": 208,
+              "x2": 166.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 166.0,
+              "y1": 220,
+              "x2": 182.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 182.0,
+              "y1": 208,
+              "x2": 198.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 220,
+              "x2": 214.0,
+              "y2": 208,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 214.0,
+              "y1": 208,
+              "x2": 230.0,
+              "y2": 220,
+              "stroke": "#3C8065",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 204,
+              "width": 80,
+              "height": 4,
+              "fill": "#DAD4B5",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 184,
+              "width": 30,
+              "height": 20,
+              "fill": "#D8C7E9",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 172,
+              "width": 10,
+              "height": 73,
+              "fill": "#E8DCBA",
+              "stroke": "#6B8274",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 204,
+              "x2": 255,
+              "y2": 204,
+              "stroke": "#278A9A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 122,
+              "text": "同一片边点水平读尺",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 167,
+              "text": "各条件两值，不强算比值",
+              "fontSize": 18,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 214,
+              "text": "局部压峰或倾斜另记",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 286,
+              "text": "h片−h包；未分辨不填0",
+              "fontSize": 19,
+              "fill": "#193D46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

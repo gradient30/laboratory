@@ -1,0 +1,6515 @@
+{
+  "activityId": 243,
+  "activityTitle": "展开图不只是六个方格",
+  "contentKey": "annual-m031",
+  "reconstruction": {
+    "status": "RECONSTRUCTION",
+    "baseline": "recovered-928-extracted/source",
+    "lostReviewInherited": false,
+    "originalSha256": "72bc7ef36aa2c1991eb7399ece0f161166c09a39535015aeddfc5a19dbb662fa"
+  },
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "平纸上的两片相连翼抬起来会怎样？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少20厘米且最小分度1毫米的直尺；成人专用剪刀只由成人操作并收起。两种整片母版均设计边长30毫米：有效网占90×120毫米，一排六格占180×30毫米，A4可用宽190毫米容得下。没有剪刀或不能安全预制就改纸上推演，明确未剪未折，不把推演记成实测。",
+        "本龄整页纸件：rules.svg、layout-card.svg、fold-card.svg、criteria-card.svg、model-reference.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、grid-check.svg、setup-record.svg、valid-cut.svg、strip-cut.svg、preschool-target.svg、preschool-record.svg。"
+      ],
+      "safety": "成人在孩子不伸手的地方只剪外轮廓，剪完收刀并收齐碎纸；儿童不剪、不撕开连接、不用针钉胶枪。4—6岁成人近距离陪伴，纸边避开眼口，笔尺和纸不入口。保留六格连成一整片，不裁六个小方片，不套手指，不用力压折或强拉闭合。遇到重叠、阻力、破裂、锐折边或不稳立即停，写中止和未做；疲倦可停。模型只作桌面观察，不提拿装物。",
+      "steps": [
+        {
+          "title": "指认底面和相连大翼",
+          "caption": "指认底面和相连大翼",
+          "action": "成人读V母版A—F标号，孩子在preschool-target上指B及与B整边相连的A、E；可自己描浅色或成人代画注明。只问“哪片还连着底”，不要求数六面、坐标或证明。preschool-record保留初指、原话和帮助。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "看成人只剪整片外沿",
+          "caption": "看成人只剪整片外沿",
+          "action": "成人先完成V/X逐格测量并记grid-check，儿童只看V的实外沿与短虚折线。成人在孩子手离开时剪valid-cut整片外沿、保留所有虚线连接，再收刀和碎纸。孩子不剪小片；未能安全准备就做整页指认，记未剪未折。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "轻抬两片再看平与立",
+          "caption": "轻抬两片再看平与立",
+          "action": "B平放，成人扶稳，孩子指或轻抬A，再抬E，沿各自虚线感受从平到立；抬不动由成人代做或停。只完成这两个相邻翼就够，不强求封成立方体，不用幼儿失败判断网无效；在preschool-record画两片原来/后来位置并记未做。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "留下自己的指认和问题",
+          "caption": "留下自己的指认和问题",
+          "action": "孩子在preschool-record的大框画或口述看到的变化，成人保留原错及后来修订。可指看未经剪开的X整页布局与V不同，但不要求试折X、判断反例或背6/12/8。问一个自己的问题，疲倦就停。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "平面与立起",
+          "整边连接"
+        ],
+        "explanation": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 纸上边码U/R/D/L只指打印平面上/右/下/左，不是折后空间方向。实线是外轮廓剪线，短虚线是内部共边折线，靠线型与文字辨认而不是只看颜色。每种图有14段外轮廓单位边、5条内部共边；成人沿全部实外沿绕一圈剪出整片，绝不剪虚线。每格的四边由这些线共同组成，连接边只画一次。 六等方格和连通只是必要检查，不能单凭数量或“看起来像十字”判定。V还核六个具体面位置、每面四角、12条空间边各两面共边和面内部不重叠，才得到这个理想终态是完整立方体。六个不同法向不能单独证明任意布局可折、不会穿越或实际纸模型无碰撞。此脚本核的是终态坐标与连接，不验证连续运动全程，也不代替实际试折。",
+        "observation": "V的印字面起初朝上，B平放桌面不转动。先沿AB把A朝印字面这一侧轻抬，回落或由成人扶住；再沿BE、BF分别抬E、F；沿BC抬C时D随C一起抬起而CD暂不折，最后沿CD把D朝B上方轻折作为盖。四侧理想约直角，D理想盖到B正上方；无需胶带或强压闭合，成人扶住后看相邻边能否会合。实际纸厚可能留缝、错位或无法保持，不把理想状态当已成功。 先在预测页留初猜，成人完成材料安全检查与逐格量测后才裁。每一步在fold-record-valid/strip留动作、折前猜测、实际接触/重叠/缝隙、帮助及停做，不擦原错。X从P1平放开始按同方向依次抬后续格，最多到发现第一处重叠就停，不把P5压入P1再继续。P6或其他未做步骤填未做；模型算出的重合不是实际观察。 纸模型“本次围成”仅指成人轻扶、不强拉时六个标号各处于不同面位，连接未断，边能大致会合且没有两面贴占同一位置；不要求自行站稳或严密容器。任一项明显不符记本次未围成；看不清、未做或安全中止记未判定并说明原因，不自动算成功或理论反例。纸张误差导致V没围成不推翻理想V可展开；X某次没折成也不是单独的一般证明。",
+        "limits": "X按同向90度理想折叠时P5与P1、P6与P2占同一面位置，缺少另外两个方向的面。即使改变各折线的山/谷方向，五条铰链都相互平行，所有面仍沿共同的一个方向延伸，不能产生垂直于该共同方向的两个封口面；所以这排六格不是立方体展开图。只改纸上折向不能把平行铰链变成另一布局，不额外剪断或补格来冒称原图成功。 RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。",
+        "nextQuestion": "哪片仍沿一整条边连着底？"
+      },
+      "guide": {
+        "goal": "留下自己的指认和问题",
+        "observe": "指认底面和相连大翼",
+        "control": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 理想模型用无厚度边长1的刚性正方形，内部共边作铰链。B为底面，原点取B纸面左上角，u沿B向右、v沿B向下、z朝纸面上方；n约定为朝印字侧、闭合后朝内部的单位法向。上述纸右/纸下/纸上方轴序是左手坐标；n不是物理右手叉积u×v，物理叉积在此坐标为−n。V终态A在y=0、B在z=0、C在y=1、D在z=1、E在x=0、F在x=1，每面四角分别是对应单位方体面的四角；相对面AB不是一对，正确为BD、AC、EF。此处x/y/z是人为模型坐标，不是桌面方位或真实实测。 A4实际大小100%打印，每一页含日志本身在print-log-1/2/3记录100毫米核线实量和裁边；36行覆盖全套。成人在grid-check逐格量V六格和X六格各一条水平边、一条竖直边，记录毫米及复核。30毫米只是设计目标；本课操作筛查用29—31毫米且同格横竖差不超过1毫米，不是严格相等证明。超出、边线不清、剪断或裁失就停止试折，重印/按标定布局整页重画后重新测。量具不够或无实量写未量，不能估填。",
+        "support": "幼儿只做指认与两翼轻抬，不要求闭盒或矩阵。不能安全剪折就留纸上推演，记未做；不把绘图尺寸、模型单位与实测混用。",
+        "time": "5—10分钟；成人预制与量测另计，可分次。",
+        "recordFields": [
+          "初指与两翼变化",
+          "成人帮助",
+          "未做和问题"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NRICH｜Christmas Boxes",
+          "url": "https://nrich.maths.org/problems/christmas-boxes",
+          "claim": "用六个等方格探索立方体展开图，并按完整边对齐连接考察布局。",
+          "scope": "2026-11-05实读78—102、134—151行。只支持探索方法；两幅特定布局由本课独立坐标校验，不搬机构图片，不要求穷举11种。"
+        },
+        {
+          "title": "Open University TESSA｜Practical ways from sheet to cube",
+          "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=162567&section=2",
+          "claim": "展开图联系二维纸面与三维形状，可用虚线表示折、实线表示剪。",
+          "scope": "2026-11-05实读73—75行。安全剪裁、标号、尺寸、折序和记录均为本课原创，不把来源的实操建议当本课已试做。"
+        },
+        {
+          "title": "OpenStax｜Volume and Surface Area",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "立方体长宽高相等，具有六个正方形面。",
+          "scope": "2026-11-05实读82—92、180—190行；原来源仅支持概念，不单独证明本课两种展开布局。"
+        },
+        {
+          "title": "NSW Department of Education｜Net exploration – cube",
+          "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/mathematics/mathematics-curriculum-resources-k-12/thinking-mathematically-resources/mathematics-s2-s3-net-exploration-cube",
+          "claim": "文字稿明确描述一列四格、第二格左右各接一格的六格布局。",
+          "scope": "2026-11-05实读文字稿310—337行，未观看视频或复用模板。具体标号、30毫米纸件、坐标和安全折序独立编写，仍须核本课几何。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实读来源，纸件、两种布局计算、标号、操作和记录原创；原字段原样保留，不继承丢失审核或声称机构认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild243-4-6-1",
+          "description": "指认底面和相连大翼。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 102,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 141,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 141,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先指B，再找A与E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "整条边连着才算",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "幼儿只认两片翼",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不背公式或坐标",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-4-6-2",
+          "description": "看成人只剪整片外沿。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "实外沿只由成人剪",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "短虚线只折不剪",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "六格保留一整片",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "收刀与碎纸后再碰",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-4-6-3",
+          "description": "轻抬两片再看平与立。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 102,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 141,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "B不转，先A后E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "轻抬，成人扶住",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不强拉也不要求闭盒",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "只做两翼就照记",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-4-6-4",
+          "description": "留下自己的指认和问题。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "初指 / 后来怎样指",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "只做两翼 / 帮助",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "我的原画与问题",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "画平着与抬起的不同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "原错与后来理解分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "X只看布局可不试折",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "帮助与未做都留下",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同样六个方格为什么可能折出不同结果？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少20厘米且最小分度1毫米的直尺；成人专用剪刀只由成人操作并收起。两种整片母版均设计边长30毫米：有效网占90×120毫米，一排六格占180×30毫米，A4可用宽190毫米容得下。没有剪刀或不能安全预制就改纸上推演，明确未剪未折，不把推演记成实测。",
+        "本龄整页纸件：rules.svg、layout-card.svg、fold-card.svg、criteria-card.svg、model-reference.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、grid-check.svg、setup-record.svg、valid-cut.svg、strip-cut.svg、prediction-7-9.svg、line-record.svg、fold-record-valid.svg、fold-record-strip.svg、comparison-7-9.svg。"
+      ],
+      "safety": "成人在孩子不伸手的地方只剪外轮廓，剪完收刀并收齐碎纸；儿童不剪、不撕开连接、不用针钉胶枪。4—6岁成人近距离陪伴，纸边避开眼口，笔尺和纸不入口。保留六格连成一整片，不裁六个小方片，不套手指，不用力压折或强拉闭合。遇到重叠、阻力、破裂、锐折边或不稳立即停，写中止和未做；疲倦可停。模型只作桌面观察，不提拿装物。",
+      "steps": [
+        {
+          "title": "先预测两种六格布局",
+          "caption": "先预测两种六格布局",
+          "action": "在prediction-7-9先判断V和X是否都能围出六个不同面位并写理由；按layout-card数格和找完整连接边，六格数量相同不代表结果相同。已见答案或示意注明，不把后来的解释改成原猜。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "剪前实量并区分两类线",
+          "caption": "剪前实量并区分两类线",
+          "action": "成人用grid-check记录12格横竖实量，用print-log逐页核查；孩子在line-record指明实外沿和短虚折线并说哪条不能剪。成人分开剪valid-cut和strip-cut外沿，保留内部五连接，异常暂停，不把六片散纸拼起来算完成。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "分别试折并如实停做",
+          "caption": "分别试折并如实停做",
+          "action": "按fold-card试V的A/E/F/C/D五步，在fold-record-valid逐行记实际情况；再试X并在fold-record-strip按P1到P6记，发现重叠或阻力立即停，后续写未做。大人扶住可注明，不强压成盒；失败、未知与帮助保留。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "用标号比较结果与未知",
+          "caption": "用标号比较结果与未知",
+          "action": "在comparison-7-9依criteria-card判断“本次围成/未围成/未判定”，分别写六个标号、会合或重叠的位置及纸张误差。最后看model-reference核对理想结论；分清自己的观察和纸上模型，不能只凭一次失败证明任意网都不行。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "展开与折叠",
+          "反例"
+        ],
+        "explanation": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 纸上边码U/R/D/L只指打印平面上/右/下/左，不是折后空间方向。实线是外轮廓剪线，短虚线是内部共边折线，靠线型与文字辨认而不是只看颜色。每种图有14段外轮廓单位边、5条内部共边；成人沿全部实外沿绕一圈剪出整片，绝不剪虚线。每格的四边由这些线共同组成，连接边只画一次。 六等方格和连通只是必要检查，不能单凭数量或“看起来像十字”判定。V还核六个具体面位置、每面四角、12条空间边各两面共边和面内部不重叠，才得到这个理想终态是完整立方体。六个不同法向不能单独证明任意布局可折、不会穿越或实际纸模型无碰撞。此脚本核的是终态坐标与连接，不验证连续运动全程，也不代替实际试折。",
+        "observation": "V的印字面起初朝上，B平放桌面不转动。先沿AB把A朝印字面这一侧轻抬，回落或由成人扶住；再沿BE、BF分别抬E、F；沿BC抬C时D随C一起抬起而CD暂不折，最后沿CD把D朝B上方轻折作为盖。四侧理想约直角，D理想盖到B正上方；无需胶带或强压闭合，成人扶住后看相邻边能否会合。实际纸厚可能留缝、错位或无法保持，不把理想状态当已成功。 先在预测页留初猜，成人完成材料安全检查与逐格量测后才裁。每一步在fold-record-valid/strip留动作、折前猜测、实际接触/重叠/缝隙、帮助及停做，不擦原错。X从P1平放开始按同方向依次抬后续格，最多到发现第一处重叠就停，不把P5压入P1再继续。P6或其他未做步骤填未做；模型算出的重合不是实际观察。 纸模型“本次围成”仅指成人轻扶、不强拉时六个标号各处于不同面位，连接未断，边能大致会合且没有两面贴占同一位置；不要求自行站稳或严密容器。任一项明显不符记本次未围成；看不清、未做或安全中止记未判定并说明原因，不自动算成功或理论反例。纸张误差导致V没围成不推翻理想V可展开；X某次没折成也不是单独的一般证明。",
+        "limits": "X按同向90度理想折叠时P5与P1、P6与P2占同一面位置，缺少另外两个方向的面。即使改变各折线的山/谷方向，五条铰链都相互平行，所有面仍沿共同的一个方向延伸，不能产生垂直于该共同方向的两个封口面；所以这排六格不是立方体展开图。只改纸上折向不能把平行铰链变成另一布局，不额外剪断或补格来冒称原图成功。 RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。",
+        "nextQuestion": "六格之外还须看什么？"
+      },
+      "guide": {
+        "goal": "用标号比较结果与未知",
+        "observe": "先预测两种六格布局",
+        "control": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 理想模型用无厚度边长1的刚性正方形，内部共边作铰链。B为底面，原点取B纸面左上角，u沿B向右、v沿B向下、z朝纸面上方；n约定为朝印字侧、闭合后朝内部的单位法向。上述纸右/纸下/纸上方轴序是左手坐标；n不是物理右手叉积u×v，物理叉积在此坐标为−n。V终态A在y=0、B在z=0、C在y=1、D在z=1、E在x=0、F在x=1，每面四角分别是对应单位方体面的四角；相对面AB不是一对，正确为BD、AC、EF。此处x/y/z是人为模型坐标，不是桌面方位或真实实测。 A4实际大小100%打印，每一页含日志本身在print-log-1/2/3记录100毫米核线实量和裁边；36行覆盖全套。成人在grid-check逐格量V六格和X六格各一条水平边、一条竖直边，记录毫米及复核。30毫米只是设计目标；本课操作筛查用29—31毫米且同格横竖差不超过1毫米，不是严格相等证明。超出、边线不清、剪断或裁失就停止试折，重印/按标定布局整页重画后重新测。量具不够或无实量写未量，不能估填。",
+        "support": "幼儿只做指认与两翼轻抬，不要求闭盒或矩阵。不能安全剪折就留纸上推演，记未做；不把绘图尺寸、模型单位与实测混用。",
+        "time": "20—30分钟；成人预制与量测另计，可分次。",
+        "recordFields": [
+          "原预测与实量",
+          "逐步试折",
+          "本次结果与理想限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NRICH｜Christmas Boxes",
+          "url": "https://nrich.maths.org/problems/christmas-boxes",
+          "claim": "用六个等方格探索立方体展开图，并按完整边对齐连接考察布局。",
+          "scope": "2026-11-05实读78—102、134—151行。只支持探索方法；两幅特定布局由本课独立坐标校验，不搬机构图片，不要求穷举11种。"
+        },
+        {
+          "title": "Open University TESSA｜Practical ways from sheet to cube",
+          "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=162567&section=2",
+          "claim": "展开图联系二维纸面与三维形状，可用虚线表示折、实线表示剪。",
+          "scope": "2026-11-05实读73—75行。安全剪裁、标号、尺寸、折序和记录均为本课原创，不把来源的实操建议当本课已试做。"
+        },
+        {
+          "title": "OpenStax｜Volume and Surface Area",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "立方体长宽高相等，具有六个正方形面。",
+          "scope": "2026-11-05实读82—92、180—190行；原来源仅支持概念，不单独证明本课两种展开布局。"
+        },
+        {
+          "title": "NSW Department of Education｜Net exploration – cube",
+          "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/mathematics/mathematics-curriculum-resources-k-12/thinking-mathematically-resources/mathematics-s2-s3-net-exploration-cube",
+          "claim": "文字稿明确描述一列四格、第二格左右各接一格的六格布局。",
+          "scope": "2026-11-05实读文字稿310—337行，未观看视频或复用模板。具体标号、30毫米纸件、坐标和安全折序独立编写，仍须核本课几何。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实读来源，纸件、两种布局计算、标号、操作和记录原创；原字段原样保留，不继承丢失审核或声称机构认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild243-7-9-1",
+          "description": "先预测两种六格布局。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "两图都给六格",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "先猜再折保留理由",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "完整共边才是连接",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "数量不是充分条件",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-7-9-2",
+          "description": "剪前实量并区分两类线。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 57,
+              "y": 179,
+              "text": "P1",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 179,
+              "text": "P2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 179,
+              "text": "P3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 186,
+              "y": 179,
+              "text": "P4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 229,
+              "y": 179,
+              "text": "P5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 179,
+              "text": "P6",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 88,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 155.0,
+              "x2": 88.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 163.6,
+              "x2": 88.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 172.2,
+              "x2": 88.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 180.8,
+              "x2": 88.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 189.4,
+              "x2": 88.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 198,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 45,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 155,
+              "x2": 131,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 155.0,
+              "x2": 131.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 163.6,
+              "x2": 131.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 172.2,
+              "x2": 131.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 180.8,
+              "x2": 131.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 189.4,
+              "x2": 131.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 198,
+              "x2": 131,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 155,
+              "x2": 174,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 155.0,
+              "x2": 174.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 163.6,
+              "x2": 174.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 172.2,
+              "x2": 174.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 180.8,
+              "x2": 174.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 189.4,
+              "x2": 174.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 198,
+              "x2": 174,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 155,
+              "x2": 217,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 155.0,
+              "x2": 217.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 163.6,
+              "x2": 217.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 172.2,
+              "x2": 217.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 180.8,
+              "x2": 217.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 189.4,
+              "x2": 217.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 198,
+              "x2": 217,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 155,
+              "x2": 260,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 155.0,
+              "x2": 260.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 163.6,
+              "x2": 260.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 172.2,
+              "x2": 260.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 180.8,
+              "x2": 260.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 189.4,
+              "x2": 260.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 198,
+              "x2": 260,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 155,
+              "x2": 303,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 303,
+              "y1": 155,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 198,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "每格横竖都实量",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "共用同一30毫米设计",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "外沿实线 / 内部短虚",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "有缺损就停止试折",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-7-9-3",
+          "description": "分别试折并如实停做。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 219,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "V依次A E F C D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "X发现重叠立即停",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "没有做的后续写未做",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不能强压成成功",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-7-9-4",
+          "description": "用标号比较结果与未知。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "V：本次实际结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "X：停在哪一步",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "理想结论 / 实际证据",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "本次围成或未判定",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "模型结论另列",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "实际纸厚和缝隙保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不由一次失败作证明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "怎样用面名与边码核查展开图？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少20厘米且最小分度1毫米的直尺；成人专用剪刀只由成人操作并收起。两种整片母版均设计边长30毫米：有效网占90×120毫米，一排六格占180×30毫米，A4可用宽190毫米容得下。没有剪刀或不能安全预制就改纸上推演，明确未剪未折，不把推演记成实测。",
+        "本龄整页纸件：rules.svg、layout-card.svg、fold-card.svg、criteria-card.svg、model-reference.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、grid-check.svg、setup-record.svg、valid-cut.svg、strip-cut.svg、prediction-10-12.svg、net-trace-valid.svg、net-trace-strip.svg、connection-record.svg、fold-record-valid.svg、fold-record-strip.svg、face-record.svg、opposite-record.svg、seam-record.svg、strip-overlap-record.svg、reasoning-10-12.svg。"
+      ],
+      "safety": "成人在孩子不伸手的地方只剪外轮廓，剪完收刀并收齐碎纸；儿童不剪、不撕开连接、不用针钉胶枪。4—6岁成人近距离陪伴，纸边避开眼口，笔尺和纸不入口。保留六格连成一整片，不裁六个小方片，不套手指，不用力压折或强拉闭合。遇到重叠、阻力、破裂、锐折边或不稳立即停，写中止和未做；疲倦可停。模型只作桌面观察，不提拿装物。",
+      "steps": [
+        {
+          "title": "先画连接并追踪六个面",
+          "caption": "先画连接并追踪六个面",
+          "action": "先在prediction-10-12猜相对面及X哪里重合；在net-trace-valid/strip空标号格写面名、描出五个内部连接并填connection-record。先留自己的图，再核对layout-card，不擦初错。成人检查量测并剪两种cut母版。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "逐折记录相邻和相对",
+          "caption": "逐折记录相邻和相对",
+          "action": "按fold-card由B保持不转，依次轻折V并在face-record记录A—F去了哪个面位，再在opposite-record比较BD/AC/EF是否隔着空间相对；边相连不是相对面。实际试折不清楚就记未判定，成人帮助照记，不把理论坐标当实测。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "配对七组会合外边",
+          "caption": "配对七组会合外边",
+          "action": "在seam-record按外边码U/R/D/L逐组找七组可能会合的外边，保留初配，再看model-reference校正；原内部五边不能重复算为会合的七组。用face-record逐面身份核对，不能只看正面几格而漏背面。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "用具体重合解释反例",
+          "caption": "用具体重合解释反例",
+          "action": "用strip-overlap-record指出同向模型P5/P1和P6/P2的位置对应，实际因阻力停做的项仍记未做。在reasoning-10-12说明六格必要而不充分，X平行铰链缺封口面，V实物误差不能改写理想结论；不强行试出压叠终态。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "面位对应",
+          "连接与会合"
+        ],
+        "explanation": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 纸上边码U/R/D/L只指打印平面上/右/下/左，不是折后空间方向。实线是外轮廓剪线，短虚线是内部共边折线，靠线型与文字辨认而不是只看颜色。每种图有14段外轮廓单位边、5条内部共边；成人沿全部实外沿绕一圈剪出整片，绝不剪虚线。每格的四边由这些线共同组成，连接边只画一次。 六等方格和连通只是必要检查，不能单凭数量或“看起来像十字”判定。V还核六个具体面位置、每面四角、12条空间边各两面共边和面内部不重叠，才得到这个理想终态是完整立方体。六个不同法向不能单独证明任意布局可折、不会穿越或实际纸模型无碰撞。此脚本核的是终态坐标与连接，不验证连续运动全程，也不代替实际试折。",
+        "observation": "V的印字面起初朝上，B平放桌面不转动。先沿AB把A朝印字面这一侧轻抬，回落或由成人扶住；再沿BE、BF分别抬E、F；沿BC抬C时D随C一起抬起而CD暂不折，最后沿CD把D朝B上方轻折作为盖。四侧理想约直角，D理想盖到B正上方；无需胶带或强压闭合，成人扶住后看相邻边能否会合。实际纸厚可能留缝、错位或无法保持，不把理想状态当已成功。 先在预测页留初猜，成人完成材料安全检查与逐格量测后才裁。每一步在fold-record-valid/strip留动作、折前猜测、实际接触/重叠/缝隙、帮助及停做，不擦原错。X从P1平放开始按同方向依次抬后续格，最多到发现第一处重叠就停，不把P5压入P1再继续。P6或其他未做步骤填未做；模型算出的重合不是实际观察。 纸模型“本次围成”仅指成人轻扶、不强拉时六个标号各处于不同面位，连接未断，边能大致会合且没有两面贴占同一位置；不要求自行站稳或严密容器。任一项明显不符记本次未围成；看不清、未做或安全中止记未判定并说明原因，不自动算成功或理论反例。纸张误差导致V没围成不推翻理想V可展开；X某次没折成也不是单独的一般证明。",
+        "limits": "X按同向90度理想折叠时P5与P1、P6与P2占同一面位置，缺少另外两个方向的面。即使改变各折线的山/谷方向，五条铰链都相互平行，所有面仍沿共同的一个方向延伸，不能产生垂直于该共同方向的两个封口面；所以这排六格不是立方体展开图。只改纸上折向不能把平行铰链变成另一布局，不额外剪断或补格来冒称原图成功。 RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。",
+        "nextQuestion": "哪些外边会在理想终态相遇？"
+      },
+      "guide": {
+        "goal": "用具体重合解释反例",
+        "observe": "先画连接并追踪六个面",
+        "control": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 理想模型用无厚度边长1的刚性正方形，内部共边作铰链。B为底面，原点取B纸面左上角，u沿B向右、v沿B向下、z朝纸面上方；n约定为朝印字侧、闭合后朝内部的单位法向。上述纸右/纸下/纸上方轴序是左手坐标；n不是物理右手叉积u×v，物理叉积在此坐标为−n。V终态A在y=0、B在z=0、C在y=1、D在z=1、E在x=0、F在x=1，每面四角分别是对应单位方体面的四角；相对面AB不是一对，正确为BD、AC、EF。此处x/y/z是人为模型坐标，不是桌面方位或真实实测。 A4实际大小100%打印，每一页含日志本身在print-log-1/2/3记录100毫米核线实量和裁边；36行覆盖全套。成人在grid-check逐格量V六格和X六格各一条水平边、一条竖直边，记录毫米及复核。30毫米只是设计目标；本课操作筛查用29—31毫米且同格横竖差不超过1毫米，不是严格相等证明。超出、边线不清、剪断或裁失就停止试折，重印/按标定布局整页重画后重新测。量具不够或无实量写未量，不能估填。",
+        "support": "幼儿只做指认与两翼轻抬，不要求闭盒或矩阵。不能安全剪折就留纸上推演，记未做；不把绘图尺寸、模型单位与实测混用。",
+        "time": "30—45分钟；成人预制与量测另计，可分次。",
+        "recordFields": [
+          "六面追踪",
+          "七对边与相对面",
+          "X重合与实际停做"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NRICH｜Christmas Boxes",
+          "url": "https://nrich.maths.org/problems/christmas-boxes",
+          "claim": "用六个等方格探索立方体展开图，并按完整边对齐连接考察布局。",
+          "scope": "2026-11-05实读78—102、134—151行。只支持探索方法；两幅特定布局由本课独立坐标校验，不搬机构图片，不要求穷举11种。"
+        },
+        {
+          "title": "Open University TESSA｜Practical ways from sheet to cube",
+          "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=162567&section=2",
+          "claim": "展开图联系二维纸面与三维形状，可用虚线表示折、实线表示剪。",
+          "scope": "2026-11-05实读73—75行。安全剪裁、标号、尺寸、折序和记录均为本课原创，不把来源的实操建议当本课已试做。"
+        },
+        {
+          "title": "OpenStax｜Volume and Surface Area",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "立方体长宽高相等，具有六个正方形面。",
+          "scope": "2026-11-05实读82—92、180—190行；原来源仅支持概念，不单独证明本课两种展开布局。"
+        },
+        {
+          "title": "NSW Department of Education｜Net exploration – cube",
+          "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/mathematics/mathematics-curriculum-resources-k-12/thinking-mathematically-resources/mathematics-s2-s3-net-exploration-cube",
+          "claim": "文字稿明确描述一列四格、第二格左右各接一格的六格布局。",
+          "scope": "2026-11-05实读文字稿310—337行，未观看视频或复用模板。具体标号、30毫米纸件、坐标和安全折序独立编写，仍须核本课几何。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实读来源，纸件、两种布局计算、标号、操作和记录原创；原字段原样保留，不继承丢失审核或声称机构认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild243-10-12-1",
+          "description": "先画连接并追踪六个面。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "自己写面名与连接",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "先留图再查参考",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "五条连接分别追踪",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "位置不只凭外形猜",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-10-12-2",
+          "description": "逐折记录相邻和相对。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 141,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 219,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "B保持不转",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "BD / AC / EF相对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "相邻不能写相对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "看不到就记未判定",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-10-12-3",
+          "description": "配对七组会合外边。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 102,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 180,
+              "width": 35,
+              "height": 35,
+              "fill": "#ead8b0",
+              "stroke": "none"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "十四外边配七对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "内部五折边另计",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "边码指原纸面方向",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "初配错误不抹掉",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-10-12-4",
+          "description": "用具体重合解释反例。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 57,
+              "y": 179,
+              "text": "P1",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 179,
+              "text": "P2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 179,
+              "text": "P3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 186,
+              "y": 179,
+              "text": "P4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 229,
+              "y": 179,
+              "text": "P5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 179,
+              "text": "P6",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 88,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 155.0,
+              "x2": 88.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 163.6,
+              "x2": 88.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 172.2,
+              "x2": 88.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 180.8,
+              "x2": 88.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 189.4,
+              "x2": 88.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 198,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 45,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 155,
+              "x2": 131,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 155.0,
+              "x2": 131.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 163.6,
+              "x2": 131.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 172.2,
+              "x2": 131.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 180.8,
+              "x2": 131.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 189.4,
+              "x2": 131.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 198,
+              "x2": 131,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 155,
+              "x2": 174,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 155.0,
+              "x2": 174.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 163.6,
+              "x2": 174.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 172.2,
+              "x2": 174.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 180.8,
+              "x2": 174.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 189.4,
+              "x2": 174.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 198,
+              "x2": 174,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 155,
+              "x2": 217,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 155.0,
+              "x2": 217.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 163.6,
+              "x2": 217.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 172.2,
+              "x2": 217.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 180.8,
+              "x2": 217.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 189.4,
+              "x2": 217.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 198,
+              "x2": 217,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 155,
+              "x2": 260,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 155.0,
+              "x2": 260.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 163.6,
+              "x2": 260.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 172.2,
+              "x2": 260.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 180.8,
+              "x2": 260.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 189.4,
+              "x2": 260.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 198,
+              "x2": 260,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 155,
+              "x2": 303,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 303,
+              "y1": 155,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 198,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "P5与P1模型重合",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "P6与P2模型重合",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "实际停做不补观察",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "六格不保证成方体",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样用具体终态坐标检验而不夸大证明范围？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少20厘米且最小分度1毫米的直尺；成人专用剪刀只由成人操作并收起。两种整片母版均设计边长30毫米：有效网占90×120毫米，一排六格占180×30毫米，A4可用宽190毫米容得下。没有剪刀或不能安全预制就改纸上推演，明确未剪未折，不把推演记成实测。",
+        "本龄整页纸件：rules.svg、layout-card.svg、fold-card.svg、criteria-card.svg、model-reference.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、grid-check.svg、setup-record.svg、valid-cut.svg、strip-cut.svg、register-13-16.svg、coordinate-card.svg、coordinate-record.svg、net-trace-valid.svg、net-trace-strip.svg、connection-record.svg、fold-record-valid.svg、fold-record-strip.svg、face-record.svg、opposite-record.svg、seam-record.svg、edge-space-record.svg、strip-overlap-record.svg、boundary-audit.svg、reasoning-13-16.svg。"
+      ],
+      "safety": "成人在孩子不伸手的地方只剪外轮廓，剪完收刀并收齐碎纸；儿童不剪、不撕开连接、不用针钉胶枪。4—6岁成人近距离陪伴，纸边避开眼口，笔尺和纸不入口。保留六格连成一整片，不裁六个小方片，不套手指，不用力压折或强拉闭合。遇到重叠、阻力、破裂、锐折边或不稳立即停，写中止和未做；疲倦可停。模型只作桌面观察，不提拿装物。",
+      "steps": [
+        {
+          "title": "声明理想假设和实际条件",
+          "caption": "声明理想假设和实际条件",
+          "action": "在register-13-16先写无厚度刚性等方格、整边铰接、单位边长1及只核终态不核连续运动的假设；另在grid-check记纸上毫米实量。用net-trace-valid/strip留自己的连接与初预测，实际纸面和理想坐标数据分开。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "逐面写终态坐标与朝向",
+          "caption": "逐面写终态坐标与朝向",
+          "action": "按coordinate-card给定B原点与u/v/z规则，在coordinate-record写六面原点、u、v、法向及四角，可用加法或成人帮助；与model-reference逐项核对但不改初值。对应A y=0、B z=0、C y=1、D z=1、E x=0、F x=1，三对相对面另记。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "核边闭合和面内不重叠",
+          "caption": "核边闭合和面内不重叠",
+          "action": "用seam-record核七对外边，edge-space-record核12条三维边每条恰连两面；用face-record写六面具体位置与面内不重叠理由。在boundary-audit审查只数六格、只连通、只数六法向三种不足；不能将本例终态算法冒称任意网无碰撞证明。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        },
+        {
+          "title": "区分终态证明与实际路径",
+          "caption": "区分终态证明与实际路径",
+          "action": "在strip-overlap-record分别列P1—P6的同向终态，指出两组重合；在reasoning-13-16用平行铰链解释任意山/谷90度折向仍缺两个封口面。若实际试折按安全规则逐步记并及时停，最终区分已算终态、实际已做、连续路径与纸厚尚未验证，不要求穷举11种。",
+          "actor": "together",
+          "adultNote": "成人负责全部剪裁并收刀碎纸。保留实际误差、帮助、停做与未知；模型计算不是儿童已经完成的试折。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "三维终态",
+          "必要条件与证明边界"
+        ],
+        "explanation": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 纸上边码U/R/D/L只指打印平面上/右/下/左，不是折后空间方向。实线是外轮廓剪线，短虚线是内部共边折线，靠线型与文字辨认而不是只看颜色。每种图有14段外轮廓单位边、5条内部共边；成人沿全部实外沿绕一圈剪出整片，绝不剪虚线。每格的四边由这些线共同组成，连接边只画一次。 六等方格和连通只是必要检查，不能单凭数量或“看起来像十字”判定。V还核六个具体面位置、每面四角、12条空间边各两面共边和面内部不重叠，才得到这个理想终态是完整立方体。六个不同法向不能单独证明任意布局可折、不会穿越或实际纸模型无碰撞。此脚本核的是终态坐标与连接，不验证连续运动全程，也不代替实际试折。",
+        "observation": "V的印字面起初朝上，B平放桌面不转动。先沿AB把A朝印字面这一侧轻抬，回落或由成人扶住；再沿BE、BF分别抬E、F；沿BC抬C时D随C一起抬起而CD暂不折，最后沿CD把D朝B上方轻折作为盖。四侧理想约直角，D理想盖到B正上方；无需胶带或强压闭合，成人扶住后看相邻边能否会合。实际纸厚可能留缝、错位或无法保持，不把理想状态当已成功。 先在预测页留初猜，成人完成材料安全检查与逐格量测后才裁。每一步在fold-record-valid/strip留动作、折前猜测、实际接触/重叠/缝隙、帮助及停做，不擦原错。X从P1平放开始按同方向依次抬后续格，最多到发现第一处重叠就停，不把P5压入P1再继续。P6或其他未做步骤填未做；模型算出的重合不是实际观察。 纸模型“本次围成”仅指成人轻扶、不强拉时六个标号各处于不同面位，连接未断，边能大致会合且没有两面贴占同一位置；不要求自行站稳或严密容器。任一项明显不符记本次未围成；看不清、未做或安全中止记未判定并说明原因，不自动算成功或理论反例。纸张误差导致V没围成不推翻理想V可展开；X某次没折成也不是单独的一般证明。",
+        "limits": "X按同向90度理想折叠时P5与P1、P6与P2占同一面位置，缺少另外两个方向的面。即使改变各折线的山/谷方向，五条铰链都相互平行，所有面仍沿共同的一个方向延伸，不能产生垂直于该共同方向的两个封口面；所以这排六格不是立方体展开图。只改纸上折向不能把平行铰链变成另一布局，不额外剪断或补格来冒称原图成功。 RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。",
+        "nextQuestion": "若换布局，除法向还要核哪些坐标与路径条件？"
+      },
+      "guide": {
+        "goal": "区分终态证明与实际路径",
+        "observe": "声明理想假设和实际条件",
+        "control": "V有效网固定为一列四格A、B、C、D从上到下，B是第二格，E在B左、F在B右；六格边长相同、整条边对齐连接。X反例是P1至P6从左到右一排六格，边长与V相同。仅角碰、错位短边接触或六块散纸都不是本题给定的连通布局。每格只代表一个理想正方形面，搭片、厚度和纸上外轮廓转角不另算面。 理想模型用无厚度边长1的刚性正方形，内部共边作铰链。B为底面，原点取B纸面左上角，u沿B向右、v沿B向下、z朝纸面上方；n约定为朝印字侧、闭合后朝内部的单位法向。上述纸右/纸下/纸上方轴序是左手坐标；n不是物理右手叉积u×v，物理叉积在此坐标为−n。V终态A在y=0、B在z=0、C在y=1、D在z=1、E在x=0、F在x=1，每面四角分别是对应单位方体面的四角；相对面AB不是一对，正确为BD、AC、EF。此处x/y/z是人为模型坐标，不是桌面方位或真实实测。 A4实际大小100%打印，每一页含日志本身在print-log-1/2/3记录100毫米核线实量和裁边；36行覆盖全套。成人在grid-check逐格量V六格和X六格各一条水平边、一条竖直边，记录毫米及复核。30毫米只是设计目标；本课操作筛查用29—31毫米且同格横竖差不超过1毫米，不是严格相等证明。超出、边线不清、剪断或裁失就停止试折，重印/按标定布局整页重画后重新测。量具不够或无实量写未量，不能估填。",
+        "support": "幼儿只做指认与两翼轻抬，不要求闭盒或矩阵。不能安全剪折就留纸上推演，记未做；不把绘图尺寸、模型单位与实测混用。",
+        "time": "35—50分钟；成人预制与量测另计，可分次。",
+        "recordFields": [
+          "理想假设与六面坐标",
+          "12边及面内不叠",
+          "终态和连续路径边界"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NRICH｜Christmas Boxes",
+          "url": "https://nrich.maths.org/problems/christmas-boxes",
+          "claim": "用六个等方格探索立方体展开图，并按完整边对齐连接考察布局。",
+          "scope": "2026-11-05实读78—102、134—151行。只支持探索方法；两幅特定布局由本课独立坐标校验，不搬机构图片，不要求穷举11种。"
+        },
+        {
+          "title": "Open University TESSA｜Practical ways from sheet to cube",
+          "url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=162567&section=2",
+          "claim": "展开图联系二维纸面与三维形状，可用虚线表示折、实线表示剪。",
+          "scope": "2026-11-05实读73—75行。安全剪裁、标号、尺寸、折序和记录均为本课原创，不把来源的实操建议当本课已试做。"
+        },
+        {
+          "title": "OpenStax｜Volume and Surface Area",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "立方体长宽高相等，具有六个正方形面。",
+          "scope": "2026-11-05实读82—92、180—190行；原来源仅支持概念，不单独证明本课两种展开布局。"
+        },
+        {
+          "title": "NSW Department of Education｜Net exploration – cube",
+          "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/mathematics/mathematics-curriculum-resources-k-12/thinking-mathematically-resources/mathematics-s2-s3-net-exploration-cube",
+          "claim": "文字稿明确描述一列四格、第二格左右各接一格的六格布局。",
+          "scope": "2026-11-05实读文字稿310—337行，未观看视频或复用模板。具体标号、30毫米纸件、坐标和安全折序独立编写，仍须核本课几何。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实读来源，纸件、两种布局计算、标号、操作和记录原创；原字段原样保留，不继承丢失审核或声称机构认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05按保存原稿重新创作，原字段全保留，不继承丢失旧审核。928协议与图纸、坐标静检不等于实际打印、儿童试用、安全认证或连续折叠碰撞验证；未做浏览器、整站构建或发布。纸厚、折痕和成人帮助都会影响结果，未做部分明确保留。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild243-13-16-1",
+          "description": "声明理想假设和实际条件。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 166,
+              "y": 124,
+              "text": "A",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 163,
+              "text": "B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 202,
+              "text": "C",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 241,
+              "text": "D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 163,
+              "text": "E",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 193,
+              "y2": 100,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 100,
+              "x2": 193,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 158.29,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 139.0,
+              "x2": 166.09,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 139.0,
+              "x2": 173.89,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 139.0,
+              "x2": 181.69,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 139.0,
+              "x2": 189.49,
+              "y2": 139.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 100,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 139.0,
+              "x2": 193.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 146.8,
+              "x2": 193.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 154.6,
+              "x2": 193.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 162.4,
+              "x2": 193.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193.0,
+              "y1": 170.2,
+              "x2": 193.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 178.0,
+              "x2": 158.29,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 178.0,
+              "x2": 166.09,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 178.0,
+              "x2": 173.89,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 178.0,
+              "x2": 181.69,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 178.0,
+              "x2": 189.49,
+              "y2": 178.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 139.0,
+              "x2": 154.0,
+              "y2": 143.29,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 146.8,
+              "x2": 154.0,
+              "y2": 151.09,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 154.6,
+              "x2": 154.0,
+              "y2": 158.89,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 162.4,
+              "x2": 154.0,
+              "y2": 166.69,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 170.2,
+              "x2": 154.0,
+              "y2": 174.49,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 193,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154.0,
+              "y1": 217.0,
+              "x2": 158.29,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 161.8,
+              "y1": 217.0,
+              "x2": 166.09,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 169.6,
+              "y1": 217.0,
+              "x2": 173.89,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177.4,
+              "y1": 217.0,
+              "x2": 181.69,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 185.2,
+              "y1": 217.0,
+              "x2": 189.49,
+              "y2": 217.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 178,
+              "x2": 154,
+              "y2": 217,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 217,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 256,
+              "x2": 193,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 217,
+              "x2": 154,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 154,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 178,
+              "x2": 154,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 115,
+              "y1": 139,
+              "x2": 115,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 139,
+              "x2": 232,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 139,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 193,
+              "y1": 178,
+              "x2": 232,
+              "y2": 178,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "无厚度、刚性、等边",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "边长1是模型单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "纸面毫米实量另记",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "终态不是连续路径",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-13-16-2",
+          "description": "逐面写终态坐标与朝向。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "B原点(0,0,0)",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "u向纸右 / v向纸下",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "z朝纸面上方",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "原点 / u / v / 法向",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "四角要逐项对应",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "六面位置各不相同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不用法向数代替位置",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-13-16-3",
+          "description": "核边闭合和面内不重叠。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "6个面位置 + 四角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "12条边各两面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "面内不叠 / 路径未验",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "十二空间边各遇两面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "面内部不能重合",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "只连通或只六面不够",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不是一般无碰撞证明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild243-13-16-4",
+          "description": "区分终态证明与实际路径。实外沿剪线与短虚内部折线不同，连通格仅为示意；真实30毫米母版另附，未显示已完成的实际试折。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 57,
+              "y": 179,
+              "text": "P1",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 179,
+              "text": "P2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 179,
+              "text": "P3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 186,
+              "y": 179,
+              "text": "P4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 229,
+              "y": 179,
+              "text": "P5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 179,
+              "text": "P6",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 88,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 155.0,
+              "x2": 88.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 163.6,
+              "x2": 88.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 172.2,
+              "x2": 88.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 180.8,
+              "x2": 88.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88.0,
+              "y1": 189.4,
+              "x2": 88.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 198,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 155,
+              "x2": 45,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 155,
+              "x2": 131,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 155.0,
+              "x2": 131.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 163.6,
+              "x2": 131.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 172.2,
+              "x2": 131.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 180.8,
+              "x2": 131.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131.0,
+              "y1": 189.4,
+              "x2": 131.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 198,
+              "x2": 131,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 155,
+              "x2": 174,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 155.0,
+              "x2": 174.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 163.6,
+              "x2": 174.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 172.2,
+              "x2": 174.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 180.8,
+              "x2": 174.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174.0,
+              "y1": 189.4,
+              "x2": 174.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 131,
+              "y1": 198,
+              "x2": 174,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 155,
+              "x2": 217,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 155.0,
+              "x2": 217.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 163.6,
+              "x2": 217.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 172.2,
+              "x2": 217.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 180.8,
+              "x2": 217.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217.0,
+              "y1": 189.4,
+              "x2": 217.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 198,
+              "x2": 217,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 155,
+              "x2": 260,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 155.0,
+              "x2": 260.0,
+              "y2": 159.73,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 163.6,
+              "x2": 260.0,
+              "y2": 168.33,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 172.2,
+              "x2": 260.0,
+              "y2": 176.93,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 180.8,
+              "x2": 260.0,
+              "y2": 185.53,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 189.4,
+              "x2": 260.0,
+              "y2": 194.13,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 217,
+              "y1": 198,
+              "x2": 260,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 155,
+              "x2": 303,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 303,
+              "y1": 155,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 198,
+              "x2": 303,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "实线剪外沿；短虚线只折不剪",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "铰链平行缺封口面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "山谷变化不改变此约束",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "计算与试折分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "未知与未做不补成已验",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

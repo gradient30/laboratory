@@ -16,13 +16,14 @@ export function assertDeploymentAllowed(policy, config, env) {
   assert.equal(env.CLOUDFLARE_ACCOUNT_ID, policy.accountId, 'Account ID differs from the approved target.');
   assert.equal(config.name, policy.workerName, 'Worker name differs from the approved target.');
   assert.match(policy.workerName, /^[a-z][a-z0-9-]{0,62}$/, 'Invalid approved Worker name.');
-  assert.equal(config.assets?.directory, './dist', 'Only the reviewed assets directory may be published.');
+  assert.equal(config.assets?.directory, './deployment-assets', 'Only the reviewed assets directory may be published.');
   assert.equal(config.workers_dev, true, 'Unexpected public Worker endpoint configuration.');
   if (policy.runtime === 'family-accounts') {
     assert.equal(policy.runtimeApproved, true, 'Account runtime has not been approved for activation.');
+    assert.deepEqual(config.build,{command:'npm run build:assets'},'Only the deterministic reviewed assets build is allowed.');
     assert.equal(config.main, 'worker/index.mjs', 'Only the reviewed account Worker entry is allowed.');
-    assert.deepEqual(config.assets, {directory:'./dist', binding:'ASSETS', run_worker_first:true}, 'Worker must authorize before the exact reviewed static asset binding.');
-    const permitted = new Set(['$schema','name','compatibility_date','workers_dev','assets','main','keep_vars','d1_databases','vars','triggers','durable_objects','migrations']);
+    assert.deepEqual(config.assets, {directory:'./deployment-assets', binding:'ASSETS', run_worker_first:true}, 'Worker must authorize before the exact reviewed static asset binding.');
+    const permitted = new Set(['$schema','name','compatibility_date','workers_dev','assets','main','keep_vars','d1_databases','vars','triggers','durable_objects','migrations','build']);
     for (const key of Object.keys(config)) assert.ok(permitted.has(key), `Unapproved account runtime setting: ${key}`);
     if('durable_objects' in config||'migrations' in config||'passwordHashing' in policy){
       assert.deepEqual(policy.passwordHashing,{approved:true,binding:'PASSWORD_HASHER',className:'PasswordHasher',migrationTag:'password-hasher-v1',storage:'sqlite',freeOnly:true},'Only explicitly approved Free password hashing is allowed.');

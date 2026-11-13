@@ -1,0 +1,3292 @@
+{
+  "activityId": 33,
+  "activityTitle": "袜子一一配对",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "洗净干燥袜子6只（不要求能穿成3双）",
+        "干净桌面1处；大纸2张标左组/右组；记录纸1张、铅笔1支"
+      ],
+      "safety": "只用洗净、干燥的袜子，在干净桌面操作；不用绳线、别针、衣夹或小珠，不把袜子套头或塞入口。纸标签大于手掌宽，预裁由成人完成，剪刀收好再操作。袜子颜色、花纹和大小不作数量相等的依据；这里配的是左右两组的数量对应，不要求真能穿成一双。",
+      "steps": [
+        {
+          "title": "把六只分到两组",
+          "action": "成人摆左组3只、右组3只，不堆叠。孩子逐只指认每只袜子；说明本次只问两组是否一样多，不按颜色挑穿着配对。",
+          "actor": "together",
+          "caption": "把六只分到两组",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "一边一只靠近摆",
+          "action": "孩子从左取1只、右取1只并排，摆成一行对应，直到不能再配；看看是否有剩下的。不需要先数总数。",
+          "actor": "together",
+          "caption": "每行两只，一边各一只。",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "拉开距离再配",
+          "action": "成人把原右组3只分散得更开，但不增减、不换组；孩子再一边一只配，观察有没有剩余。",
+          "actor": "together",
+          "caption": "拉开距离再配",
+          "adultNote": "分散仍留在桌面，不能因占地方多就偷偷加袜子。"
+        },
+        {
+          "title": "收走一只再检查",
+          "action": "成人从右组拿走1只放旁边明确的“暂不参加”区；参加活动的左3右2。孩子重新配，指出剩哪边；最后把被收走的放回核对全套6只。",
+          "actor": "together",
+          "caption": "移出的一只不参加这轮。",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一一配对",
+          "剩余与一样多",
+          "间距不是数量"
+        ],
+        "explanation": "每次从两组各取一只，若两边刚好都用完，就能判断参加配对的两组一样多。拉开位置不添袜子；移走一只则改变了参加的组。",
+        "limits": "这是有限实物对应，不按穿着匹配；成人指定组别，不能把旁边不参加的一只混进结果。",
+        "observation": "原两组、拉开后、右边移出一只后各有无剩余、剩哪边。",
+        "nextQuestion": "右边摆得更长，为什么不一定就是更多？"
+      },
+      "guide": {
+        "goal": "实际经历配对、只改间距、移出成员三种状态。",
+        "observe": "拉开右组与移出右组一只，哪一种会改变配对后有无剩余？",
+        "support": "成人分组并保管移出的袜子，孩子逐行指认，可口述代记。",
+        "control": "同6只袜子，拉开时组成员不变，最后一轮明确仅5只参加。",
+        "time": "约10分钟。",
+        "recordFields": [
+          "原组与拉开后是否有剩",
+          "移出一只后剩哪边",
+          "孩子的指认或画图"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sock-46-groups",
+          "description": "左右各3只未配。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "两组各3只，不按花纹配",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-46-pair",
+          "description": "三条对应示例。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每条线一边各一只",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 263,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-46-spread",
+          "description": "同3只左袜改变间距的等价位置示意。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "只拉开位置，不加袜子",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 250,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 278,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 160,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 270,
+              "x2": 410,
+              "y2": 263,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-46-remove",
+          "description": "右少一只，移出的仍在桌边不参加。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "右组收走1只；旁边不参加",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 545,
+              "y": 235,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 545,
+              "y": 263,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 520,
+              "y": 295,
+              "text": "移出",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "拉开右组与移出右组一只，哪一种会改变配对后有无剩余？",
+      "sources": [
+        {
+          "title": "NRICH｜The Sock Washing Line",
+          "url": "https://nrich.maths.org/eyfs-activities/sock-washing-line",
+          "claim": "以袜子找配对和计数的早期数学活动可支持数量与配对语言。",
+          "scope": "原活动包括按大小找袜子配对及晾衣线；本活动独立改成桌面两组数量对应，不用绳线、衣夹，也不声称原活动要求忽略袜子外形。"
+        },
+        {
+          "title": "Cornell Nuprl｜One-one Correspondence Introduction",
+          "url": "https://nuprl-web.cs.cornell.edu/sfa/Nuprl/eduprl/Xone_one_corr_intro.html",
+          "claim": "一一对应把两集合成员逐个配对，可在不先计总数时判断有限集合一样多；同一对集合可有不止一种对应。",
+          "scope": "只用于有限集合的一一对应概念。三元素枚举、附加允许配对规则及其有限反例是独立构造，不冒充该页给出的实验或完整匹配定理。"
+        }
+      ],
+      "sourceNote": "依据早期配对教学与有限集合一一对应概念独立构造桌面数学操作；未真实课堂试用，不代表机构认证。任务中的指定数量和规则是设定条件，不是捏造儿童表现；本主题不是自然科学实物性质实验。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "洗净干燥袜子8只",
+        "大纸3张，标左组/右组/暂不参加；记录纸1张、铅笔1支；干净桌面1处"
+      ],
+      "safety": "只用洗净、干燥的袜子，在干净桌面操作；不用绳线、别针、衣夹或小珠，不把袜子套头或塞入口。纸标签大于手掌宽，预裁由成人完成，剪刀收好再操作。袜子颜色、花纹和大小不作数量相等的依据；这里配的是左右两组的数量对应，不要求真能穿成一双。",
+      "steps": [
+        {
+          "title": "四对四建立起点",
+          "action": "摆左4右4；用每行左右各1只的方法检查没有剩。把各组放回各自纸区；后续每一步都记参加的两组，不拿旁边的补齐。",
+          "actor": "together",
+          "caption": "四对四建立起点",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "只换位置不换组",
+          "action": "将右4只排成弯曲长行，左4只紧凑排；重新对应并记剩余，所有袜子仍属原组。",
+          "actor": "together",
+          "caption": "只换位置不换组",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "转移一只，再恢复",
+          "action": "从左组移动1只到右组，形成左3右5，实际重新对应并记剩余数。随后把刚移动的那只送回左组，恢复4对4再核对。",
+          "actor": "together",
+          "caption": "转移一只，再恢复",
+          "adultNote": "移动到另一组不是从全套拿走；移一只会同时使一边减1、一边加1。"
+        },
+        {
+          "title": "移出与转移作比较",
+          "action": "从恢复的右4只中拿1只放“暂不参加”，形成左4右3；配对并记剩余。比较转移与移出的剩余数和参加总数是否相同，再收回全套8只。",
+          "actor": "together",
+          "caption": "移出与转移作比较",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "组成员与位置",
+          "转移改变两边",
+          "移出改变参加总数"
+        ],
+        "explanation": "一只从左组转到右组，会同时让左边少一只、右边多一只；拿到活动外只改变一边。可用真实对应检查差异，不靠两行长短判断。",
+        "limits": "只比较当前两组；全套8只库存与本轮参加的7只不是同一个总数。规定的数量状态是操作条件，观察记录仍由学习者完成。",
+        "observation": "换位置、转移、恢复、移出后的两边数与剩余数。",
+        "nextQuestion": "为什么转移一只与移出一只，配对后剩余的数量不一定相同？"
+      },
+      "guide": {
+        "goal": "实际区分位置变化、跨组转移和移出系统。",
+        "observe": "从4对4起点转移一只与移出一只，配对剩余和参加总数有什么不同？",
+        "support": "成人核对每轮恢复起点，孩子摆放并用对应检验。",
+        "control": "转移和移出都从4对4起点开始；暂不参加区不可回填。",
+        "time": "约15分钟。",
+        "recordFields": [
+          "各轮左/右参加数",
+          "各轮配对后剩余",
+          "转移与移出的参加总数"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sock-79-start",
+          "description": "四对四起点。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "左4只 / 右4只",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-79-position",
+          "description": "数量不变，位置可重排。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "各4只，只改位置",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-79-transfer",
+          "description": "转移后左3右5，数量为任务设定非观察结果。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "移左1只到右：左3 / 右5",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 240,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 268,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-79-remove",
+          "description": "恢复后移出右1只。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "恢复后移出右1只：左4 / 右3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 140,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 168,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 190,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 218,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 540,
+              "y": 240,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 540,
+              "y": 268,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 520,
+              "y": 295,
+              "text": "移出",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "从4对4起点转移一只与移出一只，配对剩余和参加总数有什么不同？",
+      "sources": [
+        {
+          "title": "NRICH｜The Sock Washing Line",
+          "url": "https://nrich.maths.org/eyfs-activities/sock-washing-line",
+          "claim": "以袜子找配对和计数的早期数学活动可支持数量与配对语言。",
+          "scope": "原活动包括按大小找袜子配对及晾衣线；本活动独立改成桌面两组数量对应，不用绳线、衣夹，也不声称原活动要求忽略袜子外形。"
+        },
+        {
+          "title": "Cornell Nuprl｜One-one Correspondence Introduction",
+          "url": "https://nuprl-web.cs.cornell.edu/sfa/Nuprl/eduprl/Xone_one_corr_intro.html",
+          "claim": "一一对应把两集合成员逐个配对，可在不先计总数时判断有限集合一样多；同一对集合可有不止一种对应。",
+          "scope": "只用于有限集合的一一对应概念。三元素枚举、附加允许配对规则及其有限反例是独立构造，不冒充该页给出的实验或完整匹配定理。"
+        }
+      ],
+      "sourceNote": "依据早期配对教学与有限集合一一对应概念独立构造桌面数学操作；未真实课堂试用，不代表机构认证。任务中的指定数量和规则是设定条件，不是捏造儿童表现；本主题不是自然科学实物性质实验。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "洗净干燥袜子6只；大纸标签6张（A/B/C与1/2/3，成人预裁，不用别针）",
+        "大纸左右组区各1张；记录纸2张、铅笔1支；干净桌面1处"
+      ],
+      "safety": "只用洗净、干燥的袜子，在干净桌面操作；不用绳线、别针、衣夹或小珠，不把袜子套头或塞入口。纸标签大于手掌宽，预裁由成人完成，剪刀收好再操作。袜子颜色、花纹和大小不作数量相等的依据；这里配的是左右两组的数量对应，不要求真能穿成一双。",
+      "steps": [
+        {
+          "title": "六只袜子各有唯一名字",
+          "action": "左3只旁放A/B/C标签，右3只旁放1/2/3；全过程标签与袜子一起移动。任意左袜可与任意右袜配，不按颜色或尺寸增加规则。",
+          "actor": "together",
+          "caption": "六只袜子各有唯一名字",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "固定A的搭档列全余下安排",
+          "action": "先将A与1靠近；用B/C与2/3实际摆两种不同安排。每摆完一次，按A、B、C顺序记录右侧编号三元组，再拆开；同一个右编号一次不能用两遍。",
+          "actor": "together",
+          "caption": "固定A的搭档列全余下安排",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "换A的搭档完成枚举",
+          "action": "将A固定为2，再摆剩余两只的所有安排；然后A固定为3重复。每种都实际摆出来，按固定顺序记录，不把左右排位变化但搭档未变重复算。",
+          "actor": "together",
+          "caption": "换A的搭档完成枚举",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "检查是否遗漏或重复",
+          "action": "用记录逐一重摆抽查；按A有3种、定A后B有2种、最后C仅1种解释为什么应有3×2×1种。若实摆记录不足或重复，指出并修正，保留原错误痕迹。",
+          "actor": "together",
+          "caption": "检查是否遗漏或重复",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一一对应不唯一",
+          "系统枚举",
+          "乘法计数与完备性"
+        ],
+        "explanation": "三只左袜与三只右袜自由一一配对，A可选3只；选定后B只剩2只；C只能取最后1只。系统分组可证明枚举完整，不只是碰巧尝试很多次。",
+        "limits": "结论只适用于三对且任意配均允许的标记物；花纹或穿着限制不在本模型。数学推导不是一次物理实验的统计结论。",
+        "observation": "实际摆出的A/B/C对应三元组、重复项、遗漏及检查理由。",
+        "nextQuestion": "只移动整行位置而搭档没变，算新的一种配对吗？"
+      },
+      "guide": {
+        "goal": "以实物穷举三元素自由对应，给出无漏无重理由。",
+        "observe": "三对有唯一标签的袜子自由一一对应时，怎样实摆并证明没有漏掉或重复？",
+        "support": "成人守住标签不脱离袜子，学习者按A分支逐种操作。",
+        "control": "固定A/B/C记录顺序；每个右编号只用一次；所有搭档均允许。",
+        "time": "约20分钟。",
+        "recordFields": [
+          "按A分组的实际三元组",
+          "重复或遗漏修正",
+          "为何枚举完整"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sock-1012-label",
+          "description": "左右三只各有唯一标签。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "A/B/C与1/2/3；任意可配",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1012-a1",
+          "description": "A固定1，其余两个可换。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先固定A→1；B/C交换检验",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 263,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1012-a2",
+          "description": "示意A固定2，余下自由安排。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "再固定A→2，然后A→3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1012-audit",
+          "description": "实物抽查而非预填所有答案。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "按A/B/C顺序记，不重复使用",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "三对有唯一标签的袜子自由一一对应时，怎样实摆并证明没有漏掉或重复？",
+      "sources": [
+        {
+          "title": "NRICH｜The Sock Washing Line",
+          "url": "https://nrich.maths.org/eyfs-activities/sock-washing-line",
+          "claim": "以袜子找配对和计数的早期数学活动可支持数量与配对语言。",
+          "scope": "原活动包括按大小找袜子配对及晾衣线；本活动独立改成桌面两组数量对应，不用绳线、衣夹，也不声称原活动要求忽略袜子外形。"
+        },
+        {
+          "title": "Cornell Nuprl｜One-one Correspondence Introduction",
+          "url": "https://nuprl-web.cs.cornell.edu/sfa/Nuprl/eduprl/Xone_one_corr_intro.html",
+          "claim": "一一对应把两集合成员逐个配对，可在不先计总数时判断有限集合一样多；同一对集合可有不止一种对应。",
+          "scope": "只用于有限集合的一一对应概念。三元素枚举、附加允许配对规则及其有限反例是独立构造，不冒充该页给出的实验或完整匹配定理。"
+        }
+      ],
+      "sourceNote": "依据早期配对教学与有限集合一一对应概念独立构造桌面数学操作；未真实课堂试用，不代表机构认证。任务中的指定数量和规则是设定条件，不是捏造儿童表现；本主题不是自然科学实物性质实验。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "洗净干燥袜子6只；大纸标签6张（A/B/C与1/2/3，成人预裁，不用别针）",
+        "大纸左右组区各1张；记录纸2张、铅笔1支；干净桌面1处",
+        "成人预写大规则卡2张：I为A可1或2、B只可1、C可2或3；II为A只可1、B只可1、C可2或3"
+      ],
+      "safety": "只用洗净、干燥的袜子，在干净桌面操作；不用绳线、别针、衣夹或小珠，不把袜子套头或塞入口。纸标签大于手掌宽，预裁由成人完成，剪刀收好再操作。袜子颜色、花纹和大小不作数量相等的依据；这里配的是左右两组的数量对应，不要求真能穿成一双。",
+      "steps": [
+        {
+          "title": "先区分等量与允许搭档",
+          "action": "把6袜分别标A/B/C、1/2/3；先自由配一次核两边等量。读卡I，逐条把允许关系指给同伴看，颜色大小不另加规则；之后每个配对必须满足卡且右编号不可重复用。",
+          "actor": "together",
+          "caption": "先区分等量与允许搭档",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "故意试一个会卡住的起手",
+          "action": "按卡I先把A配1，再尝试为B找未占用的允许搭档；停下来记录这次卡住的位置，不立即宣布无解。拆开A的搭档，尝试另一允许项并完成全部三对；把实际修改过程写下。",
+          "actor": "together",
+          "caption": "故意试一个会卡住的起手",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "换规则后找不能完成的理由",
+          "action": "换卡II，重新从未配状态开始。实际尝试A与B的允许位置；指出两者都被限定只能1，不能同时占用同一袜子。C的两种选择不能修复这个冲突。不用反复试到疲倦来代替理由。",
+          "actor": "together",
+          "caption": "换规则后找不能完成的理由",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        },
+        {
+          "title": "写两个不同的结论",
+          "action": "对卡I记录一次失败开局与修正后的完整合法对应；对卡II给出“两个对象被限制在同一个唯一位置”的有限证明。区分“一次尝试失败”和“所有允许安排都不可能”，不要推广为两组等量总能配成。",
+          "actor": "together",
+          "caption": "写两个不同的结论",
+          "adultNote": "不替孩子填结果；用实物核对规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "允许关系与约束",
+          "失败尝试不是不存在证明",
+          "有限反例与局部冲突"
+        ],
+        "explanation": "两组一样多保证自由配对可行，但添加搭档限制后可能失败。卡I的错误起手可经重配修正；卡II中A和B都只能选1，违反每个右对象只用一次，因而无法完成全部对应。",
+        "limits": "两张规则卡是独立构造的有限数学实例，不是抽样统计，也不是对所有匹配问题的完整定理。证明依赖规则逐项准确读取，不依赖袜子的真实用途。",
+        "observation": "I的失败起手/重配与合法性检查，II的冲突对象及其唯一允许位置。",
+        "nextQuestion": "一个人试了很多次都失败，为什么仍不等于已经证明任何配法都失败？"
+      },
+      "guide": {
+        "goal": "实际执行受约束匹配与重配，并用局部冲突证明一例不可能。",
+        "observe": "相同的3对3对象，改变允许搭档后，怎样区别可修复的失败起手和真正不可能完成？",
+        "support": "成人检查规则卡抄写正确，学习者操作与写证明，不替其把试错当证明。",
+        "control": "两卡只改变A允许集合，袜子数、标签和一对一限制不变；切换卡先全部拆开。",
+        "time": "约25分钟。",
+        "recordFields": [
+          "卡I起手失败与重配",
+          "完成对应的逐条合法核对",
+          "卡II冲突证明",
+          "尝试失败与不存在的区别"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sock-1316-rules",
+          "description": "线表示规则I允许关系，不是同时完成配对。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "卡I：线是允许关系，不是答案",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 263,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1316-greedy",
+          "description": "刻意起手A配1，B待重配。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先试A→1；为B找未占用位置",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1316-impossible",
+          "description": "线是卡II允许关系，A/B都仅允许1。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "卡II：A与B都只允许1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 167,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 215,
+              "x2": 410,
+              "y2": 167,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 215,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 263,
+              "x2": 410,
+              "y2": 263,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sock-1316-compare",
+          "description": "拆开重检规则与记录，不预填学习者安排。袜形只代表桌面干净袜子，线代表计划的一一对应或允许关系；不是已观察到的学习结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "检查每条规则，再写可能/不可能理由",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 173,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 221,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 269,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 147,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 175,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 173,
+              "text": "1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 195,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 223,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 221,
+              "text": "2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 243,
+              "width": 20,
+              "height": 28,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 271,
+              "width": 38,
+              "height": 14,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 269,
+              "text": "3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "相同的3对3对象，改变允许搭档后，怎样区别可修复的失败起手和真正不可能完成？",
+      "sources": [
+        {
+          "title": "NRICH｜The Sock Washing Line",
+          "url": "https://nrich.maths.org/eyfs-activities/sock-washing-line",
+          "claim": "以袜子找配对和计数的早期数学活动可支持数量与配对语言。",
+          "scope": "原活动包括按大小找袜子配对及晾衣线；本活动独立改成桌面两组数量对应，不用绳线、衣夹，也不声称原活动要求忽略袜子外形。"
+        },
+        {
+          "title": "Cornell Nuprl｜One-one Correspondence Introduction",
+          "url": "https://nuprl-web.cs.cornell.edu/sfa/Nuprl/eduprl/Xone_one_corr_intro.html",
+          "claim": "一一对应把两集合成员逐个配对，可在不先计总数时判断有限集合一样多；同一对集合可有不止一种对应。",
+          "scope": "只用于有限集合的一一对应概念。三元素枚举、附加允许配对规则及其有限反例是独立构造，不冒充该页给出的实验或完整匹配定理。"
+        }
+      ],
+      "sourceNote": "依据早期配对教学与有限集合一一对应概念独立构造桌面数学操作；未真实课堂试用，不代表机构认证。任务中的指定数量和规则是设定条件，不是捏造儿童表现；本主题不是自然科学实物性质实验。"
+    }
+  }
+}

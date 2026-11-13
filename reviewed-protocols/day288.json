@@ -1,0 +1,2260 @@
+{
+  "activityId": 288,
+  "activityTitle": "同一支笔换观察方向",
+  "contentKey": "phys-038",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "三个位置我看到了什么？",
+      "materials": [
+        "容量至少250毫升透明塑料杯；水100毫升；铅笔；记录纸和笔；计时器；托盘",
+        "成人安全核验用圆钝塑料直尺；仅在杯外核对实际水深，不作为新实验。可靠杯身资料可代替；容量/100mL/水深任一不明即未做。",
+        "选页：preschool、check-4-6、conclusion-4-6；公共safety/setup/method及qualification，reference最后读。"
+      ],
+      "safety": "成人全程近距离陪伴。仅用完好透明塑料杯，容量至少250mL；常温清水恰100mL且实际水深不超过5cm，三项同时核实，任一未知或不满足则记未做，不擅自减水代替原题。杯放稳在托盘内，远离桌边、电器和插座，不喝水。成人插笔、稳笔、取笔；笔尖朝下浸水，钝端朝上且远离脸，不指人，不掰笔。不用玻璃、不增加强光。手湿先擦干再碰纸笔或计时器；不攀爬、不把脸凑近笔端、不把杯举到眼前。杯倾斜、笔滑动、水洒、视线不舒适或儿童疲倦即停，成人收水。",
+      "steps": [
+        {
+          "title": "杯侧看到什么",
+          "caption": "杯侧看到什么",
+          "action": "成人按safety/setup完成资格并稳笔，幼儿按method从A看，在preschool第一框指画；不要求读数或画标准弯笔。",
+          "actor": "together",
+          "adultNote": "成人先用可靠杯身容量标识或资料核实容量至少250mL，用可靠100mL刻度核实水量；无可靠刻度则未做。安全核验另备圆钝塑料直尺，仅成人在杯外对齐杯内底与水面高度差，确认水深≤5cm，不从桌面或杯外底起算。杯底厚、弯曲、刻度或水面看不清，或视差/杯壁误差使是否超过5cm不能确认，则深度未知并停止，不冒充精确读数；可靠杯身资料可代替，记录依据。尺只核安全，不是新增光学实验。成人将铅笔斜放稳住，预选A杯侧、B舒适较高、C另一侧三个可在地面安全到达的位置。不能安全换位则未做，不登椅、不俯脸贴杯；固定杯、笔和水位。"
+        },
+        {
+          "title": "换较高位置看看",
+          "caption": "换较高位置看看",
+          "action": "成人引导安全换位B，杯笔水不动，幼儿第二框指画或口述；不能安全到达则未做。",
+          "actor": "together",
+          "adultNote": "成人陪同换到舒适较高位置，双脚在地面；孩子只指画B。"
+        },
+        {
+          "title": "另一侧再留原图",
+          "caption": "另一侧再留原图",
+          "action": "成人陪到C位置，幼儿第三框指画，不同、相同和看不清都保留。",
+          "actor": "together",
+          "adultNote": "成人陪到另一侧，杯笔水不变，孩子只指画C。"
+        },
+        {
+          "title": "成人取笔再核对",
+          "caption": "成人取笔再核对",
+          "action": "成人取出并检查笔，幼儿指认外观并口述，check-4-6由成人代记；不用角度或公式。",
+          "actor": "adult",
+          "adultNote": "仅成人取笔核对；幼儿口述与指画即可，不要求角度、读数或计算。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "换位置观察",
+          "所见与实物"
+        ],
+        "explanation": "水中笔不同位置的光经过界面进入眼睛，所见位置可能改变。真实杯的水面、曲壁和厚度带来复杂路径；不能预定所有视位的弯折形状。",
+        "limits": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。",
+        "observation": "幼儿只指画A杯侧、B较高、C另一侧三个所见，成人取笔核对外观；不要求用角度或公式解释。",
+        "nextQuestion": "哪幅是你亲眼看到的？"
+      },
+      "guide": {
+        "goal": "成人取笔再核对",
+        "observe": "杯侧看到什么",
+        "control": "成人固定杯笔和水位，只换安全观察位置；晃动或路径未知如实写。",
+        "support": "幼儿可指画，成人读与代记、计时并操作水杯和铅笔，不追求预期现象。",
+        "time": "5—10分钟",
+        "recordFields": [
+          "成人稳杯笔和取笔",
+          "杯笔水位都不变",
+          "三幅图可指可画",
+          "不要求角度计算"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        }
+      ],
+      "sourceNote": "实读OpenStax折射与章节摘要；流程和纸题原创，无实物或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "view288-4-6-1",
+          "description": "杯侧看到什么；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "杯侧看到什么",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 187,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "A杯侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人稳杯笔和取笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯笔水位都不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "三幅图可指可画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求角度计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-4-6-2",
+          "description": "换较高位置看看；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "换较高位置看看",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 290,
+              "y": 125,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "B较高处看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人稳杯笔和取笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯笔水位都不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "三幅图可指可画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求角度计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-4-6-3",
+          "description": "另一侧再留原图；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "另一侧再留原图",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 292,
+              "y": 213,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "C另一侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人稳杯笔和取笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯笔水位都不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "三幅图可指可画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求角度计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-4-6-4",
+          "description": "成人取笔再核对；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "成人取笔再核对",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 145,
+              "text": "成人取出笔",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 186,
+              "text": "托盘外干燥处核对外观",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 227,
+              "text": "不掰笔，不要求折弯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 266,
+              "text": "实录与解释分别留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人稳杯笔和取笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯笔水位都不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "三幅图可指可画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求角度计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "只换位置时所见怎样？",
+      "materials": [
+        "容量至少250毫升透明塑料杯；水100毫升；铅笔；记录纸和笔；计时器；托盘",
+        "成人安全核验用圆钝塑料直尺；仅在杯外核对实际水深，不作为新实验。可靠杯身资料可代替；容量/100mL/水深任一不明即未做。",
+        "选页：setup/prediction/actual/drawing/check/compare/conclusion-7-9、control-audit；公共safety/setup/method及qualification，reference最后读。"
+      ],
+      "safety": "成人全程近距离陪伴。仅用完好透明塑料杯，容量至少250mL；常温清水恰100mL且实际水深不超过5cm，三项同时核实，任一未知或不满足则记未做，不擅自减水代替原题。杯放稳在托盘内，远离桌边、电器和插座，不喝水。成人插笔、稳笔、取笔；笔尖朝下浸水，钝端朝上且远离脸，不指人，不掰笔。不用玻璃、不增加强光。手湿先擦干再碰纸笔或计时器；不攀爬、不把脸凑近笔端、不把杯举到眼前。杯倾斜、笔滑动、水洒、视线不舒适或儿童疲倦即停，成人收水。",
+      "steps": [
+        {
+          "title": "预测后固定杯笔水",
+          "caption": "预测后固定杯笔水",
+          "action": "setup-7-9和prediction-7-9预记三视位，成人执行全部安全核验；不先看reference，不预画弯折。",
+          "actor": "together",
+          "adultNote": "成人先用可靠杯身容量标识或资料核实容量至少250mL，用可靠100mL刻度核实水量；无可靠刻度则未做。安全核验另备圆钝塑料直尺，仅成人在杯外对齐杯内底与水面高度差，确认水深≤5cm，不从桌面或杯外底起算。杯底厚、弯曲、刻度或水面看不清，或视差/杯壁误差使是否超过5cm不能确认，则深度未知并停止，不冒充精确读数；可靠杯身资料可代替，记录依据。尺只核安全，不是新增光学实验。成人将铅笔斜放稳住，预选A杯侧、B舒适较高、C另一侧三个可在地面安全到达的位置。不能安全换位则未做，不登椅、不俯脸贴杯；固定杯、笔和水位。"
+        },
+        {
+          "title": "依次留三视原记录",
+          "caption": "依次留三视原记录",
+          "action": "actual-7-9和drawing-7-9按method记录A/B/C，control-audit写杯笔水变化，不把图差异叫笔真的折断。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "比较方向与所见",
+          "caption": "比较方向与所见",
+          "action": "compare-7-9逐对引用原图，说相同/不同/看不清；若杯笔移动，承认不是只变眼位。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "外观核对后有限结论",
+          "caption": "外观核对后有限结论",
+          "action": "成人取笔，check-7-9记录取出前后；conclusion-7-9说明看到的形状与实物外观可不同，不许强称所有视角弯折。",
+          "actor": "adult",
+          "adultNote": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "对应比较",
+          "固定条件"
+        ],
+        "explanation": "水中笔不同位置的光经过界面进入眼睛，所见位置可能改变。真实杯的水面、曲壁和厚度带来复杂路径；不能预定所有视位的弯折形状。",
+        "limits": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。",
+        "observation": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。",
+        "nextQuestion": "哪些东西一直没动？"
+      },
+      "guide": {
+        "goal": "外观核对后有限结论",
+        "observe": "预测后固定杯笔水",
+        "control": "成人固定杯笔和水位，只换安全观察位置；晃动或路径未知如实写。",
+        "support": "幼儿可指画，成人读与代记、计时并操作水杯和铅笔，不追求预期现象。",
+        "time": "10—15分钟",
+        "recordFields": [
+          "只换观察位置",
+          "原图不改成标准弯笔",
+          "无差别也有效",
+          "成人取笔核对"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        }
+      ],
+      "sourceNote": "实读OpenStax折射与章节摘要；流程和纸题原创，无实物或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "view288-7-9-1",
+          "description": "预测后固定杯笔水；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预测后固定杯笔水",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 187,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "A杯侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只换观察位置",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原图不改成标准弯笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无差别也有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人取笔核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-7-9-2",
+          "description": "依次留三视原记录；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "依次留三视原记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 290,
+              "y": 125,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "B较高处看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只换观察位置",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原图不改成标准弯笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无差别也有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人取笔核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-7-9-3",
+          "description": "比较方向与所见；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较方向与所见",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 292,
+              "y": 213,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "C另一侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只换观察位置",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原图不改成标准弯笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无差别也有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人取笔核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-7-9-4",
+          "description": "外观核对后有限结论；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "外观核对后有限结论",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 145,
+              "text": "成人取出笔",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 186,
+              "text": "托盘外干燥处核对外观",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 227,
+              "text": "不掰笔，不要求折弯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 266,
+              "text": "实录与解释分别留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只换观察位置",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原图不改成标准弯笔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无差别也有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人取笔核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "哪些解释超出真实杯证据？",
+      "materials": [
+        "容量至少250毫升透明塑料杯；水100毫升；铅笔；记录纸和笔；计时器；托盘",
+        "成人安全核验用圆钝塑料直尺；仅在杯外核对实际水深，不作为新实验。可靠杯身资料可代替；容量/100mL/水深任一不明即未做。",
+        "选页：setup/prediction/actual/drawing/check/conclusion-10-12、control-audit、claim-input/work、route-work、model-gap-10-12；公共safety/setup/method及qualification，reference最后读。"
+      ],
+      "safety": "成人全程近距离陪伴。仅用完好透明塑料杯，容量至少250mL；常温清水恰100mL且实际水深不超过5cm，三项同时核实，任一未知或不满足则记未做，不擅自减水代替原题。杯放稳在托盘内，远离桌边、电器和插座，不喝水。成人插笔、稳笔、取笔；笔尖朝下浸水，钝端朝上且远离脸，不指人，不掰笔。不用玻璃、不增加强光。手湿先擦干再碰纸笔或计时器；不攀爬、不把脸凑近笔端、不把杯举到眼前。杯倾斜、笔滑动、水洒、视线不舒适或儿童疲倦即停，成人收水。",
+      "steps": [
+        {
+          "title": "预记路径与固定条件",
+          "caption": "预记路径与固定条件",
+          "action": "setup/prediction-10-12写眼位、杯壁和水面可能影响；不要求量角，路径看不清则未知。",
+          "actor": "together",
+          "adultNote": "成人先用可靠杯身容量标识或资料核实容量至少250mL，用可靠100mL刻度核实水量；无可靠刻度则未做。安全核验另备圆钝塑料直尺，仅成人在杯外对齐杯内底与水面高度差，确认水深≤5cm，不从桌面或杯外底起算。杯底厚、弯曲、刻度或水面看不清，或视差/杯壁误差使是否超过5cm不能确认，则深度未知并停止，不冒充精确读数；可靠杯身资料可代替，记录依据。尺只核安全，不是新增光学实验。成人将铅笔斜放稳住，预选A杯侧、B舒适较高、C另一侧三个可在地面安全到达的位置。不能安全换位则未做，不登椅、不俯脸贴杯；固定杯、笔和水位。"
+        },
+        {
+          "title": "保留三视并查偏移",
+          "caption": "保留三视并查偏移",
+          "action": "actual/drawing-10-12按method记形状，control-audit查杯/笔/水是否动；成人取笔在check-10-12记外观。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "审计光路解释",
+          "caption": "审计光路解释",
+          "action": "claim-input给三项过强推断，在claim-work审计；route-work记视线可能经过水面/杯壁/不清楚，不能只凭视位断定唯一路径。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "区分真实杯与平面图",
+          "caption": "区分真实杯与平面图",
+          "action": "model-gap-10-12说明曲面厚度、观察路径和反射的省略；conclusion引用原图与来源，不用近轴视深替代全部成像。",
+          "actor": "adult",
+          "adultNote": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "路径与证据",
+          "模型限制"
+        ],
+        "explanation": "水中笔不同位置的光经过界面进入眼睛，所见位置可能改变。真实杯的水面、曲壁和厚度带来复杂路径；不能预定所有视位的弯折形状。",
+        "limits": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。",
+        "observation": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。",
+        "nextQuestion": "怎样判断所见差异不是杯笔移动造成？"
+      },
+      "guide": {
+        "goal": "区分真实杯与平面图",
+        "observe": "预记路径与固定条件",
+        "control": "成人固定杯笔和水位，只换安全观察位置；晃动或路径未知如实写。",
+        "support": "幼儿可指画，成人读与代记、计时并操作水杯和铅笔，不追求预期现象。",
+        "time": "15—20分钟",
+        "recordFields": [
+          "路径未知就写未知",
+          "杯壁不等于单平面",
+          "原图与解释分开",
+          "偏移破坏单变量"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        }
+      ],
+      "sourceNote": "实读OpenStax折射与章节摘要；流程和纸题原创，无实物或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "view288-10-12-1",
+          "description": "预记路径与固定条件；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预记路径与固定条件",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 187,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "A杯侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "路径未知就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯壁不等于单平面",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "原图与解释分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "偏移破坏单变量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-10-12-2",
+          "description": "保留三视并查偏移；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留三视并查偏移",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 290,
+              "y": 125,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "B较高处看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "路径未知就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯壁不等于单平面",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "原图与解释分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "偏移破坏单变量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-10-12-3",
+          "description": "审计光路解释；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审计光路解释",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 292,
+              "y": 213,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "C另一侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "路径未知就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯壁不等于单平面",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "原图与解释分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "偏移破坏单变量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-10-12-4",
+          "description": "区分真实杯与平面图；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "区分真实杯与平面图",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 145,
+              "text": "成人取出笔",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 186,
+              "text": "托盘外干燥处核对外观",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 227,
+              "text": "不掰笔，不要求折弯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 266,
+              "text": "实录与解释分别留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "路径未知就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "杯壁不等于单平面",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "原图与解释分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "偏移破坏单变量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "单平面近似为何不是完整杯像？",
+      "materials": [
+        "容量至少250毫升透明塑料杯；水100毫升；铅笔；记录纸和笔；计时器；托盘",
+        "成人安全核验用圆钝塑料直尺；仅在杯外核对实际水深，不作为新实验。可靠杯身资料可代替；容量/100mL/水深任一不明即未做。",
+        "选页：setup/prediction/actual/drawing/check/conclusion-13-16、control-audit、model-input/work、ray-work/drawing、derive-work、limits-work；公共safety/setup/method及qualification，reference最后读。"
+      ],
+      "safety": "成人全程近距离陪伴。仅用完好透明塑料杯，容量至少250mL；常温清水恰100mL且实际水深不超过5cm，三项同时核实，任一未知或不满足则记未做，不擅自减水代替原题。杯放稳在托盘内，远离桌边、电器和插座，不喝水。成人插笔、稳笔、取笔；笔尖朝下浸水，钝端朝上且远离脸，不指人，不掰笔。不用玻璃、不增加强光。手湿先擦干再碰纸笔或计时器；不攀爬、不把脸凑近笔端、不把杯举到眼前。杯倾斜、笔滑动、水洒、视线不舒适或儿童疲倦即停，成人收水。",
+      "steps": [
+        {
+          "title": "先封存真实杯三视",
+          "caption": "先封存真实杯三视",
+          "action": "完成setup/prediction/actual/drawing-13-16及control-audit，成人取笔记录check-13-16；之后才做model-input，不回填实录。",
+          "actor": "together",
+          "adultNote": "成人先用可靠杯身容量标识或资料核实容量至少250mL，用可靠100mL刻度核实水量；无可靠刻度则未做。安全核验另备圆钝塑料直尺，仅成人在杯外对齐杯内底与水面高度差，确认水深≤5cm，不从桌面或杯外底起算。杯底厚、弯曲、刻度或水面看不清，或视差/杯壁误差使是否超过5cm不能确认，则深度未知并停止，不冒充精确读数；可靠杯身资料可代替，记录依据。尺只核安全，不是新增光学实验。成人将铅笔斜放稳住，预选A杯侧、B舒适较高、C另一侧三个可在地面安全到达的位置。不能安全换位则未做，不登椅、不俯脸贴杯；固定杯、笔和水位。"
+        },
+        {
+          "title": "建立单平面折射另题",
+          "caption": "建立单平面折射另题",
+          "action": "model-input给h=3cm及水折射率4/3，空气1，θw从法线量；model-work判四条构造光线是否可透射并计算角度。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "反向延长但不当实光",
+          "caption": "反向延长但不当实光",
+          "action": "ray-work求Q与单射线反向截轴深度，ray-drawing画实段与虚延长；derive-work推近轴极限，50度例不强求不存在的透射角。",
+          "actor": "together",
+          "adultNote": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。"
+        },
+        {
+          "title": "比较近轴与真实成像",
+          "caption": "比较近轴与真实成像",
+          "action": "limits-work比较不同射线截轴深度不相同；平面近轴近似不是杯中笔完整像，conclusion分开实录、模型、未知。",
+          "actor": "adult",
+          "adultNote": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "斯涅尔定律",
+          "近轴与虚延长"
+        ],
+        "explanation": "水中笔不同位置的光经过界面进入眼睛，所见位置可能改变。真实杯的水面、曲壁和厚度带来复杂路径；不能预定所有视位的弯折形状。",
+        "limits": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。",
+        "observation": "成人按setup备杯，先确认铅笔外观完整，斜置并稳住。A从杯侧看约5秒，另画水线上下的笔；B只换到较高舒适位置看约5秒，另画；C安全走到另一侧看约5秒，再画。成人稳杯笔，三次不换水量、不转杯或笔；若晃动/滑笔/水位变，保留记录并标不可作单变量比较，不重复追求弯折。可记录无差别、看不清或未做。最后成人取笔到托盘外干燥处核对完整外观，不掰笔，不要求孩子接湿笔。",
+        "nextQuestion": "何时不同射线的虚延长不共用同一截轴点？"
+      },
+      "guide": {
+        "goal": "比较近轴与真实成像",
+        "observe": "先封存真实杯三视",
+        "control": "成人固定杯笔和水位，只换安全观察位置；晃动或路径未知如实写。",
+        "support": "幼儿可指画，成人读与代记、计时并操作水杯和铅笔，不追求预期现象。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "平面另题非杯壁",
+          "角从界面法线量",
+          "虚延长不是实光",
+          "近轴近似有边界"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "概念支持，不认证杯壁路径、家庭实测或本构造题。",
+          "claim": "不同介质界面可改变光线方向，角度从法线测量。"
+        }
+      ],
+      "sourceNote": "实读OpenStax折射与章节摘要；流程和纸题原创，无实物或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未做实物、儿童或打印测试，无安全或课程认证。真实杯有曲壁、厚度、折射及反射等多条可能路径；改变观察方向不保证每次都见明显折弯或大小排序。所见与取出外观记录分开，不能仅凭影像证明内部绝无损伤。13—16平面水气界面是另题，忽略杯壁，不能解释所有实际成像；近轴视深只是近似，不是任意角度的精确公式。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "view288-13-16-1",
+          "description": "先封存真实杯三视；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先封存真实杯三视",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 143,
+              "width": 106,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 127,
+              "y1": 190,
+              "x2": 229,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 239,
+              "x2": 209,
+              "y2": 119,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 276,
+              "text": "杯笔水位保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 123,
+              "text": "仅布置示意",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 187,
+              "r": 7,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 290,
+              "text": "A杯侧看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "平面另题非杯壁",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "角从界面法线量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "虚延长不是实光",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近轴近似有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-13-16-2",
+          "description": "建立单平面折射另题；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "建立单平面折射另题",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 143,
+              "text": "单平面：水 → 空气",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "n水 sinθ水 = n气 sinθ气",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 219,
+              "text": "反向截轴 ≠ 所有像点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 257,
+              "text": "超临界不强求透射角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "平面另题非杯壁",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "角从界面法线量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "虚延长不是实光",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近轴近似有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-13-16-3",
+          "description": "反向延长但不当实光；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "反向延长但不当实光",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 143,
+              "text": "单平面：水 → 空气",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "n水 sinθ水 = n气 sinθ气",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 219,
+              "text": "反向截轴 ≠ 所有像点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 257,
+              "text": "超临界不强求透射角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "平面另题非杯壁",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "角从界面法线量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "虚延长不是实光",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近轴近似有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "view288-13-16-4",
+          "description": "比较近轴与真实成像；安全布置或模型提示，不是预测笔形或精确光路。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较近轴与真实成像",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 285,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 145,
+              "text": "成人取出笔",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 186,
+              "text": "托盘外干燥处核对外观",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 227,
+              "text": "不掰笔，不要求折弯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 266,
+              "text": "实录与解释分别留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "平面另题非杯壁",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "角从界面法线量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "虚延长不是实光",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近轴近似有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

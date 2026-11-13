@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {checkAgeProtocols} from './check-age-protocols.mjs';
+const data=JSON.parse(fs.readFileSync(new URL('../dist/data.json',import.meta.url)));
+const identities=JSON.parse(fs.readFileSync(new URL('./activity-identities.json',import.meta.url)));
+test('every currently authored protocol passes the shared structure and frozen identity contract',()=>{const result=checkAgeProtocols(data,identities,{requireComplete:false});assert.equal(result.passed,true,result.errors.join('\n'));assert.equal(result.explicitValidProtocols,data.experiments.filter(e=>e.ageProtocols).length*4);});
+test('an unmigrated year cannot pass the complete publication gate',()=>{const copy=structuredClone(data);for(const e of copy.experiments)delete e.ageProtocols;const r=checkAgeProtocols(copy,identities);assert.equal(r.passed,false);assert.equal(r.missingActivityIds.length,365);assert.equal(r.explicitValidProtocols,0);});
+test('partial development audit is explicitly labelled, never production readiness',()=>{const copy=structuredClone(data);for(const e of copy.experiments)delete e.ageProtocols;const r=checkAgeProtocols(copy,identities,{requireComplete:false});assert.equal(r.passed,true);assert.equal(r.requireComplete,false);assert.equal(r.productionReady,false);});
+test('development mode still refuses replaced identities or missing activity rows',()=>{const copy=structuredClone(data);copy.experiments[0].contentKey='replacement';copy.experiments.pop();const r=checkAgeProtocols(copy,identities,{requireComplete:false});assert.equal(r.passed,false);assert.ok(r.errors.some(x=>x.includes('Frozen identity')));});
+test('malformed protocol never becomes legacy fallback',()=>{const copy=structuredClone(data);copy.experiments[0].ageProtocols={'4-6':{}};assert.equal(checkAgeProtocols(copy,identities,{requireComplete:false}).passed,false);});
+test('legitimate shared materials do not erase different actions, knowledge and diagrams',()=>{const copy=structuredClone(data),p=copy.experiments[0].ageProtocols;p['7-9'].materials=structuredClone(p['4-6'].materials);const result=checkAgeProtocols(copy,identities,{requireComplete:false});assert.equal(result.passed,true);assert.ok(result.sharedMaterialActivityIds.includes(1));});
+test('whole-protocol copies are rejected even when sharing materials is legitimate',()=>{const copy=structuredClone(data),p=copy.experiments[0].ageProtocols;p['7-9']=structuredClone(p['4-6']);const result=checkAgeProtocols(copy,identities,{requireComplete:false});assert.equal(result.passed,false);assert.ok(result.errors.some(e=>e.includes('duplicate actions')));});

@@ -3,15 +3,17 @@ import {readFileSync, readdirSync, existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const config = JSON.parse(readFileSync('wrangler.jsonc', 'utf8'));
 const manifest = JSON.parse(readFileSync('source-manifest.json', 'utf8'));
-const expected=['app.js','data.json','diagrams.js','index.html','styles.css'];
-assert.equal(config.assets.directory,'./dist');
+const deployment=JSON.parse(readFileSync('deployment-manifest.json','utf8'));
+const expected=['app.js','data.json','diagrams.js','index.html','progress-client.js','styles.css'];
+assert.equal(config.assets.directory,'./deployment-assets');
 assert.equal(config.workers_dev,true);
 assert.match(config.name,/^[a-z][a-z0-9-]{0,62}$/);
 assert.match(config.compatibility_date,/^\d{4}-\d{2}-\d{2}$/);
 const policy=JSON.parse(readFileSync('.github/deployment-policy.json','utf8'));
 assert.equal(config.main,'worker/index.mjs');
-assert.deepEqual(config.assets,{directory:'./dist',binding:'ASSETS',run_worker_first:true});
+assert.deepEqual(config.assets,{directory:'./deployment-assets',binding:'ASSETS',run_worker_first:true});
 assert.equal(config.keep_vars,true);
+assert.deepEqual(config.build,{command:'npm run build:assets'});
 assert.deepEqual(config.triggers,{crons:['17 3 * * *']});
 assert.deepEqual(config.vars,{APP_ORIGIN:'https://labs.996fb.cn'},'Private bootstrap and credentials must never be committed as vars');
 assert.deepEqual(config.d1_databases,[{binding:'DB',database_name:'little-lab-family-progress',database_id:policy.database.id,migrations_dir:'migrations'}]);
@@ -20,7 +22,7 @@ assert.deepEqual(config.durable_objects,{bindings:[{name:'PASSWORD_HASHER',class
 assert.deepEqual(config.migrations,[{tag:'password-hasher-v1',new_sqlite_classes:['PasswordHasher']}]);
 assert.deepEqual(policy.passwordHashing,{approved:true,binding:'PASSWORD_HASHER',className:'PasswordHasher',migrationTag:'password-hasher-v1',storage:'sqlite',freeOnly:true});
 if(policy.database.id==='00000000-0000-0000-0000-000000000000'){assert.equal(policy.enabled,false);assert.equal(policy.runtimeApproved,false);}
-const allowedKeys=new Set(['$schema','name','compatibility_date','workers_dev','main','keep_vars','assets','vars','d1_databases','triggers','durable_objects','migrations']);
+const allowedKeys=new Set(['$schema','name','compatibility_date','workers_dev','main','keep_vars','assets','vars','d1_databases','triggers','durable_objects','migrations','build']);
 for(const key of Object.keys(config))assert.ok(allowedKeys.has(key),`Unreviewed runtime setting: ${key}`);
 assert.ok(existsSync('worker/index.mjs')&&existsSync('migrations/0001_accounts.sql'));
 assert.ok(!readFileSync('worker/index.mjs','utf8').includes('__test'),'No test fixture endpoint in production entry');
@@ -33,4 +35,4 @@ const resources=[...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(m=>m[1]).filt
 for(const resource of resources){if(resource.startsWith('data:image/svg+xml,')){const icon=decodeURIComponent(resource.slice('data:image/svg+xml,'.length));assert.match(icon,/^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg"/);assert.ok(!/<script|on[a-z]+\s*=|(?:href|src)\s*=/i.test(icon),'Inline icon is inert vector art only');assert.ok(html.includes('rel="icon" type="image/svg+xml" sizes="any" href="'+resource+'"'));continue}assert.ok(existsSync(`dist/${resource}`),`Missing relative resource ${resource}`)}
 const app=readFileSync('dist/app.js','utf8');
 assert.ok(!/fetch\(['"](?:\.\/|\/)data\.json/.test(app),'Full curriculum must not be fetched as a public static asset');
-console.log(JSON.stringify({status:'passed',config:'Reviewed Worker + exact D1 + worker-first assets; activation separately gated',files:expected,totalStaticBytes:bytes,exactSourceHashes:true,relativeResourceLinks:resources,limits:'Configuration shape checked against official documentation; This script does not itself run Wrangler. See VERIFICATION.md for separate CLI dry-run result; live deployment/browser QA not performed.'},null,2));
+console.log(JSON.stringify({status:'passed',config:'Reviewed Worker + exact D1 + worker-first assets; activation separately gated',authoringInputFiles:expected,totalAuthoringBytes:bytes,deployment:{assetCount:deployment.assetCount,catalogBytes:deployment.catalogBytes,maxDayBytes:deployment.maxDayBytes,totalAssetBytes:deployment.totalAssetBytes},exactSourceHashes:true,relativeResourceLinks:resources,limits:'Configuration shape checked against official documentation; This script does not itself run Wrangler. See VERIFICATION.md for separate CLI dry-run result; live deployment/browser QA not performed.'},null,2));

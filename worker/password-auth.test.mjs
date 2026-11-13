@@ -4,7 +4,7 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import worker,{testing} from './core.mjs';
 // Fast SQL contract tests use SQLite; the separate Miniflare suite exercises actual Workers + D1.
-function database(){const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../migrations/0001_accounts.sql',import.meta.url),'utf8'));db.exec(readFileSync(new URL('../migrations/0002_password_login.sql',import.meta.url),'utf8'));function prepare(sql){return {bind(...args){return {async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){const r=db.prepare(sql).run(...args);return {meta:{changes:r.changes}}},_sql:sql,_args:args}},async first(){return db.prepare(sql).get()||null},async all(){return {results:db.prepare(sql).all()}},async run(){return db.prepare(sql).run()}}}return {prepare,async batch(statements){db.exec('BEGIN');try{const results=[];for(const s of statements){const st=db.prepare(s._sql);results.push(st.columns().length?{results:st.all(...s._args)}:{meta:st.run(...s._args)})}db.exec('COMMIT');return results}catch(e){db.exec('ROLLBACK');throw e}},raw:db}}
+function database(){const db=new DatabaseSync(':memory:');db.exec(readFileSync(new URL('../migrations/0001_accounts.sql',import.meta.url),'utf8'));db.exec(readFileSync(new URL('../migrations/0002_password_login.sql',import.meta.url),'utf8'));db.exec(readFileSync(new URL('../migrations/0003_versioned_progress.sql',import.meta.url),'utf8'));function prepare(sql){return {bind(...args){return {async first(){return db.prepare(sql).get(...args)||null},async all(){return {results:db.prepare(sql).all(...args)}},async run(){const r=db.prepare(sql).run(...args);return {meta:{changes:r.changes}}},_sql:sql,_args:args}},async first(){return db.prepare(sql).get()||null},async all(){return {results:db.prepare(sql).all()}},async run(){return db.prepare(sql).run()}}}return {prepare,async batch(statements){db.exec('BEGIN');try{const results=[];for(const s of statements){const st=db.prepare(s._sql);results.push(st.columns().length?{results:st.all(...s._args)}:{meta:st.run(...s._args)})}db.exec('COMMIT');return results}catch(e){db.exec('ROLLBACK');throw e}},raw:db}}
 const origin='https://lab.test';
 function harness(){const outbox=[];const env={PASSWORD_HASHER:{idFromName:n=>n,get:()=>({compute:async(op,password,record)=>op==='hash'?hashPassword(password):verifyPassword(password,record)})},DB:database(),APP_ORIGIN:origin,BOOTSTRAP_ADMIN_EMAIL:'owner@example.test',ALLOWED_EMAIL_DOMAINS:'example.test',REGISTRATION_ENABLED:'true',PROGRESSION_MODE:'sequential',AUTH_SECRET:'test-only-secret-at-least-32-characters-long',EMAIL_PROVIDER:'cloudflare',EMAIL_FROM:'lab@example.test',EMAIL:{async send(p){outbox.push(p)}},ASSETS:{async fetch(){return new Response('synthetic static asset')}}};env.DB.raw.prepare('INSERT INTO settings(key,value,updated_at) VALUES(?,?,?)').run('allowedDomains',JSON.stringify(['example.test']),0);async function call(path,{method='GET',body,auth,ip='192.0.2.1',headers={}}={}){const h={...headers,'CF-Connecting-IP':ip};if(method!=='GET'){h.Origin??=origin;h['Content-Type']??='application/json'}if(auth){h.Cookie=auth.cookie;h['X-CSRF-Token']??=auth.csrf}const r=await worker.fetch(new Request(origin+path,{method,headers:h,body:method==='GET'?undefined:JSON.stringify(body??{})}),env);let json;try{json=await r.clone().json()}catch{}return {r,json,status:r.status}}async function signup(email='owner@example.test',intent='register'){const q=await call('/api/auth/request-code',{method:'POST',body:{email,intent,adultConsent:true,privacyAccepted:true}});assert.equal(q.status,200,JSON.stringify(q.json));const code=outbox.at(-1)?.text.match(/\d{8}/)?.[0];const result=await call('/api/auth/verify-code',{method:'POST',body:{challengeId:q.json.challengeId,code}});assert.equal(result.status,200,JSON.stringify(result.json));return {cookie:result.r.headers.get('Set-Cookie').split(';')[0],csrf:result.json.csrfToken,user:result.json.user}}async function newChild(auth,name='小探险家'){const c=await call('/api/children',{method:'POST',auth,body:{nickname:name,ageBand:'4-6',guardianConsent:true}});assert.equal(c.status,201,JSON.stringify(c.json));return c.json.child}return {env,outbox,call,signup,newChild}}
 
@@ -31,11 +31,38 @@ test('missing or failed hashing service preserves OTP grant, credentials and ses
   assert.ok(await h.signup(a.user.email,'login'));
  }
 });
+function credentialState(h){return {
+ users:h.env.DB.raw.prepare('SELECT id,status,password_hash,auth_version,access_version FROM users ORDER BY id').all(),
+ sessions:h.env.DB.raw.prepare('SELECT token_hash,user_id,auth_version,email_verified_at,expires_at FROM sessions ORDER BY token_hash').all(),
+ challenges:h.env.DB.raw.prepare('SELECT id,consumed_at FROM auth_challenges ORDER BY id').all(),
+ audit:h.env.DB.raw.prepare('SELECT id,action FROM audit_log ORDER BY id').all()
+};}
 test('delayed hashing cannot consume a newly expired OTP grant or disabled account',async()=>{
+ // Prepare the real KDF fixture before the RPC deadline starts. This test controls
+ // the authorization race; native KDF latency and RPC timeout have separate tests.
+ const hash=await hashPassword('passwordA');
  for(const sql of ['UPDATE sessions SET email_verified_at=1',"UPDATE users SET status='disabled'"]){
-  const h=harness(),a=await h.signup();let release,entered;const started=new Promise(r=>entered=r);
-  h.env.PASSWORD_HASHER={idFromName:n=>n,get:()=>({compute:async()=>{entered();return new Promise(r=>release=r)}})};
-  const pending=h.call('/api/auth/password',{method:'POST',auth:a,body:{password:'passwordA'}});await started;h.env.DB.raw.exec(sql);release(await hashPassword('passwordA'));
-  assert.equal((await pending).status,403);assert.equal(h.env.DB.raw.prepare('SELECT password_hash FROM users').get().password_hash,null);
+  const h=harness(),a=await h.signup();let release,entered,calls=0;const started=new Promise(r=>entered=r);
+  h.env.PASSWORD_HASHER={idFromName:n=>n,get:()=>({compute:async(op,password,record)=>{
+   calls++;assert.deepEqual([op,password,record],['hash','passwordA',null]);entered();return new Promise(r=>release=r);
+  }})};
+  const pending=h.call('/api/auth/password',{method:'POST',auth:a,body:{password:'passwordA'}});
+  await started;h.env.DB.raw.exec(sql);const revoked=credentialState(h);release(hash);
+  const rejected=await pending;
+  assert.equal(rejected.status,403);assert.equal(rejected.json.error.code,'EMAIL_REAUTH_REQUIRED');assert.equal(calls,1);
+  assert.equal(rejected.r.headers.get('Set-Cookie'),null);assert.deepEqual(credentialState(h),revoked);
  }
+});
+test('hash RPC timeout and late success preserve credentials, sessions and unused OTP grant',async t=>{
+ const hash=await hashPassword('passwordA'),h=harness(),a=await h.signup(),before=credentialState(h);
+ let release,entered,disposed=0;const started=new Promise(r=>entered=r);
+ h.env.PASSWORD_HASHER={idFromName:n=>n,get:()=>({compute:()=>{entered();return new Promise(r=>release=r)},[Symbol.dispose](){disposed++}})};
+ t.mock.timers.enable({apis:['setTimeout']});
+ const pending=h.call('/api/auth/password',{method:'POST',auth:a,body:{password:'passwordA'}});
+ await started;t.mock.timers.tick(5000);
+ const rejected=await pending;assert.equal(rejected.status,503);assert.equal(rejected.json.error.code,'SERVICE_UNAVAILABLE');
+ assert.equal(rejected.r.headers.get('Set-Cookie'),null);assert.equal(disposed,1);assert.deepEqual(credentialState(h),before);
+ release(hash);
+ assert.equal((await h.call('/api/session',{auth:a})).json.canSetPassword,true);
+ assert.deepEqual(credentialState(h),before);assert.equal(disposed,1);
 });

@@ -1,4 +1,5 @@
-let renderActivityDiagram;
+import {createProgressClient,exportProgressAccount,createProgressExportParts,legacyImportRecords} from './progress-client.js';
+let renderActivityDiagram,resolveAgeProtocol;
 
 const $ = (s,root=document)=>root.querySelector(s);
 const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
@@ -16,29 +17,33 @@ const legacyRecordSchemas={"1:13-16":["跨度（厘米）","承重（枚）","�
 const ages={
  '4-6':{label:'4–6',name:'看见与表达',skill:'观察',icon:'◉',time:'5–10分钟',intro:'成人准备与示范，孩子指一指、画一画、说发现。不要求书写或背原理。',recordTitle:'说一说，或画下来',recordIntro:'和身边的大人说说看到的变化，也可以拿一张纸画出来。'},
  '7-9':{label:'7–9',name:'比较与计数',skill:'比较',icon:'⇄',time:'10–15分钟',intro:'在成人协助下比较两组，数一数、量一量，说清哪里一样、哪里不同。',recordTitle:'把两组放在一起看',recordIntro:'写下观察到的相同与不同；数量或长度要带单位。'},
- '10-12':{label:'10–12',name:'控制与记录',skill:'测量',icon:'⌁',time:'15–20分钟',intro:'先预测，明确改变什么、保持什么，再做记录；适合时用新材料重复3次。',recordTitle:'让观察变成证据',recordIntro:'记录实际条件与结果。没观察到或超时也照实写，不补造数据。'},
- '13-16':{label:'13–16',name:'证据与模型',skill:'建模',icon:'⤴',time:'20–30分钟',intro:'提出可测问题，用对照、重复和图表组织证据；解释误差，再改进一次。',recordTitle:'证据支持哪种解释？',recordIntro:'可以在纸上补充数据表或图像。把观察、解释与不确定性分开。'}
+ '10-12':{label:'10–12',name:'控制与记录',skill:'测量',icon:'⌁',time:'15–20分钟',intro:'先预测，明确改变什么、保持什么，再做记录；是否重复及次数、用量，严格按本页当前年龄步骤；不额外加试。',recordTitle:'让观察变成证据',recordIntro:'记录实际条件与结果。没观察到或超时也照实写，不补造数据。'},
+ '13-16':{label:'13–16',name:'证据与模型',skill:'建模',icon:'⤴',time:'20–30分钟',intro:'按本页要求组织证据、解释误差；改进建议只在纸上讨论，不额外操作。',recordTitle:'证据支持哪种解释？',recordIntro:'可以在纸上补充数据表或图像。把观察、解释与不确定性分开。'}
 };
 const localDate=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
 let storageWorks=true;
 const isRecord=(value)=>!!value&&typeof value==='object'&&!Array.isArray(value);
-const freshState=()=>({startDate:localDate(),day:1,age:'4-6',records:{},steps:{},viewedSteps:{},completed:{},legacyRecords:{},recordSchemaVersion:3});
+const freshState=()=>({startDate:localDate(),day:1,age:'4-6',records:{},steps:{},viewedSteps:{},completed:{},legacyRecords:{},protocolProgress:{},recordSchemaVersion:3});
 let state=freshState();
+let progressClient=null,progressReadOnly=false,loadingRecord=false,recordLoadEpoch=0,dayNavigationEpoch=0,dayNavigationPending=false,loadedRecordKey=null;
+const progressKey=()=>recordKey()+':v'+(current()?.activeAgeProtocol?.version||experiments[state.day-1]?.protocolVersions?.[state.age]||0);
 const recommendation=()=>Math.min(totalDays,Math.max(1,dateOrdinal(localDate())-dateOrdinal(state.startDate)+1));
 let session=null,authConfig=null,children=[],activeChild=null,revision=0,access=null,contextEpoch=0,loadingChild=false,loadedChildId=null;
 let environmentSnapshot=null,childLoadError='',curriculumError='';
+let detailPromise=Promise.resolve(false),dayNavigationPromise=Promise.resolve(false),dialogRestoreEpoch=0;
+let curriculumRevision=null,curriculumAccessVersion=null,catalogEpoch=0,detailEpoch=0,selectedDetail=null,detailLoading=false,detailError='';
 let dirty=false,saveVersion=0,saving=null,saveTimer=null,saveError='',saveConflict=false;
 let passwordRecovery=false;
 let authChallenge=null,authEmail='',authConsent=false,resendAt=0,authTimer=null,adminSection='users',authEpoch=0,authBusy=false,recoverySnapshot=null,familyMutationBusy=false;
 let experiments=[],gate='locked',checks=[false,false,false],filter='all',mapMonth=String(monthForDay(state.day)),mapQuery='',journeyMonth=monthForDay(state.day),toastTimer,activePanel='materials-panel';
 const recordKey=()=>`${state.day}:${state.age}`;
-const current=()=>experiments[state.day-1];
+const current=()=>{const e=selectedDetail?.childId===activeChild?.id&&selectedDetail?.day===state.day&&selectedDetail?.revision===curriculumRevision?selectedDetail.experiment:experiments[state.day-1];return resolveAgeProtocol?resolveAgeProtocol(e,state.age):e;};
 const guide=()=>current().ageGuides[state.age];
 const PREPARATION_PREFIX='little-lab-preparation-v1:';
 const preparationMemory=new Map();
 function preparationKey(){
  const e=current();if(!session?.user?.id||!activeChild?.id||!e?.ageGuides||e.locked)return null;
- const content=JSON.stringify([1,e.id,state.age,e.safety,e.materials,e.ageGuides[state.age]?.support,e.ageGuides[state.age]?.steps]);
+ const content=JSON.stringify([2,e.activeAgeProtocol?.version||0,e.id,state.age,e.safety,e.materials,e.ageGuides[state.age]?.support,e.ageGuides[state.age]?.steps]);
  let fingerprint=2166136261;for(let i=0;i<content.length;i++)fingerprint=Math.imul(fingerprint^content.charCodeAt(i),16777619);
  return PREPARATION_PREFIX+[session.user.id,activeChild.id,e.id,state.age,(fingerprint>>>0).toString(16)].map(encodeURIComponent).join(':');
 }
@@ -63,31 +68,47 @@ function measureWorkspace(){
 }
 function watchWorkspace(){toolbarObserver?.disconnect();toolbarObserver=new ResizeObserver(measureWorkspace);for(const el of [$('.site-header'),$('#workspace-toolbar')])if(el)toolbarObserver.observe(el);measureWorkspace()}
 
-const stepNumber=()=>{const value=Number(state.steps[recordKey()]);return Number.isInteger(value)?Math.max(0,Math.min(3,value)):0};
+const stepNumber=()=>{const value=Number(currentProgress('steps'));return Number.isInteger(value)?Math.max(0,Math.min(3,value)):0};
 // Reading is separate from experiment completion. Legacy cursors never imply earlier views.
+function activeProtocolProgress(create=false){
+ const e=current(),version=e?.activeAgeProtocol?.version;if(!version)return null;
+ const key=`${e.id}:${state.age}:v${version}`;
+ if(!isRecord(state.protocolProgress)){if(!create)return null;state.protocolProgress={};}
+ if(!isRecord(state.protocolProgress[key])&&create)state.protocolProgress[key]={records:{},step:0,viewedSteps:0,completed:false};
+ return state.protocolProgress[key]||null;
+}
+function currentProgress(kind){
+ if(current()?.activeAgeProtocol){const p=activeProtocolProgress();return p?.[kind==='steps'?'step':kind]??(kind==='completed'?false:0);}
+ return state[kind]?.[recordKey()];
+}
+function setCurrentProgress(kind,value){
+ if(loadingRecord||loadedRecordKey!==progressKey()||!current()?.ageGuides||current().locked)return;
+ if(current()?.activeAgeProtocol)activeProtocolProgress(true)[kind==='steps'?'step':kind]=value;
+ else state[kind][recordKey()]=value;
+}
 function readingProgress(mask,cursor,count=4){
  const safeMask=Number.isInteger(mask)&&mask>=0&&mask<2**count?mask:0;
  const viewed=Array.from({length:count},(_,i)=>!!(safeMask&(1<<i)));
  const unread=viewed.flatMap((seen,i)=>seen?[]:[i]);
  return {mask:safeMask,viewed,count:viewed.filter(Boolean).length,remaining:unread.length,nextUnread:unread.find(i=>i>cursor)??unread[0]??null};
 }
-const reading=()=>readingProgress(state.viewedSteps[recordKey()],stepNumber());
+const reading=()=>readingProgress(currentProgress('viewedSteps'),stepNumber());
 let stepViewObserver=null,viewFrame=null;
 function displayedStepContext(){
  const stage=$('#step-stage');
- if(!session||!activeChild||loadingChild||loadedChildId!==activeChild.id||!current()?.ageGuides||current().locked||gate==='locked'||activePanel!=='procedure'||document.visibilityState==='hidden'||$('#lab').hidden||$('#learning-view').hidden||$('#procedure')?.hidden||$('dialog[open]')||!stage||stage.hidden)return null;
+ if(!session||!activeChild||loadingChild||loadingRecord||loadedChildId!==activeChild.id||loadedRecordKey!==progressKey()||!current()?.ageGuides||current().locked||gate==='locked'||activePanel!=='procedure'||document.visibilityState==='hidden'||$('#lab').hidden||$('#learning-view').hidden||$('#procedure')?.hidden||$('dialog[open]')||!stage||stage.hidden)return null;
  const rect=stage.getBoundingClientRect();
  if(rect.width<=0||rect.height<=0||rect.bottom<=0||rect.top>=innerHeight)return null;
- return {stage,child:activeChild.id,epoch:contextEpoch,key:recordKey(),step:stepNumber()};
+ return {stage,child:activeChild.id,epoch:contextEpoch,key:recordKey()+':v'+(current()?.activeAgeProtocol?.version||0),step:stepNumber()};
 }
 function queueDisplayedStep(){
  if(viewFrame!==null)cancelAnimationFrame(viewFrame);
- const context={epoch:contextEpoch,child:activeChild?.id,key:recordKey(),step:stepNumber()};
+ const context={epoch:contextEpoch,child:activeChild?.id,key:recordKey()+':v'+(current()?.activeAgeProtocol?.version||0),step:stepNumber()};
  viewFrame=requestAnimationFrame(()=>{
   viewFrame=null;const visible=displayedStepContext();
   if(!visible||visible.epoch!==context.epoch||visible.child!==context.child||visible.key!==context.key||visible.step!==context.step)return;
   const progress=reading();if(progress.viewed[visible.step])return;
-  state.viewedSteps[visible.key]=progress.mask|(1<<visible.step);save();updateReadingProgress();
+  setCurrentProgress('viewedSteps',progress.mask|(1<<visible.step));save();updateReadingProgress();
  });
 }
 function watchDisplayedStep(){
@@ -97,10 +118,10 @@ function watchDisplayedStep(){
 }
 function updateReadingProgress(){
  if(!$('#reading-summary')||!current()?.ageGuides||current().locked)return;
- const p=reading(),i=stepNumber(),visible=gate!=='locked'&&activePanel==='procedure',done=state.completed[recordKey()]===true;
+ const p=reading(),i=stepNumber(),visible=gate!=='locked'&&activePanel==='procedure',done=currentProgress('completed')===true;
  $('#reading-count').textContent=`已查看 ${p.count} / 4 步`;
  $('#reading-remaining').textContent=p.remaining?`还有 ${p.remaining} 步未查看`:'4 步都已查看';
- $('#reading-position').textContent=visible?`当前第 ${i+1} / 4 步`:(p.count||Object.hasOwn(state.steps,recordKey())?`上次停在第 ${i+1} / 4 步`:'从第 1 / 4 步开始');
+ $('#reading-position').textContent=visible?`当前第 ${i+1} / 4 步`:(p.count||(current()?.activeAgeProtocol?!!activeProtocolProgress():Object.hasOwn(state.steps,recordKey()))?`上次停在第 ${i+1} / 4 步`:'从第 1 / 4 步开始');
  $('#reading-meter').value=p.count;
  $('#reading-next').textContent=done?'已自行标记实际探索完成；可以继续回看。':gate==='ready'?'按安全要求实际探索后，再记录发现、手动标记完成。':p.remaining?'浏览不等于完成实验；动手前仍需家长确认。':'步骤已看完，但尚未标记实际探索完成。';
  $('#exploration-status').textContent=done?'实验 · 已自行标记完成':'实验 · 尚未标记完成';
@@ -113,9 +134,9 @@ function updateReadingProgress(){
   if(currentStep)btn.setAttribute('aria-current','step');else btn.removeAttribute('aria-current');
  });
 }
-const isDone=(id)=>ageBands.some(age=>state.completed[`${id}:${age}`]);
+const isDone=(id)=>ageBands.some(age=>state.completed[`${id}:${age}`])||Object.entries(state.protocolProgress||{}).some(([key,p])=>Number(key.split(':')[0])===id&&p.completed===true);
 const scrollTo=(s)=>$(s)?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
-function save(){if(!session||!activeChild||loadingChild||loadedChildId!==activeChild.id)return;dirty=true;saveVersion++;saveError='';updateCloudStatus();clearTimeout(saveTimer);saveTimer=setTimeout(()=>flushSave(),500)}
+function save(){if(progressReadOnly){updateCloudStatus();return}if(!session||!activeChild||loadingChild||loadingRecord||loadedChildId!==activeChild.id||loadedRecordKey!==progressKey())return;dirty=true;saveVersion++;saveError='';updateCloudStatus();clearTimeout(saveTimer);saveTimer=setTimeout(()=>flushSave(),500)}
 function toast(text){$('#toast').textContent=text;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),3100)}
 function category(e){return Object.hasOwn(subjects,e.category)?e.category:/物理/.test(e.domain)?'physics':/自然/.test(e.domain)?'biology':'chemistry'}
 function badge(e){return `<span class="category-badge category-${category(e)}">${subjects[category(e)]}</span>`}
@@ -139,8 +160,32 @@ function renderAge(){
  state.age=ageBands.includes(activeChild?.ageBand)?activeChild.ageBand:'4-6';
  $('#age-context').innerHTML=`<b>${ages[state.age].label}岁 · ${ages[state.age].skill}引导</b><span>${ages[state.age].intro} 可在“我的家庭”修改年龄段。</span>`;
 }
+// Paper requests are read-only and independent of progress save/history state.
+function renderPaperPanel(){return '<section class="paper-resources" aria-label="本龄纸样"><h4>本龄纸样与打印</h4><p>按当前儿童档案年龄取用。打开或下载不会标记完成，也不会改动记录。</p><button id="load-paper-resources" class="button outline">查看本龄纸样</button><div id="paper-resource-list" role="status" aria-live="polite"></div></section>';}
+function bindPaperResources(){
+ const button=$('#load-paper-resources'),root=$('#paper-resource-list');if(!button||!root)return;
+ const childId=activeChild?.id,age=state.age,day=state.day,epoch=contextEpoch,detail=detailEpoch,revision=curriculumRevision,accessVersion=curriculumAccessVersion;
+ const isCurrent=()=>root.isConnected&&epoch===contextEpoch&&detail===detailEpoch&&childId===activeChild?.id&&age===state.age&&age===activeChild?.ageBand&&day===state.day&&revision===curriculumRevision&&accessVersion===curriculumAccessVersion;
+ let pending=false,loaded=false;
+ button.addEventListener('click',async()=>{
+  if(pending||loaded||!isCurrent())return;pending=true;button.disabled=true;button.setAttribute('aria-busy','true');root.textContent='正在读取本龄纸样…';
+  const base='/api/children/'+encodeURIComponent(childId)+'/papers/'+day+'/'+age,query=new URLSearchParams({revision,accessVersion}).toString();
+  try{
+   const result=await api(base+'?'+query);if(!isCurrent())return;
+   if(result.childId!==childId||result.day!==day||result.age!==age||result.curriculumRevision!==revision||result.accessVersion!==accessVersion)throw new Error('纸样上下文已变化，请重新读取活动。');
+   const papers=result.papers;
+   if(papers===null){root.textContent='当前方案尚无已确认绑定的在线纸样。请按材料说明准备，不用其他年龄或旧方案代替。';loaded=true;button.hidden=true;return;}
+   if(papers.day!==day||papers.age!==age||!Array.isArray(papers.pages)||papers.pages.some(p=>!/^[a-f0-9]{64}\.(svg|pdf)$/.test(p.id)))throw new Error('纸样清单不完整，请重新读取活动。');
+   const rows=papers.pages.map(p=>{const href=base+'/'+p.id+'?'+query;return `<li><div><strong>${escapeHTML(p.title)}</strong><small>${p.optional?'可选 / 成人选读 · ':''}${p.pageCount}页${p.copies>1?' × '+p.copies+'份':''} · ${p.shared?'本题多龄共用（本龄适用）':'本龄选用'} · ${p.type==='application/pdf'?'PDF':'SVG原尺寸纸页'}</small>${p.usage?`<small>${escapeHTML(p.usage)}</small>`:''}</div><div class="paper-links"><a href="${escapeHTML(href)}" target="_blank" rel="noopener noreferrer">打开</a><a href="${escapeHTML(href+'&download=1')}" download="${escapeHTML(p.filename)}">下载</a></div></li>`;}).join('');
+   root.innerHTML=`<p><strong>${escapeHTML(age)}岁 · 方案v${papers.version} · ${papers.pages.length}份文件 · ${papers.printMode==='choose-one'?'二选一打印':papers.pages.filter(p=>!p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页本龄资料 + '+papers.pages.filter(p=>p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页可选成人核验（含重复份数）'}</strong></p><p>${escapeHTML(papers.printInstruction)}</p>${papers.pages.some(p=>p.optional)?'<p>可选成人核验页不必全部打印，按本龄步骤需要选读。</p>':''}${papers.coverage!=='complete'?'<p class="paper-notice">当前仅提供本龄已核对的纸样；未列出的参考页不供本龄使用，不代表整套原稿。</p>':''}${(papers.unprovided||[]).map(p=>`<p class="paper-notice"><strong>暂未提供：${escapeHTML(p.names)}</strong> ${escapeHTML(p.reason)}</p>`).join('')}<details><summary>准备说明与份数</summary><p class="paper-preparation">${escapeHTML(papers.preparation)}</p></details><p class="paper-notice">共用的是空白母版，不是其他年龄的填写结果。参考页请按课程要求完成后再看；原稿静态核查不等于实体打印或儿童试用验收。</p><ul>${rows}</ul>`;
+   loaded=true;button.hidden=true;
+  }catch(error){if(isCurrent()){root.textContent=error.message||'纸样读取失败，请重试。';button.textContent='重新读取纸样';}}
+  finally{pending=false;if(isCurrent()){button.disabled=false;button.removeAttribute('aria-busy');}}
+ });
+}
+
 function renderExperiment(){
- const e=current();if(!e||e.locked||!e.ageGuides){renderLockedActivity(e);return}restorePreparation();const g=guide(),a=ages[state.age],done=!!state.completed[recordKey()];
+ const e=current();if(!e||!e.ageGuides){if(e?.locked)renderLockedActivity(e);else renderDetailUnavailable(e);return}if(e.locked){renderLockedActivity(e);return}if(loadingRecord||loadedRecordKey!==progressKey()){renderProgressLoading();return}restorePreparation();const g=guide(),a=ages[state.age],done=!!currentProgress('completed');
  $('#day-number').textContent=`第 ${monthForDay(e.id)} 月 · DAY ${e.day} / ${totalDays}`;
  $('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;
  $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===totalDays;
@@ -148,22 +193,23 @@ function renderExperiment(){
  $('#safety-dialog-content').replaceChildren();
  $('#experiment').innerHTML=`<div class="experiment-shell">
  <header class="experiment-top"><div><div class="activity-labels">${badge(e)}<span class="activity-kind">${escapeHTML(e.type)}</span></div><span class="subject-tag"><span class="subject-dot"></span>${escapeHTML(e.domain)} / ${escapeHTML(e.type)} <span style="margin-left:7px">主活动</span></span><h3>${escapeHTML(e.title)}</h3><p class="big-question">${category(e)==='history'?'带着问题找证据':'先想一想'}：${escapeHTML(e.question)}</p><div class="metadata"><span class="pill">◷ ${escapeHTML(e.duration)}</span>${e.wait?`<span class="pill">⏳ 等待：${escapeHTML(e.wait)}</span>`:''}<span class="pill">${a.label}岁 · ${a.name}</span></div></div><div class="day-stamp" aria-hidden="true"><small>DAY</small><b>${e.day}</b><small>DISCOVER</small></div></header>
- <section class="materials-section" aria-label="准备材料"><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div></section>
- <section class="safety-box" aria-labelledby="safety-title"><div class="safety-title"><b id="safety-title"><span aria-hidden="true">◇</span> 开始前，请大人一起确认</b><small>安全不会随年龄降低</small></div><div class="safety-specific"><p><strong>今天特别留意：</strong>${escapeHTML(e.safety)}</p><p>${state.age==='4-6'?'4–6岁：成人全程在触手可及处；小件、剪切与指定准备步骤由成人完成。':state.age==='7-9'?'7–9岁：成人协助摆好两组；剪切、预处理及指定小件由成人负责。':'成人需知情并能及时介入；工具、热水预处理与当天指定成人步骤不能自行省略陪护。'}</p></div><div class="checks"><label><input type="checkbox" data-check="0" ${checks[0]?'checked':''}>${state.age==='4-6'?'我（成人）会全程近距离陪同，并负责今天的成人步骤。':'成人已了解今天的活动、能及时介入，并会完成指定成人步骤。'}</label><label><input type="checkbox" data-check="1" ${checks[1]?'checked':''}>已核对当天材料、用量与安全提醒，选择稳定位置，液体远离插座。</label><label><input type="checkbox" data-check="2" ${checks[2]?'checked':''}>实验材料不入口、不凑近闻；小件远离口鼻，结束后洗手并收好。</label></div><div class="prep-actions"><button id="begin" class="button primary" ${checks.every(Boolean)?'':'disabled'}>准备好了，开始探索 <span aria-hidden="true">→</span></button><button id="preview-steps" class="text-button">仅查看图示，暂不动手</button></div><p id="gate-status" class="gate-status">${gate==='ready'?'✓ 已确认准备；过程中仍需持续判断安全。':gate==='preview'?'当前为图示预览；真正动手前仍需成人完成上方确认。':'完成三项准备确认后，再按步骤动手；也可以先预览图示。'}</p></section>
+ <section class="materials-section" aria-label="准备材料"><p class="protocol-status" role="note">${e.activeAgeProtocol?'本年龄独立方案 · 候选核查中；旧记录在“记录发现”保留。':'当前为原有分龄引导；独立材料、操作和图示方案仍在补齐。'}</p><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div>${renderPaperPanel()}</section>
+ <section class="safety-box" aria-labelledby="safety-title"><div class="safety-title"><b id="safety-title"><span aria-hidden="true">◇</span> 开始前，请大人一起确认</b><small>安全不会随年龄降低</small></div><div class="safety-specific"><p><strong>今天特别留意：</strong>${escapeHTML(e.safety)}</p><p>${state.age==='4-6'?'4–6岁：成人全程在触手可及处；小件、剪切与指定准备步骤由成人完成。':state.age==='7-9'?'7–9岁：成人协助摆好两组；剪切、预处理及指定小件由成人负责。':'成人需知情并能及时介入；工具、热水预处理与当天指定成人步骤不能自行省略陪护。'}</p><p>使用纸张时注意纸边；接触材料后不揉眼，操作结束后洗手并收好材料。</p><p>孩子疲倦、不适或不愿继续时，可随时停下；成人仍按本页要求照看材料和安全收尾，不延长停止、留样或清理上限。</p></div><div class="checks"><label><input type="checkbox" data-check="0" ${checks[0]?'checked':''}>${state.age==='4-6'?'我（成人）会全程近距离陪同，并负责今天的成人步骤。':'成人已了解今天的活动、能及时介入，并会完成指定成人步骤。'}</label><label><input type="checkbox" data-check="1" ${checks[1]?'checked':''}>已核对当天材料、用量与安全提醒，选择稳定位置，液体远离插座。</label><label><input type="checkbox" data-check="2" ${checks[2]?'checked':''}>实验材料不入口、不凑近闻；小件远离口鼻，结束后洗手并收好。</label></div><div class="prep-actions"><button id="begin" class="button primary" ${checks.every(Boolean)?'':'disabled'}>准备好了，开始探索 <span aria-hidden="true">→</span></button><button id="preview-steps" class="text-button">仅查看图示，暂不动手</button></div><p id="gate-status" class="gate-status">${gate==='ready'?'✓ 已确认准备；过程中仍需持续判断安全。':gate==='preview'?'当前为图示预览；真正动手前仍需成人完成上方确认。':'完成三项准备确认后，再按步骤动手；也可以先预览图示。'}</p></section>
  <section class="procedure" id="procedure" aria-labelledby="procedure-title"><div class="procedure-header"><h4 class="minor-heading" id="procedure-title">02 / 跟着图，一步一步来</h4><span id="view-state" class="view-state"></span></div><div class="age-method">${g.support?`<p class="age-support"><strong>支持与安全提醒：</strong>${escapeHTML(g.support)}</p>`:''}${g.control?`<p class="age-control-note"><strong>比较条件／证据要求：</strong>${escapeHTML(g.control)}</p>`:''}${g.time?`<p>${escapeHTML(g.time)}</p>`:''}</div><div class="flow" aria-label="四步操作流程">${e.steps.map((step,i)=>`<button class="flow-button" data-step="${i}" aria-label="第${i+1}步：${escapeHTML(step.title)}"><span class="flow-number">${i+1}</span><span class="flow-text">${escapeHTML(step.title)}</span><span class="flow-status">○ 未查看</span></button>`).join('')}</div><div id="step-stage" class="step-stage" tabindex="-1" aria-label="当前步骤"></div><div class="step-controls"><button id="step-prev" class="button outline">← 上一步</button><span id="step-counter" class="step-counter"></span><button id="step-next" class="button primary">下一步 →</button></div><div id="locked-message" class="locked-message">先请成人完成安全准备，或选择“仅查看图示”。</div></section>
- <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${a.recordTitle}</h4><p>${a.recordIntro}</p><div id="record-area"></div><p class="record-note">这里只记录实验现象，不填写姓名、生日或联系方式。<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
+ <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${a.recordTitle}</h4><p>${a.recordIntro}</p><div id="record-area"></div><p class="record-note">不填写姓名、生日、住址、联系方式、证件信息或私人访谈，不上传儿童照片，仅记录实验现象。<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
  ${renderInquiry(e)}
- <details class="extension"><summary><span class="extension-tag">可选 +1</span>${escapeHTML(e.extension.title||'再试一个小变化')}<span></span></summary><div><p>今天还有兴趣和精力，再选这一个就够了。也可以留给另一天。</p>${e.extension.ageNote?`<p class="extension-age-note"><strong>分龄参与：</strong>${escapeHTML(e.extension.ageNote)}</p>`:''}<div class="mini-flow">${extensionNodes(e).map((node,i)=>`<div class="mini-node"><b><span>${i+1}</span>${['先商量','再试试','说发现'][i]}</b><p>${escapeHTML(node)}</p></div>`).join('')}</div><p class="mini-note">成人提醒：${escapeHTML(e.extension.safety||e.safety)}</p></div></details>
+ <details class="extension"><summary><span class="extension-tag">可选 +1</span>${escapeHTML(e.extension.title||'再试一个小变化')}<span></span></summary><div><p>今天还有兴趣和精力，再选这一个就够了。也可以留给另一天。</p>${e.extension.ageNote?`<p class="extension-age-note"><strong>分龄参与：</strong>${escapeHTML(e.extension.ageNote)}</p>`:''}<div class="mini-flow">${extensionNodes(e).map((node,i)=>`<div class="mini-node"><b><span>${i+1}</span>${['先商量',e.activeAgeProtocol?'纸上想一想':'再试试','说发现'][i]}</b><p>${escapeHTML(node)}</p></div>`).join('')}</div><p class="mini-note">成人提醒：${escapeHTML(e.extension.safety||e.safety)}</p></div></details>
  <div class="finish-row"><button id="complete-day" class="button ${done?'outline':'primary'}" aria-pressed="${done}">${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span></button><p>看完步骤不等于做过实验。实际探索后再自行标记；无需完成延伸或得到“标准结果”。<br>引导已按孩子的档案年龄准备，旧记录仍会保留。</p></div></section>
  <div class="source-line"><strong>来源与改编：</strong>${escapeHTML(e.sourceNote||'家庭探究改编，非机构认证课程。')} ${e.sources.length?e.sources.map(s=>`<a href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(s.originalTitle||s.title)} ↗</a>`).join(''):'本方案自编／家庭改编，无逐项对应原页。'}<br>图示为操作与思考示意，不是实拍或结果保证；准确用量与安全要求以步骤正文为准。${renderReview(e)}</div></div>`;
  buildWorkspace();
+ bindPaperResources();
  $$('[data-check]').forEach(input=>input.addEventListener('change',()=>{checks[+input.dataset.check]=input.checked;$('#begin').disabled=!checks.every(Boolean);if(gate==='ready'&&!checks.every(Boolean)){gate='locked';$('#gate-status').textContent='准备条件已改变，请重新确认后继续动手。';renderStep()}rememberPreparation();updatePreparationButton()}));
  $('#begin').addEventListener('click',()=>{if(!checks.every(Boolean))return;gate='ready';rememberPreparation();updatePreparationButton();$('#gate-status').textContent='✓ 已确认准备；过程中仍需持续判断安全。';renderStep();closeDialog('safety-dialog',focusProcedure)});
  $('#preview-steps').addEventListener('click',()=>{gate='preview';rememberPreparation();$('#gate-status').textContent='当前为图示预览；真正动手前仍需成人完成上方确认。';renderStep();closeDialog('safety-dialog',focusProcedure)});
  $$('[data-step]').forEach(btn=>btn.addEventListener('click',()=>setStep(+btn.dataset.step)));
  $('#step-prev').addEventListener('click',()=>setStep(stepNumber()-1));
  $('#step-next').addEventListener('click',()=>{if(stepNumber()===3)showPanel('observations',true);else {setStep(stepNumber()+1);scrollTo('#step-stage')}});
- $('#complete-day').addEventListener('click',()=>{state.completed[recordKey()]=!state.completed[recordKey()];save();const done=state.completed[recordKey()];$('#complete-day').innerHTML=`${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span>`;$('#complete-day').setAttribute('aria-pressed',String(done));$('#complete-day').className=`button ${done?'outline':'primary'}`;updateReadingProgress();renderJourney();toast(done?'已标记这次探索，正在保存。':'已取消本次标记，正在保存。')});
+ $('#complete-day').addEventListener('click',()=>{setCurrentProgress('completed',!currentProgress('completed'));save();const done=currentProgress('completed');$('#complete-day').innerHTML=`${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span>`;$('#complete-day').setAttribute('aria-pressed',String(done));$('#complete-day').className=`button ${done?'outline':'primary'}`;updateReadingProgress();renderJourney();toast(done?'已标记这次探索，正在保存。':'已取消本次标记，正在保存。')});
  renderStep();renderRecord();watchDisplayedStep();
 }
 function buildWorkspace(){
@@ -230,7 +276,7 @@ function renderStep(){
  $('#preview-main').hidden=gate!=='locked';
  updateReadingProgress();queueDisplayedStep();
 }
-function setStep(i){if(gate==='locked'||current()?.locked||!current()?.ageGuides||!Number.isInteger(i)||i<0||i>3)return;state.steps[recordKey()]=i;save();renderStep();$('#step-stage').focus({preventScroll:true})}
+function setStep(i){if(gate==='locked'||current()?.locked||!current()?.ageGuides||!Number.isInteger(i)||i<0||i>3)return;setCurrentProgress('steps',i);save();renderStep();$('#step-stage').focus({preventScroll:true})}
 function migrateLegacyRecords(){
  if(state.recordSchemaVersion===3)return;
  for(const [key,labels] of Object.entries(legacyRecordSchemas)){
@@ -248,17 +294,30 @@ function renderLegacyRecord(key){
  const legacy=state.legacyRecords[key];if(!isRecord(legacy)||!Array.isArray(legacy.fields))return '';
  return `<section class="legacy-record" aria-label="旧版记录（原字段保留）"><h5>旧版记录（原字段保留）</h5><p>引导内容已完善。以下是你原来的字段和记录，不改写其含义；新版记录可在下方重新填写。</p><dl>${legacy.fields.filter(f=>isRecord(f)&&typeof f.label==='string').map(f=>`<dt>${escapeHTML(f.label)}</dt><dd>${escapeHTML(f.value)||'（原字段为空）'}</dd>`).join('')}</dl></section>`;
 }
+function savedRecordHTML(saved){
+ const labels=new Map((saved.schema?.fields||[]).map(f=>[f.key,f.label]));
+ return `<p>方案 v${escapeHTML(saved.key.split(':v')[1])} · 保存版本 ${saved.revision} · ${saved.record.completed?'已标记完成':'未标记完成'}</p><dl>${Object.entries(saved.record.records||{}).map(([key,value])=>`<dt>${escapeHTML(labels.get(key)||'原字段 '+key)}</dt><dd>${escapeHTML(String(value??''))||'（空）'}</dd>`).join('')}${(saved.record.legacyRecord?.fields||[]).map(f=>`<dt>${escapeHTML(f.label)}</dt><dd>${escapeHTML(f.value)||'（空）'}</dd>`).join('')}</dl>`;
+}
+function renderProgressHistory(){
+ const key=progressKey(),older=(state.progressSummaries||[]).filter(item=>item.day===state.day&&item.age===state.age&&item.key!==key);
+ return `<section class="legacy-record protocol-history" aria-label="原方案与保留记录"><h5>原方案与保留记录</h5><p>每个方案保留最新记录，原始旧记录另行保留，不保存被覆盖的自动保存草稿。原方案或导入的完成记录不用于新开放活动；可在“我的家庭”完整导出。</p>${older.map(item=>`<details data-history-key="${escapeHTML(item.key)}"><summary>原方案 v${item.protocolVersion} · ${item.hasNotes?'有观察记录':'进度记录'} · ${item.completed?'已完成':'未完成'}</summary><button class="text-button" data-read-history="${escapeHTML(item.key)}">读取原方案记录</button><div class="history-content"></div></details>`).join('')}<details data-history-key="${escapeHTML(key)}"><summary>当前方案保留的记录</summary><button class="text-button" data-read-history="${escapeHTML(key)}">读取保留记录</button><div class="history-content"></div></details></section>`;
+}
+function bindProgressHistory(){
+ $$('[data-read-history]').forEach(button=>{let after,through,snapshot;button.addEventListener('click',()=>action(button,async()=>{const owner=progressClient,epoch=contextEpoch,selected=progressKey(),target=button.dataset.readHistory,root=button.parentElement.querySelector('.history-content');const page=await owner.history(target,{after,through,snapshot});if(owner!==progressClient||epoch!==contextEpoch||selected!==progressKey()||!root.isConnected)return;through=page.through;snapshot=page.snapshot;after=page.nextCursor;root.insertAdjacentHTML('beforeend',page.items.length?page.items.map(item=>`<article class="saved-history-entry">${savedRecordHTML(item)}</article>`).join(''):'<p>这一方案还没有保留记录。</p>');button.hidden=after===null;button.textContent='读取更多保留记录';}))});
+}
 function renderRecord(){
- const g=guide(),key=recordKey(),rec=isRecord(state.records[key])?state.records[key]:{};state.records[key]=rec;
- if(state.age==='4-6'){
- $('#record-area').innerHTML=`<div class="observation-chips" aria-label="选择今天的感受">${['我有了一个新发现','和我猜得不一样','我还想再试一次'].map((s,i)=>`<button class="observation-chip" data-choice="${i}" aria-pressed="${rec.choice===i}">${s}</button>`).join('')}</div><div class="record-fields"><label>请成人代记一句孩子的原话（可留空）<textarea data-field="spoken" maxlength="400" placeholder="我看到……">${escapeHTML(rec.spoken||'')}</textarea></label></div>`;
- $$('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=state.records[key]||(state.records[key]={});currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;save();renderRecord()}));
- }else{
- const fields=g.recordFields||['我猜','我看到','还想知道'];
- $('#record-area').innerHTML=`<div class="record-fields">${fields.map((f,i)=>`<label>${escapeHTML(f)}<${i===fields.length-1?'textarea':'input'} data-field="field${i}" maxlength="600" ${i===fields.length-1?'':`value="${escapeHTML(rec['field'+i]||'')}"`} placeholder="${state.age==='7-9'?'写下或请大人代记……':'如实写下条件、结果或疑问……'}">${i===fields.length-1?escapeHTML(rec['field'+i]||'')+'</textarea>':''}</label>`).join('')}</div>`;
- }
- $('#record-area').insertAdjacentHTML('afterbegin',renderLegacyRecord(key));
- $$('[data-field]').forEach(input=>input.addEventListener('input',()=>{const currentRecord=state.records[key]||(state.records[key]={});currentRecord[input.dataset.field]=input.value;save();updateCloudStatus()}));
+ const g=guide(),key=recordKey(),protocol=!!current().activeAgeProtocol,container=protocol?activeProtocolProgress(true).records:state.records;
+ const rec=protocol?container:isRecord(container[key])?container[key]:{};if(!protocol)container[key]=rec;
+ const getRecord=()=>protocol?activeProtocolProgress(true).records:(state.records[key]||(state.records[key]={}));
+ const saved=progressClient?.peek(progressKey()),labelMap=new Map((saved?.schema?.fields||[]).map(f=>[f.key,f.label]));
+ const labels=g.recordFields||['我猜','我看到','还想知道'],fields=new Set([...labels.map((_,i)=>'field'+i),...Object.keys(rec).filter(k=>k!=='choice'&&k!=='spoken')]);
+ let html='';if(state.age==='4-6'||Object.hasOwn(rec,'choice'))html+=`<div class="observation-chips" aria-label="选择今天的感受">${['我有了一个新发现','和我猜得不一样','我还想再试一次'].map((text,i)=>`<button class="observation-chip" data-choice="${i}" aria-pressed="${rec.choice===i}">${text}</button>`).join('')}</div>`;
+ if(state.age==='4-6'||Object.hasOwn(rec,'spoken'))html+=`<div class="record-fields"><label>请成人代记一句孩子的原话（可留空）<textarea data-field="spoken" maxlength="4000" placeholder="我看到……">${escapeHTML(rec.spoken||'')}</textarea></label></div>`;
+ html+=`<div class="record-fields">${[...fields].map((field,i)=>{const label=labelMap.get(field)||labels[Number(/^field(\d+)$/.exec(field)?.[1])]||'原字段 '+field;return `<label>${escapeHTML(label)}<textarea data-field="${escapeHTML(field)}" maxlength="4000" placeholder="${state.age==='4-6'||state.age==='7-9'?'可请大人代记，如实描述……':'如实写下条件、结果或疑问……'}">${escapeHTML(rec[field]||'')}</textarea></label>`}).join('')}</div>`;
+ $('#record-area').innerHTML=renderLegacyRecord(key)+html+renderProgressHistory();
+ $$('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=getRecord();currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;save();renderRecord()}));
+ if(progressReadOnly){$$('[data-field],[data-choice]').forEach(input=>input.disabled=true);if($('#complete-day'))$('#complete-day').disabled=true;}
+ $$('[data-field]').forEach(input=>input.addEventListener('input',()=>{getRecord()[input.dataset.field]=input.value;save();updateCloudStatus()}));bindProgressHistory();
 }
 function renderInquiry(e){
  const q=e.inquiry;if(!q)return '';
@@ -286,14 +345,14 @@ function setMapMonth(value){
 }
 function renderJourney(){
  const completed=experiments.filter(e=>isDone(e.id)).length,year=groupAccess(),monthDays=groupAccess(journeyMonth).days;
- $('#journey-content').innerHTML=`<button id="journey-year" class="journey-year ${year.locked?'locked':''}" aria-disabled="${year.locked}"><b>${year.locked?'🔒 ':''}第 1 年</b><span>已开放 ${year.available} / ${year.total} 项</span></button><p id="journey-feedback" class="access-feedback" role="status" hidden></p><div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const group=groupAccess(i+1),count=group.days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" class="${group.locked?'locked':''}" aria-disabled="${group.locked}" aria-pressed="${journeyMonth===i+1}"><b>${group.locked?'🔒 ':''}第 ${i+1} 月</b><small>${group.locked?'尚未开放':`开放 ${group.available} / ${group.total}`}</small><small>已探索 ${count} 项</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>项活动留下了探索足迹<br>按已开放的顺序慢慢发现</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
+ $('#journey-content').innerHTML=`<button id="journey-year" class="journey-year ${year.locked?'locked':''}" aria-disabled="${year.locked}"><b>${year.locked?'🔒 ':''}第 1 年</b><span>已开放 ${year.available} / ${year.total} 项</span></button><p id="journey-feedback" class="access-feedback" role="status" hidden></p><div class="journey-months" role="group" aria-label="选择成长月份">${monthLengths.map((_,i)=>{const group=groupAccess(i+1),count=group.days.filter(e=>isDone(e.id)).length;return `<button data-journey-month="${i+1}" class="${group.locked?'locked':''}" aria-disabled="${group.locked}" aria-pressed="${journeyMonth===i+1}"><b>${group.locked?'🔒 ':''}第 ${i+1} 月</b><small>${group.locked?'尚未开放':`开放 ${group.available} / ${group.total}`}</small><small>已探索 ${count} 项</small></button>`}).join('')}</div><div class="journey-panel"><div class="progress-summary"><div class="progress-count">${completed}<small> / ${totalDays}</small></div><p>项活动留下了探索足迹<br>按已开放的顺序慢慢发现</p></div><div class="journey-dots" aria-label="第${journeyMonth}月探索进度">${monthDays.map(e=>`<button class="journey-dot ${e.locked?'locked':''} ${isDone(e.id)?'done':''} ${state.day===e.id?'current':''}" data-day="${e.id}" aria-disabled="${!!e.locked}" aria-label="第${e.day}天 ${escapeHTML(e.title)}${e.locked?'，尚未开放':isDone(e.id)?'，已探索':''}">${e.locked?'🔒':isDone(e.id)?'✓':e.id}</button>`).join('')}</div></div><div class="skills-row">${ageBands.map(age=>{const count=experiments.filter(e=>state.completed[`${e.id}:${age}`]||Object.entries(state.protocolProgress||{}).some(([key,p])=>key.startsWith(`${e.id}:${age}:v`)&&p.completed===true)).length;return `<div class="skill-item"><span class="skill-symbol" aria-hidden="true">${ages[age].icon}</span><div>${ages[age].skill}足迹<small>${count?`已记录 ${count} 次${ages[age].name}探索`:'等一次属于你的发现'}</small></div></div>`}).join('')}</div>`;
  $('#journey-year').addEventListener('click',()=>{if(year.locked)lockedNotice('这一年的活动');else{setMapMonth('all');openDialog('day-map')}});
  $$('#journey-content [data-day]').forEach(b=>b.addEventListener('click',()=>{if(chooseDay(+b.dataset.day))scrollTo('#lab')}));
  $$('[data-journey-month]').forEach(b=>b.addEventListener('click',()=>{if(groupAccess(b.dataset.journeyMonth).locked){lockedNotice(`第 ${b.dataset.journeyMonth} 月`);return}journeyMonth=+b.dataset.journeyMonth;renderJourney()}));
 }
 function renderMap(){
  const query=mapQuery.trim().toLocaleLowerCase(),year=groupAccess();
- const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.question||'',e.id,...(e.materials||[])].join(' ').toLocaleLowerCase().includes(query)));
+ const visible=experiments.filter(e=>(filter==='all'||category(e)===filter)&&(mapMonth==='all'||monthForDay(e.id)===Number(mapMonth))&&(!query||[e.title,e.domain,e.id].join(' ').toLocaleLowerCase().includes(query)));
  $('#navigator-progress').textContent=`已探索 ${experiments.filter(e=>isDone(e.id)).length} / ${totalDays}`;
  $('#map-all-year').textContent=`${year.locked?'🔒 ':''}全年 · 开放 ${year.available}/${year.total}`;$('#map-all-year').setAttribute('aria-disabled',String(year.locked));
  const currentMonth=groupAccess(monthForDay(state.day));$('#map-current-month').setAttribute('aria-disabled',String(currentMonth.locked));$('#map-current-month').textContent=currentMonth.locked?'🔒 当前月':'当前月';
@@ -304,12 +363,29 @@ function renderMap(){
  $('#map-show-year')?.addEventListener('click',()=>setMapMonth('all'));
  $$('#map-grid [data-day]').forEach(btn=>btn.addEventListener('click',()=>{if(chooseDay(+btn.dataset.day)){closeDialog('day-map',()=>{history.replaceState(history.state,'','#lab');syncView();scrollTo('#lab')})}}));
 }
-function chooseDay(id){
+function renderProgressLoading(message='正在读取这一项的观察记录…'){$('#experiment').innerHTML=`<div class="account-loading" role="status">${escapeHTML(message)}</div>`;stepViewObserver?.disconnect();}
+function applyProgressRecord(result){
+ const [day,age,version]=result.key.split(':'),base=day+':'+age,record=result.record;
+ if(version==='v0'){state.records[base]=record.records;state.steps[base]=record.step;state.viewedSteps[base]=record.viewedSteps;state.completed[base]=record.completed;if(record.legacyRecord)state.legacyRecords[base]=record.legacyRecord;}
+ else state.protocolProgress[result.key]={records:record.records,step:record.step,viewedSteps:record.viewedSteps,completed:record.completed};
+}
+function applyProgressSummaries(items){
+ state.progressSummaries=items;for(const item of items){const base=item.day+':'+item.age;if(item.protocolVersion===0){state.steps[base]=item.step;state.viewedSteps[base]=item.viewedSteps;state.completed[base]=item.completed;}else{const previous=state.protocolProgress[item.key];state.protocolProgress[item.key]={records:previous?.records||{},step:item.step,viewedSteps:item.viewedSteps,completed:item.completed};}}
+}
+function loadSelectedProgress(epoch=contextEpoch){const pending=loadSelectedProgressRequest(epoch);detailPromise=pending;return pending}
+async function loadSelectedProgressRequest(epoch=contextEpoch){
+ const client=progressClient,childId=activeChild?.id,key=progressKey(),serial=++recordLoadEpoch;loadingRecord=true;loadedRecordKey=null;renderProgressLoading();
+ try{const result=await client.getRecord(key,{fresh:true});if(epoch!==contextEpoch||client!==progressClient||childId!==activeChild?.id||serial!==recordLoadEpoch||key!==progressKey())return false;applyProgressRecord(result);loadedRecordKey=key;loadingRecord=false;return true}
+ catch(error){if(epoch===contextEpoch&&client===progressClient&&serial===recordLoadEpoch){loadingRecord=false;childLoadError=error.message;$('#experiment').innerHTML=`<div class="service-error"><h3>这一项的记录没有载入</h3><p>${escapeHTML(error.message)}</p><button id="retry-record" class="button primary">重新读取记录</button></div>`;$('#retry-record')?.addEventListener('click',async()=>{if(await loadSelectedProgress(epoch))renderExperiment()});updateCloudStatus()}return false}
+}
+function chooseDay(id,{preserveHistory=false}={}){
  if(!appLoaded||loadedChildId!==activeChild?.id||loadingChild||!Number.isInteger(id)||id<1||id>totalDays)return false;
- const target=experiments[id-1];if(!target||target.locked||!target.ageGuides)return lockedNotice('这项活动');
- rememberPreparation();activePanel='materials-panel';state.day=id;journeyMonth=monthForDay(id);
- if(!$('#day-map').open&&['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}
- save();renderExperiment();renderJourney();return true;
+ const target=experiments[id-1];if(!target||target.locked)return lockedNotice('这项活动');
+ const intent=++dayNavigationEpoch,epoch=contextEpoch;dayNavigationPending=true;
+ const pending=(async()=>{try{if(!await ensureSaved()||epoch!==contextEpoch||intent!==dayNavigationEpoch)return false;rememberPreparation();activePanel='materials-panel';state.day=id;journeyMonth=monthForDay(id);
+  if(!$('#day-map').open&&['#dots','#journey','#sources'].includes(location.hash)){history.replaceState(history.state,'','#lab');syncView()}
+  const loaded=await loadSelectedDay(epoch,{preserveHistory});if(epoch!==contextEpoch||intent!==dayNavigationEpoch)return false;if(loaded)save();renderJourney();return loaded;
+ }finally{if(epoch===contextEpoch&&intent===dayNavigationEpoch)dayNavigationPending=false}})();dayNavigationPromise=pending;detailPromise=pending;return true;
 }
 let dialogNavigation=false,appLoaded=false,pendingDialogAction=null,pendingDialogFocus=null;
 const dialogOpeners=new Map();
@@ -324,21 +400,27 @@ function trapDialogFocus(event){
 function syncDialogUI(){const opened=!!$('dialog[open]');if(!opened)queueDisplayedStep();document.body.classList.toggle('dialog-open',opened);$$('.map-trigger').forEach(b=>b.setAttribute('aria-expanded',String($('#day-map').open)))}
 function restoreDialogFocus(id){const opener=dialogOpeners.get(id);if(opener?.isConnected&&!opener.closest('[hidden]'))opener.focus({preventScroll:true});else if(id==='day-map')$('#navigator-handle').focus({preventScroll:true});else if(id==='safety-dialog')$('#open-safety')?.focus({preventScroll:true})}
 function populateDiagram(){const e=current(),i=stepNumber(),gs=guide().steps[i];$('#enlarged-diagram').innerHTML=renderActivityDiagram(e,i,state.age);$('#diagram-dialog-title').textContent=`第${e.day}天 · 第${i+1}步`;$('#enlarged-instruction').textContent=(gs.action?.includes(e.steps[i].detail)?'':e.steps[i].detail+' ')+(gs.action?ages[state.age].label+'岁执行方式：'+gs.action:'')+(gs.adultNote?' 成人提示：'+gs.adultNote:'')}
-function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{userId:session?.user.id,childId:activeChild?.id,day:state.day,age:state.age,step:stepNumber()}},'',location.href)}
+function openDialog(id){if(dialogNavigation)return;const dialog=$('#'+id);if(dialog.open)return;dialogOpeners.set(id,document.activeElement);dialog.showModal();syncDialogUI();history.pushState({...history.state,littleLabDialog:id,littleLabDialogContext:{userId:session?.user.id,childId:activeChild?.id,day:state.day,age:state.age,protocolVersion:current()?.activeAgeProtocol?.version||0,step:stepNumber()}},'',location.href)}
 function closeDialog(id,afterClose=null){const dialog=$('#'+id);if(!dialog.open)return;dialog.close();syncDialogUI();restoreDialogFocus(id);if(history.state?.littleLabDialog===id){pendingDialogAction=afterClose;pendingDialogFocus=id;dialogNavigation=true;history.back()}else afterClose?.()}
 function clearStaleDialogState(){if(history.state?.littleLabDialog){const next={...history.state};delete next.littleLabDialog;delete next.littleLabDialogContext;history.replaceState(next,'',location.href)}}
-window.addEventListener('popstate',()=>{
+window.addEventListener('popstate',async()=>{
+ const restoreEpoch=contextEpoch,restoreNavigation=++dialogRestoreEpoch;
  const closing=$$('dialog[open]').map(d=>d.id);$$('dialog[open]').forEach(d=>d.close());dialogNavigation=false;for(const id of closing)restoreDialogFocus(id);if(!appLoaded||!session||!activeChild)return;
  const id=history.state?.littleLabDialog,context=history.state?.littleLabDialogContext;
- const sameContext=context?.userId===session.user.id&&context?.childId===activeChild.id&&context?.age===activeChild.ageBand;
+ const sameContext=context?.userId===session.user.id&&context?.childId===activeChild.id&&context?.age===activeChild.ageBand&&(context?.protocolVersion??0)===(experiments[context?.day-1]?.protocolVersions?.[state.age]||0);
  if(id==='day-map'){renderMap();$('#day-map').showModal()}
- else if(id==='safety-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
-  const valid=context.day===state.day||chooseDay(context.day);
-  if(valid&&current()?.ageGuides&&!current().locked)$('#safety-dialog').showModal()
- }
- else if(id==='diagram-dialog'&&sameContext&&current()?.ageGuides&&!current().locked){
-  const valid=context.day===state.day||chooseDay(context.day);
-  if(valid&&current()?.ageGuides&&!current().locked){state.steps[recordKey()]=Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0;if(gate!=='ready')gate='preview';rememberPreparation();save();renderStep();populateDiagram();$('#diagram-dialog').showModal();showPanel('procedure');}
+ else if(['safety-dialog','diagram-dialog'].includes(id)&&sameContext){
+  const changed=context.day!==state.day,valid=!changed||chooseDay(context.day,{preserveHistory:true});
+  while(valid&&(detailLoading||loadingRecord||dayNavigationPending)){
+   const pending=dayNavigationPending?dayNavigationPromise:detailPromise;try{await pending}catch{/* Failed metadata loads leave no interactive detail. */}
+   if(restoreEpoch!==contextEpoch||restoreNavigation!==dialogRestoreEpoch||history.state?.littleLabDialog!==id||history.state?.littleLabDialogContext?.day!==context.day)return;
+   if(detailPromise===pending)break;
+  }
+  if(restoreEpoch!==contextEpoch||restoreNavigation!==dialogRestoreEpoch||history.state?.littleLabDialog!==id||history.state?.littleLabDialogContext?.day!==context.day)return;
+  if(valid&&!loadingRecord&&!dayNavigationPending&&loadedRecordKey===progressKey()&&current()?.ageGuides&&!current().locked&&state.day===context.day&&(context.protocolVersion??0)===(experiments[context.day-1]?.protocolVersions?.[state.age]||0)){
+   if(id==='diagram-dialog'){setCurrentProgress('steps',Number.isInteger(context.step)?Math.max(0,Math.min(3,context.step)):0);if(gate!=='ready')gate='preview';rememberPreparation();save();renderStep();populateDiagram();showPanel('procedure');}
+   $('#'+id).showModal();
+  }
  }
  syncDialogUI();
  // Native history restores the opener scroll after popstate; align the requested step on the following frame.
@@ -347,9 +429,10 @@ window.addEventListener('popstate',()=>{
 
 // Dashboard counters describe saved markers, not measured ability, attendance or time spent.
 function dashboardMetrics(list,progress,selectedDay){
- const completed=new Set(list.filter(e=>ageBands.some(age=>progress.completed?.[`${e.id}:${age}`]===true)).map(e=>e.id));
+ const protocolEntries=Object.entries(progress.protocolProgress||{});
+ const completed=new Set(list.filter(e=>ageBands.some(age=>progress.completed?.[`${e.id}:${age}`]===true)||protocolEntries.some(([key,p])=>Number(key.split(':')[0])===e.id&&p.completed===true)).map(e=>e.id));
  const meaningful=value=>typeof value==='string'?value.trim().length>0:typeof value==='number'&&Number.isFinite(value);
- const noted=new Set(list.filter(e=>ageBands.some(age=>{const key=`${e.id}:${age}`;return Object.values(progress.records?.[key]||{}).some(meaningful)||(progress.legacyRecords?.[key]?.fields||[]).some(field=>meaningful(field.value))})).map(e=>e.id));
+ const noted=new Set(list.filter(e=>(progress.progressSummaries||[]).some(item=>item.day===e.id&&item.hasNotes)||protocolEntries.some(([key,p])=>Number(key.split(':')[0])===e.id&&Object.values(p.records||{}).some(meaningful))||ageBands.some(age=>{const key=`${e.id}:${age}`;return Object.values(progress.records?.[key]||{}).some(meaningful)||(progress.legacyRecords?.[key]?.fields||[]).some(field=>meaningful(field.value))})).map(e=>e.id));
  const unlocked=list.filter(e=>!e.locked),remaining=unlocked.filter(e=>!completed.has(e.id));
  const coverage=Object.entries(subjects).map(([key,label])=>{const all=list.filter(e=>category(e)===key);return {key,label,total:all.length,completed:all.filter(e=>completed.has(e.id)).length,available:all.filter(e=>!e.locked&&!completed.has(e.id)).length,next:remaining.find(e=>category(e)===key)}});
  return {total:list.length,completed:completed.size,noted:noted.size,unlocked:unlocked.length,remaining:remaining.length,locked:list.length-unlocked.length,covered:coverage.filter(s=>s.completed>0).length,coverage,next:remaining.find(e=>e.id===selectedDay)||remaining[0],review:unlocked.find(e=>e.id===selectedDay)||unlocked[0],lockedCompleted:list.filter(e=>e.locked&&completed.has(e.id)).length};
@@ -390,37 +473,90 @@ function renderDots(){
 }
 
 class APIError extends Error{constructor(message,status,code){super(message);this.status=status;this.code=code}}
-async function api(path,{method='GET',body,signal}={}){
- const requestSession=session,requestEpoch=contextEpoch;const headers={Accept:'application/json'};if(body!==undefined)headers['Content-Type']='application/json';if(method!=='GET'&&session?.csrfToken)headers['X-CSRF-Token']=session.csrfToken;
+async function api(path,{method='GET',body,signal,headers:extraHeaders={}}={}){
+ const requestSession=session,requestEpoch=contextEpoch;const headers={Accept:'application/json',...extraHeaders};if(body!==undefined)headers['Content-Type']='application/json';if(method!=='GET'&&session?.csrfToken)headers['X-CSRF-Token']=session.csrfToken;
  let response;try{response=await fetch(path,{method,headers,credentials:'same-origin',cache:'no-store',body:body===undefined?undefined:JSON.stringify(body),signal})}catch(error){if(error.name==='AbortError')throw error;throw new APIError('网络暂时不可用，请检查连接后重试。',0,'network')}
  let result;try{result=await response.json()}catch{throw new APIError('暂时无法读取资料，请稍后重试。',response.status,'invalid_response')}
  if(!response.ok||result.ok===false){const error=new APIError(result.error?.message||'操作未完成，请稍后重试。',response.status,result.error?.code);if(response.status===401&&session&&session===requestSession&&contextEpoch===requestEpoch)expireSession();throw error}return result;
 }
 function setMessage(id,message,error=false){const node=$('#'+id);if(!node)return;node.textContent=message;node.classList.toggle('error',error)}
 async function action(button,work,messageId){if(button?.disabled)return;const text=button?.textContent;if(button){button.disabled=true;button.setAttribute('aria-busy','true')}try{return await (button?.matches('#save-child,[data-archive-child],[data-restore-child],#import-legacy')?exclusiveFamilyMutation(work):work())}catch(error){if(messageId)setMessage(messageId,error.message,true);else toast(error.message);return null}finally{if(button?.isConnected){button.disabled=false;button.removeAttribute('aria-busy');if(text)button.textContent=text}}}
-function cloudStatusText(){if(!activeChild)return '探索进度';if(loadingChild)return '正在读取孩子的记录…';if(loadedChildId!==activeChild.id)return '进度尚未载入，当前不可编辑。';if(saveConflict)return '发现另一设备的新记录：尚未覆盖，请先处理冲突。';if(saveError)return '尚未保存：'+saveError;if(saving)return '正在保存…';if(dirty)return '有修改待保存，请勿关闭页面。';if(curriculumError)return '记录已保存；活动列表更新失败，请重新读取。';return '已保存 · '+activeChild.nickname}
+function cloudStatusText(){if(!activeChild)return '探索进度';if(progressReadOnly)return '只读维护 · 可查看与导出，暂不保存修改。';if(loadingChild)return '正在读取孩子的记录…';if(loadedChildId!==activeChild.id)return '进度尚未载入，当前不可编辑。';if(loadingRecord)return '正在读取这一项的记录…';if(loadedRecordKey!==progressKey()&&!current()?.locked)return '这一项记录尚未载入，当前不可编辑。';if(saveConflict)return '发现另一设备的新记录：尚未覆盖，请先处理冲突。';if(saveError)return '尚未保存：'+saveError;if(saving)return '正在保存…';if(dirty)return '有修改待保存，请勿关闭页面。';if(curriculumError)return '记录已保存；活动列表更新失败，请重新读取。';return '已保存 · '+activeChild.nickname}
 function updateCloudStatus(){for(const id of ['cloud-status','save-status'])if($('#'+id))$('#'+id).dataset.saveState=saveError||saveConflict||curriculumError?'error':dirty||saving?'pending':'saved';const text=cloudStatusText();$('#cloud-status').textContent=text;$('#cloud-status').classList.toggle('cloud-error',!!saveError||saveConflict||!!curriculumError);$('#retry-save').hidden=!saveError&&!saveConflict&&!curriculumError;$('#retry-save').textContent=saveConflict?'处理冲突':curriculumError&&!dirty?'重新读取':'重试保存';if($('#save-status'))$('#save-status').textContent=text;updateDotsStatus()}
+function selectedProgressSnapshot(){const saved=progressClient?.peek(progressKey()),record=!progressKey().endsWith(':v0')?(state.protocolProgress[progressKey()]||{records:{},step:0,viewedSteps:0,completed:false}):{records:state.records[recordKey()]||{},step:state.steps[recordKey()]||0,viewedSteps:state.viewedSteps[recordKey()]||0,completed:state.completed[recordKey()]===true};return JSON.parse(JSON.stringify({...record,...(saved?.record.legacyRecord?{legacyRecord:saved.record.legacyRecord}:{})}))}
 async function flushSave(){
- clearTimeout(saveTimer);if(saving)return saving;if(!dirty||!session||!activeChild||loadedChildId!==activeChild.id||saveConflict)return !dirty;
- const epoch=contextEpoch,childId=activeChild.id,version=saveVersion,snapshot=JSON.parse(JSON.stringify(state)),expectedRevision=revision;
+ clearTimeout(saveTimer);if(saving)return saving;if(!dirty||!session||!activeChild||loadedChildId!==activeChild.id||saveConflict||loadingRecord||loadedRecordKey!==progressKey())return !dirty;
+ const epoch=contextEpoch,childId=activeChild.id,client=progressClient,key=progressKey(),version=saveVersion,snapshot=selectedProgressSnapshot(),nav={startDate:state.startDate,day:state.day,age:state.age};
  saveError='';const operation=(async()=>{try{
-  const result=await api('/api/children/'+encodeURIComponent(childId)+'/state',{method:'PUT',body:{revision:expectedRevision,state:snapshot}});
-  if(epoch!==contextEpoch||childId!==activeChild?.id)return false;revision=result.revision;const accessChanged=JSON.stringify(access)!==JSON.stringify(result.access);access=result.access;if(version===saveVersion){state=normalizeState(result.state,activeChild);dirty=false}
+  const result=await client.saveRecord(key,snapshot);if(epoch!==contextEpoch||childId!==activeChild?.id||client!==progressClient||key!==progressKey())return false;
+  const accessChanged=result.access&&JSON.stringify(access)!==JSON.stringify(result.access);if(result.access)access=result.access;
+  state.progressSummaries=client.summaries();await client.saveNavigation(nav);if(epoch!==contextEpoch||client!==progressClient||key!==progressKey())return false;if(version===saveVersion)dirty=false;
   const oldUnlock=JSON.stringify(experiments.map(e=>!!e.locked));if(accessChanged){try{await refreshCurriculum(epoch,false)}catch(error){if(epoch===contextEpoch)curriculumError=error.message}}if(epoch!==contextEpoch)return false;
   if(oldUnlock!==JSON.stringify(experiments.map(e=>!!e.locked))){renderJourney();if($('#day-map').open)renderMap();if(current()?.locked)renderExperiment()}
   return true;
- }catch(error){if(epoch===contextEpoch){saveError=error.message;saveConflict=error.status===409;if(error.status===403||error.status===409){await refreshCurriculum(epoch,false).catch(()=>{});if(epoch===contextEpoch&&current()?.locked)renderExperiment()}}return false}
- finally{if(epoch===contextEpoch){saving=null;updateCloudStatus();if(location.hash==='#dots')renderDots();if(dirty&&!saveError&&!saveConflict)saveTimer=setTimeout(()=>flushSave(),250)}}})();saving=operation;updateCloudStatus();return operation;
+ }catch(error){if(epoch===contextEpoch&&client===progressClient&&key===progressKey()){saveError=error.message;saveConflict=error.status===409||error.code==='UPGRADE_REQUIRED';if(error.status===403||error.status===409){await refreshCurriculum(epoch,false).catch(()=>{});if(epoch===contextEpoch&&current()?.locked)renderExperiment()}}return false}
+ finally{if(epoch===contextEpoch&&client===progressClient){saving=null;updateCloudStatus();if(location.hash==='#dots')renderDots();if(dirty&&!saveError&&!saveConflict)saveTimer=setTimeout(()=>flushSave(),250)}}})();saving=operation;updateCloudStatus();return operation;
 }
 async function ensureSaved(){if(!dirty)return true;const ok=await flushSave();if(!ok||dirty){toast('还有记录未保存。请先重试，或到“我的家庭”导出待保存记录。');return false}return true}
-function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(child?.ageBand)?child.ageBand:ageBands.includes(s.age)?s.age:'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.recordSchemaVersion=3;return s}
-function clearPrivateState({preservePreparation=false}={}){if(!preservePreparation)clearPreparation();contextEpoch++;clearTimeout(saveTimer);session=null;children=[];activeChild=null;loadedChildId=null;state=freshState();experiments=[];access=null;environmentSnapshot=null;childLoadError='';curriculumError='';revision=0;dirty=false;saving=null;saveConflict=false;saveError='';gate='locked';checks=[false,false,false];for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();$('#experiment').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#admin-content').replaceChildren();$('#dots-content').replaceChildren();$('#child-switch').replaceChildren();appLoaded=false}
-function expireSession(){if(dirty&&session&&activeChild)recoverySnapshot={userId:session.user.id,child:{id:activeChild.id,nickname:activeChild.nickname,ageBand:activeChild.ageBand},state:JSON.parse(JSON.stringify(state)),exportedAt:new Date().toISOString()};clearPrivateState();renderAuth(recoverySnapshot?'请重新登录。尚未保存的记录暂留在此页面，关闭会丢失；登录原账号后可导出。':'登录已失效，请重新验证邮箱。');syncView()}
-async function refreshCurriculum(epoch=contextEpoch,render=true){if(!session||!activeChild)return;const childId=activeChild.id,result=await api('/api/children/'+encodeURIComponent(childId)+'/curriculum');if(epoch!==contextEpoch||childId!==activeChild?.id)return;const list=result.experiments;if(!Array.isArray(list)||list.length!==365||list.some((e,i)=>e.id!==i+1))throw new Error('课程目录不完整，请稍后重试。');experiments=list.map(e=>({...e,day:String(e.id).padStart(2,'0')}));access=result.access;curriculumError='';environmentSnapshot=result.meta?.environmentSnapshot||null;if(location.hash==='#dots')renderDots();if(render){renderAge();renderExperiment();renderJourney()}}
+function normalizeState(value,child){const s=isRecord(value)?JSON.parse(JSON.stringify(value)):freshState();s.startDate=validLocalDate(s.startDate)?s.startDate:localDate();s.day=Number.isInteger(s.day)?Math.min(365,Math.max(1,s.day)):1;s.age=ageBands.includes(child?.ageBand)?child.ageBand:ageBands.includes(s.age)?s.age:'4-6';for(const field of ['records','steps','viewedSteps','completed','legacyRecords'])s[field]=isRecord(s[field])?s[field]:{};s.protocolProgress=isRecord(s.protocolProgress)?s.protocolProgress:{};s.recordSchemaVersion=3;return s}
+function clearPrivateState({preservePreparation=false}={}){catalogEpoch++;curriculumRevision=null;curriculumAccessVersion=null;invalidateDetail();if(!preservePreparation)clearPreparation();contextEpoch++;recordLoadEpoch++;dayNavigationEpoch++;dayNavigationPending=false;progressClient=null;progressReadOnly=false;loadingRecord=false;loadedRecordKey=null;clearTimeout(saveTimer);session=null;children=[];activeChild=null;loadedChildId=null;state=freshState();experiments=[];access=null;environmentSnapshot=null;childLoadError='';curriculumError='';revision=0;dirty=false;saving=null;saveConflict=false;saveError='';gate='locked';checks=[false,false,false];for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();$('#experiment').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#admin-content').replaceChildren();$('#dots-content').replaceChildren();$('#child-switch').replaceChildren();appLoaded=false}
+function recoveryDraftRecords(){const pending=progressClient?.pending()||[],keys=new Set([...pending.map(p=>p.key),...(loadedRecordKey?[loadedRecordKey]:[])]);return [...keys].map(key=>{const cached=progressClient?.peek(key),[day,age,version]=key.split(':'),base=day+':'+age,record=version==='v0'?{records:state.records[base]||{},step:state.steps[base]||0,viewedSteps:state.viewedSteps[base]||0,completed:state.completed[base]===true,...(state.legacyRecords[base]?{legacyRecord:state.legacyRecords[base]}:{})}:state.protocolProgress[key]||pending.find(p=>p.key===key)?.body.record;return {key,record:JSON.parse(JSON.stringify(record||{})),schema:cached?.schema,etag:cached?.etag}})}
+function expireSession(){if(dirty&&session&&activeChild)recoverySnapshot={userId:session.user.id,child:{id:activeChild.id,nickname:activeChild.nickname,ageBand:activeChild.ageBand},state:JSON.parse(JSON.stringify(state)),recordDrafts:recoveryDraftRecords(),exportedAt:new Date().toISOString()};clearPrivateState();renderAuth(recoverySnapshot?'请重新登录。尚未保存的记录暂留在此页面，关闭会丢失；登录原账号后可导出。':'登录已失效，请重新验证邮箱。');syncView()}
+function invalidateDetail({preserveHistory=false}={}){
+ detailEpoch++;recordLoadEpoch++;loadingRecord=false;selectedDetail=null;detailLoading=false;detailError='';gate='locked';checks=[false,false,false];stepViewObserver?.disconnect();
+ if(viewFrame!==null){cancelAnimationFrame(viewFrame);viewFrame=null;}
+ for(const id of ['safety-dialog','diagram-dialog']){const dialog=$('#'+id);if(dialog?.open)dialog.close();}
+ for(const id of ['experiment','safety-dialog-content','enlarged-diagram'])$('#'+id)?.replaceChildren();
+ if($('#enlarged-instruction'))$('#enlarged-instruction').textContent='';
+ if(!preserveHistory&&['safety-dialog','diagram-dialog'].includes(history.state?.littleLabDialog))clearStaleDialogState();syncDialogUI();
+}
+function renderDetailUnavailable(e){
+ $('#day-number').textContent=`第 ${monthForDay(state.day)} 月 · DAY ${String(state.day).padStart(2,'0')} / 365`;
+ $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===365;
+ $('#safety-dialog-content').replaceChildren();
+ $('#experiment').innerHTML=`<section class="service-error" aria-live="polite" aria-busy="${detailLoading}"><h3>${escapeHTML(e?.title||'活动资料')}</h3><p>${escapeHTML(detailLoading?'正在读取当天的活动与安全说明…':detailError||curriculumError||'当天资料尚未载入，暂不能操作或标记完成。')}</p>${detailLoading?'':'<button id="retry-detail" class="button primary">重新读取活动与权限</button>'}</section>`;
+ $('#retry-detail')?.addEventListener('click',()=>refreshCurriculum().catch(error=>toast(error.message)));
+}
+function loadSelectedDay(epoch=contextEpoch,options={}){
+ // Track every selected-day load, including loads started by permission refresh.
+ const pending=loadSelectedDayRequest(epoch,options);detailPromise=pending;return pending;
+}
+async function loadSelectedDayRequest(epoch=contextEpoch,{preserveHistory=false}={}){
+ const childId=activeChild?.id,day=state.day,revision=curriculumRevision,accessVersion=curriculumAccessVersion;
+ invalidateDetail({preserveHistory});const requestEpoch=detailEpoch;
+ if(!session||!childId||!revision||!experiments[day-1]||experiments[day-1].locked){renderExperiment();return false;}
+ detailLoading=true;renderExperiment();
+ const isCurrent=()=>epoch===contextEpoch&&requestEpoch===detailEpoch&&childId===activeChild?.id&&day===state.day&&revision===curriculumRevision&&accessVersion===curriculumAccessVersion;
+ try{
+  const result=await api('/api/children/'+encodeURIComponent(childId)+'/curriculum/'+day+'?'+new URLSearchParams({revision,accessVersion}));
+  if(!isCurrent())return false;
+  if(result.childId!==childId||result.curriculumRevision!==revision||result.accessVersion!==accessVersion||result.experiment?.id!==day||!result.experiment?.ageGuides)throw new APIError('课程版本已变化，请重新读取活动与权限。',409,'CURRICULUM_CHANGED');
+  selectedDetail={childId,day,revision,experiment:result.experiment};detailLoading=false;detailError='';
+  if(loadedRecordKey!==progressKey()&&!await loadSelectedProgress(epoch))return false;if(!isCurrent())return false;renderExperiment();updateCloudStatus();return true;
+ }catch(error){if(!isCurrent())return false;selectedDetail=null;detailLoading=false;detailError=error.message;if([403,404,409].includes(error.status))curriculumError=error.message;renderExperiment();updateCloudStatus();return false;}
+}
+function refreshCurriculum(epoch=contextEpoch,render=true){
+ // History may be restored while metadata is still pending, before the day request exists.
+ const pending=refreshCurriculumRequest(epoch,render);detailPromise=pending;return pending;
+}
+async function refreshCurriculumRequest(epoch=contextEpoch,render=true){
+ if(!session||!activeChild)return;const childId=activeChild.id,requestEpoch=++catalogEpoch;
+ invalidateDetail();detailLoading=true;renderExperiment();
+ try{
+  const result=await api('/api/children/'+encodeURIComponent(childId)+'/curriculum');
+  if(epoch!==contextEpoch||requestEpoch!==catalogEpoch||childId!==activeChild?.id)return;
+  const list=result.experiments;
+  if(!Array.isArray(list)||list.length!==365||list.some((e,i)=>e.id!==i+1)||!/^[a-f0-9]{64}$/.test(result.curriculumRevision)||typeof result.accessVersion!=='string')throw new Error('课程目录不完整，请稍后重试。');
+  experiments=list.map(e=>({...e,day:String(e.id).padStart(2,'0')}));curriculumRevision=result.curriculumRevision;curriculumAccessVersion=result.accessVersion;access=result.access;curriculumError='';environmentSnapshot=result.meta?.environmentSnapshot||null;
+  if(location.hash==='#dots')renderDots();if(render){renderAge();renderJourney();}
+  const historyContext=history.state?.littleLabDialogContext,preserveHistory=['safety-dialog','diagram-dialog'].includes(history.state?.littleLabDialog)&&historyContext?.userId===session?.user.id&&historyContext?.childId===childId&&historyContext?.day===state.day&&historyContext?.age===activeChild?.ageBand&&(historyContext?.protocolVersion??0)===(experiments[state.day-1]?.protocolVersions?.[state.age]||0);
+  await loadSelectedDay(epoch,{preserveHistory});
+ }catch(error){if(epoch===contextEpoch&&requestEpoch===catalogEpoch&&childId===activeChild?.id){invalidateDetail();curriculumRevision=null;curriculumAccessVersion=null;curriculumError=error.message;detailError=error.message;renderExperiment();updateCloudStatus();}throw error;}
+}
 async function selectChild(id,{skipSave=false}={}){
  if(!skipSave&&!await ensureSaved()){renderFamilyBar();return false}const child=children.find(c=>c.id===id&&!c.archivedAt);if(!child)return false;
- const epoch=++contextEpoch;loadingChild=true;childLoadError='';curriculumError='';environmentSnapshot=null;clearTimeout(saveTimer);dirty=false;saving=null;saveError='';saveConflict=false;activeChild=child;loadedChildId=null;state=freshState();state.age=child.ageBand;revision=0;access=null;appLoaded=false;$('#age-context').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#dots-content').replaceChildren();gate='locked';checks=[false,false,false];activePanel='materials-panel';experiments=[];$('#experiment').innerHTML='<div class="account-loading" role="status">正在读取这个孩子的探索进度…</div>';for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();renderFamilyBar();renderDots();
- try{const result=await api('/api/children/'+encodeURIComponent(id)+'/state');if(epoch!==contextEpoch)return false;state=normalizeState(result.state,child);revision=result.revision;access=result.access;mapMonth=String(monthForDay(state.day));journeyMonth=monthForDay(state.day);await refreshCurriculum(epoch);if(epoch!==contextEpoch)return false;appLoaded=true;loadedChildId=id;loadingChild=false;renderFamilyBar();syncView();return true}catch(error){if(epoch===contextEpoch){loadingChild=false;childLoadError=error.message;renderDots();$('#experiment').innerHTML='<div class="service-error"><h3>进度暂时没有载入</h3><p>'+escapeHTML(error.message)+'</p><button id="retry-child" class="button primary">重新读取</button></div>';$('#retry-child')?.addEventListener('click',()=>selectChild(id,{skipSave:true}));updateCloudStatus()}return false}
+ const epoch=++contextEpoch;catalogEpoch++;curriculumRevision=null;curriculumAccessVersion=null;invalidateDetail();recordLoadEpoch++;dayNavigationEpoch++;dayNavigationPending=false;progressClient=null;progressReadOnly=false;loadingRecord=false;loadedRecordKey=null;loadingChild=true;childLoadError='';curriculumError='';environmentSnapshot=null;clearTimeout(saveTimer);dirty=false;saving=null;saveError='';saveConflict=false;activeChild=child;loadedChildId=null;state=freshState();state.age=child.ageBand;revision=0;access=null;appLoaded=false;$('#age-context').replaceChildren();$('#journey-content').replaceChildren();$('#map-grid').replaceChildren();$('#safety-dialog-content').replaceChildren();$('#enlarged-diagram').replaceChildren();$('#dots-content').replaceChildren();gate='locked';checks=[false,false,false];activePanel='materials-panel';experiments=[];$('#experiment').innerHTML='<div class="account-loading" role="status">正在读取这个孩子的探索进度…</div>';for(const d of $$('dialog[open]'))d.close();clearStaleDialogState();syncDialogUI();renderFamilyBar();renderDots();
+ try{const owner=session,client=createProgressClient({api,childId:id,isCurrent:()=>epoch===contextEpoch&&owner===session&&id===activeChild?.id});progressClient=client;const result=await client.load();if(epoch!==contextEpoch)return false;progressReadOnly=result.readOnly===true;state=normalizeState(result.navigation,child);applyProgressSummaries(result.items);revision=result.navigationRevision;access=result.access;mapMonth=String(monthForDay(state.day));journeyMonth=monthForDay(state.day);await refreshCurriculum(epoch,false);if(epoch!==contextEpoch)return false;if(!current()?.locked&&loadedRecordKey!==progressKey())throw new Error(childLoadError||'当前记录读取失败。');if(epoch!==contextEpoch)return false;appLoaded=true;loadedChildId=id;loadingChild=false;renderAge();renderExperiment();renderJourney();renderFamilyBar();syncView();return true}catch(error){if(epoch===contextEpoch){loadingChild=false;childLoadError=error.message;renderDots();$('#experiment').innerHTML='<div class="service-error"><h3>进度暂时没有载入</h3><p>'+escapeHTML(error.message)+'</p><button id="retry-child" class="button primary">重新读取</button></div>';$('#retry-child')?.addEventListener('click',()=>selectChild(id,{skipSave:true}));updateCloudStatus()}return false}
 }
 function renderFamilyBar(){const active=children.filter(c=>!c.archivedAt);$('#child-switch').innerHTML=active.map(c=>`<option value="${escapeHTML(c.id)}" ${c.id===activeChild?.id?'selected':''}>${escapeHTML(c.nickname)} · ${escapeHTML(c.ageBand)}岁</option>`).join('');$('#admin-nav').hidden=session?.user?.role!=='admin';updateCloudStatus()}
 function renderLockedActivity(e){if(!e)return;gate='locked';checks=[false,false,false];stepViewObserver?.disconnect();for(const id of ['safety-dialog','diagram-dialog']){const dialog=$('#'+id);if(dialog.open)dialog.close()}$('#enlarged-diagram').replaceChildren();$('#enlarged-instruction').textContent='';if(['safety-dialog','diagram-dialog'].includes(history.state?.littleLabDialog))clearStaleDialogState();syncDialogUI();$('#day-number').textContent=`第 ${monthForDay(e.id)} 月 · DAY ${String(e.id).padStart(2,'0')} / 365`;$('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;$('#day-prev').disabled=e.id===1;$('#day-next').disabled=e.id===365;$('#safety-dialog-content').replaceChildren();$('#experiment').innerHTML=`<section class="locked-activity" aria-label="尚未解锁的活动"><span class="lock-symbol" aria-hidden="true">🔒</span><div class="activity-labels">${badge(e)}<span class="lock-label">第 ${e.id} 关 · 尚未解锁</span></div><h3>${escapeHTML(e.title)}</h3><p>${access?.mode==='sequential'&&access?.unlockedThrough>0?'完成前一关后，下一关会自动开放。':'这项活动尚未开放。请先完成已开放的前一关；若账号被锁定，请联系管理员。'}</p><p class="muted-note">活动开放后，动手前仍需家长确认安全。</p><button id="find-unlocked" class="button outline">查看可用关卡</button><button id="refresh-access" class="text-button">刷新关卡权限</button><p id="access-message" role="status"></p></section>`;$('#refresh-access').addEventListener('click',()=>action($('#refresh-access'),async()=>{const epoch=contextEpoch;if(!await ensureSaved()||epoch!==contextEpoch)return;await refreshCurriculum(epoch);if(epoch===contextEpoch)toast('关卡权限已刷新')},'access-message'));$('#find-unlocked').addEventListener('click',()=>{const available=experiments.find(x=>!x.locked&&!isDone(x.id))||experiments.find(x=>!x.locked);if(available)chooseDay(available.id);else{renderMap();openDialog('day-map')}})}
@@ -474,7 +610,7 @@ async function acceptSession(result,{resume=false}={}){
  const flow=++authEpoch;authBusy=false;if(recoverySnapshot&&recoverySnapshot.userId!==result.user.id)recoverySnapshot=null;
  clearPrivateState({preservePreparation:resume});const owner=session={user:result.user,csrfToken:result.csrfToken,canSetPassword:result.canSetPassword};
  const ownsSession=()=>session===owner&&authEpoch===flow;
- try{if(!renderActivityDiagram){const diagrams=await import('./diagrams.js');if(!ownsSession())return;({renderActivityDiagram}=diagrams);}}
+ try{if(!renderActivityDiagram){const diagrams=await import('./diagrams.js');if(!ownsSession())return;({renderActivityDiagram,resolveAgeProtocol}=diagrams);}}
  catch(error){if(!ownsSession())return;clearPrivateState();renderAuth('课程资源暂时未加载，请重新登录重试。');syncView();throw error;}
  if(!ownsSession())return;children=result.children||[];renderFamilyBar();const first=children.find(c=>!c.archivedAt);
  if(first){await selectChild(first.id,{skipSave:true});if(!ownsSession())return;if(location.hash==='#account'||!location.hash)history.replaceState(null,'','#lab');}
@@ -485,17 +621,32 @@ function childForm(child=null){return `<form id="child-form" class="account-form
 function renderChildEditor(child=null){$('#account-content').innerHTML=`<div class="account-card"><span class="account-kicker">A SMALL PROFILE, A LONG JOURNEY</span><h1 id="account-heading">${child?'编辑儿童档案':'先认识这位小探险家'}</h1><p>一个家长账号可管理多个孩子。每个孩子的记录独立保存。</p>${childForm(child)}${archivedChildrenHTML()}${passwordSettingsHTML()}<button type="button" id="editor-logout" class="text-button">退出登录</button>${privacyNote()}</div>`;bindPasswordSettings();$('#cancel-child')?.addEventListener('click',renderFamily);$('#editor-logout')?.addEventListener('click',()=>action($('#editor-logout'),logout,'child-message'));bindRestoreChildren();$('#child-form').addEventListener('submit',event=>{event.preventDefault();action($('#save-child'),async()=>{const owner=session,epoch=contextEpoch,nickname=$('#child-nickname').value.trim(),ageBand=$('#child-age').value,guardianConsent=$('#child-consent')?.checked;if(!await ensureSaved()||session!==owner||contextEpoch!==epoch)return;const result=await api(child?'/api/children/'+encodeURIComponent(child.id):'/api/children',{method:child?'PATCH':'POST',body:child?{nickname,ageBand}:{nickname,ageBand,guardianConsent}});if(session!==owner||contextEpoch!==epoch)return;const existing=children.findIndex(c=>c.id===result.child.id);if(existing>=0)children[existing]=result.child;else children.push(result.child);await selectChild(result.child.id,{skipSave:true});history.replaceState(null,'','#lab');syncView()},'child-message')})}
 function renderFamily(){
  if(!session)return;if(!children.some(c=>!c.archivedAt)){renderChildEditor();return}
- $('#account-content').innerHTML=`<div class="family-heading"><div><span class="account-kicker">OUR FAMILY / DISCOVERY TOGETHER</span><h1 id="account-heading">我们的探索空间</h1><p class="muted-note">${escapeHTML(session.user.email)} · ${session.user.role==='admin'?'管理员':'家长账号'}</p></div><button id="logout" class="text-button">退出登录</button></div><div class="child-grid">${children.filter(c=>!c.archivedAt).map(c=>`<article class="child-card ${activeChild?.id===c.id?'active':''}"><h3>${escapeHTML(c.nickname)}</h3><p>${escapeHTML(c.ageBand)}岁 · 独立保存的成长记录</p><div class="form-actions"><button class="button ${activeChild?.id===c.id?'primary':'outline'}" data-select-child="${escapeHTML(c.id)}">${activeChild?.id===c.id?'继续探索':'切换到这个孩子'}</button><button class="text-button" data-edit-child="${escapeHTML(c.id)}">编辑</button><button class="text-button" data-archive-child="${escapeHTML(c.id)}">归档</button></div></article>`).join('')}<article class="child-card"><h3>添加小探险家</h3><p>只填昵称和年龄段，最多可添加8位小探险家。</p><button id="add-child" class="button outline" ${children.filter(c=>!c.archivedAt).length>=8?'disabled':''}>＋ 新建儿童档案</button></article></div>${archivedChildrenHTML()}<p id="family-message" class="form-message page-status" role="status"></p>${recoverySnapshot&&recoverySnapshot.userId===session.user.id?'<div class="cloud-retry-box"><strong>有一份尚未保存的记录</strong><p>这些修改还未保存到账号。请先导出留存，关闭页面会丢失。</p><button id="export-recovery" class="button outline">导出未保存记录</button><button id="discard-recovery" class="text-button">放弃这份记录</button></div>':''}${saveConflict?'<div class="cloud-retry-box"><strong>另一设备已更新记录</strong><p>另一台设备保存了新内容。请先导出此页面尚未保存的记录，再查看最新记录，避免丢失修改。</p><button id="download-unsaved" class="button outline">导出待保存记录</button><button id="reload-cloud" class="text-button">查看最新记录</button></div>':saveError?'<div class="cloud-retry-box"><strong>部分修改还未保存</strong><p>'+escapeHTML(saveError)+'</p><button id="retry-family-save" class="button outline">重试保存</button><button id="download-unsaved" class="text-button">导出待保存记录</button></div>':''}${passwordSettingsHTML()}<section class="account-section"><h2>记录由你保管</h2><div class="export-actions"><button id="export-account" class="button outline">导出全部家庭记录</button><button id="logout-all-note" class="button outline">账号与资料说明</button></div><p class="muted-note">建议定期导出备份，请勿公开分享。归档只是收起档案，记录仍保留，可随时恢复。</p></section><section class="account-section"><details id="import-details"><summary>把这个浏览器的旧记录导入当前孩子</summary><p>这里可以找回旧版记录。请选择对应的孩子，确认后再导入；原记录会保留，未开放的活动不能导入。</p><div id="legacy-import-preview"></div></details></section>${privacyNote()}`;
+ $('#account-content').innerHTML=`<div class="family-heading"><div><span class="account-kicker">OUR FAMILY / DISCOVERY TOGETHER</span><h1 id="account-heading">我们的探索空间</h1><p class="muted-note">${escapeHTML(session.user.email)} · ${session.user.role==='admin'?'管理员':'家长账号'}</p></div><button id="logout" class="text-button">退出登录</button></div><div class="child-grid">${children.filter(c=>!c.archivedAt).map(c=>`<article class="child-card ${activeChild?.id===c.id?'active':''}"><h3>${escapeHTML(c.nickname)}</h3><p>${escapeHTML(c.ageBand)}岁 · 独立保存的成长记录</p><div class="form-actions"><button class="button ${activeChild?.id===c.id?'primary':'outline'}" data-select-child="${escapeHTML(c.id)}">${activeChild?.id===c.id?'继续探索':'切换到这个孩子'}</button><button class="text-button" data-edit-child="${escapeHTML(c.id)}">编辑</button><button class="text-button" data-archive-child="${escapeHTML(c.id)}">归档</button></div></article>`).join('')}<article class="child-card"><h3>添加小探险家</h3><p>只填昵称和年龄段，最多可添加8位小探险家。</p><button id="add-child" class="button outline" ${children.filter(c=>!c.archivedAt).length>=8?'disabled':''}>＋ 新建儿童档案</button></article></div>${archivedChildrenHTML()}<p id="family-message" class="form-message page-status" role="status"></p>${recoverySnapshot&&recoverySnapshot.userId===session.user.id?'<div class="cloud-retry-box"><strong>有一份尚未保存的记录</strong><p>这些修改还未保存到账号。请先导出留存，关闭页面会丢失。</p><button id="export-recovery" class="button outline">导出未保存记录</button><button id="discard-recovery" class="text-button">放弃这份记录</button></div>':''}${saveConflict?'<div class="cloud-retry-box"><strong>另一设备已更新记录</strong><p>另一台设备保存了新内容。请先导出此页面尚未保存的记录，再查看最新记录，避免丢失修改。</p><button id="download-unsaved" class="button outline">导出待保存记录</button><button id="reload-cloud" class="text-button">查看最新记录</button></div>':saveError?'<div class="cloud-retry-box"><strong>部分修改还未保存</strong><p>'+escapeHTML(saveError)+'</p><button id="retry-family-save" class="button outline">重试保存</button><button id="download-unsaved" class="text-button">导出待保存记录</button></div>':''}${passwordSettingsHTML()}<section class="account-section"><h2>记录由你保管</h2><div class="export-actions"><button id="export-account" class="button outline">导出全部家庭记录</button><button id="export-account-parts" class="button outline">分卷导出大份记录</button><button id="export-part-again" class="text-button" hidden>重新下载上一卷</button><button id="logout-all-note" class="button outline">账号与资料说明</button></div><p class="muted-note">建议定期导出备份，请勿公开分享。归档只是收起档案，记录仍保留，可随时恢复。</p></section><section class="account-section"><details id="import-details"><summary>把这个浏览器的旧记录导入当前孩子</summary><p>这里可以找回旧版记录。请选择对应的孩子，确认后再导入；原记录会保留，未开放的活动不能导入。</p><div id="legacy-import-preview"></div></details></section>${privacyNote()}`;
  bindPasswordSettings();bindRestoreChildren();$('#export-recovery')?.addEventListener('click',()=>downloadJSON(recoverySnapshot,'little-lab-recovery-'+localDate()+'.json'));$('#discard-recovery')?.addEventListener('click',()=>{if(confirm('放弃这份未保存的记录？账号中已保存的记录不会改变。')){recoverySnapshot=null;renderFamily()}});$('#logout').addEventListener('click',()=>action($('#logout'),logout,'family-message'));$('#add-child').addEventListener('click',()=>renderChildEditor());$$('[data-select-child]').forEach(b=>b.addEventListener('click',()=>action(b,async()=>{if(await selectChild(b.dataset.selectChild)){location.hash='#lab';syncView()}},'family-message')));$$('[data-edit-child]').forEach(b=>b.addEventListener('click',()=>renderChildEditor(children.find(c=>c.id===b.dataset.editChild))));$$('[data-archive-child]').forEach(b=>b.addEventListener('click',()=>action(b,async()=>{const owner=session,epoch=contextEpoch,child=children.find(c=>c.id===b.dataset.archiveChild);if(!confirm(`将“${child.nickname}”归档？记录会保留，但从孩子列表中收起，之后可以恢复。`))return;if(!await ensureSaved()||session!==owner||contextEpoch!==epoch)return;await api('/api/children/'+encodeURIComponent(child.id),{method:'DELETE',body:{}});if(session!==owner||contextEpoch!==epoch)return;children=children.map(c=>c.id===child.id?{...c,archivedAt:new Date().toISOString()}:c);if(activeChild?.id===child.id){activeChild=null;experiments=[];state=freshState();const next=children.find(c=>!c.archivedAt);if(next)await selectChild(next.id,{skipSave:true})}renderFamily();renderFamilyBar();syncView()},'family-message')));
- $('#export-account').addEventListener('click',()=>action($('#export-account'),async()=>{if(!await ensureSaved())return;const data=await api('/api/account/export');downloadJSON(data,'little-lab-family-'+localDate()+'.json')},'family-message'));$('#logout-all-note').addEventListener('click',()=>toast('账号由家长管理。需要停用或恢复档案，请联系本站管理员。'));
- $('#download-unsaved')?.addEventListener('click',()=>downloadJSON({exportedAt:new Date().toISOString(),warning:'此文件是尚未保存的修改备份，不代表账号中已保存的进度或已开放的活动',child:{nickname:activeChild?.nickname,ageBand:activeChild?.ageBand},state},'little-lab-unsaved-'+localDate()+'.json'));
+ $('#export-account').addEventListener('click',()=>action($('#export-account'),async()=>{if(!await ensureSaved())return;const owner=session,epoch=contextEpoch;const data=await exportProgressAccount({api,isCurrent:()=>session===owner&&contextEpoch===epoch});if(session!==owner||contextEpoch!==epoch)return;downloadJSON(data,'little-lab-family-'+localDate()+'.json')},'family-message'));bindSegmentedExport();$('#logout-all-note').addEventListener('click',()=>toast('账号由家长管理。需要停用或恢复档案，请联系本站管理员。'));
+ $('#download-unsaved')?.addEventListener('click',()=>downloadJSON({exportedAt:new Date().toISOString(),warning:'此文件是尚未保存的修改备份，不代表账号中已保存的进度或已开放的活动',child:{nickname:activeChild?.nickname,ageBand:activeChild?.ageBand},state,recordDrafts:recoveryDraftRecords()},'little-lab-unsaved-'+localDate()+'.json'));
  $('#retry-family-save')?.addEventListener('click',()=>action($('#retry-family-save'),async()=>{await flushSave();renderFamily()},'family-message'));$('#reload-cloud')?.addEventListener('click',async()=>{if(!confirm('是否已导出此页面尚未保存的记录？继续会换成账号中的最新记录，并放弃此页面的修改。'))return;saveConflict=false;dirty=false;await selectChild(activeChild.id,{skipSave:true});renderFamily()});
  $('#import-details').addEventListener('toggle',()=>{if($('#import-details').open)renderLegacyImport()});
 }
 async function logout(){if(dirty&&!await ensureSaved()){if(!confirm('部分修改尚未保存。确定退出并放弃这些未保存修改吗？可先取消并导出。'))return}await api('/api/auth/logout',{method:'POST',body:{}});clearPrivateState();history.replaceState(null,'','#account');renderAuth();syncView()}
-function downloadJSON(value,filename){const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+function bindSegmentedExport(){
+ let exporter=null,last=null,owner=null,epoch=null;const button=$('#export-account-parts'),again=$('#export-part-again');
+ button.addEventListener('click',async()=>{let restart=false;const value=await action(button,async()=>{if(!exporter){if(!await ensureSaved())return;owner=session;epoch=contextEpoch;exporter=createProgressExportParts({api,isCurrent:()=>session===owner&&contextEpoch===epoch})}let part;try{part=await exporter.next({acknowledgedPart:last?.part||0})}catch(error){if(error.code==='EXPORT_CONTEXT_CHANGED'){exporter=null;last=null;again.hidden=true;restart=true}throw error}if(!part||session!==owner||contextEpoch!==epoch)return;last=part;downloadJSON(part,'little-lab-family-'+part.exportId+'-part-'+part.part+'.json');again.hidden=false;setMessage('family-message',part.complete?`已生成全部 ${part.part} 卷。请保留同一编号的所有文件，检查浏览器已下载；单卷不是完整备份。`:`已生成第 ${part.part} 卷，请确认下载后继续下一卷。尚未完成全部导出。`);return part},'family-message');if(restart)button.textContent='重新开始分卷导出';if(value){button.textContent=value.complete?'分卷导出已完成':'已保存本卷，下载下一卷';button.disabled=value.complete}});
+ again.addEventListener('click',()=>{if(last&&session===owner&&contextEpoch===epoch)downloadJSON(last,'little-lab-family-'+last.exportId+'-part-'+last.part+'.json')});
+}
+function downloadJSON(value,filename){const blob=new Blob([JSON.stringify(value)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
 function readLegacyState(){let value;try{value=JSON.parse(localStorage.getItem(KEY)||'null')}catch{return null}if(!isRecord(value))return null;const previous=state;try{state=normalizeState(value,activeChild);state.recordSchemaVersion=value.recordSchemaVersion;migrateLegacyRecords();return JSON.parse(JSON.stringify(state))}finally{state=previous}}
-function renderLegacyImport(){const destinationId=activeChild?.id,destinationEpoch=contextEpoch,destinationUser=session?.user.id;const legacy=readLegacyState(),root=$('#legacy-import-preview');if(!legacy||(!Object.keys(legacy.records).length&&!Object.keys(legacy.completed).length&&!Object.keys(legacy.legacyRecords).length)){root.innerHTML='<p class="muted-note">没有找到可读取的旧记录。原有资料没有被修改。</p>';return}const recordCount=Object.keys(legacy.records).length,completed=Object.values(legacy.completed).filter(Boolean).length;root.innerHTML=`<p><strong>目标孩子：${escapeHTML(activeChild?.nickname||'请先选择孩子')}</strong><br>检测到 ${recordCount} 组旧记录、${completed} 个完成标记。原始数据保留，不会清除。</p><p class="muted-note">导入只接受已开放关卡。若包含锁定活动，请先联系管理员开放；导入失败不会删除源记录。若目标已有记录，请先导出，两份资料不会在未确认时自动互相覆盖。</p><label class="import-confirm"><input id="import-consent" type="checkbox"> 我确认这些是当前孩子的记录，并同意上传到这个家庭账号。</label><button id="import-legacy" class="button outline" disabled>导入到 ${escapeHTML(activeChild?.nickname||'当前孩子')}</button><p id="import-message" class="form-message" role="status"></p>`;$('#import-consent').addEventListener('change',()=>$('#import-legacy').disabled=!$('#import-consent').checked);$('#import-legacy').addEventListener('click',()=>action($('#import-legacy'),async()=>{if(!$('#import-consent').checked||destinationId!==activeChild?.id||destinationEpoch!==contextEpoch||destinationUser!==session?.user.id)return;if(!await ensureSaved())return;if(destinationId!==activeChild?.id||destinationEpoch!==contextEpoch||destinationUser!==session?.user.id)throw new Error('儿童档案已切换，请重新选择导入目标。');if(Object.keys(state.records).length&&!confirm('这个孩子已有记录，请先导出备份。导入只会补充可合并的旧记录，不会替换已有的不同内容。继续吗？'))return;const id=destinationId,epoch=destinationEpoch,result=await api('/api/children/'+encodeURIComponent(id)+'/import',{method:'POST',body:{revision,state:legacy,confirmed:true}});if(epoch!==contextEpoch)return;state=normalizeState(result.state,activeChild);revision=result.revision;access=result.access;dirty=false;await refreshCurriculum(epoch);renderFamilyBar();setMessage('import-message','导入成功，已保存到账号。此浏览器里的旧记录仍保留。')},'import-message'))}
+function renderLegacyImport(){
+ const destinationId=activeChild?.id,destinationEpoch=contextEpoch,destinationUser=session?.user.id,client=progressClient,legacy=readLegacyState(),root=$('#legacy-import-preview');
+ const records=legacy?legacyImportRecords(legacy):[];if(!records.length){root.innerHTML='<p class="muted-note">没有找到可读取的旧记录。原有资料没有被修改。</p>';return}
+ root.innerHTML=`<p><strong>目标孩子：${escapeHTML(activeChild?.nickname||'请先选择孩子')}</strong><br>检测到 ${records.length} 组旧记录。按项导入，原始数据不会清除。</p><p class="muted-note">只接受已开放关卡，不覆盖不同内容。若中途失败，已成功的项目保留，尚未完成的项目可以重试；导入不会自动解锁新关卡。</p><label class="import-confirm"><input id="import-consent" type="checkbox"> 我确认这些是当前孩子的记录，并同意上传到这个家庭账号。</label><button id="import-legacy" class="button outline" disabled>导入到 ${escapeHTML(activeChild?.nickname||'当前孩子')}</button><p id="import-message" class="form-message" role="status"></p>`;
+ $('#import-consent').addEventListener('change',()=>$('#import-legacy').disabled=!$('#import-consent').checked);
+ $('#import-legacy').addEventListener('click',()=>action($('#import-legacy'),async()=>{
+  const owns=()=>destinationId===activeChild?.id&&destinationEpoch===contextEpoch&&destinationUser===session?.user.id&&client===progressClient;
+  if(!$('#import-consent').checked||!owns()||!await ensureSaved()||!owns())return;if(client.summaries().some(r=>r.hasNotes)&&!confirm('这个孩子已有记录，请先导出备份。导入不会替换已有的不同内容。继续吗？'))return;
+  let completed=0;try{for(const item of records){if(!owns())return;await client.importRecord(item.key,item.record,{confirmed:true});completed++;if(!owns())return;setMessage('import-message',`已保存 ${completed} / ${records.length} 项。`)}const result=await client.load();if(!owns())return;applyProgressSummaries(result.items);if(!current()?.locked)await loadSelectedProgress(destinationEpoch);if(!owns())return;renderFamilyBar();setMessage('import-message','导入成功，已保存到账号。此浏览器里的旧记录仍保留。')}catch(error){if(owns())setMessage('import-message',`已保存 ${completed} / ${records.length} 项。${error.message} 原始旧记录仍保留，可核对后重试。`,true)}
+ },'import-message'));
+}
 
 async function renderAdmin(){
  if(session?.user?.role!=='admin')return;const epoch=contextEpoch;$('#admin-content').innerHTML=`<div class="admin-heading"><div><span class="account-kicker">ADMINISTRATION / FAMILY LAB</span><h1 id="admin-heading">管理中心</h1></div><a href="#lab" class="text-button">返回探索</a></div><div class="admin-tabs" role="group" aria-label="管理分类"><button data-admin-section="users" aria-pressed="${adminSection==='users'}">用户与关卡</button><button data-admin-section="settings" aria-pressed="${adminSection==='settings'}">注册设置</button><button data-admin-section="audit" aria-pressed="${adminSection==='audit'}">操作记录</button></div><p id="admin-message" class="form-message" role="status"></p><div id="admin-panel"><p class="account-loading">正在读取管理数据…</p></div>`;

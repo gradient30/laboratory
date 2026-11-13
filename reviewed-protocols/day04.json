@@ -1,0 +1,2333 @@
+{
+  "activityId": 4,
+  "activityTitle": "会旋转的纸直升机",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同样大小的平纸和折好叶片的纸，下落时看起来一样吗？",
+      "materials": [
+        "同批普通A4纸1张（裁2张4×16厘米纸条，一平一折）",
+        "直尺1把、铅笔1支；成人用剪刀1把",
+        "成人用卷尺1把；无障碍地面1处"
+      ],
+      "safety": "剪裁仅成人操作；不加回形针、硬币或其他配重。所有释放由成人双脚站在平地完成，纸底最高距地面1米；不登椅、不站台阶、不靠窗或阳台，不抛掷、不朝人脸释放。清出约1.5×1.5米地面，观察者站在边界外；纸落地且成人示意后才拾取。关闭风扇，远离火源和宠物；有尖锐障碍或气流无法避开就换地点或停止。",
+      "steps": [
+        {
+          "title": "做平纸与旋翼",
+          "action": "成人从同张纸裁出两张4×16厘米纸条。一张保持平展；另一张按以下方法制作：成人剪出4×16厘米纸条：从上方短边中点沿长向剪5厘米；在距顶端5厘米处，从左右边各向内剪1厘米，保留中间2厘米连着。上面得到两片2×5厘米叶片；下面两侧各1厘米向中间折，底端再向上折2厘米。两叶分别朝前、朝后折近直角。",
+          "actor": "adult",
+          "caption": "一样大的纸，变成两种样子。",
+          "adultNote": "成人全程近距离陪伴；剪下小纸屑立即收走。"
+        },
+        {
+          "title": "确定低位释放",
+          "action": "成人先用卷尺找出纸底距地面80厘米的位置，卷尺收走后再试。站在地面上，在同一位置先捏住平纸底端使其竖直，再轻轻松开。",
+          "actor": "adult",
+          "caption": "先看平纸怎么落下。",
+          "adultNote": "只松手，不推、不弹；孩子在旁边界外看，不追接纸。"
+        },
+        {
+          "title": "换成有叶片的纸",
+          "action": "成人改拿折好的旋翼，纸底仍距地面80厘米，竖直持握底端后松手。各释放2次，交替次序为平纸、旋翼、平纸、旋翼；看转动、摇晃或直接下落。",
+          "actor": "adult",
+          "caption": "这次看到转动了吗？",
+          "adultNote": "不承诺一定转起来；纸已折坏或叶片合拢就记录并结束该架，不临时加配重。"
+        },
+        {
+          "title": "用动作说观察",
+          "action": "孩子用手在自己身前比划或画线表示看到的下落，不模仿抛纸；成人代记两种纸的观察，以及看不清的地方。",
+          "actor": "child",
+          "caption": "画你看到的，不画想要的。",
+          "adultNote": "不问哪种一定更快；没有计时就不替孩子下速度结论。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "纸的形状可以改变下落方式",
+          "空气也会对纸产生作用",
+          "观察可包括看不清"
+        ],
+        "explanation": "纸受到重力会下落，空气对不同形状的纸产生不同作用。折开的两片叶子可能使纸一边下落一边转动；这不是装了马达的直升机。",
+        "limits": "平纸也可能摆动或翻转；低位的一次释放不能保证形成清楚旋转。没有计时，不能说某种一定下落更慢。",
+        "observation": "平纸和旋翼各两次：转动／摇晃／较直地落下／看不清；可用图或原话。",
+        "nextQuestion": "树上飘落的种子有没有不同的形状？"
+      },
+      "guide": {
+        "goal": "实际比较平纸与折翼纸的下落动作。",
+        "observe": "同样大小的平纸和折好叶片的纸，下落时看起来一样吗？",
+        "support": "成人制作、释放；孩子站在边界外观察、画图或口述。",
+        "control": "同张纸、同原始尺寸、同一80厘米纸底高度与松手位置；形状不同。",
+        "time": "约10–15分钟；孩子参与5–10分钟即可。",
+        "recordFields": [
+          "平纸两次的样子",
+          "旋翼两次的样子",
+          "孩子原话或看不清的地方"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rotor-46-prepare",
+          "description": "平纸与带剪口的旋翼纸；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 98,
+              "width": 80,
+              "height": 165,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 84,
+              "text": "保持平纸",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 95,
+              "width": 80,
+              "height": 172,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 370,
+              "y1": 95,
+              "x2": 370,
+              "y2": 150,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 330,
+              "y1": 150,
+              "x2": 350,
+              "y2": 150,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 150,
+              "x2": 410,
+              "y2": 150,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 150,
+              "x2": 350,
+              "y2": 267,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 150,
+              "x2": 390,
+              "y2": 267,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 244,
+              "x2": 390,
+              "y2": 244,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 332,
+              "y": 84,
+              "text": "宽4厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 131,
+              "text": "叶长5厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 173,
+              "text": "侧剪各1厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 213,
+              "text": "总长16厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 256,
+              "text": "底端折2厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-46-flat",
+          "description": "平纸竖直低位释放；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 560,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 290,
+              "y": 126,
+              "width": 40,
+              "height": 90,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 390,
+              "y1": 150,
+              "x2": 390,
+              "y2": 235,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 102,
+              "text": "纸底距地80厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 294,
+              "text": "只松手，不抛掷",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-46-rotor",
+          "description": "折好旋翼使用同高度释放；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 270,
+              "x2": 565,
+              "y2": 270,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 208,
+              "x2": 112,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 208,
+              "x2": 310,
+              "y2": 208,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 38,
+              "y": 246,
+              "text": "80厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 310,
+              "y": 126,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 253,
+              "y": 113,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 126,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 101,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 117,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 140,
+              "x2": 420,
+              "y2": 234,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 88,
+              "text": "纸底对齐高度线",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 193,
+              "text": "松手",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 298,
+              "text": "人站边界外；落稳再拾取",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-46-compare",
+          "description": "同规格纸的两种结构对照；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 115,
+              "y": 106,
+              "width": 60,
+              "height": 142,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 410,
+              "y": 130,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 117,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 130,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 360,
+              "y": 105,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 462,
+              "y": 121,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 286,
+              "text": "平纸×2次",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 344,
+              "y": 286,
+              "text": "旋翼×2次",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 84,
+              "text": "下落样子由孩子观察",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exploratorium｜Roto-Copter",
+          "url": "https://dev-annex.exploratorium.edu/science-explorer/roto-copter.html",
+          "claim": "相反折向的纸叶片在下落空气作用下可产生转动；对调折向是可探究的改变。",
+          "scope": "只参考纸旋翼结构与空气作用的解释。不采用该旧页面的配重、抛掷、登椅或窗口释放方式；尺寸及地面低位释放为本项目改编。"
+        },
+        {
+          "title": "NASA JPL Education｜Make a Paper Mars Helicopter",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+          "claim": "纸旋翼可用于改变设计、重复测试并观察飞行；纸模型不等于有动力的火星直升机。",
+          "scope": "用于设计迭代与观察方法参考，不证明本方案参数已经试飞。限高1米且不登高；采用本页成人专属安全规则。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立家庭改编，未实地试做，也不代表来源机构认证。图为结构与测量示意，不是实际飞行轨迹或已观察数据；低位未形成清楚旋转、漂移或时间差时，如实记录，不提高到安全上限之外。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "把A、B叶片的前后折向对调，下落时的转向会改变吗？",
+      "materials": [
+        "同批普通A4纸1张（裁2张4×16厘米纸条）",
+        "直尺1把、铅笔1支；成人用剪刀1把",
+        "卷尺1把、记录纸1张"
+      ],
+      "safety": "剪裁仅成人操作；不加回形针、硬币或其他配重。所有释放由成人双脚站在平地完成，纸底最高距地面1米；不登椅、不站台阶、不靠窗或阳台，不抛掷、不朝人脸释放。清出约1.5×1.5米地面，观察者站在边界外；纸落地且成人示意后才拾取。关闭风扇，远离火源和宠物；有尖锐障碍或气流无法避开就换地点或停止。",
+      "steps": [
+        {
+          "title": "做一对镜像旋翼",
+          "action": "成人剪出4×16厘米纸条：从上方短边中点沿长向剪5厘米；在距顶端5厘米处，从左右边各向内剪1厘米，保留中间2厘米连着。上面得到两片2×5厘米叶片；下面两侧各1厘米向中间折，底端再向上折2厘米。两叶分别朝前、朝后折近直角。再做一架同尺寸旋翼。面对纸条有编号的一面看：P架A叶朝自己、B叶背向自己；Q架A叶背向自己、B叶朝自己，其他折法相同。每架A叶轻写字母A，机身写P或Q。",
+          "actor": "together",
+          "caption": "只把两片叶的前后方向交换。",
+          "adultNote": "成人剪裁；标记用同一铅笔且不涂厚重颜料，叶片不要捏皱。"
+        },
+        {
+          "title": "约定观察方向",
+          "action": "成人标定纸底距地面1米的释放位置后收走卷尺。孩子站在固定侧边界外，从斜上方看下降区域；把旋翼转轴靠近观察者的半圈称为“近侧”：只在标A叶经过近侧时，记它从观察者左向右，还是从右向左；若分不清近侧或追不到A叶，记“无法判断”。不要移动到纸正下方。",
+          "actor": "together",
+          "caption": "每次都从同一边看。",
+          "adultNote": "不用笼统的“朝左绕/朝右绕”代替定义。成人帮忙确认近侧；若看不出转向，只记转了或未形成清楚旋转。"
+        },
+        {
+          "title": "交替释放六次",
+          "action": "成人捏住机身底部竖直松手，按P、Q、P、Q、P、Q次序各3次，不主动拧转。每次落稳后查看叶片是否维持折向，记录编号、是否旋转和方向是否可辨。",
+          "actor": "adult",
+          "caption": "A叶经过近侧时向左还是向右？",
+          "adultNote": "变形或撞物的那次标异常；若要补测需另外注明，不能删掉异常。"
+        },
+        {
+          "title": "比较两组结果",
+          "action": "把P与Q各3次并排记录。若至少能看清部分方向，说出哪些支持“折向改变与转向有关”、哪些看不清；不能仅凭第一次给全部结果填答案。",
+          "actor": "child",
+          "caption": "证据是每次看到的方向。",
+          "adultNote": "同一架重复3次不等于3架独立样本；本次只能讨论这对纸旋翼。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "叶片折向与转动方向",
+          "观察方向必须固定",
+          "同架重复不等于独立制作"
+        ],
+        "explanation": "下落空气对倾斜叶片的作用可以形成转动效应。交换两片叶的前后折向，相当于制作一对镜像结构，可以实际探究转向是否随之改变。",
+        "limits": "视角变换会让方向描述混乱；低位可能尚未稳定旋转。纸张变形、释放时手指带转也是其他原因，不能把所有转向变化都归于折法。",
+        "observation": "P/Q各3次：是否旋转、A叶经过近侧时左→右／右→左／无法判断、是否碰物或变形。",
+        "nextQuestion": "另做一对新旋翼，能否在相同视角重复这个观察？"
+      },
+      "guide": {
+        "goal": "实际制作镜像折向的一对旋翼，并交替观察方向。",
+        "observe": "把A、B叶片的前后折向对调，下落时的转向会改变吗？",
+        "support": "成人剪裁与释放；孩子折纸、编号并从固定侧边观察。",
+        "control": "同纸同尺寸、1米纸底高度、同位置同握法；仅交换叶片前后折向。",
+        "time": "约20–25分钟。",
+        "recordFields": [
+          "P架3次旋转与转向记录",
+          "Q架3次旋转与转向记录",
+          "观察视角及看不清/异常情况"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rotor-79-mirror",
+          "description": "两架叶片折向镜像；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 130,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 103,
+              "y": 117,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 130,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 105,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 121,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 130,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 388,
+              "y": 130,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 117,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 105,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 497,
+              "y": 105,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 84,
+              "text": "P：A前／B后",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 355,
+              "y": 84,
+              "text": "Q：A后／B前",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 285,
+              "text": "同尺寸4×16厘米；不是预测转向",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-79-view",
+          "description": "固定位置观察，观察者不在落区下方；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 115,
+              "width": 230,
+              "height": 155,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 115,
+              "x2": 200,
+              "y2": 270,
+              "stroke": "#BC6A38",
+              "strokeWidth": 5
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 156,
+              "text": "近侧",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "circle",
+              "x": 315,
+              "y": 185,
+              "r": 8,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 205,
+              "r": 16,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 221,
+              "x2": 100,
+              "y2": 255,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 104,
+              "text": "观察者",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 95,
+              "text": "俯视：清空落区",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 278,
+              "y": 218,
+              "text": "释放点",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 291,
+              "text": "每次从同一边看，不伸手接",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-79-release",
+          "description": "同一位置释放镜像旋翼；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 75,
+              "y1": 270,
+              "x2": 565,
+              "y2": 270,
+              "stroke": "#52715B",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 208,
+              "x2": 112,
+              "y2": 270,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 208,
+              "x2": 310,
+              "y2": 208,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 38,
+              "y": 246,
+              "text": "1米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 310,
+              "y": 126,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 253,
+              "y": 113,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 126,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 101,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 117,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 140,
+              "x2": 420,
+              "y2": 234,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 88,
+              "text": "纸底对齐高度线",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 193,
+              "text": "松手",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 298,
+              "text": "人站边界外；落稳再拾取",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-79-repeat",
+          "description": "P与Q交替但不预设转向；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 103,
+              "y": 112,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 125,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 100,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 116,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 393,
+              "y": 125,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 112,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 100,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 502,
+              "y": 100,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 270,
+              "text": "P×3",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 435,
+              "y": 270,
+              "text": "Q×3",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 88,
+              "text": "P、Q交替；方向待观察",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exploratorium｜Roto-Copter",
+          "url": "https://dev-annex.exploratorium.edu/science-explorer/roto-copter.html",
+          "claim": "相反折向的纸叶片在下落空气作用下可产生转动；对调折向是可探究的改变。",
+          "scope": "只参考纸旋翼结构与空气作用的解释。不采用该旧页面的配重、抛掷、登椅或窗口释放方式；尺寸及地面低位释放为本项目改编。"
+        },
+        {
+          "title": "NASA JPL Education｜Make a Paper Mars Helicopter",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+          "claim": "纸旋翼可用于改变设计、重复测试并观察飞行；纸模型不等于有动力的火星直升机。",
+          "scope": "用于设计迭代与观察方法参考，不证明本方案参数已经试飞。限高1米且不登高；采用本页成人专属安全规则。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立家庭改编，未实地试做，也不代表来源机构认证。图为结构与测量示意，不是实际飞行轨迹或已观察数据；低位未形成清楚旋转、漂移或时间差时，如实记录，不提高到安全上限之外。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "从40、70、100厘米松手，同一设计的纸旋翼落点偏移有何差别？",
+      "materials": [
+        "同批普通A4纸1张（裁3张4×16厘米纸条，编号A/B/C）",
+        "直尺1把、卷尺1把、铅笔1支；成人用剪刀1把",
+        "可移除纸胶带约30厘米（成人贴平标出O，不留下绊脚边）",
+        "记录纸1张；约1.5×1.5米清空地面"
+      ],
+      "safety": "剪裁仅成人操作；不加回形针、硬币或其他配重。所有释放由成人双脚站在平地完成，纸底最高距地面1米；不登椅、不站台阶、不靠窗或阳台，不抛掷、不朝人脸释放。清出约1.5×1.5米地面，观察者站在边界外；纸落地且成人示意后才拾取。关闭风扇，远离火源和宠物；有尖锐障碍或气流无法避开就换地点或停止。",
+      "steps": [
+        {
+          "title": "做三架独立样本",
+          "action": "成人剪出4×16厘米纸条：从上方短边中点沿长向剪5厘米；在距顶端5厘米处，从左右边各向内剪1厘米，保留中间2厘米连着。上面得到两片2×5厘米叶片；下面两侧各1厘米向中间折，底端再向上折2厘米。两叶分别朝前、朝后折近直角。按同一方法做A、B、C三架新旋翼，统一A叶朝前、B叶朝后；记录实际叶长、折边和明显不一致。",
+          "actor": "together",
+          "caption": "三架分别制作，不把一架当三架。",
+          "adultNote": "成人剪裁；破损就标记该架不可测，不用碎纸修补成另一个设计。"
+        },
+        {
+          "title": "标定高度与地面原点",
+          "action": "成人用卷尺标定纸底40、70、100厘米三个高度（可在旁边固定参照物上用铅笔临时标记，不在下落区域竖杆）。用纸胶带在地面标出释放点正下方O；成人站在O旁边，手不向外抛。测量工具退出落区后释放。",
+          "actor": "adult",
+          "caption": "同一个O，上方换三种高度。",
+          "adultNote": "最高100厘米；若成人无法稳持且不遮挡路径，就终止该条件，不靠凳子解决。"
+        },
+        {
+          "title": "轮换九次并量偏移",
+          "action": "每架在三个高度各释放1次，共9次：A按40→70→100，B按70→100→40，C按100→40→70。孩子先记首次接触地面的位置；落稳后成人标记，用卷尺量O到首次落点的水平直线距离，记到厘米。滑行终点不能代替首次落点；看不清则记缺测。",
+          "actor": "together",
+          "caption": "高度、编号、首次落点都要对应。",
+          "adultNote": "测量前确认旋翼已落稳；撞物、明显气流或叶片变形另标异常，不静默重测替换。"
+        },
+        {
+          "title": "按高度整理证据",
+          "action": "每个高度列出A/B/C三架的偏移距离和异常；3个有效数值才计算平均值并写范围。比较高度组的范围是否重叠，说明同一架在不同高度重复使用，并检查顺序和磨损影响。",
+          "actor": "child",
+          "caption": "距离不同，不等于已经找到原因。",
+          "adultNote": "没有固定风向、释放姿态或完整落点记录时，不能把差异都归给高度。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "水平落点偏移不同于下落时间",
+          "单变量高度比较与轮换顺序",
+          "独立制作与同架重复的区别"
+        ],
+        "explanation": "释放高度改变了纸旋翼到达地面前可运动的距离，可能影响它的转动建立和水平漂移。测量地面原点到首次落点的距离，能把“落得远”变成有单位的记录；这不是直接测量空气阻力大小。",
+        "limits": "纸旋翼会侧移，气流、手的姿态及不同制作均会影响落点；更高不保证每次偏移更大。每架跨高度重复使用可能磨损，九次不是九架独立制作。",
+        "observation": "每次记录架号、实际高度、首次落点距离（厘米）、旋转与异常；各高度三个有效值的均值和范围。",
+        "nextQuestion": "本轮哪个因素最可能掩盖高度差异？怎样在同样限高内改进释放一致性？"
+      },
+      "guide": {
+        "goal": "真实改变三个低位释放高度，测量三架旋翼的落点偏移。",
+        "observe": "从40、70、100厘米松手，同一设计的纸旋翼落点偏移有何差别？",
+        "support": "成人剪裁、标定与释放；孩子安全观察首次落点、测距和保留缺测。",
+        "control": "同设计、同释放地面原点、同握法；高度是改变项，三架轮换高度顺序。",
+        "time": "约30–40分钟，可分制作与测量两段。",
+        "recordFields": [
+          "40厘米：A/B/C距离及异常",
+          "70厘米：A/B/C距离及异常",
+          "100厘米：A/B/C距离及异常",
+          "有效均值/范围及可能干扰"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rotor-1012-build",
+          "description": "三架同设计新旋翼；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 63,
+              "y": 112,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 125,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 100,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 172,
+              "y": 116,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 310,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 253,
+              "y": 112,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 125,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 100,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 116,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 500,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 443,
+              "y": 112,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 510,
+              "y": 125,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 450,
+              "y": 100,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 552,
+              "y": 116,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 118,
+              "y": 270,
+              "text": "机A",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 308,
+              "y": 270,
+              "text": "机B",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 498,
+              "y": 270,
+              "text": "机C",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 245,
+              "text": "每架4×16厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1012-height",
+          "description": "三个高度从同一点上方释放；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 275,
+              "x2": 560,
+              "y2": 275,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 86,
+              "x2": 320,
+              "y2": 275,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 105,
+              "x2": 355,
+              "y2": 105,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 156,
+              "x2": 355,
+              "y2": 156,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 207,
+              "x2": 355,
+              "y2": 207,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 111,
+              "text": "100厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 162,
+              "text": "70厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 213,
+              "text": "40厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "circle",
+              "x": 320,
+              "y": 275,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "text",
+              "x": 334,
+              "y": 295,
+              "text": "O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 83,
+              "text": "高度量到纸底",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1012-land",
+          "description": "俯视测量首次落点偏移；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 95,
+              "width": 390,
+              "height": 180,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 105,
+              "x2": 300,
+              "y2": 266,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 185,
+              "x2": 500,
+              "y2": 185,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 185,
+              "r": 5,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "rect",
+              "x": 401,
+              "y": 221,
+              "width": 14,
+              "height": 27,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 185,
+              "x2": 408,
+              "y2": 234,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 88,
+              "text": "俯视：释放点正下方O",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 307,
+              "y": 175,
+              "text": "O",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 249,
+              "text": "落点",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 292,
+              "text": "量O到首次落点，不量滑行终点",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1012-order",
+          "description": "三架样本轮换释放高度；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 120,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 63,
+              "y": 107,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 120,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 95,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 172,
+              "y": 111,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 310,
+              "y": 120,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 253,
+              "y": 107,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 120,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 95,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 111,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 500,
+              "y": 120,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 443,
+              "y": 107,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 510,
+              "y": 120,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 450,
+              "y": 95,
+              "text": "叶A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 552,
+              "y": 111,
+              "text": "叶B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 78,
+              "y": 257,
+              "text": "机A 40→70→100",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 268,
+              "y": 257,
+              "text": "机B 70→100→40",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 434,
+              "y": 257,
+              "text": "机C 100→40→70",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 293,
+              "text": "单位厘米；每架每高度只测1次",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exploratorium｜Roto-Copter",
+          "url": "https://dev-annex.exploratorium.edu/science-explorer/roto-copter.html",
+          "claim": "相反折向的纸叶片在下落空气作用下可产生转动；对调折向是可探究的改变。",
+          "scope": "只参考纸旋翼结构与空气作用的解释。不采用该旧页面的配重、抛掷、登椅或窗口释放方式；尺寸及地面低位释放为本项目改编。"
+        },
+        {
+          "title": "NASA JPL Education｜Make a Paper Mars Helicopter",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+          "claim": "纸旋翼可用于改变设计、重复测试并观察飞行；纸模型不等于有动力的火星直升机。",
+          "scope": "用于设计迭代与观察方法参考，不证明本方案参数已经试飞。限高1米且不登高；采用本页成人专属安全规则。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立家庭改编，未实地试做，也不代表来源机构认证。图为结构与测量示意，不是实际飞行轨迹或已观察数据；低位未形成清楚旋转、漂移或时间差时，如实记录，不提高到安全上限之外。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "两种叶长设计在60厘米与100厘米释放时，下落时间与转动表现的比较是否相同？",
+      "materials": [
+        "同批普通A4纸2张（裁6张旋翼纸：3张4×15厘米、3张4×17厘米）",
+        "直尺1把、卷尺1把、铅笔1支；成人用剪刀1把",
+        "能回放视频并显示准确帧率或时间戳的手机1部（成人手持在落区外；无此功能则只做转动观察，不填时长）",
+        "记录纸2张；约1.5×1.5米清空地面"
+      ],
+      "safety": "剪裁仅成人操作；不加回形针、硬币或其他配重。所有释放由成人双脚站在平地完成，纸底最高距地面1米；不登椅、不站台阶、不靠窗或阳台，不抛掷、不朝人脸释放。清出约1.5×1.5米地面，观察者站在边界外；纸落地且成人示意后才拾取。关闭风扇，远离火源和宠物；有尖锐障碍或气流无法避开就换地点或停止。手机始终由成人在落区外持稳；拍摄只框装置和地面，不需拍人脸，不上传录像。",
+      "steps": [
+        {
+          "title": "制作两种叶长设计",
+          "action": "成人制作短叶S型3架：纸条4×15厘米，顶端中线剪4厘米；长叶L型3架：纸条4×17厘米，顶端中线剪6厘米。两种在叶根处均从左右边各剪入1厘米；未剪开的机身都长11厘米，两侧各1厘米向中间折、底端上折2厘米；叶片相反折近直角。编号SA/SB/SC、LA/LB/LC。",
+          "actor": "together",
+          "caption": "叶长4或6厘米，机身一样长。",
+          "adultNote": "纸总面积随设计改变，因此质量也可能改变；这是两种设计比较，不是只改变叶长的严格因果检验。"
+        },
+        {
+          "title": "固定拍摄和释放条件",
+          "action": "成人从侧面拍摄完整下落区域，使最后离手和首次触地都能看清。确认视频回放有准确时间戳或已知实际帧率；若只有慢放倍速且不知道实际帧率，就不换算秒数。另一个成人按纸底60厘米、100厘米两高度竖直松手；若只有一位成人且不能安全同时完成拍摄与释放，取消录像，只记转动表现。",
+          "actor": "adult",
+          "caption": "先确认计时工具真的能读时间。",
+          "adultNote": "无人协助不能让孩子站到落区里帮忙拍摄；不使用不稳的临时高架固定手机。"
+        },
+        {
+          "title": "交替测试四个条件",
+          "action": "每架在两高度各放1次，共12次。A/C轮每型先60后100厘米，B轮先100后60；每轮S与L交替。记录首次明显旋转、未形成清楚旋转或翻滚。有效视频从最后离手到首次触地按帧/时间戳读下落时长；不能看清边界的留缺测，不能估填。",
+          "actor": "together",
+          "caption": "12次分别保留，不只挑漂亮的。",
+          "adultNote": "成人释放与拍摄；重复使用前查叶形。撞物、带转或变形单列，不把异常删除后声称都是成功旋转。"
+        },
+        {
+          "title": "比较设计×高度与误差",
+          "action": "四组各有3架结果；仅对3个有效时长的组算均值和范围，时间精度不细于视频一帧对应时长。先在同一高度比S/L，再在同一设计比两高度，报告组内波动及缺测。说明短行程未必达到稳定下降，不能从总下落时间反推恒定阻力、终端速度或马达升力。",
+          "actor": "child",
+          "caption": "设计比较要说清变量与限制。",
+          "adultNote": "没有可用视频时仍可比较实际转动分类，但报告“时间证据不足”，不把分类写成时长。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两因素设计：叶长设计×释放高度",
+          "视频时间分辨率与边界判定",
+          "无动力旋转和终端速度假设"
+        ],
+        "explanation": "重力使纸模型下降，空气作用可以使相反折向叶片产生转动并改变运动。两种叶长方案在两个高度分别测试，可检查设计差别是否在两高度都出现；组间比较还要看制作差异。纸模型依靠下降中的空气作用，不像真正的直升机用马达持续驱动叶片。",
+        "limits": "长叶方案用了更多纸，质量、转动惯量和叶面积一起变，不能单独证明“叶长导致时间变化”。低位下降含启动过程，不能假定全程匀速或已达终端速度；视频帧率、运动模糊及边界判定限制时间精度。同架跨高度复用是配对观测，不是新增独立样本。",
+        "observation": "四条件各3架：转动分类、有效视频时长/帧率与缺测原因；均值范围仅由可用值按规则计算。",
+        "nextQuestion": "若要更接近“只改变叶长”，还需控制哪些质量与几何条件？现有家庭材料能否做到？"
+      },
+      "guide": {
+        "goal": "实际完成两种叶长设计×两低位高度的四条件比较，用视频证据审查测量与模型限制。",
+        "observe": "两种叶长设计在60厘米与100厘米释放时，下落时间与转动表现的比较是否相同？",
+        "support": "成人剪裁、释放与拍摄；学习者制定编号矩阵、读取证据并解释混杂因素。",
+        "control": "同纸同机身11厘米、同折向和释放姿态；改变设计与高度。叶长改变同时改变纸面积/质量，必须说明。",
+        "time": "约40–55分钟；可分制作与测试两次。",
+        "recordFields": [
+          "60厘米：S/L各A/B/C转动及时长或缺测",
+          "100厘米：S/L各A/B/C转动及时长或缺测",
+          "视频帧率/读数边界、组均值与范围",
+          "制作差异、质量混杂与模型适用限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rotor-1316-design",
+          "description": "两种叶长、相同11厘米机身；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 105,
+              "y": 116,
+              "width": 64,
+              "height": 158,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 137,
+              "y1": 116,
+              "x2": 137,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 161,
+              "x2": 121,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 161,
+              "x2": 169,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 395,
+              "y": 92,
+              "width": 64,
+              "height": 182,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 427,
+              "y1": 92,
+              "x2": 427,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 161,
+              "x2": 411,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 443,
+              "y1": 161,
+              "x2": 459,
+              "y2": 161,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 85,
+              "text": "S：4×15厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 349,
+              "y": 85,
+              "text": "L：4×17厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 143,
+              "text": "叶4厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 139,
+              "text": "叶6厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 175,
+              "y": 236,
+              "text": "机身11厘米",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 236,
+              "text": "同长",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 297,
+              "text": "各做3架；两种纸面积不同",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1316-height",
+          "description": "两高度与侧方录像装置；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 275,
+              "x2": 570,
+              "y2": 275,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 100,
+              "x2": 320,
+              "y2": 275,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 111,
+              "x2": 355,
+              "y2": 111,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 177,
+              "x2": 355,
+              "y2": 177,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 360,
+              "y": 117,
+              "text": "100厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 360,
+              "y": 183,
+              "text": "60厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 165,
+              "width": 45,
+              "height": 75,
+              "fill": "#DDE8D9",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 114,
+              "y": 177,
+              "r": 4,
+              "fill": "#BC6A38"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 147,
+              "text": "成人持机",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 152,
+              "y": 296,
+              "text": "从侧面拍完整离手到触地",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1316-observe",
+          "description": "四组试验的旋翼与机身结构；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 112,
+              "width": 50,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 125,
+              "width": 50,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 100,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 116,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 125,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 112,
+              "width": 75,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 125,
+              "width": 75,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 100,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 497,
+              "y": 116,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 104,
+              "y": 85,
+              "text": "S：3架",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 85,
+              "text": "L：3架",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 268,
+              "text": "每架60/100厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 373,
+              "y": 268,
+              "text": "每架60/100厘米",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 297,
+              "text": "转动、时长由实测填写",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rotor-1316-read",
+          "description": "视频边界从最后离手到首次触地；仅装置示意，不按比例，不预设观察结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 100,
+              "width": 245,
+              "height": 157,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 347,
+              "y": 100,
+              "width": 245,
+              "height": 157,
+              "fill": "#EEF3E6",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 133,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 103,
+              "y": 120,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 133,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 108,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 124,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 443,
+              "y": 170,
+              "width": 20,
+              "height": 82,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 386,
+              "y": 157,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 453,
+              "y": 170,
+              "width": 67,
+              "height": 13,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 393,
+              "y": 145,
+              "text": "A",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 495,
+              "y": 161,
+              "text": "B",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 357,
+              "y1": 252,
+              "x2": 582,
+              "y2": 252,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 87,
+              "text": "最后离手",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 87,
+              "text": "首次触地",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 289,
+              "text": "帧号或时间戳1",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 388,
+              "y": 289,
+              "text": "帧号或时间戳2",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exploratorium｜Roto-Copter",
+          "url": "https://dev-annex.exploratorium.edu/science-explorer/roto-copter.html",
+          "claim": "相反折向的纸叶片在下落空气作用下可产生转动；对调折向是可探究的改变。",
+          "scope": "只参考纸旋翼结构与空气作用的解释。不采用该旧页面的配重、抛掷、登椅或窗口释放方式；尺寸及地面低位释放为本项目改编。"
+        },
+        {
+          "title": "NASA JPL Education｜Make a Paper Mars Helicopter",
+          "url": "https://www.jpl.nasa.gov/edu/resources/project/make-a-paper-mars-helicopter-2/",
+          "claim": "纸旋翼可用于改变设计、重复测试并观察飞行；纸模型不等于有动力的火星直升机。",
+          "scope": "用于设计迭代与观察方法参考，不证明本方案参数已经试飞。限高1米且不登高；采用本页成人专属安全规则。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立家庭改编，未实地试做，也不代表来源机构认证。图为结构与测量示意，不是实际飞行轨迹或已观察数据；低位未形成清楚旋转、漂移或时间差时，如实记录，不提高到安全上限之外。"
+    }
+  }
+}

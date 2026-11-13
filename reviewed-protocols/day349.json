@@ -1,0 +1,4007 @@
+{
+  "activityId": 349,
+  "activityTitle": "倒着检查一串指令",
+  "contentKey": "annual-m057",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "用手指走两步，怎样沿原路回家？",
+      "materials": [
+        "A4整纸1张、铅笔1支、圆滑直尺1把用于画格。成人当场手画网格；不剪卡、不用小棋子，用手指或笔迹代表位置。幼儿画3×3格点；其余龄画横纵均从−3到4的8×8格点，格距约15毫米，写x向右、y向上，坐标表示格点而非格子中心。 本龄记录：孩子指路与原话；成人代画去回两段；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 只用整纸、笔和圆滑尺，成人检查尺边，幼儿只指画，成人代读代记；不剪裁，不实际走动或旋转身体。疲倦可停，收材料洗手。",
+      "steps": [
+        {
+          "title": "看成人画起点",
+          "caption": "看成人画起点",
+          "action": "成人画3×3格点，左下点画小房子作起点，不标数字。孩子用手指触起点，成人说右边和上边；不使用可吞的小棋子。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "走右一再上一",
+          "caption": "走右一再上一",
+          "action": "成人边说边让孩子手指右移一个点、再上移一个点，成人画两段箭头，孩子可只看不画。每次到点才换方向。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "先撤最后一步",
+          "caption": "先撤最后一步",
+          "action": "成人问最后怎么走的，再引导从终点向下一个点、向左一个点，沿原线回房子。若孩子先走左边，成人分别指出也可能回家但不是沿原线。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "指着线说前后",
+          "caption": "指着线说前后",
+          "action": "孩子指来路和回路，成人代记“先撤后做的”。不要求写反函数或证明；指错保留原话再重看两段，不另加新指令。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "顺序",
+          "沿原路撤销"
+        ],
+        "explanation": "沿原路径回去，要先撤最后那一步；回到同一点不总表示沿原路。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上检验下一种规则，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "用手指走两步，怎样沿原路回家？",
+        "observe": "用手指走两步，怎样沿原路回家？",
+        "support": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。 可口述代记，不强求预期结论。",
+        "control": "仅两步，每一步一格点，成人读方向。",
+        "time": "准备手画格约3—5分钟，核心10—15分钟；幼儿参与5—10分钟。无额外等待阶段，画图已计入。",
+        "recordFields": [
+          "孩子指路与原话",
+          "成人代画去回两段"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day349-4-6-1",
+          "description": "看成人画起点。成人画3×3格点，左下点画小房子作起点，不标数字。孩子用手指触起点，成人说右边和上边；不使用可吞的小棋子。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看成人画起点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 182,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 207,
+              "x2": 182,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 182,
+              "y1": 267,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 147,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 267,
+              "x2": 122,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 207,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "小房子是起点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "只用手指走",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不要求坐标",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-4-6-2",
+          "description": "走右一再上一。成人边说边让孩子手指右移一个点、再上移一个点，成人画两段箭头，孩子可只看不画。每次到点才换方向。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "走右一再上一",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 182,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 207,
+              "x2": 182,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 182,
+              "y1": 267,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 147,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 267,
+              "x2": 122,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 207,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "先右一，再上一",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "到格点再换向",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "成人画两段",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-4-6-3",
+          "description": "先撤最后一步。成人问最后怎么走的，再引导从终点向下一个点、向左一个点，沿原线回房子。若孩子先走左边，成人分别指出也可能回家但不是沿原线。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先撤最后一步",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 182,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 207,
+              "x2": 182,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 182,
+              "y1": 267,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 147,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 122,
+              "y1": 207,
+              "x2": 122,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 122,
+              "y1": 267,
+              "x2": 62,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 207,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "先下一，再左一",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "沿原线回房子",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "先撤最后一步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-4-6-4",
+          "description": "指着线说前后。孩子指来路和回路，成人代记“先撤后做的”。不要求写反函数或证明；指错保留原话再重看两段，不另加新指令。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "指着线说前后",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 182,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 207,
+              "x2": 182,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 182,
+              "y1": 267,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 147,
+              "x2": 182,
+              "y2": 147,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 267,
+              "x2": 122,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 122,
+              "y1": 267,
+              "x2": 122,
+              "y2": 207,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 267,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 207,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "指去路与回路",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "终点同不一定路同",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "孩子说一句即可",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "用手指走两步，怎样沿原路回家？",
+        "solve": "若结论对不上，回到“写指令”核对原始条件，再按“反序反向”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "沿原路径回去，要先撤最后那一步；回到同一点不总表示沿原路。",
+        "evolve": "只在纸上检验下一种规则，不增加实物实验。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      }
+    },
+    "7-9": {
+      "version": 1,
+      "question": "怎样逆序反向撤销右2、上1、左1？",
+      "materials": [
+        "A4整纸1张、铅笔1支、圆滑直尺1把用于画格。成人当场手画网格；不剪卡、不用小棋子，用手指或笔迹代表位置。幼儿画3×3格点；其余龄画横纵均从−3到4的8×8格点，格距约15毫米，写x向右、y向上，坐标表示格点而非格子中心。 本龄记录：原三条指令与中间点；逆序反向三条及中间点；路径与终点核对；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 只用整纸、笔和圆滑尺，成人检查尺边，幼儿只指画，成人代读代记；不剪裁，不实际走动或旋转身体。疲倦可停，收材料洗手。",
+      "steps": [
+        {
+          "title": "先标坐标与起点",
+          "caption": "先标坐标与起点",
+          "action": "成人画网格并写右为x增、上为y增。儿童从(1,1)起，抄右2、上1、左1三个指令，坐标用格点而非格子中心。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "逐段走并记中间点",
+          "caption": "逐段走并记中间点",
+          "action": "用笔画出(1,1)→(3,1)→(3,2)→(2,2)。每段旁写原指令，不只抄终点，走错就在旁注更正，不擦掉全部过程。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "从最后一条开始撤销",
+          "caption": "从最后一条开始撤销",
+          "action": "从(2,2)依次右1、下1、左2，记回路中间点(3,2)、(3,1)、(1,1)，逐段对照原路径。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "核对点与路径",
+          "caption": "核对点与路径",
+          "action": "圈出确实回(1,1)并沿原段倒走。说明反向是把右换左/上换下，逆序是把最后一条先做，两件事要分别检查；不要由此声称纯平移顺序永远不可换。收纸笔尺洗手。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "坐标路径",
+          "反向与逆序"
+        ],
+        "explanation": "逆序且逐条反向能原路撤销；保留中间点才能检查是否原路。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上检验下一种规则，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "怎样逆序反向撤销右2、上1、左1？",
+        "observe": "怎样逆序反向撤销右2、上1、左1？",
+        "support": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。 可口述代记，不强求预期结论。",
+        "control": "同网格同起点，右上方向固定，不转纸冒充旋转。",
+        "time": "准备手画格约3—5分钟，核心10—15分钟；幼儿参与5—10分钟。无额外等待阶段，画图已计入。",
+        "recordFields": [
+          "原三条指令与中间点",
+          "逆序反向三条及中间点",
+          "路径与终点核对"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day349-7-9-1",
+          "description": "先标坐标与起点。成人画网格并写右为x增、上为y增。儿童从(1,1)起，抄右2、上1、左1三个指令，坐标用格点而非格子中心。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先标坐标与起点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 94,
+              "y1": 235,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 126,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "起点(1,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "右2，上1，左1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "坐标标在格点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-7-9-2",
+          "description": "逐段走并记中间点。用笔画出(1,1)→(3,1)→(3,2)→(2,2)。每段旁写原指令，不只抄终点，走错就在旁注更正，不擦掉全部过程。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐段走并记中间点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 94,
+              "y1": 235,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 126,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "中间点逐个记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "终点(2,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不只写最后点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-7-9-3",
+          "description": "从最后一条开始撤销。从(2,2)依次右1、下1、左2，记回路中间点(3,2)、(3,1)、(1,1)，逐段对照原路径。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "从最后一条开始撤销",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 126,
+              "y1": 203,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 94,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "右1，下1，左2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "逐段沿原线撤销",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "回到(1,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-7-9-4",
+          "description": "核对点与路径。圈出确实回(1,1)并沿原段倒走。说明反向是把右换左/上换下，逆序是把最后一条先做，两件事要分别检查；不要由此声称纯平移顺序永远不可换。收纸笔尺洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "核对点与路径",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 94,
+              "y1": 235,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 126,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "逆序和反向分开查",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "路径与终点分开说",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不推广所有操作",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "怎样逆序反向撤销右2、上1、左1？",
+        "solve": "若结论对不上，回到“写指令”核对原始条件，再按“反序反向”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "逆序且逐条反向能原路撤销；保留中间点才能检查是否原路。",
+        "evolve": "只在纸上检验下一种规则，不增加实物实验。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      }
+    },
+    "10-12": {
+      "version": 1,
+      "question": "只反向不逆序为何也能回原点，却未必沿原路？",
+      "materials": [
+        "A4整纸1张、铅笔1支、圆滑直尺1把用于画格。成人当场手画网格；不剪卡、不用小棋子，用手指或笔迹代表位置。幼儿画3×3格点；其余龄画横纵均从−3到4的8×8格点，格距约15毫米，写x向右、y向上，坐标表示格点而非格子中心。 本龄记录：原路与逆路点序列；只反向路径；路径/终点两项判定；纯平移净位移解释；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 只用整纸、笔和圆滑尺，成人检查尺边，幼儿只指画，成人代读代记；不剪裁，不实际走动或旋转身体。疲倦可停，收材料洗手。",
+      "steps": [
+        {
+          "title": "重画原三段路径",
+          "caption": "重画原三段路径",
+          "action": "在同一网格画(1,1)按右2、上1、左1到(2,2)，记录各中间点。另在纸旁预写“路径相同？”和“终点相同？”两个问题。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "做正确的原路撤销",
+          "caption": "做正确的原路撤销",
+          "action": "从(2,2)做右1、下1、左2，核中间点依次(3,2)、(3,1)、(1,1)。用虚线或不同笔纹区分回路，不需彩笔。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "检验只反向不逆序",
+          "caption": "检验只反向不逆序",
+          "action": "另从(2,2)做左2、下1、右1，得到(0,2)、(0,1)、(1,1)。与上一步逐点比，终点相同但中间路径不同。亲自算，不能为了教材结论画成回不去。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "用位移解释巧合",
+          "caption": "用位移解释巧合",
+          "action": "原净位移是右1上1，任意顺序加左2下1右1净位移均左1下1，所以纯平移可回同点。但不能以此推出任意操作都可交换，只能说这组平移如此；写出本例对“必须逆序才回点”的反例。收拾洗手。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "可交换平移",
+          "反例",
+          "路径与终点"
+        ],
+        "explanation": "平移向量相加可交换；原路逐段撤销需要逆序，但只要回终点可有其他顺序。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上检验下一种规则，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "只反向不逆序为何也能回原点，却未必沿原路？",
+        "observe": "只反向不逆序为何也能回原点，却未必沿原路？",
+        "support": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。 可口述代记，不强求预期结论。",
+        "control": "两种撤销都从同一个(2,2)重新开始，不能接着上一条走。",
+        "time": "准备手画格约3—5分钟，核心10—15分钟；幼儿参与5—10分钟。无额外等待阶段，画图已计入。",
+        "recordFields": [
+          "原路与逆路点序列",
+          "只反向路径",
+          "路径/终点两项判定",
+          "纯平移净位移解释"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day349-10-12-1",
+          "description": "重画原三段路径。在同一网格画(1,1)按右2、上1、左1到(2,2)，记录各中间点。另在纸旁预写“路径相同？”和“终点相同？”两个问题。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "重画原三段路径",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 94,
+              "y1": 235,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 126,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "原路三个中间点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "先分路径和终点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不预定检验结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-10-12-2",
+          "description": "做正确的原路撤销。从(2,2)做右1、下1、左2，核中间点依次(3,2)、(3,1)、(1,1)。用虚线或不同笔纹区分回路，不需彩笔。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "做正确的原路撤销",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 126,
+              "y1": 203,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 94,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "逆序反向回原路",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "每段逐点核对",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "用不同笔纹",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-10-12-3",
+          "description": "检验只反向不逆序。另从(2,2)做左2、下1、右1，得到(0,2)、(0,1)、(1,1)。与上一步逐点比，终点相同但中间路径不同。亲自算，不能为了教材结论画成回不去。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "检验只反向不逆序",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 126,
+              "y1": 203,
+              "x2": 62,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 203,
+              "x2": 62,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 235,
+              "x2": 94,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "只反向：左2下1右1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "同终点，不同路径",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "算错保留修正",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-10-12-4",
+          "description": "用位移解释巧合。原净位移是右1上1，任意顺序加左2下1右1净位移均左1下1，所以纯平移可回同点。但不能以此推出任意操作都可交换，只能说这组平移如此；写出本例对“必须逆序才回点”的反例。收拾洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用位移解释巧合",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 190,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 267,
+              "x2": 94,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 235,
+              "x2": 190,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 267,
+              "x2": 126,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 203,
+              "x2": 190,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 267,
+              "x2": 158,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 171,
+              "x2": 190,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 267,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 139,
+              "x2": 190,
+              "y2": 139,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 94,
+              "y1": 235,
+              "x2": 158,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 235,
+              "x2": 158,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 158,
+              "y1": 203,
+              "x2": 126,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 94,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 235,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 158,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 126,
+              "y": 203,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "纸上路径示意：右为x，上为y",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "净位移互相抵消",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "纯平移可交换",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不推广所有操作",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "只反向不逆序为何也能回原点，却未必沿原路？",
+        "solve": "若结论对不上，回到“写指令”核对原始条件，再按“反序反向”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "平移向量相加可交换；原路逐段撤销需要逆序，但只要回终点可有其他顺序。",
+        "evolve": "只在纸上检验下一种规则，不增加实物实验。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      }
+    },
+    "13-16": {
+      "version": 1,
+      "question": "加入绕固定原点旋转后，如何验证复合操作的逆序？",
+      "materials": [
+        "A4整纸1张、铅笔1支、圆滑直尺1把用于画格。成人当场手画网格；不剪卡、不用小棋子，用手指或笔迹代表位置。幼儿画3×3格点；其余龄画横纵均从−3到4的8×8格点，格距约15毫米，写x向右、y向上，坐标表示格点而非格子中心。 本龄记录：T/R定义及固定原点；两种复合中间点；正确与错误撤销点；逆复合与执行顺序；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 只用整纸、笔和圆滑尺，成人检查尺边，幼儿只指画，成人代读代记；不剪裁，不实际走动或旋转身体。疲倦可停，收材料洗手。",
+      "steps": [
+        {
+          "title": "定义两种纸上变换",
+          "caption": "定义两种纸上变换",
+          "action": "在标好负数的网格以P=(1,1)起。T为向右平移2，即(x,y)→(x+2,y)；R为绕固定原点O=(0,0)逆时针90°，即(x,y)→(−y,x)。旋转中心固定，不随点移动；只在纸上画，不转身体。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "比较先T后R和先R后T",
+          "caption": "比较先T后R和先R后T",
+          "action": "算先T后R：(1,1)→(3,1)→(−1,3)；另从P重新算先R后T：(1,1)→(−1,1)→(1,1)。两终点不同，说明这里不交换；方向用公式与格点同时核。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "按逆序撤销复合",
+          "caption": "按逆序撤销复合",
+          "action": "从先T后R的终点(−1,3)先做R的逆：顺时针90°，(x,y)→(y,−x)，得到(3,1)；再做T的逆：左移2，回(1,1)。逐条写为什么撤销对应最后一步。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        },
+        {
+          "title": "用错误顺序作反例",
+          "caption": "用错误顺序作反例",
+          "action": "从(−1,3)另试先左2到(−3,3)，再顺时针90°到(3,3)，未回P。写“(R∘T)逆=T逆∘R逆，执行时先R逆后T逆”；对照纯平移可交换特例，不把一个反例推广成所有变换都不交换。收纸笔尺洗手。",
+          "actor": "together",
+          "adultNote": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "不交换变换",
+          "复合的逆",
+          "固定旋转中心"
+        ],
+        "explanation": "各自可逆的操作组成复合，逐步撤销须从最后执行者开始；平移特例不能代替一般证明。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "只在纸上检验下一种规则，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "加入绕固定原点旋转后，如何验证复合操作的逆序？",
+        "observe": "加入绕固定原点旋转后，如何验证复合操作的逆序？",
+        "support": "成人画网格、标清坐标和方向，幼儿可只指点，不考负数或坐标书写。 可口述代记，不强求预期结论。",
+        "control": "固定原点逆/顺时针90°；每条测试从规定起点重开。",
+        "time": "准备手画格约3—5分钟，核心10—15分钟；幼儿参与5—10分钟。无额外等待阶段，画图已计入。",
+        "recordFields": [
+          "T/R定义及固定原点",
+          "两种复合中间点",
+          "正确与错误撤销点",
+          "逆复合与执行顺序"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day349-13-16-1",
+          "description": "定义两种纸上变换。在标好负数的网格以P=(1,1)起。T为向右平移2，即(x,y)→(x+2,y)；R为绕固定原点O=(0,0)逆时针90°，即(x,y)→(−y,x)。旋转中心固定，不随点移动；只在纸上画，不转身体。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "定义两种纸上变换",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 195,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 81,
+              "y1": 267,
+              "x2": 81,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 248,
+              "x2": 195,
+              "y2": 248,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 267,
+              "x2": 100,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 229,
+              "x2": 195,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 119,
+              "y1": 267,
+              "x2": 119,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 195,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 138,
+              "y1": 267,
+              "x2": 138,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 191,
+              "x2": 195,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 157,
+              "y1": 267,
+              "x2": 157,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 172,
+              "x2": 195,
+              "y2": 172,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 176,
+              "y1": 267,
+              "x2": 176,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 153,
+              "x2": 195,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 267,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 134,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 138,
+              "y1": 191,
+              "x2": 176,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 176,
+              "y1": 191,
+              "x2": 100,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 138,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "变换前后连线，不是旋转轨迹",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "T：右移2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "R：绕原点逆时针90°",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "只在纸上操作",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-13-16-2",
+          "description": "比较先T后R和先R后T。算先T后R：(1,1)→(3,1)→(−1,3)；另从P重新算先R后T：(1,1)→(−1,1)→(1,1)。两终点不同，说明这里不交换；方向用公式与格点同时核。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较先T后R和先R后T",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 195,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 81,
+              "y1": 267,
+              "x2": 81,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 248,
+              "x2": 195,
+              "y2": 248,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 267,
+              "x2": 100,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 229,
+              "x2": 195,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 119,
+              "y1": 267,
+              "x2": 119,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 195,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 138,
+              "y1": 267,
+              "x2": 138,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 191,
+              "x2": 195,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 157,
+              "y1": 267,
+              "x2": 157,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 172,
+              "x2": 195,
+              "y2": 172,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 176,
+              "y1": 267,
+              "x2": 176,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 153,
+              "x2": 195,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 267,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 134,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 138,
+              "y1": 191,
+              "x2": 176,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 176,
+              "y1": 191,
+              "x2": 100,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 138,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "变换前后连线，不是旋转轨迹",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "先T后R到(−1,3)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "先R后T到(1,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "顺序不同结果不同",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-13-16-3",
+          "description": "按逆序撤销复合。从先T后R的终点(−1,3)先做R的逆：顺时针90°，(x,y)→(y,−x)，得到(3,1)；再做T的逆：左移2，回(1,1)。逐条写为什么撤销对应最后一步。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "按逆序撤销复合",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 195,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 81,
+              "y1": 267,
+              "x2": 81,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 248,
+              "x2": 195,
+              "y2": 248,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 267,
+              "x2": 100,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 229,
+              "x2": 195,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 119,
+              "y1": 267,
+              "x2": 119,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 195,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 138,
+              "y1": 267,
+              "x2": 138,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 191,
+              "x2": 195,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 157,
+              "y1": 267,
+              "x2": 157,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 172,
+              "x2": 195,
+              "y2": 172,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 176,
+              "y1": 267,
+              "x2": 176,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 153,
+              "x2": 195,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 267,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 134,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 100,
+              "y1": 153,
+              "x2": 176,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 176,
+              "y1": 191,
+              "x2": 138,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 138,
+              "y": 191,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "变换前后连线，不是旋转轨迹",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "先R逆，再T逆",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "经(3,1)回(1,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "按逆序逐步撤销",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day349-13-16-4",
+          "description": "用错误顺序作反例。从(−1,3)另试先左2到(−3,3)，再顺时针90°到(3,3)，未回P。写“(R∘T)逆=T逆∘R逆，执行时先R逆后T逆”；对照纯平移可交换特例，不把一个反例推广成所有变换都不交换。收纸笔尺洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用错误顺序作反例",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 62,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 267,
+              "x2": 195,
+              "y2": 267,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 81,
+              "y1": 267,
+              "x2": 81,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 248,
+              "x2": 195,
+              "y2": 248,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 267,
+              "x2": 100,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 229,
+              "x2": 195,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 119,
+              "y1": 267,
+              "x2": 119,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 210,
+              "x2": 195,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 138,
+              "y1": 267,
+              "x2": 138,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 191,
+              "x2": 195,
+              "y2": 191,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 157,
+              "y1": 267,
+              "x2": 157,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 172,
+              "x2": 195,
+              "y2": 172,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 176,
+              "y1": 267,
+              "x2": 176,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 153,
+              "x2": 195,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 267,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 134,
+              "x2": 195,
+              "y2": 134,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 100,
+              "y1": 153,
+              "x2": 62,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 62,
+              "y1": 153,
+              "x2": 176,
+              "y2": 153,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 62,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 153,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 124,
+              "text": "变换前后连线，不是旋转轨迹",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 285,
+              "text": "箭头按正文逐步核对，非实测轨迹",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "错误顺序到(3,3)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "不回原起点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "对照可交换的特例",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "加入绕固定原点旋转后，如何验证复合操作的逆序？",
+        "solve": "若结论对不上，回到“写指令”核对原始条件，再按“反序反向”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "各自可逆的操作组成复合，逐步撤销须从最后执行者开始；平移特例不能代替一般证明。",
+        "evolve": "只在纸上检验下一种规则，不增加实物实验。",
+        "limits": "对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 对纯平移有时换序也到同一点，不能由此断言所有操作可交换。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 “回到同一终点”与“逐段沿原路径撤销”不同。纯平移可交换，因此不按逆序有时也回起点；含绕固定原点的旋转时一般不可交换。旋转均在纸上进行，不旋转人或家具。"
+      }
+    }
+  }
+}

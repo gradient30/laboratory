@@ -1,0 +1,3396 @@
+{
+  "activityId": 82,
+  "activityTitle": "把重复相加摆成阵列",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "六张大方卡摆成两排，每排三张，再改成三排，每排两张，总数变了吗？",
+      "materials": [
+        "A4纸1张，成人预裁5×5厘米方卡6张；只把这6张放桌上，余料收起",
+        "A3工作纸1张（约42×29.7厘米），成人画两个宽工作区；A4记录纸1张",
+        "30厘米直尺1把、笔2支；成人专用剪刀1把，预裁后收起；干燥平桌"
+      ],
+      "safety": "只用大纸片、纸条和文具，成人预裁全部材料，剪刀立即收起；不使用豆子、硬币、珠子、磁铁、订书钉或其他散小件。纸片和笔不入口、不遮口鼻、不抛卡；有入口习惯的孩子只指认，由成人摆放。干燥平桌操作，离桌沿至少10厘米；不在地面铺成长路，不登高取物。尺不挥舞，长尺由成人递放；需要拼接底纸时胶带由成人贴在背面并清走碎头。无计时竞赛，疲倦就停；结束清点材料。",
+      "steps": [
+        {
+          "title": "先数清六张大方卡",
+          "action": "成人预裁并核对6张5×5厘米方卡。孩子逐张从左工作区移到右工作区，成人陪同一张一数；移一张才数一次，不用指着同一张重复报数。不要求儿童书写或先懂乘号。数不清就保留第一次口述，再慢慢重数。",
+          "actor": "together",
+          "caption": "先数清六张大方卡",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "摆成两排，每排三张",
+          "action": "将同一6张摆成2行、每行3张，行列对齐，纸卡不叠放，可以留小缝。孩子沿第一行逐张指，再沿第二行指；成人用“3张，加3张”配动作，不只背6。先检查每行一样多，再核总张数。",
+          "actor": "together",
+          "caption": "摆成两排，每排三张",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "真的重排成三排两张",
+          "action": "把同一6张逐张移动，重新摆成3行、每行2张；不添、不拿走，也不把一张压在另一张下。孩子沿每行指认，成人配“2张，加2张，再加2张”，再逐张复核总数。",
+          "actor": "together",
+          "caption": "真的重排成三排两张",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "对着两张草图讲变化",
+          "action": "成人在记录纸画先前2行3张与当前3行2张的草图，孩子指当前实物说排数、每排数量有没有变。再次把6张逐张移回左工作区清点；如果漏数，查哪张没有移动，保留修正。成人说明排法可变而卡片没有增减。",
+          "actor": "together",
+          "caption": "对着两张草图讲变化",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一张对应一次计数",
+          "相等的两组与三组",
+          "重排中的数量守恒"
+        ],
+        "explanation": "每一排都有同样多的卡片，可以按排重复相加。把同一批卡重排，没有添加或拿走，总张数应保持；点数若不同，要检查漏数、重数和叠卡。",
+        "limits": "这里只体验6个离散物的分组，不要求掌握一般乘法或用外框大小判断数量；卡片间留缝时，不能把外框面积当作卡片面积。",
+        "observation": "记录实际摆法、逐组计数、移出与留下的库存；首次结果和修正均保留。示意图和推算值不冒充学习者的完成情况或尺量结果。",
+        "nextQuestion": "如果两排一排多、一排少，还能说是“每排一样多”吗？"
+      },
+      "guide": {
+        "goal": "亲手搬动6张大卡，实际做2行3张和3行2张两种等组。",
+        "observe": "六张大方卡摆成两排，每排三张，再改成三排，每排两张，总数变了吗？",
+        "support": "成人预裁、陪数与代画，儿童负责逐张移动和按排指认；不用背口诀判断是否完成。",
+        "control": "固定6张5厘米方卡，全程不增减、不叠卡；两种摆法各逐张核数。",
+        "time": "约10—15分钟，可只口述、不写数字。",
+        "recordFields": [
+          "首次逐张计数和修正",
+          "两种摆法的排数/每排数",
+          "重新清点的总张数"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Arrays and area models",
+          "url": "https://www.ncetm.org.uk/media/8d84e79346e2509/ncetm_ks3_representations_arrays_area_models.pdf",
+          "claim": "阵列把等组、交换律、分配律及面积表示联系起来；行列可以用不同方式分组。",
+          "scope": "支持格数与分组的数学关系，不代表本活动四个年龄流程已被试教。"
+        },
+        {
+          "title": "reSolve｜Multiplication: Trays of arrays",
+          "url": "https://resolve.edu.au/teaching-sequences/year-4/multiplication-trays-arrays",
+          "claim": "分割、重组阵列可帮助解释乘法的分配性质及保持乘积的变换。",
+          "scope": "支持实际拆分和重组；纸卡数量、尺寸和任务为原创改编，不搬用点心或食品。"
+        },
+        {
+          "title": "NRICH｜Changing Areas, Changing Perimeters",
+          "url": "https://nrich.maths.org/problems/changing-areas-changing-perimeters?tab=teacher",
+          "claim": "面积相同的图形周长可以不同；相同面积的长方形中，接近正方形的形状可有较小周长。",
+          "scope": "用于13—16岁面积与周长的区分；本任务穷举的最小值只针对12张完整单位方卡组成的长方形。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对公开数学教育机构资料。纸卡规格、库存、分龄操作与16幅图为原创改编；算术核验不等于儿童实测，不宣称已实物试教或通过机构认证。",
+      "diagrams": [
+        {
+          "sceneKey": "array82-46-1",
+          "description": "六张5厘米方卡，左右箭头表示逐张核数搬动，不另增加卡片。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "只有6张：逐张移动，逐张数",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 134,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 134,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 134,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 194,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 194,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 194,
+              "width": 47,
+              "height": 47,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 340,
+              "y1": 195,
+              "x2": 403,
+              "y2": 195,
+              "stroke": "#B56B45",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 132,
+              "width": 135,
+              "height": 134,
+              "fill": "none",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 497,
+              "y": 203,
+              "text": "点过的卡",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 287,
+              "text": "图示起点；右区最初为空",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-46-2",
+          "description": "准确展示2行3张共6张。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "2排，每排3张",
+              "fontSize": 21,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 131,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 256,
+              "y": 131,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 312,
+              "y": 131,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 187,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 256,
+              "y": 187,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 312,
+              "y": 187,
+              "width": 48,
+              "height": 48,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 165,
+              "text": "3张",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 221,
+              "text": "3张",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 287,
+              "text": "每一排都一样多",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-46-3",
+          "description": "准确展示3行2张共6张，卡片尺寸示意相同。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "移动同样6张：3排，每排2张",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 260,
+              "y": 111,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 311,
+              "y": 111,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 260,
+              "y": 162,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 311,
+              "y": 162,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 260,
+              "y": 213,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 311,
+              "y": 213,
+              "width": 43,
+              "height": 43,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 143,
+              "text": "2张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "2张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 245,
+              "text": "2张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 289,
+              "text": "不添卡，不拿走，不叠放",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-46-4",
+          "description": "两幅小阵列表示同一库存前后两种摆法，不是同时拥有12张。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "同一批卡：前后两种摆法",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 147,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 147,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 147,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 186,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 186,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 186,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 441,
+              "y": 126,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 126,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 441,
+              "y": 165,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 165,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 441,
+              "y": 204,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 204,
+              "width": 34,
+              "height": 34,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 263,
+              "y1": 188,
+              "x2": 371,
+              "y2": 188,
+              "stroke": "#B56B45",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 260,
+              "text": "原来：3＋3",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 260,
+              "text": "后来：2＋2＋2",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 294,
+              "text": "实际清点：___张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "四片大纸条里共有十二个方格，转向再拼接，能把3排4格变成4排3格和2排6格吗？",
+      "materials": [
+        "A4纸1张，成人画5厘米方格后预裁4片：A、B各20×5厘米（各4格），C、D各10×5厘米（各2格）；总4片、12格",
+        "每片在格线旁标A/B/C/D，字不增加计数单位；保留每片内部格线，不剪成12张小卡",
+        "A3工作纸1张（约42×29.7厘米）；A4记录纸1张，画前后摆法及算式",
+        "30厘米直尺1把、笔2支；成人专用剪刀1把，预裁后收起"
+      ],
+      "safety": "只用大纸片、纸条和文具，成人预裁全部材料，剪刀立即收起；不使用豆子、硬币、珠子、磁铁、订书钉或其他散小件。纸片和笔不入口、不遮口鼻、不抛卡；有入口习惯的孩子只指认，由成人摆放。干燥平桌操作，离桌沿至少10厘米；不在地面铺成长路，不登高取物。尺不挥舞，长尺由成人递放；需要拼接底纸时胶带由成人贴在背面并清走碎头。无计时竞赛，疲倦就停；结束清点材料。",
+      "steps": [
+        {
+          "title": "数四片，也数十二格",
+          "action": "核对A、B各4格，C、D各2格，每格5×5厘米。先数纸片是4片，再按格数4＋4＋2＋2核总格数。把A横放第一行、B横放第二行，C和D首尾相接组成第三行，共3行每行4格。格线对齐，不重叠、不留大缝。",
+          "actor": "together",
+          "caption": "数四片，也数十二格",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "逐片转90度，拼成四排三格",
+          "action": "不剪、不增减，把A和B各转90度竖放并排，成为左两列；把C和D也转90度，C在右列上两格、D在右列下两格。四片拼成4行3格，外框约15×20厘米。孩子逐行写3＋3＋3＋3，并解释纸片仍4片但计数单位是小方格。",
+          "actor": "together",
+          "caption": "逐片转90度，拼成四排三格",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "转回横向，接成两排六格",
+          "action": "把四片转回横向：第一行A后接C，第二行B后接D，每行4＋2格，共2行6格，外框约30×10厘米；工作纸横向使用。按片名检查A、B、C、D各出现一次，再按行核总格数。不要只画一个新阵列，必须移动原四片。",
+          "actor": "together",
+          "caption": "转回横向，接成两排六格",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "把乘法对应到每排格数",
+          "action": "约定本页“行数×每行格数”，依次对应3×4、4×3、2×6，并与三幅实际拼图的重复加法核对。3×4与4×3可用换行列解释；2×6来自重新拼接，不能说只是把3×4转90度。保留画图及计数错误，再用四片库存与12格复核。",
+          "actor": "together",
+          "caption": "把乘法对应到每排格数",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "纸片数与方格数不是同一单位",
+          "行列转向与乘法交换",
+          "按整片重组",
+          "乘法表示等组"
+        ],
+        "explanation": "方格是本次计数单位。一片纸可以含多个方格，因此4片不等于4格。按行计数时，3个4、4个3和2个6都可由同样12格组成，但换行列与重新拼接是不同动作。",
+        "limits": "本页用“行数×每行格数”的约定；其他教材可能交换因数叙述顺序。这里是非负整数的离散阵列，不能只凭这些例子证明任意实数乘法性质。",
+        "observation": "记录实际摆法、逐组计数、移出与留下的库存；首次结果和修正均保留。示意图和推算值不冒充学习者的完成情况或尺量结果。",
+        "nextQuestion": "如果把“片数”误当成“格数”，哪个算式会立刻与图对不上？"
+      },
+      "guide": {
+        "goal": "真实转动并拼接4片12格纸条，完成三种阵列并区分计数单位。",
+        "observe": "四片大纸条里共有十二个方格，转向再拼接，能把3排4格变成4排3格和2排6格吗？",
+        "support": "成人预裁带格线的大纸条，孩子亲手旋转、拼接、清点片名，记录方格而非纸片数量。",
+        "control": "A/B各4格、C/D各2格，共4片12格；不剪开、不重叠，三种摆法都核片名和格数。",
+        "time": "约20—25分钟。",
+        "recordFields": [
+          "纸片数与总格数",
+          "三种阵列的行/列",
+          "重复加法与乘法对应",
+          "每次片名核对及修正"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Arrays and area models",
+          "url": "https://www.ncetm.org.uk/media/8d84e79346e2509/ncetm_ks3_representations_arrays_area_models.pdf",
+          "claim": "阵列把等组、交换律、分配律及面积表示联系起来；行列可以用不同方式分组。",
+          "scope": "支持格数与分组的数学关系，不代表本活动四个年龄流程已被试教。"
+        },
+        {
+          "title": "reSolve｜Multiplication: Trays of arrays",
+          "url": "https://resolve.edu.au/teaching-sequences/year-4/multiplication-trays-arrays",
+          "claim": "分割、重组阵列可帮助解释乘法的分配性质及保持乘积的变换。",
+          "scope": "支持实际拆分和重组；纸卡数量、尺寸和任务为原创改编，不搬用点心或食品。"
+        },
+        {
+          "title": "NRICH｜Changing Areas, Changing Perimeters",
+          "url": "https://nrich.maths.org/problems/changing-areas-changing-perimeters?tab=teacher",
+          "claim": "面积相同的图形周长可以不同；相同面积的长方形中，接近正方形的形状可有较小周长。",
+          "scope": "用于13—16岁面积与周长的区分；本任务穷举的最小值只针对12张完整单位方卡组成的长方形。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对公开数学教育机构资料。纸卡规格、库存、分龄操作与16幅图为原创改编；算术核验不等于儿童实测，不宣称已实物试教或通过机构认证。",
+      "diagrams": [
+        {
+          "sceneKey": "array82-79-1",
+          "description": "A/B各4格，C/D各2格，共4片12格，拼成3行4格。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "4片纸，12格：先拼3行4格",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 236,
+              "y": 126,
+              "width": 152,
+              "height": 38,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 274,
+              "y1": 126,
+              "x2": 274,
+              "y2": 164,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 312,
+              "y1": 126,
+              "x2": 312,
+              "y2": 164,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 126,
+              "x2": 350,
+              "y2": 164,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 236,
+              "y": 164,
+              "width": 152,
+              "height": 38,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 274,
+              "y1": 164,
+              "x2": 274,
+              "y2": 202,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 312,
+              "y1": 164,
+              "x2": 312,
+              "y2": 202,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 164,
+              "x2": 350,
+              "y2": 202,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 236,
+              "y": 202,
+              "width": 76,
+              "height": 38,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 274,
+              "y1": 202,
+              "x2": 274,
+              "y2": 240,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 312,
+              "y": 202,
+              "width": 76,
+              "height": 38,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 202,
+              "x2": 350,
+              "y2": 240,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 152,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 190,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 266,
+              "text": "C：2格",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 289,
+              "text": "D：2格",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-79-2",
+          "description": "A/B竖向各4格，右列C在上两格D在下两格，组成4行3格。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "每片转90°：拼4行3格",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 129,
+              "width": 34,
+              "height": 136,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 163,
+              "x2": 279,
+              "y2": 163,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 197,
+              "x2": 279,
+              "y2": 197,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 231,
+              "x2": 279,
+              "y2": 231,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 279,
+              "y": 129,
+              "width": 34,
+              "height": 136,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 163,
+              "x2": 313,
+              "y2": 163,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 197,
+              "x2": 313,
+              "y2": 197,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 231,
+              "x2": 313,
+              "y2": 231,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 313,
+              "y": 129,
+              "width": 34,
+              "height": 68,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 313,
+              "y1": 163,
+              "x2": 347,
+              "y2": 163,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 313,
+              "y": 197,
+              "width": 34,
+              "height": 68,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 313,
+              "y1": 231,
+              "x2": 347,
+              "y2": 231,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 262,
+              "y": 116,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 296,
+              "y": 116,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 168,
+              "text": "C：上2格",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 236,
+              "text": "D：下2格",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 294,
+              "text": "每排3格，共4排",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-79-3",
+          "description": "上行A4格加C2格，下行B4格加D2格，共2行6格。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "转回横向，拼2行6格",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 196,
+              "y": 146,
+              "width": 152,
+              "height": 38,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 234,
+              "y1": 146,
+              "x2": 234,
+              "y2": 184,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 272,
+              "y1": 146,
+              "x2": 272,
+              "y2": 184,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 146,
+              "x2": 310,
+              "y2": 184,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 348,
+              "y": 146,
+              "width": 76,
+              "height": 38,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 386,
+              "y1": 146,
+              "x2": 386,
+              "y2": 184,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 196,
+              "y": 184,
+              "width": 152,
+              "height": 38,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 234,
+              "y1": 184,
+              "x2": 234,
+              "y2": 222,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 272,
+              "y1": 184,
+              "x2": 272,
+              "y2": 222,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 184,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 348,
+              "y": 184,
+              "width": 76,
+              "height": 38,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 386,
+              "y1": 184,
+              "x2": 386,
+              "y2": 222,
+              "stroke": "#38796D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 146,
+              "y": 173,
+              "text": "A＋C",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 146,
+              "y": 211,
+              "text": "B＋D",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 271,
+              "text": "每排4＋2格；片名各用一次",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-79-4",
+          "description": "三种摆法的计数对应式为数学核对，不表示儿童已答对。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "先看等组，再写乘法",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 112,
+              "width": 500,
+              "height": 174,
+              "fill": "#FFFDF6",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 149,
+              "text": "3排4格：4＋4＋4 ↔ 3×4",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 194,
+              "text": "4排3格：3＋3＋3＋3 ↔ 4×3",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 239,
+              "text": "2排6格：6＋6 ↔ 2×6",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 276,
+              "text": "三次都要核：4片，12格",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "二十四张方卡怎样按列拆开、转向重组，再拿走整行，用真实库存验证分配关系？",
+      "materials": [
+        "A4纸1张，成人预裁4×4厘米方卡24张；4厘米方格可排5列×5行，裁出24张后收起第25格及余料",
+        "A3工作纸1张（约42×29.7厘米），画工作区与右侧移出区；A4记录纸2张",
+        "30厘米直尺1把、笔2支；成人专用剪刀1把，预裁后收起；不新增代表大数的替代卡"
+      ],
+      "safety": "只用大纸片、纸条和文具，成人预裁全部材料，剪刀立即收起；不使用豆子、硬币、珠子、磁铁、订书钉或其他散小件。纸片和笔不入口、不遮口鼻、不抛卡；有入口习惯的孩子只指认，由成人摆放。干燥平桌操作，离桌沿至少10厘米；不在地面铺成长路，不登高取物。尺不挥舞，长尺由成人递放；需要拼接底纸时胶带由成人贴在背面并清走碎头。无计时竞赛，疲倦就停；结束清点材料。",
+      "steps": [
+        {
+          "title": "二十四张摆成四排六张",
+          "action": "成人预裁后，学习者先核24张库存，逐张摆成4行6列，每张4×4厘米、边与边对齐不重叠，外框名义24×16厘米。约定“行数×每行张数”，写6＋6＋6＋6与4×6。首次点数有差异则记下并逐行复核。",
+          "actor": "together",
+          "caption": "二十四张摆成四排六张",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "按列拆成四列和两列",
+          "action": "把右侧2列共8张整体向右平移，留出2厘米缝；左边保留4行4列共16张，右边仍4行2列共8张。不要重复数分界两边的卡，不在中间放新增标记卡。记录4×6＝4×4＋4×2，逐块核16＋8与总库存。",
+          "actor": "together",
+          "caption": "按列拆成四列和两列",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "右块转向，接到下方",
+          "action": "将右侧4行2列的8张转成2行4列，放到左侧4行4列的下方，边对齐，构成6行4列。只移动原24张，不裁、不添。量或数边长，记录新阵列名义16×24厘米；它与原4行6列的长宽交换，纸张裁切或缝隙造成的尺读偏差另记。",
+          "actor": "together",
+          "caption": "右块转向，接到下方",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "复原后移出一整行",
+          "action": "先用同24张恢复4行6列，再将最下方一整行6张逐张移到右侧移出区，排2行3张。工作区留下3行6列18张，移出区6张，总库存仍24。写4×6－1×6＝3×6，并用“留下＋移出”复核。工作区减少不等于材料消失；结束把两区重新合并清点。",
+          "actor": "together",
+          "caption": "复原后移出一整行",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "按列分拆的分配关系",
+          "重组不增减库存",
+          "拿走一行的减法分配",
+          "工作区与总库存不同"
+        ],
+        "explanation": "把4行6列按列拆为4列和2列，各行都按相同方式拆开，对应4×(4＋2)。移动和旋转改变摆法而不改变卡数；移出一整行后，工作区减6，但工作区与移出区合计仍24。",
+        "limits": "这些等式针对完整、不重叠的单位卡。纸片尺寸有误差，格数严格核对与厘米尺读不能混为一谈；只数两块外框而漏掉小卡，或重数分界卡都会破坏证据。",
+        "observation": "记录实际摆法、逐组计数、移出与留下的库存；首次结果和修正均保留。示意图和推算值不冒充学习者的完成情况或尺量结果。",
+        "nextQuestion": "为什么只拿走一张卡，不等同于从“每行六张”的阵列拿走一整行？"
+      },
+      "guide": {
+        "goal": "实际分拆16/8两块、旋转重组24张，再执行移出6张的逆向库存核验。",
+        "observe": "二十四张方卡怎样按列拆开、转向重组，再拿走整行，用真实库存验证分配关系？",
+        "support": "成人预裁24张；学习者负责按整列拆分、旋转重组、尺量和两区清点，成人帮助辨别整行与单张。",
+        "control": "固定24张4厘米方卡；依次4×6→4×4＋4×2→6×4→恢复4×6→工作18＋移出6。",
+        "time": "约25—35分钟。",
+        "recordFields": [
+          "初始库存与4×6图",
+          "16/8两块及分配式",
+          "重组6×4及尺量偏差",
+          "移出/留下/总库存",
+          "首次错误与修正证据"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Arrays and area models",
+          "url": "https://www.ncetm.org.uk/media/8d84e79346e2509/ncetm_ks3_representations_arrays_area_models.pdf",
+          "claim": "阵列把等组、交换律、分配律及面积表示联系起来；行列可以用不同方式分组。",
+          "scope": "支持格数与分组的数学关系，不代表本活动四个年龄流程已被试教。"
+        },
+        {
+          "title": "reSolve｜Multiplication: Trays of arrays",
+          "url": "https://resolve.edu.au/teaching-sequences/year-4/multiplication-trays-arrays",
+          "claim": "分割、重组阵列可帮助解释乘法的分配性质及保持乘积的变换。",
+          "scope": "支持实际拆分和重组；纸卡数量、尺寸和任务为原创改编，不搬用点心或食品。"
+        },
+        {
+          "title": "NRICH｜Changing Areas, Changing Perimeters",
+          "url": "https://nrich.maths.org/problems/changing-areas-changing-perimeters?tab=teacher",
+          "claim": "面积相同的图形周长可以不同；相同面积的长方形中，接近正方形的形状可有较小周长。",
+          "scope": "用于13—16岁面积与周长的区分；本任务穷举的最小值只针对12张完整单位方卡组成的长方形。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对公开数学教育机构资料。纸卡规格、库存、分龄操作与16幅图为原创改编；算术核验不等于儿童实测，不宣称已实物试教或通过机构认证。",
+      "diagrams": [
+        {
+          "sceneKey": "array82-1012-1",
+          "description": "24张完整方卡组成4行6列，名义尺寸24×16厘米。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "24张方卡：4行6列",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 248,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 159,
+              "text": "每张4×4 cm",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 203,
+              "text": "每排6张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 247,
+              "text": "共4排",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 290,
+              "text": "逐张核库存，不用一张替代多张",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1012-2",
+          "description": "左4×4=16张，右4×2=8张，中间只有空隙无新卡。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "右2列移开：16张＋8张",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 216,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 382,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 414,
+              "y": 126,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 382,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 414,
+              "y": 158,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 382,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 414,
+              "y": 190,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 382,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 414,
+              "y": 222,
+              "width": 32,
+              "height": 32,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 283,
+              "text": "4×4",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 414,
+              "y": 283,
+              "text": "4×2",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 270,
+              "y1": 190,
+              "x2": 358,
+              "y2": 190,
+              "stroke": "#B56B45",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1012-3",
+          "description": "原8张在下方排2行4列，与上方16张接成6行4列；颜色仅辅助，行数写明。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "8张转向，接到16张下方",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 108,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 108,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 108,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 108,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 135,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 135,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 135,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 135,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 162,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 162,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 162,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 162,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 189,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 189,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 189,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 189,
+              "width": 27,
+              "height": 27,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 216,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 216,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 216,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 216,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 243,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 197,
+              "y": 243,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 243,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 251,
+              "y": 243,
+              "width": 27,
+              "height": 27,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 431,
+              "y": 146,
+              "text": "上：4行×4列",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 431,
+              "y": 232,
+              "text": "下：2行×4列",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 431,
+              "y": 280,
+              "text": "合计：6行×4列",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1012-4",
+          "description": "先复原后拿走一行，左18张与右移出6张同时存在，总24张。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "复原4×6，再移出一整行6张",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 196,
+              "width": 28,
+              "height": 28,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 427,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 483,
+              "y": 140,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 427,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 483,
+              "y": 168,
+              "width": 28,
+              "height": 28,
+              "fill": "#F3DEC7",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 407,
+              "y": 118,
+              "width": 124,
+              "height": 102,
+              "fill": "none",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 149,
+              "y": 258,
+              "text": "工作区：18张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 258,
+              "text": "移出区：6张",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 269,
+              "y1": 181,
+              "x2": 380,
+              "y2": 181,
+              "stroke": "#B56B45",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 294,
+              "text": "留下18＋移出6＝库存24",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "十二张同样方卡排出全部整格长方形，为什么总格数不变而周长会变，怎样证明没有漏掉更短的一种？",
+      "materials": [
+        "A4纸1张，成人预裁4×4厘米方卡12张，背面小字编号1—12；不用额外数值卡代替方卡",
+        "A3纸2张，由成人沿42厘米边在背面用胶带拼成约59.4×42厘米工作底纸，长边横向；用至少80×65厘米的干燥平桌，使底纸和模型离桌沿至少10厘米",
+        "A4记录纸2张；50厘米带毫米刻度的直尺1把、笔2支；成人专用剪刀与少量胶带，仅预制和拼底纸用"
+      ],
+      "safety": "只用大纸片、纸条和文具，成人预裁全部材料，剪刀立即收起；不使用豆子、硬币、珠子、磁铁、订书钉或其他散小件。纸片和笔不入口、不遮口鼻、不抛卡；有入口习惯的孩子只指认，由成人摆放。干燥平桌操作，离桌沿至少10厘米；不在地面铺成长路，不登高取物。尺不挥舞，长尺由成人递放；需要拼接底纸时胶带由成人贴在背面并清走碎头。无计时竞赛，疲倦就停；结束清点材料。",
+      "steps": [
+        {
+          "title": "核方卡尺寸，先列因数候选",
+          "action": "成人预裁后学习者检查12张编号都在，量每张两边并记录偏差，明显不方或尺寸不一致者先由成人重裁，库存仍12张。以一张卡的名义边长4厘米为单位长度s，单位面积为s²。列正整数行数r与列数c，使r×c＝12；只列r≤c避免把旋转重复算成新形状。",
+          "actor": "together",
+          "caption": "核方卡尺寸，先列因数候选",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "依次摆三种，实量长宽",
+          "action": "使用同一12张依次摆1行12列、2行6列、3行4列，最长48厘米沿底纸长边。每次边贴边、无缺口、无重叠，检查编号并画小草图；用50厘米尺从同一端平视读长宽，记录毫米分度及实际读数。每种拆开再做下一种，不同时准备三套。把格数推算值与实际尺量分栏，不能用理论尺寸替填。",
+          "actor": "together",
+          "caption": "依次摆三种，实量长宽",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "数外边，再数共用内边",
+          "action": "在每幅草图中数周边有多少条单位边，内部共有边不计入周长；再数全部共有边E，用4×12－2E核对外边数。推导长方形E＝r(c－1)＋c(r－1)，所以P/s＝2(r＋c)。按s＝4厘米的理想模型，三种P依次104、64、56厘米，A均192平方厘米；这些是推算值，另用实测长宽算2(长＋宽)，保留差异。",
+          "actor": "together",
+          "caption": "数外边，再数共用内边",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        },
+        {
+          "title": "说明穷举范围，再作一般化",
+          "action": "r≤c且rc＝12，故r²≤12，正整数r只需检查1、2、3；都整除12，对应列数12、6、4，因此没有漏掉其他不旋转重复的整格长方形。本限定集合中3×4周长最小。再写固定N张、边长s时A＝Ns²、P＝2s(r＋N/r)，r必须整除N；比较面积固定与边长和变化。若允许切卡、非整格边长或非长方形，原穷举就不是全部可能，不宣称本模型是所有图形最优。",
+          "actor": "together",
+          "caption": "说明穷举范围，再作一般化",
+          "adultNote": "成人预裁并收起剪刀；保留首次计数及修正，图和算式是待核对的目标，不代替儿童亲手摆放。若纸片缺失或重叠，先核库存再继续。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "离散单位与测量误差",
+          "因数对的完整枚举",
+          "面积不变量与可变周长",
+          "共用边扣除",
+          "整格约束下的最小值"
+        ],
+        "explanation": "等面积单位卡不重叠拼合，面积随卡数守恒；周长只数外露边，共用边要从两张卡各扣一次。长方形行列乘积固定而行列和可变，因而同面积能有不同周长。因数枚举证明12张整格长方形的比较范围完整，比只展示三次结果更有力。",
+        "limits": "格数模型是精确的离散关系，尺读受裁边、缝隙和对齐影响；实际面积并未直接测得。结论只覆盖完整单位方卡组成的长方形，不能外推所有形状、可切分材料或连续尺寸的最优问题。",
+        "observation": "记录实际摆法、逐组计数、移出与留下的库存；首次结果和修正均保留。示意图和推算值不冒充学习者的完成情况或尺量结果。",
+        "nextQuestion": "若允许把卡切开，为什么“r必须是12的因数”这一步不再能穷尽全部长方形？"
+      },
+      "guide": {
+        "goal": "实际依次摆齐全部三种因数阵列、量边、数共有边，最后论证穷举与限定最小值。",
+        "observe": "十二张同样方卡排出全部整格长方形，为什么总格数不变而周长会变，怎样证明没有漏掉更短的一种？",
+        "support": "成人预裁和拼接底纸；学习者亲手测量、重排、数边、穷举并写出适用范围。可先完成整数枚举，再讨论一般公式。",
+        "control": "固定12张名义4厘米方卡，不切割、不重叠；1×12、2×6、3×4依次用同库存；模型值和尺量分栏。",
+        "time": "约35—45分钟；预裁和拼工作纸另约10分钟。",
+        "recordFields": [
+          "方卡编号/边长及偏差",
+          "r/c及无重复因数列表",
+          "各阵列实测长宽/尺分度",
+          "外边数与共有边E",
+          "模型A/P与尺量P分栏",
+          "穷举理由和结论适用范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Arrays and area models",
+          "url": "https://www.ncetm.org.uk/media/8d84e79346e2509/ncetm_ks3_representations_arrays_area_models.pdf",
+          "claim": "阵列把等组、交换律、分配律及面积表示联系起来；行列可以用不同方式分组。",
+          "scope": "支持格数与分组的数学关系，不代表本活动四个年龄流程已被试教。"
+        },
+        {
+          "title": "reSolve｜Multiplication: Trays of arrays",
+          "url": "https://resolve.edu.au/teaching-sequences/year-4/multiplication-trays-arrays",
+          "claim": "分割、重组阵列可帮助解释乘法的分配性质及保持乘积的变换。",
+          "scope": "支持实际拆分和重组；纸卡数量、尺寸和任务为原创改编，不搬用点心或食品。"
+        },
+        {
+          "title": "NRICH｜Changing Areas, Changing Perimeters",
+          "url": "https://nrich.maths.org/problems/changing-areas-changing-perimeters?tab=teacher",
+          "claim": "面积相同的图形周长可以不同；相同面积的长方形中，接近正方形的形状可有较小周长。",
+          "scope": "用于13—16岁面积与周长的区分；本任务穷举的最小值只针对12张完整单位方卡组成的长方形。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对公开数学教育机构资料。纸卡规格、库存、分龄操作与16幅图为原创改编；算术核验不等于儿童实测，不宣称已实物试教或通过机构认证。",
+      "diagrams": [
+        {
+          "sceneKey": "array82-1316-1",
+          "description": "12张4厘米方卡先作3×4库存核验；随后依次改变行列，不新增卡。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "12张单位方卡：先核库存与边长",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 135,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 119,
+              "y": 135,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 135,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 135,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 171,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 119,
+              "y": 171,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 171,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 171,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 207,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 119,
+              "y": 207,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 207,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 207,
+              "width": 36,
+              "height": 36,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 457,
+              "y": 145,
+              "text": "s＝4 cm（名义）",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 457,
+              "y": 188,
+              "text": "一格面积：s²",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 457,
+              "y": 231,
+              "text": "总格数：12",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 290,
+              "text": "实际尺寸另量；不把名义值当尺读",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1316-2",
+          "description": "同库存依次三种阵列，图示阶段分别占用同一12张，不代表36张实物。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "同12张依次摆，不是同时做三套",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 105,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 280,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 305,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 115,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 105,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 105,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 130,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 171,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 196,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 221,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 221,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 221,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 221,
+              "width": 25,
+              "height": 25,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 134,
+              "text": "1×12",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 252,
+              "text": "2×6",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 275,
+              "text": "3×4",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 297,
+              "text": "每次实量长宽，记录留空待填",
+              "fontSize": 16,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1316-3",
+          "description": "3×4阵列共有17条内部单位边；外边14条。粗外框帮助区分边界，不把内部线计入周长。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "外边算周长，内边要扣两次",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 135,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 135,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 154,
+              "y": 135,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 135,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 172,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 172,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 154,
+              "y": 172,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 172,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 209,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 154,
+              "y": 209,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 209,
+              "width": 37,
+              "height": 37,
+              "fill": "#DDECE5",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 135,
+              "width": 148,
+              "height": 111,
+              "fill": "none",
+              "stroke": "#B56B45",
+              "strokeWidth": 4
+            },
+            {
+              "type": "text",
+              "x": 438,
+              "y": 142,
+              "text": "E＝3×3＋2×4＝17",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 438,
+              "y": 184,
+              "text": "外边＝48－2×17",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 438,
+              "y": 226,
+              "text": "＝14条单位边",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 288,
+              "text": "图为模型核对；实测周长另记",
+              "fontSize": 17,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "array82-1316-4",
+          "description": "完整枚举12的因数对；26、16、14为单位边周长的模型值，不是尺读。 图中的格数与指定摆法准确对应，是操作目标而不是儿童表现。配色只帮助看清分组，不要求另备彩纸。物理尺寸按材料表制作，图为缩放示意；实测长度、点数过程与错误修正由本次记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 88,
+              "text": "为何没有漏掉整格长方形？",
+              "fontSize": 20,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 111,
+              "width": 530,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#38796D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 141,
+              "text": "r≤c，rc＝12 → r²≤12",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 178,
+              "text": "r只需查1、2、3",
+              "fontSize": 19,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 215,
+              "text": "1×12：26边；2×6：16边",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 252,
+              "text": "3×4：14边，限定集合内最少",
+              "fontSize": 18,
+              "anchor": "middle",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 282,
+              "text": "不包含切卡或其他形状",
+              "fontSize": 15,
+              "anchor": "middle",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

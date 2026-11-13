@@ -1,0 +1,106 @@
+{
+  "units": "mm",
+  "a3": [
+    297,
+    420
+  ],
+  "origin": "bottom-left",
+  "center": [
+    148.5,
+    200
+  ],
+  "radii": [
+    40,
+    80
+  ],
+  "raysDegrees": [
+    0,
+    60,
+    90
+  ],
+  "rayLength": 80,
+  "circleBounds": [
+    68.5,
+    120,
+    228.5,
+    280
+  ],
+  "lineWidth": 0.25,
+  "a4Landscape": [
+    297,
+    210
+  ],
+  "printablePageWindow": [
+    10,
+    10,
+    287,
+    200
+  ],
+  "tiles": [
+    {
+      "id": "LOWER",
+      "a3OffsetY": 10,
+      "printedA3Y": [
+        20,
+        210
+      ],
+      "paperA3Y": [
+        10,
+        220
+      ],
+      "cut": null
+    },
+    {
+      "id": "UPPER",
+      "a3OffsetY": 180,
+      "printedA3Y": [
+        190,
+        380
+      ],
+      "paperA3Y": [
+        180,
+        390
+      ],
+      "cutLocalY": 25,
+      "keptA3Y": [
+        205,
+        390
+      ]
+    }
+  ],
+  "printedOverlapY": [
+    190,
+    210
+  ],
+  "physicalOverlapAfterCutY": [
+    205,
+    220
+  ],
+  "registrationCenters": [
+    [
+      40,
+      205
+    ],
+    [
+      257,
+      205
+    ]
+  ],
+  "scaleBarLength": 100,
+  "tolerances": {
+    "eachScaleBarMm": 0.5,
+    "seamOffsetMm": 0.5,
+    "centerFromA3EdgesMm": 1,
+    "diameters80And160Mm": 1,
+    "anglesDegrees": 1
+  },
+  "physicalPrintingAndAssemblyPerformed": false,
+  "requirements": [
+    "blank A3 carrier for A4 option",
+    "A4 landscape print without scaling, all printed marks unclipped",
+    "adult blunt-tip scissors and low-tack tape outside study circle",
+    "each scale bar 100 +/- 0.5 mm",
+    "center and diameters checked after assembly",
+    "no compass fallback"
+  ]
+}

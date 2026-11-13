@@ -1,0 +1,1942 @@
+{
+  "activityId": 117,
+  "activityTitle": "分数条找等值",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "一条折成两份、一条折成四份，左边一大份能对上左边两小份吗？",
+      "materials": [
+        "两张成人预裁24×4厘米同样完整纸条，左端标同一小圆记号，幼儿只折不剪",
+        "两种粗笔颜色或两种疏线画法，A4记录纸；成人可用尺检查初始尺寸并代写分数"
+      ],
+      "safety": "普通纸、粗笔和钝头尺在桌面使用，全部预裁和沿标线裁切由成人完成，剪刀和碎屑立即收起，不用刀具、针、订书钉。4—6岁只拿完整24×4厘米长条折叠，不剪成小块；其他年龄纸片不揉团入口，远离幼儿宠物。颜色可用疏线代替，不以奖品或真实食物份额作比较。长尺平放，不挥动。",
+      "steps": [
+        {
+          "title": "先叠齐整条，确认比较的整体相同",
+          "action": "孩子把两条左端和右端对齐叠放，成人核都长24厘米、宽4厘米。分开仍把圆记号放左，说明这两条是今天两个同样大小的整体；没对齐先调整，不能只让涂色端看似对上而整条错位。",
+          "actor": "together",
+          "caption": "先叠齐整条，确认比较的整体相同",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "第一条对折，标左边一大份",
+          "action": "孩子把右端对左端折，成人帮对齐压折痕；展开后沿折痕分两段，在左半画疏线。再次折合检查两部分是否大致对应，若偏斜就记帮助或重折，不能把折痕粗细当精确中点测量。",
+          "actor": "together",
+          "caption": "第一条对折，标左边一大份",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "第二条连折两次，标左边两小份",
+          "action": "先把第二条对折，再把折起的半长条对折一次，成人帮助对边。全展开有四个约相同的小段，孩子从左数前两段并画另一线型，不能只画一小段。成人可说第一条一份、第二条两份，但整条仍相同。",
+          "actor": "together",
+          "caption": "第二条连折两次，标左边两小份",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "左端对齐比较，展开解释没有多纸",
+          "action": "孩子把两条上下并排且左端圆点对齐，指左边一大份的末端与两小份的末端是否大致对应，再沿全条数2大份/4小份。理想位置都在12厘米，但实际折偏就如实记。成人可代写1/2=2/4，不要求幼儿背算；更细分份没有增加或减少纸。",
+          "actor": "together",
+          "caption": "左端对齐比较，展开解释没有多纸",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "先固定相同整体",
+          "等分越细每份越小",
+          "两小份可对应一大份",
+          "重新分份不改变总量",
+          "实折近似与理想关系"
+        ],
+        "explanation": "对同样长条，把每个半条再等分一次，原来一半对应新的两份四分之一。改变的是分份方式，不是纸长本身。",
+        "limits": "幼儿用折合和端点做粗略比较，不能把折偏的实物称精确等值证明；不要求分数运算或剪小片。",
+        "observation": "先记实际对齐、分段、读尺与偏差，再核设计数值；数值相等与实物长度相等分开。绘图或测量分辨不出差别时写无法分辨，不自动写精确相等。",
+        "nextQuestion": "比较的是无单位的分数值，还是某个具体整条中的厘米长度？工具看不出的差别能否用计算判断？"
+      },
+      "guide": {
+        "goal": "亲自叠整条、对折一条、两次折另一条、标1大份和2小份并对齐端点。",
+        "observe": "一条折成两份、一条折成四份，左边一大份能对上左边两小份吗？",
+        "support": "等分改变单位份数时同时追踪所选份数；不要只让分母变大而保留同样块数。遇到不同整条先标各自整体长度。",
+        "control": "两条均24×4、左端同记号；一条2等份另一条4等份；标1/2与2/4；全程不剪不增加纸。",
+        "time": "约15—20分钟，幼儿参与5—8分钟",
+        "recordFields": [
+          "两整条是否叠齐",
+          "一折/两折的实际折痕",
+          "左一大份/左两小份标记",
+          "端点比较与折偏",
+          "成人代写/帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数可用等分整体的可视模型表示，等值分数可表示相同数值。",
+          "scope": "支持等分条和单位整体的概念；本页全部尺寸、裁条布局和误差演示原创，不复制教材图。"
+        },
+        {
+          "title": "OpenStax Prealgebra 2e｜4.2 Multiply and Divide Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+          "claim": "分子分母同乘或同除非零因子不改变分数值。",
+          "scope": "支持等值性质；有限读尺不能证明精确相等、局部放大坐标及不同实物整体的比较为本页独立推导。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax等分模型与等值分数性质。四龄原创实物纸条任务及全部几何计算未实际执行；纸上贴合或毫米读数不当无限精确证明，模型值与实测记录分开。",
+      "diagrams": [
+        {
+          "sceneKey": "equal117-46-1",
+          "description": "整条先叠齐，不只对齐涂色处。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "整条先叠齐，不只对齐涂色处",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 82,
+              "y": 119,
+              "width": 384,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 82,
+              "y": 213,
+              "width": 384,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 491,
+              "y": 156,
+              "text": "24cm",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 491,
+              "y": 250,
+              "text": "24cm",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-46-2",
+          "description": "第一条两等份，标左边一份。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "第一条两等份，标左边一份",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 82.0,
+              "y": 133,
+              "width": 192.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 274.0,
+              "y": 133,
+              "width": 192.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 243,
+              "text": "左一大份：理想12厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 283,
+              "text": "折痕偏了要记，不强说精确",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-46-3",
+          "description": "第二条四等份，标左边两份。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "第二条四等份，标左边两份",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 82.0,
+              "y": 133,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 178.0,
+              "y": 133,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 274.0,
+              "y": 133,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.0,
+              "y": 133,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 243,
+              "text": "左两小份：理想6+6厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 283,
+              "text": "展开四段，不能只标一小段",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-46-4",
+          "description": "同左端对齐，比较所选末端。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同左端对齐，比较所选末端",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 82.0,
+              "y": 117,
+              "width": 192.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 274.0,
+              "y": 117,
+              "width": 192.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 82.0,
+              "y": 210,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 178.0,
+              "y": 210,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 274.0,
+              "y": 210,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.0,
+              "y": 210,
+              "width": 96.0,
+              "height": 64,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 156,
+              "text": "1/2",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 249,
+              "text": "2/4",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一24厘米整体，选2个三分之一、4个六分之一和8个十二分之一，能拼成同样长吗？",
+      "materials": [
+        "成人预裁三条24×3厘米纸，分别标A/B/C；孩子先标等分线，再由成人把A剪成3片8×3、B剪成6片4×3、C剪成12片2×3厘米，共21片",
+        "A3纸画三条24×3厘米整体框，左端同起点，右端标完整24厘米；钝头尺、笔与三只纸信封收不同组片",
+        "粗线或颜色标记所选片，成人完成所有裁切，纸片不揉团入口"
+      ],
+      "safety": "普通纸、粗笔和钝头尺在桌面使用，全部预裁和沿标线裁切由成人完成，剪刀和碎屑立即收起，不用刀具、针、订书钉。4—6岁只拿完整24×4厘米长条折叠，不剪成小块；其他年龄纸片不揉团入口，远离幼儿宠物。颜色可用疏线代替，不以奖品或真实食物份额作比较。长尺平放，不挥动。",
+      "steps": [
+        {
+          "title": "标等分并留整体参照，成人沿线裁",
+          "action": "孩子用尺把A每8厘米、B每4厘米、C每2厘米标线，核各自等分且总24。成人沿线剪好，孩子分别拼回三整体框核3/6/12片，边缘相接不重叠不漏缝；保留实际裁缝和长度误差。",
+          "actor": "together",
+          "caption": "标等分并留整体参照，成人沿线裁",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "各选2/4/8片，实际从共同左端拼",
+          "action": "A取2片、B取4片、C取8片，从三框左端首尾相接摆，余片放各自信封不偷偷补用。设计长度分别2×8、4×4、8×2=16厘米，孩子实际用尺量末端并记，不因目标同16就忽略裁缝。",
+          "actor": "together",
+          "caption": "各选2/4/8片，实际从共同左端拼",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "用小片覆盖一大片，检查单位怎样换",
+          "action": "取A一片8厘米，拿B两片4厘米首尾并排覆盖其长度；再把C四片2厘米同法对照。实际来回替换A所选两大片为4中片再为8小片，记录选片数和全组片数同时按2倍变化。只增加所选片数、不改变每份大小的操作不是这里的等值换分。",
+          "actor": "together",
+          "caption": "用小片覆盖一大片，检查单位怎样换",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "归回整条，写等值与错误反例",
+          "action": "重新拼回各完整24厘米，确认没有删剩余整体。写2/3=4/6=8/12；再只拿B的2片作2/6，实测设计8厘米，和A两片16厘米不等长，说明分母变而分子不跟着相应改变会改变数值。全部理想等式依规定等分，误差另记。",
+          "actor": "together",
+          "caption": "归回整条，写等值与错误反例",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "单位份变细而所选数相应增加",
+          "等值分数同乘因子",
+          "整体参照不能丢",
+          "实体替换与长度核对",
+          "仅改分母不是等值变换"
+        ],
+        "explanation": "同一整体再细分，每个旧单位可以由多个新单位拼成；所选单位数和总单位数相应增倍，比例保持不变。2/6与2/3不同，因为同为两份但每份长度不同。",
+        "limits": "实际剪缝和排列会使末端有偏差；拼条支持理解但不代替等值性质的数学依据。比较的是长度，不因颜色或纸重量不同改数值。",
+        "observation": "先记实际对齐、分段、读尺与偏差，再核设计数值；数值相等与实物长度相等分开。绘图或测量分辨不出差别时写无法分辨，不自动写精确相等。",
+        "nextQuestion": "比较的是无单位的分数值，还是某个具体整条中的厘米长度？工具看不出的差别能否用计算判断？"
+      },
+      "guide": {
+        "goal": "标线请成人裁21片、拼回整体、各选2/4/8片、用2或4小片替换1大片，最后用2/6反例复核。",
+        "observe": "同一24厘米整体，选2个三分之一、4个六分之一和8个十二分之一，能拼成同样长吗？",
+        "support": "等分改变单位份数时同时追踪所选份数；不要只让分母变大而保留同样块数。遇到不同整条先标各自整体长度。",
+        "control": "三个整体同24×3；A单位8/B4/C2厘米；所选2/4/8；左端一致，不重叠漏缝；每组余片与整体框保留。",
+        "time": "约25—35分钟",
+        "recordFields": [
+          "3/6/12片和整体重拼",
+          "2/4/8所选实测长度",
+          "一大片与2/4小片替换",
+          "分子分母同时增倍",
+          "2/6设计8厘米反例",
+          "裁缝/排列/读尺误差"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数可用等分整体的可视模型表示，等值分数可表示相同数值。",
+          "scope": "支持等分条和单位整体的概念；本页全部尺寸、裁条布局和误差演示原创，不复制教材图。"
+        },
+        {
+          "title": "OpenStax Prealgebra 2e｜4.2 Multiply and Divide Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+          "claim": "分子分母同乘或同除非零因子不改变分数值。",
+          "scope": "支持等值性质；有限读尺不能证明精确相等、局部放大坐标及不同实物整体的比较为本页独立推导。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax等分模型与等值分数性质。四龄原创实物纸条任务及全部几何计算未实际执行；纸上贴合或毫米读数不当无限精确证明，模型值与实测记录分开。",
+      "diagrams": [
+        {
+          "sceneKey": "equal117-79-1",
+          "description": "三整体都24厘米，单位份不同。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "三整体都24厘米，单位份不同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 233.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 345.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 233.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 261.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 345.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 373.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 145,
+              "text": "3份，每份8cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 203,
+              "text": "6份，每份4cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 261,
+              "text": "12份，每份2cm",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-79-2",
+          "description": "各选2、4、8份，都从左端拼。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "各选2、4、8份，都从左端拼",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 116,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 233.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 345.0,
+              "y": 174,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 149.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 205.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 233.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 261.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 345.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 373.0,
+              "y": 232,
+              "width": 28.0,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 145,
+              "text": "2/3",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 203,
+              "text": "4/6",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 261,
+              "text": "8/12",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-79-3",
+          "description": "一份8厘米，用2或4小份替换。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "一份8厘米，用2或4小份替换",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 76.0,
+              "y": 116,
+              "width": 224.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.0,
+              "y": 174,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 188.0,
+              "y": 174,
+              "width": 112.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.0,
+              "y": 232,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132.0,
+              "y": 232,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 188.0,
+              "y": 232,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 244.0,
+              "y": 232,
+              "width": 56.0,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344,
+              "y": 145,
+              "text": "8cm",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 344,
+              "y": 203,
+              "text": "4+4cm",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 344,
+              "y": 261,
+              "text": "2+2+2+2cm",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-79-4",
+          "description": "只改分母，数值会改变。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "只改分母，数值会改变",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "同24厘米：2/3 → 理想16厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "同24厘米：2/6 → 理想8厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "2/3=4/6=8/12，不能改成2/6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "完整框和余片都保留，误差另记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "两个分数值相同，所标的实物纸段一定同样长吗？反过来也成立吗？",
+      "materials": [
+        "成人预裁4条宽3厘米纸：A/C各长24厘米，B/D各长18厘米；每条左端标0，右端写自己的整体长度",
+        "钝头毫米尺、笔和A3记录底纸；A标左16厘米、B标左12厘米，C/D均标左9厘米，不剪所选段",
+        "计算器可选，用于核部分长度/各自整体长度；所有长度是规定目标，实测偏差另栏"
+      ],
+      "safety": "普通纸、粗笔和钝头尺在桌面使用，全部预裁和沿标线裁切由成人完成，剪刀和碎屑立即收起，不用刀具、针、订书钉。4—6岁只拿完整24×4厘米长条折叠，不剪成小块；其他年龄纸片不揉团入口，远离幼儿宠物。颜色可用疏线代替，不以奖品或真实食物份额作比较。长尺平放，不挥动。",
+      "steps": [
+        {
+          "title": "先测四个整体，再按目标标所选段",
+          "action": "孩子量A/C24厘米、B/D18厘米，保留实测值；各自从真正0刻度对应左边起画A16、B12、C9、D9厘米所选终点。每条都保留余段和完整长度标签，不能把短整条拉伸画成和长条一样长后再说实际长度。",
+          "actor": "together",
+          "caption": "先测四个整体，再按目标标所选段",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "比A/B：数值等值但厘米数不同",
+          "action": "把A/B左端对齐，实际看到所选终点不必重合，量设计16与12厘米。分别写16/24=2/3、12/18=2/3，所以所占比例相同，实物长度不同；分数作为数值的相等不被不同整体取消，但把它乘上不同整体长度会得到不同厘米数。",
+          "actor": "together",
+          "caption": "比A/B：数值等值但厘米数不同",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "比C/D：同一9厘米占不同比例",
+          "action": "把C/D左端对齐核两个9厘米末端，分别除各自整体：9/24=3/8，9/18=1/2。纸段同长但比例不同；指明改变的是作为单位的整条长度，不是两张9厘米实际消失或变长。实际错位先检查读尺与边缘，不更改目标分数凑图。",
+          "actor": "together",
+          "caption": "比C/D：同一9厘米占不同比例",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "整理两种判断，补充公平比较条件",
+          "action": "在记录表分四栏写整体L、所选s、s/L、单位厘米，分别给A/B与C/D写“比例同/不同”“所选长度同/不同”。若要由等值分数推出所选长度相同，需要整体长度也相同；用s=f×L复核，而不能说分数的数值相等必须来自同一实体纸条。",
+          "actor": "together",
+          "caption": "整理两种判断，补充公平比较条件",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "无单位比例与有单位长度不同",
+          "整体是物理比较的单位",
+          "数值等值可对应不同大小整体",
+          "相同长度不保证相同分数",
+          "归一化s/L与反算f×L"
+        ],
+        "explanation": "分数值描述比例，实际所选长度还取决于整体长度。同为2/3可以得到16与12厘米；同9厘米也可分别占3/8和1/2。数值等值与实体同长是不同判断。",
+        "limits": "读尺和纸裁误差会使实测与设计略不同；目标分数依理想指定长度核算。这里只讨论长度比例，不将其直接套入质量、价值或现实分配公平。",
+        "observation": "先记实际对齐、分段、读尺与偏差，再核设计数值；数值相等与实物长度相等分开。绘图或测量分辨不出差别时写无法分辨，不自动写精确相等。",
+        "nextQuestion": "比较的是无单位的分数值，还是某个具体整条中的厘米长度？工具看不出的差别能否用计算判断？"
+      },
+      "guide": {
+        "goal": "真实制作四条不同整体、标所选段，两次左端对齐比较，并将实测厘米与归一化比例分栏。",
+        "observe": "两个分数值相同，所标的实物纸段一定同样长吗？反过来也成立吗？",
+        "support": "等分改变单位份数时同时追踪所选份数；不要只让分母变大而保留同样块数。遇到不同整条先标各自整体长度。",
+        "control": "A/C24、B/D18厘米；A选16、B12、C/D9；保持余段、左0和整条标签；不缩放实体来伪造对齐。",
+        "time": "约30—40分钟",
+        "recordFields": [
+          "四条实测整体与目标",
+          "A/B所选厘米与各2/3",
+          "C/D同9厘米与3/8、1/2",
+          "比例同异/长度同异两栏",
+          "s=f×L及相同整体条件",
+          "裁切/标线/读尺限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数可用等分整体的可视模型表示，等值分数可表示相同数值。",
+          "scope": "支持等分条和单位整体的概念；本页全部尺寸、裁条布局和误差演示原创，不复制教材图。"
+        },
+        {
+          "title": "OpenStax Prealgebra 2e｜4.2 Multiply and Divide Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+          "claim": "分子分母同乘或同除非零因子不改变分数值。",
+          "scope": "支持等值性质；有限读尺不能证明精确相等、局部放大坐标及不同实物整体的比较为本页独立推导。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax等分模型与等值分数性质。四龄原创实物纸条任务及全部几何计算未实际执行；纸上贴合或毫米读数不当无限精确证明，模型值与实测记录分开。",
+      "diagrams": [
+        {
+          "sceneKey": "equal117-1012-1",
+          "description": "各自整体长度先写清。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "各自整体长度先写清",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 118,
+              "width": 384,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 210,
+              "width": 288,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 481,
+              "y": 151,
+              "text": "24cm",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 243,
+              "text": "18cm",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 87,
+              "y": 290,
+              "text": "左端同0；不把两种整体画成一样长",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1012-2",
+          "description": "A/B都占2/3，实物段却不同长。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "A/B都占2/3，实物段却不同长",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 118,
+              "width": 384,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 118,
+              "width": 256,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 210,
+              "width": 288,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 210,
+              "width": 192,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 477,
+              "y": 151,
+              "text": "16/24",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 243,
+              "text": "12/18",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 291,
+              "text": "16厘米与12厘米不同；比例都是2/3",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1012-3",
+          "description": "C/D都选9厘米，占比却不同。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "C/D都选9厘米，占比却不同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 118,
+              "width": 384,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 118,
+              "width": 144,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 210,
+              "width": 288,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 210,
+              "width": 144,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 477,
+              "y": 151,
+              "text": "9/24",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 243,
+              "text": "9/18",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 291,
+              "text": "同9厘米；分别为3/8与1/2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1012-4",
+          "description": "比值与实体量分别写，不混单位。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "比值与实体量分别写，不混单位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "比例 f = 所选长度s / 整体长度L",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "实际所选长度 s = f × L",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "等比例再加同整体，才推出同长",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "分数数值相等不依赖同一张实体纸",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "三个纸条终点看起来重合，能证明1/3、2/6和333/1000完全相等吗？",
+      "materials": [
+        "成人预裁3条24×3厘米纸A/B/C，标同一左0与右24厘米；各条目标比例分别1/3、2/6、333/1000",
+        "最小格1毫米的钝头直尺、细笔、计算器、A4纸用于重新绘制局部放大坐标；不能声称尺能精确画0.08毫米",
+        "记录表分“精确数学目标”“取最近1毫米作图值”“实际读尺”三栏；不用切成1000个小片"
+      ],
+      "safety": "普通纸、粗笔和钝头尺在桌面使用，全部预裁和沿标线裁切由成人完成，剪刀和碎屑立即收起，不用刀具、针、订书钉。4—6岁只拿完整24×4厘米长条折叠，不剪成小块；其他年龄纸片不揉团入口，远离幼儿宠物。颜色可用疏线代替，不以奖品或真实食物份额作比较。长尺平放，不挥动。",
+      "steps": [
+        {
+          "title": "算目标位置，再按工具能力真实标线",
+          "action": "精确数学目标为A/B各80毫米、C为240×333/1000=79.92毫米。孩子明确按“最近1毫米”作图规则，三条都在约80毫米画线，并在C旁写79.92目标/80毫米近似作图，不标成实际精确79.92。保留整条240毫米和左0，不声称已实体等分千份。",
+          "actor": "together",
+          "caption": "算目标位置，再按工具能力真实标线",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "对齐并重复读尺，说明看不出的范围",
+          "action": "把三条左端对齐，观察实际画线是否大致重合，再移开重放、各读3次至最近1毫米，记原始读数和笔线粗细。即使都读80，也只能说工具与图线未分辨差别；1毫米为刻度间隔，不等于实际准确度±0.5毫米保证，裁切、起点和视差误差另在。",
+          "actor": "together",
+          "caption": "对齐并重复读尺，说明看不出的范围",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "用交叉乘积判精确等值，并算差",
+          "action": "对非零分母，a/b=c/d等价于ad=bc。A/B核1×6=2×3所以等值；A/C核1×1000=1000而333×3=999，所以不等值。差为1/3000个整体，乘240毫米得0.08毫米，小于1毫米刻度。此结论来自精确目标定义与代数，不是测出了0.08毫米。",
+          "actor": "together",
+          "caption": "用交叉乘积判精确等值，并算差",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        },
+        {
+          "title": "另画计算放大图，不冒充尺子更精密",
+          "action": "在A4纸重新画一条30毫米轴段，左端代表原目标坐标79.8毫米，每向右10毫米代表原坐标加0.1毫米，即100倍局部示意。按算得目标在距左12毫米标C=79.92，在距左20毫米标A/B=80.00，分开8毫米。标“依据计算重绘，不是原纸显微测量”，说明放大显示了定义差别却没有提高原始测量精度；实际新图画线误差仍记下。",
+          "actor": "together",
+          "caption": "另画计算放大图，不冒充尺子更精密",
+          "adultNote": "成人预裁长条并按孩子标线剪分，收好剪刀和碎片；幼儿只折不剪。比较前指出整条、左端和所选部分，实际偏差保留，不把纸上重合等同无限精确的证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "精确等值与近似作图不同",
+          "交叉乘积的等值判据",
+          "差值与工具分辨率比较",
+          "重复读数不自动提高准确度",
+          "计算重绘不等于测量放大"
+        ],
+        "explanation": "有限精度的图像和读尺可能把不同数值表现成相同位置。代数可判断已定义分数是否精确相等；按算得位置重绘放大图能显示差别，但不能反过来声称原尺测到了更小差值。",
+        "limits": "纸条上的三条线本来按1毫米近似规则绘制，并不是目标精确实体位置。重复读尺不排除共同起点或尺误差；不从一次放大示意推出通用测量误差范围。",
+        "observation": "先记实际对齐、分段、读尺与偏差，再核设计数值；数值相等与实物长度相等分开。绘图或测量分辨不出差别时写无法分辨，不自动写精确相等。",
+        "nextQuestion": "比较的是无单位的分数值，还是某个具体整条中的厘米长度？工具看不出的差别能否用计算判断？"
+      },
+      "guide": {
+        "goal": "实际按毫米规则画三近似条、移开重放读三次、做交叉乘积核验，再另画100倍局部坐标比较精确目标。",
+        "observe": "三个纸条终点看起来重合，能证明1/3、2/6和333/1000完全相等吗？",
+        "support": "等分改变单位份数时同时追踪所选份数；不要只让分母变大而保留同样块数。遇到不同整条先标各自整体长度。",
+        "control": "同240毫米整体；A/B目标80、C79.92；近似作图均80；读数3次记录原值；放大轴79.8到80.1、10毫米纸距代表0.1毫米目标距。",
+        "time": "约40—50分钟",
+        "recordFields": [
+          "三个精确目标与近似作图值",
+          "三次实读/笔线与起点误差",
+          "A/B等值与A/C不等的乘积",
+          "1/3000与0.08毫米差",
+          "放大图12/20毫米位置",
+          "计算图与原始测量的区别"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数可用等分整体的可视模型表示，等值分数可表示相同数值。",
+          "scope": "支持等分条和单位整体的概念；本页全部尺寸、裁条布局和误差演示原创，不复制教材图。"
+        },
+        {
+          "title": "OpenStax Prealgebra 2e｜4.2 Multiply and Divide Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-2-multiply-and-divide-fractions",
+          "claim": "分子分母同乘或同除非零因子不改变分数值。",
+          "scope": "支持等值性质；有限读尺不能证明精确相等、局部放大坐标及不同实物整体的比较为本页独立推导。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax等分模型与等值分数性质。四龄原创实物纸条任务及全部几何计算未实际执行；纸上贴合或毫米读数不当无限精确证明，模型值与实测记录分开。",
+      "diagrams": [
+        {
+          "sceneKey": "equal117-1316-1",
+          "description": "目标不同，最近1毫米作图却相同。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "目标不同，最近1毫米作图却相同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 77,
+              "y": 112,
+              "width": 384,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 77,
+              "y": 178,
+              "width": 384,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 77,
+              "y": 244,
+              "width": 384,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 112,
+              "x2": 205,
+              "y2": 154,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 178,
+              "x2": 205,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 244,
+              "x2": 205,
+              "y2": 286,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 481,
+              "y": 139,
+              "text": "A 1/3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 481,
+              "y": 205,
+              "text": "B 2/6",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 477,
+              "y": 270,
+              "text": "C 333/1000",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1316-2",
+          "description": "实际重放读三次，不能强说精确。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "实际重放读三次，不能强说精确",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "A/B精确目标80mm；C为79.92mm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "按最近1mm画，三条都约80mm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "记录实读和笔线粗细，不预填一致",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "刻度1mm不保证准确度±0.5mm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1316-3",
+          "description": "数学核验：相差1/3000个整体。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "数学核验：相差1/3000个整体",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "1×6 = 2×3：1/3与2/6等值",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "1×1000 ≠ 333×3：1000 ≠ 999",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "差1/3000 × 240mm = 0.08mm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "差由定义算出，不是尺子测出",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "equal117-1316-4",
+          "description": "按计算重画100倍局部，不是显微照相。图中长度、分数和放大位置是规定纸模型的数学目标，实折、实剪和读尺误差另记；不把设计线段预填为学习者实际结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "按计算重画100倍局部，不是显微照相",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 199,
+              "x2": 532,
+              "y2": 199,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 190,
+              "x2": 82,
+              "y2": 208,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 190,
+              "x2": 232,
+              "y2": 208,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 382,
+              "y1": 190,
+              "x2": 382,
+              "y2": 208,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 190,
+              "x2": 532,
+              "y2": 208,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 236,
+              "text": "79.8",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 207,
+              "y": 236,
+              "text": "79.9",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 357,
+              "y": 236,
+              "text": "80.0",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 507,
+              "y": 236,
+              "text": "80.1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 262,
+              "y1": 154,
+              "x2": 262,
+              "y2": 199,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 211,
+              "y": 139,
+              "text": "C79.92",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 382,
+              "y1": 154,
+              "x2": 382,
+              "y2": 199,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 139,
+              "text": "A/B80",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 280,
+              "text": "纸上每10毫米代表目标0.1毫米；依计算重绘",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

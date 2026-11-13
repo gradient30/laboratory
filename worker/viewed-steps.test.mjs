@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {request as httpRequest} from 'node:http';
 import {createAccountHarness,TEST_OWNER} from '../scripts/account-test-harness.mjs';
-import {testing} from './core.mjs';
+import worker,{testing} from './core.mjs';
 
 // Every account, child, code and mail message below is synthetic and local to Miniflare.
 async function fixture(t){
@@ -71,7 +72,70 @@ test('viewed steps D1: invalid map shape, unknown activity-age keys and out-of-r
  const invalid=[null,[],1,'1',true,...[-1,16,1.5,'1',null,true,{},[]].map(v=>({'1:4-6':v})),...['0:4-6','01:4-6','366:4-6','1:5-7','1:4-6:0','1','__proto__','constructor'].map(k=>Object.fromEntries([[k,1]])),Object.fromEntries(Array.from({length:1461},(_,i)=>[String(i)+':4-6',1]))];
  for(const viewedSteps of invalid){const rejected=await h.put({...s,state:{...s.state,viewedSteps}});assert.equal(rejected.status,400,JSON.stringify(viewedSteps));assert.equal(rejected.data.error.code,'INVALID_STATE')}
  const unchanged=(await h.read()).data;assert.equal(unchanged.revision,s.revision);assert.deepEqual(unchanged.state.viewedSteps,{});
- const tooLarge=await h.put({...s,state:{...s.state,records:{'1:4-6':{spoken:'x'.repeat(1048576+4096)}}}});assert.equal(tooLarge.status,413);assert.equal((await h.read()).data.revision,s.revision);
+});
+
+// Test the declared-length and streamed-byte paths separately. A known oversized
+// upload may be closed before Undici finishes writing and hide the real HTTP 413.
+const REQUEST_LIMIT=1048576+4096;
+const writeHeaders=h=>({Origin:h.origin,'Content-Type':'application/json',Cookie:h.parent.cookie,'X-CSRF-Token':h.parent.csrf,'CF-Connecting-IP':'192.0.2.44'});
+const childRow=h=>h.db.prepare('SELECT state_json,revision,unlocked_through,progress_storage_version,updated_at FROM children WHERE id=?').bind(h.c.id).first();
+function completeByteStream(bytes){return new ReadableStream({start(controller){for(let i=0;i<bytes.length;i+=65536)controller.enqueue(bytes.subarray(i,i+65536));controller.close();}});}
+function paddedStateBody(snapshot,length,{multibyte=false}={}){
+ const text=JSON.stringify({revision:snapshot.revision,state:snapshot.state,...(multibyte?{padding:'汉'.repeat(Math.floor(length/4))}:{})});
+ const bytes=Buffer.from(text);assert.ok(bytes.length<=length);
+ return Buffer.concat([bytes,Buffer.alloc(length-bytes.length,0x20)]);
+}
+async function declaredLengthResponse(h,length){
+ // Real local HTTP/Workerd request. Do not send an upload already rejected by its
+ // declared length; require the complete JSON response, never accept EPIPE as 413.
+ const local=await h.mf.ready;
+ return new Promise((resolve,reject)=>{
+  const req=httpRequest(new URL(h.url+'/state',local),{method:'PUT',headers:{...writeHeaders(h),Host:new URL(h.origin).host,'Content-Length':String(length)}});
+  const timer=setTimeout(()=>req.destroy(new Error('Declared-length response timed out')),30000);
+  const fail=error=>{clearTimeout(timer);req.destroy();reject(error);};
+  req.on('error',fail);
+  req.on('response',res=>{
+   const chunks=[];res.on('data',chunk=>chunks.push(chunk));res.on('error',fail);res.on('aborted',()=>fail(new Error('Incomplete declared-length response')));
+   res.on('end',()=>{clearTimeout(timer);req.destroy();if(!res.complete)return reject(new Error('Incomplete declared-length response'));try{resolve({status:res.statusCode,headers:res.headers,data:JSON.parse(Buffer.concat(chunks).toString())});}catch(error){reject(error);}});
+  });
+  req.flushHeaders();
+ });
+}
+test('viewed steps D1: declared oversized request returns complete 413 before upload without changing the child',async t=>{
+ const h=await fixture(t),before=await childRow(h);
+ const rejected=await declaredLengthResponse(h,REQUEST_LIMIT+1);
+ assert.equal(rejected.status,413);assert.equal(rejected.data.error.code,'TOO_LARGE');assert.equal(rejected.headers['set-cookie'],undefined);
+ assert.deepEqual(await childRow(h),before);
+});
+test('viewed steps D1: streamed exact byte limit succeeds; one extra ASCII or UTF-8 byte is rejected atomically',async t=>{
+ const h=await fixture(t),snapshot=(await h.read()).data;
+ async function send(bytes){
+  const init={method:'PUT',headers:writeHeaders(h),body:completeByteStream(bytes),duplex:'half'};
+  assert.equal(new Request(new URL(h.url+'/state',h.origin),init).headers.has('Content-Length'),false);
+  const response=await h.fetch(h.url+'/state',init);return {status:response.status,data:await response.json()};
+ }
+ const accepted=await send(paddedStateBody(snapshot,REQUEST_LIMIT));assert.equal(accepted.status,200);assert.equal(accepted.data.revision,snapshot.revision+1);
+ const before=await childRow(h);
+ for(const multibyte of [false,true]){
+  const bytes=paddedStateBody(accepted.data,REQUEST_LIMIT+1,{multibyte});assert.equal(bytes.length,REQUEST_LIMIT+1);
+  if(multibyte)assert.ok(bytes.toString().length<REQUEST_LIMIT,'Must distinguish UTF-8 byte length from character count');
+  const rejected=await send(bytes);assert.equal(rejected.status,413);assert.equal(rejected.data.error.code,'TOO_LARGE');assert.deepEqual(await childRow(h),before);
+ }
+});
+test('core handler with real D1: oversized length reads nothing; streamed overflow cancels before an unbounded tail',async t=>{
+ const h=await fixture(t),env=await h.mf.getBindings(),before=await childRow(h);let pulls=0;
+ const declared=new Request(new URL(h.url+'/state',h.origin),{method:'PUT',headers:{...writeHeaders(h),'Content-Length':String(REQUEST_LIMIT+1)},duplex:'half',body:new ReadableStream({pull(){pulls++;throw Error('Declared oversized body must not be read');}},{highWaterMark:0})});
+ const early=await worker.fetch(declared,env);assert.equal(early.status,413);assert.equal((await early.json()).error.code,'TOO_LARGE');assert.equal(pulls,0);assert.deepEqual(await childRow(h),before);
+ for(const lengthHeader of [undefined,'1']){
+  let delivered=0,cancelled=0,tailRead=false;
+  const stream=new ReadableStream({pull(controller){
+   if(delivered>REQUEST_LIMIT){tailRead=true;throw Error('Unbounded tail must not be consumed');}
+   const size=delivered===REQUEST_LIMIT?1:Math.min(65536,REQUEST_LIMIT-delivered);delivered+=size;controller.enqueue(new Uint8Array(size));
+  },cancel(){cancelled++;}},{highWaterMark:0});
+  const req=new Request(new URL(h.url+'/state',h.origin),{method:'PUT',headers:{...writeHeaders(h),...(lengthHeader===undefined?{}:{'Content-Length':lengthHeader})},body:stream,duplex:'half'});
+  const rejected=await worker.fetch(req,env);assert.equal(rejected.status,413);assert.equal((await rejected.json()).error.code,'TOO_LARGE');
+  assert.equal(delivered,REQUEST_LIMIT+1);assert.equal(cancelled,1);assert.equal(tailRead,false);assert.deepEqual(await childRow(h),before);
+ }
 });
 
 test('viewed steps D1: imports union only valid read masks, preserve old imports and do not unlock',async t=>{

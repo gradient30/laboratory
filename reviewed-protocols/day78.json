@@ -1,0 +1,3078 @@
+{
+  "activityId": 78,
+  "activityTitle": "格子地址找宝藏",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "先说一列，再说一行，能把宝藏指到唯一的一个格子吗？",
+      "materials": [
+        "A3纸1张，成人画2×2格，每格约10×10厘米；纸顶画大箭头",
+        "列头画“圆形／方形”，行头画“一条横线／两条横线”，都直接画在底纸上，不用散落小图片",
+        "成人预裁8×8厘米大纸标记1张，画宝箱即可；粗蜡笔1支",
+        "A4记录纸1张，成人记录发出的两条线索及孩子实际放的位置"
+      ],
+      "safety": "成人预先裁好纸材并收起剪刀；所有可移动纸标记最短边至少8厘米，不用硬币、磁铁、珠子或小玩具。只在稳定桌面操作，纸笔不入口，尺子平放不挥舞；不在地面跳格、不蒙眼、不出门寻宝。成人保管胶带与小件，活动后收齐；不上传地址、定位或儿童影像。4—6岁由成人全程近距离陪伴；允许只用手指，不要求读字母、数字或写记录。",
+      "steps": [
+        {
+          "title": "先固定纸的朝向与图形标签",
+          "action": "成人把2×2格纸平放，纸顶箭头朝离自己和孩子更远的一边，两人并排坐在同一边。左列圆形、右列方形；上行一条线、下行两条线。儿童指一指每个标签，确认标签画在格外。纸顶不叫真实北方。",
+          "actor": "together",
+          "caption": "先固定纸的朝向与图形标签",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "一条线索还留下两个格",
+          "action": "成人只说“圆形那一列”，让孩子沿左列从上到下指两个格，不能猜成人心里想的某一个。再补“一条线那一行”，让孩子沿上行横向指。找出两条指认路线共有的格，把大纸宝箱放在其内部。此为示范条件，不是预先填写的儿童成功记录。",
+          "actor": "together",
+          "caption": "一条线索还留下两个格",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "换两次完整线索再放卡",
+          "action": "成人先把标记移出底纸，再依次口述两组预设线索：“方形列、两条线行”“圆形列、两条线行”。每次儿童先指列，再指行，最后把同一大卡放入交会格；一次只发一组。成人记录真实放置位置，错放也先记，不通过移动纸张暗示答案。",
+          "actor": "together",
+          "caption": "换两次完整线索再放卡",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "用手指检查并留下真实记录",
+          "action": "每轮回看成人口述的两条线索，双方再次用手指沿列和行相交核对，儿童可自行移卡。成人分别记录首次位置和核对后位置，并问“只告诉一列，够不够？”两次都没找对也结束，不反复加试凑成功。",
+          "actor": "together",
+          "caption": "用手指检查并留下真实记录",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一行与一列的交会",
+          "格子区域不是线交点",
+          "共同的页面方向"
+        ],
+        "explanation": "在本页两列两行的约定里，只说一列会留下两个格；再指定一行，就能圈定一个格子区域。宝箱放在格内，不是压在格线交点上。",
+        "limits": "这是一张纸上的索引游戏，不是经纬度。图形标签、两次口令和示范位置都为预设条件；实际表现由成人照实记，不能据此评价孩子的空间能力。",
+        "observation": "记录每轮两条线索、孩子首次放置格，以及共同检查后是否移动。",
+        "nextQuestion": "如果把纸转过来，却仍按身体的左和右说，会发生什么？"
+      },
+      "guide": {
+        "goal": "用两条手指路线找到交会格，实际移动一张大宝箱卡。",
+        "observe": "一条线索与两条线索各能留下几个候选格。",
+        "support": "成人画底纸和代记；儿童可用指认代替说出标签。",
+        "control": "同一2×2底纸，同一侧并排，纸顶方向不变；示范1轮、正式2轮。",
+        "time": "约5—8分钟。",
+        "recordFields": [
+          "本轮图形列与横线行",
+          "首次实际放置格",
+          "共同核对后的移动／口述"
+        ]
+      },
+      "sources": [
+        {
+          "title": "英国国家测绘局｜Quick guide to grid references",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Grid-References-en.pdf",
+          "claim": "地图方格可用两个方向的编号共同定位；该机构四位方格参考使用方格左下角的东向与北向数值。",
+          "scope": "只借鉴双方向定位与方格地址的概念。本页A—D、行从上往下的索引是另行声明的家庭约定，不是英国国家格网、真实经纬度或导航坐标。"
+        }
+      ],
+      "sourceNote": "已核对英国国家测绘局方格参考说明、美国地质调查局坐标系统与精度教学内容。以下为原创桌面索引／坐标模型，未实地试教；图上的坐标和目标点是明确给出的练习条件，不是儿童实测结果。纸顶箭头只表示页面方向，不声称指向真实北方；不用真实住址或定位数据。",
+      "diagrams": [
+        {
+          "sceneKey": "grid78-46-orient",
+          "description": "2×2纸格左列圆右列方，上行一横下行两横；纸顶箭头向上，双方在同一侧。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 84,
+              "text": "并排坐，纸顶朝同一边",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 520,
+              "y1": 155,
+              "x2": 520,
+              "y2": 111,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 520,
+              "y": 183,
+              "text": "纸顶",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 117,
+              "width": 160,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290.0,
+              "y1": 117,
+              "x2": 290.0,
+              "y2": 277,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 210,
+              "y1": 197.0,
+              "x2": 370,
+              "y2": 197.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 250,
+              "y": 100,
+              "r": 9,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 321,
+              "y": 91,
+              "width": 18,
+              "height": 18,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 172,
+              "y1": 157,
+              "x2": 191,
+              "y2": 157,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 172,
+              "y1": 232,
+              "x2": 191,
+              "y2": 232,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 172,
+              "y1": 241,
+              "x2": 191,
+              "y2": 241,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 452,
+              "y": 267,
+              "text": "不是北方",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-46-two-clues",
+          "description": "先指圆形所在列的两个格，再沿一横所在行指向共同格，阴影仅示范候选列。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 85,
+              "text": "一列两个格；再加一行",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 120,
+              "width": 170,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 275.0,
+              "y1": 120,
+              "x2": 275.0,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 205.0,
+              "x2": 360,
+              "y2": 205.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 191,
+              "y": 121,
+              "width": 83,
+              "height": 168,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 205,
+              "x2": 360,
+              "y2": 205,
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 120,
+              "x2": 275,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 232,
+              "y1": 103,
+              "x2": 232,
+              "y2": 277,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 395,
+              "y1": 163,
+              "x2": 206,
+              "y2": 163,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 232,
+              "y": 163,
+              "r": 13,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 492,
+              "y": 163,
+              "text": "一横行",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 485,
+              "y": 220,
+              "text": "圆形列",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 267,
+              "text": "示范",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-46-change",
+          "description": "一张大标记在桌面移动；两个正式口令分别由成人口述，图不预放儿童的答案。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 85,
+              "text": "一次只听一组，再移动大卡",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 118,
+              "width": 170,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 165.0,
+              "y1": 118,
+              "x2": 165.0,
+              "y2": 288,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 203.0,
+              "x2": 250,
+              "y2": 203.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 101,
+              "r": 8,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 92,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 160,
+              "x2": 64,
+              "y2": 160,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 244,
+              "x2": 64,
+              "y2": 244,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 252,
+              "x2": 64,
+              "y2": 252,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 346,
+              "y": 119,
+              "width": 239,
+              "height": 103,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 465.5,
+              "y": 145,
+              "text": "① 方形列、两横行",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.5,
+              "y": 172,
+              "text": "② 圆形列、两横行",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 405,
+              "y": 240,
+              "width": 90,
+              "height": 52,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 450,
+              "y": 272,
+              "text": "大卡",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-46-check",
+          "description": "核对首次放置和检查后放置，保留两个记录框，不强制把结果写成正确。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "先记第一次，再一起检查",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 119,
+              "width": 230,
+              "height": 149,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 145,
+              "text": "第一次放在",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 172,
+              "text": "____",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 199,
+              "text": "不擦掉",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 119,
+              "width": 230,
+              "height": 149,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 145,
+              "text": "检查后放在",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 172,
+              "text": "____",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 199,
+              "text": "可以不移动",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 296,
+              "y1": 195,
+              "x2": 342,
+              "y2": 195,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "只传一个格子地址，两张相同的纸地图能落在同一个格吗？",
+      "materials": [
+        "两张独立A4纸，分别画16×16厘米的4×4格；列A—D从左向右，行1—4从上向下，纸顶箭头相同",
+        "成人预裁A6空白口令卡4张，每张有“轮次／列__／行__”；A4目标与接收记录纸1张",
+        "铅笔2支、直尺1把；A4不透明遮纸2张只平盖各自地图，不搭高挡板",
+        "不使用散放宝物，目标和接收位置都直接用笔画在格子内部"
+      ],
+      "safety": "成人预先裁好纸材并收起剪刀；所有可移动纸标记最短边至少8厘米，不用硬币、磁铁、珠子或小玩具。只在稳定桌面操作，纸笔不入口，尺子平放不挥舞；不在地面跳格、不蒙眼、不出门寻宝。成人保管胶带与小件，活动后收齐；不上传地址、定位或儿童影像。",
+      "steps": [
+        {
+          "title": "把两张地图的规则对齐",
+          "action": "两人并排坐在同侧，各持一张4×4底图。一起检查列A—D左到右，行1—4上到下，写“先列后行；格内为目标；纸顶固定”。用C2作公开示范后划去示范记号，不把它计入4轮。地图数字是行标签，不是纵轴数值。",
+          "actor": "together",
+          "caption": "把两张地图的规则对齐",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "发送两张有记录的地址卡",
+          "action": "儿童任发送者，选两个不同的格，逐轮先在自己的记录纸写目标地址，再在地图格内画本轮数字。用遮纸平盖地图，然后填写A6口令卡，只传列与行，不用手势、方向词或偷看。成人按卡在另一张图中画同一轮数字。每轮保存原地址和接收格，暂不核对。",
+          "actor": "together",
+          "caption": "发送两张有记录的地址卡",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "交换角色，再完成两轮",
+          "action": "成人选与前两轮不同的两个格作为第3、4轮，儿童接收。仍先记录目标、遮图、传卡、接收；相同规则和两张地图不转动。不会或地址不合法可记“未定位／需澄清”，不凭猜测补位置；第4轮后停。",
+          "actor": "together",
+          "caption": "交换角色，再完成两轮",
+          "adultNote": "角色变化会影响难度，四轮只是通信练习，不比较两人的空间能力，也不据此宣称训练有效。"
+        },
+        {
+          "title": "逐轮比较两图和口令卡",
+          "action": "揭开遮纸，按轮次把发送者目标、口令文字和接收格逐个比对，分类为“一致／不一致／无法判断”。数一致轮数与完成轮数，保留分母；检查不一致是否来自写错地址、读错标签或移动纸张，不擦掉第一次。两次收到不同地址却落同格，也要逐项回查。",
+          "actor": "together",
+          "caption": "逐轮比较两图和口令卡",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "地址有顺序约定",
+          "编码与解码",
+          "可复查的通信记录"
+        ],
+        "explanation": "同一套格子标签和页面方向，使不同纸图上的一个地址可以指同一个格子区域。地址卡是传递规则，不含实际距离；发送者意图、写出的卡和接收位置是三个应分别保存的证据。",
+        "limits": "4轮不是能力测验；训练与角色顺序可能影响结果。A—D／1—4是本模型索引，与英国国家格网读数不同，也不是地球经纬度。",
+        "observation": "每轮真实目标、口令和接收位置三联记录，以及一致数／完成数；未定位保留。",
+        "nextQuestion": "如果行号改成从下往上，对方需要先知道哪些新规则？"
+      },
+      "guide": {
+        "goal": "用两张独立地图和4张地址卡完成双向通信，再检查失配位置。",
+        "observe": "目标、编码、接收三处是否在同一轮完全对应。",
+        "support": "成人预裁与代记长句；儿童可以只写字母和数字。",
+        "control": "相同4×4标签与纸顶方向；先列后行；2轮发送、2轮接收；每次只有一张地址卡。",
+        "time": "约12—18分钟。",
+        "recordFields": [
+          "每轮发送者及原目标",
+          "实际传出的地址卡",
+          "实际接收格／未定位",
+          "逐轮一致类别",
+          "一致数／完成轮数",
+          "失配原因与修正"
+        ]
+      },
+      "sources": [
+        {
+          "title": "英国国家测绘局｜Quick guide to grid references",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Grid-References-en.pdf",
+          "claim": "地图方格可用两个方向的编号共同定位；该机构四位方格参考使用方格左下角的东向与北向数值。",
+          "scope": "只借鉴双方向定位与方格地址的概念。本页A—D、行从上往下的索引是另行声明的家庭约定，不是英国国家格网、真实经纬度或导航坐标。"
+        },
+        {
+          "title": "美国地质调查局｜27 Ideas for Teaching with Topographic Maps",
+          "url": "https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0",
+          "claim": "第6节要求辨认坐标系统的原点并比较不同系统；第7节讨论位置读数所需精度。",
+          "scope": "只支持坐标约定、原点与精度等概念；此处纸格、重复试验、细分和坐标平移均为原创数学模型，不借用来源的野外或设备操作。"
+        }
+      ],
+      "sourceNote": "已核对英国国家测绘局方格参考说明、美国地质调查局坐标系统与精度教学内容。以下为原创桌面索引／坐标模型，未实地试教；图上的坐标和目标点是明确给出的练习条件，不是儿童实测结果。纸顶箭头只表示页面方向，不声称指向真实北方；不用真实住址或定位数据。",
+      "diagrams": [
+        {
+          "sceneKey": "grid78-79-pair-maps",
+          "description": "两张相同4×4索引地图并排，列左至右、行上至下，页面方向同向。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 84,
+              "text": "两张独立图，先统一标签",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 124,
+              "width": 160,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 120.0,
+              "y1": 124,
+              "x2": 120.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 164.0,
+              "x2": 240,
+              "y2": 164.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 160.0,
+              "y1": 124,
+              "x2": 160.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 204.0,
+              "x2": 240,
+              "y2": 204.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 200.0,
+              "y1": 124,
+              "x2": 200.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 244.0,
+              "x2": 240,
+              "y2": 244.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.0,
+              "y": 116,
+              "text": "A",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 149.0,
+              "text": "1",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 140.0,
+              "y": 116,
+              "text": "B",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 189.0,
+              "text": "2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 116,
+              "text": "C",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 229.0,
+              "text": "3",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 220.0,
+              "y": 116,
+              "text": "D",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 269.0,
+              "text": "4",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 124,
+              "width": 160,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 440.0,
+              "y1": 124,
+              "x2": 440.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 164.0,
+              "x2": 560,
+              "y2": 164.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 480.0,
+              "y1": 124,
+              "x2": 480.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 204.0,
+              "x2": 560,
+              "y2": 204.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 520.0,
+              "y1": 124,
+              "x2": 520.0,
+              "y2": 284,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 244.0,
+              "x2": 560,
+              "y2": 244.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 420.0,
+              "y": 116,
+              "text": "A",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 149.0,
+              "text": "1",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 460.0,
+              "y": 116,
+              "text": "B",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 189.0,
+              "text": "2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 500.0,
+              "y": 116,
+              "text": "C",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 229.0,
+              "text": "3",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 540.0,
+              "y": 116,
+              "text": "D",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 386,
+              "y": 269.0,
+              "text": "4",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 280,
+              "y1": 160,
+              "x2": 280,
+              "y2": 114,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 595,
+              "y1": 160,
+              "x2": 595,
+              "y2": 114,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 191,
+              "text": "纸顶",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-79-send",
+          "description": "发送者保留原目标并盖图，只传写好列行的A6卡；接收图由接收者真实标记。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 85,
+              "text": "目标先记，地图盖住，只传地址",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 128,
+              "width": 168,
+              "height": 141,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 126.0,
+              "y": 154,
+              "text": "发送者",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 126.0,
+              "y": 181,
+              "text": "原目标：____",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 126.0,
+              "y": 208,
+              "text": "盖住地图",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 252,
+              "y": 147,
+              "width": 146,
+              "height": 100,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 325.0,
+              "y": 173,
+              "text": "列：____",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 325.0,
+              "y": 200,
+              "text": "行：____",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 438,
+              "y": 128,
+              "width": 162,
+              "height": 141,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 519.0,
+              "y": 154,
+              "text": "接收者",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 519.0,
+              "y": 181,
+              "text": "落格：____",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 519.0,
+              "y": 208,
+              "text": "先不核对",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 215,
+              "y1": 190,
+              "x2": 246,
+              "y2": 190,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 403,
+              "y1": 190,
+              "x2": 433,
+              "y2": 190,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-79-switch",
+          "description": "第1、2轮儿童发送，第3、4轮成人发送，不旋转两图；四轮均独立保存。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 87,
+              "text": "交换发送者，地图不转动",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 123,
+              "width": 220,
+              "height": 145,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 149,
+              "text": "第1、2轮",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 176,
+              "text": "儿童 → 成人",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 203,
+              "text": "轮次记在格内",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 123,
+              "width": 220,
+              "height": 145,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 149,
+              "text": "第3、4轮",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 176,
+              "text": "成人 → 儿童",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 470.0,
+              "y": 203,
+              "text": "仍先列、后行",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 292,
+              "y1": 192,
+              "x2": 348,
+              "y2": 192,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-79-compare",
+          "description": "记录表四轮留空，核对原目标、卡片地址和接收位置，不预设成功率。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "逐轮检查，原记录不擦掉",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 550,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 138,
+              "text": "轮次",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 138,
+              "text": "目标",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 138,
+              "text": "口令",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 138,
+              "text": "接收格",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 150,
+              "x2": 595,
+              "y2": 150,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 183,
+              "x2": 595,
+              "y2": 183,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 216,
+              "x2": 595,
+              "y2": 216,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 45,
+              "y1": 249,
+              "x2": 595,
+              "y2": 249,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 174,
+              "text": "1",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 174,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 174,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 174,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 207,
+              "text": "2",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 207,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 207,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 207,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 240,
+              "text": "3",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 240,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 240,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 240,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 273,
+              "text": "4",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 273,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 273,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 273,
+              "text": "____",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "同一个大格里有两个目标，把格子再细分能缩小地址指向的区域吗？",
+      "materials": [
+        "A3底纸1张：20×20厘米的4×4粗格，列A—D左到右、行1—4上到下，纸顶箭头；每粗格边长名义5厘米",
+        "与底纸等大描图纸1张，成人预画细分线，使每个粗格成为2×2小格；每粗格内a/b列从左到右，1/2行从上到下",
+        "30厘米毫米直尺1把、铅笔、A4粗细地址与边长测量表1张",
+        "底图直接画4个练习目标点；描图纸与底纸画左上／右下两枚相同对齐记号，不用小标记或图钉"
+      ],
+      "safety": "成人预先裁好纸材并收起剪刀；所有可移动纸标记最短边至少8厘米，不用硬币、磁铁、珠子或小玩具。只在稳定桌面操作，纸笔不入口，尺子平放不挥舞；不在地面跳格、不蒙眼、不出门寻宝。成人保管胶带与小件，活动后收齐；不上传地址、定位或儿童影像。描图纸平放，不贴在窗上或灯具旁；仅成人预裁，边缘不划脸。",
+      "steps": [
+        {
+          "title": "先按粗格给四个预设目标编址",
+          "action": "成人按底纸左上角为测量起点，向右量x、向下量y，画练习点P(11.25厘米,6.25厘米)、Q(13.75,8.75)、R(3.75,16.25)、S(16.25,3.75)，字母写旁边不盖点。上述是绘图条件，不是实测结果。儿童只用粗格标签记录四个地址，检查是否有两个点同属一个粗格；此处x/y只为备图距离，不当地图经纬度。",
+          "actor": "together",
+          "caption": "先按粗格给四个预设目标编址",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "对齐细分纸并写完整地址",
+          "action": "把描图纸两个角的对齐记号与底图重合，检查所有粗格边界都重合；未对齐先停止读数。每个粗格内固定左a右b、上1下2，完整地址写“粗格-小格”，例如C2-a1。逐个读P/Q/R/S并保存首次读数，不先把示意答案抄进去。目标点保持不动；线太粗或点压线时记“边界不清”而非猜格。",
+          "actor": "together",
+          "caption": "对齐细分纸并写完整地址",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "实际量粗格与小格的边长",
+          "action": "移开描图纸，量同一粗格的横边与竖边，按毫米分度记实际厘米数；再对齐描图纸，量该粗格内一小格的横边与竖边。分别用长×宽算纸上面积，保留实测值。最后与名义5×5=25平方厘米、2.5×2.5=6.25平方厘米作教学核对，不用名义值覆盖实测偏差。",
+          "actor": "child",
+          "caption": "实际量粗格与小格的边长",
+          "adultNote": "成人帮助保持描图纸不滑动。精确小数是名义构造值，实际描线有误差；不要求家庭图达到0.05厘米精度。"
+        },
+        {
+          "title": "比较两种地址与区域面积",
+          "action": "把每个点的粗地址和完整细地址并排，再检查P、Q是否从同一个粗地址分开到不同小格。用实测小格面积÷粗格面积表达这张纸的结果，并与理想1/4比较。写“细地址指向更小的格子区域，不等于知道目标的精确点坐标”；没有分开时先查对齐和地址规则，不重新移动目标追结果。",
+          "actor": "together",
+          "caption": "比较两种地址与区域面积",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "区域索引的细分",
+          "完整地址要保留父格",
+          "分辨率与实际准确度不同"
+        ],
+        "explanation": "粗格地址只指定一个区域。把每个粗格分成四小格，理想小格面积为原来的四分之一；完整地址把父格和子格一起写出，才能区别不同粗格中的同名小格。",
+        "limits": "目标是预设纸点，不是真实宝藏，也不代表儿童结果。细分不会消除描线、量尺和对齐误差，不给出真实地理距离；两点若落在同一小格，细地址仍不能区分它们。",
+        "observation": "保存粗细两套地址、对齐检查、真实横竖边长与面积；名义值、实际值分栏。",
+        "nextQuestion": "两个点如果仍在同一个小格，地址还缺什么信息？"
+      },
+      "guide": {
+        "goal": "对同一目标集叠加细格并读地址，实际测量区域面积变化。",
+        "observe": "P与Q的地址是否被细分区分，实测面积比接近多少。",
+        "support": "成人预画两套纸格与目标；学生读地址、量边、计算，允许分两次完成。",
+        "control": "目标点和粗格不动；只叠加2×2子格；两角先对齐，纸顶固定。",
+        "time": "约20—30分钟。",
+        "recordFields": [
+          "预设点／粗格地址",
+          "对齐是否合格",
+          "完整细格地址／边界不清",
+          "粗格横竖实测边长",
+          "小格横竖实测边长",
+          "实测面积比与名义比",
+          "细分仍不能证明什么"
+        ]
+      },
+      "sources": [
+        {
+          "title": "英国国家测绘局｜Quick guide to grid references",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Grid-References-en.pdf",
+          "claim": "地图方格可用两个方向的编号共同定位；该机构四位方格参考使用方格左下角的东向与北向数值。",
+          "scope": "只借鉴双方向定位与方格地址的概念。本页A—D、行从上往下的索引是另行声明的家庭约定，不是英国国家格网、真实经纬度或导航坐标。"
+        },
+        {
+          "title": "美国地质调查局｜27 Ideas for Teaching with Topographic Maps",
+          "url": "https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0",
+          "claim": "第6节要求辨认坐标系统的原点并比较不同系统；第7节讨论位置读数所需精度。",
+          "scope": "只支持坐标约定、原点与精度等概念；此处纸格、重复试验、细分和坐标平移均为原创数学模型，不借用来源的野外或设备操作。"
+        }
+      ],
+      "sourceNote": "已核对英国国家测绘局方格参考说明、美国地质调查局坐标系统与精度教学内容。以下为原创桌面索引／坐标模型，未实地试教；图上的坐标和目标点是明确给出的练习条件，不是儿童实测结果。纸顶箭头只表示页面方向，不声称指向真实北方；不用真实住址或定位数据。子格命名、绘图点位、长×宽面积比较均为原创课堂模型；不把分辨率的改变量当实测位置精度。",
+      "diagrams": [
+        {
+          "sceneKey": "grid78-1012-coarse",
+          "description": "预设P、Q落在粗格C2内，R、S分处其他格，绘图示例不是儿童测量结果。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 85,
+              "text": "预设练习点：先只读粗格",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 115,
+              "width": 175,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 133.75,
+              "y1": 115,
+              "x2": 133.75,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 158.75,
+              "x2": 265,
+              "y2": 158.75,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 177.5,
+              "y1": 115,
+              "x2": 177.5,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 202.5,
+              "x2": 265,
+              "y2": 202.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 221.25,
+              "y1": 115,
+              "x2": 221.25,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 246.25,
+              "x2": 265,
+              "y2": 246.25,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 111.875,
+              "y": 107,
+              "text": "A",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 76,
+              "y": 141.875,
+              "text": "1",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 155.625,
+              "y": 107,
+              "text": "B",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 76,
+              "y": 185.625,
+              "text": "2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 199.375,
+              "y": 107,
+              "text": "C",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 76,
+              "y": 229.375,
+              "text": "3",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 243.125,
+              "y": 107,
+              "text": "D",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 76,
+              "y": 273.125,
+              "text": "4",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 188.4,
+              "y": 169.7,
+              "r": 4,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 161,
+              "text": "P",
+              "fontSize": 14,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 210.3,
+              "y": 191.6,
+              "r": 4,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 198,
+              "text": "Q",
+              "fontSize": 14,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 122.8,
+              "y": 257.2,
+              "r": 4,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 261,
+              "text": "R",
+              "fontSize": 14,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 232.2,
+              "y": 147.8,
+              "r": 4,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 153,
+              "text": "S",
+              "fontSize": 14,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 332,
+              "y": 132,
+              "width": 255,
+              "height": 129,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 459.5,
+              "y": 158,
+              "text": "粗格地址：____",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 459.5,
+              "y": 185,
+              "text": "有同格目标吗？",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 459.5,
+              "y": 212,
+              "text": "保留首次读数",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1012-overlay",
+          "description": "放大单个C2粗格，内部a/b列与1/2行形成四个子格；旁边说明完整地址格式。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "叠加前：先对齐两个角",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 135,
+              "width": 155,
+              "height": 155,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 160.5,
+              "y1": 135,
+              "x2": 160.5,
+              "y2": 290,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 83,
+              "y1": 212.5,
+              "x2": 238,
+              "y2": 212.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 122,
+              "y": 121,
+              "text": "a",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 121,
+              "text": "b",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 179,
+              "text": "1",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 256,
+              "text": "2",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 103,
+              "text": "粗格 C2 放大",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 122,
+              "y": 173,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 139,
+              "y": 180,
+              "text": "P",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 199,
+              "y": 251,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 257,
+              "text": "Q",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 322,
+              "y": 135,
+              "width": 274,
+              "height": 140,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 459.0,
+              "y": 161,
+              "text": "完整地址写法",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 459.0,
+              "y": 188,
+              "text": "粗格-子格",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 459.0,
+              "y": 215,
+              "text": "例如：C2-a1",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1012-measure",
+          "description": "并排测量粗格和同粗格内的小格横竖边，名义尺寸是教学核对条件，实际填写。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 85,
+              "text": "同一处粗格和小格，分别量边",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 88,
+              "y": 137,
+              "width": 145,
+              "height": 145,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 389,
+              "y": 173,
+              "width": 73,
+              "height": 73,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 115,
+              "x2": 233,
+              "y2": 115,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 137,
+              "x2": 64,
+              "y2": 282,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 104,
+              "text": "横：____cm",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 318,
+              "y": 260,
+              "text": "竖边也要量",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 426,
+              "y": 153,
+              "text": "横：____cm",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 438,
+              "y": 280,
+              "text": "小格",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 298,
+              "text": "粗格",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1012-area",
+          "description": "从粗格25平方厘米到小格6.25平方厘米仅作理想构造值展示，实际比值独立填写。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 86,
+              "text": "名义面积只供核对，不替代实测",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 117,
+              "width": 235,
+              "height": 119,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 167.5,
+              "y": 143,
+              "text": "粗格：5×5",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 167.5,
+              "y": 170,
+              "text": "25平方厘米",
+              "fontSize": 21,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 117,
+              "width": 235,
+              "height": 119,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472.5,
+              "y": 143,
+              "text": "小格：2.5×2.5",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 472.5,
+              "y": 170,
+              "text": "6.25平方厘米",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 295,
+              "y1": 175,
+              "x2": 344,
+              "y2": 175,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 268,
+              "text": "实测小格面积 ÷ 粗格面积 = ____",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 320,
+              "y": 296,
+              "text": "理想值1/4；目标仍是一个区域",
+              "fontSize": 17,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "同一个目标不移动，只把坐标原点平移，它的格子地址和点坐标会怎样改变？",
+      "materials": [
+        "A3纸1张，画16×16厘米4×4格，每格名义4厘米；列A—D左到右、行1—4上到下；下边左端标O",
+        "等大描图纸1张，画与底图同向的坐标轴，把新原点O′设在底图O右4厘米、上4厘米处；画两个角对齐记号",
+        "30厘米毫米直尺、铅笔两色、A4对照表1张，列“格子地址／旧原点读数／新原点读数／差值”",
+        "三点预设在底纸上：P为O右6厘米上10厘米，Q为O右10厘米上6厘米，B为O右8厘米上8厘米；直接画点，不用小物件"
+      ],
+      "safety": "成人预先裁好纸材并收起剪刀；所有可移动纸标记最短边至少8厘米，不用硬币、磁铁、珠子或小玩具。只在稳定桌面操作，纸笔不入口，尺子平放不挥舞；不在地面跳格、不蒙眼、不出门寻宝。成人保管胶带与小件，活动后收齐；不上传地址、定位或儿童影像。描图纸仅桌面平放，成人预裁；不使用GPS、激光、定位软件或真实住址。",
+      "steps": [
+        {
+          "title": "同时声明格索引与点坐标规则",
+          "action": "画底纸粗格与P/Q/B，写纸顶箭头。格地址列A—D左到右、行1—4上到下，表示整格区域；点坐标另用O为左下角，x向右、y向上，1单位=4厘米，先x后y。只处理0≤x<4且0≤y<4范围，内部边界点归入以该点所在边为左边或下边的格，即每格含左、下边而不含右、上边；全图最右与最上边不纳入这次任务。B是有意设置的交界点。",
+          "actor": "together",
+          "caption": "同时声明格索引与点坐标规则",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        },
+        {
+          "title": "从旧原点量P和Q，保留实测",
+          "action": "先按格子标签给P、Q写格地址，再用尺分别量两点到O的水平、竖直距离，按实际毫米数写厘米并各除以4厘米／单位。画细辅助线确认量的是水平／竖直投影，不是斜线长度。保留实际读数；理论P(1.5,2.5)、Q(2.5,1.5)只是核对值，不冒充尺测精度。",
+          "actor": "child",
+          "caption": "从旧原点量P和Q，保留实测",
+          "adultNote": "纸格和点有手绘误差，不为迎合1.5或2.5擦改原记录。"
+        },
+        {
+          "title": "叠新原点轴，重新量同两点",
+          "action": "描图纸对齐两角，确保O′在旧坐标(1,1)、两轴方向和单位与旧图相同。目标仍在原底纸上不动，从O′重新量P/Q的水平竖直距离；实际记录x′、y′，再检验是否各比旧读数少约1。分别算Q−P在旧、新坐标中的两分量并比较，理想值应不因原点平移改变。只移动原点和坐标轴，不改变格子A—D／1—4标签。",
+          "actor": "child",
+          "caption": "叠新原点轴，重新量同两点",
+          "adultNote": "若没有对齐或轴方向变了，本轮不用于比较，记录原因并重新对齐一次，不移动目标点补救。"
+        },
+        {
+          "title": "检查边界点并写完整定位说明",
+          "action": "按第1步声明的半开区域规则检查预设B，理想旧坐标(2,2)、新坐标(1,1)，格地址归C2；这是规则演示，不把线上的点强称某格中心。用实测P/Q记录总结：格地址固定，原点变后点坐标可变，差向量在同向同单位平移中不变。若手绘点粗到跨边界，记“边界不清”，不要以目测值假装精确；完整说明必须附原点、轴向、单位、先后顺序与边界规则。",
+          "actor": "together",
+          "caption": "检查边界点并写完整定位说明",
+          "adultNote": "成人预制大纸卡并代读；不强求抄写，不用计分催促。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "格子区域与精确点不同",
+          "原点、轴向、单位与顺序",
+          "坐标平移与位移不变",
+          "边界归属需要规则"
+        ],
+        "explanation": "格子地址指区域，点坐标要依赖已声明的坐标框架。在本页同向、同单位的平移模型中，新原点的旧坐标是(1,1)，所以理想x′=x−1、y′=y−1；两点坐标同时减去相同量，差向量不变。",
+        "limits": "本模型不是地图投影或真实地理基准变换；不能把此简单平移公式直接用到经纬度。点的理想位置和测量误差须分开。格地址只有在格网标签保持不变时才不变，边界归属是本页约定而非全世界通用。",
+        "observation": "保存P/Q两套实际水平竖直读数、单位换算、Q−P两组差，以及B的理想规则判定或手绘边界不清。",
+        "nextQuestion": "如果还转动新坐标轴，仅减去1的公式为什么不够？"
+      },
+      "guide": {
+        "goal": "实际叠置平移坐标轴、量取两点，再检查不移动目标时变与不变的量。",
+        "observe": "格子地址、两套点坐标和差向量是否被明确区分。",
+        "support": "成人预备描图纸和边界规则，学生可用辅助线量尺与计算；不要求真实地理投影知识。",
+        "control": "底图标签与三个点不动；新原点仅右移1、上移1单位；轴向、比例和纸顶保持一致。",
+        "time": "约25—35分钟，可分两段。",
+        "recordFields": [
+          "图框约定与对齐情况",
+          "P/Q格子地址",
+          "O下水平竖直实测值",
+          "O′下水平竖直实测值",
+          "换算坐标与理论值分栏",
+          "两套Q−P差值",
+          "B的规则判定／边界不清",
+          "结论及不适用范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "英国国家测绘局｜Quick guide to grid references",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Grid-References-en.pdf",
+          "claim": "地图方格可用两个方向的编号共同定位；该机构四位方格参考使用方格左下角的东向与北向数值。",
+          "scope": "只借鉴双方向定位与方格地址的概念。本页A—D、行从上往下的索引是另行声明的家庭约定，不是英国国家格网、真实经纬度或导航坐标。"
+        },
+        {
+          "title": "美国地质调查局｜27 Ideas for Teaching with Topographic Maps",
+          "url": "https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0",
+          "claim": "第6节要求辨认坐标系统的原点并比较不同系统；第7节讨论位置读数所需精度。",
+          "scope": "只支持坐标约定、原点与精度等概念；此处纸格、重复试验、细分和坐标平移均为原创数学模型，不借用来源的野外或设备操作。"
+        }
+      ],
+      "sourceNote": "已核对英国国家测绘局方格参考说明、美国地质调查局坐标系统与精度教学内容。以下为原创桌面索引／坐标模型，未实地试教；图上的坐标和目标点是明确给出的练习条件，不是儿童实测结果。纸顶箭头只表示页面方向，不声称指向真实北方；不用真实住址或定位数据。平移公式与左下闭右上开的边界规则由本页明确构造；不是对真实地理坐标的换算承诺。",
+      "diagrams": [
+        {
+          "sceneKey": "grid78-1316-two-systems",
+          "description": "同一4×4底纸有从上往下的行标签与从左下向上的y轴，两套表示不能混用。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 84,
+              "text": "格地址指区域；点坐标另有原点",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 115,
+              "width": 165,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 141.25,
+              "y1": 115,
+              "x2": 141.25,
+              "y2": 280,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 156.25,
+              "x2": 265,
+              "y2": 156.25,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 182.5,
+              "y1": 115,
+              "x2": 182.5,
+              "y2": 280,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 197.5,
+              "x2": 265,
+              "y2": 197.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 223.75,
+              "y1": 115,
+              "x2": 223.75,
+              "y2": 280,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 238.75,
+              "x2": 265,
+              "y2": 238.75,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 120.625,
+              "y": 107,
+              "text": "A",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 140.625,
+              "text": "1",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 161.875,
+              "y": 107,
+              "text": "B",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 181.875,
+              "text": "2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 203.125,
+              "y": 107,
+              "text": "C",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 223.125,
+              "text": "3",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 244.375,
+              "y": 107,
+              "text": "D",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 264.375,
+              "text": "4",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "arrow",
+              "x1": 100,
+              "y1": 280,
+              "x2": 296,
+              "y2": 280,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 100,
+              "y1": 280,
+              "x2": 100,
+              "y2": 93,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 295,
+              "text": "O",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 307,
+              "y": 287,
+              "text": "x",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 99,
+              "text": "y",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 349,
+              "y": 128,
+              "width": 250,
+              "height": 146,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 474.0,
+              "y": 154,
+              "text": "列A—D：左到右",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 474.0,
+              "y": 181,
+              "text": "行1—4：上到下",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 474.0,
+              "y": 208,
+              "text": "x向右；y向上",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 474.0,
+              "y": 235,
+              "text": "1单位 = 4厘米",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1316-project",
+          "description": "P/Q预设点的水平竖直投影由尺量得；图示理想位置不表示已经测得坐标。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 83,
+              "text": "量水平和竖直投影，不量斜线",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 115,
+              "width": 170,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 134.5,
+              "y1": 115,
+              "x2": 134.5,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 157.5,
+              "x2": 262,
+              "y2": 157.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 177.0,
+              "y1": 115,
+              "x2": 177.0,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 200.0,
+              "x2": 262,
+              "y2": 200.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 219.5,
+              "y1": 115,
+              "x2": 219.5,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 242.5,
+              "x2": 262,
+              "y2": 242.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 155.75,
+              "y": 178.75,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 198.25,
+              "y": 221.25,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 174,
+              "text": "P",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 213,
+              "y": 217,
+              "text": "Q",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 178.75,
+              "x2": 155.75,
+              "y2": 178.75,
+              "stroke": "#A74A36",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 155.75,
+              "y1": 178.75,
+              "x2": 155.75,
+              "y2": 285,
+              "stroke": "#A74A36",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 221.25,
+              "x2": 198.25,
+              "y2": 221.25,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 198.25,
+              "y1": 221.25,
+              "x2": 198.25,
+              "y2": 285,
+              "stroke": "#176F6B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 333,
+              "y": 129,
+              "width": 260,
+              "height": 134,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 155,
+              "text": "水平距离：____cm",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 182,
+              "text": "竖直距离：____cm",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 209,
+              "text": "各自除以4cm／单位",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1316-shift",
+          "description": "新原点O′位于旧坐标(1,1)，目标不动，轴平行且比例相同；不是旋转地图。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 84,
+              "text": "目标不动，只把原点移到(1,1)",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 86,
+              "y": 114,
+              "width": 171,
+              "height": 171,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 128.75,
+              "y1": 114,
+              "x2": 128.75,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 86,
+              "y1": 156.75,
+              "x2": 257,
+              "y2": 156.75,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 171.5,
+              "y1": 114,
+              "x2": 171.5,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 86,
+              "y1": 199.5,
+              "x2": 257,
+              "y2": 199.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 214.25,
+              "y1": 114,
+              "x2": 214.25,
+              "y2": 285,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 86,
+              "y1": 242.25,
+              "x2": 257,
+              "y2": 242.25,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "arrow",
+              "x1": 86,
+              "y1": 285,
+              "x2": 286,
+              "y2": 285,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 86,
+              "y1": 285,
+              "x2": 86,
+              "y2": 96,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 128.75,
+              "y1": 242.25,
+              "x2": 291,
+              "y2": 242.25,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 128.75,
+              "y1": 242.25,
+              "x2": 128.75,
+              "y2": 98,
+              "stroke": "#A74A36",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 71,
+              "y": 298,
+              "text": "O",
+              "fontSize": 14,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 151,
+              "y": 258,
+              "text": "O′",
+              "fontSize": 18,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "circle",
+              "x": 150.125,
+              "y": 178.125,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 192.875,
+              "y": 220.875,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 128,
+              "width": 270,
+              "height": 139,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 154,
+              "text": "轴向和单位不变",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 181,
+              "text": "模型：x′=x−1",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 208,
+              "text": "模型：y′=y−1",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 235,
+              "text": "实测另外记录",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid78-1316-boundary",
+          "description": "理想边界点B的旧坐标为(2,2)，按本页左下闭右上开规则归C2；图是规则例不是实测。 图为操作示意；预设范例不代表儿童已经完成的结果，空白由实际记录填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 320,
+              "y": 84,
+              "text": "规则例：边界点不等于格中心",
+              "fontSize": 20,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 119,
+              "width": 170,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 127.5,
+              "y1": 119,
+              "x2": 127.5,
+              "y2": 289,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 161.5,
+              "x2": 255,
+              "y2": 161.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 170.0,
+              "y1": 119,
+              "x2": 170.0,
+              "y2": 289,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 204.0,
+              "x2": 255,
+              "y2": 204.0,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 212.5,
+              "y1": 119,
+              "x2": 212.5,
+              "y2": 289,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 246.5,
+              "x2": 255,
+              "y2": 246.5,
+              "stroke": "#18383A",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 106.25,
+              "y": 111,
+              "text": "A",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 71,
+              "y": 145.25,
+              "text": "1",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 148.75,
+              "y": 111,
+              "text": "B",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 71,
+              "y": 187.75,
+              "text": "2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 191.25,
+              "y": 111,
+              "text": "C",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 71,
+              "y": 230.25,
+              "text": "3",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 233.75,
+              "y": 111,
+              "text": "D",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 71,
+              "y": 272.75,
+              "text": "4",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 161.5,
+              "width": 42.5,
+              "height": 42.5,
+              "fill": "#BDE0D2",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 170,
+              "y": 204,
+              "r": 5,
+              "fill": "#EECB79",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "C2",
+              "fontSize": 15,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 218,
+              "text": "B",
+              "fontSize": 16,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "rect",
+              "x": 329,
+              "y": 126,
+              "width": 272,
+              "height": 151,
+              "fill": "#FFFDF6",
+              "stroke": "#18383A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 152,
+              "text": "理想B：旧(2,2)",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 179,
+              "text": "新坐标：(1,1)",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 206,
+              "text": "本页边界规则 → C2",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            },
+            {
+              "type": "text",
+              "x": 465.0,
+              "y": 233,
+              "text": "画得不清就记待定",
+              "fontSize": 19,
+              "fill": "#18383A",
+              "anchor": "middle"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

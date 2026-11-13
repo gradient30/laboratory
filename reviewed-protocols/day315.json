@@ -1,0 +1,3189 @@
+{
+  "activityId": 315,
+  "activityTitle": "材料分类可以换规则吗",
+  "contentKey": "chem-108",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同一块东西可以有两种分法吗？",
+      "materials": [
+        "完整普通纸、干净棉布、圆滑柔软非袋状塑料片各1块，约手掌大；清水仅约3滴、小勺1把、托盘1个；A4纸1张、笔1支，家中计时器只由成人看30秒。不用未知材料或硬脆塑料。 本龄记录：孩子的轻弯观察；水滴观察与两排分组，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只观察已知材料，不入口、不尝味，不用燃烧或未知药剂鉴别；成人处理小样和水滴，放大镜只在室内使用、不朝太阳。 成人选材验边，剔除尖锐、霉变、掉屑或来源不明的材料；不需要剪裁。成人处理三个样品及全部水滴，儿童不入口、不闻尝。只轻弯到无明显阻力，不折断、不撕扯；遇阻停止记未测。每样1滴、总约3滴，滴在托盘内；溢水立即擦干，远离电器。结束成人收样品勺和剩水、擦干洗手。",
+      "steps": [
+        {
+          "title": "看成人轻弯",
+          "caption": "看成人轻弯",
+          "action": "三个样品在托盘并排，成人在记录纸画纸/布/塑料三行及弯曲/水滴两列。本准备段不轻弯、不滴水；后续只按本龄步骤执行：先用干样轻弯，每样只尝试一次，随后各放平滴1滴，逐样等待约30秒观察；不做湿后再弯比较，不额外增加试次。 成人轻弯每个干样，孩子指出弯了或没看清；遇明显阻力成人不再弯，标未测。无需记材料名称或数数。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "看一滴水",
+          "caption": "看一滴水",
+          "action": "成人放平样品，每样滴1滴，逐样约30秒后请孩子指出水仍成滴、铺开或没看清，不要求判断吸水原因。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "在纸上换分组",
+          "caption": "在纸上换分组",
+          "action": "成人画两排图标：第一排按轻弯所见，第二排按水滴所见；孩子指样品图标放哪个框，成人代画，模糊项放问号框。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "说一次变化",
+          "caption": "说一次变化",
+          "action": "孩子任选同一样品指出上下两排是否不同，不要求两种分法必须不同。成人注明只说这次样品，收齐擦干洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "按特征分组",
+          "未知"
+        ],
+        "explanation": "分类依所选性质，材料没有唯一的日常分类方法。 成人操作，孩子指认，最多每样一次轻弯一滴水。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "同一块东西可以有两种分法吗？",
+        "observe": "同一块东西可以有两种分法吗？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "成人操作，孩子指认，最多每样一次轻弯一滴水。",
+        "time": "成人准备含检查、手绘与讲解约3—5分钟；幼儿参与5—10分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "孩子的轻弯观察",
+          "水滴观察与两排分组"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "性质分类及物理变化与化学变化区别。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "inquiry": {
+        "problem": "同一块东西可以有两种分法吗？",
+        "solve": "不能判断就写待测，不用撕裂或燃烧来鉴别。 成人操作，孩子指认，最多每样一次轻弯一滴水。",
+        "learn": "分类依所选性质，材料没有唯一的日常分类方法。 成人操作，孩子指认，最多每样一次轻弯一滴水。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day315-4-6-1",
+          "description": "看成人轻弯。成人轻弯每个干样，孩子指出弯了或没看清；遇明显阻力成人不再弯，标未测。无需记材料名称或数数。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看成人轻弯",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "干样轻弯：遇阻停",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 61,
+              "y1": 181,
+              "x2": 83,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 83,
+              "y1": 168,
+              "x2": 112,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 149,
+              "y1": 181,
+              "x2": 171,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 171,
+              "y1": 168,
+              "x2": 200,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 181,
+              "x2": 259,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 259,
+              "y1": 168,
+              "x2": 288,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "成人操作，孩子只看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "成人轻弯，遇阻停",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "成人轻弯，遇阻停",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-4-6-2",
+          "description": "看一滴水。成人放平样品，每样滴1滴，逐样约30秒后请孩子指出水仍成滴、铺开或没看清，不要求判断吸水原因。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看一滴水",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "每样1滴，约30秒后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 88,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 264,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "铺开 / 成滴 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "每样1滴，约30秒看",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "每样1滴，约30秒看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-4-6-3",
+          "description": "在纸上换分组。成人画两排图标：第一排按轻弯所见，第二排按水滴所见；孩子指样品图标放哪个框，成人代画，模糊项放问号框。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "在纸上换分组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "两套规则，成员可变化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "弯曲与水滴分开记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "两排按不同规则分",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "两排按不同规则分",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-4-6-4",
+          "description": "说一次变化。孩子任选同一样品指出上下两排是否不同，不要求两种分法必须不同。成人注明只说这次样品，收齐擦干洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说一次变化",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "记录本次样品，勿泛化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "同名不等于性质一致",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "分法可不同，也可一样",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "分法可不同，也可一样",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "轻弯与水滴观察分出来的组一样吗？",
+      "materials": [
+        "完整普通纸、干净棉布、圆滑柔软非袋状塑料片各1块，约手掌大；清水仅约3滴、小勺1把、托盘1个；A4纸1张、笔1支，家中计时器只由成人看30秒。不用未知材料或硬脆塑料。 本龄记录：三样干弯记录；三样30秒水滴观察；两张分组与成员变化，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只观察已知材料，不入口、不尝味，不用燃烧或未知药剂鉴别；成人处理小样和水滴，放大镜只在室内使用、不朝太阳。 成人选材验边，剔除尖锐、霉变、掉屑或来源不明的材料；不需要剪裁。成人处理三个样品及全部水滴，儿童不入口、不闻尝。只轻弯到无明显阻力，不折断、不撕扯；遇阻停止记未测。每样1滴、总约3滴，滴在托盘内；溢水立即擦干，远离电器。结束成人收样品勺和剩水、擦干洗手。",
+      "steps": [
+        {
+          "title": "定弯曲分类词",
+          "caption": "定弯曲分类词",
+          "action": "三个样品在托盘并排，成人在记录纸画纸/布/塑料三行及弯曲/水滴两列。本准备段不轻弯、不滴水；后续只按本龄步骤执行：先用干样轻弯，每样只尝试一次，随后各放平滴1滴，逐样等待约30秒观察；不做湿后再弯比较，不额外增加试次。 成人操作干样，儿童逐样记‘轻弯可见/遇阻未测/没看清’，不把未测写成不能弯。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "另按水滴分类",
+          "caption": "另按水滴分类",
+          "action": "成人每样1滴、等约30秒；儿童逐样记‘可见水滴/明显铺开或湿痕/未辨’，这是观察分组，不是化学鉴定。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "画两张分类图",
+          "caption": "画两张分类图",
+          "action": "同纸上下各画三框，按两套词把纸布塑料名称各写一次；每套中三个样品不漏、不重复，不确定保留。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "比较成员变化",
+          "caption": "比较成员变化",
+          "action": "逐个连线，找一个换组或未换组的例子并说规则差别；不要预填纸布必吸水。收齐样品和水，擦干洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "分类规则",
+          "成员对应"
+        ],
+        "explanation": "分类依所选性质，材料没有唯一的日常分类方法。 两套规则各把三个样品列一次，保留未辨。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "轻弯与水滴观察分出来的组一样吗？",
+        "observe": "轻弯与水滴观察分出来的组一样吗？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "两套规则各把三个样品列一次，保留未辨。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "三样干弯记录",
+          "三样30秒水滴观察",
+          "两张分组与成员变化"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "性质分类及物理变化与化学变化区别。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "inquiry": {
+        "problem": "轻弯与水滴观察分出来的组一样吗？",
+        "solve": "不能判断就写待测，不用撕裂或燃烧来鉴别。 两套规则各把三个样品列一次，保留未辨。",
+        "learn": "分类依所选性质，材料没有唯一的日常分类方法。 两套规则各把三个样品列一次，保留未辨。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day315-7-9-1",
+          "description": "定弯曲分类词。成人操作干样，儿童逐样记‘轻弯可见/遇阻未测/没看清’，不把未测写成不能弯。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "定弯曲分类词",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "干样轻弯：遇阻停",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 61,
+              "y1": 181,
+              "x2": 83,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 83,
+              "y1": 168,
+              "x2": 112,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 149,
+              "y1": 181,
+              "x2": 171,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 171,
+              "y1": 168,
+              "x2": 200,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 181,
+              "x2": 259,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 259,
+              "y1": 168,
+              "x2": 288,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "成人操作，孩子只看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "未测不等于不能弯",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "未测不等于不能弯",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-7-9-2",
+          "description": "另按水滴分类。成人每样1滴、等约30秒；儿童逐样记‘可见水滴/明显铺开或湿痕/未辨’，这是观察分组，不是化学鉴定。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "另按水滴分类",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "每样1滴，约30秒后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 88,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 264,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "铺开 / 成滴 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "水滴 / 湿痕 / 未辨",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "水滴 / 湿痕 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-7-9-3",
+          "description": "画两张分类图。同纸上下各画三框，按两套词把纸布塑料名称各写一次；每套中三个样品不漏、不重复，不确定保留。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画两张分类图",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "两套规则，成员可变化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "弯曲与水滴分开记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "三个样品各出现一次",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "三个样品各出现一次",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-7-9-4",
+          "description": "比较成员变化。逐个连线，找一个换组或未换组的例子并说规则差别；不要预填纸布必吸水。收齐样品和水，擦干洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较成员变化",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "记录本次样品，勿泛化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "同名不等于性质一致",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "连线追踪同一样品",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "连线追踪同一样品",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "换分类规则后，哪些样品换了组？",
+      "materials": [
+        "完整普通纸、干净棉布、圆滑柔软非袋状塑料片各1块，约手掌大；清水仅约3滴、小勺1把、托盘1个；A4纸1张、笔1支，家中计时器只由成人看30秒。不用未知材料或硬脆塑料。 本龄记录：分类标准与样品描述；实际时序及异常；交叉表与限制，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只观察已知材料，不入口、不尝味，不用燃烧或未知药剂鉴别；成人处理小样和水滴，放大镜只在室内使用、不朝太阳。 成人选材验边，剔除尖锐、霉变、掉屑或来源不明的材料；不需要剪裁。成人处理三个样品及全部水滴，儿童不入口、不闻尝。只轻弯到无明显阻力，不折断、不撕扯；遇阻停止记未测。每样1滴、总约3滴，滴在托盘内；溢水立即擦干，远离电器。结束成人收样品勺和剩水、擦干洗手。",
+      "steps": [
+        {
+          "title": "先规定观察标准",
+          "caption": "先规定观察标准",
+          "action": "三个样品在托盘并排，成人在记录纸画纸/布/塑料三行及弯曲/水滴两列。本准备段不轻弯、不滴水；后续只按本龄步骤执行：先用干样轻弯，每样只尝试一次，随后各放平滴1滴，逐样等待约30秒观察；不做湿后再弯比较，不额外增加试次。 写弯曲和水滴两套组名；记录各样外观厚薄仅作描述，不称精确相同。成人在干燥时轻弯，各一次，记实际结果。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "统一观察时间",
+          "caption": "统一观察时间",
+          "action": "成人逐样放平滴1滴后启动约30秒，计时到后儿童观察一次；记录湿痕/表面水滴/未辨及超时情况，不再滴水。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "做交叉分类表",
+          "caption": "做交叉分类表",
+          "action": "同纸画行‘轻弯可见/遇阻或未辨’、列‘水滴明显铺开或湿痕/仍成滴/未辨’，把每样放进一个格并写原词；两个未明类别并不等于同一物性。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "审查分类依据",
+          "caption": "审查分类依据",
+          "action": "解释一个格中的样品为何放一起；同名材料不能代表全部种类。列厚度、涂层、滴大小三个限制，不增加样品；整理擦干洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "交叉分类",
+          "观察标准"
+        ],
+        "explanation": "分类依所选性质，材料没有唯一的日常分类方法。 先干弯后水滴；逐样约30秒观察，时间偏差留痕。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "换分类规则后，哪些样品换了组？",
+        "observe": "换分类规则后，哪些样品换了组？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "先干弯后水滴；逐样约30秒观察，时间偏差留痕。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "分类标准与样品描述",
+          "实际时序及异常",
+          "交叉表与限制"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "性质分类及物理变化与化学变化区别。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "inquiry": {
+        "problem": "换分类规则后，哪些样品换了组？",
+        "solve": "不能判断就写待测，不用撕裂或燃烧来鉴别。 先干弯后水滴；逐样约30秒观察，时间偏差留痕。",
+        "learn": "分类依所选性质，材料没有唯一的日常分类方法。 先干弯后水滴；逐样约30秒观察，时间偏差留痕。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day315-10-12-1",
+          "description": "先规定观察标准。写弯曲和水滴两套组名；记录各样外观厚薄仅作描述，不称精确相同。成人在干燥时轻弯，各一次，记实际结果。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先规定观察标准",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "干样轻弯：遇阻停",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 61,
+              "y1": 181,
+              "x2": 83,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 83,
+              "y1": 168,
+              "x2": 112,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 149,
+              "y1": 181,
+              "x2": 171,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 171,
+              "y1": 168,
+              "x2": 200,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 181,
+              "x2": 259,
+              "y2": 168,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 259,
+              "y1": 168,
+              "x2": 288,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "成人操作，孩子只看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "先干弯，再滴水",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "先干弯，再滴水",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-10-12-2",
+          "description": "统一观察时间。成人逐样放平滴1滴后启动约30秒，计时到后儿童观察一次；记录湿痕/表面水滴/未辨及超时情况，不再滴水。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "统一观察时间",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "每样1滴，约30秒后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 88,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 264,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "铺开 / 成滴 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "逐样约30秒，不续滴",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "逐样约30秒，不续滴",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-10-12-3",
+          "description": "做交叉分类表。同纸画行‘轻弯可见/遇阻或未辨’、列‘水滴明显铺开或湿痕/仍成滴/未辨’，把每样放进一个格并写原词；两个未明类别并不等于同一物性。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "做交叉分类表",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "两套规则，成员可变化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "弯曲与水滴分开记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "按两性质放进交叉格",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "按两性质放进交叉格",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-10-12-4",
+          "description": "审查分类依据。解释一个格中的样品为何放一起；同名材料不能代表全部种类。列厚度、涂层、滴大小三个限制，不增加样品；整理擦干洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审查分类依据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "记录本次样品，勿泛化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "同名不等于性质一致",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "厚度和涂层也是条件",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "厚度和涂层也是条件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "分类分歧来自规则还是样品与测量限制？",
+      "materials": [
+        "完整普通纸、干净棉布、圆滑柔软非袋状塑料片各1块，约手掌大；清水仅约3滴、小勺1把、托盘1个；A4纸1张、笔1支，家中计时器只由成人看30秒。不用未知材料或硬脆塑料。 本龄记录：事先规则及缺测条件；两性质原始记录；两套清单；厚薄比较的纸上控制方案，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只观察已知材料，不入口、不尝味，不用燃烧或未知药剂鉴别；成人处理小样和水滴，放大镜只在室内使用、不朝太阳。 成人选材验边，剔除尖锐、霉变、掉屑或来源不明的材料；不需要剪裁。成人处理三个样品及全部水滴，儿童不入口、不闻尝。只轻弯到无明显阻力，不折断、不撕扯；遇阻停止记未测。每样1滴、总约3滴，滴在托盘内；溢水立即擦干，远离电器。结束成人收样品勺和剩水、擦干洗手。",
+      "steps": [
+        {
+          "title": "预先写规则和失效条件",
+          "caption": "预先写规则和失效条件",
+          "action": "三个样品在托盘并排，成人在记录纸画纸/布/塑料三行及弯曲/水滴两列。本准备段不轻弯、不滴水；后续只按本龄步骤执行：先用干样轻弯，每样只尝试一次，随后各放平滴1滴，逐样等待约30秒观察；不做湿后再弯比较，不额外增加试次。 列干样弯曲观察与30秒润湿观察两套规则，若弯曲遇阻或水滴跑出样品则标缺测，不在见到结果后改分类词迎合预期。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "逐样获得两类证据",
+          "caption": "逐样获得两类证据",
+          "action": "成人依次干样轻弯，再放平各滴1滴，每样约30秒后记录。儿童写样品外观、结果和无法控制的厚度/涂层/滴大小，不计算吸水率。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "做两套成员清单",
+          "caption": "做两套成员清单",
+          "action": "同纸写两种规则的各组成员，并逐样追踪组别。讨论分类名称不同不能直接算‘准确率’；每套只回答自己的性质问题。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "提出有界检验方案",
+          "caption": "提出有界检验方案",
+          "action": "只纸上设计厚薄同名纸比较需控制哪些条件，说明本次不能区分材料组成和厚度作用；不增加试次，不燃烧或撕裂鉴别。收齐擦干洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "操作性定义",
+          "混杂因素",
+          "外推限制"
+        ],
+        "explanation": "分类依所选性质，材料没有唯一的日常分类方法。 规则事先写定；厚度与滴大小未精确相等。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "分类分歧来自规则还是样品与测量限制？",
+        "observe": "分类分歧来自规则还是样品与测量限制？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "规则事先写定；厚度与滴大小未精确相等。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "事先规则及缺测条件",
+          "两性质原始记录",
+          "两套清单",
+          "厚薄比较的纸上控制方案"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-matter",
+          "title": "ACS｜物质、溶解、蒸发和性质探究",
+          "url": "https://www.acs.org/education/resources/k-8/inquiryinaction/fifth-grade.html",
+          "originalTitle": "ACS｜物质、溶解、蒸发和性质探究",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-physical",
+          "title": "OpenStax｜物理与化学性质",
+          "url": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+          "originalTitle": "OpenStax｜物理与化学性质",
+          "scope": "性质分类及物理变化与化学变化区别。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "性质分类及物理变化与化学变化区别。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "inquiry": {
+        "problem": "分类分歧来自规则还是样品与测量限制？",
+        "solve": "不能判断就写待测，不用撕裂或燃烧来鉴别。 规则事先写定；厚度与滴大小未精确相等。",
+        "learn": "分类依所选性质，材料没有唯一的日常分类方法。 规则事先写定；厚度与滴大小未精确相等。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 未实地试做；可弯性与厚度也有关，不能把样本表现推广到所有同名材料。 一滴大小靠勺难一致；所见是局部润湿表现，不是吸水率数值。样品厚度、涂层、织法与原来含水量可能不同；未湿透不等于永远不吸水。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day315-13-16-1",
+          "description": "预先写规则和失效条件。列干样弯曲观察与30秒润湿观察两套规则，若弯曲遇阻或水滴跑出样品则标缺测，不在见到结果后改分类词迎合预期。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预先写规则和失效条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "先写规则；干样未弯",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 61,
+              "y1": 181,
+              "x2": 83,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 83,
+              "y1": 181,
+              "x2": 112,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 149,
+              "y1": 181,
+              "x2": 171,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 171,
+              "y1": 181,
+              "x2": 200,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 181,
+              "x2": 259,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 259,
+              "y1": 181,
+              "x2": 288,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "此步不轻弯、不滴水",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "先写规则与缺测条件",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "先写规则与缺测条件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-13-16-2",
+          "description": "逐样获得两类证据。成人依次干样轻弯，再放平各滴1滴，每样约30秒后记录。儿童写样品外观、结果和无法控制的厚度/涂层/滴大小，不计算吸水率。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐样获得两类证据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "每样1滴，约30秒后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 88,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 176,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 264,
+              "y": 176,
+              "r": 4,
+              "fill": "#78B8C4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "铺开 / 成滴 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "记滴大小未精确一致",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "记滴大小未精确一致",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-13-16-3",
+          "description": "做两套成员清单。同纸写两种规则的各组成员，并逐样追踪组别。讨论分类名称不同不能直接算‘准确率’；每套只回答自己的性质问题。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "做两套成员清单",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "两套规则，成员可变化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "弯曲与水滴分开记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "不同分类没有统一准确率",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "不同分类没有统一准确率",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day315-13-16-4",
+          "description": "提出有界检验方案。只纸上设计厚薄同名纸比较需控制哪些条件，说明本次不能区分材料组成和厚度作用；不增加试次，不燃烧或撕裂鉴别。收齐擦干洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "提出有界检验方案",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 130,
+              "text": "记录本次样品，勿泛化",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 204,
+              "text": "纸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 141,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 204,
+              "text": "布",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 161,
+              "width": 72,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 204,
+              "text": "塑料",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "同名不等于性质一致",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "只纸上设计厚薄对照",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "只纸上设计厚薄对照",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

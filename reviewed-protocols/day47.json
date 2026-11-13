@@ -1,0 +1,3175 @@
+{
+  "activityId": 47,
+  "activityTitle": "数量没有被排队改变",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "成人预裁大纸卡8张（各至少5×5厘米，逐张标1–8，编号是身份不是已经数好的访问记录）",
+        "记录纸2张、铅笔1支；大起点纸标1张（至少约6×8厘米，写起点），成人预裁；桌面约60×45厘米可用区"
+      ],
+      "safety": "全部是成人预裁至少5×5厘米的大纸卡，边缘平滑，剪刀收好后孩子摆放；不用硬币、珠子或小积木，不入口。桌面留足空间，卡始终完全在桌上，不为排长行爬椅或伸出桌边；空间不足就分两行，记录排法不影响同一批卡的身份。只用纸笔计标，不用尖针固定。",
+      "steps": [
+        {
+          "title": "点每张卡一次",
+          "action": "成人把同8卡摆成两排各4张，孩子一张一数。成人记录实际点数过程而非只问总数；不要求孩子认出所有编号。",
+          "actor": "together",
+          "caption": "点每张卡一次",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "散开但不增删",
+          "action": "孩子把这8张摆成宽松圈，不叠放；成人看住所有卡都留桌上，没有拿进或收走。请孩子先描述占地与数量，不先告诉其“看起来多少”。",
+          "actor": "together",
+          "caption": "散开但不增删",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "设起点避免绕圈多数",
+          "action": "把大起点标放在任一卡旁，孩子从该卡开始沿一个方向逐张点数；再次将到起点卡时停，不把起点卡再数一次。成人可逐张指认辅助，提示另记。",
+          "actor": "together",
+          "caption": "设起点避免绕圈多数",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "回到两排核对",
+          "action": "把同一批卡重新排两排，一张一数核对，与圈形计数相比较。若不一致，找漏点或重复点，不说卡因为散开而自己增减。",
+          "actor": "together",
+          "caption": "回到两排核对",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同物改变排法",
+          "数一次不漏不重",
+          "圈形起点"
+        ],
+        "explanation": "只移动同一批卡，卡片本身没有变多或变少。圈形计数容易忘记在哪里开始，设起点可以帮助避免把同卡重复数。",
+        "limits": "这是同一批有限纸卡的数学操作，不是评判儿童认知水平；数错不代表数量真的变化。",
+        "observation": "两排、圈形、回排的实际点数和提示，漏数重数位置。",
+        "nextQuestion": "绕回起点时为什么要停，而不是再把它数一次？"
+      },
+      "guide": {
+        "goal": "实际同8卡重排成圈并设起点复核，区分占地与基数。",
+        "observe": "同8张卡从两排散成圈再排回，用起点标记复数时数量是否改变？",
+        "support": "成人预裁并守住不增删，幼儿逐张点数，口述可代记。",
+        "control": "同8卡无增删不重叠；每排法每卡只点一次，圈形起点第二次不计。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "三种排法点数过程",
+          "起点停止与提示",
+          "漏点或重复点修正"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "count47-46-rows",
+          "description": "初始两排各四卡。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "同8卡，两排逐张点",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 183,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 183,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 183,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 183,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 248,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 248,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 248,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 248,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-46-ring",
+          "description": "移成圈仍八卡。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "只散开，不拿进或收走",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-46-start",
+          "description": "起点旁标记，不将标记算第九卡。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "从标记旁卡开始，回到它前停",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 290,
+              "y": 115,
+              "text": "起点",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-46-return",
+          "description": "回排复核实际点数。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "排回两行，找漏点/重数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 183,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 183,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 183,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 183,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 248,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 248,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 248,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 248,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同8张卡从两排散成圈再排回，用起点标记复数时数量是否改变？",
+      "sources": [
+        {
+          "title": "NRICH｜Counting Collections",
+          "url": "https://nrich.maths.org/eyfs-activities/counting-collections",
+          "claim": "计数活动鼓励安排对象、追踪已数对象、一数对应一物，并换一种方式复核。",
+          "scope": "采用早期计数与追踪原则；本题8/12卡、环行步长和有限证明是独立构造，不冒称原网页给出本题结论。"
+        }
+      ],
+      "sourceNote": "依据NRICH计数追踪与适用时钟面算术独立构造纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡数/规则/错误示例不是捏造学习者结果；实际访问记录与数学推导分开，本题不是自然科学实验。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "成人预裁大纸卡8张（各至少5×5厘米，逐张标1–8，编号是身份不是已经数好的访问记录）",
+        "记录纸2张、铅笔1支；大起点纸标1张（至少约6×8厘米，写起点），成人预裁；桌面约60×45厘米可用区",
+        "另一张记录纸，记录两个计数方向；大“已数”纸区1张"
+      ],
+      "safety": "全部是成人预裁至少5×5厘米的大纸卡，边缘平滑，剪刀收好后孩子摆放；不用硬币、珠子或小积木，不入口。桌面留足空间，卡始终完全在桌上，不为排长行爬椅或伸出桌边；空间不足就分两行，记录排法不影响同一批卡的身份。只用纸笔计标，不用尖针固定。",
+      "steps": [
+        {
+          "title": "同卡重排并记录身份",
+          "action": "将8张编号卡先排两行点数，再排圈，按顺时针编号1到8放置，确认身份仍各一个。编号帮助核查，不把读最大编号当无需检查卡片数。",
+          "actor": "together",
+          "caption": "同卡重排并记录身份",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "两个方向实际计数",
+          "action": "从1号卡旁的起点标出发，顺时针逐张点数并记访问编号；再从1号逆时针逐张点数另列访问编号。每次再要点到1时停，第二次1不计；两列顺序可不同。",
+          "actor": "together",
+          "caption": "两个方向实际计数",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "故意检查重复起点的错误",
+          "action": "成人演示“从1顺时针到8，又点1”这条错误路线，明确这是故意的练习而非正确规则。孩子在纸上圈出重复编号，比较9次点触与8个不同对象；不用真增加第9卡。",
+          "actor": "together",
+          "caption": "故意检查重复起点的错误",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "用已数区重新审计",
+          "action": "逐张把每张卡移到“已数”纸区，每移动1张只报1数，未数区空后停。核两方向的不同编号集合是否都覆盖同8卡；报告错误属于计数过程而非摆圈增加了卡。",
+          "actor": "together",
+          "caption": "用已数区重新审计",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "访问次数与不同对象数",
+          "方向顺序不改变全覆盖数量",
+          "重复编号审计"
+        ],
+        "explanation": "同8卡可以从不同方向访问，顺序不同但只要每卡一次且全部覆盖，数量不变。多点起点一次会增加点触次数，并没有增加对象。",
+        "limits": "演示的9次点触是预设错误例，不是孩子真的数错；若真实记录有漏重，须回实物核查。",
+        "observation": "两方向访问列表、重复1示例定位、已数区审计。",
+        "nextQuestion": "手指点了9次，为什么不一定有9张不同的卡？"
+      },
+      "guide": {
+        "goal": "实际双方向访问、错误重复示例和移入已数区三种核查。",
+        "observe": "顺时针、逆时针和多点起点一次的记录中，访问次数与不同纸卡数怎样区分？",
+        "support": "成人明确哪段是故意错误示例，不把它写成儿童表现。",
+        "control": "8编号各一张、圈位置不变；两方向均1起点，正确路线回1前停，错误例仅用于审计。",
+        "time": "约20分钟。",
+        "recordFields": [
+          "两方向访问编号",
+          "错误示例的重复项",
+          "已数区逐张核查与结论"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "count47-79-ring",
+          "description": "编号身份固定。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "8卡按1—8围圈，起点1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-79-direction",
+          "description": "两方向均需全覆盖不重计。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "顺向一次，再逆向一次，各留记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-79-error",
+          "description": "错误例重复起点，卡数仍八。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "练习错误：1…8后又点1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 285,
+              "y": 215,
+              "text": "多点≠多卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-79-audit",
+          "description": "纸区移卡核查，图为开始未填完成结果。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "逐张移入已数区，不添加卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 183,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 183,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 183,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 183,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 248,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 248,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 248,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 248,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 280,
+              "width": 500,
+              "height": 18,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "顺时针、逆时针和多点起点一次的记录中，访问次数与不同纸卡数怎样区分？",
+      "sources": [
+        {
+          "title": "NRICH｜Counting Collections",
+          "url": "https://nrich.maths.org/eyfs-activities/counting-collections",
+          "claim": "计数活动鼓励安排对象、追踪已数对象、一数对应一物，并换一种方式复核。",
+          "scope": "采用早期计数与追踪原则；本题8/12卡、环行步长和有限证明是独立构造，不冒称原网页给出本题结论。"
+        }
+      ],
+      "sourceNote": "依据NRICH计数追踪与适用时钟面算术独立构造纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡数/规则/错误示例不是捏造学习者结果；实际访问记录与数学推导分开，本题不是自然科学实验。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人预裁大纸卡8张（各至少5×5厘米，逐张标1–8，编号是身份不是已经数好的访问记录）",
+        "记录纸2张、铅笔1支；大起点纸标1张（至少约6×8厘米，写起点），成人预裁；桌面约60×45厘米可用区",
+        "两色笔各1支，用记录纸勾访问编号，不在原卡上涂盖编号"
+      ],
+      "safety": "全部是成人预裁至少5×5厘米的大纸卡，边缘平滑，剪刀收好后孩子摆放；不用硬币、珠子或小积木，不入口。桌面留足空间，卡始终完全在桌上，不为排长行爬椅或伸出桌边；空间不足就分两行，记录排法不影响同一批卡的身份。只用纸笔计标，不用尖针固定。",
+      "steps": [
+        {
+          "title": "八卡圈与步长规则",
+          "action": "把8卡按1至8顺时针排圈，从1起点先记1。步长1指前进到下一张，步长2指越过下一张、落在再下一张；只有落点算访问，路过不算。卡不移动，只移动手指。",
+          "actor": "together",
+          "caption": "八卡圈与步长规则",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "先走一步，再走两步",
+          "action": "步长1走到首次回1前，记录访问过的不同编号；清空本轮记录，步长2同样从1开始直到首次回1，终点重复1只标“回起点”不算新对象。每个落点在纸表勾记，不能因绕回就假定已经数完全部卡。",
+          "actor": "together",
+          "caption": "先走一步，再走两步",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "从未访问卡开第二段",
+          "action": "查步长2还未勾的卡，从其中编号最小者出发按同样步长2再走到回该起点；把两段不同编号合起来核对8张实物。卡仍在原圈，不删除已经访问的卡来改变跳步含义。",
+          "actor": "together",
+          "caption": "从未访问卡开第二段",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "改排法但保持身份审查",
+          "action": "把同8卡分成两排，按编号找出刚才两段各访问哪些对象，并各成一小组，再合回核总数。解释跳步漏访只是算法没覆盖全部，不是排成圈以后卡变少了。",
+          "actor": "together",
+          "caption": "改排法但保持身份审查",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "步长与落点覆盖",
+          "回到起点不等覆盖全部",
+          "分段补齐访问集合"
+        ],
+        "explanation": "走法有规则时，可能早早绕回起点而漏掉一些卡。数量属于同一批对象；一次走法访问到多少不同对象，是另一个问题，可以用未访问列表检查。",
+        "limits": "只研究8卡和步长1/2，不能把某次访问数当总体卡数；路径不是自然运动实验。",
+        "observation": "两步长列表、未访卡、第二起点列表与最终并集核查。",
+        "nextQuestion": "一个走法回到起点了，为什么仍可能有一半卡从未成为落点？"
+      },
+      "guide": {
+        "goal": "实际执行两步长与补访周期，辨别对象不变和算法漏访。",
+        "observe": "同8卡圈，步长1与2各在首次回起点前访问哪些卡，怎样补齐未访问的对象？",
+        "support": "成人先示一步/两步含义，学习者逐落点勾记并审查未访问身份。",
+        "control": "位置1—8固定，起点1；路过不计，回起点不重计，第二段从最小未访问编号开始。",
+        "time": "约25分钟。",
+        "recordFields": [
+          "步长1/2访问列表",
+          "未访问与第二段列表",
+          "两排按身份重核",
+          "数量与覆盖数的区别"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "count47-1012-setup",
+          "description": "起点固定，手指走卡不动。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "步长1到下一卡；步长2越一落一",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1012-step",
+          "description": "仅示起点，列表由操作填写。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "只记落点，路过不算访问",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1012-unvisited",
+          "description": "按真实未访表选择第二起点，不预填结果。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "回起点后，检查是否仍有未访卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 126.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 171.04,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 520.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455.56,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.56,
+              "y": 262.96,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 300.0,
+              "y": 256.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 236.96,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 262.96,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80.0,
+              "y": 191.0,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 144.44,
+              "y": 145.04,
+              "width": 40,
+              "height": 38,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152.44,
+              "y": 171.04,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1012-identity",
+          "description": "重排后按身份核查同一批。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "排成两行核身份，卡数未因走法改变",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 183,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 183,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 183,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 150,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 183,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 248,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 212,
+              "y": 248,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 248,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 450,
+              "y": 215,
+              "width": 65,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 472,
+              "y": 248,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同8卡圈，步长1与2各在首次回起点前访问哪些卡，怎样补齐未访问的对象？",
+      "sources": [
+        {
+          "title": "NRICH｜Counting Collections",
+          "url": "https://nrich.maths.org/eyfs-activities/counting-collections",
+          "claim": "计数活动鼓励安排对象、追踪已数对象、一数对应一物，并换一种方式复核。",
+          "scope": "采用早期计数与追踪原则；本题8/12卡、环行步长和有限证明是独立构造，不冒称原网页给出本题结论。"
+        },
+        {
+          "title": "NRICH｜Clock Arithmetic",
+          "url": "https://nrich.maths.org/problems/clock-arithmetic?tab=help",
+          "claim": "将数轴围成圈后，前进一步数可用按圈大小取余的钟面算术描述，回绕并未产生新位置。",
+          "scope": "用于高龄环行规则的数学背景。本题步长覆盖数和12卡有限论证独立推导，不把纸卡走法当自然科学实验结果。"
+        }
+      ],
+      "sourceNote": "依据NRICH计数追踪与适用时钟面算术独立构造纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡数/规则/错误示例不是捏造学习者结果；实际访问记录与数学推导分开，本题不是自然科学实验。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "成人预裁编号1–12的大纸卡12张（各至少5×5厘米）；桌面足容约60×50厘米环形",
+        "大起点标1张（至少6×8厘米）；记录纸3张、笔2支、直尺1把（只画记录表，不量走路距离）"
+      ],
+      "safety": "全部是成人预裁至少5×5厘米的大纸卡，边缘平滑，剪刀收好后孩子摆放；不用硬币、珠子或小积木，不入口。桌面留足空间，卡始终完全在桌上，不为排长行爬椅或伸出桌边；空间不足就分两行，记录排法不影响同一批卡的身份。只用纸笔计标，不用尖针固定。",
+      "steps": [
+        {
+          "title": "建立十二卡固定圈",
+          "action": "按编号1到12顺时针排圈，核每编号只一张。四次分别试步长k=1、2、3、5；每次从1记起，每次前进k个相邻位置，仅落点计访问，首次回1终止，重复1不再算不同对象。",
+          "actor": "together",
+          "caption": "建立十二卡固定圈",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "真正走完四种访问轨迹",
+          "action": "逐条执行四步长，列每个落点；每轮清空勾记但不改卡位置。记录返回前不同访问数r、未访编号和完成了多少次跳步；起始1算对象但不算跳步，最后回1这一跳算跳步却不增新对象。",
+          "actor": "together",
+          "caption": "真正走完四种访问轨迹",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "用整圈条件解释而非只猜规律",
+          "action": "对每k找最小正整数m，使m×k是12的倍数；这意味着共前进若干整圈回起点。把m与实走不同访问数r核对，若不符先查漏记/重复/步长。可以整理为r=12/gcd(12,k)在这四例的有限核验；gcd为最大公因数，不声称四例就证明所有圈大小的定理。",
+          "actor": "together",
+          "caption": "用整圈条件解释而非只猜规律",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        },
+        {
+          "title": "核查总对象与算法覆盖",
+          "action": "选择一个未全覆盖的k，从最小未访编号再走同规则，必要时继续新起点直到每卡至少出现一次；每段不同编号单列、合并去重后与1–12清单比。重排这12卡成三行四列再核同一清单，区别布局、访问算法和对象总数。",
+          "actor": "together",
+          "caption": "核查总对象与算法覆盖",
+          "adultNote": "数错保留重核，不能只把答案改成预期数而不检查对象。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "模12回绕",
+          "周期与最小整圈倍数",
+          "不同访问数与跳步数",
+          "有限验证不等一般证明"
+        ],
+        "explanation": "固定步长走圈，回起点要求总前进位置数是圈大小的整数倍。某些步长只覆盖部分位置，需多个起点周期才能覆盖全体；对象数量始终由那12张卡决定，与走法访问得多少不同。",
+        "limits": "卡号和步长是构造数学条件，列举的有限事实不是学生已完成成绩；不把四例核验称为所有n/k的一般证明。",
+        "observation": "四条真实轨迹/r/未访、最小m整圈计算、补访各段与身份清单。",
+        "nextQuestion": "若步长改变后访问周期变短，为什么纸卡总数不会随之变少？"
+      },
+      "guide": {
+        "goal": "实际四步长环行、最小整圈核验与多起点补访，解释守恒对象与算法覆盖。",
+        "observe": "12卡圈的1/2/3/5步长为何覆盖数不同，怎样用整圈条件和补访清单核对而不误认总数改变？",
+        "support": "成人核规则和大卡安全，学习者独立实走、计算、查误记；一般公式只作有限验证。",
+        "control": "同12卡顺时针固定、各从1起、每跳k位置、首次回1止；重复起点不计不同对象。",
+        "time": "约30–40分钟。",
+        "recordFields": [
+          "四步长轨迹/r/未访",
+          "最小m与整圈计算",
+          "多起点补访和重排清单",
+          "有限核验与一般证明边界"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "count47-1316-circle",
+          "description": "12卡各一张，非钟表实际计时。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "12卡固定，分别走1/2/3/5步",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 131.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 160.71,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 184.5,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 524.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 249.5,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 273.29,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 261.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 273.29,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 249.5,
+              "text": "9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 84.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "10",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 184.5,
+              "text": "11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 160.71,
+              "text": "12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1316-trace",
+          "description": "实际落点列表不预填。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "起始1算对象；回1只算最后一跳",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 131.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 160.71,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 184.5,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 524.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 249.5,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 273.29,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 261.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 273.29,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 249.5,
+              "text": "9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 84.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "10",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 184.5,
+              "text": "11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 160.71,
+              "text": "12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1316-period",
+          "description": "以整圈条件校核实走记录。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "最小正m，使m×k是12的倍数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 131.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 152.0,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 160.71,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 184.5,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 524.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 528.0,
+              "y": 217.0,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494.53,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 498.53,
+              "y": 249.5,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 414.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 418.0,
+              "y": 273.29,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 304.0,
+              "y": 261.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 308.0,
+              "y": 282.0,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 252.29,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 273.29,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 228.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 249.5,
+              "text": "9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 84.0,
+              "y": 196.0,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 217.0,
+              "text": "10",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 113.47,
+              "y": 163.5,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 117.47,
+              "y": 184.5,
+              "text": "11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 194.0,
+              "y": 139.71,
+              "width": 32,
+              "height": 28,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.0,
+              "y": 160.71,
+              "text": "12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "count47-1316-total",
+          "description": "三行四列仍同12卡，示意卡高缩小适应画布。纸卡布局和指定走法是构造的数学任务，不是儿童已完成记录。颜色仅示起点或待操作位置，具体访问列表由真实指认填写；不增删卡片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "换排法核身份；走法覆盖不等对象数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 125,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 153,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 125,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 153,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 125,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 153,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 125,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 153,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 180,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 208,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 180,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 208,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 180,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 208,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 180,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 208,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 235,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 263,
+              "text": "9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 235,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 215,
+              "y": 263,
+              "text": "10",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 235,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 263,
+              "text": "11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 235,
+              "width": 60,
+              "height": 42,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 263,
+              "text": "12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "12卡圈的1/2/3/5步长为何覆盖数不同，怎样用整圈条件和补访清单核对而不误认总数改变？",
+      "sources": [
+        {
+          "title": "NRICH｜Counting Collections",
+          "url": "https://nrich.maths.org/eyfs-activities/counting-collections",
+          "claim": "计数活动鼓励安排对象、追踪已数对象、一数对应一物，并换一种方式复核。",
+          "scope": "采用早期计数与追踪原则；本题8/12卡、环行步长和有限证明是独立构造，不冒称原网页给出本题结论。"
+        },
+        {
+          "title": "NRICH｜Clock Arithmetic",
+          "url": "https://nrich.maths.org/problems/clock-arithmetic?tab=help",
+          "claim": "将数轴围成圈后，前进一步数可用按圈大小取余的钟面算术描述，回绕并未产生新位置。",
+          "scope": "用于高龄环行规则的数学背景。本题步长覆盖数和12卡有限论证独立推导，不把纸卡走法当自然科学实验结果。"
+        }
+      ],
+      "sourceNote": "依据NRICH计数追踪与适用时钟面算术独立构造纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡数/规则/错误示例不是捏造学习者结果；实际访问记录与数学推导分开，本题不是自然科学实验。"
+    }
+  }
+}

@@ -1,0 +1,2666 @@
+{
+  "activityId": 285,
+  "activityTitle": "重复出现不一定是新个体",
+  "contentKey": "annual-content-nature-life-287",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "三幅画中的小鸟一定都不同吗？",
+      "materials": [
+        "input、preschool、conclusion-4-6；不使用进阶模型表；公共safety，reference完成后读。",
+        "普通纸笔，只读原创模拟图；不用真鸟、标记器、照片或个人信息。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 只在室内纸上读虚构记录；不捕捉、追逐、喂食、接触或给野生动物做标记，不外出寻鸟，不拍摄或提交真实儿童/家庭位置记录。成人代画大图，不必裁剪。",
+      "steps": [
+        {
+          "title": "听三格小鸟故事",
+          "caption": "听三格小鸟故事",
+          "action": "成人指input中三幅画，读setup；孩子只指有鸟、没鸟，不要求认字或数字，preschool第一空框留孩子原话或图。",
+          "actor": "together",
+          "adultNote": "输入是同一虚构观察区的三个时刻：t1一只鸟飞来并落下；t2该鸟飞走，图内为零；t3一只鸟又飞来并落下。只在这三格所画记录范围内计数，身份没有可靠标记；“又飞来”是又一次到达，不保证同一只。鸟图相同只是示意，不能用颜色或形状推身份。"
+        },
+        {
+          "title": "分清来了与走了",
+          "caption": "分清来了与走了",
+          "action": "成人在同一三图上指飞来与飞走，孩子用手指指出再次来的画面；preschool第二框记指认或不知道，不能把离开说成又来一只。",
+          "actor": "together",
+          "adultNote": "成人只指飞来/飞走，孩子指图，不要求写数或计算。"
+        },
+        {
+          "title": "相同还是不同先不知道",
+          "caption": "相同还是不同先不知道",
+          "action": "成人说第三格可能同一只，也可能另一只；孩子在preschool第三框指问号或画自己的想法，不要求枚举、加减或判断哪种更可能。",
+          "actor": "together",
+          "adultNote": "成人展示同一或不同两个可能，说不知道也可以；不用四事件表。"
+        },
+        {
+          "title": "给记录取诚实名字",
+          "caption": "给记录取诚实名字",
+          "action": "成人在conclusion-4-6代写“纸上小鸟来了的记录”及孩子还不知道的话，注明帮助；不把三幅图标题写成三只真实鸟。",
+          "actor": "together",
+          "adultNote": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "来了与走了",
+          "不知道身份"
+        ],
+        "explanation": "同一只鸟可能离开后再次出现，所以到达事件数不能直接充当独立个体数。三时刻图只给两次到达，记录内可由一只或两只解释。",
+        "limits": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。",
+        "observation": "成人只指飞来/飞走，孩子指图，不要求写数或计算。",
+        "nextQuestion": "还想知道第三格哪件事？成人代记，不增加观察任务。"
+      },
+      "guide": {
+        "goal": "给记录取诚实名字",
+        "observe": "听三格小鸟故事",
+        "control": "成人只指飞来/飞走，孩子指图，不要求写数或计算。",
+        "support": "幼儿只指认或画图；成人代读代记。保留错误、未知和帮助，不执行真实调查。",
+        "time": "5—10分钟可停",
+        "recordFields": [
+          "孩子指到的画面",
+          "来了/走了的原话",
+          "身份不知道",
+          "成人帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "城市自然监测与调查技能背景。",
+          "scope": "实读turn505view0第60—69行；不把此概览当本课计数公式出处。"
+        },
+        {
+          "title": "RSPB｜Big Garden Birdwatch 2026",
+          "url": "https://www.rspb.org.uk/media-centre/rspb-big-garden-birdwatch",
+          "claim": "该调查协议记录同一时刻最高数量而非把整段所见相加。",
+          "scope": "实读turn506view0第30行；本课只借鉴区别计数口径，不参加调查，不声称这个数等于全部个体。"
+        }
+      ],
+      "sourceNote": "来源仅提供监测及计数口径背景；三格图和集合分划例题原创，未开展真实调查或机构认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "identity285-4-6-1",
+          "description": "听三格小鸟故事；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "听三格小鸟故事",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "三个时刻，不是三只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "飞走不算又飞来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "身份可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-4-6-2",
+          "description": "分清来了与走了；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "分清来了与走了",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "三个时刻，不是三只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "飞走不算又飞来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "身份可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-4-6-3",
+          "description": "相同还是不同先不知道；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "相同还是不同先不知道",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "可能是同一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "也可能是另一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "第三格先留问号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "图案相同不是身份证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "三个时刻，不是三只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "飞走不算又飞来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "身份可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-4-6-4",
+          "description": "给记录取诚实名字；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "给记录取诚实名字",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "小鸟来了的记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "请成人写下我的话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "不知道也可以留下",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "不说画了三只真鸟",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "三个时刻，不是三只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "飞走不算又飞来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "身份可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "两次到达能确定几只独立鸟吗？",
+      "materials": [
+        "input、prediction-7-9、timeline-work、count-work、title-work、worlds-work、conclusion-7-9；公共safety，reference完成后读。",
+        "普通纸笔，只读原创模拟图；不用真鸟、标记器、照片或个人信息。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 只在室内纸上读虚构记录；不捕捉、追逐、喂食、接触或给野生动物做标记，不外出寻鸟，不拍摄或提交真实儿童/家庭位置记录。成人代画大图，不必裁剪。",
+      "steps": [
+        {
+          "title": "把三时刻逐格登记",
+          "caption": "把三时刻逐格登记",
+          "action": "prediction-7-9先写初猜，timeline-work按t1/t2/t3抄到达、离开与当格可见数。保留原题用词和本题纠正，别把三格自动当三次到达。",
+          "actor": "together",
+          "adultNote": "输入是同一虚构观察区的三个时刻：t1一只鸟飞来并落下；t2该鸟飞走，图内为零；t3一只鸟又飞来并落下。只在这三格所画记录范围内计数，身份没有可靠标记；“又飞来”是又一次到达，不保证同一只。鸟图相同只是示意，不能用颜色或形状推身份。"
+        },
+        {
+          "title": "按事件类型分别计数",
+          "caption": "按事件类型分别计数",
+          "action": "count-work分别数到达、离开、同时可见最大数，给每个数标单位和范围；离开不加进到达数。用title-work改“总共有几只”为明确计数标题。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "画两种仍可能的身份",
+          "caption": "画两种仍可能的身份",
+          "action": "worlds-work画两次到达由同一只解释或不同两只解释，给图注明假设而非观察；两种都符合输入，不能因图案相同选一只。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "保留范围与不确定",
+          "caption": "保留范围与不确定",
+          "action": "conclusion-7-9引用两次到达和两幅解释，说明记录中独立个体只能1或2；这不是周边一共几只，未知与初猜修改保留。",
+          "actor": "together",
+          "adultNote": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "计数单位",
+          "同一或不同解释"
+        ],
+        "explanation": "同一只鸟可能离开后再次出现，所以到达事件数不能直接充当独立个体数。三时刻图只给两次到达，记录内可由一只或两只解释。",
+        "limits": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。",
+        "observation": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "nextQuestion": "怎样给计数表取不会误导的名字？"
+      },
+      "guide": {
+        "goal": "保留范围与不确定",
+        "observe": "把三时刻逐格登记",
+        "control": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "support": "幼儿只指认或画图；成人代读代记。保留错误、未知和帮助，不执行真实调查。",
+        "time": "10—20分钟",
+        "recordFields": [
+          "时刻与事件",
+          "计数单位",
+          "两种身份解释",
+          "修订标题"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "城市自然监测与调查技能背景。",
+          "scope": "实读turn505view0第60—69行；不把此概览当本课计数公式出处。"
+        },
+        {
+          "title": "RSPB｜Big Garden Birdwatch 2026",
+          "url": "https://www.rspb.org.uk/media-centre/rspb-big-garden-birdwatch",
+          "claim": "该调查协议记录同一时刻最高数量而非把整段所见相加。",
+          "scope": "实读turn506view0第30行；本课只借鉴区别计数口径，不参加调查，不声称这个数等于全部个体。"
+        }
+      ],
+      "sourceNote": "来源仅提供监测及计数口径背景；三格图和集合分划例题原创，未开展真实调查或机构认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "identity285-7-9-1",
+          "description": "把三时刻逐格登记；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把三时刻逐格登记",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每个数都写计数单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "两次到达不等于两只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "相同图不证明同一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不补造真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-7-9-2",
+          "description": "按事件类型分别计数；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "按事件类型分别计数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每个数都写计数单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "两次到达不等于两只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "相同图不证明同一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不补造真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-7-9-3",
+          "description": "画两种仍可能的身份；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "画两种仍可能的身份",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每个数都写计数单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "两次到达不等于两只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "相同图不证明同一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不补造真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-7-9-4",
+          "description": "保留范围与不确定；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "保留范围与不确定",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每个数都写计数单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "两次到达不等于两只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "相同图不证明同一只",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不补造真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "哪些数是确定的，哪些只能给范围？",
+      "materials": [
+        "input、prediction-10-12、timeline-work、unit-audit、bounds-work、comparison-input/work、missing-input/work、claim-audit、future-plan、conclusion-10-12；公共safety，reference完成后读。",
+        "普通纸笔，只读原创模拟图；不用真鸟、标记器、照片或个人信息。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 只在室内纸上读虚构记录；不捕捉、追逐、喂食、接触或给野生动物做标记，不外出寻鸟，不拍摄或提交真实儿童/家庭位置记录。成人代画大图，不必裁剪。",
+      "steps": [
+        {
+          "title": "预定义统计单位",
+          "caption": "预定义统计单位",
+          "action": "prediction-10-12与unit-audit分开时刻、到达、离开、同时可见、独立个体，timeline-work封存三格原始练习记录。",
+          "actor": "together",
+          "adultNote": "输入是同一虚构观察区的三个时刻：t1一只鸟飞来并落下；t2该鸟飞走，图内为零；t3一只鸟又飞来并落下。只在这三格所画记录范围内计数，身份没有可靠标记；“又飞来”是又一次到达，不保证同一只。鸟图相同只是示意，不能用颜色或形状推身份。"
+        },
+        {
+          "title": "用上下界而非猜数",
+          "caption": "用上下界而非猜数",
+          "action": "bounds-work用同一只重返与两只交替两个可行解释给出记录内1≤U≤2，说明上下界依赖每次画一只、t2离开；未记录时段不得补零。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "检查最大同时数的边界",
+          "caption": "检查最大同时数的边界",
+          "action": "读comparison-input的两个另题过程，在comparison-work比较同为最大1却可有不同独立个体数；缺测题在missing-work标未知，不能用0代填。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "用限定标题报告",
+          "caption": "用限定标题报告",
+          "action": "claim-audit逐句辨析3幅图、2次到达、1只同时、1或2独立与总体数量；conclusion-10-12写证据边界，future-plan只设计不执行新调查或标记。",
+          "actor": "together",
+          "adultNote": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "上下界与缺测",
+          "记录范围"
+        ],
+        "explanation": "同一只鸟可能离开后再次出现，所以到达事件数不能直接充当独立个体数。三时刻图只给两次到达，记录内可由一只或两只解释。",
+        "limits": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。",
+        "observation": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "nextQuestion": "缺一格时哪些结论需要收回？"
+      },
+      "guide": {
+        "goal": "用限定标题报告",
+        "observe": "预定义统计单位",
+        "control": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "support": "幼儿只指认或画图；成人代读代记。保留错误、未知和帮助，不执行真实调查。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "原始三格",
+          "上下界依据",
+          "缺测与范围",
+          "有限结论"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "城市自然监测与调查技能背景。",
+          "scope": "实读turn505view0第60—69行；不把此概览当本课计数公式出处。"
+        },
+        {
+          "title": "RSPB｜Big Garden Birdwatch 2026",
+          "url": "https://www.rspb.org.uk/media-centre/rspb-big-garden-birdwatch",
+          "claim": "该调查协议记录同一时刻最高数量而非把整段所见相加。",
+          "scope": "实读turn506view0第30行；本课只借鉴区别计数口径，不参加调查，不声称这个数等于全部个体。"
+        }
+      ],
+      "sourceNote": "来源仅提供监测及计数口径背景；三格图和集合分划例题原创，未开展真实调查或机构认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "identity285-10-12-1",
+          "description": "预定义统计单位；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "预定义统计单位",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "缺测不写成零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "最大同时数不是总量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "上下界只限给定记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "改标题保留原猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-10-12-2",
+          "description": "用上下界而非猜数；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "用上下界而非猜数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "缺测不写成零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "最大同时数不是总量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "上下界只限给定记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "改标题保留原猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-10-12-3",
+          "description": "检查最大同时数的边界；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "检查最大同时数的边界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "缺测不写成零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "最大同时数不是总量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "上下界只限给定记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "改标题保留原猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-10-12-4",
+          "description": "用限定标题报告；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "用限定标题报告",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "缺测不写成零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "最大同时数不是总量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "上下界只限给定记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "改标题保留原猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "身份分组如何列全而不重复？",
+      "materials": [
+        "input、base-work、unit-audit、model-input、partition-work、canonical-work、histogram-work、constraint-input、filter-work、proof-work、probability-audit、conclusion-13-16；公共safety，reference完成后读。",
+        "普通纸笔，只读原创模拟图；不用真鸟、标记器、照片或个人信息。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 只在室内纸上读虚构记录；不捕捉、追逐、喂食、接触或给野生动物做标记，不外出寻鸟，不拍摄或提交真实儿童/家庭位置记录。成人代画大图，不必裁剪。",
+      "steps": [
+        {
+          "title": "把身份问题写成分组",
+          "caption": "把身份问题写成分组",
+          "action": "先完成base-work与unit-audit；读model-input四到达另题，四事件之间都已离开且不重叠，将事件同属一个身份表示为同一组，数字标签不是实测身份。",
+          "actor": "together",
+          "adultNote": "输入是同一虚构观察区的三个时刻：t1一只鸟飞来并落下；t2该鸟飞走，图内为零；t3一只鸟又飞来并落下。只在这三格所画记录范围内计数，身份没有可靠标记；“又飞来”是又一次到达，不保证同一只。鸟图相同只是示意，不能用颜色或形状推身份。"
+        },
+        {
+          "title": "完整列举而不重复命名",
+          "caption": "完整列举而不重复命名",
+          "action": "partition-work一张15行列所有四元素集合分划，用canonical-work说明同组编号按首次出现排序，避免仅改名字的重复；histogram-work统计各独立数的分划数。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "额外身份线索逐项过滤",
+          "caption": "额外身份线索逐项过滤",
+          "action": "读constraint-input的纯纸假设：E1事件1与3同一，E2事件1与2不同；filter-work分别筛E1、E2和两者，不能称为观察证据或概率。",
+          "actor": "together",
+          "adultNote": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。"
+        },
+        {
+          "title": "证明边界及不作人口估计",
+          "caption": "证明边界及不作人口估计",
+          "action": "proof-work解释最大同时数与到达次数形成的条件界何时适用，probability-audit说明可行分划不等概率且不能据此估种群；conclusion-13-16保留观察范围/未见/缺测区别。",
+          "actor": "together",
+          "adultNote": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "集合分划",
+          "条件过滤与不可识别性"
+        ],
+        "explanation": "同一只鸟可能离开后再次出现，所以到达事件数不能直接充当独立个体数。三时刻图只给两次到达，记录内可由一只或两只解释。",
+        "limits": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。",
+        "observation": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "nextQuestion": "需要什么可靠身份信息才能缩小可行分组，且本课只在纸上讨论？"
+      },
+      "guide": {
+        "goal": "证明边界及不作人口估计",
+        "observe": "把身份问题写成分组",
+        "control": "先保留三格输入，不增画第三次到达。到达事件只有t1和t3，离开是不同事件类型，不算一次到达。两次所见可由同一只或两只解释，独立个体在此记录中为1或2，不能选定；图内同时可见最大为1。没画到的时段和区域不作完整调查，范围外数量没有上界信息。",
+        "support": "幼儿只指认或画图；成人代读代记。保留错误、未知和帮助，不执行真实调查。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "模型假设",
+          "全部分组",
+          "条件过滤",
+          "不等概率与边界"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "城市自然监测与调查技能背景。",
+          "scope": "实读turn505view0第60—69行；不把此概览当本课计数公式出处。"
+        },
+        {
+          "title": "RSPB｜Big Garden Birdwatch 2026",
+          "url": "https://www.rspb.org.uk/media-centre/rspb-big-garden-birdwatch",
+          "claim": "该调查协议记录同一时刻最高数量而非把整段所见相加。",
+          "scope": "实读turn506view0第30行；本课只借鉴区别计数口径，不参加调查，不声称这个数等于全部个体。"
+        }
+      ],
+      "sourceNote": "来源仅提供监测及计数口径背景；三格图和集合分划例题原创，未开展真实调查或机构认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创纸面模拟，未儿童、实物或打印试用，不是调查认证。原题标题中的“三次出现”在本练习输入中须纠正为三个时刻：飞来、飞走、又飞来，只有两次到达。事件、同一时刻可见数和跨时刻独立个体数不同；最大同时可见数不是当地总种群数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "identity285-13-16-1",
+          "description": "把身份问题写成分组；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把身份问题写成分组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 42,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 47,
+              "y": 138,
+              "text": "t1飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 86,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 62,
+              "y1": 179,
+              "x2": 73,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 188,
+              "x2": 90,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 138,
+              "text": "t2飞走",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 158,
+              "y": 183,
+              "text": "空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 115,
+              "width": 85,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 138,
+              "text": "t3又飞来",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 258,
+              "y": 179,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 172,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 179,
+              "x2": 261,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 188,
+              "x2": 278,
+              "y2": 192,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 257,
+              "text": "三时刻；离开不是第三次到达",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "身份标签只是模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "分组改名不算新解",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增条件须另标",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "可能分组不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-13-16-2",
+          "description": "完整列举而不重复命名；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "完整列举而不重复命名",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "四次到达，间隔已离开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "相同组代表同一身份",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "按首次出现编号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "不把改名当不同分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "身份标签只是模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "分组改名不算新解",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增条件须另标",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "可能分组不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-13-16-3",
+          "description": "额外身份线索逐项过滤；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "额外身份线索逐项过滤",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "另题E1：1与3同一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "另题E2：1与2不同",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "逐条筛可行分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "假设不是实测标记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "身份标签只是模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "分组改名不算新解",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增条件须另标",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "可能分组不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "identity285-13-16-4",
+          "description": "证明边界及不作人口估计；原创纸模拟，不是真实鸟观察。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "证明边界及不作人口估计",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "到达次数 / 同时可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "独立个体 / 总体数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "计数口径分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "没有证据就写未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "身份标签只是模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "分组改名不算新解",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增条件须另标",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "可能分组不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

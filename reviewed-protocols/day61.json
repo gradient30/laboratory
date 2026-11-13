@@ -1,0 +1,2661 @@
+{
+  "activityId": 61,
+  "activityTitle": "总数相同的分法",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "总共六张，看到一盘2张、4张或0张时，遮住的盘分别有多少？",
+      "materials": [
+        "同样大小的4×4厘米纸卡6张，由成人预裁；不用小计数物",
+        "A4白纸至少4张；笔2支；直尺1把；纸胶带少量",
+        "在两张纸上各画一个至少16×12厘米的盘区，作为A、B；大标签A、B各1张（至少4厘米宽）",
+        "另备不透明A4纸1张，成人平盖一个盘区；六卡不编号"
+      ],
+      "safety": "只用成人预裁的至少4×4厘米大纸卡，在稳固低桌上操作，离桌沿至少10厘米；不使用豆子、硬币或其他小件。剪刀由成人预制后收起，儿童不用剪刀；卡和笔不入口、不揉眼。有入口习惯仅看成人摆放。纸盘是画在纸上的区域，不使用易碎真盘。遮挡只用平放纸张，不用袋子或把纸遮脸。结束后数齐收好，不把输赢、速度或孩子间排名作为目标。",
+      "steps": [
+        {
+          "title": "先确认总共六张",
+          "action": "一起点数六卡，成人分成A盘2张、B盘4张；孩子分别点两盘，再全部指过确认共6张。",
+          "actor": "together",
+          "caption": "六张都能看见",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "遮住一部分再说",
+          "action": "成人平盖B盘，卡不移动。请孩子根据总共6张与A盘2张，说或画B盘可能有几张；不会可直接揭开重数，不强迫心算。成人保留首次口述。",
+          "actor": "adult",
+          "caption": "遮住不等于拿走",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "揭开后真实改分法",
+          "action": "揭纸核对；实际把B的2张移入A，得到A4、B2，再盖B问同一问题。最后揭开两盘点数。只有揭开后才移动卡。",
+          "actor": "together",
+          "caption": "移两张后，再盖再查",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "试一盘空并合回",
+          "action": "把A的4张全部移到B，A空、B6；盖B，指认A没有卡并说B可能多少，再揭开核对。把六卡收成一组确认没有增减。",
+          "actor": "together",
+          "caption": "空盘也是一部分",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "部分和整体",
+          "遮挡不改变数量",
+          "零作为部分"
+        ],
+        "explanation": "六张分在两盘中，一盘增加的正是另一盘减少的。盖住只是看不见，不是把卡从总量中拿走；空盘可用0表示。",
+        "limits": "三个例子不代表枚举全部分法；儿童猜对也可能记住之前摆法，不据此声称会所有减法。",
+        "observation": "记录实际摆放、点数或清单；理论枚举是核对工具，不冒充试教数据。每张卡恰在一个盘中，不压线、不叠放漏数。",
+        "nextQuestion": "只盖住不移动，为什么总数仍是六？"
+      },
+      "guide": {
+        "goal": "真实遮住部分、揭开核对，再转移纸卡改变分配并检查空盘。",
+        "observe": "总共六张，看到一盘2张、4张或0张时，遮住的盘分别有多少？",
+        "support": "成人读规则并可代记；允许慢慢摆和重数，不做限时测验。",
+        "control": "始终只用同六张卡，不添不丢；盘内排布和取放先后不计成新分法。遮盖期间不得偷偷增减或移动卡；本龄只看数量，不区分卡身份。",
+        "time": "约10分钟",
+        "recordFields": [
+          "遮盖前总数与首次口述",
+          "揭开实数及改正",
+          "空盘时的说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Composition",
+          "url": "https://www.ncetm.org.uk/classroom-resources/ey-composition/",
+          "claim": "部分—整体理解包括把同一总量分成两个或更多部分，再合起来保持原总量。",
+          "scope": "参考实物分合的教学原理；本页六卡遮挡、移动规则等为独立构造。"
+        },
+        {
+          "title": "MIT｜Mathematics for Computer Science，Chapter 14 Cardinality Rules",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "计数对象需先定义；子集计数与除法规则可用于区分带标签分配与等价归并。",
+          "scope": "参考14.4除法规则和14.5子集计数；六卡实例与年龄任务为原创改编，不是MIT认证课例。"
+        }
+      ],
+      "sourceNote": "主来源用于核对数学与教学原理；具体任务为独立改编，未实地试教，非机构认证。给定例子不等于儿童观测结果。",
+      "diagrams": [
+        {
+          "sceneKey": "split61-46-1",
+          "description": "先点两盘：2张和4张；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "先点两盘：2张和4张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "六卡不编号；先实数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-46-2",
+          "description": "盖B，先口述再揭开；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "盖B，先口述再揭开",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 369,
+              "y": 139,
+              "width": 192,
+              "height": 127,
+              "fill": "#E4CEAB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 208,
+              "text": "遮住这一盘",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "盖住期间卡不移动",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-46-3",
+          "description": "移2张后：A4、B2；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "移2张后：A4、B2",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 369,
+              "y": 139,
+              "width": 192,
+              "height": 127,
+              "fill": "#E4CEAB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 208,
+              "text": "遮住这一盘",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "先移动再遮盖；揭开核对",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-46-4",
+          "description": "A空、B6：再盖再查；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "A空、B6：再盖再查",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 369,
+              "y": 139,
+              "width": 192,
+              "height": 127,
+              "fill": "#E4CEAB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 208,
+              "text": "遮住这一盘",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "最后揭开，把六张收成一组",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "每次移两张和每次移一张，能到达的A、B数量对一样吗？",
+      "materials": [
+        "同样大小的4×4厘米纸卡6张，由成人预裁；不用小计数物",
+        "A4白纸至少4张；笔2支；直尺1把；纸胶带少量",
+        "在两张纸上各画一个至少16×12厘米的盘区，作为A、B；大标签A、B各1张（至少4厘米宽）",
+        "六卡不编号；另备两种移动规则的记录纸各1张"
+      ],
+      "safety": "只用成人预裁的至少4×4厘米大纸卡，在稳固低桌上操作，离桌沿至少10厘米；不使用豆子、硬币或其他小件。剪刀由成人预制后收起，儿童不用剪刀；卡和笔不入口、不揉眼。有入口习惯仅看成人摆放。纸盘是画在纸上的区域，不使用易碎真盘。遮挡只用平放纸张，不用袋子或把纸遮脸。结束后数齐收好，不把输赢、速度或孩子间排名作为目标。",
+      "steps": [
+        {
+          "title": "从零开始按两张移动",
+          "action": "先摆A0、B6，记数量对(A,B)。每次只能把B的2张一起移到A，不允许中途记录单张状态；依次实际摆完直至B空。",
+          "actor": "together",
+          "caption": "每次两张，记整步状态",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "检验哪些到不了",
+          "action": "用实际清单检查A1/B5、A3/B3、A5/B1是否出现；不靠故意漏步制造答案。解释每次加2从0出发只能得到偶数A数。允许倒退两张也不产生奇数。",
+          "actor": "together",
+          "caption": "移动规则限制可达状态",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "重置后改每次一张",
+          "action": "把六卡重置A0、B6；改为每次B移1张到A，实际摆出并记录每个整步状态，直到A6、B0。不只是把缺的数字补在纸上。",
+          "actor": "together",
+          "caption": "换规则，真的重新移动",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "两份清单并排核对",
+          "action": "理论核对：两张规则有0/6、2/4、4/2、6/0四对；一张规则有A从0到6的七对。每对和都是6，但可达数量不同。A、B标签不交换，(2,4)与(4,2)算不同数量配置。",
+          "actor": "together",
+          "caption": "守住总数，不代表到达所有分法",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "不变量",
+          "奇偶可达性",
+          "带标签数量对"
+        ],
+        "explanation": "总数6是不变量，但不是唯一限制。成对移动还保持A数量为偶数；单张移动能逐一访问0至6的全部A数量。",
+        "limits": "只计整步后的状态；搬两张时手上短暂只有一张不能当作规则允许的新状态。这里数的是数量对，不是给每张不同身份卡的分配数。",
+        "observation": "记录实际摆放、点数或清单；理论枚举是核对工具，不冒充试教数据。每张卡恰在一个盘中，不压线、不叠放漏数。",
+        "nextQuestion": "如果起点A1、B5仍每次移两张，A的奇偶会怎样？"
+      },
+      "guide": {
+        "goal": "实际比较成对转移与单卡转移两种规则，检验可达数量配置。",
+        "observe": "每次移两张和每次移一张，能到达的A、B数量对一样吗？",
+        "support": "成人读规则并可代记；允许慢慢摆和重数，不做限时测验。",
+        "control": "始终只用同六张卡，不添不丢；盘内排布和取放先后不计成新分法。总量与起点一样，只改每整步移动张数；卡不区分身份，A、B盘有固定标签。",
+        "time": "约15分钟",
+        "recordFields": [
+          "两张规则实际清单",
+          "一张规则实际清单",
+          "到不了的数量对与解释"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Composition",
+          "url": "https://www.ncetm.org.uk/classroom-resources/ey-composition/",
+          "claim": "部分—整体理解包括把同一总量分成两个或更多部分，再合起来保持原总量。",
+          "scope": "参考实物分合的教学原理；本页六卡遮挡、移动规则等为独立构造。"
+        },
+        {
+          "title": "MIT｜Mathematics for Computer Science，Chapter 14 Cardinality Rules",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "计数对象需先定义；子集计数与除法规则可用于区分带标签分配与等价归并。",
+          "scope": "参考14.4除法规则和14.5子集计数；六卡实例与年龄任务为原创改编，不是MIT认证课例。"
+        }
+      ],
+      "sourceNote": "主来源用于核对数学与教学原理；具体任务为独立改编，未实地试教，非机构认证。给定例子不等于儿童观测结果。",
+      "diagrams": [
+        {
+          "sceneKey": "split61-79-1",
+          "description": "规则一：每步B→A两张；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "规则一：每步B→A两张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 345,
+              "y1": 200,
+              "x2": 290,
+              "y2": 200,
+              "stroke": "#A37645",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "起点0/6；整步才记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-79-2",
+          "description": "两张规则示例：2/4；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "两张规则示例：2/4",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "完整清单须实际逐步摆出",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-79-3",
+          "description": "重置后每步只移一张；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "重置后每步只移一张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 345,
+              "y1": 200,
+              "x2": 290,
+              "y2": 200,
+              "stroke": "#A37645",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "示例1/5；继续摆到6/0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-79-4",
+          "description": "同为六张：3/3可达吗？；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "同为六张：3/3可达吗？",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "这是单张规则的一步，不是双张规则",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "三个盘各至少一张，保留或忽略盘名时，数量分法各有多少？",
+      "materials": [
+        "同样大小的4×4厘米纸卡6张，由成人预裁；不用小计数物",
+        "A4白纸至少4张；笔2支；直尺1把；纸胶带少量",
+        "在两张纸上各画一个至少16×12厘米的盘区，作为A、B；大标签A、B各1张（至少4厘米宽）",
+        "第三张纸上画同样大小盘C；大标签C1张；六卡不编号",
+        "记录纸2张：带标签三元组清单、忽略盘名后的归并清单"
+      ],
+      "safety": "只用成人预裁的至少4×4厘米大纸卡，在稳固低桌上操作，离桌沿至少10厘米；不使用豆子、硬币或其他小件。剪刀由成人预制后收起，儿童不用剪刀；卡和笔不入口、不揉眼。有入口习惯仅看成人摆放。纸盘是画在纸上的区域，不使用易碎真盘。遮挡只用平放纸张，不用袋子或把纸遮脸。结束后数齐收好，不把输赢、速度或孩子间排名作为目标。",
+      "steps": [
+        {
+          "title": "三个盘都至少一张",
+          "action": "把六卡实际分在A、B、C，要求每盘至少1张。按固定A数量分类：先A1，依次把其余在B/C分为1/4、2/3、3/2、4/1，每种都摆并记(A,B,C)。",
+          "actor": "together",
+          "caption": "固定A，逐一摆B和C",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "接着完成有序枚举",
+          "action": "把A改为2，实际摆B1/C3、B2/C2、B3/C1；A3时摆B1/C2与B2/C1；A4时摆B1/C1。每次清点六卡。A不能超过4，因为B/C各要1。",
+          "actor": "together",
+          "caption": "按A分组，不漏不重",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "去掉标签做归并",
+          "action": "实际取下三个盘名，规则改为只看三个数量的多重集合。用六卡各摆一次1/1/4、1/2/3、2/2/2；每摆一个，把原清单里交换盘位置后相同的项圈作一类。盘内卡身份仍不分。",
+          "actor": "together",
+          "caption": "三种无盘名数量模式",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "恢复标签核对理由",
+          "action": "把A/B/C标签贴回，选1/2/3实际交换两个盘的整组卡，观察带标签配置改变而无标签模式不变。理论核对：共有10个有序正整数三元组，归并成3类；不是10种具体卡身份分配。",
+          "actor": "together",
+          "caption": "先说计数规则，再说几种",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "正整数分拆与有序配置",
+          "非空约束",
+          "等价归并"
+        ],
+        "explanation": "三盘都非空把A限制在1至4；对应B的选择数是4、3、2、1，共10。去掉盘名后，交换三个数量的位置不再算新模式，只剩1/1/4、1/2/3、2/2/2。",
+        "limits": "这里把所有卡视作相同单位；若识别每张卡身份，计数问题会改变。数量模式的类大小不全相等，不能简单用10除以6。",
+        "observation": "记录实际摆放、点数或清单；理论枚举是核对工具，不冒充试教数据。每张卡恰在一个盘中，不压线、不叠放漏数。",
+        "nextQuestion": "为什么1/1/4的不同盘名排列比1/2/3少？"
+      },
+      "guide": {
+        "goal": "把六卡扩展到三个非空盘，实际系统枚举再去标签归并并交换整组。",
+        "observe": "三个盘各至少一张，保留或忽略盘名时，数量分法各有多少？",
+        "support": "成人读规则并可代记；允许慢慢摆和重数，不做限时测验。",
+        "control": "始终只用同六张卡，不添不丢；盘内排布和取放先后不计成新分法。A/B/C固定时计有序数量三元组；忽略盘名时只看数量多重集合，不按卡身份计数。",
+        "time": "约20—30分钟",
+        "recordFields": [
+          "带标签实际十项清单",
+          "去标签归并及对应项",
+          "整组交换前后与解释"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Composition",
+          "url": "https://www.ncetm.org.uk/classroom-resources/ey-composition/",
+          "claim": "部分—整体理解包括把同一总量分成两个或更多部分，再合起来保持原总量。",
+          "scope": "参考实物分合的教学原理；本页六卡遮挡、移动规则等为独立构造。"
+        },
+        {
+          "title": "MIT｜Mathematics for Computer Science，Chapter 14 Cardinality Rules",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "计数对象需先定义；子集计数与除法规则可用于区分带标签分配与等价归并。",
+          "scope": "参考14.4除法规则和14.5子集计数；六卡实例与年龄任务为原创改编，不是MIT认证课例。"
+        }
+      ],
+      "sourceNote": "主来源用于核对数学与教学原理；具体任务为独立改编，未实地试教，非机构认证。给定例子不等于儿童观测结果。",
+      "diagrams": [
+        {
+          "sceneKey": "split61-1012-1",
+          "description": "A固定1：逐一摆B/C；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "A固定1：逐一摆B/C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 122,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 503,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 546,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 206,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "示例(1,1,4)，三个盘都非空",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1012-2",
+          "description": "继续A2、A3、A4各组；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "继续A2、A3、A4各组",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 298,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 122,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 503,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "每个三元组实际摆一次",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1012-3",
+          "description": "取下盘名，只看数量模式；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "取下盘名，只看数量模式",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 122,
+              "text": "无名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 122,
+              "text": "无名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 298,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 122,
+              "text": "无名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 503,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 546,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "示例1/2/3；另摆1/1/4、2/2/2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1012-4",
+          "description": "恢复盘名，交换整组卡；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "恢复盘名，交换整组卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 135,
+              "width": 160,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 122,
+              "text": "C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 460,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 503,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 546,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 205,
+              "y1": 200,
+              "x2": 232,
+              "y2": 200,
+              "stroke": "#A37645",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "(1,2,3)换成(2,1,3)",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "两盘都三张时，只数数量、识别卡身份且保留盘名、识别身份但忽略盘名，这三种计数为何不同？",
+      "materials": [
+        "同样大小的4×4厘米纸卡6张，由成人预裁；不用小计数物",
+        "A4白纸至少4张；笔2支；直尺1把；纸胶带少量",
+        "在两张纸上各画一个至少16×12厘米的盘区，作为A、B；大标签A、B各1张（至少4厘米宽）",
+        "六卡分别大字编号1—6，编号代表不同身份；不另增加卡",
+        "记录纸至少2张，预留20行记A集合和B集合；另备一张用于互补配对"
+      ],
+      "safety": "只用成人预裁的至少4×4厘米大纸卡，在稳固低桌上操作，离桌沿至少10厘米；不使用豆子、硬币或其他小件。剪刀由成人预制后收起，儿童不用剪刀；卡和笔不入口、不揉眼。有入口习惯仅看成人摆放。纸盘是画在纸上的区域，不使用易碎真盘。遮挡只用平放纸张，不用袋子或把纸遮脸。结束后数齐收好，不把输赢、速度或孩子间排名作为目标。",
+      "steps": [
+        {
+          "title": "数量固定仍可换成员",
+          "action": "A/B各放3张：先A={1,2,3}、B={4,5,6}，再实际交换3和4。两次数量都是(3,3)，但A成员不同。盘内排列顺序不算不同；每卡只去一个盘。",
+          "actor": "together",
+          "caption": "同数量，成员可不同",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "实际枚举全部三张子集",
+          "action": "按A内号码由小到大记录，实际依次摆：123、124、125、126、134、135、136、145、146、156、234、235、236、245、246、256、345、346、356、456。每次把其余三张放B并记互补集合；每一行都用实卡核对，不只抄清单。",
+          "actor": "together",
+          "caption": "20行都实际摆并查补集",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "忽略盘名再配对",
+          "action": "取下A/B标签，规则改为只看两组成员，不区分哪组在左。选123|456实际对调两盘整组，再选124|356也实际对调；将20行中互为左右交换的两行连为一对。此时仍区分卡身份，不退回仅看3/3数量。",
+          "actor": "together",
+          "caption": "整组互换不再算新分组",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        },
+        {
+          "title": "证明为什么除以二",
+          "action": "恢复标签，指出选A三张有20种，B被剩余卡唯一决定。去标签时每个无序分组恰对应两行；两组三张互不相交，不可能是一模一样的集合，因此无单独不配对的行，得到10种。核对实际清单漏项、重复并保留改正。",
+          "actor": "together",
+          "caption": "数量配置1种；成员分组另算",
+          "adultNote": "成人预备大卡并读规则；可代记原话，保留首次记录和改正，不以理论答案充当儿童表现。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "数量与身份",
+          "子集和补集",
+          "等价类等大时的除法规则"
+        ],
+        "explanation": "选择A的三名成员就唯一确定B。按最小成员分类有10+6+3+1=20个三元子集，也可用6×5×4÷(3×2×1)=20。忽略盘名把每个互补对合并，且每类恰有两项，所以20÷2=10。",
+        "limits": "公式证明核对的是构造题，不是实测成功率；盘内摆放先后不计。若盘容量、卡身份规则或是否允许空盘变了，要重新定义对象，不能机械除以二。",
+        "observation": "记录实际摆放、点数或清单；理论枚举是核对工具，不冒充试教数据。每张卡恰在一个盘中，不压线、不叠放漏数。",
+        "nextQuestion": "若只看两盘数量而不认号码，为什么这20行又都属于同一类？"
+      },
+      "guide": {
+        "goal": "用六张有身份卡实际摆出20个三三分配，再交换整组并配成10个无盘名分组。",
+        "observe": "两盘都三张时，只数数量、识别卡身份且保留盘名、识别身份但忽略盘名，这三种计数为何不同？",
+        "support": "成人读规则并可代记；允许慢慢摆和重数，不做限时测验。",
+        "control": "始终只用同六张卡，不添不丢；盘内排布和取放先后不计成新分法。每盘恰3张，不允许空；同盘内排列不计。数量配置仅(3,3)一种；带盘名的身份分配20，无盘名身份分组10。",
+        "time": "约30—40分钟，可中途停下保留已核清单",
+        "recordFields": [
+          "20行A/B成员实摆核查",
+          "互补行配对记录",
+          "整组交换前后",
+          "三种计数对象及证明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NCETM｜Composition",
+          "url": "https://www.ncetm.org.uk/classroom-resources/ey-composition/",
+          "claim": "部分—整体理解包括把同一总量分成两个或更多部分，再合起来保持原总量。",
+          "scope": "参考实物分合的教学原理；本页六卡遮挡、移动规则等为独立构造。"
+        },
+        {
+          "title": "MIT｜Mathematics for Computer Science，Chapter 14 Cardinality Rules",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "计数对象需先定义；子集计数与除法规则可用于区分带标签分配与等价归并。",
+          "scope": "参考14.4除法规则和14.5子集计数；六卡实例与年龄任务为原创改编，不是MIT认证课例。"
+        }
+      ],
+      "sourceNote": "主来源用于核对数学与教学原理；具体任务为独立改编，未实地试教，非机构认证。给定例子不等于儿童观测结果。",
+      "diagrams": [
+        {
+          "sceneKey": "split61-1316-1",
+          "description": "先摆123|456，再交换3和4；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "先摆123|456，再交换3和4",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 179,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 179,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 179,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 179,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 179,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 179,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "编号代表身份；盘内顺序不计",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1316-2",
+          "description": "逐行实摆，B是A的补集；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "逐行实摆，B是A的补集",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 179,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 179,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 179,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 179,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 179,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 179,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "示例124|356；不是只抄列表",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1316-3",
+          "description": "去盘名，实际交换整组；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "去盘名，实际交换整组",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "无名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 179,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 179,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 179,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "无名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 179,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 179,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 179,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "456|123与123|456合为一组",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "split61-1316-4",
+          "description": "恢复盘名检查互补配对；桌面纸盘和大纸卡俯视示意，不按比例。图中给定示例是操作目标，不代表儿童实际完成记录。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 83,
+              "text": "恢复盘名检查互补配对",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 122,
+              "text": "A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 179,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 179,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 171,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180,
+              "y": 179,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 135,
+              "width": 200,
+              "height": 135,
+              "fill": "#F8F3E5",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 122,
+              "text": "B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 179,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 423,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 432,
+              "y": 179,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 155,
+              "width": 34,
+              "height": 34,
+              "fill": "#C6DDD2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 179,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 28,
+              "y": 295,
+              "text": "1种数量配置；20有名／10无名身份分组",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

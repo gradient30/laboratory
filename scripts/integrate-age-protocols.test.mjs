@@ -1,0 +1,25 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {mergeReviewedProtocols,readReviewedInputs} from './integrate-age-protocols.mjs';
+const data=JSON.parse(fs.readFileSync(new URL('../dist/data.json',import.meta.url))),ids=JSON.parse(fs.readFileSync(new URL('./activity-identities.json',import.meta.url)));
+const input=()=>({activityId:1,activityTitle:data.experiments[0].title,ageProtocols:structuredClone(data.experiments[0].ageProtocols)});
+test('idempotent integration preserves all legacy content and does not mutate input data',()=>{const before=structuredClone(data);const result=mergeReviewedProtocols(data,ids,[input()]);assert.deepEqual(data,before);assert.deepEqual(result.data,data);assert.deepEqual(result.integratedActivityIds,[1]);});
+test('title swaps, duplicate IDs and incomplete protocols are rejected',()=>{for(const items of [[{...input(),activityTitle:'replacement'}],[input(),input()],[{...input(),ageProtocols:{}}]])assert.throws(()=>mergeReviewedProtocols(data,ids,items));});
+test('an unconverted new activity cannot be counted as an integration',()=>{assert.throws(()=>mergeReviewedProtocols(data,ids,[{activityId:2,activityTitle:data.experiments[1].title}]),/all four/);});
+test('changed semantic content cannot reuse a saved-record version',()=>{const row=input();row.ageProtocols['4-6'].guide.recordFields=['changed field meaning'];assert.throws(()=>mergeReviewedProtocols(data,ids,[row]),/increment/);row.ageProtocols['4-6'].version++;const result=mergeReviewedProtocols(data,ids,[row]);assert.equal(result.data.experiments[0].ageProtocols['4-6'].version,2);assert.deepEqual(result.data.experiments[0].ageGuides,data.experiments[0].ageGuides);});
+test('local review manifest binds source bytes and refuses author-only/pending status',t=>{const dir=fs.mkdtempSync(path.join(os.tmpdir(),'lab-reviewed-input-'));t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));const bytes=JSON.stringify(input());fs.writeFileSync(path.join(dir,'input.json'),bytes);fs.writeFileSync(path.join(dir,'review.md'),'Synthetic test report only');const entry={activityId:1,file:'input.json',report:'review.md',reportSha256:createHash('sha256').update('Synthetic test report only').digest('hex'),sha256:createHash('sha256').update(bytes).digest('hex'),reviewStatus:'static-reviewed'};const file=path.join(dir,'manifest.json'),save=()=>fs.writeFileSync(file,JSON.stringify({activities:[entry]}));save();assert.equal(readReviewedInputs(file)[0].activityId,1);entry.reviewStatus='author-self-check-only';save();assert.throws(()=>readReviewedInputs(file));entry.reviewStatus='static-reviewed';save();fs.appendFileSync(path.join(dir,'input.json'),' ');assert.throws(()=>readReviewedInputs(file),/Source changed/);});
+test('shared materials require a rationale inside the exact independent report, not cosmetic uniqueness',t=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'lab-shared-material-review-'));t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+ const row=input();row.ageProtocols['7-9'].materials=row.ageProtocols['4-6'].materials.map(value=>'  '+value.replace(/ /g,'   ')+'  ');
+ const bytes=JSON.stringify(row),rationale='Synthetic independent rationale: common apparatus, distinct controlled variables, measurements and interpretation. This is only a test.';
+ fs.writeFileSync(path.join(dir,'source.json'),bytes);fs.writeFileSync(path.join(dir,'review.md'),rationale);
+ const sha=x=>createHash('sha256').update(x).digest('hex'),entry={activityId:1,file:'source.json',sha256:sha(bytes),report:'review.md',reportSha256:sha(rationale),reviewStatus:'static-reviewed'},file=path.join(dir,'manifest.json');
+ const save=()=>fs.writeFileSync(file,JSON.stringify({activities:[entry]}));save();assert.throws(()=>readReviewedInputs(file),/rationale/);
+ entry.sharedMaterialsRationale='Unreviewed claim of independent differences must not authorize shared material exceptions.';save();assert.throws(()=>readReviewedInputs(file),/exact independent/);
+ entry.sharedMaterialsRationale=rationale;save();assert.equal(readReviewedInputs(file).length,1);
+ fs.appendFileSync(path.join(dir,'review.md'),' changed');assert.throws(()=>readReviewedInputs(file),/report changed/);
+});

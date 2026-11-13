@@ -1,0 +1,2738 @@
+{
+  "activityId": 294,
+  "activityTitle": "水滴让方格变大吗",
+  "contentKey": "phys-039",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "水滴下的格线看起来怎样？",
+      "materials": [
+        "完整透明塑料文件夹、grid-input方格纸、常温清水约2mL、滴管或小勺、擦水纸、记录纸和笔、计时器、托盘；滴管/勺、计时和擦水由成人负责。",
+        "所选纸页：preschool-method、preschool-dry/wet/after、conclusion-4-6；只用幼儿页，不做算题。"
+      ],
+      "safety": "成人全程负责备水、滴水、擦干和清理，幼儿近距离陪伴。总备常温清水约2mL，本轮只滴第一滴，再向原滴加第二滴，共两滴；不把2mL倒上去，不补水、不追求效果反复滴。用完整透明塑料文件夹平铺在方格纸上，放稳固托盘，远离桌边和电器。不用玻璃、强光、激光或日照聚光，不加热，不添加清洁剂或其他涂层。水和材料不入口，不揉眼；纸边勿划手。不抬起、压水滴或移动文件夹求放大，不贴近眼睛。洒水、片破损、纸湿、眼睛不适或孩子不愿即停，由成人擦干收水，最后洗手。",
+      "steps": [
+        {
+          "title": "先看干格线",
+          "caption": "先看干格线",
+          "action": "成人按preschool-method准备塑料文件夹、方格和约2mL备水。孩子从上方舒适地看看干处格线，preschool-dry由成人画或写原话，不要孩子数格或读数。",
+          "actor": "together",
+          "adultNote": "成人滴第一滴、第二滴并擦干、计时和代记；幼儿仅指画说，不碰水不读数。"
+        },
+        {
+          "title": "成人滴一滴孩子看",
+          "caption": "成人滴一滴孩子看",
+          "action": "成人滴第一滴并等约10秒，孩子只指滴下和旁边格线，看着像不像、清不清；preschool-wet的第一框由成人代记，不提示一定变大。",
+          "actor": "adult",
+          "adultNote": "成人滴第一滴、第二滴并擦干、计时和代记；幼儿仅指画说，不碰水不读数。"
+        },
+        {
+          "title": "成人再加一滴孩子说",
+          "caption": "成人再加一滴孩子说",
+          "action": "成人向原滴只加第二滴，等约10秒；孩子继续同方向看并口述或画，不要求比较数字。水滴摊开、未合并或看不清照记，不再补滴。",
+          "actor": "adult",
+          "adultNote": "成人滴第一滴、第二滴并擦干、计时和代记；幼儿仅指画说，不碰水不读数。"
+        },
+        {
+          "title": "成人擦干孩子再看看",
+          "caption": "成人擦干孩子再看看",
+          "action": "成人吸干擦净，孩子再看看原格线，在preschool-after和conclusion-4-6指画说；成人清理洗手。孩子不碰水、不擦水，不做高龄纸题。",
+          "actor": "adult",
+          "adultNote": "成人滴第一滴、第二滴并擦干、计时和代记；幼儿仅指画说，不碰水不读数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "格线的外观",
+          "看清或看不清"
+        ],
+        "explanation": "水滴可能让格线看起来不一样，但纸上的格子没有因此自动长大。再加一滴不一定看起来更大；成人擦干后一起看看。",
+        "limits": "孩子只指、画、说格线看起来怎样，成人滴两次并擦干，成人记录原话。看不清、看起来一样、没做都可以，不要求数格、量水、读秒、算倍率或背折射术语。",
+        "observation": "孩子只指、画、说格线看起来怎样，成人滴两次并擦干，成人记录原话。看不清、看起来一样、没做都可以，不要求数格、量水、读秒、算倍率或背折射术语。",
+        "nextQuestion": "成人擦干后，你看到了什么？"
+      },
+      "guide": {
+        "goal": "成人擦干孩子再看看",
+        "observe": "看一看滴下和旁边格线，想说什么？",
+        "control": "成人保持同片同纸平铺、室内散射光和舒适上方视角；孩子不必维持精确眼位，移动由成人记。",
+        "support": "幼儿只指画说，成人操作和代记，可随时停，不做数量比较。",
+        "time": "5—10分钟，可随时停",
+        "recordFields": [
+          "成人只加两滴",
+          "孩子只指画说",
+          "一样或模糊都有效",
+          "成人擦干收水"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "OS-wetting",
+          "title": "OpenStax｜Cohesion and Adhesion in Liquids",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "claim": "润湿性与接触角影响水滴铺展形态。",
+          "scope": "仅概念支持；不添加化学品、不测接触角、不采纳来源其他操作。"
+        },
+        {
+          "id": "EX-droplet",
+          "title": "Exploratorium｜Exploratopia: Curved Lenses",
+          "url": "https://annex.exploratorium.edu/exploratopia/activity_curves.html",
+          "claim": "弯曲水滴可以改变下方文字的外观。",
+          "scope": "参考现象；不照搬其多滴、保鲜膜或手指滴水流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读OpenStax折射、几何光学总结、润湿接触角正文及Exploratorium水滴透镜页。本文步骤与P/Q数学题原创，未实测。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态核查",
+        "limitations": "孩子只指、画、说格线看起来怎样，成人滴两次并擦干，成人记录原话。看不清、看起来一样、没做都可以，不要求数格、量水、读秒、算倍率或背折射术语。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "droplet294-4-6-1",
+          "description": "先看干格线。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先看干格线",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 160,
+              "width": 270,
+              "height": 100,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 160,
+              "x2": 80,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 160,
+              "x2": 110,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 160,
+              "x2": 140,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 160,
+              "x2": 170,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 160,
+              "x2": 200,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 230,
+              "y1": 160,
+              "x2": 230,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 160,
+              "x2": 260,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 160,
+              "x2": 290,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 190,
+              "x2": 320,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 220,
+              "x2": 320,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 250,
+              "x2": 320,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 128,
+              "text": "先看干态；布置示意",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 284,
+              "text": "示意不预画放大结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人只加两滴",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一样或模糊都有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人擦干收水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-4-6-2",
+          "description": "成人滴一滴孩子看。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "成人滴一滴孩子看",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 160,
+              "width": 270,
+              "height": 100,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 160,
+              "x2": 80,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 160,
+              "x2": 110,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 160,
+              "x2": 140,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 160,
+              "x2": 170,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 160,
+              "x2": 200,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 230,
+              "y1": 160,
+              "x2": 230,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 160,
+              "x2": 260,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 160,
+              "x2": 290,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 190,
+              "x2": 320,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 220,
+              "x2": 320,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 250,
+              "x2": 320,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 185,
+              "y": 205,
+              "r": 26,
+              "fill": "none",
+              "stroke": "#A46A3D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 128,
+              "text": "滴下外观请看实物",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 284,
+              "text": "示意不预画放大结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人只加两滴",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一样或模糊都有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人擦干收水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-4-6-3",
+          "description": "成人再加一滴孩子说。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "成人再加一滴孩子说",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 160,
+              "width": 270,
+              "height": 100,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 160,
+              "x2": 80,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 160,
+              "x2": 110,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 160,
+              "x2": 140,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 160,
+              "x2": 170,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 160,
+              "x2": 200,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 230,
+              "y1": 160,
+              "x2": 230,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 160,
+              "x2": 260,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 160,
+              "x2": 290,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 190,
+              "x2": 320,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 220,
+              "x2": 320,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 250,
+              "x2": 320,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 185,
+              "y": 205,
+              "r": 35,
+              "fill": "none",
+              "stroke": "#A46A3D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 128,
+              "text": "滴下外观请看实物",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 284,
+              "text": "示意不预画放大结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人只加两滴",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一样或模糊都有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人擦干收水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-4-6-4",
+          "description": "成人擦干孩子再看看。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "成人擦干孩子再看看",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 160,
+              "width": 270,
+              "height": 100,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 160,
+              "x2": 80,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 160,
+              "x2": 110,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 160,
+              "x2": 140,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 160,
+              "x2": 170,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 160,
+              "x2": 200,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 230,
+              "y1": 160,
+              "x2": 230,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 160,
+              "x2": 260,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 160,
+              "x2": 290,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 190,
+              "x2": 320,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 220,
+              "x2": 320,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 250,
+              "x2": 320,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 116,
+              "width": 70,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 130,
+              "text": "成人擦干",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 284,
+              "text": "示意不预画放大结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人只加两滴",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一样或模糊都有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人擦干收水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "加一滴和擦干后，格线外观怎样？",
+      "materials": [
+        "完整透明塑料文件夹、grid-input方格纸、常温清水约2mL、滴管或小勺、擦水纸、记录纸和笔、计时器、托盘；滴管/勺、计时和擦水由成人负责。",
+        "所选纸页：method、setup/prediction/record/drawing/compare/conclusion-7-9；reference-young完成后看。"
+      ],
+      "safety": "成人全程负责备水、滴水、擦干和清理，幼儿近距离陪伴。总备常温清水约2mL，本轮只滴第一滴，再向原滴加第二滴，共两滴；不把2mL倒上去，不补水、不追求效果反复滴。用完整透明塑料文件夹平铺在方格纸上，放稳固托盘，远离桌边和电器。不用玻璃、强光、激光或日照聚光，不加热，不添加清洁剂或其他涂层。水和材料不入口，不揉眼；纸边勿划手。不抬起、压水滴或移动文件夹求放大，不贴近眼睛。洒水、片破损、纸湿、眼睛不适或孩子不愿即停，由成人擦干收水，最后洗手。",
+      "steps": [
+        {
+          "title": "先登记顺序和猜想",
+          "caption": "先登记顺序和猜想",
+          "action": "成人读method；setup-7-9登记室内位置、平铺文件夹和成人。prediction-7-9猜D/W1/W2/D2可能外观，不用大小猜想当答案。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "四个状态留下原画",
+          "caption": "四个状态留下原画",
+          "action": "按method由成人完成两滴和擦干，record-7-9逐行记D/W1/W2/D2；drawing-7-9画滴下及旁边格线，模糊或未做有效，不填虚构倍率。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "比较加滴和擦干前后",
+          "caption": "比较加滴和擦干前后",
+          "action": "compare-7-9引用W1/W2原记录比较看起来大小、弯曲与清晰；再比D/D2原图，不能由一次变大断言每次多水都更大。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "只说本轮支持的结论",
+          "caption": "只说本轮支持的结论",
+          "action": "conclusion-7-9写所见、猜想、看不清各项；reference-young最后读。成人清理，无变化也完成，不加水求结果。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "顺序比较",
+          "所见与猜想"
+        ],
+        "explanation": "光经过空气、水和塑料界面时传播方向可改变。弯曲水面可能改变格线的视觉大小、形状和清晰度；纸上印刷格本身并没有因此自动变大。水滴的曲面、接触角和润湿性、塑料厚度及纸与水滴的距离、眼位和观察方向都影响外观。增一滴并不保证单调增加放大效果，甚至可能没有可辨差别。",
+        "limits": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。",
+        "observation": "在均匀室内散射光下，成人把完整干燥透明文件夹平铺覆盖grid-input，选同一个中央区域；孩子可舒适坐着从上方看，不攀爬、不俯贴。先记干态D；成人在选区滴一滴，约10秒后记W1；成人向原滴再加一滴，约10秒后记W2；之后成人吸干并擦净，保持同处再记D2。每次只定性比较滴下与旁边干处格线的大小外观、弯曲和清晰度，眼位尽量相同，移动或未知照记。第二滴可能不合并、摊开、滚动或看不清，一律如实记，不加第三滴、不换片重做。成人最终清理。",
+        "nextQuestion": "哪一句话来自你的原画？"
+      },
+      "guide": {
+        "goal": "只说本轮支持的结论",
+        "observe": "同一格线在四状态看起来怎样？",
+        "control": "同片同纸平铺、同室内散射光，视线方向尽量不变；滴数递增伴随形状变化，不能宣称其他条件完全相同。",
+        "support": "成人操作水与清理，可代写；看不清不追结果，先实录后看参考。",
+        "time": "约10—15分钟",
+        "recordFields": [
+          "D / W1 / W2 / D2",
+          "原画不预填倍率",
+          "加滴不保证更大",
+          "擦干再核对原图"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "OS-wetting",
+          "title": "OpenStax｜Cohesion and Adhesion in Liquids",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "claim": "润湿性与接触角影响水滴铺展形态。",
+          "scope": "仅概念支持；不添加化学品、不测接触角、不采纳来源其他操作。"
+        },
+        {
+          "id": "EX-droplet",
+          "title": "Exploratorium｜Exploratopia: Curved Lenses",
+          "url": "https://annex.exploratorium.edu/exploratopia/activity_curves.html",
+          "claim": "弯曲水滴可以改变下方文字的外观。",
+          "scope": "参考现象；不照搬其多滴、保鲜膜或手指滴水流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读OpenStax折射、几何光学总结、润湿接触角正文及Exploratorium水滴透镜页。本文步骤与P/Q数学题原创，未实测。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态核查",
+        "limitations": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "droplet294-7-9-1",
+          "description": "先登记顺序和猜想。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先登记顺序和猜想",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 158,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 150,
+              "text": "先猜想：可能相同",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 190,
+              "text": "也可能改变或模糊",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 239,
+              "text": "总共仅两滴",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "D / W1 / W2 / D2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原画不预填倍率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "加滴不保证更大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "擦干再核对原图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-7-9-2",
+          "description": "四个状态留下原画。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "四个状态留下原画",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 112,
+              "width": 122,
+              "height": 66,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 146,
+              "text": "D：___",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 193,
+              "y": 112,
+              "width": 122,
+              "height": 66,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 206,
+              "y": 146,
+              "text": "W1：___",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 195,
+              "width": 122,
+              "height": 66,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 229,
+              "text": "W2：___",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 193,
+              "y": 195,
+              "width": 122,
+              "height": 66,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 206,
+              "y": 229,
+              "text": "D2：___",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "D / W1 / W2 / D2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原画不预填倍率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "加滴不保证更大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "擦干再核对原图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-7-9-3",
+          "description": "比较加滴和擦干前后。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较加滴和擦干前后",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 133,
+              "width": 266,
+              "height": 105,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 91,
+              "y1": 133,
+              "x2": 91,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 129,
+              "y1": 133,
+              "x2": 129,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 167,
+              "y1": 133,
+              "x2": 167,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 133,
+              "x2": 205,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 243,
+              "y1": 133,
+              "x2": 243,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 281,
+              "y1": 133,
+              "x2": 281,
+              "y2": 238,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 53,
+              "y1": 171,
+              "x2": 319,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 53,
+              "y1": 209,
+              "x2": 319,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 269,
+              "text": "看起来大小 / 清晰？",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "D / W1 / W2 / D2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原画不预填倍率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "加滴不保证更大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "擦干再核对原图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-7-9-4",
+          "description": "只说本轮支持的结论。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "只说本轮支持的结论",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 117,
+              "width": 275,
+              "height": 152,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 149,
+              "text": "引用W1、W2原画",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 190,
+              "text": "再看D、D2原图",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "不把猜想填成结果",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "D / W1 / W2 / D2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "原画不预填倍率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "加滴不保证更大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "擦干再核对原图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "哪些条件限制水滴外观的解释？",
+      "materials": [
+        "完整透明塑料文件夹、grid-input方格纸、常温清水约2mL、滴管或小勺、擦水纸、记录纸和笔、计时器、托盘；滴管/勺、计时和擦水由成人负责。",
+        "所选纸页：method、setup/record/drawing/conclusion/design-10-12、control-work、edge-work、optical-boundary、claim-input/work、boundary-work；reference后看。"
+      ],
+      "safety": "成人全程负责备水、滴水、擦干和清理，幼儿近距离陪伴。总备常温清水约2mL，本轮只滴第一滴，再向原滴加第二滴，共两滴；不把2mL倒上去，不补水、不追求效果反复滴。用完整透明塑料文件夹平铺在方格纸上，放稳固托盘，远离桌边和电器。不用玻璃、强光、激光或日照聚光，不加热，不添加清洁剂或其他涂层。水和材料不入口，不揉眼；纸边勿划手。不抬起、压水滴或移动文件夹求放大，不贴近眼睛。洒水、片破损、纸湿、眼睛不适或孩子不愿即停，由成人擦干收水，最后洗手。",
+      "steps": [
+        {
+          "title": "预登记条件和未测量",
+          "caption": "预登记条件和未测量",
+          "action": "成人读method；setup-10-12和control-work登记同文件夹、纸、位置、观察方向及大致眼位，纸距/曲率/接触角未测就写未知，不新增仪器。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "在同一流程分中心边缘",
+          "caption": "在同一流程分中心边缘",
+          "action": "成人完成D/W1/W2/D2四状态，record-10-12及drawing-10-12分别留滴中央、边缘和旁边干处所见；edge-work记录清晰或扭曲，不强求可分辨。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "检验过强因果主张",
+          "caption": "检验过强因果主张",
+          "action": "先读optical-boundary与claim-input，在claim-work逐条核对变大、增滴、焦距及印刷尺寸主张；boundary-work分观察到的外观和未测的物理量，湿润接触角只讨论不改变。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "设计而不实施额外操作",
+          "caption": "设计而不实施额外操作",
+          "action": "conclusion-10-12引用原记录，design-10-12写怎样更好固定眼位和量化图像的纸上计划；不抬高片、不变灯光、不涂表面、不补滴。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "条件控制",
+          "观察与未测量"
+        ],
+        "explanation": "光经过空气、水和塑料界面时传播方向可改变。弯曲水面可能改变格线的视觉大小、形状和清晰度；纸上印刷格本身并没有因此自动变大。水滴的曲面、接触角和润湿性、塑料厚度及纸与水滴的距离、眼位和观察方向都影响外观。增一滴并不保证单调增加放大效果，甚至可能没有可辨差别。",
+        "limits": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。",
+        "observation": "在均匀室内散射光下，成人把完整干燥透明文件夹平铺覆盖grid-input，选同一个中央区域；孩子可舒适坐着从上方看，不攀爬、不俯贴。先记干态D；成人在选区滴一滴，约10秒后记W1；成人向原滴再加一滴，约10秒后记W2；之后成人吸干并擦净，保持同处再记D2。每次只定性比较滴下与旁边干处格线的大小外观、弯曲和清晰度，眼位尽量相同，移动或未知照记。第二滴可能不合并、摊开、滚动或看不清，一律如实记，不加第三滴、不换片重做。成人最终清理。",
+        "nextQuestion": "为什么滴数不能决定有效焦距？"
+      },
+      "guide": {
+        "goal": "设计而不实施额外操作",
+        "observe": "中心、边缘与旁边所见是否能区分？",
+        "control": "同片同纸平铺、同室内散射光，视线方向尽量不变；滴数递增伴随形状变化，不能宣称其他条件完全相同。",
+        "support": "成人操作水与清理，可代写；看不清不追结果，先实录后看参考。",
+        "time": "约15—20分钟，可分次分析",
+        "recordFields": [
+          "中心边缘分开记",
+          "形状/纸距/眼位",
+          "接触角未知照记",
+          "不由滴数推焦距"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "OS-wetting",
+          "title": "OpenStax｜Cohesion and Adhesion in Liquids",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "claim": "润湿性与接触角影响水滴铺展形态。",
+          "scope": "仅概念支持；不添加化学品、不测接触角、不采纳来源其他操作。"
+        },
+        {
+          "id": "EX-droplet",
+          "title": "Exploratorium｜Exploratopia: Curved Lenses",
+          "url": "https://annex.exploratorium.edu/exploratopia/activity_curves.html",
+          "claim": "弯曲水滴可以改变下方文字的外观。",
+          "scope": "参考现象；不照搬其多滴、保鲜膜或手指滴水流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读OpenStax折射、几何光学总结、润湿接触角正文及Exploratorium水滴透镜页。本文步骤与P/Q数学题原创，未实测。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态核查",
+        "limitations": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "droplet294-10-12-1",
+          "description": "预登记条件和未测量。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预登记条件和未测量",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 235,
+              "x2": 315,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 244,
+              "x2": 315,
+              "y2": 244,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 218.0,
+              "y1": 235.0,
+              "x2": 217.39231012048833,
+              "y2": 228.0540728933228,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 217.39231012048833,
+              "y1": 228.0540728933228,
+              "x2": 215.58770483143633,
+              "y2": 221.31919426697326,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 215.58770483143633,
+              "y1": 221.31919426697326,
+              "x2": 212.64101615137756,
+              "y2": 215.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 212.64101615137756,
+              "y1": 215.0,
+              "x2": 208.64177772475912,
+              "y2": 209.28849561253844,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 208.64177772475912,
+              "y1": 209.28849561253844,
+              "x2": 203.71150438746156,
+              "y2": 204.35822227524088,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 203.71150438746156,
+              "y1": 204.35822227524088,
+              "x2": 198.0,
+              "y2": 200.35898384862247,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 198.0,
+              "y1": 200.35898384862247,
+              "x2": 191.68080573302674,
+              "y2": 197.41229516856367,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 191.68080573302674,
+              "y1": 197.41229516856367,
+              "x2": 184.9459271066772,
+              "y2": 195.60768987951167,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 184.9459271066772,
+              "y1": 195.60768987951167,
+              "x2": 178.0,
+              "y2": 195.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 178.0,
+              "y1": 195.0,
+              "x2": 171.0540728933228,
+              "y2": 195.60768987951167,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 171.0540728933228,
+              "y1": 195.60768987951167,
+              "x2": 164.31919426697326,
+              "y2": 197.41229516856367,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 164.31919426697326,
+              "y1": 197.41229516856367,
+              "x2": 158.0,
+              "y2": 200.35898384862244,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158.0,
+              "y1": 200.35898384862244,
+              "x2": 152.28849561253844,
+              "y2": 204.35822227524088,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 152.28849561253844,
+              "y1": 204.35822227524088,
+              "x2": 147.35822227524088,
+              "y2": 209.2884956125384,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 147.35822227524088,
+              "y1": 209.2884956125384,
+              "x2": 143.35898384862247,
+              "y2": 215.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 143.35898384862247,
+              "y1": 215.0,
+              "x2": 140.41229516856367,
+              "y2": 221.31919426697326,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140.41229516856367,
+              "y1": 221.31919426697326,
+              "x2": 138.60768987951167,
+              "y2": 228.0540728933228,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 138.60768987951167,
+              "y1": 228.0540728933228,
+              "x2": 138.0,
+              "y2": 235.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 178,
+              "y1": 111,
+              "x2": 178,
+              "y2": 175,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 275,
+              "text": "平铺；眼位尽量同",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "中心边缘分开记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "形状/纸距/眼位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "接触角未知照记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不由滴数推焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-10-12-2",
+          "description": "在同一流程分中心边缘。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "在同一流程分中心边缘",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 143,
+              "width": 270,
+              "height": 110,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 143,
+              "x2": 80,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 143,
+              "x2": 110,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 140,
+              "y1": 143,
+              "x2": 140,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 143,
+              "x2": 170,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 143,
+              "x2": 200,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 230,
+              "y1": 143,
+              "x2": 230,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 260,
+              "y1": 143,
+              "x2": 260,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 143,
+              "x2": 290,
+              "y2": 253,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 173,
+              "x2": 320,
+              "y2": 173,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 203,
+              "x2": 320,
+              "y2": 203,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 233,
+              "x2": 320,
+              "y2": 233,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 185,
+              "y": 198,
+              "r": 44,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 122,
+              "text": "中央 / 边缘 / 干处",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 280,
+              "text": "未分辨就记未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "中心边缘分开记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "形状/纸距/眼位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "接触角未知照记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不由滴数推焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-10-12-3",
+          "description": "检验过强因果主张。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "检验过强因果主张",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 151,
+              "text": "看见的外观",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 63,
+              "y1": 170,
+              "x2": 307,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 207,
+              "text": "未测曲率、接触角",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 248,
+              "text": "未测有效焦距",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "中心边缘分开记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "形状/纸距/眼位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "接触角未知照记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不由滴数推焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-10-12-4",
+          "description": "设计而不实施额外操作。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "设计而不实施额外操作",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 150,
+              "text": "仅设计：固定眼位",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 194,
+              "text": "仍保留纸距未知",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 239,
+              "text": "不涂片、不补水",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "中心边缘分开记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "形状/纸距/眼位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "接触角未知照记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不由滴数推焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样区分真实水滴观察与人为映射推论？",
+      "materials": [
+        "完整透明塑料文件夹、grid-input方格纸、常温清水约2mL、滴管或小勺、擦水纸、记录纸和笔、计时器、托盘；滴管/勺、计时和擦水由成人负责。",
+        "所选纸页：method、setup/record/drawing/conclusion/design-13-16、control-work、model-input、mapping-input、coordinate/interval/global/derivative/uncertainty/model-boundary-work；reference-model后看。"
+      ],
+      "safety": "成人全程负责备水、滴水、擦干和清理，幼儿近距离陪伴。总备常温清水约2mL，本轮只滴第一滴，再向原滴加第二滴，共两滴；不把2mL倒上去，不补水、不追求效果反复滴。用完整透明塑料文件夹平铺在方格纸上，放稳固托盘，远离桌边和电器。不用玻璃、强光、激光或日照聚光，不加热，不添加清洁剂或其他涂层。水和材料不入口，不揉眼；纸边勿划手。不抬起、压水滴或移动文件夹求放大，不贴近眼睛。洒水、片破损、纸湿、眼睛不适或孩子不愿即停，由成人擦干收水，最后洗手。",
+      "steps": [
+        {
+          "title": "完成并封存真实四状态",
+          "caption": "完成并封存真实四状态",
+          "action": "先按method由成人完成两滴和擦干，setup-13-16、record-13-16、drawing-13-16及control-work保留原始所见和未知。完成后才读model-input，不能用题设回填实录。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "另题区分整体和局部格距",
+          "caption": "另题区分整体和局部格距",
+          "action": "读model-input和mapping-input，P/Q为人为数学映射，不代表水滴。coordinate-work算x=-2,-1,0,1,2的像坐标；interval-work求四个单位间隔的差商，global-work求全区间比例。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "区分差商导数和不确定性",
+          "caption": "区分差商导数和不确定性",
+          "action": "derivative-work按给定公式算Q在0/1/2的局部导数，不能当整个格宽倍率。uncertainty-work用另题长度区间求比值范围，不能给本轮水滴安上焦距。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        },
+        {
+          "title": "把模型推论退回假设内",
+          "caption": "把模型推论退回假设内",
+          "action": "model-boundary-work说明P/Q为何不预测一滴/两滴；conclusion-13-16分别写实际所见与另题所学，design-13-16仅纸上设计验证，不新增操作。",
+          "actor": "together",
+          "adultNote": "成人独自完成备水、两滴、擦干和清理；分析不放宽安全边界。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "非均匀映射",
+          "差商与导数",
+          "不确定范围"
+        ],
+        "explanation": "光经过空气、水和塑料界面时传播方向可改变。弯曲水面可能改变格线的视觉大小、形状和清晰度；纸上印刷格本身并没有因此自动变大。水滴的曲面、接触角和润湿性、塑料厚度及纸与水滴的距离、眼位和观察方向都影响外观。增一滴并不保证单调增加放大效果，甚至可能没有可辨差别。",
+        "limits": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。",
+        "observation": "在均匀室内散射光下，成人把完整干燥透明文件夹平铺覆盖grid-input，选同一个中央区域；孩子可舒适坐着从上方看，不攀爬、不俯贴。先记干态D；成人在选区滴一滴，约10秒后记W1；成人向原滴再加一滴，约10秒后记W2；之后成人吸干并擦净，保持同处再记D2。每次只定性比较滴下与旁边干处格线的大小外观、弯曲和清晰度，眼位尽量相同，移动或未知照记。第二滴可能不合并、摊开、滚动或看不清，一律如实记，不加第三滴、不换片重做。成人最终清理。",
+        "nextQuestion": "有限格距比、局部导数和真实视觉放大率有何不同？"
+      },
+      "guide": {
+        "goal": "把模型推论退回假设内",
+        "observe": "哪些结论依赖数学题设而非水滴实录？",
+        "control": "同片同纸平铺、同室内散射光，视线方向尽量不变；滴数递增伴随形状变化，不能宣称其他条件完全相同。",
+        "support": "成人操作水与清理，可代写；看不清不追结果，先实录后看参考。",
+        "time": "真实观察约10分钟，纸题另20分钟，可分次",
+        "recordFields": [
+          "先实录后做P/Q",
+          "差商 ≠ 点导数",
+          "区间范围不冒充实测",
+          "不指定水滴焦距"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-light",
+          "title": "OpenStax｜几何光学",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-section-summary",
+          "originalTitle": "OpenStax｜几何光学",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "SC-refract",
+          "title": "OpenStax｜折射定律",
+          "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+          "originalTitle": "OpenStax｜折射定律",
+          "scope": "基础原理支持；不认证约2mL备水、仅两滴家庭流程，未移植原书实验。",
+          "claim": "折射与成像的一般概念，不提供本水滴的焦距或放大率。"
+        },
+        {
+          "id": "OS-wetting",
+          "title": "OpenStax｜Cohesion and Adhesion in Liquids",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action",
+          "claim": "润湿性与接触角影响水滴铺展形态。",
+          "scope": "仅概念支持；不添加化学品、不测接触角、不采纳来源其他操作。"
+        },
+        {
+          "id": "EX-droplet",
+          "title": "Exploratorium｜Exploratopia: Curved Lenses",
+          "url": "https://annex.exploratorium.edu/exploratopia/activity_curves.html",
+          "claim": "弯曲水滴可以改变下方文字的外观。",
+          "scope": "参考现象；不照搬其多滴、保鲜膜或手指滴水流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读OpenStax折射、几何光学总结、润湿接触角正文及Exploratorium水滴透镜页。本文步骤与P/Q数学题原创，未实测。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态核查",
+        "limitations": "原创家庭重建，未实物、儿童或打印测试；实际结果可相同、不同、模糊或未做。滴数不是精确体积；未测水滴曲率、接触角、眼距和有效焦距，不计算真实放大率或焦距，不把水滴当标准薄透镜。文件夹与纸的间距只维持平铺不变，厚度未知如实记。纸上P/Q数学映射是人为给定的另题，既不是一滴/两滴，也不是水滴成像预测；不得替代本轮原始记录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "droplet294-13-16-1",
+          "description": "完成并封存真实四状态。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "完成并封存真实四状态",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 150,
+              "text": "D → W1 → W2 → D2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 193,
+              "text": "原始记录先封存",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 238,
+              "text": "P/Q另题不回填",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做P/Q",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "差商 ≠ 点导数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间范围不冒充实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不指定水滴焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-13-16-2",
+          "description": "另题区分整体和局部格距。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "另题区分整体和局部格距",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 148,
+              "text": "P：x′ = 1.5x",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 191,
+              "text": "Q：x′ = 2x − 0.1x³",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 239,
+              "text": "人为映射；非滴数",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做P/Q",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "差商 ≠ 点导数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间范围不冒充实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不指定水滴焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-13-16-3",
+          "description": "区分差商导数和不确定性。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "区分差商导数和不确定性",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 135,
+              "text": "Δx′/Δx：整个间隔",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 53,
+              "y1": 159,
+              "x2": 315,
+              "y2": 159,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 204,
+              "text": "dx′/dx：一点极限",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 262,
+              "text": "比值区间另行求界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做P/Q",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "差商 ≠ 点导数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间范围不冒充实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不指定水滴焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "droplet294-13-16-4",
+          "description": "把模型推论退回假设内。布置图不预画实际水滴的放大率；P/Q为另题，不表示滴数；成人负责两滴与擦干。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把模型推论退回假设内",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 149,
+              "text": "数学成立 ≠ 水滴预测",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 193,
+              "text": "真实成像仍缺数据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 238,
+              "text": "多水不保证更放大",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做P/Q",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "差商 ≠ 点导数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "区间范围不冒充实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不指定水滴焦距",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

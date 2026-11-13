@@ -4,7 +4,7 @@
   "compatibility_date": "2026-10-22",
   "workers_dev": true,
   "assets": {
-    "directory": "./dist",
+    "directory": "./deployment-assets",
     "binding": "ASSETS",
     "run_worker_first": true
   },
@@ -41,5 +41,8 @@
         "PasswordHasher"
       ]
     }
-  ]
+  ],
+  "build": {
+    "command": "npm run build:assets"
+  }
 }

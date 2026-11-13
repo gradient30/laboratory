@@ -1,0 +1,3041 @@
+{
+  "activityId": 327,
+  "activityTitle": "负数在零的另一边",
+  "contentKey": "annual-m046",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "从2向右两格会到哪里？",
+      "materials": [
+        "普通纸2张、铅笔1支、橡皮1块（成人保管）、厘米/毫米刻度直尺1把。只用手指指纸上刻度，不制作小棋子。",
+        "4—6岁第1张成人画0至5，每格约2厘米；其他年龄画−5至5，每格约1.5厘米，总长约15厘米。长度仅帮助等距，纸上1单位不代表1厘米或1摄氏度。",
+        "本龄手绘准备：第1张成人画0至5等距刻度，第2张代记从哪点到哪点；不画负半轴。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人协助用尺，尺平放不弹动、不朝人挥动；纸笔不入口。只在桌面指图，不以倒退走路或楼梯移动演示；幼儿不要求认识负号，不使用真实温度设备。",
+      "steps": [
+        {
+          "title": "看从零到五的线",
+          "caption": "看从零到五的线",
+          "action": "成人用尺画6个等距点标0到5，读给孩子听。孩子可任指一点，不要求识字；说明今天只在这段线里玩，不延伸到负数。",
+          "actor": "adult",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "指着二向右两格",
+          "caption": "指着二向右两格",
+          "action": "成人先指2，示范每到下一个点才算一格：2到3是一格，3到4再一格。孩子可跟指或只看，不把出发点当第一步。",
+          "actor": "adult",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "再向左退一格",
+          "caption": "再向左退一格",
+          "action": "从4在纸上用手指移到3，说明向左一格；只动手指不让孩子倒退走。成人可代说结果，孩子选左右方向指认即可。",
+          "actor": "adult",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "留下一个位置发现",
+          "caption": "留下一个位置发现",
+          "action": "成人记孩子实际指到或说到哪点，不强求算式；可以再指0和5区分线两端。收纸尺，今天不需要回答−3与−1的问题。",
+          "actor": "adult",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "方向",
+          "相邻间隔"
+        ],
+        "explanation": "位置移动按走过的间隔数，不把起点也算成一步。",
+        "limits": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "算例为纸上抽象模型，刻度位置与移动单位一一对应；不能把厘米、温度、海拔等单位混写。",
+        "nextQuestion": "从4回到2要往哪边走几格？"
+      },
+      "guide": {
+        "goal": "只在0至5范围指点移动",
+        "observe": "从2向右两格会到哪里？",
+        "control": "只在0至5内，纸上手指移动，不做身体倒退游戏。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含用尺手绘等距线；无需打印或打印校准。 儿童核心5—10分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "起点和终点",
+          "孩子实际指认",
+          "成人帮助情况"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day327-4-6-s1",
+          "description": "看从零到五的线；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "看从零到五的线",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 109,
+              "y1": 188,
+              "x2": 109,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 188,
+              "x2": 154,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 199,
+              "y1": 188,
+              "x2": 199,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 193,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 244,
+              "y1": 188,
+              "x2": 244,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 238,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 289,
+              "y1": 188,
+              "x2": 289,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 283,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "0到5，共6个点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "每相邻点隔一格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "幼儿不学负号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-4-6-s2",
+          "description": "指着二向右两格；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "指着二向右两格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 109,
+              "y1": 188,
+              "x2": 109,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 188,
+              "x2": 154,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 199,
+              "y1": 188,
+              "x2": 199,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 193,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 244,
+              "y1": 188,
+              "x2": 244,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 238,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 289,
+              "y1": 188,
+              "x2": 289,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 283,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "从2出发",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "2→3→4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "数走的格，不数起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-4-6-s3",
+          "description": "再向左退一格；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "再向左退一格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "从4向左一格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "到3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "只动纸上手指",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只用0至5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "成人代数代画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求负号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不做倒退走路",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-4-6-s4",
+          "description": "留下一个位置发现；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "留下一个位置发现",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "孩子指认：____",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "不要求负数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "收尺纸即可",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只用0至5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "成人代数代画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求负号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不做倒退走路",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "为什么−3在−1的左边？",
+      "materials": [
+        "普通纸2张、铅笔1支、橡皮1块（成人保管）、厘米/毫米刻度直尺1把。只用手指指纸上刻度，不制作小棋子。",
+        "4—6岁第1张成人画0至5，每格约2厘米；其他年龄画−5至5，每格约1.5厘米，总长约15厘米。长度仅帮助等距，纸上1单位不代表1厘米或1摄氏度。",
+        "本龄手绘准备：第1张画−5至5数轴、圈−3和−1；第2张写比较和两步箭头。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人协助用尺，尺平放不弹动、不朝人挥动；纸笔不入口。只在桌面指图，不以倒退走路或楼梯移动演示；幼儿不要求认识负号，不使用真实温度设备。",
+      "steps": [
+        {
+          "title": "画等距并把零放中间",
+          "caption": "画等距并把零放中间",
+          "action": "用尺画11个等距点，标−5至5，0在中间，右端画增大箭头。检查相邻点差1、负号没漏，成人可帮助。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "圈两个负数的位置",
+          "caption": "圈两个负数的位置",
+          "action": "从0向左数三格找−3，再从0向左数一格找−1，分别圈出；负号是数的一部分，不能只比3和1。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "按向右增大比较",
+          "caption": "按向右增大比较",
+          "action": "指出−3在−1左侧，所以−3<−1；再读成负三比负一小。若以前猜相反，保留猜想另写修正，不把离零远当作更大。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "移动两单位检验",
+          "caption": "移动两单位检验",
+          "action": "从−3向右移两格，经−2到−1，写−3+2=−1。每格一个抽象数单位，不加摄氏度或厘米；核查出发点不算步数。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "负数顺序",
+          "移动核验"
+        ],
+        "explanation": "数轴约定向右增大，所以同在零左边时，离零更远的负数更小。",
+        "limits": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "算例为纸上抽象模型，刻度位置与移动单位一一对应；不能把厘米、温度、海拔等单位混写。",
+        "nextQuestion": "−4和−2谁更小，能指给别人看吗？"
+      },
+      "guide": {
+        "goal": "画核心数轴并用两格移动核对",
+        "observe": "为什么−3在−1的左边？",
+        "control": "刻度等距、单位一致，负号保留。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含用尺手绘等距线；无需打印或打印校准。 儿童核心10—18分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "数轴与圈点",
+          "比较式",
+          "两格路径"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day327-7-9-s1",
+          "description": "画等距并把零放中间；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "画等距并把零放中间",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "-5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 188,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 218,
+              "text": "-4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 188,
+              "x2": 112,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 106,
+              "y": 218,
+              "text": "-3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 188,
+              "x2": 136,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 218,
+              "text": "-2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 188,
+              "x2": 160,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 154,
+              "y": 218,
+              "text": "-1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 188,
+              "x2": 184,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 188,
+              "x2": 208,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 202,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 188,
+              "x2": 232,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 188,
+              "x2": 256,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 188,
+              "x2": 280,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 188,
+              "x2": 304,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 298,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "−5到5，0居中",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "相邻差1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "向右数值增大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-7-9-s2",
+          "description": "圈两个负数的位置；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "圈两个负数的位置",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "-5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 188,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 218,
+              "text": "-4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 188,
+              "x2": 112,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 106,
+              "y": 218,
+              "text": "-3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 188,
+              "x2": 136,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 218,
+              "text": "-2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 188,
+              "x2": 160,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 154,
+              "y": 218,
+              "text": "-1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 188,
+              "x2": 184,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 188,
+              "x2": 208,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 202,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 188,
+              "x2": 232,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 188,
+              "x2": 256,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 188,
+              "x2": 280,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 188,
+              "x2": 304,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 298,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "0左三格：−3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "0左一格：−1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "负号不能漏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-7-9-s3",
+          "description": "按向右增大比较；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "按向右增大比较",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "−3在−1左边",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "−3 < −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "离零远不一定大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "负号是数的一部分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "等距刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "数间隔不数点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混现实单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-7-9-s4",
+          "description": "移动两单位检验；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "移动两单位检验",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "−3 → −2 → −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "向右2单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "−3 + 2 = −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "负号是数的一部分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "等距刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "数间隔不数点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混现实单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "跨过零的移动还能逐格核验吗？",
+      "materials": [
+        "普通纸2张、铅笔1支、橡皮1块（成人保管）、厘米/毫米刻度直尺1把。只用手指指纸上刻度，不制作小棋子。",
+        "4—6岁第1张成人画0至5，每格约2厘米；其他年龄画−5至5，每格约1.5厘米，总长约15厘米。长度仅帮助等距，纸上1单位不代表1厘米或1摄氏度。",
+        "本龄手绘准备：第1张核心数轴与−3到−1路径；第2张另画−2+4的路径与出错检查。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人协助用尺，尺平放不弹动、不朝人挥动；纸笔不入口。只在桌面指图，不以倒退走路或楼梯移动演示；幼儿不要求认识负号，不使用真实温度设备。",
+      "steps": [
+        {
+          "title": "核查线和核心比较",
+          "caption": "核查线和核心比较",
+          "action": "画−5至5等距数轴，检查0居中和向右增大。圈−3、−1，写−3<−1，再向右两格验到−1，不用只看绝对数字3与1。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "另画跨零四步",
+          "caption": "另画跨零四步",
+          "action": "第2张另题−2+4，从−2依次到−1、0、1、2，共4个间隔。每一步画小箭头，不能跳过0或把起点算一步；核心题不改。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "反向核查起点",
+          "caption": "反向核查起点",
+          "action": "从结果2向左4格经1、0、−1回到−2，用逆向路径检查。把错误数点法可能得1的原因写明：把起点也计了一步；不擦原错图。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "分开数值与距离说结论",
+          "caption": "分开数值与距离说结论",
+          "action": "比较−3与−1数值，另记它们距0分别3和1单位，两个问题不同。所有单位都是纸上抽象单位，不把本图结论自动换成温度差或路程。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "跨零移动",
+          "逆向核验",
+          "距离与顺序"
+        ],
+        "explanation": "跨零仍按相邻单位走；到零的距离与数的大小是不同问题。",
+        "limits": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "算例为纸上抽象模型，刻度位置与移动单位一一对应；不能把厘米、温度、海拔等单位混写。",
+        "nextQuestion": "同样离零3单位的两个数是什么？"
+      },
+      "guide": {
+        "goal": "用移动路径核对负数加正数",
+        "observe": "跨过零的移动还能逐格核验吗？",
+        "control": "两题分图，正向与逆向都数间隔；不靠纸上线长充当现实测量。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含用尺手绘等距线；无需打印或打印校准。 儿童核心15—22分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "核心比较",
+          "四步路径",
+          "错法和逆向核验"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day327-10-12-s1",
+          "description": "核查线和核心比较；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "核查线和核心比较",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "-5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 188,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 218,
+              "text": "-4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 188,
+              "x2": 112,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 106,
+              "y": 218,
+              "text": "-3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 188,
+              "x2": 136,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 218,
+              "text": "-2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 188,
+              "x2": 160,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 154,
+              "y": 218,
+              "text": "-1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 188,
+              "x2": 184,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 188,
+              "x2": 208,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 202,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 188,
+              "x2": 232,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 188,
+              "x2": 256,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 188,
+              "x2": 280,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 188,
+              "x2": 304,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 298,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "核刻度 / 方向 / 负号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "−3 < −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "向右2到−1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-10-12-s2",
+          "description": "另画跨零四步；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "另画跨零四步",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "-5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 188,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 218,
+              "text": "-4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 188,
+              "x2": 112,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 106,
+              "y": 218,
+              "text": "-3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 188,
+              "x2": 136,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 218,
+              "text": "-2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 188,
+              "x2": 160,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 154,
+              "y": 218,
+              "text": "-1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 188,
+              "x2": 184,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 188,
+              "x2": 208,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 202,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 188,
+              "x2": 232,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 188,
+              "x2": 256,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 188,
+              "x2": 280,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 188,
+              "x2": 304,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 298,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "−2→−1→0→1→2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "四个间隔",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "−2 + 4 = 2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-10-12-s3",
+          "description": "反向核查起点；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "反向核查起点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "2→1→0→−1→−2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "逆向核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "保留错图和修正",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "跨零不跳零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "逆向检查",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "距离不是数值顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不覆盖原错图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-10-12-s4",
+          "description": "分开数值与距离说结论；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "分开数值与距离说结论",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "数值：−3 < −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "距0：3单位 > 1单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "问题不同，单位不混",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "跨零不跳零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "逆向检查",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "距离不是数值顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不覆盖原错图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "绝对值大是否意味着数更大？",
+      "materials": [
+        "普通纸2张、铅笔1支、橡皮1块（成人保管）、厘米/毫米刻度直尺1把。只用手指指纸上刻度，不制作小棋子。",
+        "4—6岁第1张成人画0至5，每格约2厘米；其他年龄画−5至5，每格约1.5厘米，总长约15厘米。长度仅帮助等距，纸上1单位不代表1厘米或1摄氏度。",
+        "本龄手绘准备：第1张核心数轴、比较和绝对值；第2张a<b<0的一般论证及边界反例。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人协助用尺，尺平放不弹动、不朝人挥动；纸笔不入口。只在桌面指图，不以倒退走路或楼梯移动演示；幼儿不要求认识负号，不使用真实温度设备。",
+      "steps": [
+        {
+          "title": "先完成具体核心证据",
+          "caption": "先完成具体核心证据",
+          "action": "画−5至5等距数轴，标−3和−1并确认向右增大。写−3<−1，走两单位到−1，保留核心记录作为后续抽象的例子。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "区分绝对值和顺序",
+          "caption": "区分绝对值和顺序",
+          "action": "写|−3|=3、|−1|=1，故|−3|>|−1|，却−3<−1。绝对值是到零距离，非“去掉负号再比较大小”的普适规则。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "说明负半轴的一般关系",
+          "caption": "说明负半轴的一般关系",
+          "action": "若a<b<0，则−a>−b>0，而|a|=−a、|b|=−b，所以|a|>|b|。用a=−4,b=−2核查；比较结论须先保留两数均负的条件。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        },
+        {
+          "title": "找边界防止过度推广",
+          "caption": "找边界防止过度推广",
+          "action": "写−3和3绝对值相同但数值不同，说明绝对值不能唯一恢复符号；两个正数的大小与绝对值方向相同，不能把负半轴规则推广全轴。仅纸上推理，单位不混现实量。",
+          "actor": "together",
+          "adultNote": "成人代画等距刻度、代读负号；幼儿只在0至5内指点，不引入负数算式或强制计数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "绝对值",
+          "条件推理",
+          "反例"
+        ],
+        "explanation": "在负半轴距离越大数值越小，但跨符号或正半轴不能无条件套用。",
+        "limits": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "算例为纸上抽象模型，刻度位置与移动单位一一对应；不能把厘米、温度、海拔等单位混写。",
+        "nextQuestion": "知道|x|=3，能确定x唯一是多少吗？"
+      },
+      "guide": {
+        "goal": "给出负数反例与一般解释",
+        "observe": "绝对值大是否意味着数更大？",
+        "control": "一般命题必须保留a<b<0；绝对值不恢复符号。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含用尺手绘等距线；无需打印或打印校准。 儿童核心20—25分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "核心例子",
+          "一般论证",
+          "边界反例"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "数轴是抽象模型，不把温度等所有量都混用同单位。 数轴是抽象模型，不把温度等所有量都混用同单位。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄仅0至5向左右移动，和核心负数题分开。数轴方向约定为向右增大，绝对值描述到零的距离而非数值大小；实体画线长度不是现实量的单位。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day327-13-16-s1",
+          "description": "先完成具体核心证据；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "先完成具体核心证据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 57,
+              "y1": 193,
+              "x2": 317,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 64,
+              "y1": 188,
+              "x2": 64,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "-5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 88,
+              "y1": 188,
+              "x2": 88,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 218,
+              "text": "-4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 112,
+              "y1": 188,
+              "x2": 112,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 106,
+              "y": 218,
+              "text": "-3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 188,
+              "x2": 136,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 218,
+              "text": "-2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 160,
+              "y1": 188,
+              "x2": 160,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 154,
+              "y": 218,
+              "text": "-1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 188,
+              "x2": 184,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 218,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 188,
+              "x2": 208,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 202,
+              "y": 218,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 232,
+              "y1": 188,
+              "x2": 232,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 218,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 188,
+              "x2": 256,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 218,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 280,
+              "y1": 188,
+              "x2": 280,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 218,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 188,
+              "x2": 304,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 298,
+              "y": 218,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "等距刻度；向右增大",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 262,
+              "text": "图示单位，不是温度或厘米",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "−3 < −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "−3 + 2 = −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "先具体后抽象",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-13-16-s2",
+          "description": "区分绝对值和顺序；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "区分绝对值和顺序",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "|−3|=3 > |−1|=1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "但−3 < −1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "距离与顺序不同",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "保留命题条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "绝对值是距离",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "反例检查推广",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混数值和单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-13-16-s3",
+          "description": "说明负半轴的一般关系；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "说明负半轴的一般关系",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "a < b < 0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "−a > −b > 0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "因此 |a| > |b|",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "保留命题条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "绝对值是距离",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "反例检查推广",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混数值和单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day327-13-16-s4",
+          "description": "找边界防止过度推广；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "找边界防止过度推广",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "|−3|=|3|",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "同距离可有两个位置",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "负半轴规则有条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "保留命题条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "绝对值是距离",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "反例检查推广",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混数值和单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

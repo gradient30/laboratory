@@ -1,0 +1,1759 @@
+{
+  "activityId": 15,
+  "activityTitle": "叶片怎样分类更清楚",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同一张叶片照片转个方向，还能找到它的伙伴吗？",
+      "materials": [
+        "3张不同的自摄清楚叶片照片，各复制1份，共6张照片卡（纸卡或同屏6格展示）",
+        "6张大编号纸卡（1–6），白纸1张、粗笔1支",
+        "成人管理的照片显示设备1部或打印照片卡1套"
+      ],
+      "safety": "全程使用照片，不采摘、不拿取或触碰不明植物、落叶、虫、菌，不闻、不尝，不按形态判断能否食用或药用。需要补拍时仅成人在允许停留的安全平地、从原有步道拍摄，不进入花坛/灌丛/道路，不攀高、不拉枝、不用手摆叶；拍不到就换对象或记缺图。设备由成人管理，照片只保留植物局部，不拍人脸、不上传。",
+      "steps": [
+        {
+          "title": "准备三对照片",
+          "action": "成人从已有自摄照片中选图，或按安全规则补拍：每张只突出一个完整、边界清楚的叶片状轮廓，尽量正对其表面，避免卷曲、重叠和明显透视；不为摆正而触碰植物。不能确认是整片叶还是复叶的小叶时写“叶片状单元”，不猜物种。裁图仅去掉无关背景，不拉伸长宽、不生成或修补缺失边缘；每图独立编号。只需3张不同原图，每张复制一次，得到3对相同照片，共6张。成人把同一对随机分配不同编号1–6，不在正面写出配对答案；可打印成卡，或在屏上排6格并用大编号纸卡操作。",
+          "actor": "adult",
+          "caption": "六张照片，找一找伙伴。",
+          "adultNote": "这一步是相同图像配对，不把复制的两张图称为两个独立叶片样本。"
+        },
+        {
+          "title": "按轮廓找伙伴",
+          "action": "孩子逐张看照片，只用整体轮廓找相同照片的伙伴，把相应两张编号卡放在一起。成人可问“哪里一样”，不说植物名。图太小看不清时由成人放大整张，不改变长宽比例。",
+          "actor": "child",
+          "caption": "哪两张看起来是同一个样子？",
+          "adultNote": "接受暂时配不出；不强求说“锯齿”等术语，不用照片颜色相同作为唯一理由。"
+        },
+        {
+          "title": "转向后重新配",
+          "action": "成人保留每对一张不动，把另一张照片在纸上或屏幕里旋转半圈（180度），不要镜像翻转、不拉伸。打乱编号卡再让孩子配对；与第一次比较，指出转向后仍保留的尖端、边缘或宽窄。",
+          "actor": "together",
+          "caption": "方向换了，形状还在吗？",
+          "adultNote": "成人操作屏幕；不把旋转说成叶片在自然中长成另一种。"
+        },
+        {
+          "title": "说出配对线索",
+          "action": "孩子选择一对照片，画或口述自己用的线索；成人记初次与转向后哪些配对改变、哪些仍待定。可核对复制原图，但不把配对成功当成物种鉴定。",
+          "actor": "child",
+          "caption": "你是怎么找到伙伴的？",
+          "adultNote": "重点是观察线索，不评分记忆速度；留存错误或改配也属于实际过程。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相同图像配对",
+          "旋转改变方向不改变轮廓",
+          "照片相同不等于已知道物种"
+        ],
+        "explanation": "把照片转半圈只是换了看的方向，图里的轮廓并未变成另一个形状。比较尖端、边缘和宽窄，可以帮助找到同一照片的伙伴。",
+        "limits": "本活动用复制图，不是证明两片真实叶子完全一样；相似轮廓不能说明它们一定来自同种植物。",
+        "observation": "初次配对、转半圈后配对、孩子说出的线索与待定项。",
+        "nextQuestion": "如果照片变大但不被拉长，还能用哪些线索认出它？"
+      },
+      "guide": {
+        "goal": "实际完成三对叶图配对，再旋转其中一份重新配对。",
+        "observe": "同一张叶片照片转个方向，还能找到它的伙伴吗？",
+        "support": "成人选图、复制和旋转；孩子移动大编号卡、指认或口述。",
+        "control": "同一组三对复制图；只旋转每对的一份180度，不镜像、不拉伸。",
+        "time": "约10–15分钟；孩子参与5–10分钟即可。",
+        "recordFields": [
+          "第一次的三对编号或待定",
+          "旋转后配对是否改变",
+          "孩子的轮廓线索"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Education Nature Park｜Leaf identification",
+          "url": "https://www.educationnaturepark.org.uk/resource/leaf-identification",
+          "claim": "用叶片形状和边缘等可见特征寻找相似与不同；同一来源叶也可能大小不同。",
+          "scope": "只参考观察与配对思路。本页改用照片，不执行原文采集、触感、闻气味或沿叶找树的步骤；分组不等于确认物种。"
+        },
+        {
+          "title": "American Museum of Natural History｜Leaf Type",
+          "url": "https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-identification/plant-morphology/leaf-type",
+          "claim": "单叶、复叶及小叶需要区分；叶柄/叶腋芽等连接位置是形态判断的重要上下文。",
+          "scope": "用于提醒仅凭孤立轮廓不能确认整叶或小叶。本页照片分组及长宽比阈值是自定义整理规则，不是植物学鉴定检索表。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立照片探究设计，未实地试做；不代表来源机构认证。图为照片卡、测量轴或空白分类工具示意，不是已识别物种、真实测量值或分类结果。分类输出只适用于所用照片和明确规则，不能鉴食、鉴药或证明亲缘关系。",
+      "diagrams": [
+        {
+          "sceneKey": "leaf-46-six",
+          "description": "六张编号照片卡来自三原图各一复制；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 150,
+              "text": "1",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 259,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 150,
+              "text": "2",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 433,
+              "y": 150,
+              "text": "3",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 242,
+              "text": "4",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 259,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 242,
+              "text": "5",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 433,
+              "y": 242,
+              "text": "6",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 88,
+              "text": "编号卡示意；放入实际照片",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 295,
+              "text": "3张原图，各复制1份",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-46-match",
+          "description": "把照片编号卡两两配对；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 120,
+              "width": 210,
+              "height": 130,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 120,
+              "width": 210,
+              "height": 130,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 158,
+              "text": "看尖端与边缘",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 158,
+              "text": "移动编号卡",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 290,
+              "text": "不是猜植物名称",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-46-turn",
+          "description": "复制照片一份旋转半圈，边缘保持相同；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 110,
+              "width": 160,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 110,
+              "width": 160,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 133,
+              "x2": 134,
+              "y2": 213,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 134,
+              "y1": 213,
+              "x2": 206,
+              "y2": 213,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 206,
+              "y1": 213,
+              "x2": 170,
+              "y2": 133,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 470,
+              "y1": 232,
+              "x2": 434,
+              "y2": 152,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 434,
+              "y1": 152,
+              "x2": 506,
+              "y2": 152,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 506,
+              "y1": 152,
+              "x2": 470,
+              "y2": 232,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 188,
+              "text": "180°",
+              "fontSize": 22,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 132,
+              "y": 292,
+              "text": "轮廓示意；不镜像、不拉伸",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-46-evidence",
+          "description": "保留两轮配对记录纸；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 115,
+              "width": 205,
+              "height": 140,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 115,
+              "width": 205,
+              "height": 140,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 153,
+              "text": "第一次配对",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 153,
+              "text": "转向后配对",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 149,
+              "y": 291,
+              "text": "编号由实际操作填写",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一批六张叶图，按边缘和宽窄两个特征放入交叉表，会出现哪些组合？",
+      "materials": [
+        "6张不同自摄叶片状轮廓照片（纸卡或设备逐张显示，不用复制图）",
+        "6张大编号卡1–6、白纸2张、铅笔1支",
+        "直尺1把（只画表，不用于猜原叶大小）"
+      ],
+      "safety": "全程使用照片，不采摘、不拿取或触碰不明植物、落叶、虫、菌，不闻、不尝，不按形态判断能否食用或药用。需要补拍时仅成人在允许停留的安全平地、从原有步道拍摄，不进入花坛/灌丛/道路，不攀高、不拉枝、不用手摆叶；拍不到就换对象或记缺图。设备由成人管理，照片只保留植物局部，不拍人脸、不上传。",
+      "steps": [
+        {
+          "title": "给六图写可见描述",
+          "action": "成人从已有自摄照片中选图，或按安全规则补拍：每张只突出一个完整、边界清楚的叶片状轮廓，尽量正对其表面，避免卷曲、重叠和明显透视；不为摆正而触碰植物。不能确认是整片叶还是复叶的小叶时写“叶片状单元”，不猜物种。裁图仅去掉无关背景，不拉伸长宽、不生成或修补缺失边缘；每图独立编号。选6张不同照片编号1–6；成人与孩子分别指出边缘、顶端和基部。叶边被遮挡或图像模糊的先记待定，不为凑类型假装看清。",
+          "actor": "together",
+          "caption": "先描述看见的，不猜名字。",
+          "adultNote": "6张照片不等于6个物种；同一植物不同叶的照片可以相似。"
+        },
+        {
+          "title": "先按一种边缘规则分组",
+          "action": "约定本轮边缘组：S=可见外缘没有明显小齿，T=可见连续重复的小齿；深裂、缺损、分辨不清放待定。将6个编号先放S/T/待定三处，并给每个判断指出证据位置。",
+          "actor": "child",
+          "caption": "齿、破洞、深裂不要混在一起。",
+          "adultNote": "这是本页简化图像规则，不是完整植物学叶缘词典；不清楚可以保留待定。"
+        },
+        {
+          "title": "加入宽窄做交叉表",
+          "action": "在白纸画两行两列：行是S/T，列是孩子事先写明的“看起来细长/不细长”规则，例如“长度明显超过宽度两倍，凭目测”；另留待定区。对可判照片同时考虑两特征，把编号放入对应格，不把原先边缘组忘掉。",
+          "actor": "together",
+          "caption": "同一张图同时回答两个问题。",
+          "adultNote": "本龄宽窄只作明确约定的目测，不冒充精确测量；接近界限或任一特征不明都进待定。"
+        },
+        {
+          "title": "核对是否漏分或重放",
+          "action": "逐个核对1–6每个编号恰有一个位置（四格或待定）。换一个家人按已写规则复放，记录分歧；讨论是图片不清还是规则模糊，不强行把所有格都填满。",
+          "actor": "together",
+          "caption": "空格也可能是正常结果。",
+          "adultNote": "不把四个格称为四种植物，也不依据分组判断能不能吃。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两个特征的交叉分类",
+          "判定规则与待定类",
+          "组数不是物种数"
+        ],
+        "explanation": "一张图可以同时具有边缘和宽窄特征，交叉表把这两个判断组合起来。某一格为空只说明这批图没有被放进去的样本，不说明自然界不存在那种组合。",
+        "limits": "目测宽窄与叶缘照片清晰度会带来分歧；简化类别不覆盖所有叶形，也不是物种鉴定。",
+        "observation": "六图的S/T/待定、宽窄规则、最终所在格、家人复放分歧。",
+        "nextQuestion": "怎样把“看起来细长”改成别人更容易重复的规则？"
+      },
+      "guide": {
+        "goal": "实际从单特征排序转为两特征交叉表，并由另一人复放。",
+        "observe": "同一批六张叶图，按边缘和宽窄两个特征放入交叉表，会出现哪些组合？",
+        "support": "成人准备可看清照片；孩子定义简化规则、移编号卡并保留分歧。",
+        "control": "同六照片、同边缘规则；第二轮增加宽窄特征，待定不硬分。",
+        "time": "约20–25分钟。",
+        "recordFields": [
+          "六图边缘类别与证据",
+          "宽窄目测规则与交叉表编号",
+          "待定和家人复放分歧"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Education Nature Park｜Leaf identification",
+          "url": "https://www.educationnaturepark.org.uk/resource/leaf-identification",
+          "claim": "用叶片形状和边缘等可见特征寻找相似与不同；同一来源叶也可能大小不同。",
+          "scope": "只参考观察与配对思路。本页改用照片，不执行原文采集、触感、闻气味或沿叶找树的步骤；分组不等于确认物种。"
+        },
+        {
+          "title": "American Museum of Natural History｜Leaf Type",
+          "url": "https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-identification/plant-morphology/leaf-type",
+          "claim": "单叶、复叶及小叶需要区分；叶柄/叶腋芽等连接位置是形态判断的重要上下文。",
+          "scope": "用于提醒仅凭孤立轮廓不能确认整叶或小叶。本页照片分组及长宽比阈值是自定义整理规则，不是植物学鉴定检索表。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立照片探究设计，未实地试做；不代表来源机构认证。图为照片卡、测量轴或空白分类工具示意，不是已识别物种、真实测量值或分类结果。分类输出只适用于所用照片和明确规则，不能鉴食、鉴药或证明亲缘关系。",
+      "diagrams": [
+        {
+          "sceneKey": "leaf-79-six",
+          "description": "六张不同照片编号；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 150,
+              "text": "1",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 259,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 150,
+              "text": "2",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 108,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 433,
+              "y": 150,
+              "text": "3",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 242,
+              "text": "4",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 259,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274,
+              "y": 242,
+              "text": "5",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 418,
+              "y": 200,
+              "width": 135,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 433,
+              "y": 242,
+              "text": "6",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 88,
+              "text": "编号卡示意；放入实际照片",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-79-edge",
+          "description": "先按边缘规则分三组；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 162,
+              "text": "S：无明显小齿",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263,
+              "y": 162,
+              "text": "T：重复小齿",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 458,
+              "y": 162,
+              "text": "待定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 289,
+              "text": "放编号卡；边界不清进待定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-79-cross",
+          "description": "两个特征的空白交叉表；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 120,
+              "width": 310,
+              "height": 140,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 325,
+              "y1": 120,
+              "x2": 325,
+              "y2": 260,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 190,
+              "x2": 480,
+              "y2": 190,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 105,
+              "text": "细长",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 105,
+              "text": "不细长",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 166,
+              "text": "S",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 236,
+              "text": "T",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 510,
+              "y": 145,
+              "width": 90,
+              "height": 100,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 522,
+              "y": 185,
+              "text": "待定",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 294,
+              "text": "每个编号只放一处",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-79-recheck",
+          "description": "给另一人相同图片和规则；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 210,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 355,
+              "y": 115,
+              "width": 210,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 154,
+              "text": "原分组记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 154,
+              "text": "家人独立复放",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 292,
+              "text": "比较分歧，不把组叫物种",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "把“细长”改为照片长宽比规则，两次独立读尺会把哪些照片分到同一组或待定？",
+      "materials": [
+        "8张不同清楚、接近正对表面的自摄叶片状轮廓照片，编号1–8",
+        "平板/较大屏幕1部或8张打印图（每张轮廓显示长至少5厘米，完整不被裁切）",
+        "毫米刻度直尺1把、记录纸2张、铅笔1支；可选计算器1个"
+      ],
+      "safety": "全程使用照片，不采摘、不拿取或触碰不明植物、落叶、虫、菌，不闻、不尝，不按形态判断能否食用或药用。需要补拍时仅成人在允许停留的安全平地、从原有步道拍摄，不进入花坛/灌丛/道路，不攀高、不拉枝、不用手摆叶；拍不到就换对象或记缺图。设备由成人管理，照片只保留植物局部，不拍人脸、不上传。直尺轻放在纸面或屏幕上，不用尖锐工具划屏；不能安全放尺时使用打印图或记录无法量。",
+      "steps": [
+        {
+          "title": "统一照片测量条件",
+          "action": "成人从已有自摄照片中选图，或按安全规则补拍：每张只突出一个完整、边界清楚的叶片状轮廓，尽量正对其表面，避免卷曲、重叠和明显透视；不为摆正而触碰植物。不能确认是整片叶还是复叶的小叶时写“叶片状单元”，不猜物种。裁图仅去掉无关背景，不拉伸长宽、不生成或修补缺失边缘；每图独立编号。选8张轮廓完整且基部、顶端可辨的不同图。每张在纸面或屏上显示长至少5厘米，记显示尺寸/缩放设置；不同图可以不同缩放，但每次测同一图时保持其显示不变。叶面倾斜、卷曲或轮廓单位不清的先待定。",
+          "actor": "together",
+          "caption": "测的是图上的比例，不是原叶厘米数。",
+          "adultNote": "无比例尺照片不能比较真实叶长；放大也不能恢复原本没有拍清的细节。"
+        },
+        {
+          "title": "第一轮量长宽",
+          "action": "在同一张照片上，L取叶片状轮廓基部到顶端的直线长度（不含叶柄），W取与这条轴垂直的最大宽度；弯曲轴不沿弯曲轮廓量。屏幕或打印图上用同一毫米尺量L与W，再算R=L/W；两者必须同一显示尺寸、同一单位。R只描述照片投影的长宽比，不是原叶真实厘米数。依编号1→8读一次L、W至毫米，写R。规则预先固定：R≥2称本页“长形组”，R<2称“非长形组”，不能测的待定。阈值2只是本活动约定，不是物种界线。",
+          "actor": "child",
+          "caption": "先写原始L和W，再算比例。",
+          "adultNote": "不用肉眼先想好组再调整尺；叶柄不可算入L，图片不能单独横向或纵向拉伸。"
+        },
+        {
+          "title": "遮住首轮再量一轮",
+          "action": "把第一轮记录折起，由同一人按8→1顺序重新定位基部、顶端和最大宽处再量L、W；显示尺寸不变，不照抄第一轮。记第二轮R，并指出读尺位置难统一的照片。",
+          "actor": "child",
+          "caption": "重复的是读图，不是多了八片叶。",
+          "adultNote": "两轮来自同八图，只检验读尺/定位重复性，不代表自然叶片变异。"
+        },
+        {
+          "title": "按重复证据分类",
+          "action": "每图比较两次R：两次都≥2或都<2时记录对应组；跨过2、差异无法解释或任一轮不可量时标待定，并写需要改进的照片/量法。可报告两次最小与最大R，但不要把这当完整统计置信区间。",
+          "actor": "together",
+          "caption": "跨界就留待定，不凑一个答案。",
+          "adultNote": "两次恰好一致也不证明无误差；真实叶片透视和边缘模糊误差仍未量化。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "照片长宽比无单位",
+          "操作性阈值与边界样本",
+          "重复读尺与投影误差"
+        ],
+        "explanation": "用同张图上的长度除以宽度，可把“细长”变成可复查的数值规则；等比例缩放会同时改变L与W，因此比例不依赖那一次放大倍数。这个比例仍是照片投影，透视或叶片弯曲会改变它。",
+        "limits": "阈值2是教学规则，不是植物分类学边界。两次读数不是独立植物样本，也不能修复拍摄角度造成的系统偏差；没有实物尺度不能恢复原叶大小。",
+        "observation": "8图两轮L/W/R、缩放固定条件、跨阈值与待定原因，以及分组是否一致。",
+        "nextQuestion": "想比较真正的叶片尺寸，拍照时还需要哪些不触碰植物也能安全获得的尺度证据？"
+      },
+      "guide": {
+        "goal": "实际执行同八图两轮毫米尺测量，按预定长宽比阈值和待定规则分类。",
+        "observe": "把“细长”改为照片长宽比规则，两次独立读尺会把哪些照片分到同一组或待定？",
+        "support": "成人管理照片和设备；学习者定位测量轴、反序复测、保留原始读数。",
+        "control": "同照片、同图缩放固定、同L/W定义；第二轮重新定位，记录读尺差异。",
+        "time": "约30–40分钟，可分选图与测量两段。",
+        "recordFields": [
+          "照片条件及1–8首轮L/W/R",
+          "反序第二轮L/W/R",
+          "两轮一致组/跨界待定及原因",
+          "阈值与图像尺度限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Education Nature Park｜Leaf identification",
+          "url": "https://www.educationnaturepark.org.uk/resource/leaf-identification",
+          "claim": "用叶片形状和边缘等可见特征寻找相似与不同；同一来源叶也可能大小不同。",
+          "scope": "只参考观察与配对思路。本页改用照片，不执行原文采集、触感、闻气味或沿叶找树的步骤；分组不等于确认物种。"
+        },
+        {
+          "title": "American Museum of Natural History｜Leaf Type",
+          "url": "https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-identification/plant-morphology/leaf-type",
+          "claim": "单叶、复叶及小叶需要区分；叶柄/叶腋芽等连接位置是形态判断的重要上下文。",
+          "scope": "用于提醒仅凭孤立轮廓不能确认整叶或小叶。本页照片分组及长宽比阈值是自定义整理规则，不是植物学鉴定检索表。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立照片探究设计，未实地试做；不代表来源机构认证。图为照片卡、测量轴或空白分类工具示意，不是已识别物种、真实测量值或分类结果。分类输出只适用于所用照片和明确规则，不能鉴食、鉴药或证明亲缘关系。",
+      "diagrams": [
+        {
+          "sceneKey": "leaf-1012-eight",
+          "description": "八图编号与统一测量准备；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 108,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 150,
+              "text": "1",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 194,
+              "y": 108,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 150,
+              "text": "2",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 323,
+              "y": 108,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 338,
+              "y": 150,
+              "text": "3",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 452,
+              "y": 108,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 467,
+              "y": 150,
+              "text": "4",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 200,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 242,
+              "text": "5",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 194,
+              "y": 200,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 242,
+              "text": "6",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 323,
+              "y": 200,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 338,
+              "y": 242,
+              "text": "7",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 452,
+              "y": 200,
+              "width": 105,
+              "height": 68,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 467,
+              "y": 242,
+              "text": "8",
+              "fontSize": 21,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 88,
+              "text": "编号卡示意；放入实际照片",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1012-measure",
+          "description": "实际测照片投影长宽轴；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 82,
+              "y": 102,
+              "width": 225,
+              "height": 170,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 126,
+              "x2": 145,
+              "y2": 194,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 194,
+              "x2": 190,
+              "y2": 250,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 250,
+              "x2": 250,
+              "y2": 194,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 194,
+              "x2": 190,
+              "y2": 126,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 190,
+              "y1": 126,
+              "x2": 190,
+              "y2": 250,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 194,
+              "x2": 250,
+              "y2": 194,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 203,
+              "y": 164,
+              "text": "L",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 225,
+              "y": 218,
+              "text": "W",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 134,
+              "text": "轴：基部到顶端",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 179,
+              "text": "W垂直于L",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 224,
+              "text": "不含叶柄",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 297,
+              "text": "轮廓仅示意；量实际照片",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1012-repeat",
+          "description": "折起首轮记录后反序量同图；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 205,
+              "height": 135,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 115,
+              "width": 205,
+              "height": 135,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 154,
+              "text": "首轮1→8",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 194,
+              "text": "记录折起",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 154,
+              "text": "复测8→1",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 194,
+              "text": "同图缩放不变",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 291,
+              "text": "同八图复测，不是新叶样本",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1012-boundary",
+          "description": "由两轮比例判组的空白存放区域；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 162,
+              "text": "两轮R≥2",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263,
+              "y": 162,
+              "text": "两轮R<2",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 125,
+              "width": 170,
+              "height": 125,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 458,
+              "y": 162,
+              "text": "跨界或不可量",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 289,
+              "text": "放编号卡；边界不清进待定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "用六张图写成的两级规则，交给两位观察者处理两张保留图时，是否会产生相同路径与待定判断？",
+      "materials": [
+        "8张不同清楚、接近正对表面的自摄叶片状轮廓照片，编号1–8（纸卡或显示设备）",
+        "8张同样大小大编号卡、1个不透明纸袋（仅装纸卡，不装叶片）",
+        "白纸3张、铅笔2支、毫米尺1把；可选计算器1个",
+        "两位参与者（可一位成人与学习者），各留一张独立记录纸"
+      ],
+      "safety": "全程使用照片，不采摘、不拿取或触碰不明植物、落叶、虫、菌，不闻、不尝，不按形态判断能否食用或药用。需要补拍时仅成人在允许停留的安全平地、从原有步道拍摄，不进入花坛/灌丛/道路，不攀高、不拉枝、不用手摆叶；拍不到就换对象或记缺图。设备由成人管理，照片只保留植物局部，不拍人脸、不上传。纸袋仅用于成人桌上抽编号，远离幼儿脸部；不用塑料袋。直尺不划屏，图片量不到就待定。",
+      "steps": [
+        {
+          "title": "先保留两图再建规则",
+          "action": "成人从已有自摄照片中选图，或按安全规则补拍：每张只突出一个完整、边界清楚的叶片状轮廓，尽量正对其表面，避免卷曲、重叠和明显透视；不为摆正而触碰植物。不能确认是整片叶还是复叶的小叶时写“叶片状单元”，不猜物种。裁图仅去掉无关背景，不拉伸长宽、不生成或修补缺失边缘；每图独立编号。选8张不同图，使可量轮廓在屏/纸上长至少5厘米。将1–8同样编号卡混匀，由成人不看地抽2张并把对应照片暂时遮住，作为保留图；另外6图用于制定规则。记下分组编号，不因保留图“不好分”而更换。",
+          "actor": "together",
+          "caption": "先留两张没用来写规则的图。",
+          "adultNote": "训练/保留划分仅用于测试规则可用性，不是物种机器学习或代表所有叶片的样本。"
+        },
+        {
+          "title": "用六图写两级分支",
+          "action": "在六图上试行第一级边缘S/T/待定：S无明显小齿，T有连续重复小齿，深裂、缺损或不清进待定；能判S/T的再按R=L/W分R≥2和R<2，得到S长/S非长/T长/T非长四输出。在同一张照片上，L取叶片状轮廓基部到顶端的直线长度（不含叶柄），W取与这条轴垂直的最大宽度；弯曲轴不沿弯曲轮廓量。屏幕或打印图上用同一毫米尺量L与W，再算R=L/W；两者必须同一显示尺寸、同一单位。R只描述照片投影的长宽比，不是原叶真实厘米数。写清单位、阈值2和无法判定的出口，不保证每个输出都能唯一识别一张图。",
+          "actor": "child",
+          "caption": "规则写到别人不需要猜你意思。",
+          "adultNote": "阈值与组名自定义；完整叶、小叶及深裂叶的区分需额外结构上下文，本任务不凭孤立照片定名。"
+        },
+        {
+          "title": "保留图由两人独立测试",
+          "action": "打开两张保留图，两位参与者各按同一版书面规则独立判断，不看对方答案、不交流路径。每图记一级证据、L/W/R或不可量原因、最后输出/待定；数字接近2且尺定位不清时按事先写好的待定出口，不强分。",
+          "actor": "together",
+          "caption": "先独立走规则，再对答案。",
+          "adultNote": "观察者可是一位成人与学习者；谁先写不代表标准答案。照片显示条件保持一致，不用隐藏缩放制造难题。"
+        },
+        {
+          "title": "检查一致性并留版本",
+          "action": "逐图比较两人的每一级判断，把一致、分歧、共同待定分开列；一致比例只能说明这两图的规则重复性，不叫识别准确率。指出分歧来自边缘定义、测量还是图片，修改一条规则形成v2；若再测同两图，注明它们已见过，不再当全新保留测试。",
+          "actor": "together",
+          "caption": "同意不等于认对物种，改版要留痕。",
+          "adultNote": "没有已知物种真值就不算分类正确率；两张小测试不足以证明通用性，也不能由图片组推可食用性。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两级决策规则与待定出口",
+          "保留样本测试和独立观察者",
+          "一致性不同于正确率"
+        ],
+        "explanation": "先用一批图写规则，再给未参与制订的图试用，可以暴露规则不清和未覆盖的情况。两位观察者独立留下路径，能区分“规则容易重复”与“大家恰好猜同一个答案”；没有可靠物种真值，不能称为物种识别准确率。",
+        "limits": "只有六训练图与两保留图，覆盖面有限。叶面角度、图像分辨率和是否为整叶/小叶可能影响判断；修改后重用已见的图不是新的独立验证。外形输出不是生物分类单元。",
+        "observation": "6/2划分、v1书面两级规则；两位观察者对两保留图的路径/比例/待定；一致与分歧原因、v2变更。",
+        "nextQuestion": "真正检验v2是否更清楚，应准备怎样的新图，并如何避免只挑容易分类的照片？"
+      },
+      "guide": {
+        "goal": "实际建立两级照片分组规则，并以两保留图、两位独立观察者测试与改版。",
+        "observe": "用六张图写成的两级规则，交给两位观察者处理两张保留图时，是否会产生相同路径与待定判断？",
+        "support": "成人准备安全图与抽签；学习者写规则，双方独立测试后共同审查路径。",
+        "control": "同一书面规则、同保留图与显示条件，观察者独立；修改后明确版本与已见样本。",
+        "time": "约35–50分钟，可分建规则与测试两次。",
+        "recordFields": [
+          "六训练/两保留编号与v1规则",
+          "观察者甲：两图路径/L/W/R/待定",
+          "观察者乙：两图路径/L/W/R/待定",
+          "一致/分歧原因、v2变更与验证限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Education Nature Park｜Leaf identification",
+          "url": "https://www.educationnaturepark.org.uk/resource/leaf-identification",
+          "claim": "用叶片形状和边缘等可见特征寻找相似与不同；同一来源叶也可能大小不同。",
+          "scope": "只参考观察与配对思路。本页改用照片，不执行原文采集、触感、闻气味或沿叶找树的步骤；分组不等于确认物种。"
+        },
+        {
+          "title": "American Museum of Natural History｜Leaf Type",
+          "url": "https://www.amnh.org/learn-teach/curriculum-collections/biodiversity-counts/plant-identification/plant-morphology/leaf-type",
+          "claim": "单叶、复叶及小叶需要区分；叶柄/叶腋芽等连接位置是形态判断的重要上下文。",
+          "scope": "用于提醒仅凭孤立轮廓不能确认整叶或小叶。本页照片分组及长宽比阈值是自定义整理规则，不是植物学鉴定检索表。"
+        }
+      ],
+      "sourceNote": "本龄段为基于原始教育资料的独立照片探究设计，未实地试做；不代表来源机构认证。图为照片卡、测量轴或空白分类工具示意，不是已识别物种、真实测量值或分类结果。分类输出只适用于所用照片和明确规则，不能鉴食、鉴药或证明亲缘关系。",
+      "diagrams": [
+        {
+          "sceneKey": "leaf-1316-split",
+          "description": "八图分六张制订用与两张保留但不预填编号；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 110,
+              "width": 325,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 425,
+              "y": 110,
+              "width": 155,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 151,
+              "text": "六图：写规则",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 443,
+              "y": 151,
+              "text": "两图保留",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 108,
+              "y": 288,
+              "text": "编号由实际抽签填写",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1316-key",
+          "description": "两级空白分类工具的分支结构；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 205,
+              "y": 89,
+              "text": "边缘S / T / 待定",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "rect",
+              "x": 90,
+              "y": 122,
+              "width": 170,
+              "height": 58,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 122,
+              "width": 170,
+              "height": 58,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 158,
+              "text": "S",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 435,
+              "y": 158,
+              "text": "T",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 180,
+              "x2": 115,
+              "y2": 215,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 180,
+              "x2": 240,
+              "y2": 215,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 465,
+              "y1": 180,
+              "x2": 405,
+              "y2": 215,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 465,
+              "y1": 180,
+              "x2": 530,
+              "y2": 215,
+              "stroke": "#278B9A",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 245,
+              "text": "R≥2",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 216,
+              "y": 245,
+              "text": "R<2",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 245,
+              "text": "R≥2",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 506,
+              "y": 245,
+              "text": "R<2",
+              "fontSize": 18,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 116,
+              "y": 291,
+              "text": "任何一级不清楚都可待定",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1316-blind",
+          "description": "相同两图给两位参与者，记录互不查看；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 113,
+              "width": 205,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 113,
+              "width": 205,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 151,
+              "text": "甲：独立记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 151,
+              "text": "乙：独立记录",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 108,
+              "x2": 320,
+              "y2": 268,
+              "stroke": "#BC6A38",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 107,
+              "y": 291,
+              "text": "同图同规则；先不互看答案",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        },
+        {
+          "sceneKey": "leaf-1316-version",
+          "description": "保留规则版本与测试记录；工具/轮廓示意不按比例，不预填照片结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 113,
+              "width": 210,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 113,
+              "width": 210,
+              "height": 145,
+              "fill": "#F6F1DC",
+              "stroke": "#52715B",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 92,
+              "y": 151,
+              "text": "v1与分歧证据",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 382,
+              "y": 151,
+              "text": "v2改了哪一条",
+              "fontSize": 20,
+              "fill": "#183A46",
+              "anchor": "start"
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 292,
+              "text": "重用旧图，不叫全新验证",
+              "fontSize": 19,
+              "fill": "#183A46",
+              "anchor": "start"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

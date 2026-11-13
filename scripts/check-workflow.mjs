@@ -7,7 +7,7 @@ const pins={
  'actions/setup-node':'949feb2413d6458794dcd2491c4babbbce0c15c1'
 };
 const uses=[...s.matchAll(/uses:\s+([^@\s]+)@([a-f0-9]{40})/g)];
-assert.equal(uses.length,5);
+assert.equal(uses.length,7);
 for(const [,action,sha] of uses)assert.equal(sha,pins[action],`Unexpected action revision: ${action}`);
 assert.match(s,/permissions:\n  contents: read/);
 assert.ok(!/^\s+(pull_request_target|workflow_run):/m.test(s));
@@ -16,10 +16,10 @@ assert.match(s,/needs\.check\.outputs\.deployment_enabled == 'true'/);
 assert.match(s,/\(vars\.CLOUDFLARE_DEPLOY_ENABLED == '' \|\| vars\.CLOUDFLARE_DEPLOY_ENABLED == 'true'\)/);
 assert.match(s,/deployment_enabled: \$\{\{ steps\.policy\.outputs\.enabled \}\}/);
 assert.match(s,/typeof enabled !== 'boolean'/);
-assert.match(s,/needs: check/);
+assert.match(s,/needs: \[check, curriculum-release-readiness\]/);
 assert.match(s,/environment: cloudflare-production/);
 assert.match(s,/cancel-in-progress: false/);
-assert.equal((s.match(/persist-credentials: false/g)||[]).length,2);
+assert.equal((s.match(/persist-credentials: false/g)||[]).length,3);
 const [check,deploy]=s.split('\n  deploy:');assert.ok(deploy);
 assert.ok(!/secrets\./.test(check),'PR job must not reference secrets');
 assert.equal((s.match(/secrets\.CLOUDFLARE_API_TOKEN/g)||[]).length,1);
@@ -31,6 +31,10 @@ for(const [path,p] of Object.entries(lock.packages))if(path){assert.ok(p.integri
 console.log('Workflow policy assertions, verified action pins, and exact Wrangler lockfile checks passed. These are local structural checks, not a GitHub Actions execution.');
 
 assert.equal(pkg.devDependencies['@playwright/test'],'1.64.1');assert.equal(lock.packages['node_modules/@playwright/test'].version,'1.64.1');assert.match(check,/npx --no-install playwright install --with-deps chromium/);assert.match(check,/npm run test:browser/);
+assert.match(check,/npm run test:curriculum:complete/,'Incomplete age protocols must block publication');
+assert.match(check,/npm run test:curriculum:partial/);
+assert.match(deploy,/npm run test:curriculum:complete/,'Exact deployed content must recheck coverage');
+assert.equal(pkg.scripts['test:curriculum:complete'],'node scripts/check-age-protocols.mjs');
 
 assert.match(check,/google-chrome --version/);assert.match(check,/chromium.launch\(\{channel: 'chrome'\}\)/);assert.match(check,/PLAYWRIGHT_CHANNEL=chrome/);
 
@@ -52,3 +56,47 @@ console.log('Account runtime tests, private-config preflight, recovery-bookmark 
 assert.match(deploy,/node scripts\/account-runtime-config\.mjs/);
 for(const name of ['RESEND_API_KEY','EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL']){assert.ok(deploy.includes(`secrets.${name}`));assert.ok(!s.includes(`vars.${name}`),`Private configuration ${name} must never use public-log variables`);}
 assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('wrangler secret list'));
+assert.match(deploy,/set -euo pipefail/,'Runtime preflight failure must stop the deployment shell');
+assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('d1 time-travel info'));
+assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('d1 migrations apply'));
+assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('wrangler deploy'));
+
+// Preview is an explicit, exact-candidate exception, never the default path.
+const jobBlocks=Object.fromEntries(['check','curriculum-release-readiness','deploy'].map(name=>{
+ const start=s.indexOf(`\n  ${name}:\n`);assert.ok(start>=0);
+ const rest=s.slice(start+1);
+ // Job names have exactly two spaces; nested fields have four or more.
+ const boundary=rest.slice(3).search(/\n  [a-z][a-z-]*:\n/);
+ return [name,boundary<0?rest:rest.slice(0,boundary+3)];
+}));
+const steps=job=>job.split(/\n      - name: /).slice(1).map(block=>({name:block.split('\n')[0],block}));
+const named=(job,name)=>{const matches=steps(job).filter(step=>step.name===name);assert.equal(matches.length,1,`Expected one step: ${name}`);return matches[0].block;};
+assert.match(s,/workflow_dispatch:\n    inputs:\n      release_mode:\n        description: [^\n]+\n        type: choice\n        required: true\n        default: standard\n        options:\n          - standard\n          - personal-preview-20261109\n/);
+assert.match(s,/RELEASE_MODE: \$\{\{ inputs\.release_mode \|\| 'standard' \}\}/);
+assert.ok(!/continue-on-error:|always\(\).*needs\./.test(s),'No failed-check deployment fallback');
+assert.equal((s.match(/run: node scripts\/check-release-mode\.mjs/g)||[]).length,3);
+const skip="        if: steps.release.outputs.personal_preview != 'true'\n";
+for(const [name,job]of Object.entries(jobBlocks)){
+ assert.equal((job.match(/        id: release\n/g)||[]).length,1,`${name} must validate its own exact revision`);
+ assert.ok(job.indexOf('run: node scripts/check-release-mode.mjs')<job.indexOf(skip),`${name} cannot skip before validation`);
+ const selector=steps(job).find(step=>step.block.includes('id: release\n'));
+ assert.ok(selector&&!/\n        if:|continue-on-error/.test(selector.block),'Release selector must be unconditional and fail closed');
+}
+const checkJob=jobBlocks.check,readyJob=jobBlocks['curriculum-release-readiness'];
+for(const name of ['Verify runner Chrome or install pinned Chromium','Ensure Chinese glyphs exist for actual visual review','Verify desktop and mobile browser flows','Verify archived static visual evidence for standard releases'])assert.ok(named(checkJob,name).includes(skip),`Only validated preview may defer ${name}`);
+assert.ok(named(checkJob,'Retain synthetic interface screenshots for visual review').includes("        if: always() && steps.release.outputs.personal_preview != 'true'\n"));
+for(const [job,name]of [[readyJob,'Reject incomplete independent protocols and final review evidence for standard releases'],[deploy,'Recheck all five final reviews for standard deployment']]){
+ const step=named(job,name);assert.ok(step.includes(skip));assert.match(step,/\n        run: npm run test:curriculum:complete(?:\n|$)/);
+}
+for(const [job,name,command]of [[checkJob,'Check JavaScript syntax','npm run check:syntax'],[checkJob,'Check content, deployment policy and workflow','npm test'],[checkJob,'Audit authored age protocols without pretending the remaining curriculum is complete','npm run test:curriculum:partial'],[checkJob,'Validate Wrangler package without deploying','./node_modules/.bin/wrangler deploy --dry-run --config wrangler.jsonc'],[deploy,'Recheck deployable content','npm run check:syntax && npm test'],[deploy,'Verify approved repository, branch, account and Worker','node scripts/deploy-guard.mjs'],[deploy,'Migrate approved D1 and deploy account Worker using locked Wrangler',null]]){
+ const step=named(job,name);assert.ok(!/\n        if:|continue-on-error/.test(step),`Both release modes require ${name}`);if(command)assert.ok(step.split('\n').includes(`        run: ${command}`),name);
+}
+assert.ok(deploy.indexOf('run: node scripts/check-release-mode.mjs')<deploy.indexOf('run: node scripts/deploy-guard.mjs'));
+assert.equal((s.match(/if: steps\.release\.outputs\.personal_preview != 'true'/g)||[]).length,6);
+console.log('Standard browser/five-review gates remain strict; exact-candidate manual preview retains all common tests and deployment safeguards. This is structural validation, not a live Actions run.');
+
+assert.equal(pkg.scripts['test:visual-evidence'],'node --test scripts/static-scene-evidence.check.mjs');
+assert.match(named(checkJob,'Verify archived static visual evidence for standard releases'),/run: npm run test:visual-evidence/);
+
+assert.equal((s.match(/run: npm run prepare:source/g)||[]).length,3);
+for(const job of Object.values(jobBlocks))assert.ok(job.indexOf('run: npm run prepare:source')<job.indexOf('run: node scripts/check-release-mode.mjs'));

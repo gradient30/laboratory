@@ -1,0 +1,3212 @@
+{
+  "activityId": 26,
+  "activityTitle": "盐为什么改变冰的融化",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "给一块冰的上表面中央撒少量盐后，10分钟里能看到哪些形状变化？",
+      "materials": [
+        "同次制成的冰块1块（制冰水20毫升）",
+        "塑料浅盘1个，容量至少100毫升、直径约10厘米；食盐1/4平茶匙",
+        "同一格形冰格1个；带20毫升刻度的量杯1个（提前制冰用）",
+        "标1/4茶匙的量匙1把（体积1.25毫升，不代表固定克数）；成人用干净小勺1把（取放冰）",
+        "稳定大托盘1个；干燥吸水布1块；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "冰块和盐全由成人用勺取放，儿童只隔盘观察；不得把冰、盐或冰盐水贴在皮肤上，不做“盐冰挑战”、不握冰测试冷暖，避免冷伤。全部材料不入口、不摸眼，不用手翻冰。仅用普通食盐，不用除冰剂、肥料或其他化学品；只在室温操作，不加热、不用温水、风扇、吹气或日晒催融。所有浅盘敞口放托盘，远离电器和桌沿；盐低位轻撒不扬尘，泼出即停止该盘并标异常，水迹成人及时擦干。达到该龄观察终点就结束；成人用勺清理残冰和盐水、洗净盘与手，不留置过夜。",
+      "steps": [
+        {
+          "title": "先看一块完整冰",
+          "action": "成人提前制冰。提前用同一量杯给同形冰格每格量入20毫升饮用水，同一轮冷冻到完全坚硬。取出时挑形状接近、无明显缺角者；同格同水量只使条件近似，不能保证冰的质量、内部气泡与起始温度完全相同。用小勺把1块放到托盘中的干燥浅盘中央，孩子从侧上方画出起点轮廓，不触摸。",
+          "actor": "adult",
+          "caption": "先看冰的边和上面。",
+          "adultNote": "单盘只观察变化，不作有盐/无盐对照结论。"
+        },
+        {
+          "title": "成人在中央撒盐",
+          "action": "成人量1/4平茶匙食盐，低位轻撒到冰的上表面中央，立即作为0分钟起点。不翻冰、不搅水、不再补盐。",
+          "actor": "adult",
+          "caption": "盐由大人放，手离开冰。",
+          "adultNote": "盐可能随表面水扩散，所以未撒到的边缘也不能当独立对照。"
+        },
+        {
+          "title": "回来找形状变化",
+          "action": "在0、5、10分钟从同一侧上方观察上面凹凸、边缘和是否仍见固冰。孩子指出看到的变化或没看清，由成人画或记；不以盘中水摊大小说融化多少。",
+          "actor": "together",
+          "caption": "看边缘和凹处，不比水摊。",
+          "adultNote": "表面白色点也可能是盐粒，不要求孩子辨认每个点。"
+        },
+        {
+          "title": "10分钟就结束",
+          "action": "孩子说出起点与10分钟最明显的一处相同或不同；成人立即收盘、用勺清理。若已无可见固冰，记发现时刻，不承诺精确融完秒数。",
+          "actor": "child",
+          "caption": "没有看出差别也可以。",
+          "adultNote": "不用延长到全化、不用手摸或吹气追变化。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "冰是固态水",
+          "一个物体随时间变形",
+          "盐粒与凹坑不是一回事"
+        ],
+        "explanation": "盐碰到表面的水可溶进去，改变水结成冰的条件，因此冰面可能出现不同的凹凸。融化仍需要热量，不是盐把冰烧热。",
+        "limits": "只有一块冰，没有不加盐对照，不能证明每个变化都是盐造成的。盐会移动，中央与边缘不算两个独立实验。",
+        "observation": "0、5、10分钟轮廓、凹凸及看不清的位置，不用水摊代替冰量。",
+        "nextQuestion": "不撒盐的另一块冰也会变吗？"
+      },
+      "guide": {
+        "goal": "执行单冰局部撒盐后的10分钟形态观察。",
+        "observe": "给一块冰的上表面中央撒少量盐后，10分钟里能看到哪些形状变化？",
+        "support": "成人负责制冰、量盐、放冰和清理；孩子按固定视角观察、计时和记录，低龄可口述代记。",
+        "control": "一块约20毫升水制成的冰，中央一次1/4平茶匙盐，不翻不搅。",
+        "time": "准备约3分钟，观察10分钟；冰提前冻好。",
+        "recordFields": [
+          "起点轮廓",
+          "5／10分钟形状与孩子原话",
+          "不清楚或提前无冰的时刻"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "saltice-46-start",
+          "description": "一块冰在一只敞口浅盘中；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 220,
+              "x2": 200,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 235,
+              "x2": 420,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 285.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 90,
+              "text": "1块冰：先看完整轮廓",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 285,
+              "text": "手不摸冰，不入口",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-46-salt",
+          "description": "成人只给上表面中央撒1/4匙；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 220,
+              "x2": 200,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 235,
+              "x2": 420,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 285.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 298.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 306.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 314.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 310,
+              "y": 120,
+              "r": 10,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 120,
+              "x2": 355,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 310,
+              "y1": 133,
+              "x2": 310,
+              "y2": 170,
+              "stroke": "#AF7546",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 90,
+              "text": "成人中央撒1/4平茶匙盐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 285,
+              "text": "不翻、不搅、不补盐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-46-watch",
+          "description": "原位观察，不画预期凹坑；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 220,
+              "x2": 200,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 235,
+              "x2": 420,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 285.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 298.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 306.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 314.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 90,
+              "text": "0、5、10分钟：看形状",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 455,
+              "y1": 180,
+              "x2": 337,
+              "y2": 195,
+              "stroke": "#AF7546",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 285,
+              "text": "水摊不等于融化量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-46-end",
+          "description": "10分钟实记后收盘，盘中状态不预填；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 220,
+              "x2": 200,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 235,
+              "x2": 420,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 292.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 90,
+              "text": "10分钟结束：照实画或说",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 285,
+              "text": "残冰由成人用勺清理",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜What Makes Ice Melt Fastest?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p049/chemistry/what-makes-ice-melt-fastest",
+          "claim": "比较添加物对冰的融化过程需要统一冰块准备、容器和观察规则。",
+          "scope": "只参考比较方法；本活动仅食盐，不复制多种添加物，也不以水摊面积测融化质量。"
+        },
+        {
+          "title": "Lunar and Planetary Institute｜The Melting Point",
+          "url": "https://www.lpi.usra.edu/education/explore/ice/activities/investigations/melting_point/",
+          "claim": "盐溶入水会降低溶液凝固点；冰盐混合物可比单纯冰水更冷，融化需要能量。",
+          "scope": "只支持相变和能量解释；不采用原文冰淇淋袋、入口或保证盐冰先化完的说法。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做，不预填融化结果或必然排序。盐量是量匙配方而非实测溶液浓度；相变需吸热，室温和接触条件影响全过程。来源支持原理，不代表机构认证。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "撒盐与不撒盐的两块冰，形状变化和无可见固冰的时间区间有什么不同？",
+      "materials": [
+        "同冰格同次冰块2块，每格制冰水20毫升",
+        "相同塑料浅盘2个，各至少100毫升、直径约10厘米；标签2张",
+        "食盐1/4平茶匙，仅A盘使用",
+        "同一格形冰格1个；带20毫升刻度的量杯1个（提前制冰用）",
+        "标1/4茶匙的量匙1把（体积1.25毫升，不代表固定克数）；成人用干净小勺1把（取放冰）",
+        "稳定大托盘1个；干燥吸水布1块；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "冰块和盐全由成人用勺取放，儿童只隔盘观察；不得把冰、盐或冰盐水贴在皮肤上，不做“盐冰挑战”、不握冰测试冷暖，避免冷伤。全部材料不入口、不摸眼，不用手翻冰。仅用普通食盐，不用除冰剂、肥料或其他化学品；只在室温操作，不加热、不用温水、风扇、吹气或日晒催融。所有浅盘敞口放托盘，远离电器和桌沿；盐低位轻撒不扬尘，泼出即停止该盘并标异常，水迹成人及时擦干。达到该龄观察终点就结束；成人用勺清理残冰和盐水、洗净盘与手，不留置过夜。",
+      "steps": [
+        {
+          "title": "准备近似配对的两块冰",
+          "action": "提前用同一量杯给同形冰格每格量入20毫升饮用水，同一轮冷冻到完全坚硬。取出时挑形状接近、无明显缺角者；同格同水量只使条件近似，不能保证冰的质量、内部气泡与起始温度完全相同。成人将A、B两盘并排放在避阳光和风口的室温处；用勺取放冰，尽量在30秒内完成，记录各盘放冰时刻与初始形状差异。",
+          "actor": "adult",
+          "caption": "同一冰格，也只是近似相同。",
+          "adultNote": "两盘干燥同型，放冰后不再换位置。"
+        },
+        {
+          "title": "只A撒盐并统一起点",
+          "action": "A上表面均匀撒1/4平茶匙盐，B不加任何东西；以完成A加盐为共同0分钟，记下前面取冰的时间差。两盘不搅拌、不翻动。",
+          "actor": "adult",
+          "caption": "A有盐，B不加。",
+          "adultNote": "盐量一次加完，不让盐落进B；污染要记。"
+        },
+        {
+          "title": "每5分钟回来检查",
+          "action": "终点定义为从同一侧肉眼不再看见固态冰，不是仅见出水或盐粒消失。每5分钟检查一次，记最后确认仍有冰的时刻t有与首次确认无冰的时刻t无，报告(t有,t无]分钟；看不清写“状态不明”，错过检查写实际时间，不猜终点。60分钟仍明确有冰记“超过60分钟”；60分钟看不清记“60分钟状态不明”，两者不同。同时画0、5、10、20分钟的剩余冰轮廓和凹坑，不按水摊大小排名。每盘确认无冰后不再等待该盘，保留记录。",
+          "actor": "child",
+          "caption": "找固冰，不把盐粒当冰。",
+          "adultNote": "观察不清就保留不确定；看见水不等于全部融完。"
+        },
+        {
+          "title": "最迟60分钟收尾",
+          "action": "比较两盘各自形态和终点区间；有重叠或一盘限时未化就直接说明，不能填虚构分钟数。到共同60分钟停止，成人清理所有残冰与盐水。",
+          "actor": "together",
+          "caption": "区间和超过60分钟都是真记录。",
+          "adultNote": "不宣称盐一定更快化完；一次配对不能概括所有环境。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "不加盐的参照盘",
+          "出水与固冰消失是不同指标",
+          "间隔观察得到时间区间"
+        ],
+        "explanation": "室温下两块冰都可从环境吸热。盐溶在表面水中会降低该溶液的凝固点，影响局部相变；最后谁先无可见固冰，还受初始冰量、盘子和传热影响。",
+        "limits": "两块冰未称重或测初温，每条件一块；5分钟检查只能得到区间。水在盘上的铺展与盐溶解改变水摊，不能据此测融化质量。",
+        "observation": "两盘形态及每5分钟仍有冰/无冰/不明，终点区间或60分钟截断。",
+        "nextQuestion": "实际改变撒盐配方用量，形态是否也按同样顺序改变？"
+      },
+      "guide": {
+        "goal": "执行真实盐/不盐双盘与固冰消失区间记录。",
+        "observe": "撒盐与不撒盐的两块冰，形状变化和无可见固冰的时间区间有什么不同？",
+        "support": "成人负责制冰、量盐、放冰和清理；孩子按固定视角观察、计时和记录，低龄可口述代记。",
+        "control": "近似相同冰2块、同盘型同位置环境，A盐1/4匙、B无盐；统一0分钟，每5分钟。",
+        "time": "主动约10分钟；每5分钟查看，最长60分钟。",
+        "recordFields": [
+          "初始两冰差异和取放时间",
+          "A各时点形态与固冰状态",
+          "B各时点形态与固冰状态",
+          "终点区间／超过60分钟／不明"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "saltice-79-start",
+          "description": "同型双盘各一冰，初始无盐；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 220,
+              "x2": 90,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 235,
+              "x2": 240,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 235,
+              "x2": 240,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 220,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 235,
+              "x2": 530,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 530,
+              "y1": 235,
+              "x2": 530,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 90,
+              "text": "近似相同，不保证完全相等",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 285,
+              "text": "A 待加盐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 415,
+              "y": 285,
+              "text": "B 不加",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-79-salt",
+          "description": "只A表面撒1/4匙；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 220,
+              "x2": 90,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 235,
+              "x2": 240,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 235,
+              "x2": 240,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 153.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 161.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 169.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 220,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 235,
+              "x2": 530,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 530,
+              "y1": 235,
+              "x2": 530,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 165,
+              "y": 120,
+              "r": 10,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 120,
+              "x2": 210,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 165,
+              "y1": 133,
+              "x2": 165,
+              "y2": 170,
+              "stroke": "#AF7546",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 90,
+              "text": "A 1/4匙；B 无盐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 285,
+              "text": "以A加盐完成为0分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-79-watch",
+          "description": "双盘固定位置，结果不预填；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 220,
+              "x2": 90,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 235,
+              "x2": 240,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 235,
+              "x2": 240,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 220,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 235,
+              "x2": 530,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 530,
+              "y1": 235,
+              "x2": 530,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 90,
+              "text": "每5分钟：有冰／无冰／不明",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 285,
+              "text": "不以水摊面积推算冰量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-79-end",
+          "description": "末次状态待实际记录，非预言全融；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 220,
+              "x2": 90,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 235,
+              "x2": 240,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 235,
+              "x2": 240,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 147.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 220,
+              "x2": 380,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 235,
+              "x2": 530,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 530,
+              "y1": 235,
+              "x2": 530,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 437.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 90,
+              "text": "最后有冰 → 首次无冰：区间",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 285,
+              "text": "60分钟截止，不加热催融",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜What Makes Ice Melt Fastest?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p049/chemistry/what-makes-ice-melt-fastest",
+          "claim": "比较添加物对冰的融化过程需要统一冰块准备、容器和观察规则。",
+          "scope": "只参考比较方法；本活动仅食盐，不复制多种添加物，也不以水摊面积测融化质量。"
+        },
+        {
+          "title": "Lunar and Planetary Institute｜The Melting Point",
+          "url": "https://www.lpi.usra.edu/education/explore/ice/activities/investigations/melting_point/",
+          "claim": "盐溶入水会降低溶液凝固点；冰盐混合物可比单纯冰水更冷，融化需要能量。",
+          "scope": "只支持相变和能量解释；不采用原文冰淇淋袋、入口或保证盐冰先化完的说法。"
+        },
+        {
+          "title": "Science Buddies｜Use Chemistry to Lift Ice Cubes",
+          "url": "https://www.sciencebuddies.org/stem-activities/lift-ice-cubes",
+          "claim": "盐改变表面水溶液凝固条件，融冰过程吸热；盐并非把冰加热。",
+          "scope": "仅核对热量与凝固点解释，不使用绳提冰或再次冻结作为本活动目标。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做，不预填融化结果或必然排序。盐量是量匙配方而非实测溶液浓度；相变需吸热，室温和接触条件影响全过程。来源支持原理，不代表机构认证。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "不加盐、1/4平茶匙盐、1/2平茶匙盐三种配方，在20分钟内的冰面形态有什么差别？",
+      "materials": [
+        "同冰格同次冰块3块，每格制冰水20毫升",
+        "相同塑料浅盘3个，各至少100毫升、直径约10厘米；标签3张",
+        "同一包食盐共3/4平茶匙；A不加、B一勺1/4、C两勺1/4（合1/2）",
+        "同一格形冰格1个；带20毫升刻度的量杯1个（提前制冰用）",
+        "标1/4茶匙的量匙1把（体积1.25毫升，不代表固定克数）；成人用干净小勺1把（取放冰）",
+        "稳定大托盘1个；干燥吸水布1块；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "冰块和盐全由成人用勺取放，儿童只隔盘观察；不得把冰、盐或冰盐水贴在皮肤上，不做“盐冰挑战”、不握冰测试冷暖，避免冷伤。全部材料不入口、不摸眼，不用手翻冰。仅用普通食盐，不用除冰剂、肥料或其他化学品；只在室温操作，不加热、不用温水、风扇、吹气或日晒催融。所有浅盘敞口放托盘，远离电器和桌沿；盐低位轻撒不扬尘，泼出即停止该盘并标异常，水迹成人及时擦干。达到该龄观察终点就结束；成人用勺清理残冰和盐水、洗净盘与手，不留置过夜。",
+      "steps": [
+        {
+          "title": "准备三种剂量配方",
+          "action": "提前用同一量杯给同形冰格每格量入20毫升饮用水，同一轮冷冻到完全坚硬。取出时挑形状接近、无明显缺角者；同格同水量只使条件近似，不能保证冰的质量、内部气泡与起始温度完全相同。成人给三盘标A0、B1/4、C1/2。三盘并排留间隔，避风口日晒；从同一冰格用勺取3块各放一盘，尽量1分钟内完成，记录各自放冰时刻与起点差异。",
+          "actor": "adult",
+          "caption": "三块近似冰，三种实际配方。",
+          "adultNote": "量匙为体积配方，不称它为已知克数或精确盐浓度。"
+        },
+        {
+          "title": "按配方一次加完",
+          "action": "A不加；B表面均匀撒一平勺1/4茶匙；C连续均匀撒两平勺1/4茶匙。记录B/C各自加盐完成时刻；以C完成加盐为共同0分钟，并保留准备先后差。都不翻冰、不搅拌、不补盐。",
+          "actor": "adult",
+          "caption": "两平勺1/4，才是1/2。",
+          "adultNote": "C不是在B上再加；它是独立第三块冰。每勺不能压实或堆尖。"
+        },
+        {
+          "title": "同刻观察形态而非水摊",
+          "action": "在共同0、5、10、20分钟，以相同侧上方视角画三盘剩余固冰轮廓、凹坑、可见盐粒和有无固冰，不移动浅盘。可见盐粒记“未溶固体待分辨”，不能当冰或浓度数值。",
+          "actor": "child",
+          "caption": "配方量不等于溶液浓度。",
+          "adultNote": "20分钟内若已经无可见固冰，记发现时刻；不凭水摊面积换算融冰质量或速率。"
+        },
+        {
+          "title": "20分钟收尾保留非排序结果",
+          "action": "按三列比较同刻形态，允许无明显差别、非单调或无法辨认。20分钟立即结束，成人清理，不要求所有冰化完；未化完写“20分钟仍有冰”，不是全程融化时间。",
+          "actor": "together",
+          "caption": "盐加倍，不等于融化加倍。",
+          "adultNote": "每配方仅一块冰；初始冰差异、盐覆盖与传热都影响表现，不给精确剂量—速率关系。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "真实三剂量配方",
+          "加入量、已溶浓度与覆盖面积不同",
+          "固定观察窗的形态比较"
+        ],
+        "explanation": "盐必须溶入水才能形成溶液并改变其凝固条件。加盐配方不同会改变表面覆盖和可溶入的盐量，但融出的水也在变化；因此1/2匙并不意味着实际溶液浓度恰好是1/4匙的两倍。",
+        "limits": "没有称冰和盐、没有测浓度或温度，盐还可能未溶。20分钟形态不等于最终融化时间，水摊大小不等于融化量；不能宣称盐越多必然越快或线性加倍。",
+        "observation": "三配方在0/5/10/20分钟的冰形、凹坑、盐粒和有无冰；记录取放先后。",
+        "nextQuestion": "如果盐量相同但晚10分钟才加，改变了哪些条件？"
+      },
+      "guide": {
+        "goal": "实际配制0、1/4、1/2匙三盘冰，在固定20分钟比较形态。",
+        "observe": "不加盐、1/4平茶匙盐、1/2平茶匙盐三种配方，在20分钟内的冰面形态有什么差别？",
+        "support": "成人负责制冰、量盐、放冰和清理；孩子按固定视角观察、计时和记录，低龄可口述代记。",
+        "control": "同批近似冰、同盘型、同盐，成人一次加完；共同0/5/10/20分钟，不移动盘。",
+        "time": "准备约5分钟，观察20分钟；不追踪至全化。",
+        "recordFields": [
+          "三冰初始差异和加盐时刻",
+          "A0／B1/4各时点形态",
+          "C1/2各时点形态与可见盐粒",
+          "20分钟状态与不能量化的原因"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "saltice-1012-start",
+          "description": "三盘各一冰，剂量标签先放好；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 220,
+              "x2": 55,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 235,
+              "x2": 205,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 235,
+              "x2": 205,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 105.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 275,
+              "text": "A 0匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 220,
+              "x2": 245,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 235,
+              "x2": 395,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 235,
+              "x2": 395,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 295.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 275,
+              "text": "B 1/4匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 220,
+              "x2": 435,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 235,
+              "x2": 585,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 585,
+              "y1": 235,
+              "x2": 585,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 485.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 275,
+              "text": "C 1/2匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 90,
+              "text": "三盘同型；每冰约20毫升水制成",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1012-dose",
+          "description": "B一平量匙、C两平量匙，各1/4茶匙；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 220,
+              "x2": 55,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 235,
+              "x2": 205,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 235,
+              "x2": 205,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 105.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 275,
+              "text": "A 0匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 220,
+              "x2": 245,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 235,
+              "x2": 395,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 235,
+              "x2": 395,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 295.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 308.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 316.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 324.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 275,
+              "text": "B 1/4匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 220,
+              "x2": 435,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 235,
+              "x2": 585,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 585,
+              "y1": 235,
+              "x2": 585,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 485.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 498.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 506.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 514.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 522.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 530.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 275,
+              "text": "C 1/2匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 90,
+              "text": "B一勺；C两勺；每勺1/4",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1012-watch",
+          "description": "三盘原位观察，不画预设融化量；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 220,
+              "x2": 55,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 235,
+              "x2": 205,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 235,
+              "x2": 205,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 105.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 275,
+              "text": "A 0匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 220,
+              "x2": 245,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 235,
+              "x2": 395,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 235,
+              "x2": 395,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 295.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 308.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 316.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 324.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 275,
+              "text": "B 1/4匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 220,
+              "x2": 435,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 235,
+              "x2": 585,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 585,
+              "y1": 235,
+              "x2": 585,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 485.0,
+              "y": 185,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 498.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 506.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 514.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 522.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 530.0,
+              "y": 189,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 275,
+              "text": "C 1/2匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 90,
+              "text": "0、5、10、20分钟：看形态",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1012-end",
+          "description": "20分钟状态按实际记录而非预置融完；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 220,
+              "x2": 55,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 235,
+              "x2": 205,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 235,
+              "x2": 205,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 112.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 275,
+              "text": "A 0匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 220,
+              "x2": 245,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 235,
+              "x2": 395,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 395,
+              "y1": 235,
+              "x2": 395,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 302.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 275,
+              "text": "B 1/4匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 220,
+              "x2": 435,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 435,
+              "y1": 235,
+              "x2": 585,
+              "y2": 235,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 585,
+              "y1": 235,
+              "x2": 585,
+              "y2": 220,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 492.0,
+              "y": 220,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 275,
+              "text": "C 1/2匙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 90,
+              "text": "20分钟结束，不催到全化",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜What Makes Ice Melt Fastest?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p049/chemistry/what-makes-ice-melt-fastest",
+          "claim": "比较添加物对冰的融化过程需要统一冰块准备、容器和观察规则。",
+          "scope": "只参考比较方法；本活动仅食盐，不复制多种添加物，也不以水摊面积测融化质量。"
+        },
+        {
+          "title": "Lunar and Planetary Institute｜The Melting Point",
+          "url": "https://www.lpi.usra.edu/education/explore/ice/activities/investigations/melting_point/",
+          "claim": "盐溶入水会降低溶液凝固点；冰盐混合物可比单纯冰水更冷，融化需要能量。",
+          "scope": "只支持相变和能量解释；不采用原文冰淇淋袋、入口或保证盐冰先化完的说法。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做，不预填融化结果或必然排序。盐量是量匙配方而非实测溶液浓度；相变需吸热，室温和接触条件影响全过程。来源支持原理，不代表机构认证。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "同量盐在0分钟或10分钟加入，另设不加盐，各两盘的形态和固冰消失区间有什么差别？",
+      "materials": [
+        "同冰格同次冰块6块，每格制冰水20毫升",
+        "相同塑料浅盘6个，各至少100毫升、直径约10厘米；标签6张",
+        "同一包食盐共1平茶匙，分4份各1/4平茶匙；A1/A2即加、B1/B2晚加、C1/C2无盐",
+        "分装盐用干燥小碟4个，每碟预放1/4平茶匙（共4份）",
+        "同一格形冰格1个；带20毫升刻度的量杯1个（提前制冰用）",
+        "标1/4茶匙的量匙1把（体积1.25毫升，不代表固定克数）；成人用干净小勺1把（取放冰）",
+        "稳定大托盘1个；干燥吸水布1块；计时工具1个；记录纸1张、笔1支"
+      ],
+      "safety": "冰块和盐全由成人用勺取放，儿童只隔盘观察；不得把冰、盐或冰盐水贴在皮肤上，不做“盐冰挑战”、不握冰测试冷暖，避免冷伤。全部材料不入口、不摸眼，不用手翻冰。仅用普通食盐，不用除冰剂、肥料或其他化学品；只在室温操作，不加热、不用温水、风扇、吹气或日晒催融。所有浅盘敞口放托盘，远离电器和桌沿；盐低位轻撒不扬尘，泼出即停止该盘并标异常，水迹成人及时擦干。达到该龄观察终点就结束；成人用勺清理残冰和盐水、洗净盘与手，不留置过夜。",
+      "steps": [
+        {
+          "title": "六盘混排而非按处理挤一起",
+          "action": "提前用同一量杯给同形冰格每格量入20毫升饮用水，同一轮冷冻到完全坚硬。取出时挑形状接近、无明显缺角者；同格同水量只使条件近似，不能保证冰的质量、内部气泡与起始温度完全相同。成人先标A1、A2即盐，B1、B2晚盐，C1、C2不盐。托盘两行固定为前排A1/B1/C1，后排C2/A2/B2；各放1冰，尽量1分钟内完成并记录各盘放冰时刻。四份各1/4匙盐提前量好分开放。",
+          "actor": "adult",
+          "caption": "每种时序两盘，各是一块独立冰。",
+          "adultNote": "同批6冰只是近似，不称重就不能保证等量；两盘是处理的平行样本，但同冰格共享来源，不代表六批独立材料。"
+        },
+        {
+          "title": "实际执行早加和晚加",
+          "action": "共同0分钟开始，成人只给A1/A2各撒1/4匙，记实际加盐时刻，尽量30秒内完成。共同10分钟先观察六盘，再仅给仍明确有固冰的B1/B2各撒1/4匙，记实际时刻；若已无冰或看不清，取消该盘追加并标“晚加未实施/状态不明”，不把盐倒进水中假装同处理。C1/C2全程不加。",
+          "actor": "adult",
+          "caption": "晚加真的等10分钟，不给C加。",
+          "adultNote": "此后所有盘都不再加盐；不移动浅盘、不翻冰、不搅水。准备时丢盐或加错盘保留无效原因。"
+        },
+        {
+          "title": "保留两条时间轴",
+          "action": "所有盘用共同0分钟每5分钟检查至60分钟；在0、10分钟前、15、20分钟另记形态。对已实施加盐的盘同时写“距该盘实际加盐几分钟”，不把晚加盘20分钟误作加盐20分钟。终点定义为从同一侧肉眼不再看见固态冰，不是仅见出水或盐粒消失。每5分钟检查一次，记最后确认仍有冰的时刻t有与首次确认无冰的时刻t无，报告(t有,t无]分钟；看不清写“状态不明”，错过检查写实际时间，不猜终点。60分钟仍明确有冰记“超过60分钟”；60分钟看不清记“60分钟状态不明”，两者不同。",
+          "actor": "child",
+          "caption": "总经过时间与加盐后时间分开。",
+          "adultNote": "晚加前冰已经融了一段，剩冰量与温度可能不同；不能仅扣掉10分钟就宣称是同起点剂量效应。"
+        },
+        {
+          "title": "按处理比较两盘并保留截断",
+          "action": "比较A两盘、B已实际实施的盘、C两盘在相同总经过时间的状态及终点区间；加盐后等时比较只作补充且说明剩冰起点不同。B未实施不进入晚加效应结论。60分钟结束，明确有冰/不明分开，成人清理。",
+          "actor": "together",
+          "caption": "未实施、未融完、看不清不是同一类。",
+          "adultNote": "每处理仅两盘，不用把每5分钟记录当独立重复；不把限时未融填60或把盐处理必然排前。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "实际投盐时序与对照",
+          "平行盘与时间序列不是同一重复",
+          "双时间轴和处理未实施"
+        ],
+        "explanation": "盐溶入表面水后改变溶液凝固条件；融冰依然需吸热，盐冰混合物可能变冷而不是变热。晚加盐不仅缩短加盐后观察时长，还在已经变化的冰上操作，因此“何时加盐”是有真实初始状态差异的处理。",
+        "limits": "未测温度、质量或热流，不能从照片证明混合物变冷，也不能用终点区间测瞬时融化速率。环境传热、位置、冰尺寸和取冰先后影响结果；两盘不提供强统计保证。",
+        "observation": "六盘固定位置/初始差异，实际加盐时刻，双时间轴形态与有冰状态，终点区间和未实施/截断。",
+        "nextQuestion": "若要单独研究盐加入时冰的温度，需要增加哪种测量并如何控制探头干扰？"
+      },
+      "guide": {
+        "goal": "实际完成即加/10分钟晚加/不加盐三处理，各2盘，区分时序与终点证据。",
+        "observe": "同量盐在0分钟或10分钟加入，另设不加盐，各两盘的形态和固冰消失区间有什么差别？",
+        "support": "成人负责制冰、量盐、放冰和清理；孩子按固定视角观察、计时和记录，低龄可口述代记。",
+        "control": "6块同批近似冰、同盘型、四份各1/4匙，固定混排；同0分钟、每5分钟、共同60分钟截止。",
+        "time": "准备约8分钟；每5分钟短时检查，最长60分钟；主动约20分钟。",
+        "recordFields": [
+          "六盘初始、位置及实际加盐时刻",
+          "六盘总时间／加盐后时间与形态",
+          "各盘终点区间／限时／不明／未实施",
+          "处理内差异、处理间差异及限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "saltice-1316-layout",
+          "description": "固定混排六盘；全部尚未加盐；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 155,
+              "x2": 50,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 170,
+              "x2": 180,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 170,
+              "x2": 180,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 108,
+              "text": "A1 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 155,
+              "x2": 250,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 170,
+              "x2": 380,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 170,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 108,
+              "text": "B1 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 155,
+              "x2": 450,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 170,
+              "x2": 580,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 170,
+              "x2": 580,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 108,
+              "text": "C1 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 265,
+              "x2": 50,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 180,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 280,
+              "x2": 180,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 218,
+              "text": "C2 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 265,
+              "x2": 250,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 280,
+              "x2": 380,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 280,
+              "x2": 380,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 218,
+              "text": "A2 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 265,
+              "x2": 450,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 280,
+              "x2": 580,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 280,
+              "x2": 580,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 218,
+              "text": "B2 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 80,
+              "text": "起点：六盘近似冰，位置固定",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1316-now",
+          "description": "0分钟只有A1/A2加盐；B/C仍未加；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 155,
+              "x2": 50,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 170,
+              "x2": 180,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 170,
+              "x2": 180,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 103.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 111.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 119.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 108,
+              "text": "A1 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 155,
+              "x2": 250,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 170,
+              "x2": 380,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 170,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 108,
+              "text": "B1 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 155,
+              "x2": 450,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 170,
+              "x2": 580,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 170,
+              "x2": 580,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 108,
+              "text": "C1 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 265,
+              "x2": 50,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 180,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 280,
+              "x2": 180,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 218,
+              "text": "C2 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 265,
+              "x2": 250,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 280,
+              "x2": 380,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 280,
+              "x2": 380,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 303.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 311.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 319.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 218,
+              "text": "A2 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 265,
+              "x2": 450,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 280,
+              "x2": 580,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 280,
+              "x2": 580,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 218,
+              "text": "B2 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 80,
+              "text": "0分钟：A1、A2各1/4匙",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1316-later",
+          "description": "10分钟B仍有冰才加盐，图示已实施分支；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 155,
+              "x2": 50,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 170,
+              "x2": 180,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 170,
+              "x2": 180,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 103.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 111.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 119.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 108,
+              "text": "A1 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 155,
+              "x2": 250,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 170,
+              "x2": 380,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 170,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 303.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 311.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 319.0,
+              "y": 124,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 108,
+              "text": "B1 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 155,
+              "x2": 450,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 170,
+              "x2": 580,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 170,
+              "x2": 580,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 120,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 108,
+              "text": "C1 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 265,
+              "x2": 50,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 180,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 280,
+              "x2": 180,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 90.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 218,
+              "text": "C2 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 265,
+              "x2": 250,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 280,
+              "x2": 380,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 280,
+              "x2": 380,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 290.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 303.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 311.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 319.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 218,
+              "text": "A2 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 265,
+              "x2": 450,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 280,
+              "x2": 580,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 280,
+              "x2": 580,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490.0,
+              "y": 230,
+              "width": 50,
+              "height": 50,
+              "fill": "#D7E8EE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 503.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 511.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 519.0,
+              "y": 234,
+              "r": 3,
+              "fill": "#E9D7AE",
+              "stroke": "#A68B63",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 218,
+              "text": "B2 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 80,
+              "text": "10分钟：B确认有冰才加1/4匙",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "saltice-1316-end",
+          "description": "60分钟各盘状态待实记，不预填结果；装置位置示意、不按比例，冰形并非预测剩余冰量；“实记”表示该盘结果待实际观察。",
+          "elements": [
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 155,
+              "x2": 50,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 170,
+              "x2": 180,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 170,
+              "x2": 180,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 97.0,
+              "y": 155,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 108,
+              "text": "A1 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 155,
+              "x2": 250,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 170,
+              "x2": 380,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 170,
+              "x2": 380,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 297.0,
+              "y": 155,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 108,
+              "text": "B1 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 155,
+              "x2": 450,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 170,
+              "x2": 580,
+              "y2": 170,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 170,
+              "x2": 580,
+              "y2": 155,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 497.0,
+              "y": 155,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 108,
+              "text": "C1 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 265,
+              "x2": 50,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 180,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 280,
+              "x2": 180,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 97.0,
+              "y": 265,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 218,
+              "text": "C2 无盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 265,
+              "x2": 250,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 280,
+              "x2": 380,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 280,
+              "x2": 380,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 297.0,
+              "y": 265,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 218,
+              "text": "A2 即盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 265,
+              "x2": 450,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 280,
+              "x2": 580,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 580,
+              "y1": 280,
+              "x2": 580,
+              "y2": 265,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 497.0,
+              "y": 265,
+              "text": "实记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 460,
+              "y": 218,
+              "text": "B2 晚盐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 80,
+              "text": "60分钟结束：区间或截断",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science Buddies｜What Makes Ice Melt Fastest?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/Chem_p049/chemistry/what-makes-ice-melt-fastest",
+          "claim": "比较添加物对冰的融化过程需要统一冰块准备、容器和观察规则。",
+          "scope": "只参考比较方法；本活动仅食盐，不复制多种添加物，也不以水摊面积测融化质量。"
+        },
+        {
+          "title": "Lunar and Planetary Institute｜The Melting Point",
+          "url": "https://www.lpi.usra.edu/education/explore/ice/activities/investigations/melting_point/",
+          "claim": "盐溶入水会降低溶液凝固点；冰盐混合物可比单纯冰水更冷，融化需要能量。",
+          "scope": "只支持相变和能量解释；不采用原文冰淇淋袋、入口或保证盐冰先化完的说法。"
+        },
+        {
+          "title": "Science Buddies｜Use Chemistry to Lift Ice Cubes",
+          "url": "https://www.sciencebuddies.org/stem-activities/lift-ice-cubes",
+          "claim": "盐改变表面水溶液凝固条件，融冰过程吸热；盐并非把冰加热。",
+          "scope": "仅核对热量与凝固点解释，不使用绳提冰或再次冻结作为本活动目标。"
+        }
+      ],
+      "sourceNote": "独立家庭改编，未实地试做，不预填融化结果或必然排序。盐量是量匙配方而非实测溶液浓度；相变需吸热，室温和接触条件影响全过程。来源支持原理，不代表机构认证。"
+    }
+  }
+}

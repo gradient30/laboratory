@@ -1,0 +1,2724 @@
+{
+  "activityId": 296,
+  "activityTitle": "样本能代表整盒彩卡吗",
+  "contentKey": "annual-m039",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "只看这一小组能知道全套吗？",
+      "materials": [
+        "普通白纸或废纸2张制卡，铅笔和成人专用剪刀；另备本龄记录页。",
+        "本龄页面：preschool-input、cards-1、cards-2、preschool-record、preschool-work、conclusion-4-6、reference-young。先读safety，参考最后看。"
+      ],
+      "safety": "成人预制和剪裁12张大纸卡，儿童不操作剪刀；剪后收起剪刀与碎屑。只用纸、铅笔、橡皮，纸片和笔不入口；4—6岁成人全程近距离陪伴。桌面操作，不蒙眼走动、不抛卡；疲倦即可停。",
+      "steps": [
+        {
+          "title": "看全套卡里有两类",
+          "caption": "看全套卡里有两类",
+          "action": "成人按preschool-input备12张大卡8A4B并展示全套，孩子只指A或B，不要求自己数卡、认字或写字。",
+          "actor": "together",
+          "adultNote": "成人完成全部摆、抽、数和代记，孩子仅指认；四张记完才全放回。"
+        },
+        {
+          "title": "只看成人摆的顶组",
+          "caption": "只看成人摆的顶组",
+          "action": "成人把4B放顶部、8A在下，取出顶部4张给孩子指认，再展开全套让孩子找出A；preschool-record成人记原话，不要求比较分数。",
+          "actor": "together",
+          "adultNote": "成人完成全部摆、抽、数和代记，孩子仅指认；四张记完才全放回。"
+        },
+        {
+          "title": "看成人混后抽一组",
+          "caption": "看成人混后抽一组",
+          "action": "成人将全部12张恢复并背面朝上洗混，不看标记选4张；一轮内不放回，完整4张翻开并由成人记完后才全部放回，孩子只观察或指认，不必预测几张A。",
+          "actor": "together",
+          "adultNote": "成人完成全部摆、抽、数和代记，孩子仅指认；四张记完才全放回。"
+        },
+        {
+          "title": "说出小组不是全套",
+          "caption": "说出小组不是全套",
+          "action": "preschool-work与conclusion-4-6由成人代画代记孩子指到什么、还不知道什么；不计算、不要求混后组接近全套。",
+          "actor": "together",
+          "adultNote": "成人完成全部摆、抽、数和代记，孩子仅指认；四张记完才全放回。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一小组",
+          "全套"
+        ],
+        "explanation": "小组只包含全套中的一些卡，看到小组全是B也不说明全套全是B。",
+        "limits": "孩子只指认“只看这一小组”和“把全套看完”；成人负责做卡、摆卡、混卡、抽卡和记原话。不要要求孩子算比例、平均数或概率；样本出现什么就保留，不说必须与整套一样。",
+        "observation": "成人把4B放顶部、8A在下，取出顶部4张给孩子指认，再展开全套让孩子找出A；preschool-record成人记原话，不要求比较分数。",
+        "nextQuestion": "只看这一小组能知道全套吗？"
+      },
+      "guide": {
+        "goal": "说出小组不是全套",
+        "observe": "只看这一小组能知道全套吗？",
+        "control": "成人恢复全套再洗混抽组，孩子只观察；不设计算任务。",
+        "support": "成人代读代记；可记未知、异常或未做，不替孩子补造结果。",
+        "time": "5—10分钟可分次",
+        "recordFields": [
+          "成人做卡并操作",
+          "孩子只指认或说话",
+          "一轮四张记完才归回",
+          "不算比例或概率"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation in Data and Sampling",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "区分总体与样本、取样偏差和样本间变动。",
+          "scope": "2026-11-06实读turn528view1第180—181、223、231、325、363行及turn528view2第379—388行；不采用其绝对化简述为本课断言。"
+        }
+      ],
+      "sourceNote": "原Prealgebra平均数入口不足以支撑抽样方法。本轮另实读OpenStax统计教材；原创12卡例与推导不是机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查；未实物试用",
+        "limitations": "孩子只指认“只看这一小组”和“把全套看完”；成人负责做卡、摆卡、混卡、抽卡和记原话。不要要求孩子算比例、平均数或概率；样本出现什么就保留，不说必须与整套一样。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sample296-4-6-1",
+          "description": "看全套卡里有两类；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "看全套卡里有两类",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "全套：8张A，4张B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人做卡并操作",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指认或说话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一轮四张记完才归回",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不算比例或概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-4-6-2",
+          "description": "只看成人摆的顶组；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "只看成人摆的顶组",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "故意把4张B摆在顶部",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 62,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 123,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 138,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 232,
+              "text": "剩下8张A没有消失",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 267,
+              "text": "这组不是全套",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人做卡并操作",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指认或说话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一轮四张记完才归回",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不算比例或概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-4-6-3",
+          "description": "看成人混后抽一组；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "看成人混后抽一组",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "洗混后不看标记抽4张",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 62,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 123,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 138,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 232,
+              "text": "轮内不放回；不预填答案",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 267,
+              "text": "四张全记完后再归回",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人做卡并操作",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指认或说话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一轮四张记完才归回",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不算比例或概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-4-6-4",
+          "description": "说出小组不是全套；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "说出小组不是全套",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "小组里有哪类？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "全套还有哪类？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "只记孩子的指认",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不必数卡或写字",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人做卡并操作",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指认或说话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一轮四张记完才归回",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不算比例或概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "顶部四张与整套一样吗？",
+      "materials": [
+        "普通白纸或废纸2张制卡，铅笔和成人专用剪刀；另备本龄记录页。",
+        "本龄页面：setup、rules、cards-1、cards-2、population-work、prediction-7-9、ordered-work、mixed-one、compare-work、conclusion-7-9、reference。先读safety，参考最后看。"
+      ],
+      "safety": "成人预制和剪裁12张大纸卡，儿童不操作剪刀；剪后收起剪刀与碎屑。只用纸、铅笔、橡皮，纸片和笔不入口；4—6岁成人全程近距离陪伴。桌面操作，不蒙眼走动、不抛卡；疲倦即可停。",
+      "steps": [
+        {
+          "title": "核对全套与初猜",
+          "caption": "核对全套与初猜",
+          "action": "按setup备卡，在population-work记总张数和A/B数，prediction-7-9先猜顶部组；不从只看到几张推断全套。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "单独记顶部四张",
+          "caption": "单独记顶部四张",
+          "action": "按rules将4B置顶、8A在下，取前4张填ordered-work的四个实际位置及A/B点数；记完把四张归回，核对全套。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "洗混后只做一轮",
+          "caption": "洗混后只做一轮",
+          "action": "按rules全部背朝上洗混，不看标记抽4张，一轮内不放回；mixed-one逐位置写实际A/B，再数两类；记完4张才全部放回，不为凑期待结果重抽。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "比较小组与全套",
+          "caption": "比较小组与全套",
+          "action": "compare-work与conclusion-7-9比较顶部组、混后组和全套，不要求混后更接近；说明只看顶部可能漏掉另一类，手工洗混也不保证等概率。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "总体与样本",
+          "有序取样"
+        ],
+        "explanation": "只看顶部会偏向被放上面的卡，混后小样本也未必与总体相似。",
+        "limits": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。",
+        "observation": "按rules将4B置顶、8A在下，取前4张填ordered-work的四个实际位置及A/B点数；记完把四张归回，核对全套。",
+        "nextQuestion": "顶部四张与整套一样吗？"
+      },
+      "guide": {
+        "goal": "比较小组与全套",
+        "observe": "顶部四张与整套一样吗？",
+        "control": "总体始终12张8A4B；先顶4B，混后每轮抽4，轮内不放回，四张记完才全归回。",
+        "support": "成人代读代记；可记未知、异常或未做，不替孩子补造结果。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "12张共8A和4B",
+          "顶部4B另作记录",
+          "轮内不放回同一卡",
+          "不为接近总体重抽"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation in Data and Sampling",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "区分总体与样本、取样偏差和样本间变动。",
+          "scope": "2026-11-06实读turn528view1第180—181、223、231、325、363行及turn528view2第379—388行；不采用其绝对化简述为本课断言。"
+        },
+        {
+          "title": "OpenStax｜Hypergeometric Distribution",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-5-hypergeometric-distribution",
+          "claim": "不放回抽样中各次选择依赖，适用超几何计数模型。",
+          "scope": "2026-11-06实读turn527view1第23—29、87—113行；本课8A4B组合推导原创，理想等可能假设另行明示。"
+        }
+      ],
+      "sourceNote": "原Prealgebra平均数入口不足以支撑抽样方法。本轮另实读OpenStax统计教材；原创12卡例与推导不是机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查；未实物试用",
+        "limitations": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sample296-7-9-1",
+          "description": "核对全套与初猜；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "核对全套与初猜",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "全套：8张A，4张B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 148,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 168,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 182,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 202,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 136,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 216,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 236,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "12张共8A和4B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "顶部4B另作记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轮内不放回同一卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不为接近总体重抽",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-7-9-2",
+          "description": "单独记顶部四张；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "单独记顶部四张",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "故意把4张B摆在顶部",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 62,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 123,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 138,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 181,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 232,
+              "text": "剩下8张A没有消失",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 267,
+              "text": "这组不是全套",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "12张共8A和4B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "顶部4B另作记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轮内不放回同一卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不为接近总体重抽",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-7-9-3",
+          "description": "洗混后只做一轮；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "洗混后只做一轮",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 133,
+              "text": "洗混后不看标记抽4张",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 62,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 123,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 138,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 245,
+              "y": 151,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 260,
+              "y": 181,
+              "text": "?",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 232,
+              "text": "轮内不放回；不预填答案",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 267,
+              "text": "四张全记完后再归回",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "12张共8A和4B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "顶部4B另作记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轮内不放回同一卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不为接近总体重抽",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-7-9-4",
+          "description": "比较小组与全套；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "比较小组与全套",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "全套 / 顶部 / 混后",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "记录各自A和B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "不要求混后更接近",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不挑掉意外样本",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "12张共8A和4B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "顶部4B另作记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轮内不放回同一卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不为接近总体重抽",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "样本波动能说明洗混公平吗？",
+      "materials": [
+        "普通白纸或废纸2张制卡，铅笔和成人专用剪刀；另备本龄记录页。",
+        "本龄页面：setup、rules、cards-1、cards-2、population-work、ordered-work、method-work、mixed-round-1、mixed-round-2、mixed-round-3、summary-work、fraction-work、claim-input、improve-work、conclusion-10-12、reference。先读safety，参考最后看。"
+      ],
+      "safety": "成人预制和剪裁12张大纸卡，儿童不操作剪刀；剪后收起剪刀与碎屑。只用纸、铅笔、橡皮，纸片和笔不入口；4—6岁成人全程近距离陪伴。桌面操作，不蒙眼走动、不抛卡；疲倦即可停。",
+      "steps": [
+        {
+          "title": "写清总体与抽样规则",
+          "caption": "写清总体与抽样规则",
+          "action": "按setup、rules完成population-work、ordered-work，记录总体8A4B；method-work写一轮内不放回、全轮记录后回收及各轮重新洗混。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "连续记录三轮而不挑选",
+          "caption": "连续记录三轮而不挑选",
+          "action": "mixed-round-1至3分别写四张实际标签、A/B数、是否全放回和洗混；每轮必须恢复12张再开始，未做填未做，异常原样标记，不补造或重抽凑数。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "把波动和偏差分开",
+          "caption": "把波动和偏差分开",
+          "action": "summary-work记各轮B数与B/4，fraction-work比较总体4/12；读claim-input，不能从三轮比例接近就证明洗混公平，也不能把偏离视为失败。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "说明改进仍有边界",
+          "caption": "说明改进仍有边界",
+          "action": "improve-work只写怎样减少看标记、卡背差异等选择偏差；conclusion-10-12说明样本量增加不自动消除有序取样偏差，延伸只作纸上方案。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "样本波动",
+          "选择偏差"
+        ],
+        "explanation": "多轮样本可以不同；偏离不一定表示操作错误，接近也不证明方法公平。",
+        "limits": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。",
+        "observation": "mixed-round-1至3分别写四张实际标签、A/B数、是否全放回和洗混；每轮必须恢复12张再开始，未做填未做，异常原样标记，不补造或重抽凑数。",
+        "nextQuestion": "样本波动能说明洗混公平吗？"
+      },
+      "guide": {
+        "goal": "说明改进仍有边界",
+        "observe": "样本波动能说明洗混公平吗？",
+        "control": "总体始终12张8A4B；先顶4B，混后每轮抽4，轮内不放回，四张记完才全归回。",
+        "support": "成人代读代记；可记未知、异常或未做，不替孩子补造结果。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "每轮先恢复12张",
+          "三轮全记录不挑选",
+          "比例偏离不算失败",
+          "洗混不证明等概率"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation in Data and Sampling",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "区分总体与样本、取样偏差和样本间变动。",
+          "scope": "2026-11-06实读turn528view1第180—181、223、231、325、363行及turn528view2第379—388行；不采用其绝对化简述为本课断言。"
+        },
+        {
+          "title": "OpenStax｜Hypergeometric Distribution",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-5-hypergeometric-distribution",
+          "claim": "不放回抽样中各次选择依赖，适用超几何计数模型。",
+          "scope": "2026-11-06实读turn527view1第23—29、87—113行；本课8A4B组合推导原创，理想等可能假设另行明示。"
+        }
+      ],
+      "sourceNote": "原Prealgebra平均数入口不足以支撑抽样方法。本轮另实读OpenStax统计教材；原创12卡例与推导不是机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查；未实物试用",
+        "limitations": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sample296-10-12-1",
+          "description": "写清总体与抽样规则；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "写清总体与抽样规则",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "总体12张：8A4B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "四张同轮不放回",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "记全四张再全部归回",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "下一轮前重新洗混",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每轮先恢复12张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "三轮全记录不挑选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "比例偏离不算失败",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "洗混不证明等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-10-12-2",
+          "description": "连续记录三轮而不挑选；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "连续记录三轮而不挑选",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "第1轮：四张实录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "第2轮：恢复后再抽",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "第3轮：恢复后再抽",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "未做或异常也保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每轮先恢复12张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "三轮全记录不挑选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "比例偏离不算失败",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "洗混不证明等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-10-12-3",
+          "description": "把波动和偏差分开；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把波动和偏差分开",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "每轮B数 / 4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "总体B数 / 12",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "偏离不自动是错误",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "接近不证明公平",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每轮先恢复12张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "三轮全记录不挑选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "比例偏离不算失败",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "洗混不证明等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-10-12-4",
+          "description": "说明改进仍有边界；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "说明改进仍有边界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "卡背不可识别",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "不看标记选择",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "不为好看结果重抽",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "改进仍非概率证明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每轮先恢复12张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "三轮全记录不挑选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "比例偏离不算失败",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "洗混不证明等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "理想等可能子集与手工抽卡相同吗？",
+      "materials": [
+        "普通白纸或废纸2张制卡，铅笔和成人专用剪刀；另备本龄记录页。",
+        "本龄页面：setup、rules、cards-1、cards-2、population-work、ordered-work、mixed-one、scope-work、model-input、combination-input、model-work、expectation-work、boundary-work、replacement-input、replacement-work、bias-work、conclusion-13-16、reference-model。先读safety，参考最后看。"
+      ],
+      "safety": "成人预制和剪裁12张大纸卡，儿童不操作剪刀；剪后收起剪刀与碎屑。只用纸、铅笔、橡皮，纸片和笔不入口；4—6岁成人全程近距离陪伴。桌面操作，不蒙眼走动、不抛卡；疲倦即可停。",
+      "steps": [
+        {
+          "title": "保留实际一轮和方法限制",
+          "caption": "保留实际一轮和方法限制",
+          "action": "先按setup与rules完成population-work、ordered-work、mixed-one及scope-work。实际一轮与理想纸题分开；洗混不能证明组合等可能。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "按理想组合枚举分布",
+          "caption": "按理想组合枚举分布",
+          "action": "读model-input与combination-input：假定12张不同身份卡的所有四张子集等可能，轮内不放回。model-work逐k=0到4计含k张B的组合数及概率，不能把五种k当等可能。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "核算期望与离散边界",
+          "caption": "核算期望与离散边界",
+          "action": "expectation-work由分布算B数的期望、方差及B比例期望；boundary-work列出实际一轮可能比例，讨论为什么期望可以不是整数及为何不要求每轮等于总体。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        },
+        {
+          "title": "审查替代规则与偏差",
+          "caption": "审查替代规则与偏差",
+          "action": "replacement-input只作反例，replacement-work解释抽一张就放回会改变模型；bias-work对比故意顶部4B、理想模型和手工混合，conclusion-13-16不能将模型分布冒充实际结果或公平性证明。",
+          "actor": "together",
+          "adultNote": "先把4张B叠在最上面，8张A在下面，查看并记录顶部4张；然后把12张全部放回桌上。将所有卡背朝上反复打散、合拢洗混，不看标记选4张放在独立位置，一轮内不放回、不重复拿同一卡。翻开并记录完整4张后，才把这4张全放回与其余8张合并，核对恢复12张，下一轮前重新洗混。只做本龄指定轮数，不为凑比例重抽。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "超几何分布",
+          "假设与实测"
+        ],
+        "explanation": "理想均匀四张子集下，含k张B的子集数为C(4,k)C(8,4−k)；这依赖明确假设，不可用手工洗混直接证明。",
+        "limits": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。",
+        "observation": "读model-input与combination-input：假定12张不同身份卡的所有四张子集等可能，轮内不放回。model-work逐k=0到4计含k张B的组合数及概率，不能把五种k当等可能。",
+        "nextQuestion": "理想等可能子集与手工抽卡相同吗？"
+      },
+      "guide": {
+        "goal": "审查替代规则与偏差",
+        "observe": "理想等可能子集与手工抽卡相同吗？",
+        "control": "总体始终12张8A4B；先顶4B，混后每轮抽4，轮内不放回，四张记完才全归回。",
+        "support": "成人代读代记；可记未知、异常或未做，不替孩子补造结果。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "实际与纸题分开",
+          "等可能是模型假设",
+          "组合数不是实际次数",
+          "期望不要求每轮实现"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation in Data and Sampling",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "区分总体与样本、取样偏差和样本间变动。",
+          "scope": "2026-11-06实读turn528view1第180—181、223、231、325、363行及turn528view2第379—388行；不采用其绝对化简述为本课断言。"
+        },
+        {
+          "title": "OpenStax｜Hypergeometric Distribution",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-5-hypergeometric-distribution",
+          "claim": "不放回抽样中各次选择依赖，适用超几何计数模型。",
+          "scope": "2026-11-06实读turn527view1第23—29、87—113行；本课8A4B组合推导原创，理想等可能假设另行明示。"
+        }
+      ],
+      "sourceNote": "原Prealgebra平均数入口不足以支撑抽样方法。本轮另实读OpenStax统计教材；原创12卡例与推导不是机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查；未实物试用",
+        "limitations": "新编未实物、儿童或打印试用。手工洗混不证明每张或每个四张组合严格等概率；本课示范取样方式与样本波动，不对真实人群推断。一次抽得全B也可如实保留，不能判做错或重抽到接近总体。先摆顶部4B是故意有序取样，与理想等可能抽取不同。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sample296-13-16-1",
+          "description": "保留实际一轮和方法限制；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "保留实际一轮和方法限制",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "先完成核心抽卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "单独记实际标签",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "另列手工方法局限",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不把理想填入实录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实际与纸题分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等可能是模型假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "组合数不是实际次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "期望不要求每轮实现",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-13-16-2",
+          "description": "按理想组合枚举分布；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "按理想组合枚举分布",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "12张不同身份卡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "四张子集等可能",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "按B数k分五类",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "各类组合数自行求",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实际与纸题分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等可能是模型假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "组合数不是实际次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "期望不要求每轮实现",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-13-16-3",
+          "description": "核算期望与离散边界；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "核算期望与离散边界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "求期望与方差",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "列一轮比例可能值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "期望不是每轮结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "无实测数据就不补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实际与纸题分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等可能是模型假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "组合数不是实际次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "期望不要求每轮实现",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sample296-13-16-4",
+          "description": "审查替代规则与偏差；图示不是实测样本。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "审查替代规则与偏差",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "换规则就换模型",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "逐张放回是反例",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "顶部取样故意有偏",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "手工不能宣称理想",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实际与纸题分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等可能是模型假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "组合数不是实际次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "期望不要求每轮实现",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

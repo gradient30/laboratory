@@ -1,0 +1,2433 @@
+{
+  "activityId": 253,
+  "activityTitle": "预报与实况要同一时段",
+  "contentKey": "annual-content-nature-life-322",
+  "reconstruction": {
+    "status": "RECONSTRUCTION",
+    "baseline": "recovered-928-extracted/source",
+    "lostReviewInherited": false,
+    "originalSha256": "27ae55ec7ba92a23a86aa0413d58beb29eb42ead70f36f801975d476096ae9a0"
+  },
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "哪张记录和预报说的是同一段？",
+      "materials": [
+        "整张A4纸、铅笔、有效连续量程至少10厘米且最小分度1毫米的直尺；成人打印或完整重画。本课附虚构练习资料，不需取得家庭位置或实时天气，也不外出观察。",
+        "本龄整页纸件：rules.svg、time-card.svg、rule-card.svg、source-card.svg、source-links-1.svg、source-links-2.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、preschool-data.svg、preschool-initial.svg、preschool-revision.svg、preschool-record.svg；续写用编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口。只在室内纸笔核对，不淋雨、观雷、上屋顶或外出测天气；不记住址、学校路线或精确定位。本课不是出行或灾害安全建议，重要决定听从当地最新官方预警。疲倦就停，帮助、未知和未做保留。",
+      "steps": [
+        {
+          "title": "只认同日同点的两个时段",
+          "caption": "只认同日同点的两个时段",
+          "action": "成人只读preschool-data，不要求孩子识字算时差。把F说成10月12日A点早一段06—12时的假想预报；孩子在preschool-initial指或圈A点、同一天和早一段，可由成人代圈并记帮助。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "在四条记录中找同一段",
+          "caption": "在四条记录中找同一段",
+          "action": "在preschool-initial保留F到O1/O2/O3/O4的初连线或指认，成人逐条读地点、日期和早/晚段。只有同点、同日、同段才可比较；不要因同样画雨就先配对，不剪成小卡。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "再看两张雨标记是否一样",
+          "caption": "再看两张雨标记是否一样",
+          "action": "确认匹配后，孩子在preschool-record第一空框画F和对应记录的雨标记相同或不同，或口述由成人代写；这里只比较虚构图标，不学雨量阈值、概率或预报整体好坏。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "没有同段就留下不知道",
+          "caption": "没有同段就留下不知道",
+          "action": "在preschool-revision保留后来改变的连线或不知道，原图不擦。若只剩O2晚段，成人问能不能代替早段记录；可以答不能或不知道，并记原话，不去外面看天气。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同日同点同段",
+          "先配对后比较"
+        ],
+        "explanation": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 发布时间说明何时给出这一版预报；有效时段说明预报针对何时；观测覆盖时段说明记录了何时的天气；报告或网页更新时间不等于观测时段。R组统一UTC+00:00，开始含、结束不含：[06:00,18:00)，共12小时。虚构点A和B不同；点预报不能直接拿整个地区结果代替，地区平均也不能拿单站代表。时区、日期或空间范围不清则不配对。",
+        "observation": "发布时间说明何时给出这一版预报；有效时段说明预报针对何时；观测覆盖时段说明记录了何时的天气；报告或网页更新时间不等于观测时段。R组统一UTC+00:00，开始含、结束不含：[06:00,18:00)，共12小时。虚构点A和B不同；点预报不能直接拿整个地区结果代替，地区平均也不能拿单站代表。时区、日期或空间范围不清则不配对。",
+        "limits": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。",
+        "nextQuestion": "晚段能代替早段吗？"
+      },
+      "guide": {
+        "goal": "没有同段就留下不知道",
+        "observe": "只认同日同点的两个时段",
+        "control": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 所有initial作答保留，修订写revision页或修订栏，不擦原猜；先填再看reference。示例图不当孩子成绩。资料题设、作者核验、孩子实际操作分别记；原文、摘要与成人转述标明，未知/未做可保留。比较标准和排除规则须先写，不因结果改变分母。 A4实际大小100%打印。每页含日志本身在print-log逐页记录100毫米核线、裁边、文字/刻度清晰度和复核；量具不足写未量。失真或缺字段则暂停，重印/完整重画后复核。时间轴为小时关系示意，纸上毫米不是实际经历时间；不靠图形长度替代日期时间字段。",
+        "support": "幼儿只配时间地点标记，不学概率；其余龄组分别增加分类比较、八条资格审查、概率与版本时区分析。虚构教学数据与真实资料空表分开。",
+        "time": "5—10分钟；打印准备另计，可分次。",
+        "recordFields": [
+          "初配对与修订",
+          "原话、帮助和未知"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气对应时间与地点，预报是对未来状况的估计。",
+          "scope": "2026-11-05实读16—18及88行；只作概念背景，不提供本课样本天气数据。"
+        },
+        {
+          "title": "NWS｜Forecast valid for",
+          "url": "https://forecast.weather.gov/glossary.php?word=forecast+valid+for",
+          "claim": "有效时段包含起止日期与时间。",
+          "scope": "2026-11-05实读0—1行；本课半开区间及入组规则另行明示。"
+        },
+        {
+          "title": "NOAA OPC｜Frequently Asked Questions",
+          "url": "https://ocean.weather.gov/FAQ/FAQ.php",
+          "claim": "ISSUED与VALID分别指发布和预报所代表的时间。",
+          "scope": "2026-11-05实读105—107行。104行关于15个时区及UTC/GMT的简化表述不采用；不把海洋图产品规则泛化为所有产品。"
+        },
+        {
+          "title": "NWS Louisville｜What Does Probability of Precipitation Mean?",
+          "url": "https://www.weather.gov/lmk/pops",
+          "claim": "降水概率针对指定点和时段内达到规定量的事件。",
+          "scope": "2026-11-05实读165—170行；来源例阈值0.01英寸，不照搬其地方12小时钟点或网格尺寸为全球规则；本课另定≥1.0毫米且全虚构。"
+        },
+        {
+          "title": "NIST｜SI Units – Length",
+          "url": "https://www.nist.gov/pml/owm/si-units-length",
+          "claim": "标准英寸恰等于25.4毫米。",
+          "scope": "2026-11-05实读319—323行；只支持R7单位换算，不认证天气数据或测量。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读NOAA/NWS概念正文。所有天气样本均原创虚构，不冒充官方预报与观测；不继承旧审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day253-4-6-step1",
+          "description": "只认同日同点的两个时段。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "F：A点 / 10月12日",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "早段06—12时",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "有雨只是虚构标记",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "A点和B点不是一处",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "早段和晚段不能混",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "只认纸上日期与标记",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不用算雨量或概率",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-4-6-step2",
+          "description": "在四条记录中找同一段。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "O1：同点同日早段",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "O2：同点同日晚段",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "O3异点；O4另一天",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先配地点、日期、时段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "不是先挑雨图标相同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "四个候选保留初选择",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不剪小卡、不外出",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-4-6-step3",
+          "description": "再看两张雨标记是否一样。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "地点、日期、时段先配",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "然后比较两张标记",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "相同也不是整体准确",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先配好，再比标记",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "示例不是孩子作答",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "可以口述或成人代写",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不能评价整体预报",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-4-6-step4",
+          "description": "没有同段就留下不知道。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "只剩晚段记录怎么办",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "不能拿来顶早段",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "未知与未做保留",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "晚段不能顶早段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "缺对应记录就不知道",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "初线和后改都留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不追着天气实地验证",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "先筛合格记录，再怎样比较分类预报？",
+      "materials": [
+        "整张A4纸、铅笔、有效连续量程至少10厘米且最小分度1毫米的直尺；成人打印或完整重画。本课附虚构练习资料，不需取得家庭位置或实时天气，也不外出观察。",
+        "本龄整页纸件：rules.svg、time-card.svg、rule-card.svg、source-card.svg、source-links-1.svg、source-links-2.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、R-data-1.svg、R-data-2.svg、prediction-7-9.svg、register-7-9.svg、eligibility-7-9.svg、compare-7-9.svg、summary-7-9.svg、timeline-initial.svg、timeline-revision.svg、reference.svg；续写用编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口。只在室内纸笔核对，不淋雨、观雷、上屋顶或外出测天气；不记住址、学校路线或精确定位。本课不是出行或灾害安全建议，重要决定听从当地最新官方预警。疲倦就停，帮助、未知和未做保留。",
+      "steps": [
+        {
+          "title": "先锁定事件和四条资料",
+          "caption": "先锁定事件和四条资料",
+          "action": "用prediction-7-9留原猜，读rule-card与R-data-1/2中的R1—R4。成人解释事件≥1.0毫米及1/0标签；孩子先在register-7-9写或口述点A、同一12小时和完整记录规则，不要求概率计算。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "逐条筛同点同段完整性",
+          "caption": "逐条筛同点同段完整性",
+          "action": "在eligibility-7-9逐条核同点、同有效时段、完整累计值与发布早于开始，先判可比或无法核对再看是否符合。R4缺测单列，不用0替代。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "只在可比记录中比较",
+          "caption": "只在可比记录中比较",
+          "action": "用compare-7-9先记R1—R4的原预报、原记录和事件判断；仅可比项写符合/不符，排除项写原因。在timeline-initial画发布时间和有效段，成人代画须记；实际报告时间不是观测时段。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "保留排除项再说明分母",
+          "caption": "保留排除项再说明分母",
+          "action": "在summary-7-9数可比、符合、不符、排除各几条；缺测不进符合率分母。先填再读reference，timeline-revision用于修订。只描述此虚构小样本，不能据一次或少数次评机构整体水平。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "可比记录",
+          "排除与分母"
+        ],
+        "explanation": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 发布时间说明何时给出这一版预报；有效时段说明预报针对何时；观测覆盖时段说明记录了何时的天气；报告或网页更新时间不等于观测时段。R组统一UTC+00:00，开始含、结束不含：[06:00,18:00)，共12小时。虚构点A和B不同；点预报不能直接拿整个地区结果代替，地区平均也不能拿单站代表。时区、日期或空间范围不清则不配对。",
+        "observation": "R组事件明确定为同一点在该12小时内累计降水量≥1.0毫米，等于阈值算发生。预报1=预计事件发生，0=预计不发生；实况事件由完整且题设可用的累计值判断。比较前锁定同变量、同点、同起止时段、可换算单位、观测完整性及版本。这里的1.0毫米阈值是自定教学规则，不是NWS PoP原定义的0.01英寸。 本课R组纳入规则预先限定：必须在有效时段开始前发布，且有准确发布时间；不纳入开始后更新版本。R8的开始后预报不是一般意义上无效，只是不符合这次事先分组规则。缺测、不同点、不完整时段不能算符合或不符，须列排除原因；缺测不填0。R7的0.2英寸按1英寸=25.4毫米换成5.08毫米，保留原数和单位再比较，不将0.2直接当毫米。",
+        "limits": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。",
+        "nextQuestion": "缺测为什么不能当没雨？"
+      },
+      "guide": {
+        "goal": "保留排除项再说明分母",
+        "observe": "先锁定事件和四条资料",
+        "control": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 所有initial作答保留，修订写revision页或修订栏，不擦原猜；先填再看reference。示例图不当孩子成绩。资料题设、作者核验、孩子实际操作分别记；原文、摘要与成人转述标明，未知/未做可保留。比较标准和排除规则须先写，不因结果改变分母。 A4实际大小100%打印。每页含日志本身在print-log逐页记录100毫米核线、裁边、文字/刻度清晰度和复核；量具不足写未量。失真或缺字段则暂停，重印/完整重画后复核。时间轴为小时关系示意，纸上毫米不是实际经历时间；不靠图形长度替代日期时间字段。",
+        "support": "幼儿只配时间地点标记，不学概率；其余龄组分别增加分类比较、八条资格审查、概率与版本时区分析。虚构教学数据与真实资料空表分开。",
+        "time": "20—30分钟；打印准备另计，可分次。",
+        "recordFields": [
+          "规则与四条资格",
+          "比较及排除原因",
+          "有效分母与未做"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气对应时间与地点，预报是对未来状况的估计。",
+          "scope": "2026-11-05实读16—18及88行；只作概念背景，不提供本课样本天气数据。"
+        },
+        {
+          "title": "NWS｜Forecast valid for",
+          "url": "https://forecast.weather.gov/glossary.php?word=forecast+valid+for",
+          "claim": "有效时段包含起止日期与时间。",
+          "scope": "2026-11-05实读0—1行；本课半开区间及入组规则另行明示。"
+        },
+        {
+          "title": "NOAA OPC｜Frequently Asked Questions",
+          "url": "https://ocean.weather.gov/FAQ/FAQ.php",
+          "claim": "ISSUED与VALID分别指发布和预报所代表的时间。",
+          "scope": "2026-11-05实读105—107行。104行关于15个时区及UTC/GMT的简化表述不采用；不把海洋图产品规则泛化为所有产品。"
+        },
+        {
+          "title": "NWS Louisville｜What Does Probability of Precipitation Mean?",
+          "url": "https://www.weather.gov/lmk/pops",
+          "claim": "降水概率针对指定点和时段内达到规定量的事件。",
+          "scope": "2026-11-05实读165—170行；来源例阈值0.01英寸，不照搬其地方12小时钟点或网格尺寸为全球规则；本课另定≥1.0毫米且全虚构。"
+        },
+        {
+          "title": "NIST｜SI Units – Length",
+          "url": "https://www.nist.gov/pml/owm/si-units-length",
+          "claim": "标准英寸恰等于25.4毫米。",
+          "scope": "2026-11-05实读319—323行；只支持R7单位换算，不认证天气数据或测量。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读NOAA/NWS概念正文。所有天气样本均原创虚构，不冒充官方预报与观测；不继承旧审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day253-7-9-step1",
+          "description": "先锁定事件和四条资料。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "先声明事件≥1.0毫米",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "R1—R4：分类预报练习",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "与概率样本分开",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "事件阈值先写清",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "本组R1到R4全虚构",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "同点、同段、同指标",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "缺测不填0",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-7-9-step2",
+          "description": "逐条筛同点同段完整性。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 85,
+              "text": "虚构R1；轴起点为10月11日18时UTC",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 110,
+              "x2": 285,
+              "y2": 110,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60.0,
+              "y1": 105,
+              "x2": 60.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 60.0,
+              "y": 101,
+              "text": "11日18",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 110.0,
+              "y1": 105,
+              "x2": 110.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 110.0,
+              "y": 101,
+              "text": "12日00",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 160.0,
+              "y1": 105,
+              "x2": 160.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 160.0,
+              "y": 101,
+              "text": "12日06",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 105,
+              "x2": 210.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 210.0,
+              "y": 101,
+              "text": "12日12",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 105,
+              "x2": 260.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 260.0,
+              "y": 101,
+              "text": "12日18",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 139,
+              "text": "发布",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 151,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 143,
+              "width": 100,
+              "height": 16,
+              "fill": "#E9EFE2",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 176,
+              "text": "预报有效06—18时",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 160.0,
+              "y": 217,
+              "width": 100.0,
+              "height": 16,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 209,
+              "text": "观测覆盖",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 268.33333333333337,
+              "y": 225,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 260,
+              "text": "19时报告≠19时天气",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 294,
+              "text": "发布时间、有效时段、报告时间分开",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "发布先于有效开始",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "观测覆盖同一段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "报告时间不是观测时段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "合格后才比标签",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-7-9-step3",
+          "description": "只在可比记录中比较。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "原预报 / 原记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "可比：符合或不符",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "不可比：原因单列",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "可比才写符合或不符",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "R4缺测单列",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "原数和原错保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "先填再看核对页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-7-9-step4",
+          "description": "保留排除项再说明分母。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "可比几条",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "其中符合几条",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "缺测不进分母",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "分母是可比记录数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "排除原因同时保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不用少数样本评机构",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不作出行建议",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "发布时间、范围、单位与缺测怎样改变可比集合？",
+      "materials": [
+        "整张A4纸、铅笔、有效连续量程至少10厘米且最小分度1毫米的直尺；成人打印或完整重画。本课附虚构练习资料，不需取得家庭位置或实时天气，也不外出观察。",
+        "本龄整页纸件：rules.svg、time-card.svg、rule-card.svg、source-card.svg、source-links-1.svg、source-links-2.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、R-data-1.svg、R-data-2.svg、R-data-3.svg、R-data-4.svg、prediction-10-12.svg、eligibility-10-12.svg、compare-10-12.svg、summary-10-12.svg、claim-10-12.svg、timeline-initial.svg、timeline-revision.svg、real-forecast.svg、real-observation.svg、eligibility-real.svg、reference.svg；续写用编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口。只在室内纸笔核对，不淋雨、观雷、上屋顶或外出测天气；不记住址、学校路线或精确定位。本课不是出行或灾害安全建议，重要决定听从当地最新官方预警。疲倦就停，帮助、未知和未做保留。",
+      "steps": [
+        {
+          "title": "分别记录发布与有效时段",
+          "caption": "分别记录发布与有效时段",
+          "action": "读time-card，在prediction-10-12留原猜。用timeline-initial把R1的发布时间、预报有效段、观测覆盖段、报告时间分别画出，读R-data-1到4全部八条；不能用19时报告代替06—18时覆盖。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "审查八条配对资格",
+          "caption": "审查八条配对资格",
+          "action": "在eligibility-10-12按预先规定逐行筛R1—R8：同点、同起止、同累计变量、可换算单位、完整记录、开始前发布。R5异点、R6只半段、R8开始后更新分别说明；这些不等于预报错。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "保留单位再换算比较",
+          "caption": "保留单位再换算比较",
+          "action": "compare-10-12保留每条原数单位，R7再将0.2英寸换成5.08毫米，对≥1.0毫米判断。只对入组项算符合数/可比数；summary-10-12保留排除清单，不拿全部八条作准确率分母。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "审查单次与整体的边界",
+          "caption": "审查单次与整体的边界",
+          "action": "用claim-10-12审查不同范围/缺测/错时段/单位/单次判断等说法，timeline-revision保留修订。若选真实资料路线，成人使用real-forecast、real-observation和eligibility-real，缺旧版或同段记录就无法核对，不把本课虚构数据冒充官方历史。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "发布与有效时间",
+          "单位和数据完整性"
+        ],
+        "explanation": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 发布时间说明何时给出这一版预报；有效时段说明预报针对何时；观测覆盖时段说明记录了何时的天气；报告或网页更新时间不等于观测时段。R组统一UTC+00:00，开始含、结束不含：[06:00,18:00)，共12小时。虚构点A和B不同；点预报不能直接拿整个地区结果代替，地区平均也不能拿单站代表。时区、日期或空间范围不清则不配对。",
+        "observation": "R组事件明确定为同一点在该12小时内累计降水量≥1.0毫米，等于阈值算发生。预报1=预计事件发生，0=预计不发生；实况事件由完整且题设可用的累计值判断。比较前锁定同变量、同点、同起止时段、可换算单位、观测完整性及版本。这里的1.0毫米阈值是自定教学规则，不是NWS PoP原定义的0.01英寸。 本课R组纳入规则预先限定：必须在有效时段开始前发布，且有准确发布时间；不纳入开始后更新版本。R8的开始后预报不是一般意义上无效，只是不符合这次事先分组规则。缺测、不同点、不完整时段不能算符合或不符，须列排除原因；缺测不填0。R7的0.2英寸按1英寸=25.4毫米换成5.08毫米，保留原数和单位再比较，不将0.2直接当毫米。 可选真实资料路径由成人事后查官方历史发布版本与对应观测，不询问私人地址。记录机构、公开地区/站点或网格标识、原网址、版本和发布时间/时区、有效起止、变量/事件定义/单位；观测另记覆盖起止、报告时间、质量与缺测。保存原文含义，不把图标当精确事件定义。若同一空间/时间或指标无法匹配，就在eligibility-real写无法核对，不补值、不宣称已完成实测。",
+        "limits": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。",
+        "nextQuestion": "同一地点的半天记录能代表全天累计吗？"
+      },
+      "guide": {
+        "goal": "审查单次与整体的边界",
+        "observe": "分别记录发布与有效时段",
+        "control": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 所有initial作答保留，修订写revision页或修订栏，不擦原猜；先填再看reference。示例图不当孩子成绩。资料题设、作者核验、孩子实际操作分别记；原文、摘要与成人转述标明，未知/未做可保留。比较标准和排除规则须先写，不因结果改变分母。 A4实际大小100%打印。每页含日志本身在print-log逐页记录100毫米核线、裁边、文字/刻度清晰度和复核；量具不足写未量。失真或缺字段则暂停，重印/完整重画后复核。时间轴为小时关系示意，纸上毫米不是实际经历时间；不靠图形长度替代日期时间字段。",
+        "support": "幼儿只配时间地点标记，不学概率；其余龄组分别增加分类比较、八条资格审查、概率与版本时区分析。虚构教学数据与真实资料空表分开。",
+        "time": "30—45分钟；打印准备另计，可分次。",
+        "recordFields": [
+          "八条资格与时间轴",
+          "原单位及换算",
+          "比较、排除与来源"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气对应时间与地点，预报是对未来状况的估计。",
+          "scope": "2026-11-05实读16—18及88行；只作概念背景，不提供本课样本天气数据。"
+        },
+        {
+          "title": "NWS｜Forecast valid for",
+          "url": "https://forecast.weather.gov/glossary.php?word=forecast+valid+for",
+          "claim": "有效时段包含起止日期与时间。",
+          "scope": "2026-11-05实读0—1行；本课半开区间及入组规则另行明示。"
+        },
+        {
+          "title": "NOAA OPC｜Frequently Asked Questions",
+          "url": "https://ocean.weather.gov/FAQ/FAQ.php",
+          "claim": "ISSUED与VALID分别指发布和预报所代表的时间。",
+          "scope": "2026-11-05实读105—107行。104行关于15个时区及UTC/GMT的简化表述不采用；不把海洋图产品规则泛化为所有产品。"
+        },
+        {
+          "title": "NWS Louisville｜What Does Probability of Precipitation Mean?",
+          "url": "https://www.weather.gov/lmk/pops",
+          "claim": "降水概率针对指定点和时段内达到规定量的事件。",
+          "scope": "2026-11-05实读165—170行；来源例阈值0.01英寸，不照搬其地方12小时钟点或网格尺寸为全球规则；本课另定≥1.0毫米且全虚构。"
+        },
+        {
+          "title": "NIST｜SI Units – Length",
+          "url": "https://www.nist.gov/pml/owm/si-units-length",
+          "claim": "标准英寸恰等于25.4毫米。",
+          "scope": "2026-11-05实读319—323行；只支持R7单位换算，不认证天气数据或测量。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读NOAA/NWS概念正文。所有天气样本均原创虚构，不冒充官方预报与观测；不继承旧审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day253-10-12-step1",
+          "description": "分别记录发布与有效时段。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 85,
+              "text": "虚构R1；轴起点为10月11日18时UTC",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 110,
+              "x2": 285,
+              "y2": 110,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 60.0,
+              "y1": 105,
+              "x2": 60.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 60.0,
+              "y": 101,
+              "text": "11日18",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 110.0,
+              "y1": 105,
+              "x2": 110.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 110.0,
+              "y": 101,
+              "text": "12日00",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 160.0,
+              "y1": 105,
+              "x2": 160.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 160.0,
+              "y": 101,
+              "text": "12日06",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 210.0,
+              "y1": 105,
+              "x2": 210.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 210.0,
+              "y": 101,
+              "text": "12日12",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 260.0,
+              "y1": 105,
+              "x2": 260.0,
+              "y2": 115,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 260.0,
+              "y": 101,
+              "text": "12日18",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 139,
+              "text": "发布",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 151,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 143,
+              "width": 100,
+              "height": 16,
+              "fill": "#E9EFE2",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 176,
+              "text": "预报有效06—18时",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 160.0,
+              "y": 217,
+              "width": 100.0,
+              "height": 16,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 209,
+              "text": "观测覆盖",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 268.33333333333337,
+              "y": 225,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 260,
+              "text": "19时报告≠19时天气",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 294,
+              "text": "发布时间、有效时段、报告时间分开",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "发布≠有效≠报告",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "R1覆盖06到18时",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "19时才报告也可覆盖此前",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "本页仍是假想资料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-10-12-step2",
+          "description": "审查八条配对资格。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "同点、同段、同指标",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "完整、单位与发布版本",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "先筛选，后比较",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "异点不配，半段不顶全段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "开始后更新另分组",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不是所有排除都算错",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "标准不能看结果再改",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-10-12-step3",
+          "description": "保留单位再换算比较。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "R7：原数0.2英寸",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "1英寸=25.4毫米",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "换算5.08毫米",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "0.2英寸先保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "换成5.08毫米再比较",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "缺测不是0毫米",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "有效样本分母单列",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-10-12-step4",
+          "description": "审查单次与整体的边界。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "原始版本有无存档",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "观察是否覆盖同一范围",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "缺资料就无法核对",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "一条不是整体水平",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "真实旧版缺失就无法核对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不用当前网页倒充旧预报",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "纸笔不等于实况采录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "概率预报为什么不能用一次雨或不雨判对错？",
+      "materials": [
+        "整张A4纸、铅笔、有效连续量程至少10厘米且最小分度1毫米的直尺；成人打印或完整重画。本课附虚构练习资料，不需取得家庭位置或实时天气，也不外出观察。",
+        "本龄整页纸件：rules.svg、time-card.svg、rule-card.svg、source-card.svg、source-links-1.svg、source-links-2.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、probability-card.svg、version-card.svg、P-data-1.svg、P-data-2.svg、P-data-3.svg、P-data-4.svg、P-data-5.svg、prediction-13-16.svg、version-record.svg、timezone-record.svg、probability-record.svg、probability-summary.svg、claim-13-16.svg、evaluation-plan.svg、timeline-initial.svg、timeline-revision.svg、reference.svg；续写用编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口。只在室内纸笔核对，不淋雨、观雷、上屋顶或外出测天气；不记住址、学校路线或精确定位。本课不是出行或灾害安全建议，重要决定听从当地最新官方预警。疲倦就停，帮助、未知和未做保留。",
+      "steps": [
+        {
+          "title": "把同目标不同版本分开",
+          "caption": "把同目标不同版本分开",
+          "action": "在prediction-13-16先猜“40%遇到下雨就是正确吗”；读probability-card和version-card，version-record分别记V1/V2的发布、同一目标有效段及提前量。先按题设锁V1，不事后选较有利版本；不把40%改成确定有雨。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "对齐跨日期的时区表示",
+          "caption": "对齐跨日期的时区表示",
+          "action": "用timezone-record对齐R1的UTC与UTC+08:00完整日期时间，保留初算与反查；在timeline-initial标同一物理时段。两者日历日期可不同，不能只比10月12日这一标签。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "筛十条概率事件记录",
+          "caption": "筛十条概率事件记录",
+          "action": "读P-data-1到5十条虚构记录，在probability-record逐条记40%、事件结果或缺测、同点同段资格及原因；同变量、同定义、同提前量的规则先固定。P9缺测、P10异点不入分母，原记录保留。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        },
+        {
+          "title": "用小样本频率说明限制",
+          "caption": "用小样本频率说明限制",
+          "action": "在probability-summary计算本组发生数/可比数，分别注明概率40%和样本频率，不叫逐条准确率；claim-13-16审查接近40%就证明可靠等说法。用evaluation-plan只设计需要更多可追溯样本和事先标准的方案；这不是实际预报业务评分或出行建议。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印和协助；来源摘要不当实况。原猜、修订、提示、帮助与未做保留，不执行户外观察。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "概率与样本频率",
+          "版本和时区"
+        ],
+        "explanation": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 发布时间说明何时给出这一版预报；有效时段说明预报针对何时；观测覆盖时段说明记录了何时的天气；报告或网页更新时间不等于观测时段。R组统一UTC+00:00，开始含、结束不含：[06:00,18:00)，共12小时。虚构点A和B不同；点预报不能直接拿整个地区结果代替，地区平均也不能拿单站代表。时区、日期或空间范围不清则不配对。",
+        "observation": "P组是另一套虚构概率预报：每条都给相同事件40%，不是下雨时长占40%、地区面积占40%、雨量40%或保证十次恰有四次。单次发生或未发生都不能直接判40%为对或错，也不能把概率转成确定有雨再计准确率。只能先筛可比记录，再描述这批发生次数/有效条数；小样本、非随机和缺测选择均限制结论，接近40%也不证明预报校准良好。 进阶另有同一目标时段的V1=10月11日18时发布40%，V2=10月12日05时发布70%；两版都先于06时，但提前量不同。按事前规定选V1作本组，不在看过结果后挑更有利的一版。版本比较保持不同提前量标签，不把较新预报冒充原预报。UTC+08:00换算必须按完整日期：UTC的10月12日06—18时对应当地10月12日14时至13日02时；不能只比日期数字。",
+        "limits": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。",
+        "nextQuestion": "怎样避免看过结果才选择版本或分母？"
+      },
+      "guide": {
+        "goal": "用小样本频率说明限制",
+        "observe": "把同目标不同版本分开",
+        "control": "本轮未采集真实历史预报或实况。所有R/P/O数值、日期、A/B点及雨标记均为作者虚构练习，不是NOAA或其他机构发布的天气数据，也不是孩子的观察。真实资料只能另用real-forecast/real-observation采录表；没有可追溯旧版本和对应观测，就写无法核对，不拿当前网页倒充过去预报。 所有initial作答保留，修订写revision页或修订栏，不擦原猜；先填再看reference。示例图不当孩子成绩。资料题设、作者核验、孩子实际操作分别记；原文、摘要与成人转述标明，未知/未做可保留。比较标准和排除规则须先写，不因结果改变分母。 A4实际大小100%打印。每页含日志本身在print-log逐页记录100毫米核线、裁边、文字/刻度清晰度和复核；量具不足写未量。失真或缺字段则暂停，重印/完整重画后复核。时间轴为小时关系示意，纸上毫米不是实际经历时间；不靠图形长度替代日期时间字段。",
+        "support": "幼儿只配时间地点标记，不学概率；其余龄组分别增加分类比较、八条资格审查、概率与版本时区分析。虚构教学数据与真实资料空表分开。",
+        "time": "40—55分钟；打印准备另计，可分次。",
+        "recordFields": [
+          "版本和时区正逆",
+          "十条概率样本筛选",
+          "发生频率与局限",
+          "后续资料方案"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气对应时间与地点，预报是对未来状况的估计。",
+          "scope": "2026-11-05实读16—18及88行；只作概念背景，不提供本课样本天气数据。"
+        },
+        {
+          "title": "NWS｜Forecast valid for",
+          "url": "https://forecast.weather.gov/glossary.php?word=forecast+valid+for",
+          "claim": "有效时段包含起止日期与时间。",
+          "scope": "2026-11-05实读0—1行；本课半开区间及入组规则另行明示。"
+        },
+        {
+          "title": "NOAA OPC｜Frequently Asked Questions",
+          "url": "https://ocean.weather.gov/FAQ/FAQ.php",
+          "claim": "ISSUED与VALID分别指发布和预报所代表的时间。",
+          "scope": "2026-11-05实读105—107行。104行关于15个时区及UTC/GMT的简化表述不采用；不把海洋图产品规则泛化为所有产品。"
+        },
+        {
+          "title": "NWS Louisville｜What Does Probability of Precipitation Mean?",
+          "url": "https://www.weather.gov/lmk/pops",
+          "claim": "降水概率针对指定点和时段内达到规定量的事件。",
+          "scope": "2026-11-05实读165—170行；来源例阈值0.01英寸，不照搬其地方12小时钟点或网格尺寸为全球规则；本课另定≥1.0毫米且全虚构。"
+        },
+        {
+          "title": "NIST｜SI Units – Length",
+          "url": "https://www.nist.gov/pml/owm/si-units-length",
+          "claim": "标准英寸恰等于25.4毫米。",
+          "scope": "2026-11-05实读319—323行；只支持R7单位换算，不认证天气数据或测量。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读NOAA/NWS概念正文。所有天气样本均原创虚构，不冒充官方预报与观测；不继承旧审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。只作虚构资料、实际SVG与静态计算核验，未实际打印、儿童试用、真实天气采录或预报业务验证；未做浏览器、整站构建或发布。图与记录模板为原创，不复制机构天气图。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day253-13-16-step1",
+          "description": "把同目标不同版本分开。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "V1：前日18时 / 40%",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "V2：当日05时 / 70%",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "有效均为06—18时",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "V1和V2目标相同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "发布时间与提前量不同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "先选版本再看结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "40%不是确定有雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-13-16-step2",
+          "description": "对齐跨日期的时区表示。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "UTC：12日06→18时",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "+08：12日14→13日02",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "完整日期参与换算",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "UTC06到18时",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "+08为14时到次日02时",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "换算保留完整日期",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "只改表示，不改事件",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-13-16-step3",
+          "description": "筛十条概率事件记录。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "40%是事件概率",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "不是时长、面积或雨量",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "发生与否不判单次对错",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "10条概率资料全虚构",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "P9缺测，P10异点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不把雨/不雨直接判对错",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "同定义后才计样本频率",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day253-13-16-step4",
+          "description": "用小样本频率说明限制。本轮全部天气记录为虚构。示意区分发布时间、有效与观测覆盖；实际空白作答纸另附，不把例图当儿童成果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "样本频率=发生数/可比数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "不是预报整体准确率",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "更多同条件资料仍需核验",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "概率与频率不是同一数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "小样本接近也不能认证",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "缺测选择可影响样本",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "只设计更多资料核验",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

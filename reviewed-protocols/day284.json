@@ -1,0 +1,2138 @@
+{
+  "activityId": 284,
+  "activityTitle": "最常见不等于最大",
+  "contentKey": "annual-m037",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "哪种形状的个数最多？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）。",
+        "本龄纸页：preschool-input/preschool-work/conclusion-4-6；公共safety/setup/print-log；reference仅成人作答后核对幼儿部分，不使用七数method页。"
+      ],
+      "safety": "成人近距离陪伴4—6岁，保管铅笔与橡皮，小件不入口。只在整张白纸/安全废纸写画，无须剪裁；若成人预制纸卡须足够大并收齐，儿童不拿剪刀。纸边不划手，不用真实儿童姓名、成绩、家庭收入或隐私数据，所有数字为构造纸题。疲倦或不适可停，允许未做和请成人帮助。",
+      "steps": [
+        {
+          "title": "看三种纸上图形",
+          "caption": "看三种纸上图形",
+          "action": "成人按setup展示preschool-input中的圆2/三角3/方1，孩子按形状指相同的一组，不要求数值七项或读频数表。",
+          "actor": "adult",
+          "adultNote": "只用纸上形状。原图圆2个、三角3个、方1个，成人引导一个对一个配对比较，不要求孩子认数或计算。保留原图，另画副本只把方改为圆：圆3个、三角3个、方0个；孩子可同时指出圆和三角，成人记录原话、未知与帮助。"
+        },
+        {
+          "title": "一一配对找最多",
+          "caption": "一一配对找最多",
+          "action": "在preschool-work第一框指或连线比较组内个数，成人代画并记帮助；不按图形画得大不大来选。",
+          "actor": "together",
+          "adultNote": "只用纸上形状。原图圆2个、三角3个、方1个，成人引导一个对一个配对比较，不要求孩子认数或计算。保留原图，另画副本只把方改为圆：圆3个、三角3个、方0个；孩子可同时指出圆和三角，成人记录原话、未知与帮助。"
+        },
+        {
+          "title": "看同样多的情况",
+          "caption": "看同样多的情况",
+          "action": "成人另画修改图，只把一个方改为圆；孩子在第二框指出并列最多的组，允许没看清，不强迫只选一种。",
+          "actor": "adult",
+          "adultNote": "只用纸上形状。原图圆2个、三角3个、方1个，成人引导一个对一个配对比较，不要求孩子认数或计算。保留原图，另画副本只把方改为圆：圆3个、三角3个、方0个；孩子可同时指出圆和三角，成人记录原话、未知与帮助。"
+        },
+        {
+          "title": "说数量不是图形大小",
+          "caption": "说数量不是图形大小",
+          "action": "conclusion-4-6由成人写原话和未知；保留原图与改图，不要求说众数术语或算平均数。",
+          "actor": "together",
+          "adultNote": "只描述这两张纸上图形的个数；不按画得大小比较，不强迫只选一组。无需七数题、平均数或众数术语。未做儿童或实际打印试用。 成人代记，保留原图、另画改图和孩子的原话。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "分类",
+          "一一对应与并列"
+        ],
+        "explanation": "把同形状放一组，一个对一个配对比较个数。原图三角最多；只把方改圆后圆和三角一样多，都可指出。",
+        "limits": "只描述这两张纸上图形的个数；不按画得大小比较，不强迫只选一组。无需七数题、平均数或众数术语。未做儿童或实际打印试用。",
+        "observation": "只用纸上形状。原图圆2个、三角3个、方1个，成人引导一个对一个配对比较，不要求孩子认数或计算。保留原图，另画副本只把方改为圆：圆3个、三角3个、方0个；孩子可同时指出圆和三角，成人记录原话、未知与帮助。",
+        "nextQuestion": "只把一个方改成圆以后，哪些组一样多？换图形的位置会改变个数吗？"
+      },
+      "guide": {
+        "goal": "说数量不是图形大小",
+        "observe": "看三种纸上图形",
+        "control": "保留圆2、三角3、方1的原图，另图只把一个方改成圆，得到圆3、三角3、方0。其他图形不增删；成人引导配对，孩子不必报数字。",
+        "support": "成人代画、代记原话；孩子只指、连线或说一样多，不要求七数题、读频数表或算平均。允许不知道和停止。",
+        "time": "5—10分钟",
+        "recordFields": [
+          "按形状分组",
+          "个数多不看画多大",
+          "并列也可都指出",
+          "成人代画记原话"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M6",
+          "title": "OpenStax｜平均数与概率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值、中位数、众数与基本概率定义；原创数据不是真实群体统计。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax众数与频数定义及并列/无突出众数说明；所有数据、图示和操作是原创，不是群体调查或机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mode284-4-6-1",
+          "description": "看三种纸上图形；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看三种纸上图形",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 85,
+              "y": 145,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 125,
+              "y": 145,
+              "r": 12,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 185,
+              "x2": 73,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 73,
+              "y1": 209,
+              "x2": 97,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 97,
+              "y1": 209,
+              "x2": 85,
+              "y2": 185,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 185,
+              "x2": 113,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 113,
+              "y1": 209,
+              "x2": 137,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 137,
+              "y1": 209,
+              "x2": 125,
+              "y2": 185,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 165,
+              "y1": 185,
+              "x2": 153,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 209,
+              "x2": 177,
+              "y2": 209,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 177,
+              "y1": 209,
+              "x2": 165,
+              "y2": 185,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 73,
+              "y": 245,
+              "width": 24,
+              "height": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 210,
+              "y": 151,
+              "text": "圆组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 210,
+              "y": 207,
+              "text": "三角组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 210,
+              "y": 266,
+              "text": "方组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "按形状分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "个数多不看画多大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "并列也可都指出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-4-6-2",
+          "description": "一一配对找最多；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "一一配对找最多",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "同形状放一组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "一个对一个比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "指个数最多的组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "不看画得多大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "按形状分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "个数多不看画多大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "并列也可都指出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-4-6-3",
+          "description": "看同样多的情况；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看同样多的情况",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "另图：一个方改圆",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "重新比较各组个数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "一样多：都可以指",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "原图保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "按形状分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "个数多不看画多大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "并列也可都指出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-4-6-4",
+          "description": "说数量不是图形大小；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说数量不是图形大小",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "我怎样比较的",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "改图后看到什么",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "不知道可以说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "成人记录原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "按形状分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "个数多不看画多大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "并列也可都指出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "成人代画记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "为何七条数据可能有两个众数？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）。",
+        "本龄纸页：prediction-7-9/input/original-work/frequency-original/mode-work/change-input/frequency-changed/compare-work/conclusion-7-9；公共safety/setup/method/print-log，reference作答后才读。"
+      ],
+      "safety": "成人近距离陪伴4—6岁，保管铅笔与橡皮，小件不入口。只在整张白纸/安全废纸写画，无须剪裁；若成人预制纸卡须足够大并收齐，儿童不拿剪刀。纸边不划手，不用真实儿童姓名、成绩、家庭收入或隐私数据，所有数字为构造纸题。疲倦或不适可停，允许未做和请成人帮助。",
+      "steps": [
+        {
+          "title": "保留七条原记录",
+          "caption": "保留七条原记录",
+          "action": "prediction-7-9保猜想，input给a至g，在original-work逐项核七个身份和值；相同3或4也分别算一条。",
+          "actor": "together",
+          "adultNote": "普通两张纸可正反面分区抄本龄所需输入和空格，A4母版按需选页而非全部打印。4—6只看三种同样大小的纸上图形：圆2个、三角3个、方1个；可由成人画在preschool-input，不要求认数字或做七数题。其他龄核心原输入按身份a至g为2、3、3、4、4、4、5，每次出现是一条记录，不因相同就删去。先保留原稿，参考页作答后才打开。"
+        },
+        {
+          "title": "从记号得到频数",
+          "caption": "从记号得到频数",
+          "action": "frequency-original填值2/3/4/5各自记号与次数，合计7；mode-work写最高次数和对应值，分开报告。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "只改g后重新计数",
+          "caption": "只改g后重新计数",
+          "action": "change-input明确g5换3，frequency-changed核新四行和合计7；compare-work保留原/新最高频和所有对应值，不能漏掉并列。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "说明两个众数的依据",
+          "caption": "说明两个众数的依据",
+          "action": "conclusion-7-9引用两张表解释并列，不把3与4平均成3.5；最大值与最多次数不是一回事。",
+          "actor": "together",
+          "adultNote": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "频数",
+          "众数与并列"
+        ],
+        "explanation": "频数是某个值出现的次数。找频数最大的值，可能一个或多个；最大数值只看数值大小，和是否常见不同。",
+        "limits": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。",
+        "observation": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。",
+        "nextQuestion": "哪种数据改动改变最高频，哪种只是换了书写顺序？"
+      },
+      "guide": {
+        "goal": "说明两个众数的依据",
+        "observe": "保留七条原记录",
+        "control": "保留七项身份和原稿，只在副本把g的5替换为3；频数合计保持7。",
+        "support": "成人可逐项指读a至g并帮助做计数记号，让孩子自己核对合计和并列值；保留初答并注明帮助。",
+        "time": "10—15分钟",
+        "recordFields": [
+          "七个身份不删重",
+          "先数次数再报值",
+          "只替换g这一项",
+          "并列全部保留"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M6",
+          "title": "OpenStax｜平均数与概率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值、中位数、众数与基本概率定义；原创数据不是真实群体统计。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax众数与频数定义及并列/无突出众数说明；所有数据、图示和操作是原创，不是群体调查或机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mode284-7-9-1",
+          "description": "保留七条原记录；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留七条原记录",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "a b c d e f g",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "2 3 3 4 4 4 5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "相同值也各算一次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "合计应为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "七个身份不删重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先数次数再报值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只替换g这一项",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "并列全部保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-7-9-2",
+          "description": "从记号得到频数；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "从记号得到频数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "值 → 计数记号 → 次数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "找最高次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "再报对应的数值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "值和次数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "七个身份不删重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先数次数再报值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只替换g这一项",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "并列全部保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-7-9-3",
+          "description": "只改g后重新计数；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "只改g后重新计数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "复制后只改g：5 → 3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "5的频数减1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "3的频数加1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "总数仍为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "七个身份不删重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先数次数再报值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只替换g这一项",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "并列全部保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-7-9-4",
+          "description": "说明两个众数的依据；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说明两个众数的依据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "众数值 ≠ 最大值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "并列值全部报告",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "不把并列求平均",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "结论引用自己的表",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "七个身份不删重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先数次数再报值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只替换g这一项",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "并列全部保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "怎样区分最大值、最高频数与众数值？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）。",
+        "本龄纸页：prediction-10-12/input/original-work/frequency-original/graph-work/graph-audit/error-input/error-work/change-input/frequency-changed/update-audit/conclusion-10-12；公共safety/setup/method/print-log，reference作答后才读。"
+      ],
+      "safety": "成人近距离陪伴4—6岁，保管铅笔与橡皮，小件不入口。只在整张白纸/安全废纸写画，无须剪裁；若成人预制纸卡须足够大并收齐，儿童不拿剪刀。纸边不划手，不用真实儿童姓名、成绩、家庭收入或隐私数据，所有数字为构造纸题。疲倦或不适可停，允许未做和请成人帮助。",
+      "steps": [
+        {
+          "title": "审计值与次数两个轴",
+          "caption": "审计值与次数两个轴",
+          "action": "original-work和frequency-original建立七项来源；prediction-10-12先说明最大值猜想，graph-work横轴标数值、纵轴标次数，从0起等单位画条形图。",
+          "actor": "together",
+          "adultNote": "普通两张纸可正反面分区抄本龄所需输入和空格，A4母版按需选页而非全部打印。4—6只看三种同样大小的纸上图形：圆2个、三角3个、方1个；可由成人画在preschool-input，不要求认数字或做七数题。其他龄核心原输入按身份a至g为2、3、3、4、4、4、5，每次出现是一条记录，不因相同就删去。先保留原稿，参考页作答后才打开。"
+        },
+        {
+          "title": "用图表互相核对",
+          "caption": "用图表互相核对",
+          "action": "graph-audit核条高、频数和7条原记录，找最高条对应值而不是最右条；error-input给错误说法，在error-work逐条用证据改正。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "核替换不是新增或删重",
+          "caption": "核替换不是新增或删重",
+          "action": "按change-input重作frequency-changed，update-audit核g一次替换：旧值频数减1、新值加1，总数不变；保留5频数0行用于同域对照。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "给出有限的数据结论",
+          "caption": "给出有限的数据结论",
+          "action": "conclusion-10-12说明两众数只描述这7条构造记录，不能推断人群最常见值或下一次一定出现什么；用原表定位错误来源。",
+          "actor": "together",
+          "adultNote": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "图表互证",
+          "值与频数"
+        ],
+        "explanation": "频数是某个值出现的次数。找频数最大的值，可能一个或多个；最大数值只看数值大小，和是否常见不同。",
+        "limits": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。",
+        "observation": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。",
+        "nextQuestion": "哪种数据改动改变最高频，哪种只是换了书写顺序？"
+      },
+      "guide": {
+        "goal": "给出有限的数据结论",
+        "observe": "审计值与次数两个轴",
+        "control": "保留七项身份和原稿，只在副本把g的5替换为3；频数合计保持7。",
+        "support": "成人可示范坐标轴标注方式，但不代填条高或错误订正；请孩子回到七条原记录核对，帮助和未知写明。",
+        "time": "15—20分钟",
+        "recordFields": [
+          "横轴值 纵轴次数",
+          "合计必须为7",
+          "最右不等于最高",
+          "样本不预言未来"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M6",
+          "title": "OpenStax｜平均数与概率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值、中位数、众数与基本概率定义；原创数据不是真实群体统计。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax众数与频数定义及并列/无突出众数说明；所有数据、图示和操作是原创，不是群体调查或机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mode284-10-12-1",
+          "description": "审计值与次数两个轴；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审计值与次数两个轴",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "a b c d e f g",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "2 3 3 4 4 4 5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "相同值也各算一次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "合计应为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "横轴值 纵轴次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "合计必须为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "最右不等于最高",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "样本不预言未来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-10-12-2",
+          "description": "用图表互相核对；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用图表互相核对",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 255,
+              "x2": 310,
+              "y2": 255,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 255,
+              "x2": 80,
+              "y2": 128,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 285,
+              "text": "数值轴；等宽等间隔",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 92,
+              "y": 136,
+              "text": "次数轴从0起",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 107,
+              "y": 194,
+              "text": "按自己的表画柱",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 107,
+              "y": 226,
+              "text": "未填参考答案",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "横轴值 纵轴次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "合计必须为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "最右不等于最高",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "样本不预言未来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-10-12-3",
+          "description": "核替换不是新增或删重；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "核替换不是新增或删重",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "复制后只改g：5 → 3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "5的频数减1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "3的频数加1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "总数仍为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "横轴值 纵轴次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "合计必须为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "最右不等于最高",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "样本不预言未来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-10-12-4",
+          "description": "给出有限的数据结论；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "给出有限的数据结论",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "众数值 ≠ 最大值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "并列值全部报告",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "不把并列求平均",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "结论引用自己的表",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "横轴值 纵轴次数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "合计必须为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "最右不等于最高",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "样本不预言未来",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "众数约定与频数更新如何精确表达？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）。",
+        "本龄纸页：prediction-13-16/input/original-work/frequency-original/change-input/frequency-changed/convention-input/convention-work/update-input/formula-work/counter-input/counter-work/design-work/conclusion-13-16；公共safety/setup/method/print-log，reference作答后才读。"
+      ],
+      "safety": "成人近距离陪伴4—6岁，保管铅笔与橡皮，小件不入口。只在整张白纸/安全废纸写画，无须剪裁；若成人预制纸卡须足够大并收齐，儿童不拿剪刀。纸边不划手，不用真实儿童姓名、成绩、家庭收入或隐私数据，所有数字为构造纸题。疲倦或不适可停，允许未做和请成人帮助。",
+      "steps": [
+        {
+          "title": "先独立完成核心频数",
+          "caption": "先独立完成核心频数",
+          "action": "original-work、frequency-original、frequency-changed保核心与替换过程；prediction-13-16预想最高频并列与全同频的区别。",
+          "actor": "together",
+          "adultNote": "普通两张纸可正反面分区抄本龄所需输入和空格，A4母版按需选页而非全部打印。4—6只看三种同样大小的纸上图形：圆2个、三角3个、方1个；可由成人画在preschool-input，不要求认数字或做七数题。其他龄核心原输入按身份a至g为2、3、3、4、4、4、5，每次出现是一条记录，不因相同就删去。先保留原稿，参考页作答后才打开。"
+        },
+        {
+          "title": "比较两种众数约定",
+          "caption": "比较两种众数约定",
+          "action": "convention-input给全同频、单一值与空集纸题，convention-work分别写argmax集合及本课学校表述；先判断数据是否为空，不把唯一类别误作无众数。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "推导一次替换的更新",
+          "caption": "推导一次替换的更新",
+          "action": "update-input定义值域及频数更新，formula-work写c′(v)=c(v)−I(v=x)+I(v=y)，代入x=5,y=3并核总数守恒；x=y时两项抵消，不额外删记录。",
+          "actor": "together",
+          "adultNote": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。"
+        },
+        {
+          "title": "构造反例检验过强规则",
+          "caption": "构造反例检验过强规则",
+          "action": "counter-input把g5换9作为独立副本，counter-work比较最大值与众数；design-work构造另一组双众数且平均值不是众数，conclusion-13-16说明变更数据与换排列的区别。",
+          "actor": "together",
+          "adultNote": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "众数约定",
+          "频数函数更新"
+        ],
+        "explanation": "频数是某个值出现的次数。找频数最大的值，可能一个或多个；最大数值只看数值大小，和是否常见不同。",
+        "limits": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。",
+        "observation": "七数核心先给每项身份，逐项把它对应到值2/3/4/5的计数记号，合计必须为7。找最高频数，再报告对应的数值为众数，不把次数本身当众数，不取最大值来代替。复制为修改版，只把g的5换为3，不新增第8项也不改原稿；重新核频数和合计，若最高频有并列，全部列出。错误另写订正，保留初答与帮助。",
+        "nextQuestion": "哪种数据改动改变最高频，哪种只是换了书写顺序？"
+      },
+      "guide": {
+        "goal": "构造反例检验过强规则",
+        "observe": "先独立完成核心频数",
+        "control": "保留七项身份和原稿，只在副本把g的5替换为3；频数合计保持7。",
+        "support": "可解释argmax与指示函数符号，保留学习者独立频数、约定比较和推导；不代作反例，记录求助与未解决处。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "先判断空/非空",
+          "全同频注明约定",
+          "单一类别有众数",
+          "替换更新总数不变"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M6",
+          "title": "OpenStax｜平均数与概率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值、中位数、众数与基本概率定义；原创数据不是真实群体统计。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax众数与频数定义及并列/无突出众数说明；所有数据、图示和操作是原创，不是群体调查或机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创静态课程，未儿童或实际打印试用，不代表教学效果认证。众数描述给定数据内出现最多的值，不等于数值最大或未来结果保证。全同频且有多个不同值时，本课学校口径报告无突出众数/没有唯一众数；若采用argmax集合定义，所有这些值都并列，必须说明口径。只有一个不同值的非空数据集仍以该值为唯一众数。空数据不定义最高频或众数，不把两众数求平均当新众数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mode284-13-16-1",
+          "description": "先独立完成核心频数；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先独立完成核心频数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "a b c d e f g",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "2 3 3 4 4 4 5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "相同值也各算一次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "合计应为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先判断空/非空",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "全同频注明约定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "单一类别有众数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "替换更新总数不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-13-16-2",
+          "description": "比较两种众数约定；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较两种众数约定",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "全同频：说明约定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "单一值：仍有众数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "空集：最高频未定义",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "不能混为一个规则",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先判断空/非空",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "全同频注明约定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "单一类别有众数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "替换更新总数不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-13-16-3",
+          "description": "推导一次替换的更新；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "推导一次替换的更新",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "复制后只改g：5 → 3",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "5的频数减1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "3的频数加1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "总数仍为7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先判断空/非空",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "全同频注明约定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "单一类别有众数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "替换更新总数不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mode284-13-16-4",
+          "description": "构造反例检验过强规则；原创纸题示意，非真实群体统计。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "构造反例检验过强规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 112,
+              "width": 280,
+              "height": 170,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 148,
+              "text": "众数值 ≠ 最大值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 185,
+              "text": "并列值全部报告",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 222,
+              "text": "不把并列求平均",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 258,
+              "text": "结论引用自己的表",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先判断空/非空",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "全同频注明约定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "单一类别有众数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "替换更新总数不变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2226 @@
+{
+  "activityId": 89,
+  "activityTitle": "十二张卡排几种长方阵",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "六张大卡怎样排成一样长的两行，拿走一张后发生什么？",
+      "materials": [
+        "成人预裁6张8×8厘米正方纸卡，边缘平整；60×40厘米以上空桌面",
+        "粗蜡笔与A3记录纸1张；成人在纸上画两条行起点，不预画六个答案格"
+      ],
+      "safety": "只在空桌面摆大纸卡，不用硬币、豆子、磁粒或散落小件。成人预裁，剪刀收起；纸卡和笔不入口、不靠近眼睛。4—6岁成人全程近距离陪伴，疲倦即停。不用比赛速度或结果给孩子的能力评分。",
+      "steps": [
+        {
+          "title": "数六张，先排一整行",
+          "action": "成人与孩子逐张触指确认6张，再由孩子排一行，卡边相靠不叠放；成人问每张有没有被数到，不要求把长48厘米当测量任务。",
+          "actor": "together",
+          "caption": "数六张，先排一整行",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "重新摆成两行一样多",
+          "action": "全部收拢后分成两行，每行同一方向紧挨，左端对齐。孩子一列一列用手指找上下对应，发现多余或空位可以重摆。完成后成人可代记2行、每行实际张数，不先替孩子摆好。",
+          "actor": "together",
+          "caption": "重新摆成两行一样多",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "拿走右下角一张，再检查",
+          "action": "在确实摆成2行3列后，成人拿走右下角卡放在单独“暂离”区，不藏起来。孩子指空位及两行是否同样长；可以把剩下5张重摆成1行5张，但不能把2行的空位说成已经填满。若前一步未完成则到此停止并保留未完成。",
+          "actor": "together",
+          "caption": "拿走右下角一张，再检查",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "把卡归还，复原与口述",
+          "action": "把暂离卡放回桌面，孩子尝试复原两行。并排画或口述拿走前、拿走后和归还后的变化，成人记原话。只说这套六卡任务，不要求列出十二卡所有因数。",
+          "actor": "together",
+          "caption": "把卡归还，复原与口述",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一一对应",
+          "等长行与空位",
+          "总数变化要重新检查"
+        ],
+        "explanation": "齐整长方阵要求每行同样多、左右对齐、没有空位或重叠。六张可摆两行三张；拿走一张后，原阵列有空位，剩下五张仍可另摆一行。",
+        "limits": "这是六卡简化任务；不据此说五张完全不能排长方阵，也不要求幼儿掌握因数。",
+        "observation": "先保存实际排列、行列与余卡记录，再核对定义；不把示意图当作个人完成结果。",
+        "nextQuestion": "如果改变总卡数或把转向算成新方案，哪些结论需要重新检查？"
+      },
+      "guide": {
+        "goal": "孩子实际重排六卡，检查拿走一张后的空位，再复原。",
+        "observe": "六张大卡怎样排成一样长的两行，拿走一张后发生什么？",
+        "support": "先摆后记，允许重摆；分别指出等行、齐边、无重叠和用完条件。幼儿不要求乘法或证明。",
+        "control": "6张同大卡；第一次2行完成后才移走右下角1张；移走卡单放、不偷偷补回。",
+        "time": "约10—15分钟，孩子参与5—8分钟",
+        "recordFields": [
+          "六卡点数与两行实际摆法",
+          "移走一张后的指认",
+          "归还后的摆法与原话"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "正整数因数可通过整除和成对乘积识别；质数只有1与自身两个正因数。",
+          "scope": "支持因数与整除概念。以下卡片大小、摆放次序、查重和面积周长任务均为本页原创数学构造。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax因数与质数概念；数值结果可由整数计算逐项复核。活动为原创桌面数学任务，未课堂试用。",
+      "diagrams": [
+        {
+          "sceneKey": "factor89-46-1",
+          "description": "六张先排一行，逐张指到。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "六张先排一行，逐张指到",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 124,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 193,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 262,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 331,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 153,
+              "width": 69,
+              "height": 69,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 270,
+              "text": "每张只数一次；不叠卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-46-2",
+          "description": "收拢重摆，两行用对应检查。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "收拢重摆，两行用对应检查",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 159,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 159,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 155,
+              "text": "左端对齐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 200,
+              "text": "每列上下各一张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 245,
+              "text": "真实摆法：___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-46-3",
+          "description": "右下角暂离，空位必须看见。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "右下角暂离，空位必须看见",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 159,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 119,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 159,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 184,
+              "width": 65,
+              "height": 65,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 446,
+              "y": 165,
+              "width": 65,
+              "height": 65,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 420,
+              "y": 145,
+              "text": "暂离的一张",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 346,
+              "y": 276,
+              "text": "五张仍能另排一行",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-46-4",
+          "description": "归还再复原，不替孩子填成功。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "归还再复原，不替孩子填成功",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "归还前：指哪里有空位？",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "归还后：实际怎样摆？___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "也可把五张另排一整行",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "这是六卡任务，不背十二的因数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "十二张卡按行数逐一试，怎样用余卡发现不能排齐的行数？",
+      "materials": [
+        "12张成人预裁5×5厘米同大正方纸卡；65×65厘米空桌面",
+        "A3十二行检查表，行数栏依次1至12；铅笔、直尺，成人可代画表"
+      ],
+      "safety": "只在空桌面摆大纸卡，不用硬币、豆子、磁粒或散落小件。成人预裁，剪刀收起；纸卡和笔不入口、不靠近眼睛。4—6岁成人全程近距离陪伴，疲倦即停。不用比赛速度或结果给孩子的能力评分。",
+      "steps": [
+        {
+          "title": "冻结规则，再试一行",
+          "action": "点数12张，规定每行一样多、行首对齐、卡片不重叠不留洞且全部用完。此轮把“几行、几列”有序记录，转90度后的行列交换先另记。先摆1行并记录12列。",
+          "actor": "together",
+          "caption": "冻结规则，再试一行",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "依次试2至6行，余卡单放",
+          "action": "每次全部收拢，先给指定的每行一张，再逐轮每行各放一张；无法再给每行一张时停，把余下卡摆在表旁。逐项记录完整列数与余卡数，只有余卡0才描下长方阵。不要把最后一列只有几张的形状当完整长方阵。",
+          "actor": "together",
+          "caption": "依次试2至6行，余卡单放",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "继续试7至12行，不跳过失败",
+          "action": "同规则实际试7、8、9、10、11、12行；每次都以12张开始，保留余卡。可分两次做，未试行数写未试，不用预期代填。每个成功阵列再触数行与列，检查乘积和总卡数。",
+          "actor": "together",
+          "caption": "继续试7至12行，不跳过失败",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "转向查配对，汇总有无余卡",
+          "action": "对成功阵列实际转向或重摆，核对1×12与12×1、2×6与6×2、3×4与4×3。与完整十二行表对照后，可写六个有序行列对；另注明若转向算同形则只有三类，不把两种计数混用。",
+          "actor": "together",
+          "caption": "转向查配对，汇总有无余卡",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "整除与余数",
+          "有序行列对",
+          "转向等价的约定"
+        ],
+        "explanation": "以行数r分配12张，完整列数q和余卡s满足12=rq+s且0≤s<r。余卡为0时该行数是12的因数；转向是否算新方案取决于事先规则。",
+        "limits": "只能对完成的十二个行数说本次穷尽。卡片微小剪裁误差不改变计数数学，但不能用不齐的边长作精密测量。",
+        "observation": "先保存实际排列、行列与余卡记录，再核对定义；不把示意图当作个人完成结果。",
+        "nextQuestion": "如果改变总卡数或把转向算成新方案，哪些结论需要重新检查？"
+      },
+      "guide": {
+        "goal": "逐一实摆1至12行，记录成功和余卡，再实际转向查成对关系。",
+        "observe": "十二张卡按行数逐一试，怎样用余卡发现不能排齐的行数？",
+        "support": "先摆后记，允许重摆；分别指出等行、齐边、无重叠和用完条件。幼儿不要求乘法或证明。",
+        "control": "总数12，卡同大、行首对齐、完整列轮流分发；先记有序行列再按转向归类。",
+        "time": "约25—35分钟，可分两次",
+        "recordFields": [
+          "1至12行的完整列/余卡/未试",
+          "成功阵列行列与触数",
+          "转向配对与两种计数约定"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "正整数因数可通过整除和成对乘积识别；质数只有1与自身两个正因数。",
+          "scope": "支持因数与整除概念。以下卡片大小、摆放次序、查重和面积周长任务均为本页原创数学构造。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax因数与质数概念；数值结果可由整数计算逐项复核。活动为原创桌面数学任务，未课堂试用。",
+      "diagrams": [
+        {
+          "sceneKey": "factor89-79-1",
+          "description": "总数十二，规则先写清。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "总数十二，规则先写清",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 68,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 148,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 188,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 268,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 308,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 348,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 388,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 428,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 468,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 508,
+              "y": 122,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 209,
+              "text": "先摆1行12列，再按行数逐项试",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 246,
+              "text": "一样多、齐行首，不重叠、不留洞",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 282,
+              "text": "总数始终十二",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-79-2",
+          "description": "按行数逐轮分，余卡另放。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "按行数逐轮分，余卡另放",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 114,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 114,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 146,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 146,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 178,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 178,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 210,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 210,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 242,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 92,
+              "y": 242,
+              "width": 32,
+              "height": 32,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 377,
+              "y": 156,
+              "width": 38,
+              "height": 38,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 421,
+              "y": 156,
+              "width": 38,
+              "height": 38,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 327,
+              "y": 132,
+              "text": "试5行的构造例",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 327,
+              "y": 231,
+              "text": "完整列2，余卡2",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 327,
+              "y": 271,
+              "text": "例子不代填其他行",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-79-3",
+          "description": "7至12行也实摆，失败也记录。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "7至12行也实摆，失败也记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "每次收拢后确认仍是12张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "逐行写：完整列___，余卡___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "未试就写未试，不推定完成",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "有空位的最后一列不算整列",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-79-4",
+          "description": "行列交换配对，先说计数规则。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "行列交换配对，先说计数规则",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "1×12 ↔ 12×1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "2×6 ↔ 6×2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "3×4 ↔ 4×3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "有序6种；若转向同形则3类",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "面积都是十二格的长方阵，边框最多十六格边时哪些能装下？",
+      "materials": [
+        "12张成人预裁4×4厘米正方卡；60×50厘米空桌面",
+        "1厘米方格纸2张用于缩小记录，直尺、铅笔；A4约束卡写“用完12单位方块，完整长方阵，外边界≤16个单位边”",
+        "3张A6构造记录卡分别记录1×12、2×6、3×4；单位边是纸卡边长，不把格数误写成厘米"
+      ],
+      "safety": "只在空桌面摆大纸卡，不用硬币、豆子、磁粒或散落小件。成人预裁，剪刀收起；纸卡和笔不入口、不靠近眼睛。4—6岁成人全程近距离陪伴，疲倦即停。不用比赛速度或结果给孩子的能力评分。",
+      "steps": [
+        {
+          "title": "先核实十二格的三个形状",
+          "action": "用12张卡依次实摆1×12、2×6、3×4，每次不叠不漏。先点数面积，再将轮廓缩记到1厘米方格纸，标明记录图每格代表1张4厘米卡，不是原物大小。转向在本任务算同形。",
+          "actor": "together",
+          "caption": "先核实十二格的三个形状",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "沿外边界逐边计数",
+          "action": "对每种实摆阵列用手指沿最外圈走一周，在记录图每跨一个单位边作标记；内部卡缝不算边框。不把面积12当周长12。分别核对公式2×(行数+列数)与逐边计数，若不一致保留原数再查重复或漏边。",
+          "actor": "together",
+          "caption": "沿外边界逐边计数",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "按十六单位边约束实际筛选",
+          "action": "把三张构造记录卡放入“符合/不符合/未核清”三栏。预期数学核查为1×12周长26不符合，2×6周长16及3×4周长14符合；先保留自己原判，再与计数证据核对。不改约束为“至少16”。",
+          "actor": "together",
+          "caption": "按十六单位边约束实际筛选",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "固定面积，比较边框并检查单位",
+          "action": "重新摆较短边框的3×4与2×6，写同样用12张但外边界不同。可把14、16、26单位边分别换成实际卡边长4厘米下的56、64、104厘米，只作理想纸卡尺寸计算；不用缩图1厘米去报告原物周长。结论限三类完整整数格阵列，不声称证明任意形状最优。",
+          "actor": "together",
+          "caption": "固定面积，比较边框并检查单位",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "面积与周长分离",
+          "离散约束筛选",
+          "比例记录与单位",
+          "在已列有限集合内比较"
+        ],
+        "explanation": "十二单位方格面积固定，长方阵的外边界却随行列改变。在三个不计转向的整数阵列中，3×4周长14最短；不超过16的条件同时允许2×6和3×4。",
+        "limits": "只比较完整且轴向对齐的整数格长方阵，不覆盖圆、非矩形或连续边长最优化。换算按理想4厘米卡边，不把纸卡误差藏进理论结果。",
+        "observation": "先保存实际排列、行列与余卡记录，再核对定义；不把示意图当作个人完成结果。",
+        "nextQuestion": "如果改变总卡数或把转向算成新方案，哪些结论需要重新检查？"
+      },
+      "guide": {
+        "goal": "实际搭三种阵列、触指边界、做缩图和有约束的归类核查。",
+        "observe": "面积都是十二格的长方阵，边框最多十六格边时哪些能装下？",
+        "support": "先摆后记，允许重摆；分别指出等行、齐边、无重叠和用完条件。幼儿不要求乘法或证明。",
+        "control": "同12张4厘米卡；转向同形；只计外边界；缩图1格代表1卡；约束≤16单位边。",
+        "time": "约30—40分钟",
+        "recordFields": [
+          "三构造行列及面积触数",
+          "逐边计数与公式交叉核查",
+          "约束归类及修改前判定",
+          "单位换算与结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "正整数因数可通过整除和成对乘积识别；质数只有1与自身两个正因数。",
+          "scope": "支持因数与整除概念。以下卡片大小、摆放次序、查重和面积周长任务均为本页原创数学构造。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax因数与质数概念；数值结果可由整数计算逐项复核。活动为原创桌面数学任务，未课堂试用。",
+      "diagrams": [
+        {
+          "sceneKey": "factor89-1012-1",
+          "description": "同十二张，三类阵列实摆后缩记。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同十二张，三类阵列实摆后缩记",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 225,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 300,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 325,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 187,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 175,
+              "y": 212,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 438,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 463,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 488,
+              "y": 128,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 153,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 438,
+              "y": 153,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 463,
+              "y": 153,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 488,
+              "y": 153,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 178,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 438,
+              "y": 178,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 463,
+              "y": 178,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 488,
+              "y": 178,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 276,
+              "text": "缩图一格代表一张，不是原尺寸",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1012-2",
+          "description": "只沿外边界，内部缝不计。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "只沿外边界，内部缝不计",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 122,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 109,
+              "y": 122,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 122,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 122,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 165,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 109,
+              "y": 165,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 165,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 165,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 208,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 109,
+              "y": 208,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 208,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 208,
+              "width": 43,
+              "height": 43,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 330,
+              "y": 149,
+              "text": "触指一周，再查公式",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 330,
+              "y": 194,
+              "text": "P = 2 ×（行 + 列）",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 330,
+              "y": 239,
+              "text": "原计数___；核查___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1012-3",
+          "description": "上限是十六，不是只找一种。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "上限是十六，不是只找一种",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "1×12：外边界26 → 超出",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "2×6：外边界16 → 符合",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "3×4：外边界14 → 符合",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "这些是数学核查，初次判断另留",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1012-4",
+          "description": "同面积不等于同边框。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同面积不等于同边框",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "12张卡面积相同，周长可不同",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "原卡边4厘米；缩图格边1厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "原物理想周长：单位边数×4厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "只比较三类整数长方阵",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样用有限的除法试验和实际摆卡，证明十二与十三没有漏掉的长方阵？",
+      "materials": [
+        "13张成人预裁4×4厘米正方卡，其中1张背面写“备用”，60×60厘米空桌面；正面等同",
+        "A3两张检验表分别标N=12和N=13，铅笔、直尺；A6证明卡2张用于记录成对因数与平方界"
+      ],
+      "safety": "只在空桌面摆大纸卡，不用硬币、豆子、磁粒或散落小件。成人预裁，剪刀收起；纸卡和笔不入口、不靠近眼睛。4—6岁成人全程近距离陪伴，疲倦即停。不用比赛速度或结果给孩子的能力评分。",
+      "steps": [
+        {
+          "title": "先做十二张的有界试验",
+          "action": "把备用卡放旁边，点12张。表只列候选短边a=1、2、3；对每个a实际逐行均分，记完整列q与余数s，写12=aq+s。s=0才实摆并描下a×q，先不试4至12，注明这不是仅凭少试几次就宣布穷尽。",
+          "actor": "together",
+          "caption": "先做十二张的有界试验",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "写出不漏条件并检验转向",
+          "action": "对任一完整长方阵，设短边a≤长边b且ab=12；若两边都至少4，乘积至少16而非12，故a只能1、2、3。把实际三构造分别旋转核对长短边交换，说明未试的大行数已由转向覆盖。若允许区分朝向，必须另报六个有序对。",
+          "actor": "together",
+          "caption": "写出不漏条件并检验转向",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "加入备用卡，独立测试十三张",
+          "action": "把备用卡翻成同面加入，确认13张；重新用a=1、2、3实摆分配，分别记录余数，不沿用十二张结论。以4×4>13证明短边仍最多3，核查只有1×13无余卡，2与3均有余卡。物理1行13张长52厘米，桌面留足且不叠卡。",
+          "actor": "together",
+          "caption": "加入备用卡，独立测试十三张",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        },
+        {
+          "title": "区分构造证据和穷尽论证",
+          "action": "把实摆照片式草图/余卡表归为构造证据，把短边上界归为排除其他候选的理由。比较12有三种不计转向类、13仅一类及其正因数，解释13为质数。不把12、13的有限试验推广成所有整数结论；概括算法时写对N>0试a到a²≤N、整除才配N/a，平方数的相同因数只记一次，未另做平方数实摆不声称已验证。",
+          "actor": "together",
+          "caption": "区分构造证据和穷尽论证",
+          "adultNote": "成人预裁纸卡并收好剪刀；不使用小计数珠或食物，允许口述、代写和中止。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "穷尽需要边界理由",
+          "商余数与因数成对",
+          "旋转等价",
+          "质数与合数",
+          "构造和证明的区别"
+        ],
+        "explanation": "实摆只能确认某个方案可行；短边平方不超过总面积的论证，才解释为何有限候选足够。12与13都只需试短边1至3，但13只有1×13无余卡。",
+        "limits": "一般算法是从整数乘积推导的规则，不是已对所有整数做实验。只覆盖正整数行列、完整轴向长方阵；纸卡排列次序和颜色不另计。",
+        "observation": "先保存实际排列、行列与余卡记录，再核对定义；不把示意图当作个人完成结果。",
+        "nextQuestion": "如果改变总卡数或把转向算成新方案，哪些结论需要重新检查？"
+      },
+      "guide": {
+        "goal": "在两种卡数下分别执行有限均分，再用短边界证明无遗漏并核对质数结论。",
+        "observe": "怎样用有限的除法试验和实际摆卡，证明十二与十三没有漏掉的长方阵？",
+        "support": "先摆后记，允许重摆；分别指出等行、齐边、无重叠和用完条件。幼儿不要求乘法或证明。",
+        "control": "12时备用卡不参与，13时加入；两表独立；短边a≤b、转向同形；只列a=1/2/3但必须给出排除a≥4的理由。",
+        "time": "约35—45分钟",
+        "recordFields": [
+          "12的候选/商/余数与实摆",
+          "短边界及旋转覆盖论证",
+          "13的独立候选/商/余数",
+          "两种卡数的因数与类数",
+          "算法适用范围和未实摆内容"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "正整数因数可通过整除和成对乘积识别；质数只有1与自身两个正因数。",
+          "scope": "支持因数与整除概念。以下卡片大小、摆放次序、查重和面积周长任务均为本页原创数学构造。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax因数与质数概念；数值结果可由整数计算逐项复核。活动为原创桌面数学任务，未课堂试用。",
+      "diagrams": [
+        {
+          "sceneKey": "factor89-1316-1",
+          "description": "十二张实摆；备用一张先留外。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "十二张实摆；备用一张先留外",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 119,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 119,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 119,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 119,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 159,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 159,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 159,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 159,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 199,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 199,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 136,
+              "y": 199,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 199,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 424,
+              "y": 144,
+              "width": 40,
+              "height": 40,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 402,
+              "y": 127,
+              "text": "备用，不参与",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 326,
+              "y": 242,
+              "text": "候选短边：1、2、3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 326,
+              "y": 281,
+              "text": "每次记录商与余数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1316-2",
+          "description": "少试能穷尽，需要短边的证明。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "少试能穷尽，需要短边的证明",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "a≤b，且 a×b=12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "若a≥4，则b≥4，乘积≥16",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "所以短边只需试1、2、3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "大行数由转向配对，不是忘了试",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1316-3",
+          "description": "加入一张，十三张重新实摆。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "加入一张，十三张重新实摆",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 165,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 282,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 321,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 399,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 438,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 477,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 516,
+              "y": 139,
+              "width": 39,
+              "height": 39,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 221,
+              "text": "1行13张：构造示例",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 268,
+              "text": "2行、3行各自重分并保留余卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "factor89-1316-4",
+          "description": "构造与排除，合起来才叫不遗漏。图中排列与数值仅为指定数学构造或检查条件，不是孩子已完成的记录；实际摆法、失败和改动须另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "构造与排除，合起来才叫不遗漏",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "实摆：找到可行阵列与余卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "证明：短边平方不能超过N",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "12三类；13一类（不计转向）",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "一般算法不是所有N均已做过",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

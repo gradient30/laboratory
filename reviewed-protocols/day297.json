@@ -1,0 +1,1911 @@
+{
+  "activityId": 297,
+  "activityTitle": "好问题要能留下证据",
+  "contentKey": "annual-content-nature-life-289",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "记录说了什么，哪里还不知道？",
+      "materials": [
+        "纸、笔；只备preschool-input、preschool-seen、preschool-unknown、preschool-questions、conclusion-4-6及protocol-4-6；成人代读代画，不使用其他年龄页。"
+      ],
+      "safety": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。",
+      "steps": [
+        {
+          "title": "听一句记录再指一指",
+          "caption": "听一句记录再指一指",
+          "action": "成人读preschool-input原句，孩子可指成人画的三个空心叶形或只听。形状是成人示意，不是新照片。preschool-seen由成人代画或记孩子原话，不要求数数。",
+          "actor": "together",
+          "adultNote": "成人读原句、代画代写；孩子只指、画、说，不要求数数或读写。"
+        },
+        {
+          "title": "说说哪里还不知道",
+          "caption": "说说哪里还不知道",
+          "action": "成人指preschool-input的“被挡住的一处”文字框，不在框内画隐藏叶。孩子可说看不见、不知道，成人记在preschool-unknown；不猜藏一片。",
+          "actor": "together",
+          "adultNote": "成人读原句、代画代写；孩子只指、画、说，不要求数数或读写。"
+        },
+        {
+          "title": "选一句能看记录回答的话",
+          "caption": "选一句能看记录回答的话",
+          "action": "成人口头问“记录里说看见展开的叶了吗”，孩子可点头或指图；再问“这株植物好吗”，允许说不知道。preschool-questions只由成人记，不评判真实植物。",
+          "actor": "together",
+          "adultNote": "成人读原句、代画代写；孩子只指、画、说，不要求数数或读写。"
+        },
+        {
+          "title": "把一句发现留下来",
+          "caption": "把一句发现留下来",
+          "action": "在conclusion-4-6画或口述一句记录中说了什么，再留一句还想问的事。成人代写，到此结束；不用高龄的计数表或模型题。",
+          "actor": "together",
+          "adultNote": "成人读原句、代画代写；孩子只指、画、说，不要求数数或读写。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "已说到的",
+          "还不知道的"
+        ],
+        "explanation": "记录说看见了叶；被挡住的地方仍不知道，不能猜成一片叶，也不能说植物一定好。",
+        "limits": "只听成人读虚构句、指记录里说到的叶、说还有不知道的地方；不用数数、认字、写字、计算或解释健康。被挡住的地方看不清，不猜里面有几片叶。",
+        "observation": "成人只记孩子指画与原话，不把口述当真实植物观察。",
+        "nextQuestion": "你还想问什么？"
+      },
+      "guide": {
+        "goal": "把一句发现留下来",
+        "observe": "你能指到记录说过的事吗？",
+        "recordFields": [
+          "听记录；成人代记",
+          "指已说到的叶",
+          "被挡住：不知道",
+          "只指画说，不数数"
+        ],
+        "control": "成人使用同一幼儿输入，不补画遮挡处；孩子不用数数。",
+        "support": "成人代读代画代记，孩子可只指；疲倦即停。",
+        "time": "5—10分钟，可随时停"
+      },
+      "sources": [
+        {
+          "id": "NL-grow",
+          "title": "Natural History Museum｜Watching and learning how plants grow",
+          "url": "https://www.nhm.ac.uk/take-part/activities-for-all/plant-club.html",
+          "originalTitle": "Watching and learning how plants grow",
+          "claim": "记录植物变化可使用持续观察日记。",
+          "scope": "NHM正文方法参考；不证明本虚构句、健康判断或全株叶数，也不认证本流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读NHM Watching and learning how plants grow正文的植物日记段；本课只用原创虚构文字和示意，不开展种植或采摘。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "只听成人读虚构句、指记录里说到的叶、说还有不知道的地方；不用数数、认字、写字、计算或解释健康。被挡住的地方看不清，不猜里面有几片叶。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "evidence297-4-6-1",
+          "description": "听一句记录再指一指。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "听一句记录再指一指",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 85,
+              "y": 173,
+              "r": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 148,
+              "x2": 85,
+              "y2": 202,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 177,
+              "y": 173,
+              "r": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 177,
+              "y1": 148,
+              "x2": 177,
+              "y2": 202,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 269,
+              "y": 173,
+              "r": 24,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 269,
+              "y1": 148,
+              "x2": 269,
+              "y2": 202,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 253,
+              "text": "成人示意：记录说到的叶",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "听记录；成人代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指已说到的叶",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "被挡住：不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不数数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-4-6-2",
+          "description": "说说哪里还不知道。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说说哪里还不知道",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 68,
+              "y": 128,
+              "width": 235,
+              "height": 102,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 169,
+              "text": "被挡住的一处",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 209,
+              "text": "不知道",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 270,
+              "text": "框内不补画隐藏叶",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "听记录；成人代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指已说到的叶",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "被挡住：不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不数数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-4-6-3",
+          "description": "选一句能看记录回答的话。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "选一句能看记录回答的话",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 123,
+              "width": 276,
+              "height": 141,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 160,
+              "text": "记录说看见叶了吗？",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 211,
+              "text": "植物好吗？还不知道",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "听记录；成人代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指已说到的叶",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "被挡住：不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不数数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-4-6-4",
+          "description": "把一句发现留下来。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把一句发现留下来",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 120,
+              "width": 268,
+              "height": 145,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 160,
+              "text": "我指到……",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 216,
+              "text": "我还想问……",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "听记录；成人代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指已说到的叶",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "被挡住：不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不数数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "什么问题能按这条记录直接回答？",
+      "materials": [
+        "纸、笔；input-record、count-rule、quote-work、question-work、evidence-7-9、recheck-7-9、conclusion-7-9及protocol-7-9；reference-young做完后读。"
+      ],
+      "safety": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。",
+      "steps": [
+        {
+          "title": "保留原句不补内容",
+          "caption": "保留原句不补内容",
+          "action": "抄或听读input-record，在quote-work保留原句与“虚构文字输入”标签；标出说了什么、没说什么。不要把遮挡框补成一片叶。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "把大问题改成明确问题",
+          "caption": "把大问题改成明确问题",
+          "action": "question-work把“这株植物好吗”改为“按这条记录，今天明确看见且展开的叶有几片”；读count-rule，再写对象、时间词、范围、单位与不计项。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "按同一口径找证据",
+          "caption": "按同一口径找证据",
+          "action": "evidence-7-9从原句找支持答案的词，另把全株有几片、明天会长多少放入缺信息栏。只给原句支持的答案，不把设计规则当原记录已经执行。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "交换规则再写有限句",
+          "caption": "交换规则再写有限句",
+          "action": "只在纸上用同一句及同一规则让成人复核，在recheck-7-9记一致/不一致/未做及原因；conclusion-7-9写依据与未知，reference-young最后读。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "问题范围",
+          "计数口径"
+        ],
+        "explanation": "好问题写明对象、时间、范围与记录办法。按原句可引用明确看见且展开的叶为3片；全株数量与健康仍缺证据。提出定性问题也可以，并非所有好问题都必须计数。",
+        "limits": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。",
+        "observation": "明确标虚构输入、规则、原句支持与缺失；设计或模型数值不得填成实录。",
+        "nextQuestion": "还缺什么才能回答全株多少？"
+      },
+      "guide": {
+        "goal": "交换规则再写有限句",
+        "observe": "问题与证据的范围相同吗？",
+        "recordFields": [
+          "问题写清对象范围",
+          "3只据这条记录",
+          "一处不等一片",
+          "未做复核也要写"
+        ],
+        "control": "同一句虚构输入和同一计数口径；缺失原样保留。设计与另题假设单列，不能偷偷增加观察。",
+        "support": "可口述由成人代记；先记录后参考，只做纸笔。",
+        "time": "10—15分钟"
+      },
+      "sources": [
+        {
+          "id": "NL-grow",
+          "title": "Natural History Museum｜Watching and learning how plants grow",
+          "url": "https://www.nhm.ac.uk/take-part/activities-for-all/plant-club.html",
+          "originalTitle": "Watching and learning how plants grow",
+          "claim": "记录植物变化可使用持续观察日记。",
+          "scope": "NHM正文方法参考；不证明本虚构句、健康判断或全株叶数，也不认证本流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读NHM Watching and learning how plants grow正文的植物日记段；本课只用原创虚构文字和示意，不开展种植或采摘。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "evidence297-7-9-1",
+          "description": "保留原句不补内容。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留原句不补内容",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 115,
+              "width": 279,
+              "height": 162,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 151,
+              "text": "看见 + 展开：3片",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 199,
+              "text": "一处被挡住",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 246,
+              "text": "这是虚构句，不是实测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "问题写清对象范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "3只据这条记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一处不等一片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未做复核也要写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-7-9-2",
+          "description": "把大问题改成明确问题。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把大问题改成明确问题",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 133,
+              "text": "对象 → 时间词 → 范围",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 160,
+              "x2": 315,
+              "y2": 160,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 202,
+              "text": "单位与计数标准",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 250,
+              "text": "宽问题改成可核对问题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "问题写清对象范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "3只据这条记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一处不等一片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未做复核也要写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-7-9-3",
+          "description": "按同一口径找证据。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "按同一口径找证据",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 121,
+              "width": 130,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 121,
+              "width": 134,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 160,
+              "text": "原句支持",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 160,
+              "text": "仍缺信息",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 224,
+              "text": "可见展开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 204,
+              "y": 224,
+              "text": "全株数量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "问题写清对象范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "3只据这条记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一处不等一片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未做复核也要写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-7-9-4",
+          "description": "交换规则再写有限句。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "交换规则再写有限句",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 54,
+              "y": 117,
+              "width": 270,
+              "height": 151,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 152,
+              "text": "同一句 + 同规则",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 201,
+              "text": "另一人复核",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 245,
+              "text": "没做写未做",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "问题写清对象范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "3只据这条记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一处不等一片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未做复核也要写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "缺哪些条件会使计数不能复查？",
+      "materials": [
+        "纸、笔；input-record、count-rule、source-card、audit-input、metadata-work、rule-work、audit-work、answerability-work、growth-work、design/conclusion-10-12、protocol-10-12；reference后读。"
+      ],
+      "safety": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。",
+      "steps": [
+        {
+          "title": "拆出记录给定与缺失",
+          "caption": "拆出记录给定与缺失",
+          "action": "读input-record、count-rule及source-card，metadata-work分别记对象、时间、视角、叶片标识、展开标准、可见范围；未提供的写缺失，不能补造。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "把计数标准写到能复查",
+          "caption": "把计数标准写到能复查",
+          "action": "rule-work给未来纸上记录设计计一次、展开判据、边界个体、遮挡标记、单位；audit-input列出的待审主张逐条写在audit-work，不把计数标准的设计冒充已观测。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "比较可回答与暂不能答",
+          "caption": "比较可回答与暂不能答",
+          "action": "answerability-work逐项分开原句直接支持、只在假设下支持、资料不足；growth-work解释无另一时间同标准记录不能算增长，叶数也不能单独诊断健康。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "设计补证据并保留原稿",
+          "caption": "设计补证据并保留原稿",
+          "action": "design-10-12只设计同一对象、时间与视角记录以及独立复核方式；conclusion-10-12用来源/虚构输入/我的解释三层作有限结论，不实施采摘或补拍。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "操作定义",
+          "原始记录与缺失"
+        ],
+        "explanation": "好问题写明对象、时间、范围与记录办法。按原句可引用明确看见且展开的叶为3片；全株数量与健康仍缺证据。提出定性问题也可以，并非所有好问题都必须计数。",
+        "limits": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。",
+        "observation": "明确标虚构输入、规则、原句支持与缺失；设计或模型数值不得填成实录。",
+        "nextQuestion": "怎样让另一个人按同一规则复查？"
+      },
+      "guide": {
+        "goal": "设计补证据并保留原稿",
+        "observe": "叶片定义和覆盖是否明确？",
+        "recordFields": [
+          "原句与规则分开",
+          "缺日期与视角",
+          "健康不能只看叶数",
+          "补证据只作设计"
+        ],
+        "control": "同一句虚构输入和同一计数口径；缺失原样保留。设计与另题假设单列，不能偷偷增加观察。",
+        "support": "可口述由成人代记；先记录后参考，只做纸笔。",
+        "time": "15—20分钟，可分次"
+      },
+      "sources": [
+        {
+          "id": "NL-grow",
+          "title": "Natural History Museum｜Watching and learning how plants grow",
+          "url": "https://www.nhm.ac.uk/take-part/activities-for-all/plant-club.html",
+          "originalTitle": "Watching and learning how plants grow",
+          "claim": "记录植物变化可使用持续观察日记。",
+          "scope": "NHM正文方法参考；不证明本虚构句、健康判断或全株叶数，也不认证本流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读NHM Watching and learning how plants grow正文的植物日记段；本课只用原创虚构文字和示意，不开展种植或采摘。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "evidence297-10-12-1",
+          "description": "拆出记录给定与缺失。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "拆出记录给定与缺失",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 116,
+              "width": 274,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 150,
+              "text": "给定：看见且展开",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 192,
+              "text": "缺失：日期与视角",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 235,
+              "text": "不把缺失补成事实",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与规则分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺日期与视角",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "健康不能只看叶数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补证据只作设计",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-10-12-2",
+          "description": "把计数标准写到能复查。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把计数标准写到能复查",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 135,
+              "text": "每片只记一次",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 181,
+              "text": "边界与遮挡怎么记？",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 205,
+              "x2": 316,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 252,
+              "text": "未来设计 ≠ 原记录",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与规则分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺日期与视角",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "健康不能只看叶数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补证据只作设计",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-10-12-3",
+          "description": "比较可回答与暂不能答。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较可回答与暂不能答",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 119,
+              "width": 274,
+              "height": 154,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 154,
+              "text": "可回答 / 条件回答",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 199,
+              "text": "资料不足",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 242,
+              "text": "叶数不是健康诊断",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与规则分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺日期与视角",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "健康不能只看叶数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补证据只作设计",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-10-12-4",
+          "description": "设计补证据并保留原稿。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "设计补证据并保留原稿",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 118,
+              "width": 275,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 153,
+              "text": "对象·时刻·视角",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 198,
+              "text": "原稿与修订均保留",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 242,
+              "text": "只设计，不采摘",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与规则分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺日期与视角",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "健康不能只看叶数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补证据只作设计",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "同一证据能否唯一识别全株展开叶总数？",
+      "materials": [
+        "纸、笔；input-record、model-input、definition-work、worlds-work、claims-model-work、bound-work、design/conclusion-13-16、protocol-13-16；reference-model后读。"
+      ],
+      "safety": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。",
+      "steps": [
+        {
+          "title": "先定义可辨识的问题",
+          "caption": "先定义可辨识的问题",
+          "action": "读model-input，把可见展开计数v和额外未计入的展开叶数u分开，在definition-work写模型假设与原记录缺口；全株计数N的范围不能暗设上界。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "构造相容而答案不同的世界",
+          "caption": "构造相容而答案不同的世界",
+          "action": "worlds-work按给定u=0、1、4计算N=3+u；同样可见3且存在遮挡区域，每个世界都仅是假设。用两个不同N证明原句不足以唯一识别总数，不宣称实际隐藏4片。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "检查命题与所需前提",
+          "caption": "检查命题与所需前提",
+          "action": "claims-model-work判断N=3、N=4、N至少3、N至多4；区分模型假设下的下界与原句信息。bound-work解释枚举0、1、4不是完整上界，还可取任意非负整数u。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        },
+        {
+          "title": "为可检验问题订证据合同",
+          "caption": "为可检验问题订证据合同",
+          "action": "design-13-16写对象、时间、单位、叶定义、覆盖范围、缺测与复核要求；conclusion-13-16区分输入、逻辑推导和真实植物事实，reference-model最后看；只做纸笔。",
+          "actor": "together",
+          "adultNote": "全程只用纸、笔与本包虚构记录；不观察、触碰、采摘或品尝真实植物，不找未知植物补数据。成人备纸，幼儿全程近距离陪伴；无需剪裁，小件不入口，纸边勿划手，结束整理洗手。延伸只作纸笔设计。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相容世界",
+          "可辨识性",
+          "条件下界"
+        ],
+        "explanation": "好问题写明对象、时间、范围与记录办法。按原句可引用明确看见且展开的叶为3片；全株数量与健康仍缺证据。提出定性问题也可以，并非所有好问题都必须计数。",
+        "limits": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。",
+        "observation": "明确标虚构输入、规则、原句支持与缺失；设计或模型数值不得填成实录。",
+        "nextQuestion": "加什么证据才能使总数唯一，而不是只给下界？"
+      },
+      "guide": {
+        "goal": "为可检验问题订证据合同",
+        "observe": "不同世界的总数能否同样符合原句？",
+        "recordFields": [
+          "v=3；u未给定",
+          "N=3+u另题模型",
+          "反例不等真实观察",
+          "无依据不设上界"
+        ],
+        "control": "同一句虚构输入和同一计数口径；缺失原样保留。设计与另题假设单列，不能偷偷增加观察。",
+        "support": "可口述由成人代记；先记录后参考，只做纸笔。",
+        "time": "20—30分钟，可分次"
+      },
+      "sources": [
+        {
+          "id": "NL-grow",
+          "title": "Natural History Museum｜Watching and learning how plants grow",
+          "url": "https://www.nhm.ac.uk/take-part/activities-for-all/plant-club.html",
+          "originalTitle": "Watching and learning how plants grow",
+          "claim": "记录植物变化可使用持续观察日记。",
+          "scope": "NHM正文方法参考；不证明本虚构句、健康判断或全株叶数，也不认证本流程。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读NHM Watching and learning how plants grow正文的植物日记段；本课只用原创虚构文字和示意，不开展种植或采摘。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原句是虚构的文字输入，不是本次实测或NHM植物记录。3只对应记录明确说看见且展开的叶；原句未给每片叶的标识、视角、实际日期和完整计数细则。遮挡一处不等于那里已知恰有一片叶。不能由此得全株总数、增长率、种类或健康；未做真实植物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "evidence297-13-16-1",
+          "description": "先定义可辨识的问题。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先定义可辨识的问题",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "v：可见且展开",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 185,
+              "text": "u：额外展开叶数",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "N = v + u",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "v=3；u未给定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "N=3+u另题模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不等真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "无依据不设上界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-13-16-2",
+          "description": "构造相容而答案不同的世界。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "构造相容而答案不同的世界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 116,
+              "width": 278,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 151,
+              "text": "u = 0 / 1 / 4",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 197,
+              "text": "同一原句，不同总数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 242,
+              "text": "只是相容假设世界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "v=3；u未给定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "N=3+u另题模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不等真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "无依据不设上界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-13-16-3",
+          "description": "检查命题与所需前提。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "检查命题与所需前提",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 138,
+              "text": "一个反例否定唯一解",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 165,
+              "x2": 318,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 208,
+              "text": "下界 ≠ 确切总数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 256,
+              "text": "有限枚举不造上界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "v=3；u未给定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "N=3+u另题模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不等真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "无依据不设上界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "evidence297-13-16-4",
+          "description": "为可检验问题订证据合同。原创纸笔提示；一处遮挡不代表已知一片叶，图示不是植物照片。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "为可检验问题订证据合同",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 118,
+              "width": 275,
+              "height": 155,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 151,
+              "text": "定义 + 覆盖 + 缺测",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 197,
+              "text": "复核并保留原始记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 244,
+              "text": "推导不冒充植物实测",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "v=3；u未给定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "N=3+u另题模型",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不等真实观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "无依据不设上界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

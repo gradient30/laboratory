@@ -1,0 +1,4772 @@
+{
+  "activityId": 96,
+  "activityTitle": "同一步长的跳格",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "每次手指跨两个小间隔，能不能一直按同样的办法往前走？",
+      "materials": [
+        "A3横放纸1张，成人画0到6共7个点，点间距4厘米，并代写0至6；点距用直尺预制",
+        "两色粗蜡笔，也可实线/空心圈区分；记录纸1张，不用会滚的小棋子"
+      ],
+      "safety": "桌面纸笔操作，不在地面跑跳，不让孩子站椅子或从高处跨格。成人预裁长纸条、收起剪刀；不用小珠、小磁粒、硬币或骰子。4—6岁全程近距离陪伴，纸边平整，笔不入口、不靠眼；桌边预留空间，疲倦即停。",
+      "steps": [
+        {
+          "title": "先找起点，数相邻两个小间隔",
+          "action": "成人指0，孩子用手指从0移到1再到2，强调从0出发跨了两个相邻间隔，不把0本身算一次移动。成人可代数，先不要求背偶数或乘法。",
+          "actor": "together",
+          "caption": "先找起点，数相邻两个小间隔",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "继续两格，到6就停",
+          "action": "孩子从2同样指两次相邻间隔到下个点，再从该点重复，到纸上6停止；每个落点画大圈。成人记录实际落点，若多走少走先留原痕再用另一线型修正，不强求一次正确。",
+          "actor": "together",
+          "caption": "继续两格，到6就停",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "从同一0改成每次一格",
+          "action": "换颜色或线型，从0每次只跨一个间隔，依次到6，每个落点轻点一下；与两格大圈并排看哪些点被一格走法经过但不是两格走法的落点。起点0另标为起点，不说走了一次就到0。",
+          "actor": "together",
+          "caption": "从同一0改成每次一格",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "回到两格规则再做一次",
+          "action": "孩子重新从0按两格指到6，并口述哪条规则不同。成人可以核查两格落点2、4、6，但先保存孩子实际路线。只讨论这张短纸带，不要求证明所有偶数。",
+          "actor": "together",
+          "caption": "回到两格规则再做一次",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相邻间隔",
+          "固定步长",
+          "起点与落点",
+          "按规则比较"
+        ],
+        "explanation": "从0每次跨两个相邻间隔会依次到2、4、6；每次一格则经过所有标点。数间隔而非把起点算一步，可以避免起点偏一格。",
+        "limits": "仅纸上0到6示例，不是身体跳跃或速度任务，也不是幼儿必须掌握乘法和无穷数列。",
+        "observation": "保留原画落点、漏点和修正；有限纸带上的未相遇与对所有后续位置的证明分开。",
+        "nextQuestion": "只改起点而不改每次步长，共同落点和第一次相遇会怎样变？"
+      },
+      "guide": {
+        "goal": "实际用手指和两种笔迹执行每次两格/一格，再回到原规则核查。",
+        "observe": "每次手指跨两个小间隔，能不能一直按同样的办法往前走？",
+        "support": "数的是相邻刻度间的间隔，不把起点重算成第一步；规则先写，转向/移纸后检查零点和单位间距。",
+        "control": "同一0起点，7点等距4厘米；只改每次间隔数2→1→2；到6停止，保留原画。",
+        "time": "约10—15分钟，孩子参与5—8分钟",
+        "recordFields": [
+          "首次两格的真实落点",
+          "一格走法与差异",
+          "回到两格规则的口述或修正"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "倍数可由固定整数步长的重复相加表示，整除与奇偶可检验数列性质。",
+          "scope": "支持整数倍数与整除概念，纸条与起点均为本页原创构造。"
+        },
+        {
+          "title": "OpenStax｜Prime Factorization and the Least Common Multiple",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-5-prime-factorization-and-the-least-common-multiple",
+          "claim": "最小公倍数是共同正倍数中最小的一个；共同因子会影响其与乘积的关系。",
+          "scope": "只支持整数数学定义，不把不同起点的第一次会合位置直接当作最小公倍数。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax倍数、因数与最小公倍数定义。数轴、起点、步长和所有核查值为原创数学构造；未课堂试用，不把纸上例子说成实地移动数据。",
+      "diagrams": [
+        {
+          "sceneKey": "jump96-46-1",
+          "description": "从0数间隔，不把起点当第一步。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "从0数间隔，不把起点当第一步",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 174,
+              "x2": 538,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 168,
+              "x2": 70,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 148,
+              "y1": 168,
+              "x2": 148,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 202,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 226,
+              "y1": 168,
+              "x2": 226,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 202,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 168,
+              "x2": 304,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 202,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 382,
+              "y1": 168,
+              "x2": 382,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 202,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 460,
+              "y1": 168,
+              "x2": 460,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 538,
+              "y1": 168,
+              "x2": 538,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 533,
+              "y": 202,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 70,
+              "y1": 131,
+              "x2": 148,
+              "y2": 131,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 148,
+              "y1": 131,
+              "x2": 226,
+              "y2": 131,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 265,
+              "text": "0→1一个间隔，1→2再一个",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-46-2",
+          "description": "每次两个间隔，到6停止。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "每次两个间隔，到6停止",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 174,
+              "x2": 538,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 168,
+              "x2": 70,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 148,
+              "y1": 168,
+              "x2": 148,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 202,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 226,
+              "y1": 168,
+              "x2": 226,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 202,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 168,
+              "x2": 304,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 202,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 382,
+              "y1": 168,
+              "x2": 382,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 202,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 460,
+              "y1": 168,
+              "x2": 460,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 538,
+              "y1": 168,
+              "x2": 538,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 533,
+              "y": 202,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 226,
+              "y": 174,
+              "r": 11,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 382,
+              "y": 174,
+              "r": 11,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 538,
+              "y": 174,
+              "r": 11,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 265,
+              "text": "示例核查2、4、6；实际画法另记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-46-3",
+          "description": "换成一格，起点仍是0。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "换成一格，起点仍是0",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 174,
+              "x2": 538,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 168,
+              "x2": 70,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 148,
+              "y1": 168,
+              "x2": 148,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143,
+              "y": 202,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 226,
+              "y1": 168,
+              "x2": 226,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 202,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 168,
+              "x2": 304,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 202,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 382,
+              "y1": 168,
+              "x2": 382,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 202,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 460,
+              "y1": 168,
+              "x2": 460,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 538,
+              "y1": 168,
+              "x2": 538,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 533,
+              "y": 202,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 148,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 226,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 304,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 382,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 460,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 538,
+              "y": 174,
+              "r": 6,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 265,
+              "text": "只改步长；1、3、5也成为落点",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-46-4",
+          "description": "回到两格规则，再做一次。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "回到两格规则，再做一次",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "每次都从0开始",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "先留原画，再用不同线型修正",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "两格规则的实际落点：___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "不跑跳，不按快慢评分",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "从0每次走3格或4格，0到24内共同落点有哪些？",
+      "materials": [
+        "A3横纸1张，孩子用直尺画0至24等距数轴，间隔1厘米；铅笔与两色笔或两种线型",
+        "A4两行落点表和共同落点圈记表各1张，不使用散落棋子"
+      ],
+      "safety": "桌面纸笔操作，不在地面跑跳，不让孩子站椅子或从高处跨格。成人预裁长纸条、收起剪刀；不用小珠、小磁粒、硬币或骰子。4—6岁全程近距离陪伴，纸边平整，笔不入口、不靠眼；桌边预留空间，疲倦即停。",
+      "steps": [
+        {
+          "title": "画轴并声明0的身份",
+          "action": "核0到24有24个间隔、25个刻度，间隔1厘米；从0同时作为两条路线起点。起点单独记，不把它列成最小正公倍数；本活动每次步长指相邻刻度间隔数。",
+          "actor": "together",
+          "caption": "画轴并声明0的身份",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "实际画3格箭头到24",
+          "action": "从0起每次跨3格画箭头，逐一写落点，不跳过中间的9、15、21等。到24停，不在纸外补想象点。核查落点3、6、9、12、15、18、21、24，共8个正落点，先保存自己的原画再核。",
+          "actor": "together",
+          "caption": "实际画3格箭头到24",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "用另一线型画4格并找交点",
+          "action": "从同一个0起，用另一线型每次跨4格到24，记4、8、12、16、20、24共6个正落点。两行逐个比对圈共同的正落点；0虽是共同起点，也可说是两数的共同倍数，但不计入正数栏。",
+          "actor": "together",
+          "caption": "用另一线型画4格并找交点",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "用反向列表核验最早正会合",
+          "action": "在共同正落点中核查12与24，再把1到11逐项对照两行确认没有更小共同正数，据此说3与4的最小正公倍数是12。两条路线从0出发是必要设置，不将此结论套用任何不同起点的路线。",
+          "actor": "together",
+          "caption": "用反向列表核验最早正会合",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "重复相加与倍数",
+          "共同落点",
+          "最小正公倍数",
+          "零与正数的区分"
+        ],
+        "explanation": "从0按3和4递增的正落点分别是它们的正倍数，最先共同落到12。24也是共同正落点，0是共同起点与倍数但不是正数。",
+        "limits": "这张纸只直接列出0到24；最小性的核查针对1到11已全部列入。不同起点时第一次相遇不一定在最小公倍数位置。",
+        "observation": "保留原画落点、漏点和修正；有限纸带上的未相遇与对所有后续位置的证明分开。",
+        "nextQuestion": "只改起点而不改每次步长，共同落点和第一次相遇会怎样变？"
+      },
+      "guide": {
+        "goal": "实际制等距轴、画两种箭头、列落点并逐项核查共同正点。",
+        "observe": "从0每次走3格或4格，0到24内共同落点有哪些？",
+        "support": "数的是相邻刻度间的间隔，不把起点重算成第一步；规则先写，转向/移纸后检查零点和单位间距。",
+        "control": "同0起点、同1厘米间隔、范围0至24；每次分别3或4格；起点0不算正落点。",
+        "time": "约20—30分钟",
+        "recordFields": [
+          "刻度/间隔核查",
+          "3格8个与4格6个实际正落点",
+          "共同正点与0的区别",
+          "1至11的最小性核查"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "倍数可由固定整数步长的重复相加表示，整除与奇偶可检验数列性质。",
+          "scope": "支持整数倍数与整除概念，纸条与起点均为本页原创构造。"
+        },
+        {
+          "title": "OpenStax｜Prime Factorization and the Least Common Multiple",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-5-prime-factorization-and-the-least-common-multiple",
+          "claim": "最小公倍数是共同正倍数中最小的一个；共同因子会影响其与乘积的关系。",
+          "scope": "只支持整数数学定义，不把不同起点的第一次会合位置直接当作最小公倍数。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax倍数、因数与最小公倍数定义。数轴、起点、步长和所有核查值为原创数学构造；未课堂试用，不把纸上例子说成实地移动数据。",
+      "diagrams": [
+        {
+          "sceneKey": "jump96-79-1",
+          "description": "25个刻度，只有24个相邻间隔。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "25个刻度，只有24个相邻间隔",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 165,
+              "x2": 576,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 159,
+              "x2": 48,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 193,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 159,
+              "x2": 70,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 159,
+              "x2": 92,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 114,
+              "y1": 159,
+              "x2": 114,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 109,
+              "y": 193,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 159,
+              "x2": 136,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 159,
+              "x2": 158,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 159,
+              "x2": 180,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 175,
+              "y": 193,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 202,
+              "y1": 159,
+              "x2": 202,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 224,
+              "y1": 159,
+              "x2": 224,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 246,
+              "y1": 159,
+              "x2": 246,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 193,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 268,
+              "y1": 159,
+              "x2": 268,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 159,
+              "x2": 290,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 312,
+              "y1": 159,
+              "x2": 312,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 307,
+              "y": 193,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 334,
+              "y1": 159,
+              "x2": 334,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 356,
+              "y1": 159,
+              "x2": 356,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 378,
+              "y1": 159,
+              "x2": 378,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 373,
+              "y": 193,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 159,
+              "x2": 400,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 422,
+              "y1": 159,
+              "x2": 422,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 444,
+              "y1": 159,
+              "x2": 444,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 439,
+              "y": 193,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 466,
+              "y1": 159,
+              "x2": 466,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 159,
+              "x2": 488,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 159,
+              "x2": 510,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 505,
+              "y": 193,
+              "text": "21",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 159,
+              "x2": 532,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 554,
+              "y1": 159,
+              "x2": 554,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 576,
+              "y1": 159,
+              "x2": 576,
+              "y2": 171,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 571,
+              "y": 193,
+              "text": "24",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 255,
+              "text": "0是共同起点；每格1厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-79-2",
+          "description": "三格路线实际画，八个正落点。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "三格路线实际画，八个正落点",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 180,
+              "x2": 576,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 48,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 208,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 174,
+              "x2": 70,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 174,
+              "x2": 92,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 114,
+              "y1": 174,
+              "x2": 114,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 109,
+              "y": 208,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 174,
+              "x2": 136,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 174,
+              "x2": 158,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 174,
+              "x2": 180,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 175,
+              "y": 208,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 202,
+              "y1": 174,
+              "x2": 202,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 224,
+              "y1": 174,
+              "x2": 224,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 246,
+              "y1": 174,
+              "x2": 246,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 208,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 268,
+              "y1": 174,
+              "x2": 268,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 174,
+              "x2": 290,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 312,
+              "y1": 174,
+              "x2": 312,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 307,
+              "y": 208,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 334,
+              "y1": 174,
+              "x2": 334,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 356,
+              "y1": 174,
+              "x2": 356,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 378,
+              "y1": 174,
+              "x2": 378,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 373,
+              "y": 208,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 174,
+              "x2": 400,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 422,
+              "y1": 174,
+              "x2": 422,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 444,
+              "y1": 174,
+              "x2": 444,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 439,
+              "y": 208,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 466,
+              "y1": 174,
+              "x2": 466,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 174,
+              "x2": 488,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 174,
+              "x2": 510,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 505,
+              "y": 208,
+              "text": "21",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 174,
+              "x2": 532,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 554,
+              "y1": 174,
+              "x2": 554,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 576,
+              "y1": 174,
+              "x2": 576,
+              "y2": 186,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 571,
+              "y": 208,
+              "text": "24",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 48,
+              "y1": 137,
+              "x2": 114,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 114,
+              "y1": 137,
+              "x2": 180,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 180,
+              "y1": 137,
+              "x2": 246,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 246,
+              "y1": 137,
+              "x2": 312,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 312,
+              "y1": 137,
+              "x2": 378,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 378,
+              "y1": 137,
+              "x2": 444,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 444,
+              "y1": 137,
+              "x2": 510,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 510,
+              "y1": 137,
+              "x2": 576,
+              "y2": 137,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 114,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 246,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 312,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 378,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 444,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 510,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 576,
+              "y": 180,
+              "r": 8,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 269,
+              "text": "每箭头跨3格；先保存原画，再核查8个落点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-79-3",
+          "description": "四格路线另画，共同点逐一圈。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "四格路线另画，共同点逐一圈",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 576,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 168,
+              "x2": 70,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 92,
+              "y1": 168,
+              "x2": 92,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 114,
+              "y1": 168,
+              "x2": 114,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 168,
+              "x2": 136,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 131,
+              "y": 202,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 158,
+              "y1": 168,
+              "x2": 158,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 168,
+              "x2": 180,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 202,
+              "y1": 168,
+              "x2": 202,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 224,
+              "y1": 168,
+              "x2": 224,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 202,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 246,
+              "y1": 168,
+              "x2": 246,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 268,
+              "y1": 168,
+              "x2": 268,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 290,
+              "y1": 168,
+              "x2": 290,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 312,
+              "y1": 168,
+              "x2": 312,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 307,
+              "y": 202,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 334,
+              "y1": 168,
+              "x2": 334,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 356,
+              "y1": 168,
+              "x2": 356,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 378,
+              "y1": 168,
+              "x2": 378,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 400,
+              "y1": 168,
+              "x2": 400,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 202,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 422,
+              "y1": 168,
+              "x2": 422,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 444,
+              "y1": 168,
+              "x2": 444,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 466,
+              "y1": 168,
+              "x2": 466,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 168,
+              "x2": 488,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 483,
+              "y": 202,
+              "text": "20",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 168,
+              "x2": 510,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 532,
+              "y1": 168,
+              "x2": 532,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 554,
+              "y1": 168,
+              "x2": 554,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 576,
+              "y1": 168,
+              "x2": 576,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 571,
+              "y": 202,
+              "text": "24",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 114,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 246,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 312,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 378,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 444,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 510,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 576,
+              "y": 132,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 136,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 224,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 312,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 400,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 488,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 576,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 269,
+              "text": "上排步3，下排步4；共同正点另圈，0不计入",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-79-4",
+          "description": "十二最早是有范围核查的结论。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "十二最早是有范围核查的结论",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "共同正落点核查：12和24",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "1至11均不是两路共同落点",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "最小正公倍数为12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "这里两路都从0起步",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "两条透明点列错开一个单位后，看不到会合是有限现象，还是可证明一直不相遇？",
+      "materials": [
+        "A3底纸画0至25数轴，每间隔1厘米；描图纸两条各至少28×8厘米，A/B都画同单位刻度、0/12/24对齐标",
+        "A用实心圈标0、4、8、12、16、20、24；B用空心圈标0、6、12、18、24；铅笔直尺、A4对齐/位移记录表"
+      ],
+      "safety": "桌面纸笔操作，不在地面跑跳，不让孩子站椅子或从高处跨格。成人预裁长纸条、收起剪刀；不用小珠、小磁粒、硬币或骰子。4—6岁全程近距离陪伴，纸边平整，笔不入口、不靠眼；桌边预留空间，疲倦即停。",
+      "steps": [
+        {
+          "title": "同零点叠两列，先验证共同点",
+          "action": "按材料制作两条透明点列，不把纸上厘米当实际路程。把A/B零点与底图0对齐，核12与24两个辅助标也对齐，检查共同点0、12、24。不同笔迹使重合时仍能辨出两列，不用颜色深浅推数量。",
+          "actor": "together",
+          "caption": "同零点叠两列，先验证共同点",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "只把A右移一个单位并量位移",
+          "action": "保持B和底纸固定，将A整条平移向右1厘米，不旋转；量A的原0现在是否对底图1，实际偏差另记。此时A点应读底图1、5、9、13、17、21、25，B仍0、6、12、18、24。若实际移距不准先保留偏差、校准后再记数学位置。",
+          "actor": "together",
+          "caption": "只把A右移一个单位并量位移",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "逐点检查有限窗口并用奇偶解释",
+          "action": "在0至25窗口逐点比较，不重合也按真实记；在另一纸将A写1+4k、B写6m，k/m为从0起的整数次数。A始终奇数，B始终偶数，因此精确整数模型下不会在任何后续整数位置相等；这个证明与纸上看了一段不同。不能因线条粗细或偏移误差看似相交就改整数结论。",
+          "actor": "together",
+          "caption": "逐点检查有限窗口并用奇偶解释",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "把A复位，检验位置与规则都恢复",
+          "action": "把A左移回零点，重核0/12/24标记，再实际检查共同点是否恢复。记录移前、移后、复位的差异；A的步长始终4，变的是起点。若纸变形、刻度不等距或对齐不准，注明模型制作误差，不伪造精确会合。",
+          "actor": "together",
+          "caption": "把A复位，检验位置与规则都恢复",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "点列平移与起点",
+          "步长不变",
+          "奇偶不变量",
+          "有限观察与一般证明"
+        ],
+        "explanation": "A的起点从0变成1而步长仍4，所有点便是奇数；B从0每次6仍只到偶数。两列不相遇的结论来自奇偶证明，而非只观察一张有限纸带。",
+        "limits": "实物描图线宽与测量误差不能提供无限精度；数学结论限定精确整数起点和步长。纸上未重合不能替代证明。",
+        "observation": "保留原画落点、漏点和修正；有限纸带上的未相遇与对所有后续位置的证明分开。",
+        "nextQuestion": "只改起点而不改每次步长，共同落点和第一次相遇会怎样变？"
+      },
+      "guide": {
+        "goal": "实际制作、叠放、量1厘米平移和复位两列，再用奇偶核查不相遇。",
+        "observe": "两条透明点列错开一个单位后，看不到会合是有限现象，还是可证明一直不相遇？",
+        "support": "数的是相邻刻度间的间隔，不把起点重算成第一步；规则先写，转向/移纸后检查零点和单位间距。",
+        "control": "共同1厘米单位；B不动，A仅右移1厘米无转角；用0/12/24校准；精确模型与纸面偏差分记。",
+        "time": "约25—35分钟",
+        "recordFields": [
+          "两透明列与对齐检查",
+          "目标/实际平移距",
+          "0至25窗口实际重合情况",
+          "奇偶推导与模型假设",
+          "复位结果与纸面误差"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "倍数可由固定整数步长的重复相加表示，整除与奇偶可检验数列性质。",
+          "scope": "支持整数倍数与整除概念，纸条与起点均为本页原创构造。"
+        },
+        {
+          "title": "OpenStax｜Prime Factorization and the Least Common Multiple",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-5-prime-factorization-and-the-least-common-multiple",
+          "claim": "最小公倍数是共同正倍数中最小的一个；共同因子会影响其与乘积的关系。",
+          "scope": "只支持整数数学定义，不把不同起点的第一次会合位置直接当作最小公倍数。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax倍数、因数与最小公倍数定义。数轴、起点、步长和所有核查值为原创数学构造；未课堂试用，不把纸上例子说成实地移动数据。",
+      "diagrams": [
+        {
+          "sceneKey": "jump96-1012-1",
+          "description": "双列同零点，对齐还要查12与24。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "双列同零点，对齐还要查12与24",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 573,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 69,
+              "y1": 168,
+              "x2": 69,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 168,
+              "x2": 90,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 111,
+              "y1": 168,
+              "x2": 111,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 132,
+              "y1": 168,
+              "x2": 132,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 168,
+              "x2": 153,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 168,
+              "x2": 174,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 168,
+              "x2": 195,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 216,
+              "y1": 168,
+              "x2": 216,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 168,
+              "x2": 237,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 258,
+              "y1": 168,
+              "x2": 258,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 253,
+              "y": 202,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 168,
+              "x2": 279,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 168,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 321,
+              "y1": 168,
+              "x2": 321,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 342,
+              "y1": 168,
+              "x2": 342,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 363,
+              "y1": 168,
+              "x2": 363,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 358,
+              "y": 202,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 384,
+              "y1": 168,
+              "x2": 384,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 405,
+              "y1": 168,
+              "x2": 405,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 426,
+              "y1": 168,
+              "x2": 426,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 447,
+              "y1": 168,
+              "x2": 447,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 468,
+              "y1": 168,
+              "x2": 468,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463,
+              "y": 202,
+              "text": "20",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 489,
+              "y1": 168,
+              "x2": 489,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 168,
+              "x2": 510,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 531,
+              "y1": 168,
+              "x2": 531,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 552,
+              "y1": 168,
+              "x2": 552,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 573,
+              "y1": 168,
+              "x2": 573,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 568,
+              "y": 202,
+              "text": "25",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 48,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 132,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 216,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 384,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 468,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 552,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 48,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 174,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 426,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 552,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 281,
+              "text": "A上排步4；B下排步6；叠图前示意",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1012-2",
+          "description": "只右移A一个单位，B保持不动。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "只右移A一个单位，B保持不动",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 573,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 69,
+              "y1": 168,
+              "x2": 69,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 168,
+              "x2": 90,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 111,
+              "y1": 168,
+              "x2": 111,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 132,
+              "y1": 168,
+              "x2": 132,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 168,
+              "x2": 153,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 168,
+              "x2": 174,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 168,
+              "x2": 195,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 216,
+              "y1": 168,
+              "x2": 216,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 168,
+              "x2": 237,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 258,
+              "y1": 168,
+              "x2": 258,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 253,
+              "y": 202,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 168,
+              "x2": 279,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 168,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 321,
+              "y1": 168,
+              "x2": 321,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 342,
+              "y1": 168,
+              "x2": 342,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 363,
+              "y1": 168,
+              "x2": 363,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 358,
+              "y": 202,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 384,
+              "y1": 168,
+              "x2": 384,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 405,
+              "y1": 168,
+              "x2": 405,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 426,
+              "y1": 168,
+              "x2": 426,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 447,
+              "y1": 168,
+              "x2": 447,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 468,
+              "y1": 168,
+              "x2": 468,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463,
+              "y": 202,
+              "text": "20",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 489,
+              "y1": 168,
+              "x2": 489,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 168,
+              "x2": 510,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 531,
+              "y1": 168,
+              "x2": 531,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 552,
+              "y1": 168,
+              "x2": 552,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 573,
+              "y1": 168,
+              "x2": 573,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 568,
+              "y": 202,
+              "text": "25",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 69,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 153,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 237,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 321,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 405,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 489,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 573,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 48,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 174,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 426,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 552,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 48,
+              "y1": 108,
+              "x2": 69,
+              "y2": 108,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 277,
+              "text": "A上排原0→1；B下排不动。实物移距另量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1012-3",
+          "description": "有限窗口没会合，再给一般理由。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "有限窗口没会合，再给一般理由",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "A = 1 + 4k，总为奇数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "B = 6m，总为偶数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "k、m为非负整数步数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "奇偶不同，所以精确模型永不相等",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1012-4",
+          "description": "复位并校准，别把纸误差当数学。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "复位并校准，别把纸误差当数学",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 573,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 69,
+              "y1": 168,
+              "x2": 69,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 168,
+              "x2": 90,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 111,
+              "y1": 168,
+              "x2": 111,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 132,
+              "y1": 168,
+              "x2": 132,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 168,
+              "x2": 153,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 202,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 174,
+              "y1": 168,
+              "x2": 174,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 195,
+              "y1": 168,
+              "x2": 195,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 216,
+              "y1": 168,
+              "x2": 216,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 168,
+              "x2": 237,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 258,
+              "y1": 168,
+              "x2": 258,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 253,
+              "y": 202,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 279,
+              "y1": 168,
+              "x2": 279,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 300,
+              "y1": 168,
+              "x2": 300,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 321,
+              "y1": 168,
+              "x2": 321,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 342,
+              "y1": 168,
+              "x2": 342,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 363,
+              "y1": 168,
+              "x2": 363,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 358,
+              "y": 202,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 384,
+              "y1": 168,
+              "x2": 384,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 405,
+              "y1": 168,
+              "x2": 405,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 426,
+              "y1": 168,
+              "x2": 426,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 447,
+              "y1": 168,
+              "x2": 447,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 468,
+              "y1": 168,
+              "x2": 468,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463,
+              "y": 202,
+              "text": "20",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 489,
+              "y1": 168,
+              "x2": 489,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 510,
+              "y1": 168,
+              "x2": 510,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 531,
+              "y1": 168,
+              "x2": 531,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 552,
+              "y1": 168,
+              "x2": 552,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 573,
+              "y1": 168,
+              "x2": 573,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 568,
+              "y": 202,
+              "text": "25",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 48,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 132,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 216,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 384,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 468,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 552,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 48,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 174,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 300,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 426,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 552,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 277,
+              "text": "目标复位图；实际共同点与纸距偏差另记",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "起点分别3和1、步长4和6，第一次会合为何不在12，后续间距又为何是12？",
+      "materials": [
+        "A3纸2张，分别作0至31等距数轴和两行进程表，刻度间隔1厘米；直尺、两种线型笔",
+        "A6可替换起点卡3张：A起点3、B起点1、B改起点2；A步长4、B步长6两张规则卡；所有卡均大于8×10厘米",
+        "A4证明记录表；两条新空白纸带作B改起点后的实际重描，不覆盖旧路线"
+      ],
+      "safety": "桌面纸笔操作，不在地面跑跳，不让孩子站椅子或从高处跨格。成人预裁长纸条、收起剪刀；不用小珠、小磁粒、硬币或骰子。4—6岁全程近距离陪伴，纸边平整，笔不入口、不靠眼；桌边预留空间，疲倦即停。",
+      "steps": [
+        {
+          "title": "把起点与步长分开，实际列到31",
+          "action": "桌面排A起3/步4及B起1/步6卡，从各自起点画到31以内。A列3、7、11、15、19、23、27、31；B列1、7、13、19、25、31。起点也列为步数0，记录实际箭头和序列，勿把两路偷偷平移成同0起点。",
+          "actor": "together",
+          "caption": "把起点与步长分开，实际列到31",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "找到首次会合，再证明重复间距",
+          "action": "并排逐项圈7、19、31，检验7以前两路已列位置没有共同点，所以在非负步数条件下首次会合为7。任意两次共同位置的差必须同时是4与6的倍数，最小正差为12；又从任一共同位置各走3个4格或2个6格正好都多12，证明后续7+12n均可会合，n为非负整数。不能将12叫首次会合的位置。",
+          "actor": "together",
+          "caption": "找到首次会合，再证明重复间距",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "用等式核验，再改B起点重画",
+          "action": "把初始相遇写为3+4k=1+6m，即4k−6m=−2，核k=m=1给7。保留旧图，只替换B起点卡为2，在新纸带实际列2、8、14、20、26并与原A对照；A仍3、7、11、15、19、23、27、31，起点2的情况没有本窗口共同点。",
+          "actor": "together",
+          "caption": "用等式核验，再改B起点重画",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        },
+        {
+          "title": "区分有限枚举与不可能证明",
+          "action": "对新条件写3+4k=2+6m，即4k−6m=−1；左边总为偶数，右边奇数，所以任何非负整数步数均不可能相等。比较两种起点差2与1，说明共同因子2的整除条件在此例起作用；仅此例证明，不宣称完成所有步长的一般定理。保留两套实画和推导的对应。",
+          "actor": "together",
+          "caption": "区分有限枚举与不可能证明",
+          "adultNote": "只手指沿纸点数，不做身体跳跃；成人预裁纸张和代读，允许重画、代写或停止，不按速度评分。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "不同起点的算术数列",
+          "会合位置与会合间距",
+          "最小公倍数的正确用途",
+          "整数等式与奇偶障碍",
+          "枚举与构造证明"
+        ],
+        "explanation": "从不同起点出发，第一次共同位置可为7而非12；共同位置间的最小正间距仍受步长4与6的最小公倍数12控制。把B起点改2后，奇偶矛盾排除了所有会合。",
+        "limits": "只研究精确非负整数步数与固定正步长。0到31图是有限构造，持续会合和不可能性分别靠后续构造/奇偶理由，不靠把纸带画得足够长。",
+        "observation": "保留原画落点、漏点和修正；有限纸带上的未相遇与对所有后续位置的证明分开。",
+        "nextQuestion": "只改起点而不改每次步长，共同落点和第一次相遇会怎样变？"
+      },
+      "guide": {
+        "goal": "实际排规则卡画两路，圈共同点并推导间距，再替换起点重描和证明无会合。",
+        "observe": "起点分别3和1、步长4和6，第一次会合为何不在12，后续间距又为何是12？",
+        "support": "数的是相邻刻度间的间隔，不把起点重算成第一步；规则先写，转向/移纸后检查零点和单位间距。",
+        "control": "A固定起3步4；B先起1后起2，步6不变；保存旧图；范围0至31、1厘米单位；非负整数步数。",
+        "time": "约35—45分钟",
+        "recordFields": [
+          "初始两路实际序列与步数0",
+          "首次7及共同间距12证明",
+          "等式与k/m的核验",
+          "B改起2的新列和旧列对照",
+          "奇偶不可能理由与限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Find Multiples and Factors",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+          "claim": "倍数可由固定整数步长的重复相加表示，整除与奇偶可检验数列性质。",
+          "scope": "支持整数倍数与整除概念，纸条与起点均为本页原创构造。"
+        },
+        {
+          "title": "OpenStax｜Prime Factorization and the Least Common Multiple",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-5-prime-factorization-and-the-least-common-multiple",
+          "claim": "最小公倍数是共同正倍数中最小的一个；共同因子会影响其与乘积的关系。",
+          "scope": "只支持整数数学定义，不把不同起点的第一次会合位置直接当作最小公倍数。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对OpenStax倍数、因数与最小公倍数定义。数轴、起点、步长和所有核查值为原创数学构造；未课堂试用，不把纸上例子说成实地移动数据。",
+      "diagrams": [
+        {
+          "sceneKey": "jump96-1316-1",
+          "description": "起点3和1分别保留，不改成共同0。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "起点3和1分别保留，不改成共同0",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 575,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 168,
+              "x2": 65,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 168,
+              "x2": 82,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 99,
+              "y1": 168,
+              "x2": 99,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 168,
+              "x2": 116,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 133,
+              "y1": 168,
+              "x2": 133,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 168,
+              "x2": 150,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 202,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 167,
+              "y1": 168,
+              "x2": 167,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 168,
+              "x2": 184,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 201,
+              "y1": 168,
+              "x2": 201,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 218,
+              "y1": 168,
+              "x2": 218,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 235,
+              "y1": 168,
+              "x2": 235,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 252,
+              "y1": 168,
+              "x2": 252,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 247,
+              "y": 202,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 269,
+              "y1": 168,
+              "x2": 269,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 286,
+              "y1": 168,
+              "x2": 286,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 303,
+              "y1": 168,
+              "x2": 303,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 168,
+              "x2": 320,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 337,
+              "y1": 168,
+              "x2": 337,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 354,
+              "y1": 168,
+              "x2": 354,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 349,
+              "y": 202,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 371,
+              "y1": 168,
+              "x2": 371,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 388,
+              "y1": 168,
+              "x2": 388,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 405,
+              "y1": 168,
+              "x2": 405,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 422,
+              "y1": 168,
+              "x2": 422,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 439,
+              "y1": 168,
+              "x2": 439,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 456,
+              "y1": 168,
+              "x2": 456,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 451,
+              "y": 202,
+              "text": "24",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 473,
+              "y1": 168,
+              "x2": 473,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 490,
+              "y1": 168,
+              "x2": 490,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 507,
+              "y1": 168,
+              "x2": 507,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 524,
+              "y1": 168,
+              "x2": 524,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 541,
+              "y1": 168,
+              "x2": 541,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 558,
+              "y1": 168,
+              "x2": 558,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 575,
+              "y1": 168,
+              "x2": 575,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 570,
+              "y": 202,
+              "text": "31",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 99,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 167,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 235,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 303,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 371,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 439,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 507,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 575,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 167,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 269,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 371,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 473,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 575,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 277,
+              "text": "A上排起3步4；B下排起1步6；起点记第0步",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1316-2",
+          "description": "共同位置7、19、31，间距是12。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "共同位置7、19、31，间距是12",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "首次7，不是12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "共同位置差同时是4和6的倍数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "从共同点各走3×4或2×6，又会合",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "后续7+12n，n为非负整数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1316-3",
+          "description": "改B起点为2，步长仍是6。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "改B起点为2，步长仍是6",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 174,
+              "x2": 575,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 48,
+              "y1": 168,
+              "x2": 48,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 202,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 168,
+              "x2": 65,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 82,
+              "y1": 168,
+              "x2": 82,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 99,
+              "y1": 168,
+              "x2": 99,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 168,
+              "x2": 116,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 133,
+              "y1": 168,
+              "x2": 133,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 168,
+              "x2": 150,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 202,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 167,
+              "y1": 168,
+              "x2": 167,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 184,
+              "y1": 168,
+              "x2": 184,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 201,
+              "y1": 168,
+              "x2": 201,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 218,
+              "y1": 168,
+              "x2": 218,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 235,
+              "y1": 168,
+              "x2": 235,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 252,
+              "y1": 168,
+              "x2": 252,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 247,
+              "y": 202,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 269,
+              "y1": 168,
+              "x2": 269,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 286,
+              "y1": 168,
+              "x2": 286,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 303,
+              "y1": 168,
+              "x2": 303,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 168,
+              "x2": 320,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 337,
+              "y1": 168,
+              "x2": 337,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 354,
+              "y1": 168,
+              "x2": 354,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 349,
+              "y": 202,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 371,
+              "y1": 168,
+              "x2": 371,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 388,
+              "y1": 168,
+              "x2": 388,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 405,
+              "y1": 168,
+              "x2": 405,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 422,
+              "y1": 168,
+              "x2": 422,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 439,
+              "y1": 168,
+              "x2": 439,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 456,
+              "y1": 168,
+              "x2": 456,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 451,
+              "y": 202,
+              "text": "24",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 473,
+              "y1": 168,
+              "x2": 473,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 490,
+              "y1": 168,
+              "x2": 490,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 507,
+              "y1": 168,
+              "x2": 507,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 524,
+              "y1": 168,
+              "x2": 524,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 541,
+              "y1": 168,
+              "x2": 541,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 558,
+              "y1": 168,
+              "x2": 558,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 575,
+              "y1": 168,
+              "x2": 575,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 570,
+              "y": 202,
+              "text": "31",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 99,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 167,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 235,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 303,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 371,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 439,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 507,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 575,
+              "y": 130,
+              "r": 7,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 82,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 184,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 286,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 388,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 490,
+              "y": 226,
+              "r": 7,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 277,
+              "text": "A上排不变；B下排只改起点。另纸重画保留旧图",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "jump96-1316-4",
+          "description": "等式的奇偶矛盾排除后续会合。全部跳跃只是在桌面纸上按等距刻度描指或标记，不是身体跑跳。图中数字为数学设置或核查值，不代填孩子实际画法；纸距不代表真实行程。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "等式的奇偶矛盾排除后续会合",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 148,
+              "text": "3+4k = 2+6m → 4k−6m = −1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 189,
+              "text": "左边偶数，右边奇数，不可能",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 230,
+              "text": "k、m必须是非负整数步数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 271,
+              "text": "首次位置与重复间距不能混称",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

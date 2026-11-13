@@ -1,0 +1,2810 @@
+{
+  "activityId": 71,
+  "activityTitle": "路线长还是直线长",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "一根手指能穿过纸上围墙吗？绕过去的路会多出哪几段？",
+      "materials": [
+        "A3底纸1张；成人按厘米坐标预画A(2,4)、B(14,4)和障碍方块：横向6—10、纵向2—6；原点在底纸左下留边处",
+        "成人预裁宽4厘米纸条4条：直接距离条长12厘米；绕行三段条长4、12、4厘米，用不同图案区分",
+        "粗笔1支、成人备圆滑直尺1把核图；记录纸1张"
+      ],
+      "safety": "本活动只在桌面使用虚构地图，不外出走路线、不采集真实住址、不上传定位。全部剪裁由成人预先完成并收好剪刀；纸片不入口，所有可移动纸卡至少4×4厘米，不用珠子、硬币、别针、磁铁或细绳。直尺完整圆滑，不挥舞、不弹射。4—6岁成人全程近距离陪伴，孩子可只指认与摆放，读写计算由成人承担。",
+      "steps": [
+        {
+          "title": "先让手指走直线",
+          "action": "成人用尺画好模型，在纸上标A/B，画A到B直线。孩子用一根手指从A沿直线慢慢划到B，遇障碍就停，不抬指“飞过”；成人说明这条线可表示两点有多远，却不是本规则能走的路。",
+          "actor": "together",
+          "caption": "先让手指走直线",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "沿三段线绕开",
+          "action": "成人另画A到(2,8)，再到(14,8)，最后到B的三段折线。孩子沿线走一次，每到转角停一下；核对没有进障碍。成人按顺序把4、12、4厘米三条宽纸条摆在图旁，分别对应三段，不在图上把纸条宽度当路宽。",
+          "actor": "together",
+          "caption": "沿三段线绕开",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "把三段铺成一长条",
+          "action": "将三条纸条沿长度方向首尾紧邻排直，不能重叠或留缝。把12厘米直接距离条放旁边，两条从同一起点对齐，孩子指哪条先到头、哪条还有一截；不强求加法。",
+          "actor": "together",
+          "caption": "把三段铺成一长条",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "用手势解释多出的路",
+          "action": "孩子在原图指绕出去和回来的两段，再指纸条较长部分。成人记录孩子原话，并用尺核纸条拼接是否移位；可告诉孩子这套给定模型目标为12与20厘米，但不能把目标填成实测。",
+          "actor": "together",
+          "caption": "用手势解释多出的路",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "直线距离",
+          "可走路线",
+          "长度首尾相接"
+        ],
+        "explanation": "绕行路不仅有横向走向目的地的一段，还包含绕出去和回来的两段。把分段长度首尾接起来，能实际比较路线总长，而不依靠“看起来绕很多”。",
+        "limits": "只比较这张平面模型的给定路线；不能把纸条宽度当地图上的道路宽度，也不从图推真实走路时间。",
+        "observation": "保留实际画图和量尺读数，构造目标数与实读值分开；所有路线和速度为教学模型，不是现实交通数据。",
+        "nextQuestion": "如果改变允许通行的规则，原来最短的路线还可用吗？"
+      },
+      "guide": {
+        "goal": "实际手指循线、遇障碍停，再用宽纸条拼接比较直线与绕行总长。",
+        "observe": "一根手指能穿过纸上围墙吗？绕过去的路会多出哪几段？",
+        "support": "成人代读规则、核对坐标和单位；保留估计、实读、修正三者，没量清就记缺测。",
+        "control": "同一A/B；不可进入障碍，不跳跃；三段纸条紧接无重叠，直接条与拼接条共起点。",
+        "time": "5—10分钟",
+        "recordFields": [
+          "直线在哪儿不能通过",
+          "纸条对齐后的长短比较",
+          "我指到多出的两段或原话"
+        ]
+      },
+      "sources": [
+        {
+          "title": "USGS｜Map Scales",
+          "url": "https://www.usgs.gov/publications/map-scales",
+          "claim": "地图比例尺说明图上距离与地面距离之间的比例关系。",
+          "scope": "官方出版记录及官方教育说明核对；本页坐标与距离是原创虚构地图条件，不代表任何真实道路。"
+        },
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺是在地图单位与地面单位之间建立明确换算关系。",
+          "scope": "只采用比例尺概念，不进行户外导航或罗盘活动。"
+        },
+        {
+          "title": "Ordnance Survey Mapzone｜Measuring Distance",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Measuring-Distance-en.pdf",
+          "claim": "直线距离与沿道路转折的路线距离应区分，路线可分段累计后用比例尺换算。",
+          "scope": "只参考分段测距方法；本页不用细绳，也不采用其对角线约数作为精确值。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对所列地理与测距来源。家庭纸面操作、坐标和图为原创教学模型，未实地试教，不是实际导航或机构认证方案。",
+      "diagrams": [
+        {
+          "sceneKey": "route71-46-1",
+          "description": "直线会经过障碍。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "直线会经过障碍",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 178,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 212,
+              "x2": 288,
+              "y2": 212,
+              "stroke": "#376895",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 235,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 235,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 148,
+              "text": "手指遇障碍停",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 193,
+              "text": "不能抬起飞过",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 239,
+              "text": "不是实际道路",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-46-2",
+          "description": "沿三段线绕出去再回来。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "沿三段线绕出去再回来",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 178,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 212,
+              "x2": 84,
+              "y2": 144,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 144,
+              "x2": 288,
+              "y2": 144,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 144,
+              "x2": 288,
+              "y2": 212,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 235,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 235,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 141,
+              "text": "第一段：4厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 185,
+              "text": "第二段：12厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 229,
+              "text": "第三段：4厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-46-3",
+          "description": "三条首尾接齐，与直线条共起点。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "三条首尾接齐，与直线条共起点",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 133,
+              "width": 80,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 133,
+              "width": 240,
+              "height": 45,
+              "fill": "#EFE0BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 400,
+              "y": 133,
+              "width": 80,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 214,
+              "width": 240,
+              "height": 45,
+              "fill": "#D4E3ED",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 121,
+              "text": "绕行三段",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 203,
+              "text": "直接距离条",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 292,
+              "text": "长度按条件预裁；实际摆放再核对",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-46-4",
+          "description": "指原图中的两段额外绕行。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "指原图中的两段额外绕行",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 178,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 212,
+              "x2": 288,
+              "y2": 212,
+              "stroke": "#376895",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 212,
+              "x2": 84,
+              "y2": 144,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 144,
+              "x2": 288,
+              "y2": 144,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 144,
+              "x2": 288,
+              "y2": 212,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 235,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 212,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 235,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 135,
+              "text": "绕出去 + 回来",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 180,
+              "text": "孩子说：_______",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 225,
+              "text": "成人代记，不编结果",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "方格地图上，两条都能走的路线，哪条总长度更短？",
+      "materials": [
+        "1厘米方格纸1张（至少16×10厘米绘图区）；圆滑直尺1把、两色笔各1支",
+        "记录纸1张；成人预画或协助画坐标，格角是转弯点，不需剪纸条",
+        "模型标尺卡1张（8×4厘米），写“1格边长1厘米，模型中代表10米”"
+      ],
+      "safety": "本活动只在桌面使用虚构地图，不外出走路线、不采集真实住址、不上传定位。全部剪裁由成人预先完成并收好剪刀；纸片不入口，所有可移动纸卡至少4×4厘米，不用珠子、硬币、别针、磁铁或细绳。直尺完整圆滑，不挥舞、不弹射。4—6岁成人全程近距离陪伴，孩子可只指认与摆放，读写计算由成人承担。",
+      "steps": [
+        {
+          "title": "画好同一障碍与端点",
+          "action": "以左下角为原点，x向右、y向上，每格边长1厘米。标A(2,6)、B(14,6)，画横6—10、纵4—8的障碍。画上路A→(2,9)→(14,9)→B，以及下路A→(2,1)→(14,1)→B；只能沿这些线走，不能穿障碍或斜穿格子。",
+          "actor": "together",
+          "caption": "画好同一障碍与端点",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "逐段点格边并记录",
+          "action": "用笔尖从每段起点沿格边逐段数到终点，数的是走过的单位边，不是碰到几个格点。分别写上路和下路的三个边数，转角只改变方向，不另加一格；保留首次读数。",
+          "actor": "together",
+          "caption": "逐段点格边并记录",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "用尺核一段再换单位",
+          "action": "用直尺重新量两条路线的横段，并核起终点与零刻度。把每路三个边数相加得图上厘米，再按1厘米代表10米换算模型米数；遇偏差先查漏数和格子是否真1厘米，不混用厘米和米相加。",
+          "actor": "together",
+          "caption": "用尺核一段再换单位",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "对比直线和可行路线",
+          "action": "另量A到B直线并写“穿障碍，不能走”。用模型米数比较上路和下路，说明直线即使更短也不在允许的路线里。给定坐标理论上上路18、下路22、直线12厘米，仅供核算；记录仍填写自己的实际计数及修正。",
+          "actor": "together",
+          "caption": "对比直线和可行路线",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "格边计长",
+          "分段求和",
+          "比例尺换算",
+          "路线可行性"
+        ],
+        "explanation": "方格中的一步是格边长度，不是一个格点。把实际经过的各段累计，再用同一比例尺换算，才得到模型路线长；更短的直线可能被规则禁止。",
+        "limits": "本页只在预设上、下两路中选短路，不证明地图所有可能路线的最短值；模型米数不代表真实地址。",
+        "observation": "保留实际画图和量尺读数，构造目标数与实读值分开；所有路线和速度为教学模型，不是现实交通数据。",
+        "nextQuestion": "如果改变允许通行的规则，原来最短的路线还可用吗？"
+      },
+      "guide": {
+        "goal": "实际画两路线、数格边、量横段校核、换算并剔除穿障碍的直线。",
+        "observe": "方格地图上，两条都能走的路线，哪条总长度更短？",
+        "support": "成人代读规则、核对坐标和单位；保留估计、实读、修正三者，没量清就记缺测。",
+        "control": "同一1厘米格和A/B；只走规定横竖线；1厘米代表10米，转角不额外算一步。",
+        "time": "15—20分钟",
+        "recordFields": [
+          "每路三段实际格边数",
+          "直尺核横段读数与修正",
+          "各路图上厘米与模型米数",
+          "直线为何不可走"
+        ]
+      },
+      "sources": [
+        {
+          "title": "USGS｜Map Scales",
+          "url": "https://www.usgs.gov/publications/map-scales",
+          "claim": "地图比例尺说明图上距离与地面距离之间的比例关系。",
+          "scope": "官方出版记录及官方教育说明核对；本页坐标与距离是原创虚构地图条件，不代表任何真实道路。"
+        },
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺是在地图单位与地面单位之间建立明确换算关系。",
+          "scope": "只采用比例尺概念，不进行户外导航或罗盘活动。"
+        },
+        {
+          "title": "Ordnance Survey Mapzone｜Measuring Distance",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Measuring-Distance-en.pdf",
+          "claim": "直线距离与沿道路转折的路线距离应区分，路线可分段累计后用比例尺换算。",
+          "scope": "只参考分段测距方法；本页不用细绳，也不采用其对角线约数作为精确值。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对所列地理与测距来源。家庭纸面操作、坐标和图为原创教学模型，未实地试教，不是实际导航或机构认证方案。",
+      "diagrams": [
+        {
+          "sceneKey": "route71-79-1",
+          "description": "两条规定路线，不能穿障碍。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "两条规定路线，不能穿障碍",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 50,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 280,
+              "x2": 67,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 280,
+              "x2": 84,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 101,
+              "y1": 280,
+              "x2": 101,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 118,
+              "y1": 280,
+              "x2": 118,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 280,
+              "x2": 135,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 152,
+              "y1": 280,
+              "x2": 152,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 169,
+              "y1": 280,
+              "x2": 169,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 186,
+              "y1": 280,
+              "x2": 186,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 203,
+              "y1": 280,
+              "x2": 203,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 220,
+              "y1": 280,
+              "x2": 220,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 280,
+              "x2": 237,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 254,
+              "y1": 280,
+              "x2": 254,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 271,
+              "y1": 280,
+              "x2": 271,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 280,
+              "x2": 288,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 280,
+              "x2": 305,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 322,
+              "y1": 280,
+              "x2": 322,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 322,
+              "y2": 280,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 263,
+              "x2": 322,
+              "y2": 263,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 246,
+              "x2": 322,
+              "y2": 246,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 229,
+              "x2": 322,
+              "y2": 229,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 212,
+              "x2": 322,
+              "y2": 212,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 195,
+              "x2": 322,
+              "y2": 195,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 178,
+              "x2": 322,
+              "y2": 178,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 161,
+              "x2": 322,
+              "y2": 161,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 144,
+              "x2": 322,
+              "y2": 144,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 127,
+              "x2": 322,
+              "y2": 127,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 110,
+              "x2": 322,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 263,
+              "x2": 288,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 263,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 139,
+              "text": "上路经过y=9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 181,
+              "text": "下路经过y=1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 229,
+              "text": "1厘米代表10米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-79-2",
+          "description": "数格边，不数格点。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "数格边，不数格点",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 50,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 280,
+              "x2": 67,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 280,
+              "x2": 84,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 101,
+              "y1": 280,
+              "x2": 101,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 118,
+              "y1": 280,
+              "x2": 118,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 280,
+              "x2": 135,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 152,
+              "y1": 280,
+              "x2": 152,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 169,
+              "y1": 280,
+              "x2": 169,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 186,
+              "y1": 280,
+              "x2": 186,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 203,
+              "y1": 280,
+              "x2": 203,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 220,
+              "y1": 280,
+              "x2": 220,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 237,
+              "y1": 280,
+              "x2": 237,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 254,
+              "y1": 280,
+              "x2": 254,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 271,
+              "y1": 280,
+              "x2": 271,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 280,
+              "x2": 288,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 280,
+              "x2": 305,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 322,
+              "y1": 280,
+              "x2": 322,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 280,
+              "x2": 322,
+              "y2": 280,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 263,
+              "x2": 322,
+              "y2": 263,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 246,
+              "x2": 322,
+              "y2": 246,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 229,
+              "x2": 322,
+              "y2": 229,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 212,
+              "x2": 322,
+              "y2": 212,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 195,
+              "x2": 322,
+              "y2": 195,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 178,
+              "x2": 322,
+              "y2": 178,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 161,
+              "x2": 322,
+              "y2": 161,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 144,
+              "x2": 322,
+              "y2": 144,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 127,
+              "x2": 322,
+              "y2": 127,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 110,
+              "x2": 322,
+              "y2": 110,
+              "stroke": "#DEE5DB",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 137,
+              "text": "第一段：___格边",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 180,
+              "text": "横段：___格边",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 378,
+              "y": 223,
+              "text": "末段：___格边",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-79-3",
+          "description": "先累计厘米，再换算模型米。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "先累计厘米，再换算模型米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 114,
+              "width": 522,
+              "height": 156,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 151,
+              "text": "上路：___ + ___ + ___ = ___厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 191,
+              "text": "下路：___ + ___ + ___ = ___厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 237,
+              "text": "图上厘米数 × 10 = 模型米数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 294,
+              "text": "尺核横段，发现差异保留修正",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-79-4",
+          "description": "直线可量，却不在通行路线内。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "直线可量，却不在通行路线内",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 263,
+              "x2": 288,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 263,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 133,
+              "text": "直线：___厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 176,
+              "text": "可走？否",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 220,
+              "text": "上路 / 下路：比较",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "把同一路线画成一半大小，量出的厘米变短了，模型距离也变短吗？",
+      "materials": [
+        "A3纸1张（绘图区至少36×15厘米）；铅笔与两色笔、橡皮由成人保管",
+        "最小分度1毫米圆滑直尺1把；另备记录纸1张列两图分段读数",
+        "左图标尺线4厘米标40米；右图标尺线2厘米也标40米，两条亲手画在各图旁"
+      ],
+      "safety": "本活动只在桌面使用虚构地图，不外出走路线、不采集真实住址、不上传定位。全部剪裁由成人预先完成并收好剪刀；纸片不入口，所有可移动纸卡至少4×4厘米，不用珠子、硬币、别针、磁铁或细绳。直尺完整圆滑，不挥舞、不弹射。4—6岁成人全程近距离陪伴，孩子可只指认与摆放，读写计算由成人承担。",
+      "steps": [
+        {
+          "title": "构造大图并划出缓冲区",
+          "action": "在左图以厘米作坐标单位：A(2,6)、B(14,6)，障碍横6—10纵4—8。加外边框横5—11纵3—9表示安全缓冲区，不能进入外框内部，但允许沿其边界。画路线A→(5,9)→(11,9)→B；斜段不得进缓冲区。左图比例1厘米代表10米，画4厘米=40米标尺。",
+          "actor": "together",
+          "caption": "构造大图并划出缓冲区",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "实际画一半大小的小图",
+          "action": "在右侧另起原点，把所有坐标逐一除以2：A(1,3)、B(7,3)，障碍横3—5纵2—4，缓冲横2.5—5.5纵1.5—4.5；路线经(2.5,4.5)、(5.5,4.5)。右图1厘米代表20米，画2厘米=40米标尺。测左右图同一横段确认尺寸约一半；不是换路线。",
+          "actor": "together",
+          "caption": "实际画一半大小的小图",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "独立量六段并换算",
+          "action": "两图每个斜段与横段各独立量一次到最接近1毫米，尺与线对齐，记录六个原读数。分别累计厘米，再大图×10、小图×20换成模型米。不要把先量大图值直接除2填小图，否则没有独立检验；不要求两次结果完全一样。",
+          "actor": "together",
+          "caption": "独立量六段并换算",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "用读数分辨率检查差异",
+          "action": "比较两次换算的模型米数。若每段以±1毫米作保守读尺演算量，则三段相加是±3毫米，对应大图±3米、小图±6米；此为读数影响估算，不是总误差保证。检查作图、端点和比例尺标线误差。给定数学模型理论总长约14.49厘米、约144.9米，仅用于事后核算，不代替测量。",
+          "actor": "together",
+          "caption": "用读数分辨率检查差异",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "比例尺与缩放",
+          "斜线分段测量",
+          "量具分辨率",
+          "误差传播的简单上界"
+        ],
+        "explanation": "同一地理模型缩小一半时，纸上长度也缩小一半，但每厘米代表的模型距离加倍，因此换算的距离应接近。更小地图的同样1毫米读尺差，对应更大的模型距离差。",
+        "limits": "本例为自画平面模型；小误差估算不包含全部作图、线宽、定位误差。没有证明此路线对所有可能障碍路径都最短，也不涉及地球曲面距离。",
+        "observation": "保留实际画图和量尺读数，构造目标数与实读值分开；所有路线和速度为教学模型，不是现实交通数据。",
+        "nextQuestion": "如果改变允许通行的规则，原来最短的路线还可用吗？"
+      },
+      "guide": {
+        "goal": "真实绘制二倍比例关系的两张地图，独立测量斜路线六段并比较换算结果。",
+        "observe": "把同一路线画成一半大小，量出的厘米变短了，模型距离也变短吗？",
+        "support": "成人代读规则、核对坐标和单位；保留估计、实读、修正三者，没量清就记缺测。",
+        "control": "所有坐标及缓冲区均同倍缩放；大图1厘米10米、小图1厘米20米；同一路径、同尺、逐段独立读数。",
+        "time": "25—30分钟",
+        "recordFields": [
+          "两张地图及亲画标尺",
+          "两图各三段读数到0.1厘米",
+          "累计厘米和换算模型米",
+          "读数分辨率演算与其他误差"
+        ]
+      },
+      "sources": [
+        {
+          "title": "USGS｜Map Scales",
+          "url": "https://www.usgs.gov/publications/map-scales",
+          "claim": "地图比例尺说明图上距离与地面距离之间的比例关系。",
+          "scope": "官方出版记录及官方教育说明核对；本页坐标与距离是原创虚构地图条件，不代表任何真实道路。"
+        },
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺是在地图单位与地面单位之间建立明确换算关系。",
+          "scope": "只采用比例尺概念，不进行户外导航或罗盘活动。"
+        },
+        {
+          "title": "Ordnance Survey Mapzone｜Measuring Distance",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Measuring-Distance-en.pdf",
+          "claim": "直线距离与沿道路转折的路线距离应区分，路线可分段累计后用比例尺换算。",
+          "scope": "只参考分段测距方法；本页不用细绳，也不采用其对角线约数作为精确值。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对所列地理与测距来源。家庭纸面操作、坐标和图为原创教学模型，未实地试教，不是实际导航或机构认证方案。",
+      "diagrams": [
+        {
+          "sceneKey": "route71-1012-1",
+          "description": "大图：斜线接到缓冲区两角。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "大图：斜线接到缓冲区两角",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 149,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 132,
+              "width": 102,
+              "height": 102,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 81,
+              "y1": 183,
+              "x2": 132,
+              "y2": 132,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 132,
+              "y1": 132,
+              "x2": 234,
+              "y2": 132,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 234,
+              "y1": 132,
+              "x2": 285,
+              "y2": 183,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 81,
+              "y": 183,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 206,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 285,
+              "y": 183,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 276,
+              "y": 206,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 133,
+              "text": "内方块：障碍",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 178,
+              "text": "外框：缓冲区",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 223,
+              "text": "不进入外框内部",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1012-2",
+          "description": "全部坐标减半，右图才是同一模型。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "全部坐标减半，右图才是同一模型",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 138,
+              "y": 149,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 121,
+              "y": 132,
+              "width": 102,
+              "height": 102,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 183,
+              "x2": 121,
+              "y2": 132,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 121,
+              "y1": 132,
+              "x2": 223,
+              "y2": 132,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 223,
+              "y1": 132,
+              "x2": 274,
+              "y2": 183,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 70,
+              "y": 183,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 206,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 274,
+              "y": 183,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 265,
+              "y": 206,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 428.0,
+              "y": 170.0,
+              "width": 34.0,
+              "height": 34.0,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 419.5,
+              "y": 161.5,
+              "width": 51.0,
+              "height": 51.0,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 394.0,
+              "y1": 187.0,
+              "x2": 419.5,
+              "y2": 161.5,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 419.5,
+              "y1": 161.5,
+              "x2": 470.5,
+              "y2": 161.5,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 470.5,
+              "y1": 161.5,
+              "x2": 496.0,
+              "y2": 187.0,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 394.0,
+              "y": 187.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 385.0,
+              "y": 210.0,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 496.0,
+              "y": 187.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 487.0,
+              "y": 210.0,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 39,
+              "y": 111,
+              "text": "大图：1厘米＝10米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 359,
+              "y": 135,
+              "text": "小图：1厘米＝20米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 284,
+              "text": "所有长度缩小一半",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1012-3",
+          "description": "六个原读数，不能抄一半代替实量。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "六个原读数，不能抄一半代替实量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 46,
+              "y": 111,
+              "width": 547,
+              "height": 163,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 145,
+              "text": "大图：斜___ + 横___ + 斜___厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 186,
+              "text": "小图：斜___ + 横___ + 斜___厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 229,
+              "text": "大图累计 × 10；小图累计 × 20",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 263,
+              "text": "单位：模型米；标尺分别核对",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1012-4",
+          "description": "同一毫米，对模型距离影响不同。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同一毫米，对模型距离影响不同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 52,
+              "y": 113,
+              "width": 534,
+              "height": 162,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 148,
+              "text": "每段按±1毫米作读尺影响演算",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 190,
+              "text": "三段：±3毫米 → 大图±3米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 231,
+              "text": "三段：±3毫米 → 小图±6米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 268,
+              "text": "不包含全部作图与端点误差",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "较长的路会不会更快？等待或封闭会怎样改变最优选择？",
+      "materials": [
+        "1厘米方格纸1张（16×10厘米以上）、圆滑直尺1把、两色笔各1支",
+        "成人预裁模型规则卡5张，各至少8×4厘米：上路30米/分、下路60米/分、等待0分、等待2分、等待3分；均注明假设",
+        "封闭大纸卡1张（8×4厘米），覆盖下路中段作情景切换；记录纸1张",
+        "计算器可选，仅算分段总和、除法和阈值；不用地图定位或真实交通查询"
+      ],
+      "safety": "本活动只在桌面使用虚构地图，不外出走路线、不采集真实住址、不上传定位。全部剪裁由成人预先完成并收好剪刀；纸片不入口，所有可移动纸卡至少4×4厘米，不用珠子、硬币、别针、磁铁或细绳。直尺完整圆滑，不挥舞、不弹射。4—6岁成人全程近距离陪伴，孩子可只指认与摆放，读写计算由成人承担。",
+      "steps": [
+        {
+          "title": "搭出只有两条通路的路网",
+          "action": "用厘米坐标画A(2,6)、B(14,6)，障碍横6—10纵4—8。仅开放上路A→(2,9)→(14,9)→B及下路A→(2,1)→(14,1)→B，其余纸面均非道路。比例1厘米=10米。实际量并相加每路三段，记录纸上长度及模型距离；直线AB虽可量，却不是边。",
+          "actor": "together",
+          "caption": "搭出只有两条通路的路网",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "给同一路网两种权重",
+          "action": "把“上路30米/分、下路60米/分”假设卡放图外，分别按距离÷速度求模型分钟；两个速度只为数学规则，不是建议儿童行走速度。先比较最短距离，再比较最短时间。按精确构造条件，上路180米需6分，下路220米需11/3分；另保留自己的实量版，不混为实测旅行时间。",
+          "actor": "together",
+          "caption": "给同一路网两种权重",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "替换等待卡并找临界点",
+          "action": "只在下路加等待，依次放0、2、3分钟规则卡，每次重新计算两路线时间与选择，等时记并列，不强选一条。用理论模型写6=11/3+d，解d=7/3分钟（2分20秒）；少于、等于、多于阈值分别检查。不把人为等待卡当真实交通数据。",
+          "actor": "together",
+          "caption": "替换等待卡并找临界点",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        },
+        {
+          "title": "真的移除一条边再选路",
+          "action": "拿下等待卡，在图上用“封闭”卡覆盖下路的(2,1)到(14,1)横段，两端点保留但该边不可通行。重新列允许的A到B路线，此时只能上路，不可穿过空白纸面捷径。移开封闭卡恢复边，再核先前距离与时间结果；解释最优取决于边是否存在以及选哪种权重。",
+          "actor": "together",
+          "caption": "真的移除一条边再选路",
+          "adultNote": "成人准备纸材料和读规则，允许慢慢核对；模型不是现实导航，不能为测试路线外出或跨越真实障碍。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "加权路网",
+          "最短距离与最短时间",
+          "情景更新与阈值",
+          "可行边约束"
+        ],
+        "explanation": "路网把允许走的线段当边；路径代价按选定权重累加。距离更长的路线在假设速度更大时仍可能更快，等待改变时间权重，封闭则直接改变能否通过。",
+        "limits": "只有两条给定路线、固定假设速度，没有真实拥堵、坡度或安全通行信息。理论阈值来自给定几何，不是现场旅行预测。",
+        "observation": "保留实际画图和量尺读数，构造目标数与实读值分开；所有路线和速度为教学模型，不是现实交通数据。",
+        "nextQuestion": "如果改变允许通行的规则，原来最短的路线还可用吗？"
+      },
+      "guide": {
+        "goal": "实际画量路网、换权重卡、逐一执行等待情景并移除/恢复一条边，计算最优选择变更。",
+        "observe": "较长的路会不会更快？等待或封闭会怎样改变最优选择？",
+        "support": "成人代读规则、核对坐标和单位；保留估计、实读、修正三者，没量清就记缺测。",
+        "control": "端点与道路几何固定；仅在指定步骤改变速度权重、下路等待或边开放状态；距离和时间单位分开。",
+        "time": "25—35分钟",
+        "recordFields": [
+          "实量分段与模型距离",
+          "距离权重和时间权重各自最优路",
+          "0/2/3分钟情景计算与阈值",
+          "封闭及恢复后的可行路径",
+          "理论模型和实读偏差"
+        ]
+      },
+      "sources": [
+        {
+          "title": "USGS｜Map Scales",
+          "url": "https://www.usgs.gov/publications/map-scales",
+          "claim": "地图比例尺说明图上距离与地面距离之间的比例关系。",
+          "scope": "官方出版记录及官方教育说明核对；本页坐标与距离是原创虚构地图条件，不代表任何真实道路。"
+        },
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺是在地图单位与地面单位之间建立明确换算关系。",
+          "scope": "只采用比例尺概念，不进行户外导航或罗盘活动。"
+        },
+        {
+          "title": "Ordnance Survey Mapzone｜Measuring Distance",
+          "url": "https://www.ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Measuring-Distance-en.pdf",
+          "claim": "直线距离与沿道路转折的路线距离应区分，路线可分段累计后用比例尺换算。",
+          "scope": "只参考分段测距方法；本页不用细绳，也不采用其对角线约数作为精确值。"
+        },
+        {
+          "title": "Cornell University CS 2110｜Shortest Paths",
+          "url": "https://courses.cs.cornell.edu/courses/cs2110/2026sp/lectures/lec23/",
+          "claim": "带权图路径按边权重之和比较最短路径。",
+          "scope": "仅作路网与权重概念依据；本页两路穷举和等待阈值为原创简化模型，不声称实现一般最短路算法。"
+        }
+      ],
+      "sourceNote": "2026-11-03核对所列地理与测距来源。家庭纸面操作、坐标和图为原创教学模型，未实地试教，不是实际导航或机构认证方案。",
+      "diagrams": [
+        {
+          "sceneKey": "route71-1316-1",
+          "description": "只有画出的线才是允许通行的边。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "只有画出的线才是允许通行的边",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 263,
+              "x2": 288,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 263,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 130,
+              "text": "上路：3 + 12 + 3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 174,
+              "text": "下路：5 + 12 + 5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 220,
+              "text": "以上为构造厘米数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 263,
+              "text": "另记实际量尺读数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1316-2",
+          "description": "同一路网，改为累计时间权重。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同一路网，改为累计时间权重",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 263,
+              "x2": 288,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 263,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 374,
+              "y": 111,
+              "width": 217,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 136,
+              "text": "假设上路",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 161,
+              "text": "30米/分钟",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 374,
+              "y": 208,
+              "width": 217,
+              "height": 62,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 233,
+              "text": "假设下路",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 258,
+              "text": "60米/分钟",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1316-3",
+          "description": "轮换三张等待卡，算何时改选。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "轮换三张等待卡，算何时改选",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 122,
+              "width": 156,
+              "height": 75,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 152,
+              "text": "下路等待",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 181,
+              "text": "0分",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 122,
+              "width": 156,
+              "height": 75,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 257,
+              "y": 152,
+              "text": "下路等待",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 286,
+              "y": 181,
+              "text": "2分",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 432,
+              "y": 122,
+              "width": 156,
+              "height": 75,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 449,
+              "y": 152,
+              "text": "下路等待",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 478,
+              "y": 181,
+              "text": "3分",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 244,
+              "text": "下路时间 = 11/3 + d；上路 = 6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 284,
+              "text": "求相等点；都是假设情景，不是真实计时",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "route71-1316-4",
+          "description": "下路中段封闭：先查能否到达。纸上虚构路线模型，图按操作坐标绘制；屏幕显示大小不是厘米尺，所给数是构造条件，不是参与者测量结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "下路中段封闭：先查能否到达",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 152,
+              "y": 144,
+              "width": 68,
+              "height": 68,
+              "fill": "#D6C4B4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 127,
+              "x2": 288,
+              "y2": 127,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 127,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#A85A42",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 178,
+              "x2": 84,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 84,
+              "y1": 263,
+              "x2": 288,
+              "y2": 263,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "line",
+              "x1": 288,
+              "y1": 263,
+              "x2": 288,
+              "y2": 178,
+              "stroke": "#376895",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 84,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 201,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 288,
+              "y": 178,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#193D40",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 201,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 142,
+              "y": 244,
+              "width": 142,
+              "height": 37,
+              "fill": "#EACBBF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 155,
+              "y": 269,
+              "text": "此边封闭",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 136,
+              "text": "等待卡移开",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 180,
+              "text": "边封闭 ≠ 走得慢",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 223,
+              "text": "恢复后再核原选择",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

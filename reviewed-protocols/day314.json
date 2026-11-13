@@ -1,0 +1,2921 @@
+{
+  "activityId": 314,
+  "activityTitle": "纸盒盖住还是打开",
+  "contentKey": "phys-043",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "闭盖与开盖，我听到什么？",
+      "materials": [
+        "完整干燥、无钉刺的有盖空纸盒1个，A4纸1张、笔1支；稳固桌面。无需手机、录音或频率仪。 本龄记录：闭盖孩子原话；开盖原话与额外碰声，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只发轻声；不贴耳敲击，不大声喊叫；纸筒不入口，手指远离弹动尺端。 成人检查盒内完全为空、边缘无钉刺霉味，放稳并清空桌面。四龄均由成人开闭盖和用指腹轻敲，儿童只看听记录，距盒至少一臂，不贴耳。只轻声，不用硬物或加力求差异；惊吓、不适、桌盒晃动立即停。轻放盒盖避免夹手，结束收齐洗手。",
+      "steps": [
+        {
+          "title": "看清闭盖状态",
+          "caption": "看清闭盖状态",
+          "action": "成人在盒侧面中部用笔轻点固定敲点，盒位置和听者座位保持不变；纸上记‘闭’和‘开’两栏。打开时把盖完全离开敲点，盖放稳不碰盒；若盖不能稳定敞开则跳过。 成人闭盖，孩子远处指出盒盖；成人指腹轻敲标点1次，孩子只说自己的声音词或‘没听清’，成人代记。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "开盖听一次",
+          "caption": "开盖听一次",
+          "action": "成人轻轻开盖，等盖碰声结束后，在同一点轻敲1次；孩子坐在原处，不把耳朵靠近，成人记录原话。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "把词放对位置",
+          "caption": "把词放对位置",
+          "action": "成人读两栏记录，孩子指出哪个词属于开盖，哪个属于闭盖；可以说一样或不知道，不强求出现差异。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "指出额外声音",
+          "caption": "指出额外声音",
+          "action": "成人问开盖时有没有另一声碰响，孩子可指出或说不知道；标‘开盖碰声不是敲后声’，不再敲，收好洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "声音描述",
+          "状态配对"
+        ],
+        "explanation": "盒壁振动和内部空气共同影响声的频谱与辐射。 成人每状态只轻敲1次，幼儿指说即可。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "闭盖与开盖，我听到什么？",
+        "observe": "闭盖与开盖，我听到什么？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "成人每状态只轻敲1次，幼儿指说即可。",
+        "time": "成人准备含检查、手绘与讲解约3—5分钟；幼儿参与5—10分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "闭盖孩子原话",
+          "开盖原话与额外碰声"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-waves",
+          "title": "OpenStax｜波",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+          "originalTitle": "OpenStax｜波",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-sound",
+          "title": "OpenStax｜声强与响度",
+          "url": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+          "originalTitle": "OpenStax｜声强与响度",
+          "scope": "振幅与声强及听觉响度有关，频率和响度不同。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "振幅与声强及听觉响度有关，频率和响度不同。"
+        },
+        {
+          "id": "SC-damping",
+          "title": "OpenStax｜阻尼振动",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+          "originalTitle": "OpenStax｜阻尼振动",
+          "scope": "阻尼使振动能量和幅度衰减。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "阻尼使振动能量和幅度衰减。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "inquiry": {
+        "problem": "闭盖与开盖，我听到什么？",
+        "solve": "敲击力量难统一就明确限制，不给出准确频率结论。 成人每状态只轻敲1次，幼儿指说即可。",
+        "learn": "盒壁振动和内部空气共同影响声的频谱与辐射。 成人每状态只轻敲1次，幼儿指说即可。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day314-4-6-1",
+          "description": "看清闭盖状态。成人闭盖，孩子远处指出盒盖；成人指腹轻敲标点1次，孩子只说自己的声音词或‘没听清’，成人代记。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看清闭盖状态",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "闭盖 / 开盖各一次",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-4-6-2",
+          "description": "开盖听一次。成人轻轻开盖，等盖碰声结束后，在同一点轻敲1次；孩子坐在原处，不把耳朵靠近，成人记录原话。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "开盖听一次",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "成人轻敲，孩子远听",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-4-6-3",
+          "description": "把词放对位置。成人读两栏记录，孩子指出哪个词属于开盖，哪个属于闭盖；可以说一样或不知道，不强求出现差异。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把词放对位置",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "等盖碰声结束再敲",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-4-6-4",
+          "description": "指出额外声音。成人问开盖时有没有另一声碰响，孩子可指出或说不知道；标‘开盖碰声不是敲后声’，不再敲，收好洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "指出额外声音",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 181,
+              "width": 115,
+              "height": 54,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 202,
+              "text": "本次记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 222,
+              "text": "差异 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "一样或未辨都保留",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一敲点的两种状态能怎样配对描述？",
+      "materials": [
+        "完整干燥、无钉刺的有盖空纸盒1个，A4纸1张、笔1支；稳固桌面。无需手机、录音或频率仪。 本龄记录：三组状态和声音词；未辨及盖碰声；本次比较，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只发轻声；不贴耳敲击，不大声喊叫；纸筒不入口，手指远离弹动尺端。 成人检查盒内完全为空、边缘无钉刺霉味，放稳并清空桌面。四龄均由成人开闭盖和用指腹轻敲，儿童只看听记录，距盒至少一臂，不贴耳。只轻声，不用硬物或加力求差异；惊吓、不适、桌盒晃动立即停。轻放盒盖避免夹手，结束收齐洗手。",
+      "steps": [
+        {
+          "title": "先约定描述词",
+          "caption": "先约定描述词",
+          "action": "成人在盒侧面中部用笔轻点固定敲点，盒位置和听者座位保持不变；纸上记‘闭’和‘开’两栏。打开时把盖完全离开敲点，盖放稳不碰盒；若盖不能稳定敞开则跳过。 成人备好两栏。儿童选‘短/拖尾、清脆/闷、听不清’作记录词，不用‘好听’代替现象；闭盖轻敲标点1次。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "配对开盖结果",
+          "caption": "配对开盖结果",
+          "action": "成人开盖放稳，等开盖碰声结束，再同点轻敲1次。儿童在开栏写声音词，听者座位不动。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "补两组配对",
+          "caption": "补两组配对",
+          "action": "无不适且状态仍稳才照闭→开再做2组，每状态总共3次，每次间隔到声停；逐次记录，不把不同次合成一个印象。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "找相同与不同",
+          "caption": "找相同与不同",
+          "action": "逐组连线对照，圈出重复描述和未听清，额外盖碰声旁注。只能说这盒这次的结果，手力未精确相同；收齐洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "音色",
+          "观察配对"
+        ],
+        "explanation": "盒壁振动和内部空气共同影响声的频谱与辐射。 同点同座位，最多闭开各3次；逐次记录。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "同一敲点的两种状态能怎样配对描述？",
+        "observe": "同一敲点的两种状态能怎样配对描述？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "同点同座位，最多闭开各3次；逐次记录。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "三组状态和声音词",
+          "未辨及盖碰声",
+          "本次比较"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-waves",
+          "title": "OpenStax｜波",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+          "originalTitle": "OpenStax｜波",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-sound",
+          "title": "OpenStax｜声强与响度",
+          "url": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+          "originalTitle": "OpenStax｜声强与响度",
+          "scope": "振幅与声强及听觉响度有关，频率和响度不同。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "振幅与声强及听觉响度有关，频率和响度不同。"
+        },
+        {
+          "id": "SC-damping",
+          "title": "OpenStax｜阻尼振动",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+          "originalTitle": "OpenStax｜阻尼振动",
+          "scope": "阻尼使振动能量和幅度衰减。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "阻尼使振动能量和幅度衰减。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "inquiry": {
+        "problem": "同一敲点的两种状态能怎样配对描述？",
+        "solve": "敲击力量难统一就明确限制，不给出准确频率结论。 同点同座位，最多闭开各3次；逐次记录。",
+        "learn": "盒壁振动和内部空气共同影响声的频谱与辐射。 同点同座位，最多闭开各3次；逐次记录。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day314-7-9-1",
+          "description": "先约定描述词。成人备好两栏。儿童选‘短/拖尾、清脆/闷、听不清’作记录词，不用‘好听’代替现象；闭盖轻敲标点1次。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先约定描述词",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "闭开最多三组",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-7-9-2",
+          "description": "配对开盖结果。成人开盖放稳，等开盖碰声结束，再同点轻敲1次。儿童在开栏写声音词，听者座位不动。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "配对开盖结果",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "每次写一个声音词",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-7-9-3",
+          "description": "补两组配对。无不适且状态仍稳才照闭→开再做2组，每状态总共3次，每次间隔到声停；逐次记录，不把不同次合成一个印象。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "补两组配对",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "先等声音停止",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-7-9-4",
+          "description": "找相同与不同。逐组连线对照，圈出重复描述和未听清，额外盖碰声旁注。只能说这盒这次的结果，手力未精确相同；收齐洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "找相同与不同",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 181,
+              "width": 115,
+              "height": 54,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 202,
+              "text": "本次记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 222,
+              "text": "差异 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "盖碰声另记",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "三组比较中，哪些差异重复出现？",
+      "materials": [
+        "完整干燥、无钉刺的有盖空纸盒1个，A4纸1张、笔1支；稳固桌面。无需手机、录音或频率仪。 本龄记录：预测与固定条件；3组音色/拖尾/干扰；有效组与一致组数，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只发轻声；不贴耳敲击，不大声喊叫；纸筒不入口，手指远离弹动尺端。 成人检查盒内完全为空、边缘无钉刺霉味，放稳并清空桌面。四龄均由成人开闭盖和用指腹轻敲，儿童只看听记录，距盒至少一臂，不贴耳。只轻声，不用硬物或加力求差异；惊吓、不适、桌盒晃动立即停。轻放盒盖避免夹手，结束收齐洗手。",
+      "steps": [
+        {
+          "title": "写预测与控制",
+          "caption": "写预测与控制",
+          "action": "成人在盒侧面中部用笔轻点固定敲点，盒位置和听者座位保持不变；纸上记‘闭’和‘开’两栏。打开时把盖完全离开敲点，盖放稳不碰盒；若盖不能稳定敞开则跳过。 纸上画3组×闭/开表，预测可能听不出；固定同盒、侧面标点、桌面位置、成人指腹及听者座位，手力不能保证相等。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "完成第一组",
+          "caption": "完成第一组",
+          "action": "成人闭盖轻敲一次，等声停，开盖放稳且碰声结束后再轻敲同一点。儿童分别记音色、主观拖尾、异常碰声，不记假精确秒数。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "保持条件做余组",
+          "caption": "保持条件做余组",
+          "action": "安全且愿意才以相同顺序再做2组，每状态总3次；改变位置、重敲或盖碰盒则该格标干扰，不补敲凑齐。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "审查重复性",
+          "caption": "审查重复性",
+          "action": "数3组中可比较的组数与差异一致组数，分母用有效组而非默认3。手力与顺序未排除，只写描述性关联；收好洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "重复性",
+          "干扰记录"
+        ],
+        "explanation": "盒壁振动和内部空气共同影响声的频谱与辐射。 三组固定顺序；干扰组排除并说明分母。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "三组比较中，哪些差异重复出现？",
+        "observe": "三组比较中，哪些差异重复出现？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "三组固定顺序；干扰组排除并说明分母。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "预测与固定条件",
+          "3组音色/拖尾/干扰",
+          "有效组与一致组数"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-waves",
+          "title": "OpenStax｜波",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+          "originalTitle": "OpenStax｜波",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-sound",
+          "title": "OpenStax｜声强与响度",
+          "url": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+          "originalTitle": "OpenStax｜声强与响度",
+          "scope": "振幅与声强及听觉响度有关，频率和响度不同。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "振幅与声强及听觉响度有关，频率和响度不同。"
+        },
+        {
+          "id": "SC-damping",
+          "title": "OpenStax｜阻尼振动",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+          "originalTitle": "OpenStax｜阻尼振动",
+          "scope": "阻尼使振动能量和幅度衰减。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "阻尼使振动能量和幅度衰减。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "inquiry": {
+        "problem": "三组比较中，哪些差异重复出现？",
+        "solve": "敲击力量难统一就明确限制，不给出准确频率结论。 三组固定顺序；干扰组排除并说明分母。",
+        "learn": "盒壁振动和内部空气共同影响声的频谱与辐射。 三组固定顺序；干扰组排除并说明分母。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day314-10-12-1",
+          "description": "写预测与控制。纸上画3组×闭/开表，预测可能听不出；固定同盒、侧面标点、桌面位置、成人指腹及听者座位，手力不能保证相等。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写预测与控制",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "同盒 / 同点 / 同座位",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-10-12-2",
+          "description": "完成第一组。成人闭盖轻敲一次，等声停，开盖放稳且碰声结束后再轻敲同一点。儿童分别记音色、主观拖尾、异常碰声，不记假精确秒数。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "完成第一组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "每状态最多三次",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-10-12-3",
+          "description": "保持条件做余组。安全且愿意才以相同顺序再做2组，每状态总3次；改变位置、重敲或盖碰盒则该格标干扰，不补敲凑齐。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保持条件做余组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "干扰格不补造数据",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-10-12-4",
+          "description": "审查重复性。数3组中可比较的组数与差异一致组数，分母用有效组而非默认3。手力与顺序未排除，只写描述性关联；收好洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审查重复性",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 181,
+              "width": 115,
+              "height": 54,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 202,
+              "text": "本次记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 222,
+              "text": "差异 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "有效组数作分母",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "是否能把听到的差异唯一归因于空气共鸣？",
+      "materials": [
+        "完整干燥、无钉刺的有盖空纸盒1个，A4纸1张、笔1支；稳固桌面。无需手机、录音或频率仪。 本龄记录：两种机制解释；3组顺序与逐次记录；有效判据与缺测；不可唯一归因的理由，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "只发轻声；不贴耳敲击，不大声喊叫；纸筒不入口，手指远离弹动尺端。 成人检查盒内完全为空、边缘无钉刺霉味，放稳并清空桌面。四龄均由成人开闭盖和用指腹轻敲，儿童只看听记录，距盒至少一臂，不贴耳。只轻声，不用硬物或加力求差异；惊吓、不适、桌盒晃动立即停。轻放盒盖避免夹手，结束收齐洗手。",
+      "steps": [
+        {
+          "title": "预写两种解释",
+          "caption": "预写两种解释",
+          "action": "成人在盒侧面中部用笔轻点固定敲点，盒位置和听者座位保持不变；纸上记‘闭’和‘开’两栏。打开时把盖完全离开敲点，盖放稳不碰盒；若盖不能稳定敞开则跳过。 写A：空气边界变化参与声音变化；B：开盖改变盒壁约束或盖碰撞。预先定有效组条件：同点、轻敲、无额外碰声且可辨。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "先做闭开一组",
+          "caption": "先做闭开一组",
+          "action": "成人按闭盖一次→开盖放稳待静→同点一次操作，儿童逐次记录音色及干扰。不用音高感受计算共鸣频率。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "交换顺序再比较",
+          "caption": "交换顺序再比较",
+          "action": "第二组开→闭，第三组闭→开；各状态总3次，均由成人轻敲。记录顺序、异常及未辨，条件不安全则跳过而非补试。",
+          "actor": "adult",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "写可支持的范围",
+          "caption": "写可支持的范围",
+          "action": "比较有效组、顺序与差异；即使顺序交换后相似，也无法分离空气与盒壁效应。只纸上提出怎样分别测量，今天不加器材、不继续敲；整理洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "替代解释",
+          "边界条件",
+          "证据强度"
+        ],
+        "explanation": "盒壁振动和内部空气共同影响声的频谱与辐射。 闭开/开闭/闭开顺序；交换顺序不等于分离机制。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "是否能把听到的差异唯一归因于空气共鸣？",
+        "observe": "是否能把听到的差异唯一归因于空气共鸣？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "闭开/开闭/闭开顺序；交换顺序不等于分离机制。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "两种机制解释",
+          "3组顺序与逐次记录",
+          "有效判据与缺测",
+          "不可唯一归因的理由"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-waves",
+          "title": "OpenStax｜波",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+          "originalTitle": "OpenStax｜波",
+          "scope": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "核对该主题的基础原理；本页具体材料、用量和比较步骤为独立改编，未由来源机构验证。"
+        },
+        {
+          "id": "SC-sound",
+          "title": "OpenStax｜声强与响度",
+          "url": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+          "originalTitle": "OpenStax｜声强与响度",
+          "scope": "振幅与声强及听觉响度有关，频率和响度不同。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "振幅与声强及听觉响度有关，频率和响度不同。"
+        },
+        {
+          "id": "SC-damping",
+          "title": "OpenStax｜阻尼振动",
+          "url": "https://openstax.org/books/college-physics-2e/pages/16-7-damped-harmonic-motion",
+          "originalTitle": "OpenStax｜阻尼振动",
+          "scope": "阻尼使振动能量和幅度衰减。 本批未重新联网核读，不验证家庭具体操作。",
+          "claim": "阻尼使振动能量和幅度衰减。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "inquiry": {
+        "problem": "是否能把听到的差异唯一归因于空气共鸣？",
+        "solve": "敲击力量难统一就明确限制，不给出准确频率结论。 闭开/开闭/闭开顺序；交换顺序不等于分离机制。",
+        "learn": "盒壁振动和内部空气共同影响声的频谱与辐射。 闭开/开闭/闭开顺序；交换顺序不等于分离机制。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 未实地试做；开盖同时改变边界和结构，不能把差异全归为单一共鸣频率。 开盖改变空气边界也改变盒体约束，手敲力不精确一致；盖碰声不能算盒壁余声。只做主观比较，不报频率、分贝或精确衰减时间。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day314-13-16-1",
+          "description": "预写两种解释。写A：空气边界变化参与声音变化；B：开盖改变盒壁约束或盖碰撞。预先定有效组条件：同点、轻敲、无额外碰声且可辨。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预写两种解释",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "闭开 → 开闭 → 闭开",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-13-16-2",
+          "description": "先做闭开一组。成人按闭盖一次→开盖放稳待静→同点一次操作，儿童逐次记录音色及干扰。不用音高感受计算共鸣频率。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先做闭开一组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "空气 / 盒壁两解释",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-13-16-3",
+          "description": "交换顺序再比较。第二组开→闭，第三组闭→开；各状态总3次，均由成人轻敲。记录顺序、异常及未辨，条件不安全则跳过而非补试。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "交换顺序再比较",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 228,
+              "y": 140,
+              "width": 48,
+              "height": 10,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 270,
+              "y1": 168,
+              "x2": 276,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 181,
+              "y": 160,
+              "text": "开盖放稳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "不从耳听报频率",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day314-13-16-4",
+          "description": "写可支持的范围。比较有效组、顺序与差异；即使顺序交换后相似，也无法分离空气与盒壁效应。只纸上提出怎样分别测量，今天不加器材、不继续敲；整理洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写可支持的范围",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 54,
+              "y1": 250,
+              "x2": 322,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 97,
+              "y": 168,
+              "width": 173,
+              "height": 77,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 128,
+              "text": "成人指腹轻敲标点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 151,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 64,
+              "y1": 200,
+              "x2": 137,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 157,
+              "width": 183,
+              "height": 11,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 150,
+              "text": "闭盖",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 280,
+              "text": "固定听者位置；不贴耳",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 181,
+              "width": 115,
+              "height": 54,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 202,
+              "text": "本次记录",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 222,
+              "text": "差异 / 未辨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "控制顺序仍非机制证明",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2454 @@
+{
+  "activityId": 324,
+  "activityTitle": "神秘盒子里的数",
+  "contentKey": "annual-m045",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "一共五格，露三格，盖住几格？",
+      "materials": [
+        "普通白纸2张、铅笔1支、橡皮1块（成人保管）；无需盒子、剪卡或小珠。",
+        "第1张画原题与方格，第2张用于核验或不同条件的延伸；4—6岁成人将第2张折成遮盖片，盖住第1张的2格，纸不剪开。",
+        "本龄手绘准备：第1张成人画5个连续大格，第2张对折遮前2格；页角注明简化题，不是8格核心题。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全部桌面纸上操作，不拿食物、小珠或硬币代格子。幼儿由成人持大纸遮盖片，不要求书写等式。盖住只模拟未知，不抽签、不引入概率游戏。",
+      "steps": [
+        {
+          "title": "看清一共五格",
+          "caption": "看清一共五格",
+          "action": "成人画5个大格，逐一指着数到5；孩子可跟着点指，不要求读数字。先让孩子看见完整5格，说明今天只做这个简化题。",
+          "actor": "adult",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "盖两格看露出的",
+          "caption": "盖两格看露出的",
+          "action": "成人用折好的大纸盖前2格，保持后三格可见；孩子点露出3格，成人代数即可。遮盖片不移动格子，也不抽随机数。",
+          "actor": "adult",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "猜一猜再揭开",
+          "caption": "猜一猜再揭开",
+          "action": "孩子说、指或画盖住的数量，成人记录原话，再揭开逐一点2格。猜错也保留猜想，不要求第一次答对或倒数运算。",
+          "actor": "adult",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "把两部分合起来",
+          "caption": "把两部分合起来",
+          "action": "成人指盖住2格加露出3格合成5格；孩子可再次指一组或结束。明说这是简化题，今天不要求解□+3=8，也不把2写作原题答案。",
+          "actor": "adult",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "整体与部分",
+          "揭开核查"
+        ],
+        "explanation": "数量本来确定，遮住只是暂时看不到；两部分合回原来的5格。",
+        "limits": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "本课是确定的纸上数学例子，遮盖不使数量随机；验算数值不是实测数据。",
+        "nextQuestion": "不揭开时还能怎样知道藏着几格？"
+      },
+      "guide": {
+        "goal": "只完成5格遮2格简化模型",
+        "observe": "一共五格，露三格，盖住几格？",
+        "control": "固定5格，不混成总数8；成人操作遮盖片。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘方格与折遮盖纸；无需打印或校准。 儿童核心5—10分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "孩子猜想原话",
+          "揭开后的指认",
+          "合起来5格"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M11",
+          "title": "OpenStax｜等式的加减性质",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality",
+          "claim": "等式两边同加减与代回检验。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day324-4-6-s1",
+          "description": "看清一共五格；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "看清一共五格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "纸上格子，不放小物件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 198,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 198,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 198,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 157,
+              "y": 198,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 188,
+              "y": 198,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 248,
+              "text": "按步骤标已知与未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "低龄简化：共5格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先全部看见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求代数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-4-6-s2",
+          "description": "盖两格看露出的；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "盖两格看露出的",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "纸上格子，不放小物件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 198,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 198,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 198,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 157,
+              "y": 198,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 188,
+              "y": 198,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 248,
+              "text": "按步骤标已知与未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "共5格，遮住前2格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "露出3格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "成人持遮盖纸",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-4-6-s3",
+          "description": "猜一猜再揭开；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "猜一猜再揭开",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "孩子猜想：____",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "揭开看2格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "猜错也保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只做5格简化",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不是随机抽数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "成人代数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混写原题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-4-6-s4",
+          "description": "把两部分合起来；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "把两部分合起来",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "2格 + 3格 = 5格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "这是低龄简化题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "原题答案不改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只做5格简化",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不是随机抽数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "成人代数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不混写原题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "□加3等于8，哪部分还没知道？",
+      "materials": [
+        "普通白纸2张、铅笔1支、橡皮1块（成人保管）；无需盒子、剪卡或小珠。",
+        "第1张画原题与方格，第2张用于核验或不同条件的延伸；4—6岁成人将第2张折成遮盖片，盖住第1张的2格，纸不剪开。",
+        "本龄手绘准备：第1张写原题与8格，前3格标已知、后5格留给未知；第2张记录猜想和代回。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全部桌面纸上操作，不拿食物、小珠或硬币代格子。幼儿由成人持大纸遮盖片，不要求书写等式。盖住只模拟未知，不抽签、不引入概率游戏。",
+      "steps": [
+        {
+          "title": "写原题不要先写答案",
+          "caption": "写原题不要先写答案",
+          "action": "写□+3=8，圈8说明是总量，圈3说明已知一部分。猜想另写，成人可代读，但不改变数字。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "画八格配已知三格",
+          "caption": "画八格配已知三格",
+          "action": "一一画8格并数一遍，将其中连续3格标“已知3”，剩余格子标“□那部分”。格子数对应数量，不必量面积。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "数剩余并对照减法",
+          "caption": "数剩余并对照减法",
+          "action": "数剩下5格，写8−3=5；若与猜想不符，保留猜想另写修正。核对没有重数或漏数，不因为希望答案5就删格。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "代回检查等号两侧",
+          "caption": "代回检查等号两侧",
+          "action": "将5代入原题得5+3=8，数8格再次检查。写“本题□为5”；盒子只是符号，不代表随机物，收纸笔即可。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "逆运算",
+          "代回"
+        ],
+        "explanation": "从总数去掉已知部分，剩余是未知部分，再代回确认。",
+        "limits": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "本课是确定的纸上数学例子，遮盖不使数量随机；验算数值不是实测数据。",
+        "nextQuestion": "如果只猜5却不检查，会漏掉什么错误？"
+      },
+      "guide": {
+        "goal": "用8格分组并代回",
+        "observe": "□加3等于8，哪部分还没知道？",
+        "control": "始终同一原题8和3，不混入低龄5格题。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘方格与折遮盖纸；无需打印或校准。 儿童核心10—18分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "原猜想",
+          "8格分组",
+          "减法和代回"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M11",
+          "title": "OpenStax｜等式的加减性质",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality",
+          "claim": "等式两边同加减与代回检验。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day324-7-9-s1",
+          "description": "写原题不要先写答案；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "写原题不要先写答案",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "□ + 3 = 8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "总共8，已知3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "猜想另写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "一格对应一个",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "保留改错",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "代回原等式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不拿小物件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-7-9-s2",
+          "description": "画八格配已知三格；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "画八格配已知三格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "纸上格子，不放小物件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 198,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 198,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 198,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 157,
+              "y": 198,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 188,
+              "y": 198,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 211,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 198,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 242,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 198,
+              "text": "7",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 273,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 198,
+              "text": "8",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 248,
+              "text": "按步骤标已知与未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "8个格子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先标已知3格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "其余对应□",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-7-9-s3",
+          "description": "数剩余并对照减法；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "数剩余并对照减法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "8 − 3 = 5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "剩余5格对应□",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "改错另记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "一格对应一个",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "保留改错",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "代回原等式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不拿小物件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-7-9-s4",
+          "description": "代回检查等号两侧；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "代回检查等号两侧",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "代回：5 + 3 = 8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "左右同样多",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "本题□=5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "一格对应一个",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "保留改错",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "代回原等式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "不拿小物件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "两种方法能核验同一个未知量吗？",
+      "materials": [
+        "普通白纸2张、铅笔1支、橡皮1块（成人保管）；无需盒子、剪卡或小珠。",
+        "第1张画原题与方格，第2张用于核验或不同条件的延伸；4—6岁成人将第2张折成遮盖片，盖住第1张的2格，纸不剪开。",
+        "本龄手绘准备：第1张原题8格与减法核验；第2张另写2x+3=9，9格分3个已知和两组相同未知。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全部桌面纸上操作，不拿食物、小珠或硬币代格子。幼儿由成人持大纸遮盖片，不要求书写等式。盖住只模拟未知，不抽签、不引入概率游戏。",
+      "steps": [
+        {
+          "title": "先把核心图算清",
+          "caption": "先把核心图算清",
+          "action": "写□+3=8，画8格圈3格，得到5格；另写8−3=5。记录两种方法是同一条件的表示，不当作两次实测。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "用代回排除错猜",
+          "caption": "用代回排除错猜",
+          "action": "试把4、5、6分别代入，得7、8、9；只有5符合等于8。三个试值不是所有数的穷举，唯一性还来自减去3后得到唯一剩余量。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "另开两组未知的新题",
+          "caption": "另开两组未知的新题",
+          "action": "第2张写新题2x+3=9，画9格去掉已知3格，余6格分为两组相等的3格，故x=3。必须先分清2x是两个相等组，不能把余6直接当x。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "分别验算不覆盖原题",
+          "caption": "分别验算不覆盖原题",
+          "action": "核心验5+3=8；新题验2×3+3=9。保留两页题目和不同答案，解释条件改变会改变未知值，不说上一题算错。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "逆运算顺序",
+          "未知组",
+          "唯一性"
+        ],
+        "explanation": "去掉已知部分后还要看有几个相等未知组；新题的答案不能替换原题。",
+        "limits": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "本课是确定的纸上数学例子，遮盖不使数量随机；验算数值不是实测数据。",
+        "nextQuestion": "为什么新题不能直接把6写成x？"
+      },
+      "guide": {
+        "goal": "图解与逆运算互核，再分清新题",
+        "observe": "两种方法能核验同一个未知量吗？",
+        "control": "核心图和进阶图分页；等组必须相等，不暗改总数。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘方格与折遮盖纸；无需打印或校准。 儿童核心15—22分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "核心两法",
+          "试代检验",
+          "新题分组与代回"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M11",
+          "title": "OpenStax｜等式的加减性质",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality",
+          "claim": "等式两边同加减与代回检验。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day324-10-12-s1",
+          "description": "先把核心图算清；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "先把核心图算清",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "纸上格子，不放小物件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 198,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 198,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 198,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 157,
+              "y": 198,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 188,
+              "y": 198,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 211,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 198,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 242,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 198,
+              "text": "7",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 273,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 198,
+              "text": "8",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 248,
+              "text": "按步骤标已知与未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "核心：□ + 3 = 8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "8格去掉3格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "图与算式互相核验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-10-12-s2",
+          "description": "用代回排除错猜；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "用代回排除错猜",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "试4 → 7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "试5 → 8，符合",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "试6 → 9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先减再等分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "两个x同样大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "试值不是穷举证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原题保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-10-12-s3",
+          "description": "另开两组未知的新题；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "另开两组未知的新题",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "新题：2x + 3 = 9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "9−3=6，6÷2=3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "两组相等，x=3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先减再等分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "两个x同样大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "试值不是穷举证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原题保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-10-12-s4",
+          "description": "分别验算不覆盖原题；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "分别验算不覆盖原题",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "核心：5+3=8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "新题：2×3+3=9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "条件不同，记录分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先减再等分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "两个x同样大",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "试值不是穷举证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原题保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "等号表达关系还是计算箭头？",
+      "materials": [
+        "普通白纸2张、铅笔1支、橡皮1块（成人保管）；无需盒子、剪卡或小珠。",
+        "第1张画原题与方格，第2张用于核验或不同条件的延伸；4—6岁成人将第2张折成遮盖片，盖住第1张的2格，纸不剪开。",
+        "本龄手绘准备：第1张原题、两边同步运算与8格解释；第2张新题和错误变形反例。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全部桌面纸上操作，不拿食物、小珠或硬币代格子。幼儿由成人持大纸遮盖片，不要求书写等式。盖住只模拟未知，不抽签、不引入概率游戏。",
+      "steps": [
+        {
+          "title": "把方框换成变量",
+          "caption": "把方框换成变量",
+          "action": "写x+3=8并说明x是一个确定未知数，等号说两边相等，不是请继续算的箭头。保留原方框题，字母只是同一未知量的新记号。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "两边同时减去三",
+          "caption": "两边同时减去三",
+          "action": "写x+3−3=8−3，化为x=5；用8格去3格解释逆运算。只减一边会破坏相等，不把移项口诀当未解释的魔法。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "审计错误变形再做新题",
+          "caption": "审计错误变形再做新题",
+          "action": "另写错误说法“x+3=8所以x=8+3”，代x=11得14不等于8，以反例纠错。另页解2x+3=9：两边减3得2x=6，再同除2得x=3；原题不改。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        },
+        {
+          "title": "说明等价和适用条件",
+          "caption": "说明等价和适用条件",
+          "action": "验5+3=8与2×3+3=9，写等式两边加减同数保持相等，除法须除非零数。若0x=0则任何x都满足，不能除0推出一个唯一数；这是另一个纸上反例。",
+          "actor": "together",
+          "adultNote": "成人代画格子与遮盖，保持每一格一一对应，改错另写不擦原始条件，不要求幼儿代数证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等价变形",
+          "关系符号",
+          "非零条件"
+        ],
+        "explanation": "可逆且合法的两边同运算保留解集；等号不是单向算出答案的箭头。",
+        "limits": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "本课是确定的纸上数学例子，遮盖不使数量随机；验算数值不是实测数据。",
+        "nextQuestion": "为什么两边同除0不能成为解方程的方法？"
+      },
+      "guide": {
+        "goal": "用等式性质解释移项并核验",
+        "observe": "等号表达关系还是计算箭头？",
+        "control": "只作纸上代数；核心、新题、错误反例分区，不能除0。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘方格与折遮盖纸；无需打印或校准。 儿童核心20—25分钟；无实验等待；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "两边同步变形",
+          "错误反例",
+          "新题验算和非零限制"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M11",
+          "title": "OpenStax｜等式的加减性质",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality",
+          "claim": "等式两边同加减与代回检验。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "盖住只是教学模拟，不看不等于随机。 盖住只是教学模拟，不看不等于随机。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 低龄简化任务是总共5格、盖2格、露3格，其未知为2；核心原题是□+3=8，其未知为5，必须分区不混写。进阶2x+3=9是另一个题，答案3不覆盖原题。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day324-13-16-s1",
+          "description": "把方框换成变量；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "把方框换成变量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "□ + 3 = 8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "x + 3 = 8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "等号表示关系",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "等价变形有条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "未知不等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "先解释再口诀",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "保留原题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-13-16-s2",
+          "description": "两边同时减去三；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "两边同时减去三",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 138,
+              "text": "纸上格子，不放小物件",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 56,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 198,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 198,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 198,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 157,
+              "y": 198,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 188,
+              "y": 198,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 211,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 198,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 242,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 198,
+              "text": "7",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 273,
+              "y": 175,
+              "width": 28,
+              "height": 35,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 198,
+              "text": "8",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 248,
+              "text": "按步骤标已知与未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "x+3−3 = 8−3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "x = 5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "两边做同一操作",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-13-16-s3",
+          "description": "审计错误变形再做新题；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "审计错误变形再做新题",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "错误x=11 → 14≠8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "新题：2x=6 → x=3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "不覆盖核心答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "等价变形有条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "未知不等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "先解释再口诀",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "保留原题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day324-13-16-s4",
+          "description": "说明等价和适用条件；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "说明等价和适用条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "除法需非零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "0x=0不能除0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "代回检查，记录分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "等价变形有条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "未知不等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "先解释再口诀",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "保留原题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

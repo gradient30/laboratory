@@ -1,0 +1,2272 @@
+{
+  "activityId": 42,
+  "activityTitle": "一个年代为什么写成区间",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "成人预写大来源卡1张（约10×15厘米，按步骤文字，卡背有网址）",
+        "A4纸2张、铅笔1支、粗彩笔1支；干净桌面1处",
+        "大年份卡2张：1454、1455；大纸条2张用于遮盖月日词（成人预裁）"
+      ],
+      "safety": "纸卡由成人预裁，剪刀及橡皮等小物由成人保管；幼儿用大卡操作，不入口。不触摸古书原件，不下载复制整本书；网上查看指定公开机构文字由成人操作，不需账户或私人信息。研究历史材料的日期，不推断个人信仰。",
+      "steps": [
+        {
+          "title": "听来源日期，分出两年",
+          "action": "本题具体材料是古腾堡《圣经》印本。成人依据国会图书馆指南写一张来源卡：“美因茨印本；指南日期1454—1455；本卡没有给出印制月日”，卡背写来源网址。只作书籍史资料，不要求宗教活动。成人读“1454到1455”，孩子把两张年份卡并排，指出这条资料没有选择某一天。",
+          "actor": "adult",
+          "caption": "听来源日期，分出两年",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "用纸带保留整段",
+          "action": "在两年份卡下方放一张连接纸条，表示原资料保留的年代范围；孩子不把其中一年翻掉。成人说明范围不是说每一天都在印，也不是印了正好两整年。",
+          "actor": "together",
+          "caption": "用纸带保留整段",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "盖住多出来的细节",
+          "action": "成人在另一张纸写“准确印于1455年1月1日”，明确这是故意写的、尚无证据的练习句，不是历史事实。孩子用大纸条盖住“准确”和“1月1日”，再指原来源卡；成人帮助把剩余文字改为“指南标1454—1455”，不能只删月日却丢1454。",
+          "actor": "together",
+          "caption": "盖住多出来的细节",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "带着范围复述",
+          "action": "孩子把修改后的句子与两年份卡连接，口述现在敢说什么、不知道什么。成人记录原话，保留未理解之处，不要求猜是哪一天。",
+          "actor": "together",
+          "caption": "带着范围复述",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "资料给出的范围",
+          "更多数字不等更多证据",
+          "保留不知道"
+        ],
+        "explanation": "资料给的是两个年份之间的范围，我们不能只因一句话写得很细就相信它。保留范围和不知道的月日，是忠实表达这条资料。",
+        "limits": "不让孩子把范围理解成两年每天持续印刷；没有月日不表示历史上没有具体日子，而是这条材料没告诉我们。",
+        "observation": "两年份卡是否都保留、遮盖与重写过程、孩子口述。",
+        "nextQuestion": "一句话写了月日，就一定比写年份范围更可靠吗？"
+      },
+      "guide": {
+        "goal": "实际用年份卡保留范围，遮去练习句的无证据细节并重写。",
+        "observe": "怎样修改“准确1455年1月1日”这句练习话，让它不超出来源给的1454—1455？",
+        "support": "成人读来源和写字，孩子摆大卡、盖词、口述。",
+        "control": "固定同一来源日期，练习句明确不是历史事实；不猜真实月日。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "保留的年份卡",
+          "遮盖与重写情况",
+          "孩子说不知道什么"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "date42-46-range",
+          "description": "两年份都保留。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "来源：1454—1455，未给月日",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 190,
+              "text": "1454年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 190,
+              "text": "1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 225,
+              "x2": 450,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-46-band",
+          "description": "下方纸带跨两年份而非持续生产图。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "纸带表示范围，不表示每天印刷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 190,
+              "text": "1454年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 190,
+              "text": "1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 225,
+              "x2": 450,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 270,
+              "width": 400,
+              "height": 20,
+              "fill": "#DDD3B7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-46-cover",
+          "description": "遮盖的是故意编写的练习句细节。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "练习句，不是历史事实",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 150,
+              "width": 510,
+              "height": 110,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 185,
+              "text": "准确印于1455年1月1日",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 78,
+              "y": 163,
+              "width": 42,
+              "height": 28,
+              "fill": "#CDD9D5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 229,
+              "y": 163,
+              "width": 86,
+              "height": 28,
+              "fill": "#CDD9D5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "回来源重写，不能只保留1455",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-46-rewrite",
+          "description": "把来源范围带回口述。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "最后仍保留两年范围",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 190,
+              "text": "1454年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 190,
+              "text": "1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 225,
+              "x2": 450,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "怎样修改“准确1455年1月1日”这句练习话，让它不超出来源给的1454—1455？",
+      "sources": [
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "指南的印本日期标1454/1455；另介绍截至1455年3月12日的销售见闻所据的信和1455年11月6日公证文书，且说明信未点名古腾堡。",
+          "scope": "本活动读取机构指南对材料的介绍，不冒称已检验原信或公证原件。印本年代范围、书信报道和文书日期不是同一事件，不能互换成整部书精确印制日。"
+        }
+      ],
+      "sourceNote": "根据机构指南与适用时馆藏说明独立设计历史证据操作，未真实课堂试用，不代表机构认证。自制练习句与卡片不是原始文献，不把范围、约数或文书日期升级成无依据的印刷日；本活动不是自然科学实验。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "成人预写大来源卡1张（约10×15厘米，按步骤文字，卡背有网址）",
+        "A4纸2张、铅笔1支、粗彩笔1支；干净桌面1处",
+        "A4纸再1张作两年月份格；直尺1把；大箭头纸片1张（成人预裁，用于指认，不贴定某月）"
+      ],
+      "safety": "纸卡由成人预裁，剪刀及橡皮等小物由成人保管；幼儿用大卡操作，不入口。不触摸古书原件，不下载复制整本书；网上查看指定公开机构文字由成人操作，不需账户或私人信息。研究历史材料的日期，不推断个人信仰。",
+      "steps": [
+        {
+          "title": "读具体印本的范围",
+          "action": "本题具体材料是古腾堡《圣经》印本。成人依据国会图书馆指南写一张来源卡：“美因茨印本；指南日期1454—1455；本卡没有给出印制月日”，卡背写来源网址。只作书籍史资料，不要求宗教活动。成人说明1454和1455各有12个月，但这条日期没有告诉我们哪月哪日；不是让我们给月份投票。",
+          "actor": "together",
+          "caption": "读具体印本的范围",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "实际画二十四月份格",
+          "action": "横向纸画两排各12格，上排1454、下排1455，分别编号1至12。每格写一个小问号表示“这条简写没有逐月确认”，不是画24个月都在生产，也不是宣称24月概率相等。",
+          "actor": "together",
+          "caption": "实际画二十四月份格",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "用箭头检验过强选择",
+          "action": "成人给三条练习指令：只指1454年6月、只指1455年1月、把两年范围都保留。孩子实际移动箭头或圈整段，并在来源里寻找支持；前两条没有月信息支持，保留问号，不选一个看起来顺眼的月。",
+          "actor": "together",
+          "caption": "用箭头检验过强选择",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "区分范围和持续时间",
+          "action": "把“资料标1454—1455”与“连续印满24个月”写在纸旁，分别标这条来源是否足够支持。儿童指着月份格解释：画了24格只是拆开日历，没有测得每格发生过印刷。",
+          "actor": "together",
+          "caption": "区分范围和持续时间",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "年份与月份的信息层次",
+          "未确认不是均匀概率",
+          "范围不是连续历时"
+        ],
+        "explanation": "把两年展开成月份格，会看见年份范围仍缺很多细节。没有逐月信息不能任意选一月，也不能把没有排除理解为每月一样可能或每月都发生。",
+        "limits": "格子是日历结构，不是生产记录；活动不估计印刷概率、开始日、结束日或总工时。",
+        "observation": "24格标注、三指令检验、范围与24月持续说法的区别。",
+        "nextQuestion": "一张图有24个月格子，为什么不等于已经知道印了24个月？"
+      },
+      "guide": {
+        "goal": "实际展开月份格并检验三种指认，区别时间分辨率与持续时间。",
+        "observe": "把1454—1455展开成24个月格后，哪些格能被这条日期准确选中，哪些仍待查？",
+        "support": "成人帮助画格读范围，孩子移动箭头并用来源否定无依据精确化。",
+        "control": "只用这条年份简写，不加入假月日；问号统一表示未确认而非同概率。",
+        "time": "约20分钟。",
+        "recordFields": [
+          "24格与问号含义",
+          "三指令的依据或缺口",
+          "为什么不是持续24月"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "date42-79-source",
+          "description": "起点是两年份范围。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "源卡不含月日",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 190,
+              "text": "1454年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 190,
+              "text": "1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 225,
+              "x2": 450,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-79-months",
+          "description": "24日历格不是24条生产记录。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 85,
+              "text": "自己给各格标“未确认”，不是均匀概率",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 41,
+              "y": 181,
+              "text": "1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 89,
+              "y": 181,
+              "text": "2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 181,
+              "text": "3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 181,
+              "text": "4",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 233,
+              "y": 181,
+              "text": "5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 181,
+              "text": "6",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 329,
+              "y": 181,
+              "text": "7",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 368,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 181,
+              "text": "8",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 416,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 425,
+              "y": 181,
+              "text": "9",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 464,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 181,
+              "text": "10",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 512,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 521,
+              "y": 181,
+              "text": "11",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 560,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 569,
+              "y": 181,
+              "text": "12",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 41,
+              "y": 251,
+              "text": "1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 89,
+              "y": 251,
+              "text": "2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 251,
+              "text": "3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 251,
+              "text": "4",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 233,
+              "y": 251,
+              "text": "5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 251,
+              "text": "6",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 329,
+              "y": 251,
+              "text": "7",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 368,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 251,
+              "text": "8",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 416,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 425,
+              "y": 251,
+              "text": "9",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 464,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 251,
+              "text": "10",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 512,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 521,
+              "y": 251,
+              "text": "11",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 560,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 569,
+              "y": 251,
+              "text": "12",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 135,
+              "text": "1454年：各月未获具体确认",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 215,
+              "text": "1455年：各月未获具体确认",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-79-pointer",
+          "description": "箭头指一月只是练习选择而非结果。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 85,
+              "text": "箭头指中一格，不会自动多出证据",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 41,
+              "y": 181,
+              "text": "1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 89,
+              "y": 181,
+              "text": "2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 181,
+              "text": "3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 181,
+              "text": "4",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 233,
+              "y": 181,
+              "text": "5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 181,
+              "text": "6",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 329,
+              "y": 181,
+              "text": "7",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 368,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 181,
+              "text": "8",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 416,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 425,
+              "y": 181,
+              "text": "9",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 464,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 181,
+              "text": "10",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 512,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 521,
+              "y": 181,
+              "text": "11",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 560,
+              "y": 150,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 569,
+              "y": 181,
+              "text": "12",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 32,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 41,
+              "y": 251,
+              "text": "1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 89,
+              "y": 251,
+              "text": "2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 128,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 251,
+              "text": "3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 251,
+              "text": "4",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 233,
+              "y": 251,
+              "text": "5",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 272,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 281,
+              "y": 251,
+              "text": "6",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 329,
+              "y": 251,
+              "text": "7",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 368,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 377,
+              "y": 251,
+              "text": "8",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 416,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 425,
+              "y": 251,
+              "text": "9",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 464,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 251,
+              "text": "10",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 512,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 521,
+              "y": 251,
+              "text": "11",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 560,
+              "y": 220,
+              "width": 45,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 569,
+              "y": 251,
+              "text": "12",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 135,
+              "text": "1454年：各月未获具体确认",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 215,
+              "text": "1455年：各月未获具体确认",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 104,
+              "y1": 112,
+              "x2": 104,
+              "y2": 145,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-79-duration",
+          "description": "保留两年范围，不当连续工期。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "年代范围 ≠ 连续印满24个月",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 190,
+              "text": "1454年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 220,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 190,
+              "text": "1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 225,
+              "x2": 450,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "把1454—1455展开成24个月格后，哪些格能被这条日期准确选中，哪些仍待查？",
+      "sources": [
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "指南的印本日期标1454/1455；另介绍截至1455年3月12日的销售见闻所据的信和1455年11月6日公证文书，且说明信未点名古腾堡。",
+          "scope": "本活动读取机构指南对材料的介绍，不冒称已检验原信或公证原件。印本年代范围、书信报道和文书日期不是同一事件，不能互换成整部书精确印制日。"
+        }
+      ],
+      "sourceNote": "根据机构指南与适用时馆藏说明独立设计历史证据操作，未真实课堂试用，不代表机构认证。自制练习句与卡片不是原始文献，不把范围、约数或文书日期升级成无依据的印刷日；本活动不是自然科学实验。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人准备两张大来源摘记纸：LOC指南和Keio036标题/正文（按步骤保留年代措辞，各有网址），或成人协助打开两公开页面",
+        "A4纸3张、直尺1把、铅笔1支、两色粗笔；成人预裁字段卡8张（机构/物件/日期原写法/限定词，各机构1套）"
+      ],
+      "safety": "纸卡由成人预裁，剪刀及橡皮等小物由成人保管；幼儿用大卡操作，不入口。不触摸古书原件，不下载复制整本书；网上查看指定公开机构文字由成人操作，不需账户或私人信息。研究历史材料的日期，不推断个人信仰。",
+      "steps": [
+        {
+          "title": "实际读取两个机构条目",
+          "action": "读LOC指南1454/1455与Keio036标题[c.1454–55]、正文around1455。摘记机构、条目名和原日期写法，不删c.（约）/around（约）。成人说明两页是同一印本版本的不同机构介绍，不能假定是同一存本。",
+          "actor": "together",
+          "caption": "实际读取两个机构条目",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "拆成字段再重新配对",
+          "action": "每机构一套四字段卡：机构、物件范围、日期原写法、限定词。混放后根据来源重新配成两条记录；另记Keio所藏纸本第二卷缺失，LOC指南说该馆存本为羊皮纸本。不要把Keio纸本信息贴到LOC存本。",
+          "actor": "together",
+          "caption": "拆成字段再重新配对",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "制作保留限定的中文双行记录",
+          "action": "把两条分别译写为LOC指南1454—1455、Keio标题约1454—1455且正文约1455，三种原写法仍附在旁边。用色笔标它们都有的年份与各自限定，不把“约1455”压成“1455年1月1日”。",
+          "actor": "together",
+          "caption": "制作保留限定的中文双行记录",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "审查合并是否制造精确",
+          "action": "写一条合并摘要，明确两个机构均谈这一版印本的年代，而不是同一件存本；相近表述不能消除原来的不确定，也不能证明两条信息完全独立。最后回源逐字段查错误并保留修改。",
+          "actor": "together",
+          "caption": "审查合并是否制造精确",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "元数据字段与物件身份",
+          "保留约数限定",
+          "同版本不同存本",
+          "来源相近不等独立验证"
+        ],
+        "explanation": "来源比较要同时看日期怎样写、说的是哪个物件。不同存本的材料和卷数不能互换；把近似范围重写成更细日期会制造来源没有的信息。",
+        "limits": "本活动没有校勘原件或判断哪一机构更准确；相近介绍可能共享研究，不能按两票多数消除日期不确定性。",
+        "observation": "8字段卡配对、原日期措辞、中文记录、物件差异与回源修正。",
+        "nextQuestion": "两个网站都写约1455，为什么仍不能推出1455年的某一天？"
+      },
+      "guide": {
+        "goal": "真实回源拆配字段和双行转写，区分版本/存本与原日期精度。",
+        "observe": "两家机构的日期措辞和存本信息怎样分别记录，才不会合并出假精确日期或错误物件？",
+        "support": "成人解释c./around并提供可读字段，学习者实际配卡、译写和逐项核查。",
+        "control": "保留原文日期及机构/物件关联，不删限定词，不按两网站当独立实验。",
+        "time": "约25–30分钟。",
+        "recordFields": [
+          "两条原日期与限定",
+          "8字段卡配对和物件差异",
+          "中文转写及修改",
+          "不能合并推出的结论"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "date42-1012-sources",
+          "description": "两机构资料并排而不是两原件。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "两机构条目，不是同一件存本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 145,
+              "width": 245,
+              "height": 130,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 180,
+              "text": "LOC：1454/1455",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 255,
+              "height": 130,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 180,
+              "text": "Keio：[c.1454–55]",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1012-fields",
+          "description": "八字段卡两组，实际混配核查。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "机构 / 物件 / 原日期 / 限定词",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 150,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 182,
+              "text": "机构",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 150,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 182,
+              "text": "物件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 150,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 182,
+              "text": "原日期",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 150,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 490,
+              "y": 182,
+              "text": "限定词",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 220,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 252,
+              "text": "机构",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 220,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 252,
+              "text": "物件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 220,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 252,
+              "text": "原日期",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 220,
+              "width": 135,
+              "height": 50,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 490,
+              "y": 252,
+              "text": "限定词",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1012-qualifier",
+          "description": "原词和译写并排，不能抹掉约。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "c. / around 都保留“约”",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 510,
+              "height": 115,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 180,
+              "text": "原日期写法 → 保留限定的中文",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1012-check",
+          "description": "两行记录分别回源。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "各自回源，不用多数票选某日",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 150,
+              "width": 230,
+              "height": 100,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 185,
+              "text": "LOC记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 345,
+              "y": 150,
+              "width": 230,
+              "height": 100,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 185,
+              "text": "Keio记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "两家机构的日期措辞和存本信息怎样分别记录，才不会合并出假精确日期或错误物件？",
+      "sources": [
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "指南的印本日期标1454/1455；另介绍截至1455年3月12日的销售见闻所据的信和1455年11月6日公证文书，且说明信未点名古腾堡。",
+          "scope": "本活动读取机构指南对材料的介绍，不冒称已检验原信或公证原件。印本年代范围、书信报道和文书日期不是同一事件，不能互换成整部书精确印制日。"
+        },
+        {
+          "title": "Keio University Library｜The 42-line Bible, item036",
+          "url": "https://dcollections.lib.keio.ac.jp/en/incunabula/036",
+          "claim": "馆藏说明标题保留[c.1454–55]，正文称约1455，并说明该印本没有标题页或刊记；其所藏纸本第二卷缺失。",
+          "scope": "用于比较另一机构及另一存本的年代措辞和物件范围；c.是约数提示，不能把两个来源的相近表述相交成精确单日，也不把不同存本当同一件实物。"
+        }
+      ],
+      "sourceNote": "根据机构指南与适用时馆藏说明独立设计历史证据操作，未真实课堂试用，不代表机构认证。自制练习句与卡片不是原始文献，不把范围、约数或文书日期升级成无依据的印刷日；本活动不是自然科学实验。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "成人提供LOC指南可读正文或协助打开网页；保留网址与访问日期，不复制整页图片",
+        "A4纸3张，成人预裁大证据卡3张：印本年代/书信见闻/公证文书；限定卡3张：资料范围/未点名/关联企业；铅笔与两色笔各1支"
+      ],
+      "safety": "纸卡由成人预裁，剪刀及橡皮等小物由成人保管；幼儿用大卡操作，不入口。不触摸古书原件，不下载复制整本书；网上查看指定公开机构文字由成人操作，不需账户或私人信息。研究历史材料的日期，不推断个人信仰。",
+      "steps": [
+        {
+          "title": "摘三种日期并标证据层级",
+          "action": "实际读LOC指南。卡A摘印本日期1454—1455；卡B摘指南介绍的截至1455年3月12日已存在销售见闻的书信，并保留信未点名古腾堡、未详述印刷技术的限制；卡C摘1455年11月6日公证文书与古腾堡/富斯特印刷事业的关联。三卡都标“本次读机构指南对史料的介绍，未直接检验原件”。",
+          "actor": "together",
+          "caption": "摘三种日期并标证据层级",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "把日期绑定到它真正所指的事件",
+          "action": "在纸上分别建印本、书信报道、公证文书三行，将对应卡放各行；用限定卡配上。可按日期排序，但不能把书信的时点或公证日期移到“全书精确印制日”位置。另写“本页未给精确全书完成日”空位。",
+          "actor": "together",
+          "caption": "把日期绑定到它真正所指的事件",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "实际画论证连接并逐条查来源",
+          "action": "画从各证据卡到允许支持陈述的箭头，每箭头旁写支持的范围。另用不同色画待查箭头如“公证日期→全书完成日”，并写为什么不能直接推出。回到指南核对书信不点名这一负面限制，不能把介绍者归属当信中直接自述。",
+          "actor": "together",
+          "caption": "实际画论证连接并逐条查来源",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        },
+        {
+          "title": "交一段有限结论和查证计划",
+          "action": "用自己的话写年代范围为何应保留，列一项真正可继续核查的材料（如原信/公证文书的文本、年代与物件关联），以及它仍可能不能回答的问题。明确本次没有打开或鉴定这些原件，未证明起印日、连续工期、所有存本完成日。",
+          "actor": "together",
+          "caption": "交一段有限结论和查证计划",
+          "adultNote": "保留来源的限定词，未支持不等已经证明其反面。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "文书日期与物件日期不同",
+          "间接来源层级",
+          "有范围的证据连接",
+          "负面限制保留"
+        ],
+        "explanation": "时间精确的文书可能记录销售、见闻或司法活动，并不自动给印本精确的制作日。论证要说明一条材料究竟支持什么，以及身份关联来自原文还是后来的介绍。",
+        "limits": "只核机构指南的介绍，不假称直接读过全部原始文献；年代范围可能反映复杂研究判断，不把它解释成两整年连续印刷或统计置信区间。",
+        "observation": "三证据卡的事件/日期/来源层级，允许与待查连接，有限结论。",
+        "nextQuestion": "一份文书有准确日期，为什么它谈到的物件仍可能只能确定一个年代范围？"
+      },
+      "guide": {
+        "goal": "实际制作三事件证据图，检查日期错绑与来源层级，而不是单纯排序。",
+        "observe": "印本范围、销售见闻和公证文书三种日期各支持什么，为什么不能互换成精确印制日？",
+        "support": "成人提供指南原段落，学习者逐卡标层级并审查每条推断箭头。",
+        "control": "只引用实际读到的指南介绍；负面限制同记，文书事件与印本事件分行，未知不补。",
+        "time": "约35分钟。",
+        "recordFields": [
+          "三卡日期/事件/来源层级",
+          "允许与待查论证连接",
+          "有限结论",
+          "下一步原件核查问题"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "date42-1316-three",
+          "description": "三张证据卡分别属于不同事件。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "A印本 / B见闻 / C公证，不互换",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 150,
+              "width": 180,
+              "height": 120,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 180,
+              "text": "印本范围",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 215,
+              "text": "1454—1455",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 150,
+              "width": 180,
+              "height": 120,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 180,
+              "text": "销售见闻",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 215,
+              "text": "截至1455-03-12",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 150,
+              "width": 180,
+              "height": 120,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 180,
+              "text": "公证文书",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 215,
+              "text": "1455-11-06",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1316-rows",
+          "description": "事件各自一行，准确文书日不换印制日。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "按事件分行，空缺仍留空",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 125,
+              "width": 510,
+              "height": 45,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 155,
+              "text": "印本：范围",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 180,
+              "width": 510,
+              "height": 45,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 210,
+              "text": "书信报道：见闻与限制",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 235,
+              "width": 510,
+              "height": 45,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 265,
+              "text": "公证：文书日期与事业关联",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1316-links",
+          "description": "支持连接是待学习者审核的图形框架。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每条连接写支持范围与限制",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 155,
+              "width": 190,
+              "height": 90,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 190,
+              "text": "证据卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 275,
+              "y1": 200,
+              "x2": 350,
+              "y2": 200,
+              "stroke": "#9B7551",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 155,
+              "width": 210,
+              "height": 90,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 190,
+              "text": "有限陈述",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "date42-1316-layer",
+          "description": "指南转述与原件不能等同。自制事实摘记卡/证据纸为原创教学装置，不是档案原件或学习者已经完成的判断；未给出的月日不补编。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "本次读指南，不冒称已鉴定原件",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 150,
+              "width": 480,
+              "height": 115,
+              "fill": "#F2EEE4",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 185,
+              "text": "指南介绍 → 待核查原文",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 225,
+              "text": "精确文书日 ≠ 精确印制日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "印本范围、销售见闻和公证文书三种日期各支持什么，为什么不能互换成精确印制日？",
+      "sources": [
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "指南的印本日期标1454/1455；另介绍截至1455年3月12日的销售见闻所据的信和1455年11月6日公证文书，且说明信未点名古腾堡。",
+          "scope": "本活动读取机构指南对材料的介绍，不冒称已检验原信或公证原件。印本年代范围、书信报道和文书日期不是同一事件，不能互换成整部书精确印制日。"
+        }
+      ],
+      "sourceNote": "根据机构指南与适用时馆藏说明独立设计历史证据操作，未真实课堂试用，不代表机构认证。自制练习句与卡片不是原始文献，不把范围、约数或文书日期升级成无依据的印刷日；本活动不是自然科学实验。"
+    }
+  }
+}

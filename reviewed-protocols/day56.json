@@ -1,0 +1,2992 @@
+{
+  "activityId": 56,
+  "activityTitle": "雕版与可移动字块的模型",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "成人预裁18×8厘米整条2张：一张写山水日，一张写山木日；均不画可撕切口",
+        "成人预裁6×8厘米单字卡4张：山、水、日、木各1；A3底纸1张画3个从左到右位置框",
+        "粗笔1支、记录纸1张；整条和散卡放在不同纸区"
+      ],
+      "safety": "成人预裁纸条和大卡，修平边缘，剪刀收好再操作；不用刻刀、木刻、金属活字、印泥、热蜡、铅或加热工具。大单字卡至少6×8厘米，不入口；仅用纸笔，不在真实书籍上写改或粘贴。字形不认识可由成人读或让孩子按形状匹配，不比赛速度，不作能力测评。桌面保持干净平整，卡不伸出桌边。",
+      "steps": [
+        {
+          "title": "看历史背景与两套纸件",
+          "action": "成人介绍：Asian Art Museum教育页说明木版刻字印纸，毕昇泥活字可拆开再用，年代记为1041–1048年；木版并未因此立即消失。我们只用正向纸卡演示分件方式，不印刷，也不把“固定纸条不得剪改”的课堂规则说成古代木版无法修补。成人把山水日整条放一边，另边用山/水/日三单卡排同样顺序；木卡和另一整条暂放备用区。孩子指出哪个是一整张、哪个由三张组成。",
+          "actor": "adult",
+          "caption": "看历史背景与两套纸件",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "散卡只换中间字",
+          "action": "目标改成山木日。孩子在散卡行取下水放回备用区，再取木放中间，不移动山和日；成人代记实际取放及误动，不把纸卡动作称作完成一次印刷。",
+          "actor": "together",
+          "caption": "散卡只换中间字",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "固定整条按模型规则替换",
+          "action": "整条不能剪、擦或贴改，这是本次自定规则。孩子把原山水日整条移到备用区，再换上预备的山木日整条；说明新整条是成人事先写的，不能假装没有准备工作。",
+          "actor": "together",
+          "caption": "固定整条按模型规则替换",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "摸纸件说明变了什么",
+          "action": "并排指两种模型中实际被拿走与换入的纸件，孩子描述整条与单件的区别。成人记录“模型见到”和“史料告诉”两栏，提醒真实木版修补办法未在此测试。",
+          "actor": "together",
+          "caption": "摸纸件说明变了什么",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "整体与可分件",
+          "更换单位",
+          "历史事实与模型规则"
+        ],
+        "explanation": "同一个中间字变化，可通过更换一张单字卡或整张固定条表现。区别来自模型如何分件，预制备用件同样花过准备工作。",
+        "limits": "没有印刷、镜像或雕刻，不测历史成本/速度；不据此说木版永远不能局部改字。",
+        "observation": "实际换出的纸件、换入纸件、误动及成人预备说明。",
+        "nextQuestion": "只换了中间一个字，为什么两套模型拿起的纸件大小却不同？"
+      },
+      "guide": {
+        "goal": "真实替换单字与整条，感受分件单位并说清预制准备。",
+        "observe": "山水日改成山木日，两套纸模型各拿走和放入什么，哪些工作事先由成人做好？",
+        "support": "成人读事实、预裁预写；幼儿按字形匹配和实际移卡，口述代记。",
+        "control": "同起始和目标；散卡只更换中位，整条规则不剪改；备用件准备明确。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "两模型拿走/放入纸件",
+          "误动与帮助",
+          "模型与真实历史区别"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "type56-46-prep",
+          "description": "同内容分别整条和三单卡。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "正向纸模型：不是印版",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 145,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 182,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 182,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 182,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 262,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 262,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 262,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-46-one",
+          "description": "指定目标不是已完成结果。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "散卡目标：中间换成木",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 165,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 165,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 202,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 165,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 280,
+              "text": "水卡收回备用区",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-46-whole",
+          "description": "整条换新整条。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "整条目标：换成人预备的新条",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 165,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 202,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 280,
+              "text": "旧条完整留存，不剪改",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-46-compare",
+          "description": "分件数量来自设定，操作记录另填。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "同内容；整条与单件分开核",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 145,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 182,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 182,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 182,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 143.0,
+              "y": 262,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 303.0,
+              "y": 262,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 225,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 463.0,
+              "y": 262,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "山水日改成山木日，两套纸模型各拿走和放入什么，哪些工作事先由成人做好？",
+      "sources": [
+        {
+          "title": "Asian Art Museum｜Woodblock printing and movable type",
+          "url": "https://education.asianart.org/resources/the-invention-of-woodblock-printing-in-the-tang-and-song-dynasties/",
+          "claim": "博物馆教育页介绍木版刻字上墨印纸，并将毕昇泥活字记在1041–1048年，说明字块可拆开再用，木版之后仍长期使用。",
+          "scope": "只支持历史工艺和可拆组的背景；不采用其效率概括作为实验结论。纸模型固定规则不是原工艺复原，不声称历史木版不能修补或只能整版重刻。"
+        },
+        {
+          "title": "Library of Congress｜Making Letters at the Type Foundry",
+          "url": "https://blogs.loc.gov/bibliomania/2024/12/17/just-my-type-making-letters-at-the-type-foundry/",
+          "claim": "馆员介绍欧洲金属活字制造：印字面为反向字形，并为常用字母制作多枚字块。",
+          "scope": "用于指出本题正向纸卡省去了镜像、铸造、上墨和真实库存制作；不将此欧洲文章的发明叙述当世界最早活字结论。"
+        }
+      ],
+      "sourceNote": "依据博物馆与图书馆工艺介绍独立设计正向纸卡历史技术模型，未课堂试用，不代表机构认证。没有雕刻、加热、铸造或实际印刷；自定不可剪改约束不是历史木版不可修补的声明。预制目标是任务条件，不是伪造观察。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "成人预裁36×8厘米整条3张，分别写山水日月田木、山林日月田木、日水山月田木",
+        "成人预裁6×8厘米单字卡7张：山、水、日、月、田、木、林各1；A3或拼接底纸2张，各标六个位置",
+        "记录纸3张、铅笔1支、粗笔1支、直尺1把；备用区1处留足容纳整条"
+      ],
+      "safety": "成人预裁纸条和大卡，修平边缘，剪刀收好再操作；不用刻刀、木刻、金属活字、印泥、热蜡、铅或加热工具。大单字卡至少6×8厘米，不入口；仅用纸笔，不在真实书籍上写改或粘贴。字形不认识可由成人读或让孩子按形状匹配，不比赛速度，不作能力测评。桌面保持干净平整，卡不伸出桌边。",
+      "steps": [
+        {
+          "title": "备两种结构与两个改动",
+          "action": "成人介绍：Asian Art Museum教育页说明木版刻字印纸，毕昇泥活字可拆开再用，年代记为1041–1048年；木版并未因此立即消失。我们只用正向纸卡演示分件方式，不印刷，也不把“固定纸条不得剪改”的课堂规则说成古代木版无法修补。在两底纸分别放初始整条山水日月田木和同序六单卡。准备两个任务：R把第2字水换林；S交换第1山与第3日。每任务都从原始内容开始，不连续继承R结果。",
+          "actor": "together",
+          "caption": "备两种结构与两个改动",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "真正做单字替换R并复原",
+          "action": "先做散卡R，再做整条R；每次逐件记从位置拿走、向位置放入的动作，拿1次和放1次分开计，一件内含几个字另列。做完按原记录恢复初始，恢复动作单列。整条R由成人预写，不算现场零成本制作。",
+          "actor": "together",
+          "caption": "真正做单字替换R并复原",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "真正做交换S并复原",
+          "action": "先做整条S，再做散卡S。单卡将山、日各取出至备用区，再放入对方原位置，不在有卡位置叠放；完整核六个位置，记录取出/放入及误动。完成同样复原，任务顺序不同不能当严格消除练习影响。",
+          "actor": "together",
+          "caption": "真正做交换S并复原",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "比较准备与取放两种记录",
+          "action": "比较R和S在两结构下涉及的纸件、纸件内字数及取放/复原动作。不能只看拿起了几件就断言整条或散卡更快；预写三整条与准备七单卡、核对字序的工作都另列。",
+          "actor": "together",
+          "caption": "比较准备与取放两种记录",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "替换与交换是不同操作",
+          "取放与复原成本",
+          "动作单位不等时间或劳动"
+        ],
+        "explanation": "换一个字需要新字符件，交换已有位置可以复用原件。整条模型能一次搬很多字，但新整条预写不是免费的，搬一件也不等于同样劳动。",
+        "limits": "两任务单次操作、顺序有练习影响，不作历史效率排名；本规则只模拟分件，不能代表真实排版工艺。",
+        "observation": "R/S两结构取放、恢复、误动和预备工作。",
+        "nextQuestion": "“只拿了一张整条”能不能说明改字工作比移动两张单卡少？"
+      },
+      "guide": {
+        "goal": "实际执行替换与交换、复原，区分操作单位与备件成本。",
+        "observe": "单字替换R和位置交换S在两结构中怎样完成，取放少是否等于总工作少？",
+        "support": "成人预制并读字，孩子逐件记录；不漏恢复与整条预写。",
+        "control": "R/S均从同初始6字起；R散卡先，S整条先；取放分计，复原和误动独列。",
+        "time": "约25分钟。",
+        "recordFields": [
+          "R两结构取放与复原",
+          "S两结构取放与复原",
+          "备件和误动记录",
+          "动作计数限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "type56-79-prep",
+          "description": "六字整条与散卡同序。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "R换字；S交换；各从原样起",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 145,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 182,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 182,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 182,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 182,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 182,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 182,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 262,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 262,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 262,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 262,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 262,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 262,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-79-r",
+          "description": "R指定目标。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "R：第2位水→林，再恢复原样",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 202,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 202,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 202,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 202,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 280,
+              "text": "取出和放入分别记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-79-s",
+          "description": "S指定目标。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "S：第1和第3位交换",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 202,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 202,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 202,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 202,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 280,
+              "text": "先取出两卡，再互换放入",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-79-cost",
+          "description": "预制整条同样是工作。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "新整条曾预写；不算零准备",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 165,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 202,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 202,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 202,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 202,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 280,
+              "text": "取放、复原、预备分开记",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "单字替换R和位置交换S在两结构中怎样完成，取放少是否等于总工作少？",
+      "sources": [
+        {
+          "title": "Asian Art Museum｜Woodblock printing and movable type",
+          "url": "https://education.asianart.org/resources/the-invention-of-woodblock-printing-in-the-tang-and-song-dynasties/",
+          "claim": "博物馆教育页介绍木版刻字上墨印纸，并将毕昇泥活字记在1041–1048年，说明字块可拆开再用，木版之后仍长期使用。",
+          "scope": "只支持历史工艺和可拆组的背景；不采用其效率概括作为实验结论。纸模型固定规则不是原工艺复原，不声称历史木版不能修补或只能整版重刻。"
+        },
+        {
+          "title": "Library of Congress｜Making Letters at the Type Foundry",
+          "url": "https://blogs.loc.gov/bibliomania/2024/12/17/just-my-type-making-letters-at-the-type-foundry/",
+          "claim": "馆员介绍欧洲金属活字制造：印字面为反向字形，并为常用字母制作多枚字块。",
+          "scope": "用于指出本题正向纸卡省去了镜像、铸造、上墨和真实库存制作；不将此欧洲文章的发明叙述当世界最早活字结论。"
+        }
+      ],
+      "sourceNote": "依据博物馆与图书馆工艺介绍独立设计正向纸卡历史技术模型，未课堂试用，不代表机构认证。没有雕刻、加热、铸造或实际印刷；自定不可剪改约束不是历史木版不可修补的声明。预制目标是任务条件，不是伪造观察。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人预裁36×8厘米空白整条3张，每张标6个书写位；6×8厘米大单字卡9张，其中预写山2张、水2张、日/月/木/田各1张，余1张保持空白备用",
+        "A3或拼接底纸2张标6个位置；库存底纸1张，按字符分区；记录纸3张",
+        "粗笔1支、铅笔1支、直尺1把；成人可代写字符但制作动作必须记录"
+      ],
+      "safety": "成人预裁纸条和大卡，修平边缘，剪刀收好再操作；不用刻刀、木刻、金属活字、印泥、热蜡、铅或加热工具。大单字卡至少6×8厘米，不入口；仅用纸笔，不在真实书籍上写改或粘贴。字形不认识可由成人读或让孩子按形状匹配，不比赛速度，不作能力测评。桌面保持干净平整，卡不伸出桌边。",
+      "steps": [
+        {
+          "title": "建立有限字库与版本任务",
+          "action": "成人介绍：Asian Art Museum教育页说明木版刻字印纸，毕昇泥活字可拆开再用，年代记为1041–1048年；木版并未因此立即消失。我们只用正向纸卡演示分件方式，不印刷，也不把“固定纸条不得剪改”的课堂规则说成古代木版无法修补。成人与孩子核库存：山2、水2、日1、月1、木1、田1，另1空卡不是已存在的任何字。任务三个版本依次V1山水山水日月、V2山山山水日月、V3月日水山水山。每版本用一张新整条写完整内容并保留；单卡模型只能用实际库存，每次从上版拆回后重组。",
+          "actor": "together",
+          "caption": "建立有限字库与版本任务",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "两模型实际完成V1",
+          "action": "先在第一整条写V1，记录新写字数、用纸件数；再从字库逐张取卡组V1，逐位置核对，清单记库存余量。单卡中的两个山必须是两张实体，不能用同一张同时占两位。",
+          "actor": "together",
+          "caption": "两模型实际完成V1",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "遇到V2先证明缺件再制作",
+          "action": "把单卡V1全部拆回库存，尝试排V2；不足时留空位，写清需要/已有/短缺的字符数量，不靠拍照复制或借一张占两位。之后才让成人或孩子在那张空卡写缺的山，作为新增制作单列，再完成V2。第二整条同时另写V2；不把新写一字等同制作真实活字。",
+          "actor": "together",
+          "caption": "遇到V2先证明缺件再制作",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "重排V3并检查保存方式",
+          "action": "V2单卡全部拆回，重新组V3，核是否需要再制新字；第三整条写V3。比较整条保留三版、散卡只能保留当前排版而旧字序靠记录保存，分别列初始准备、补制、重排和存储。历史字体库存与制作成本更复杂，本结果不证明技术优劣。",
+          "actor": "together",
+          "caption": "重排V3并检查保存方式",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "可复用不等无限库存",
+          "重复字符需多个实体",
+          "版本保存与重排",
+          "制作成本单列"
+        ],
+        "explanation": "同一个字在同一排版出现多次，就需要对应多张单字卡。字库不足时不能靠“可移动”消除短缺；补制与排字不同。拆版复用能留下字卡，却不会自动保留旧版排列。",
+        "limits": "纸上写字与烧泥/铸造成本不可等同；三个短版本不是历史生产规模，正向纸卡未模拟反向印字面。",
+        "observation": "各版新写字数、实体库存差额、补制动作、旧版保存/拆版清单。",
+        "nextQuestion": "可以反复使用的单字卡，为何仍可能排不出一个含三次“山”的新版本？"
+      },
+      "guide": {
+        "goal": "实际有限库存排版、缺件停下、补制再排与版本保存对照。",
+        "observe": "有限字库从V1改到V2/V3时哪里缺件，补制和保存旧版需要哪些额外工作？",
+        "support": "成人可代写，缺件先记录再允许制作；不能提前把空卡当山库存。",
+        "control": "同三个版本，两模型独立；初始库存固定，补制仅1空卡，缺件过程保留；整条每版另写。",
+        "time": "约30–40分钟。",
+        "recordFields": [
+          "三版整条新写与保存",
+          "单卡库存需要/已有/短缺",
+          "补制和重排动作",
+          "保存与历史限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "type56-1012-bank",
+          "description": "初始八张已写卡加一空卡，图用两行显示。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "初库：山2、水2、日月木田各1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 140,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 123.0,
+              "y": 177,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 197.0,
+              "y": 140,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 243.0,
+              "y": 177,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 140,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 363.0,
+              "y": 177,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 437.0,
+              "y": 140,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 483.0,
+              "y": 177,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 215,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 123.0,
+              "y": 252,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 197.0,
+              "y": 215,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 243.0,
+              "y": 252,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 215,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 363.0,
+              "y": 252,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 437.0,
+              "y": 215,
+              "width": 116.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 483.0,
+              "y": 252,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 292,
+              "text": "另有1张空卡，尚不是“山”",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1012-v1",
+          "description": "V1目标而非学习者已完成。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "V1目标：每次出现需一张实体",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 202,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 202,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 202,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1012-v2",
+          "description": "V2目标提示先核短缺，不伪造完成。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "V2目标：先核库存，再补制",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 202,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 202,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 202,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 165,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 202,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 280,
+              "text": "先记缺件，不用同一张占两位",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1012-v3",
+          "description": "V3整条保存，与单卡复用对照。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "V3目标：旧整条保留，单卡拆版",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 145,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 182,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 182,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 182,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 182,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 182,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 182,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 262,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 262,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 262,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 262,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 262,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 225,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 262,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "有限字库从V1改到V2/V3时哪里缺件，补制和保存旧版需要哪些额外工作？",
+      "sources": [
+        {
+          "title": "Asian Art Museum｜Woodblock printing and movable type",
+          "url": "https://education.asianart.org/resources/the-invention-of-woodblock-printing-in-the-tang-and-song-dynasties/",
+          "claim": "博物馆教育页介绍木版刻字上墨印纸，并将毕昇泥活字记在1041–1048年，说明字块可拆开再用，木版之后仍长期使用。",
+          "scope": "只支持历史工艺和可拆组的背景；不采用其效率概括作为实验结论。纸模型固定规则不是原工艺复原，不声称历史木版不能修补或只能整版重刻。"
+        },
+        {
+          "title": "Library of Congress｜Making Letters at the Type Foundry",
+          "url": "https://blogs.loc.gov/bibliomania/2024/12/17/just-my-type-making-letters-at-the-type-foundry/",
+          "claim": "馆员介绍欧洲金属活字制造：印字面为反向字形，并为常用字母制作多枚字块。",
+          "scope": "用于指出本题正向纸卡省去了镜像、铸造、上墨和真实库存制作；不将此欧洲文章的发明叙述当世界最早活字结论。"
+        }
+      ],
+      "sourceNote": "依据博物馆与图书馆工艺介绍独立设计正向纸卡历史技术模型，未课堂试用，不代表机构认证。没有雕刻、加热、铸造或实际印刷；自定不可剪改约束不是历史木版不可修补的声明。预制目标是任务条件，不是伪造观察。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "整条结构：成人预裁36×8厘米空白条3张（每条6个字位）；双字结构：12×8厘米空白条7张（每条2位）；单字结构：6×8厘米空白卡7张（每张1位）",
+        "三张A3或拼接底纸各标6个位置，桌面不足可逐结构操作并保存记录；记录纸4张",
+        "粗笔和铅笔各1支、直尺1把；备用区用于取出旧纸件，不叠放覆盖字序"
+      ],
+      "safety": "成人预裁纸条和大卡，修平边缘，剪刀收好再操作；不用刻刀、木刻、金属活字、印泥、热蜡、铅或加热工具。大单字卡至少6×8厘米，不入口；仅用纸笔，不在真实书籍上写改或粘贴。字形不认识可由成人读或让孩子按形状匹配，不比赛速度，不作能力测评。桌面保持干净平整，卡不伸出桌边。",
+      "steps": [
+        {
+          "title": "按三种分件建立同起始排版",
+          "action": "成人介绍：Asian Art Museum教育页说明木版刻字印纸，毕昇泥活字可拆开再用，年代记为1041–1048年；木版并未因此立即消失。我们只用正向纸卡演示分件方式，不印刷，也不把“固定纸条不得剪改”的课堂规则说成古代木版无法修补。另据LOC活字制作介绍，真实印字面为反向，本模型不测试印迹质量。先把三结构都写成山水日月田木：整条一张6字；双字三条分别山水/日月/田木；单字六卡。统一正向从左到右，剩余纸件留白备用。模型规定已写纸件不可剪、擦、贴改，可整件移位复用；这是自定约束，不是史实。",
+          "actor": "together",
+          "caption": "按三种分件建立同起始排版",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "实际稀疏编辑：第2位水改林",
+          "action": "逐结构把内容改成山林日月田木。需要新内容的纸件就在空白同规格纸上写好再换入，旧件保留；能保留的件不动。记录新写字符数、新制纸件数、取出/放入次数，初始准备另列。不要把整条一件、双字一件、单卡一件当等量劳动。",
+          "actor": "together",
+          "caption": "实际稀疏编辑：第2位水改林",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "继承上一版做完整逆序",
+          "action": "从刚完成的山林日月田木改为木田月日林山，三结构均继承本身上一版。可重排现有整件，但不能把一条内两字颠倒、把纸旋转成倒字或剪开；若已有整件能直接复用就用，否则用备用同规格纸另写。逐位置检查字都正立，再记录与前步相同指标。材料预算为整条总3张、双字总7张、单卡总7张，不另外借件。",
+          "actor": "together",
+          "caption": "继承上一版做完整逆序",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        },
+        {
+          "title": "用多种计数审计模型结论",
+          "action": "分别把两次编辑的新增字数、纸件数和取放次数做表，列出初始制作和保留旧件/旧版的差别；发现少拿一件不等少写字。说明本规则排除了局部修补、字高/间距、镜像、上墨与锁版，因此不能把计数换成古代工时或断言单字结构所有场景最优。",
+          "actor": "together",
+          "caption": "用多种计数审计模型结论",
+          "adultNote": "只移动或另写预裁大纸卡，不雕刻、不印刷；保留真实动作与误排记录，不由模型评价古人技术高低。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "分件粒度与编辑模式",
+          "整件复用与内部次序",
+          "多指标成本",
+          "模型约束与历史外推"
+        ],
+        "explanation": "整体、双字、单字三种粒度，会把同一个内容改动分配成不同的新写、换件与重排工作。稀疏替换和整行逆序不是同一编辑；只数拿了几件会忽略每件包含的字数和制作准备。",
+        "limits": "自定不得剪改的纸模型不是雕版修补能力测试；不模拟反字、材料工艺和印刷质量，不将两次任务推广成历史效率定理。",
+        "observation": "两次编辑×三粒度的新增字/件/取放，正立字序核查、备用耗用与模型遗漏。",
+        "nextQuestion": "为什么“少搬纸件”和“少重写字符”可能给出不同的结构评价？"
+      },
+      "guide": {
+        "goal": "真实三粒度制作与两类编辑，分别核新写和取放而不混淆成本。",
+        "observe": "同样稀疏改字与整行逆序，在整条/双字/单字结构下新增字与搬动件数怎样不同，能推断历史工时吗？",
+        "support": "成人预裁，学习者实际写制和重排；记录人可辅助但不替其默填理论数。",
+        "control": "同起始、先换第2字再继承逆序；既有件不剪擦贴改，字须正立；三种计数分别定义，初备另列。",
+        "time": "约40分钟。",
+        "recordFields": [
+          "三结构初始备件",
+          "稀疏编辑新增字/件/取放",
+          "逆序编辑新增字/件/取放",
+          "正立核查和历史模型边界"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "type56-1316-grain",
+          "description": "三种粒度同六字，双字边界明确。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 90,
+              "text": "同内容，分件粒度不同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 152,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 152,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 152,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 152,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 152,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 152,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 212,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 212,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 212,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 212,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 212,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 212,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 272,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 272,
+              "text": "水",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 272,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 272,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 272,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 272,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1316-local",
+          "description": "稀疏编辑目标三粒度。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 90,
+              "text": "第2位改林；记录新写与取放",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 152,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 152,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 152,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 152,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 152,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 152,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 212,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 212,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 212,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 212,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 212,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 212,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 272,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 272,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 272,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 272,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 272,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 272,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1316-reverse",
+          "description": "完整逆序目标不得倒转字形。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 90,
+              "text": "再逆序；每个字仍正立",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 152,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 152,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 152,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 152,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 152,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 152,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 212,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 212,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 212,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 212,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 212,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 212,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 272,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 272,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 272,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 272,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 272,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 272,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "type56-1316-limit",
+          "description": "三结构物理件不同不等单位工时。本图仅为正向字纸卡排版模型，不是雕刻印版或真实印迹；文字为指定起始/目标条件，不是已经观察到的操作结果。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 90,
+              "text": "件数、字数、取放：分别计",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 75,
+              "y": 115,
+              "width": 480,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 152,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 152,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 152,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 152,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 152,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 152,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 212,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 212,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 212,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 212,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 175,
+              "width": 156.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 212,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 212,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 77.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 103.0,
+              "y": 272,
+              "text": "木",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 157.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 183.0,
+              "y": 272,
+              "text": "田",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 237.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 263.0,
+              "y": 272,
+              "text": "月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 317.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 343.0,
+              "y": 272,
+              "text": "日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 397.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423.0,
+              "y": 272,
+              "text": "林",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 477.0,
+              "y": 235,
+              "width": 76.0,
+              "height": 55,
+              "fill": "#F5F0E5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 503.0,
+              "y": 272,
+              "text": "山",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同样稀疏改字与整行逆序，在整条/双字/单字结构下新增字与搬动件数怎样不同，能推断历史工时吗？",
+      "sources": [
+        {
+          "title": "Asian Art Museum｜Woodblock printing and movable type",
+          "url": "https://education.asianart.org/resources/the-invention-of-woodblock-printing-in-the-tang-and-song-dynasties/",
+          "claim": "博物馆教育页介绍木版刻字上墨印纸，并将毕昇泥活字记在1041–1048年，说明字块可拆开再用，木版之后仍长期使用。",
+          "scope": "只支持历史工艺和可拆组的背景；不采用其效率概括作为实验结论。纸模型固定规则不是原工艺复原，不声称历史木版不能修补或只能整版重刻。"
+        },
+        {
+          "title": "Library of Congress｜Making Letters at the Type Foundry",
+          "url": "https://blogs.loc.gov/bibliomania/2024/12/17/just-my-type-making-letters-at-the-type-foundry/",
+          "claim": "馆员介绍欧洲金属活字制造：印字面为反向字形，并为常用字母制作多枚字块。",
+          "scope": "用于指出本题正向纸卡省去了镜像、铸造、上墨和真实库存制作；不将此欧洲文章的发明叙述当世界最早活字结论。"
+        }
+      ],
+      "sourceNote": "依据博物馆与图书馆工艺介绍独立设计正向纸卡历史技术模型，未课堂试用，不代表机构认证。没有雕刻、加热、铸造或实际印刷；自定不可剪改约束不是历史木版不可修补的声明。预制目标是任务条件，不是伪造观察。"
+    }
+  }
+}

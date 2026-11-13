@@ -7,10 +7,10 @@ const source=app.slice(app.indexOf('// Reading is separate'),app.indexOf('const 
 function harness(){
  const ctx=vm.createContext({console});
  vm.runInContext(`
- let state={day:1,age:'4-6',steps:{},viewedSteps:{},completed:{}},session={},activeChild={id:'a'},loadingChild=false,loadedChildId='a',contextEpoch=1,gate='preview',activePanel='procedure',innerHeight=800;
+ let state={day:1,age:'4-6',steps:{},viewedSteps:{},completed:{}},session={},activeChild={id:'a'},loadingChild=false,loadingRecord=false,loadedRecordKey='1:4-6:v0',loadedChildId='a',contextEpoch=1,gate='preview',activePanel='procedure',innerHeight=800;
  const document={visibilityState:'visible'},entry={ageGuides:{},steps:Array.from({length:4},()=>({title:'step'}))};
  const nodes={'#lab':{hidden:false},'#learning-view':{hidden:false},'#procedure':{hidden:false},'#step-stage':{hidden:false,getBoundingClientRect:()=>({width:300,height:600,top:150,bottom:750})}};
- const $=s=>nodes[s]||null,$$=()=>[],recordKey=()=>state.day+':'+state.age,current=()=>entry,stepNumber=()=>state.steps[recordKey()]??0;
+ const $=s=>nodes[s]||null,$$=()=>[],recordKey=()=>state.day+':'+state.age,current=()=>entry,progressKey=()=>recordKey()+':v'+(entry.activeAgeProtocol?.version||0),stepNumber=()=>state.steps[recordKey()]??0;
  let saves=0,raf=null;const save=()=>saves++,requestAnimationFrame=f=>(raf=f,1),cancelAnimationFrame=()=>raf=null;
  ${source}
  updateReadingProgress=()=>{};
@@ -27,7 +27,7 @@ test('displaying only 1 and 4 creates 1001, repeated renders do not save again',
  const c=harness();run(c,'queueDisplayedStep();');c.runFrame();run(c,"state.steps['1:4-6']=3;queueDisplayedStep()");c.runFrame();run(c,'queueDisplayedStep()');c.runFrame();assert.equal(c.get().state.viewedSteps['1:4-6'],9);assert.equal(c.get().saves,2);assert.equal(Object.keys(c.get().state.completed).length,0);
 });
 test('hidden panels, dialogs, locked content, loading and offscreen rendering never count',()=>{
- const guards=["gate='locked'","activePanel='observations'","document.visibilityState='hidden'","nodes['#lab'].hidden=true","nodes['#learning-view'].hidden=true","nodes['#procedure'].hidden=true","nodes['dialog[open]']={}","entry.locked=true","entry.ageGuides=null","loadingChild=true","loadedChildId='b'","session=null","activeChild=null","nodes['#step-stage'].hidden=true","nodes['#step-stage'].getBoundingClientRect=()=>({width:300,height:600,top:900,bottom:1500})"];
+ const guards=["gate='locked'","activePanel='observations'","document.visibilityState='hidden'","nodes['#lab'].hidden=true","nodes['#learning-view'].hidden=true","nodes['#procedure'].hidden=true","nodes['dialog[open]']={}","entry.locked=true","entry.ageGuides=null","loadingChild=true","loadingRecord=true","loadedRecordKey='2:4-6:v0'","loadedChildId='b'","session=null","activeChild=null","nodes['#step-stage'].hidden=true","nodes['#step-stage'].getBoundingClientRect=()=>({width:300,height:600,top:900,bottom:1500})"];
  for(const guard of guards){const c=harness();run(c,guard+';queueDisplayedStep()');c.runFrame();assert.equal(c.get().saves,0,guard);assert.equal(Object.keys(c.get().state.viewedSteps).length,0,guard)}
 });
 test('stale animation frames cannot leak views across child, age, day, cursor, epoch',()=>{
@@ -39,5 +39,5 @@ test('same-frame skipped steps count only the final displayed cursor',()=>{
 test('view evidence is separate from all experiment records and completion code',()=>{
  assert.match(app,/steps:\{\},viewedSteps:\{\},completed:\{\}/);assert.match(app,/\['records','steps','viewedSteps','completed','legacyRecords'\]/);
  const marker=source.slice(source.indexOf('function queueDisplayedStep'),source.indexOf('function watchDisplayedStep'));
- assert.doesNotMatch(marker,/state\.(completed|records|legacyRecords)\s*\[/);assert.match(marker,/state\.viewedSteps\[visible\.key\]/);
+ assert.doesNotMatch(marker,/state\.(completed|records|legacyRecords)\s*\[/);assert.match(marker,/setCurrentProgress\('viewedSteps',progress\.mask/);
 });

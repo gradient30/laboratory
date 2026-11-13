@@ -6,6 +6,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      release_mode:
+        description: Standard release or exact-candidate personal preview with deferred browser and final reviews
+        type: choice
+        required: true
+        default: standard
+        options:
+          - standard
+          - personal-preview-20261109
 
 permissions:
   contents: read
@@ -13,6 +22,7 @@ permissions:
 env:
   WRANGLER_SEND_METRICS: "false"
   CI: "true"
+  RELEASE_MODE: ${{ inputs.release_mode || 'standard' }}
 
 jobs:
   check:
@@ -36,11 +46,22 @@ jobs:
           package-manager-cache: false
       - name: Install exact locked dependencies without lifecycle scripts
         run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Reassemble byte-pinned source inputs
+        run: npm run prepare:source
+      - name: Validate the explicit release mode and exact preview candidate
+        id: release
+        run: node scripts/check-release-mode.mjs
       - name: Check JavaScript syntax
         run: npm run check:syntax
       - name: Check content, deployment policy and workflow
         run: npm test
+      - name: Verify archived static visual evidence for standard releases
+        if: steps.release.outputs.personal_preview != 'true'
+        run: npm run test:visual-evidence
+      - name: Audit authored age protocols without pretending the remaining curriculum is complete
+        run: npm run test:curriculum:partial
       - name: Verify runner Chrome or install pinned Chromium
+        if: steps.release.outputs.personal_preview != 'true'
         shell: bash
         run: |
           if command -v google-chrome >/dev/null 2>&1; then
@@ -57,6 +78,7 @@ jobs:
             npx --no-install playwright install --with-deps chromium
           fi
       - name: Ensure Chinese glyphs exist for actual visual review
+        if: steps.release.outputs.personal_preview != 'true'
         shell: bash
         run: |
           if [ -z "$(fc-list :lang=zh)" ]; then
@@ -69,9 +91,10 @@ jobs:
           test -n "$(fc-list :lang=zh)"
           fc-match -f '%{family}\n' ':lang=zh'
       - name: Verify desktop and mobile browser flows
+        if: steps.release.outputs.personal_preview != 'true'
         run: npm run test:browser
       - name: Retain synthetic interface screenshots for visual review
-        if: always()
+        if: always() && steps.release.outputs.personal_preview != 'true'
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: annual-interface-review
@@ -93,9 +116,32 @@ jobs:
         env:
           XDG_CONFIG_HOME: ${{ runner.temp }}/wrangler-check
 
+  curriculum-release-readiness:
+    name: Complete curriculum and review evidence release gate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out the triggering revision without credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node.js for dependency-free curriculum checks
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - name: Reassemble byte-pinned source inputs
+        run: npm run prepare:source
+      - name: Validate the explicit release mode and exact preview candidate
+        id: release
+        run: node scripts/check-release-mode.mjs
+      - name: Reject incomplete independent protocols and final review evidence for standard releases
+        if: steps.release.outputs.personal_preview != 'true'
+        run: npm run test:curriculum:complete
+
   deploy:
     name: Publish approved main revision
-    needs: check
+    needs: [check, curriculum-release-readiness]
     # Source policy is authoritative. An optional repository switch may stop deployment.
     # Unset or 'true' permits; 'false' and other nonempty values block. PRs never deploy.
     if: >-
@@ -122,8 +168,16 @@ jobs:
           package-manager-cache: false
       - name: Install exact locked dependencies without lifecycle scripts
         run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Reassemble byte-pinned source inputs
+        run: npm run prepare:source
       - name: Recheck deployable content
         run: npm run check:syntax && npm test
+      - name: Revalidate the exact preview candidate before any remote command
+        id: release
+        run: node scripts/check-release-mode.mjs
+      - name: Recheck all five final reviews for standard deployment
+        if: steps.release.outputs.personal_preview != 'true'
+        run: npm run test:curriculum:complete
       - name: Verify approved repository, branch, account and Worker
         run: node scripts/deploy-guard.mjs
         env:
@@ -145,7 +199,9 @@ jobs:
             echo "::error::CLOUDFLARE_API_TOKEN is missing; nothing was deployed."
             exit 1
           fi
-          # Approved, serialized, exact-target private configuration only. Never log values.
+          # Require existing AUTH_SECRET metadata before any private-config writes.
+          # Missing/malformed key metadata stops here, before migrations or deployment.
+          # Approved, serialized, exact-target configuration only; never generate or rotate keys.
           node scripts/account-runtime-config.mjs
           # Name-only preflight. No secret values or database exports are logged.
           ./node_modules/.bin/wrangler secret list --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-secret-names.json"

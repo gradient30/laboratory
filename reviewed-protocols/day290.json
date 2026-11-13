@@ -1,0 +1,3572 @@
+{
+  "activityId": 290,
+  "activityTitle": "同一组数画两种纵轴",
+  "contentKey": "annual-m038",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "哪行等大格更多？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）；厘米/毫米刻度直尺1把。",
+        "4-6岁：按本龄steps所列选页；公共input仅7岁以上，幼儿只用preschool-input/work/record与conclusion-4-6。"
+      ],
+      "safety": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。",
+      "steps": [
+        {
+          "title": "指认两行等大格",
+          "caption": "指认两行等大格",
+          "action": "只用preschool-input的甲10格、乙12格，两行左端对齐；成人逐格指读，孩子可只跟指。",
+          "actor": "together",
+          "adultNote": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。幼儿只指认等大格，不进入截断轴路线。"
+        },
+        {
+          "title": "一一配对看多出",
+          "caption": "一一配对看多出",
+          "action": "在preschool-work空框画或指同列，乙多出的格可圈；不用尺测、不读轴、不算比例。",
+          "actor": "together",
+          "adultNote": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。幼儿只指认等大格，不进入截断轴路线。"
+        },
+        {
+          "title": "保留孩子原话",
+          "caption": "保留孩子原话",
+          "action": "preschool-record由成人记谁多、怎样看、看不清与帮助，不要求说公式。",
+          "actor": "together",
+          "adultNote": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。幼儿只指认等大格，不进入截断轴路线。"
+        },
+        {
+          "title": "完整做完简化路线",
+          "caption": "完整做完简化路线",
+          "action": "conclusion-4-6只说格数比较与未知；无需接触截断图、纵轴或其他龄算题。",
+          "actor": "together",
+          "adultNote": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。幼儿只指认等大格，不进入截断轴路线。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等大单位",
+          "一一对应"
+        ],
+        "explanation": "同样大小的格从同一起点配对，能帮助比较10和12；孩子不必说差值或公式。",
+        "limits": "幼儿只走指认方格路线，不把成人的高龄模型当幼儿要求。",
+        "observation": "在preschool-work空框画或指同列，乙多出的格可圈；不用尺测、不读轴、不算比例。",
+        "nextQuestion": "完整做完简化路线"
+      },
+      "guide": {
+        "goal": "完整做完简化路线",
+        "observe": "指认两行等大格",
+        "control": "同样大的格、左端对齐；成人代画，不用截断轴。",
+        "support": "成人读题代记，孩子可指答，疲倦即停。",
+        "time": "5—10分钟可分次",
+        "recordFields": [
+          "两行同样大方格",
+          "成人读数并代记",
+          "孩子只指认比较",
+          "不做纵轴与比例"
+        ]
+      },
+      "sources": [
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS axes and gridlines",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/axes-and-gridlines",
+          "claim": "柱/面积须零起点；不连接基线的点线才可考虑非零轴。"
+        },
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS column chart",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/chart-types/column-chart",
+          "claim": "柱图纵轴从零开始；原题纵柱保留为教学，不宣称类别图的首选形式。"
+        }
+      ],
+      "sourceNote": "原平均数来源未用于支撑图轴；本轮实读ONS两页。未获得机构对本课程认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者检查",
+        "limitations": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "axis290-4-6-1",
+          "description": "指认两行等大格；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "指认两行等大格",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 140,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 210,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 293,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 270,
+              "text": "每格大小相同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "两行同样大方格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读数并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只指认比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不做纵轴与比例",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-4-6-2",
+          "description": "一一配对看多出；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "一一配对看多出",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 140,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 210,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 293,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 270,
+              "text": "同列指一指",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "两行同样大方格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读数并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只指认比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不做纵轴与比例",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-4-6-3",
+          "description": "保留孩子原话；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留孩子原话",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 140,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 210,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 293,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 270,
+              "text": "成人保留原话",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "两行同样大方格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读数并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只指认比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不做纵轴与比例",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-4-6-4",
+          "description": "完整做完简化路线；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "完整做完简化路线",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 140,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 120,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 210,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 131,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 149,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 167,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 203,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 239,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 257,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 293,
+              "y": 190,
+              "width": 17,
+              "height": 17,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 270,
+              "text": "只说格数比较",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "两行同样大方格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读数并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "孩子只指认比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不做纵轴与比例",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "图的样子改变时数变了吗？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）；厘米/毫米刻度直尺1把。",
+        "7-9岁：按本龄steps所列选页；公共input仅7岁以上，幼儿只用preschool-input/work/record与conclusion-4-6。"
+      ],
+      "safety": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。",
+      "steps": [
+        {
+          "title": "核对虚构输入",
+          "caption": "核对虚构输入",
+          "action": "input说明甲10乙12与绘图规则；prediction-7-9先猜不同轴会怎样，setup-7-9记单位和同高计划。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "画零起点与截断反例",
+          "caption": "画零起点与截断反例",
+          "action": "依method在graph-zero与graph-cut两页画柱，grid-work-7-9记实际尺量，反例必须标截断并保留9基线。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "先看轴再读数",
+          "caption": "先看轴再读数",
+          "action": "read-7-9写两图的甲乙数值及差；用尺量实际画的柱高，错误留痕改正，不把尺差当数据改变。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "回到合适展示",
+          "caption": "回到合适展示",
+          "action": "conclusion-7-9解释为什么视觉不同而原数不变；redraw-work恢复0轴或表格，不把反例当推荐图。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "零起点",
+          "读轴"
+        ],
+        "explanation": "刻度和起点决定图上长度；甲乙原数据不变，非零柱基线会扭曲长度的比例。",
+        "limits": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。",
+        "observation": "依method在graph-zero与graph-cut两页画柱，grid-work-7-9记实际尺量，反例必须标截断并保留9基线。",
+        "nextQuestion": "回到合适展示"
+      },
+      "guide": {
+        "goal": "回到合适展示",
+        "observe": "核对虚构输入",
+        "control": "保持数据10/12、单位、柱宽和顺序；明确绘图区高度与尺度是否相同。",
+        "support": "成人读题代记，孩子可指答，疲倦即停。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "甲10乙12是虚构",
+          "先查起点与单位",
+          "反例不作推荐图",
+          "画完回到零起点"
+        ]
+      },
+      "sources": [
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS axes and gridlines",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/axes-and-gridlines",
+          "claim": "柱/面积须零起点；不连接基线的点线才可考虑非零轴。"
+        },
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS column chart",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/chart-types/column-chart",
+          "claim": "柱图纵轴从零开始；原题纵柱保留为教学，不宣称类别图的首选形式。"
+        }
+      ],
+      "sourceNote": "原平均数来源未用于支撑图轴；本轮实读ONS两页。未获得机构对本课程认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者检查",
+        "limitations": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "axis290-7-9-1",
+          "description": "核对虚构输入；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "核对虚构输入",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "0起点；虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 246,
+              "x2": 70,
+              "y2": 246,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 250,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 198,
+              "x2": 70,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 202,
+              "text": "6",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "8",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 150,
+              "x2": 70,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 154,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 150,
+              "width": 40,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "甲10乙12是虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先查起点与单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不作推荐图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "画完回到零起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-7-9-2",
+          "description": "画零起点与截断反例；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画零起点与截断反例",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "截断教学反例",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "9",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "11",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 222,
+              "width": 40,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "甲10乙12是虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先查起点与单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不作推荐图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "画完回到零起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-7-9-3",
+          "description": "先看轴再读数；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先看轴再读数",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "数值差与长度差分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "甲10乙12是虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先查起点与单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不作推荐图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "画完回到零起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-7-9-4",
+          "description": "回到合适展示；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "回到合适展示",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "回到0起点或数表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "甲10乙12是虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "先查起点与单位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "反例不作推荐图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "画完回到零起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "数值比、柱长比、尺度比一样吗？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）；厘米/毫米刻度直尺1把。",
+        "10-12岁：按本龄steps所列选页；公共input仅7岁以上，幼儿只用preschool-input/work/record与conclusion-4-6。"
+      ],
+      "safety": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。",
+      "steps": [
+        {
+          "title": "分清输入与图上长度",
+          "caption": "分清输入与图上长度",
+          "action": "input与prediction/setup-10-12写单位、柱宽、同高轴区间；先完成两张graph模板。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "计算三种不同量",
+          "caption": "计算三种不同量",
+          "action": "measure-10-12记录实际图尺量；ratio-work用理想尺寸算数值比、柱长比和尺度比，不混淆。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "控制尺度再比较",
+          "caption": "控制尺度再比较",
+          "action": "scale-input与scale-work另题保持10mm/单位，让截断图绘图区只有30mm；比较差距与柱长比哪些改变。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "审查误导并修正",
+          "caption": "审查误导并修正",
+          "action": "claim-input/work审查三条说法；conclusion-10-12与redraw-work重画0轴，说明标截断不等于推荐。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "比例区分",
+          "公平比较"
+        ],
+        "explanation": "刻度和起点决定图上长度；甲乙原数据不变，非零柱基线会扭曲长度的比例。",
+        "limits": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。",
+        "observation": "measure-10-12记录实际图尺量；ratio-work用理想尺寸算数值比、柱长比和尺度比，不混淆。",
+        "nextQuestion": "审查误导并修正"
+      },
+      "guide": {
+        "goal": "审查误导并修正",
+        "observe": "分清输入与图上长度",
+        "control": "保持数据10/12、单位、柱宽和顺序；明确绘图区高度与尺度是否相同。",
+        "support": "成人读题代记，孩子可指答，疲倦即停。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "数值比与柱长比分开",
+          "尺度4倍不是柱比",
+          "两图数据差仍是2",
+          "实际尺量单独记"
+        ]
+      },
+      "sources": [
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS axes and gridlines",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/axes-and-gridlines",
+          "claim": "柱/面积须零起点；不连接基线的点线才可考虑非零轴。"
+        },
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS column chart",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/chart-types/column-chart",
+          "claim": "柱图纵轴从零开始；原题纵柱保留为教学，不宣称类别图的首选形式。"
+        }
+      ],
+      "sourceNote": "原平均数来源未用于支撑图轴；本轮实读ONS两页。未获得机构对本课程认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者检查",
+        "limitations": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "axis290-10-12-1",
+          "description": "分清输入与图上长度；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "分清输入与图上长度",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "0起点；虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 246,
+              "x2": 70,
+              "y2": 246,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 250,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 198,
+              "x2": 70,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 202,
+              "text": "6",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "8",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 150,
+              "x2": 70,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 154,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 150,
+              "width": 40,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "数值比与柱长比分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "尺度4倍不是柱比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "两图数据差仍是2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "实际尺量单独记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-10-12-2",
+          "description": "计算三种不同量；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "计算三种不同量",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "截断教学反例",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "9",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "11",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 222,
+              "width": 40,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "数值比与柱长比分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "尺度4倍不是柱比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "两图数据差仍是2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "实际尺量单独记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-10-12-3",
+          "description": "控制尺度再比较；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "控制尺度再比较",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "数值差与长度差分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "数值比与柱长比分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "尺度4倍不是柱比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "两图数据差仍是2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "实际尺量单独记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-10-12-4",
+          "description": "审查误导并修正；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审查误导并修正",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "回到0起点或数表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "数值比与柱长比分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "尺度4倍不是柱比",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "两图数据差仍是2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "实际尺量单独记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "基线与尺度怎样改变长度映射？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）；铅笔1支、橡皮1块（画图修改用，由成人保管小件）；厘米/毫米刻度直尺1把。",
+        "13-16岁：按本龄steps所列选页；公共input仅7岁以上，幼儿只用preschool-input/work/record与conclusion-4-6。"
+      ],
+      "safety": "只用原题纸、铅笔、橡皮和直尺；成人保管小件，不入口，不挥舞尺笔。幼儿可只指认，成人画写代记，不强迫算式或读纵轴；疲倦即停。数据甲10、乙12完全虚构，不对应儿童分数或真实排名。",
+      "steps": [
+        {
+          "title": "构建明确的映射",
+          "caption": "构建明确的映射",
+          "action": "input与setup/prediction-13-16完成原0—12及9—12图；measure-13-16独立记实际尺量误差。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "推导基线与尺度作用",
+          "caption": "推导基线与尺度作用",
+          "action": "model-input给h=s(v−b)、H=120，model-work求各b的s与两柱长度、差和比；只在b<10比较两正柱长比。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "逆推数值与边界",
+          "caption": "逆推数值与边界",
+          "action": "inverse-work按v=b+h/s还原，boundary-work讨论b=10分母零、b>10不再两正柱；不能用任意轴长比代数值比。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        },
+        {
+          "title": "写可靠展示建议",
+          "caption": "写可靠展示建议",
+          "action": "claim-work、conclusion-13-16与redraw-work分清读数、长度编码和模型假设；从0柱图或数表呈现，不把截断反例发布为推荐图。",
+          "actor": "together",
+          "adultNote": "原数甲10、乙12，单位统一写虚构单位。7岁以上先作0—12图，再作9—12截断教学反例；每图刻度均匀、柱宽同为20mm，甲乙同序。同高绘图区120mm，0—12每单位10mm，9—12每单位40mm；纵轴基线必须注明0或9，非零图标题写截断教学反例。柱从各自基线画到10、12，读数看轴与数据标签，不能只凭长短。完成后回到零起点图或直接数表传达数据。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "仿射映射",
+          "定义域"
+        ],
+        "explanation": "刻度和起点决定图上长度；甲乙原数据不变，非零柱基线会扭曲长度的比例。",
+        "limits": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。",
+        "observation": "model-input给h=s(v−b)、H=120，model-work求各b的s与两柱长度、差和比；只在b<10比较两正柱长比。",
+        "nextQuestion": "写可靠展示建议"
+      },
+      "guide": {
+        "goal": "写可靠展示建议",
+        "observe": "构建明确的映射",
+        "control": "保持数据10/12、单位、柱宽和顺序；明确绘图区高度与尺度是否相同。",
+        "support": "成人读题代记，孩子可指答，疲倦即停。",
+        "time": "15—30分钟可分次",
+        "recordFields": [
+          "h=s(v−b)是映射",
+          "正柱比较限定b<10",
+          "逆读要知道b和s",
+          "数据比不随基线改"
+        ]
+      },
+      "sources": [
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS axes and gridlines",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/axes-and-gridlines",
+          "claim": "柱/面积须零起点；不连接基线的点线才可考虑非零轴。"
+        },
+        {
+          "scope": "图轴与长度编码原则，不认证课程",
+          "title": "ONS column chart",
+          "url": "https://service-manual.ons.gov.uk/data-visualisation/chart-types/column-chart",
+          "claim": "柱图纵轴从零开始；原题纵柱保留为教学，不宣称类别图的首选形式。"
+        }
+      ],
+      "sourceNote": "原平均数来源未用于支撑图轴；本轮实读ONS两页。未获得机构对本课程认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者检查",
+        "limitations": "新编未实物、儿童或打印测试。柱形以长度表达数值应从0起点；9—12截断柱图仅为揭示误导的教学反例，标明截断也不使它成为推荐展示。两图若同高120mm，每单位长度由10mm变40mm；尺度放大4倍与截断后柱长比3是不同量。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "axis290-13-16-1",
+          "description": "构建明确的映射；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "构建明确的映射",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "0起点；虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 246,
+              "x2": 70,
+              "y2": 246,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 250,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 198,
+              "x2": 70,
+              "y2": 198,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 202,
+              "text": "6",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "8",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 150,
+              "x2": 70,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 154,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 150,
+              "width": 40,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "h=s(v−b)是映射",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "正柱比较限定b<10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "逆读要知道b和s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "数据比不随基线改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-13-16-2",
+          "description": "推导基线与尺度作用；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "推导基线与尺度作用",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 270,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 112,
+              "text": "截断教学反例",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 270,
+              "x2": 70,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 274,
+              "text": "9",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 222,
+              "x2": 70,
+              "y2": 222,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 226,
+              "text": "10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 174,
+              "x2": 70,
+              "y2": 174,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 178,
+              "text": "11",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 66,
+              "y1": 126,
+              "x2": 70,
+              "y2": 126,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 40,
+              "y": 130,
+              "text": "12",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 222,
+              "width": 40,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 292,
+              "text": "甲10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 126,
+              "width": 40,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 230,
+              "y": 292,
+              "text": "乙12",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "h=s(v−b)是映射",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "正柱比较限定b<10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "逆读要知道b和s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "数据比不随基线改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-13-16-3",
+          "description": "逆推数值与边界；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逆推数值与边界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "数值差与长度差分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "h=s(v−b)是映射",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "正柱比较限定b<10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "逆读要知道b和s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "数据比不随基线改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "axis290-13-16-4",
+          "description": "写可靠展示建议；幼儿仅等大方格，高龄截断图为反例。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写可靠展示建议",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 110,
+              "width": 290,
+              "height": 176,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 144,
+              "text": "回到0起点或数表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 187,
+              "text": "甲10 乙12：虚构单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 225,
+              "text": "截断柱长不是原数比",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 266,
+              "text": "结论引用轴和数值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "h=s(v−b)是映射",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "正柱比较限定b<10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "逆读要知道b和s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "数据比不随基线改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2374 @@
+{
+  "activityId": 312,
+  "activityTitle": "猜规则前先找反例",
+  "contentKey": "annual-m042",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "这两种玩法的前三组一样吗？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）",
+        "铅笔1支、橡皮1块（画图修改用，由成人保管小件）",
+        "本龄两张纸用途：第1张成人画已给三组点，另画甲乙各四组点，不剪裁；甲第四组8点、乙6点。 第2张只记孩子选择和原话。",
+        "成人准备约3—5分钟，含手绘分区、代读或点图；不用打印、下载、额外卡片或校准工具。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 仅在两张普通纸上画写，不需剪卡、不用小珠替代点图。成人保管橡皮等小件，孩子疲倦即可停；不要求幼儿算术或证明，不把形式推导设为过关要求。",
+      "steps": [
+        {
+          "title": "成人画三组点",
+          "caption": "成人画三组点",
+          "action": "成人在白纸上画2、4、6个大点并在下方代写数字；不剪成小卡。孩子可点指任意一组，不要求独立数到6；这一行标已给，不擦掉。",
+          "actor": "adult",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "看每回多两个",
+          "caption": "看每回多两个",
+          "action": "成人在下一行重画相同前三组，第四组画8点，边指边说这条规则每回多两个。孩子可以指新加的两点；不会数也可只看，不把这行说成唯一答案。",
+          "actor": "adult",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "再看停在六个",
+          "caption": "再看停在六个",
+          "action": "成人另画一行同样前三组，第四组仍画6点，说明前三组照给定，后面一直六个。孩子把两行的前三组指给成人，再指不同的最后一组；不要求形式证明。",
+          "actor": "adult",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "任选接法问清玩法",
+          "caption": "任选接法问清玩法",
+          "action": "孩子任选一行，说喜欢或指一指；成人代记选择和原话。问若指定每次加两个要选哪行，可由成人演示。两行都留下：不是想写什么就不用规则，而是要先说明玩法。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两种玩法",
+          "相同与不同"
+        ],
+        "explanation": "同样前三组可以有不同接法，先说好玩法才知道接哪组。",
+        "limits": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。",
+        "observation": "表中例值来自给定数学规则演算，不是家庭实测数据。",
+        "nextQuestion": "增加哪条明确规则约束，可以使预测唯一？"
+      },
+      "guide": {
+        "goal": "任选接法问清玩法",
+        "observe": "这两种玩法的前三组一样吗？",
+        "control": "成人画点代记，不要求幼儿数到8。",
+        "support": "成人代读代记，可停可分次，不以正确答案施压。",
+        "time": "成人准备及手绘3—5分钟；无需打印或校准。儿童核心5—10分钟。无实验等待；收纸笔约1分钟。 可分次，未做就记未做。",
+        "recordFields": [
+          "原始资料或观察",
+          "本龄图表与条件",
+          "实际改错或不知道",
+          "结论和未测/未证的部分"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源，不宣称重新联网核验；家庭步骤及图为独立重建。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构与纸上逻辑检查及SVG实际栅格目检；非实地试做",
+        "limitations": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "inquiry312-4-6-1",
+          "description": "成人画三组点；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "成人画三组点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 140,
+              "text": "2",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 56,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 74,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 140,
+              "text": "4",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 140,
+              "text": "6",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 266,
+              "text": "成人纸上画点；不需剪卡",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "成人画点，不剪卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "已给：2、4、6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "孩子可只指一组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-4-6-2",
+          "description": "看每回多两个；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "看每回多两个",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 140,
+              "text": "2",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 56,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 74,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 140,
+              "text": "4",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 140,
+              "text": "6",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 273,
+              "y": 140,
+              "text": "8",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 221,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 221,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 266,
+              "text": "成人纸上画点；不需剪卡",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "每回多两个",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "2、4、6、8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "第四组新增两点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-4-6-3",
+          "description": "再看停在六个；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "再看停在六个",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 140,
+              "text": "2",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 56,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 74,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 140,
+              "text": "4",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 124,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 142,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 140,
+              "text": "6",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 192,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 210,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 273,
+              "y": 140,
+              "text": "6",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 161,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 181,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 260,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 278,
+              "y": 201,
+              "r": 4,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 266,
+              "text": "成人纸上画点；不需剪卡",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "前三组一样",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "2、4、6、6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "以后一直六个",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-4-6-4",
+          "description": "任选接法问清玩法；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "任选接法问清玩法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "我选甲 / 乙：____",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "若要求每次加两个？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "成人记原话，不擦两行",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "能找到符合三项却下一项不同的规则吗？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）",
+        "铅笔1支、橡皮1块（画图修改用，由成人保管小件）",
+        "本龄两张纸用途：第1张保留原题和猜想，画甲乙两行、n=1至5五列的空表，随步骤填写。 第2张另记增加每次加2条件后的新题与五个续项。",
+        "成人准备约3—5分钟，含手绘分区、代读或点图；不用打印、下载、额外卡片或校准工具。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 仅在两张普通纸上画写，不需剪卡、不用小珠替代点图。成人保管橡皮等小件，孩子疲倦即可停；不要求幼儿算术或证明，不把形式推导设为过关要求。",
+      "steps": [
+        {
+          "title": "保留题目与自己的猜想",
+          "caption": "保留题目与自己的猜想",
+          "action": "第1张上方写已知2、4、6，在旁边写自己的下一项猜想，标猜想。下方画两行五列空格，列号1到5，行名甲、乙；别把答案提前抄进去。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "逐格执行规则甲",
+          "caption": "逐格执行规则甲",
+          "action": "写完整规则甲：从2开始，每次加2。逐格算前五项，并对照题目的前三项。第四、五项写8、10前先自己算；核对后改错另作记号，不擦原猜想。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "逐格执行规则乙",
+          "caption": "逐格执行规则乙",
+          "action": "写完整规则乙：前三项为2、4、6，从第四项起一直为6。逐格填五项，逐一核对前三项，再圈第四项与甲不同处。这是明确规则的反例，不是随意改一个数。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "补一条条件再判断",
+          "caption": "补一条条件再判断",
+          "action": "第2张写新题：从2开始每次加2，继续五项；写4、6、8、10、12并复核。这次乙不符合新增条件。原题只给三项时并不唯一，新条件让预测有依据；两题记录分开。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "规则执行",
+          "反例"
+        ],
+        "explanation": "甲乙都符合前三项而第四项不同，足以否定只凭三项就一定8。",
+        "limits": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。",
+        "observation": "表中例值来自给定数学规则演算，不是家庭实测数据。",
+        "nextQuestion": "增加哪条明确规则约束，可以使预测唯一？"
+      },
+      "guide": {
+        "goal": "补一条条件再判断",
+        "observe": "能找到符合三项却下一项不同的规则吗？",
+        "control": "逐项验证与完整规则并存，原猜想不擦。",
+        "support": "成人代读代记，可停可分次，不以正确答案施压。",
+        "time": "成人准备及手绘3—5分钟；无需打印或校准。儿童核心10—18分钟。无实验等待；收纸笔约1分钟。 可分次，未做就记未做。",
+        "recordFields": [
+          "原始资料或观察",
+          "本龄图表与条件",
+          "实际改错或不知道",
+          "结论和未测/未证的部分"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源，不宣称重新联网核验；家庭步骤及图为独立重建。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构与纸上逻辑检查及SVG实际栅格目检；非实地试做",
+        "limitations": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "inquiry312-7-9-1",
+          "description": "保留题目与自己的猜想；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "保留题目与自己的猜想",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "已知：2、4、6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "我的猜想：____",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "甲 / 乙：各留五格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-7-9-2",
+          "description": "逐格执行规则甲；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "逐格执行规则甲",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "甲：从2开始，每次加2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "n： 1  2  3  4  5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "值：2  4  6  8  10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-7-9-3",
+          "description": "逐格执行规则乙；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "逐格执行规则乙",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "乙：前三项给定，以后6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "n： 1  2  3  4  5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "值：2  4  6  6  6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-7-9-4",
+          "description": "补一条条件再判断；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "补一条条件再判断",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "新题：从2每次加2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "续五项：4、6、8、10、12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "新增条件后，乙不符合",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "严格递增和等差这两个条件一样有力吗？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）",
+        "铅笔1支、橡皮1块（画图修改用，由成人保管小件）",
+        "本龄两张纸用途：第1张原题、猜想和甲乙n=1至6对照表，保留修改痕迹。 第2张分严格递增、等差两区，记录丙的验算与适用结论。",
+        "成人准备约3—5分钟，含手绘分区、代读或点图；不用打印、下载、额外卡片或校准工具。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 仅在两张普通纸上画写，不需剪卡、不用小珠替代点图。成人保管橡皮等小件，孩子疲倦即可停；不要求幼儿算术或证明，不把形式推导设为过关要求。",
+      "steps": [
+        {
+          "title": "列出资料和假设",
+          "caption": "列出资料和假设",
+          "action": "保留已知三项，先猜下一项并写理由。手画甲乙两行、n=1至6六列。写甲每次加2，乙前三项2、4、6以后都6；已知资料与规则假设分栏。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "核查符合不等于唯一",
+          "caption": "核查符合不等于唯一",
+          "action": "执行甲和乙到第6项，分别对照1、2、3项。甲为2、4、6、8、10、12；乙为2、4、6、6、6、6。圈出第4项差异：两条明确规则已足以反驳原题下一项一定8，不必列尽所有规则。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "检查新增条件的力量",
+          "caption": "检查新增条件的力量",
+          "action": "在第二张另设两个条件：必须严格递增；必须是等差数列。严格递增可排除乙，但仍可用丙2、4、6后每次加3，得9、12、15，说明它还不唯一。等差且前三项相同则公差2，排除丙；逐项验，不回写原题。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "比较简洁和逻辑保证",
+          "caption": "比较简洁和逻辑保证",
+          "action": "写甲较简洁、适合约定的找规律题，但简洁偏好不是从三项推出唯一性的证明。将原题、新题的可用规则与结论分开；核对失败先检查原三项，再检查规则执行，保留改错记录。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "假设",
+          "约束强弱",
+          "简洁性"
+        ],
+        "explanation": "严格递增仍允许丙，等差约束更强；简洁性有用，但不是逻辑唯一。",
+        "limits": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。",
+        "observation": "表中例值来自给定数学规则演算，不是家庭实测数据。",
+        "nextQuestion": "增加哪条明确规则约束，可以使预测唯一？"
+      },
+      "guide": {
+        "goal": "比较简洁和逻辑保证",
+        "observe": "严格递增和等差这两个条件一样有力吗？",
+        "control": "原题和新条件分区，不拿新条件改写旧结论。",
+        "support": "成人代读代记，可停可分次，不以正确答案施压。",
+        "time": "成人准备及手绘3—5分钟；无需打印或校准。儿童核心15—22分钟。无实验等待；收纸笔约1分钟。 可分次，未做就记未做。",
+        "recordFields": [
+          "原始资料或观察",
+          "本龄图表与条件",
+          "实际改错或不知道",
+          "结论和未测/未证的部分"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源，不宣称重新联网核验；家庭步骤及图为独立重建。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构与纸上逻辑检查及SVG实际栅格目检；非实地试做",
+        "limitations": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "inquiry312-10-12-1",
+          "description": "列出资料和假设；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "列出资料和假设",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "资料：仅三项",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "假设：甲 / 乙规则",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "分别列n=1至6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-10-12-2",
+          "description": "核查符合不等于唯一；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "核查符合不等于唯一",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "甲：2 4 6 8 10 12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "乙：2 4 6 6 6 6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "前三项同，第四项不同",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-10-12-3",
+          "description": "检查新增条件的力量；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "检查新增条件的力量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "递增丙：2 4 6 9 12 15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "严格递增仍不唯一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "等差条件才排除丙",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-10-12-4",
+          "description": "比较简洁和逻辑保证；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "比较简洁和逻辑保证",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "原题 / 新条件 / 结论",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "简洁是选择的理由",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "不是唯一性的证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样构造并验算多项式反例，又何时能保证唯一？",
+      "materials": [
+        "普通白纸或废纸2张（按本页具体步骤画写或由成人预制纸卡，不需下载模板）",
+        "铅笔1支、橡皮1块（画图修改用，由成人保管小件）",
+        "本龄两张纸用途：第1张保留核心甲乙表，另开进阶区列n=1至6，给因式式与展开式各一行空格。 第2张记c族、q的验算及次数约束的唯一性论证，不覆盖核心记录。",
+        "成人准备约3—5分钟，含手绘分区、代读或点图；不用打印、下载、额外卡片或校准工具。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 仅在两张普通纸上画写，不需剪卡、不用小珠替代点图。成人保管橡皮等小件，孩子疲倦即可停；不要求幼儿算术或证明，不把形式推导设为过关要求。",
+      "steps": [
+        {
+          "title": "固定索引并验两条核心规则",
+          "caption": "固定索引并验两条核心规则",
+          "action": "在纸上写n从1开始及a1=2,a2=4,a3=6，保留自己的预测。完成甲a(n)=2n与乙前三项给定其后6的前五项。只给有限项不足以保证唯一；进阶另开区域，不覆盖核心表。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "构造多项式反例",
+          "caption": "构造多项式反例",
+          "action": "写p(n)=2n+c(n-1)(n-2)(n-3)。说明n=1、2、3时乘积均有零因子，所以任意常数c都给2、4、6。选择c=1，先代入n=4、5、6逐个算，再对照下一步，不用公式外形代替验算。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "双路验算并挑战新资料",
+          "caption": "双路验算并挑战新资料",
+          "action": "c=1时p(n)=n³-6n²+13n-6。用因式式和展开式分别算n=1至6，都应得2、4、6、14、34、72。第4项14不同于甲的8。若额外给第4项8，另写q(n)=2n+(n-1)(n-2)(n-3)(n-4)，验前四项不变而q(5)=34；新资料仍需配合规则约束。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        },
+        {
+          "title": "说清何时可以唯一",
+          "caption": "说清何时可以唯一",
+          "action": "若约束为等差数列，公差2；若事先限定次数至多2的多项式，三个不同索引的值唯一确定它，可由非零二次多项式不能有三个不同根说明。没有这些约束，c族已有无限多规则；简洁仍有建模价值但不等于证明。保留所有原表与改错，只做纸上推理。",
+          "actor": "together",
+          "adultNote": "成人代读代画，所有推导仅纸上；保留原记录，不用小物件代点图。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "多项式零点",
+          "参数族",
+          "条件唯一性"
+        ],
+        "explanation": "零因子可保持所有已知索引的值，同时改变后项；规则类别受限时才能另论唯一性。",
+        "limits": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。",
+        "observation": "表中例值来自给定数学规则演算，不是家庭实测数据。",
+        "nextQuestion": "增加哪条明确规则约束，可以使预测唯一？"
+      },
+      "guide": {
+        "goal": "说清何时可以唯一",
+        "observe": "怎样构造并验算多项式反例，又何时能保证唯一？",
+        "control": "索引固定n=1起；核心表与多项式进阶分开。",
+        "support": "成人代读代记，可停可分次，不以正确答案施压。",
+        "time": "成人准备及手绘3—5分钟；无需打印或校准。儿童核心20—25分钟。无实验等待；收纸笔约1分钟。 可分次，未做就记未做。",
+        "recordFields": [
+          "原始资料或观察",
+          "本龄图表与条件",
+          "实际改错或不知道",
+          "结论和未测/未证的部分"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源，不宣称重新联网核验；家庭步骤及图为独立重建。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构与纸上逻辑检查及SVG实际栅格目检；非实地试做",
+        "limitations": "这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 这不意味着任何解释都同样有用；简洁性与问题约束也要考虑。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 反例和验算均是原创纸上数学模型，不是实测数列。若规定规则类别，唯一性可能恢复；不鼓励任意改写题目条件。 作者检查不等于独立审核；未作家庭、儿童或打印试用。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "inquiry312-13-16-1",
+          "description": "固定索引并验两条核心规则；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "固定索引并验两条核心规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "n从1开始，不从0开始",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "甲：2n；乙：以后6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "核心表与进阶分区",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-13-16-2",
+          "description": "构造多项式反例；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "构造多项式反例",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "p(n)=2n+c(n-1)(n-2)(n-3)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "n=1,2,3：乘积为0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "c=1，亲自算n=4,5,6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-13-16-3",
+          "description": "双路验算并挑战新资料；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "双路验算并挑战新资料",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "p：2 4 6 14 34 72",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "展开式：n³-6n²+13n-6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "q前四项同甲，q(5)=34",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "inquiry312-13-16-4",
+          "description": "说清何时可以唯一；原创操作示意，数学例值非实测，实际观察留空。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "说清何时可以唯一",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "等差 → 公差2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 170,
+              "text": "次数至多2 → 三点唯一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 201,
+              "text": "未限规则 → 不唯一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "按本龄步骤逐项做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "示意不是实测结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留原记录与未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "成人支持，疲倦即停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

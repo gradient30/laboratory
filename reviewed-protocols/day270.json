@@ -1,0 +1,2088 @@
+{
+  "activityId": 270,
+  "activityTitle": "用纸片守住原子数",
+  "contentKey": "chem-100",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同一张符号卡换组后还在吗？",
+      "materials": [
+        "preschool、inventory-4-6、conclusion-4-6；共用cards-1至4、mat-R1/R2/P1/P2/P3、recipe、legend、formula-input、rules、setup、print-log、source-scope；reference完成后才看。",
+        "普通纸、铅笔、毫米刻度圆钝尺；成人事先预裁14张50mm大卡并保管剪刀，无真实试剂。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，剪裁由成人事先完成并保管剪刀；卡边至少50mm，仍不入口、不近眼，不用纽扣或豆子替代。只用纸笔圆钝尺，成人数齐14张卡，疲倦或不愿做可停。无粉末、液体、火焰、玻璃、气体、录音或拍照上传，不实施来源网页的化学实验。",
+      "steps": [
+        {
+          "title": "认同样符号的大卡",
+          "caption": "认同样符号的大卡",
+          "action": "成人完成打印核线与预裁，读legend；只给本龄需用卡与空记录。成人按recipe摆R1/R2，孩子指Na或H同样符号，也可只选一个元素看；preschool第一框记原话或画，不要求认化学式与计算14。",
+          "actor": "together",
+          "adultNote": "成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。"
+        },
+        {
+          "title": "把原卡挪到新分组",
+          "caption": "把原卡挪到新分组",
+          "action": "成人先在inventory-4-6记初摆实际ID/缺项，再逐张按recipe挪原卡至P1/P2/P3；孩子可递卡或指同符号，成人操作复杂摆放。不能拿第二套卡冒充原卡，口述帮助如实记。",
+          "actor": "together",
+          "adultNote": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。"
+        },
+        {
+          "title": "前后找同一个符号",
+          "caption": "前后找同一个符号",
+          "action": "回看inventory-4-6和实际剩余桌面，孩子指Na/H是否仍在，preschool第二框画或口述；少卡、看不清或未摆都保留，不强迫说一样。成人可读recipe核位置，但核后订正另记。",
+          "actor": "together",
+          "adultNote": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。"
+        },
+        {
+          "title": "说纸卡能说明到哪里",
+          "caption": "说纸卡能说明到哪里",
+          "action": "preschool第三框说或画本次重组，conclusion-4-6记看见的符号及帮助；只说本纸卡模型没有故意增删，不能说亲眼看到真实原子、气体或反应。完成后才看reference。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相同符号",
+          "重新分组"
+        ],
+        "explanation": "整体式两边Na、H、C、O的数量相等；CH3COOH展开为C2H4O2，CH3COONa展开为C2H3O2Na。同一元素卡不改变身份，仅按人为方案重组。式单位计数不同不违背原子守恒，且这不是分子/离子数量普查。",
+        "limits": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。",
+        "observation": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。",
+        "nextQuestion": "如果少记一个H或把系数改成下标，哪些元素账会先对不上？"
+      },
+      "guide": {
+        "goal": "说纸卡能说明到哪里",
+        "observe": "认同样符号的大卡",
+        "support": "成人可代读代写并标帮助，低龄不必认式或数大数；缺卡、未做、看不清均有效。",
+        "control": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。 成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。",
+        "time": "5—10分钟，可分次",
+        "recordFields": [
+          "打印核线/帮助",
+          "初摆与移后ID或指画",
+          "逐元素计数或未知",
+          "初次结果与订正",
+          "模型能说明与不能说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ACS Lesson 6.1: What is a Chemical Reaction?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson1.html",
+          "claim": "化学反应中已有原子重组，元素种类与数目守恒。",
+          "scope": "本轮实读正文11–23及148–181；源课含蜡烛实验，不说整课仅纸片。本页不采用蜡烛、剪贴图或动画。"
+        },
+        {
+          "title": "ACS Lesson 6.2: Controlling the Amount of Products in a Chemical Reaction",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson2.html",
+          "claim": "醋酸与碳酸氢钠的整体反应及逐元素计数。",
+          "scope": "本轮实读78–148；只用原理，成人大卡与各龄流程原创，未实施该页实物示范。"
+        },
+        {
+          "title": "ACS Lose the Blues with CO2",
+          "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/lose-blues-co2.html",
+          "claim": "已知醋与小苏打反应可产生二氧化碳。",
+          "scope": "本轮实读44–61及81–83；本页不做来源中的包气、吹气、试剂或指示剂实验。"
+        }
+      ],
+      "sourceNote": "实际阅读ACS三正文仅核守恒和已知整体反应；全部大卡编号、分组映射、空表与分龄步骤原创。源有火焰或实物反应，本页完全不采用。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "atoms270-4-6-1",
+          "description": "认同样符号的大卡。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "认同样符号的大卡",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "Na / H / C / O",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "孩子可指一个符号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "成人读和摆",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不用背化学式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只指同符号也可以",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人搬卡与代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不入口，不碰化学品",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "纸卡不是原子照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-4-6-2",
+          "description": "把原卡挪到新分组。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "把原卡挪到新分组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "同一张卡换分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "孩子可递卡或观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "成人记实际ID",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不能偷偷加一套",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只指同符号也可以",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人搬卡与代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不入口，不碰化学品",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "纸卡不是原子照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-4-6-3",
+          "description": "前后找同一个符号。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "前后找同一个符号",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "前后找同一个符号",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "少卡就说少卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "看不清可不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "成人帮助要注明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只指同符号也可以",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人搬卡与代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不入口，不碰化学品",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "纸卡不是原子照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-4-6-4",
+          "description": "说纸卡能说明到哪里。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "说纸卡能说明到哪里",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "我指到或画了什么",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "卡没增删是模型规则",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "没有做化学反应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "完成后才看参考",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只指同符号也可以",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人搬卡与代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不入口，不碰化学品",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "纸卡不是原子照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "两边每种元素怎样逐类核对？",
+      "materials": [
+        "count-R、count-P、inventory-7-9、move-log、compare-7-9、correction、units-work、conclusion-7-9；共用cards-1至4、mat-R1/R2/P1/P2/P3、recipe、legend、formula-input、rules、setup、print-log、source-scope；reference完成后才看。",
+        "普通纸、铅笔、毫米刻度圆钝尺；成人事先预裁14张50mm大卡并保管剪刀，无真实试剂。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，剪裁由成人事先完成并保管剪刀；卡边至少50mm，仍不入口、不近眼，不用纽扣或豆子替代。只用纸笔圆钝尺，成人数齐14张卡，疲倦或不愿做可停。无粉末、液体、火焰、玻璃、气体、录音或拍照上传，不实施来源网页的化学实验。",
+      "steps": [
+        {
+          "title": "先按式子数再摆卡",
+          "caption": "先按式子数再摆卡",
+          "action": "成人核线预裁，孩子读formula-input与legend。count-R四行分别填R1/R2各元素数及合计；Na为一符号、CH3COOH重复的字母都要加。不看reference答案。",
+          "actor": "together",
+          "adultNote": "成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。"
+        },
+        {
+          "title": "留原卡清单再搬动",
+          "caption": "留原卡清单再搬动",
+          "action": "按recipe摆R1/R2，在inventory-7-9写实际14张ID/异常；再用同一套卡重组P1/P2/P3，逐组在move-log三行写搬入ID和剩余情况。卡不够或重号写出来，不私加卡。",
+          "actor": "together",
+          "adultNote": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。"
+        },
+        {
+          "title": "数生成物并逐类比",
+          "caption": "数生成物并逐类比",
+          "action": "count-P四行分别填P1/P2/P3及合计，compare-7-9四行把初数/后数/是否相同并列；若不符回查公式和原卡ID，correction保留初次读数及订正原因，不把答案覆盖成自主发现。",
+          "actor": "together",
+          "adultNote": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。"
+        },
+        {
+          "title": "区分卡总数与式单位数",
+          "caption": "区分卡总数与式单位数",
+          "action": "units-work另记左、右式单位个数和原子总数，conclusion-7-9解释哪种数量必须逐元素守住；纸上式单位不是溶液真实粒子普查。最后reference核对，未完成可记未做。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "元素逐类计数",
+          "式单位与原子"
+        ],
+        "explanation": "整体式两边Na、H、C、O的数量相等；CH3COOH展开为C2H4O2，CH3COONa展开为C2H3O2Na。同一元素卡不改变身份，仅按人为方案重组。式单位计数不同不违背原子守恒，且这不是分子/离子数量普查。",
+        "limits": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。",
+        "observation": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。",
+        "nextQuestion": "如果少记一个H或把系数改成下标，哪些元素账会先对不上？"
+      },
+      "guide": {
+        "goal": "区分卡总数与式单位数",
+        "observe": "先按式子数再摆卡",
+        "support": "成人可代读代写并标帮助，低龄不必认式或数大数；缺卡、未做、看不清均有效。",
+        "control": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。 成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。",
+        "time": "10—20分钟，可分次",
+        "recordFields": [
+          "打印核线/帮助",
+          "初摆与移后ID或指画",
+          "逐元素计数或未知",
+          "初次结果与订正",
+          "模型能说明与不能说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ACS Lesson 6.1: What is a Chemical Reaction?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson1.html",
+          "claim": "化学反应中已有原子重组，元素种类与数目守恒。",
+          "scope": "本轮实读正文11–23及148–181；源课含蜡烛实验，不说整课仅纸片。本页不采用蜡烛、剪贴图或动画。"
+        },
+        {
+          "title": "ACS Lesson 6.2: Controlling the Amount of Products in a Chemical Reaction",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson2.html",
+          "claim": "醋酸与碳酸氢钠的整体反应及逐元素计数。",
+          "scope": "本轮实读78–148；只用原理，成人大卡与各龄流程原创，未实施该页实物示范。"
+        },
+        {
+          "title": "ACS Lose the Blues with CO2",
+          "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/lose-blues-co2.html",
+          "claim": "已知醋与小苏打反应可产生二氧化碳。",
+          "scope": "本轮实读44–61及81–83；本页不做来源中的包气、吹气、试剂或指示剂实验。"
+        }
+      ],
+      "sourceNote": "实际阅读ACS三正文仅核守恒和已知整体反应；全部大卡编号、分组映射、空表与分龄步骤原创。源有火焰或实物反应，本页完全不采用。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "atoms270-7-9-1",
+          "description": "先按式子数再摆卡。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "先按式子数再摆卡",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "一套14张大卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "R1/R2 → P1/P2/P3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "符号和编号一起认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不添加、不丢掉",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先数式，再搬同套卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "重复字母逐处计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "异常不偷偷补卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "原子数非式单位数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-7-9-2",
+          "description": "留原卡清单再搬动。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "留原卡清单再搬动",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "原卡逐张移动",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "先记ID → 再分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "缺卡/重复要留下",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不是实际化学实验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先数式，再搬同套卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "重复字母逐处计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "异常不偷偷补卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "原子数非式单位数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-7-9-3",
+          "description": "数生成物并逐类比。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "数生成物并逐类比",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "按Na/H/C/O分别计",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "原记录 ≠ 参考答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "不符先查，不抹去",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "未知/未做有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先数式，再搬同套卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "重复字母逐处计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "异常不偷偷补卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "原子数非式单位数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-7-9-4",
+          "description": "区分卡总数与式单位数。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "区分卡总数与式单位数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "说明本次纸上结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "式单位个数可改变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "原子逐元素守恒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不代表真实机理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先数式，再搬同套卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "重复字母逐处计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "异常不偷偷补卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "原子数非式单位数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "系数加倍和改下标是一回事吗？",
+      "materials": [
+        "count-R、count-P、setup-10-12、inventory-10-12、read-formula、scale-work、error-input、error-work、claim-audit-10-12、conclusion-10-12；共用cards-1至4、mat-R1/R2/P1/P2/P3、recipe、legend、formula-input、rules、setup、print-log、source-scope；reference完成后才看。",
+        "普通纸、铅笔、毫米刻度圆钝尺；成人事先预裁14张50mm大卡并保管剪刀，无真实试剂。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，剪裁由成人事先完成并保管剪刀；卡边至少50mm，仍不入口、不近眼，不用纽扣或豆子替代。只用纸笔圆钝尺，成人数齐14张卡，疲倦或不愿做可停。无粉末、液体、火焰、玻璃、气体、录音或拍照上传，不实施来源网页的化学实验。",
+      "steps": [
+        {
+          "title": "分开系数与下标",
+          "caption": "分开系数与下标",
+          "action": "先完成count-R/count-P并在setup-10-12登记纸卡模型。read-formula四行区分CH3COOH、2CH3COOH、H2O、H2O2的逐元素数量；H2O2只作符号对照，不作为本反应产物或真实材料。",
+          "actor": "together",
+          "adultNote": "成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。"
+        },
+        {
+          "title": "检查两倍而非换物质",
+          "caption": "检查两倍而非换物质",
+          "action": "先用同一套卡完成基准并在inventory-10-12记ID；scale-work四行算全式每项系数2时元素总数，只纸笔，不额外印卡摆两套。系数2乘整个式单位，不能把H2O改H2O2冒充两份水。",
+          "actor": "together",
+          "adultNote": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。"
+        },
+        {
+          "title": "找三张错误式子的差",
+          "caption": "找三张错误式子的差",
+          "action": "读error-input三例；error-work每例分别记左右Na/H/C/O向量和不匹配元素。可回到正确式重算，但保留第一次判断。balanced但未经证据的陌生式也不能由守恒证明真实发生。",
+          "actor": "together",
+          "adultNote": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。"
+        },
+        {
+          "title": "写计量模型的边界",
+          "caption": "写计量模型的边界",
+          "action": "claim-audit-10-12核原子数/式单位数、改下标、真实机理三主张；conclusion-10-12用一项计数和一项限制说明，缺卡或没摆不作真实实验失败评价。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "系数和下标",
+          "计量比例"
+        ],
+        "explanation": "整体式两边Na、H、C、O的数量相等；CH3COOH展开为C2H4O2，CH3COONa展开为C2H3O2Na。同一元素卡不改变身份，仅按人为方案重组。式单位计数不同不违背原子守恒，且这不是分子/离子数量普查。",
+        "limits": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。",
+        "observation": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。",
+        "nextQuestion": "如果少记一个H或把系数改成下标，哪些元素账会先对不上？"
+      },
+      "guide": {
+        "goal": "写计量模型的边界",
+        "observe": "分开系数与下标",
+        "support": "成人可代读代写并标帮助，低龄不必认式或数大数；缺卡、未做、看不清均有效。",
+        "control": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。 成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。",
+        "time": "15—25分钟，可分次",
+        "recordFields": [
+          "打印核线/帮助",
+          "初摆与移后ID或指画",
+          "逐元素计数或未知",
+          "初次结果与订正",
+          "模型能说明与不能说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ACS Lesson 6.1: What is a Chemical Reaction?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson1.html",
+          "claim": "化学反应中已有原子重组，元素种类与数目守恒。",
+          "scope": "本轮实读正文11–23及148–181；源课含蜡烛实验，不说整课仅纸片。本页不采用蜡烛、剪贴图或动画。"
+        },
+        {
+          "title": "ACS Lesson 6.2: Controlling the Amount of Products in a Chemical Reaction",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson2.html",
+          "claim": "醋酸与碳酸氢钠的整体反应及逐元素计数。",
+          "scope": "本轮实读78–148；只用原理，成人大卡与各龄流程原创，未实施该页实物示范。"
+        },
+        {
+          "title": "ACS Lose the Blues with CO2",
+          "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/lose-blues-co2.html",
+          "claim": "已知醋与小苏打反应可产生二氧化碳。",
+          "scope": "本轮实读44–61及81–83；本页不做来源中的包气、吹气、试剂或指示剂实验。"
+        }
+      ],
+      "sourceNote": "实际阅读ACS三正文仅核守恒和已知整体反应；全部大卡编号、分组映射、空表与分龄步骤原创。源有火焰或实物反应，本页完全不采用。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "atoms270-10-12-1",
+          "description": "分开系数与下标。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "分开系数与下标",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "CH3COOH重复C要加",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "2CH3COOH整式乘2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "H2O和H2O2不同",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不实际取化学物品",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "2乘整个化学式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "下标改变组成",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "双倍只纸上算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "计数不是机理证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-10-12-2",
+          "description": "检查两倍而非换物质。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "检查两倍而非换物质",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "原卡逐张移动",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "先记ID → 再分组",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "缺卡/重复要留下",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不是实际化学实验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "2乘整个化学式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "下标改变组成",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "双倍只纸上算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "计数不是机理证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-10-12-3",
+          "description": "找三张错误式子的差。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "找三张错误式子的差",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "三例错误式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "两边各写四元素数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "找差值，不改下标",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "原判断与订正分栏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "2乘整个化学式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "下标改变组成",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "双倍只纸上算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "计数不是机理证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-10-12-4",
+          "description": "写计量模型的边界。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "写计量模型的边界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "说明本次纸上结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "式单位个数可改变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "原子逐元素守恒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不代表真实机理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "2乘整个化学式",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "下标改变组成",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "双倍只纸上算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "计数不是机理证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "四条守恒约束怎样限定正整数系数？",
+      "materials": [
+        "coefficient-input、inventory-13-16、vector-work、balance-work、algebra-work、enum-input、enum-work、scratch-enum、claim-audit-13-16、conclusion-13-16；共用cards-1至4、mat-R1/R2/P1/P2/P3、recipe、legend、formula-input、rules、setup、print-log、source-scope；reference完成后才看。",
+        "普通纸、铅笔、毫米刻度圆钝尺；成人事先预裁14张50mm大卡并保管剪刀，无真实试剂。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，剪裁由成人事先完成并保管剪刀；卡边至少50mm，仍不入口、不近眼，不用纽扣或豆子替代。只用纸笔圆钝尺，成人数齐14张卡，疲倦或不愿做可停。无粉末、液体、火焰、玻璃、气体、录音或拍照上传，不实施来源网页的化学实验。",
+      "steps": [
+        {
+          "title": "把化学式读成计数向量",
+          "caption": "把化学式读成计数向量",
+          "action": "先实际按recipe用原14卡完成一次重组，在inventory-13-16记ID与异常。读coefficient-input的a到e定义，vector-work五行按Na/H/C/O次序写各式向量，不把其看成键结构或电离图。",
+          "actor": "together",
+          "adultNote": "成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。"
+        },
+        {
+          "title": "列四条元素约束",
+          "caption": "列四条元素约束",
+          "action": "balance-work四行写Na/H/C/O的左右系数关系，用algebra-work分步消元。先把a作为正整数单位选择，推b/c/d/e与a关系；不能通过改化学式下标降低难度。",
+          "actor": "together",
+          "adultNote": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。"
+        },
+        {
+          "title": "用有限枚举核推导",
+          "caption": "用有限枚举核推导",
+          "action": "enum-input给a至e各1至3的另题范围，在enum-work分别记原243种候选、逐约束筛选数和最终合格元组；scratch-enum三行写每个最终元组，并解释为何最简式只选公因子除尽的一组。无需实际摆243次卡。",
+          "actor": "together",
+          "adultNote": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。"
+        },
+        {
+          "title": "拒绝把守恒当机理证据",
+          "caption": "拒绝把守恒当机理证据",
+          "action": "claim-audit-13-16四行审反应必发生、两到三违守恒、编号确定真实路线、盐都是中性分子。conclusion-13-16分开代数必要条件、整体计量和未检验的真实溶液细节，完成后再看reference。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "线性约束",
+          "必要条件与真实机制"
+        ],
+        "explanation": "整体式两边Na、H、C、O的数量相等；CH3COOH展开为C2H4O2，CH3COONa展开为C2H3O2Na。同一元素卡不改变身份，仅按人为方案重组。式单位计数不同不违背原子守恒，且这不是分子/离子数量普查。",
+        "limits": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。",
+        "observation": "同一套14张卡先按R1/R2摆，再原卡移至P1/P2/P3；记录初摆、移后、缺卡/重复/未做，不能偷偷增删来符合答案。编号不决定真实反应中哪个原子去哪里，recipe只是一种满足计数的模型安排。每一元素的个数前后比较，不把纸上两种反应物式单位与三种产物式单位的个数当作原子数。",
+        "nextQuestion": "如果少记一个H或把系数改成下标，哪些元素账会先对不上？"
+      },
+      "guide": {
+        "goal": "拒绝把守恒当机理证据",
+        "observe": "把化学式读成计数向量",
+        "support": "成人可代读代写并标帮助，低龄不必认式或数大数；缺卡、未做、看不清均有效。",
+        "control": "全程纸卡模型，不拿醋、小苏打或任何化学品。核心式固定为NaHCO3 + CH3COOH → CH3COONa + H2O + CO2。省略的下标为1；Na是一个元素符号，不能拆成N和a。CH3COOH须数两处C、三H加末端H、两处O。系数乘整个式，下标定义物质组成，不能随意改下标来凑数。 成人只打印本龄所列纸页，100%尺寸用毫米尺核每页100mm线，实际读数写print-log，缩放不符重印或只口述并记未摆。cards-1至4由成人沿50×50mm外框预裁并检查边缘，共14张，Na/H/C/O用符号、编号和形状共同识别；编号仅便于追踪；H-2表示第2张H卡，不是化学式H2；连字符后数字不是下标，也不是真实原子标签。收好边角。桌面需容纳两张反应物垫或三张生成物垫，不够就先记录完整ID后分组轮换，不能重复制卡。recipe给一种人为分配法；reference答案页先收，完成后核对。",
+        "time": "20—30分钟，可分次",
+        "recordFields": [
+          "打印核线/帮助",
+          "初摆与移后ID或指画",
+          "逐元素计数或未知",
+          "初次结果与订正",
+          "模型能说明与不能说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ACS Lesson 6.1: What is a Chemical Reaction?",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson1.html",
+          "claim": "化学反应中已有原子重组，元素种类与数目守恒。",
+          "scope": "本轮实读正文11–23及148–181；源课含蜡烛实验，不说整课仅纸片。本页不采用蜡烛、剪贴图或动画。"
+        },
+        {
+          "title": "ACS Lesson 6.2: Controlling the Amount of Products in a Chemical Reaction",
+          "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson2.html",
+          "claim": "醋酸与碳酸氢钠的整体反应及逐元素计数。",
+          "scope": "本轮实读78–148；只用原理，成人大卡与各龄流程原创，未实施该页实物示范。"
+        },
+        {
+          "title": "ACS Lose the Blues with CO2",
+          "url": "https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/lose-blues-co2.html",
+          "claim": "已知醋与小苏打反应可产生二氧化碳。",
+          "scope": "本轮实读44–61及81–83；本页不做来源中的包气、吹气、试剂或指示剂实验。"
+        }
+      ],
+      "sourceNote": "实际阅读ACS三正文仅核守恒和已知整体反应；全部大卡编号、分组映射、空表与分龄步骤原创。源有火焰或实物反应，本页完全不采用。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创静态纸卡重建，不继承旧审核；未实际打印、儿童试做、专家认证、应用集成或发布。式子是整体计量表示，NaHCO3和CH3COONa按式单位计数，不把溶液里的盐当独立中性分子。溶剂水、离子与中间步骤未画全；卡片分组不是键型、真实原子移动路线或反应机理，也不证明任意守恒式在现实会发生。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "atoms270-13-16-1",
+          "description": "把化学式读成计数向量。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "把化学式读成计数向量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "一套14张大卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "R1/R2 → P1/P2/P3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "符号和编号一起认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不添加、不丢掉",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "向量次序Na/H/C/O",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "四元素四条约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "正整数系数另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "守恒必要但非充分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-13-16-2",
+          "description": "列四条元素约束。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "列四条元素约束",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "a,b,c,d,e为正整数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "Na：a = c",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "其余三式自己列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "固定组成后求系数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "向量次序Na/H/C/O",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "四元素四条约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "正整数系数另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "守恒必要但非充分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-13-16-3",
+          "description": "用有限枚举核推导。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "用有限枚举核推导",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "另题：每系数1到3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "共3×3×3×3×3候选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "逐条约束筛选",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "最后检查最简公因子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "向量次序Na/H/C/O",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "四元素四条约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "正整数系数另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "守恒必要但非充分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "atoms270-13-16-4",
+          "description": "拒绝把守恒当机理证据。原创纸卡或计数关系示意，不代表原子真实形状、轨迹或实物化学。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "拒绝把守恒当机理证据",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 285,
+              "height": 179,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 141,
+              "text": "说明本次纸上结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 181,
+              "text": "式单位个数可改变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 221,
+              "text": "原子逐元素守恒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 261,
+              "text": "不代表真实机理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "向量次序Na/H/C/O",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "四元素四条约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "正整数系数另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "守恒必要但非充分",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

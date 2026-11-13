@@ -1,0 +1,5027 @@
+{
+  "activityId": 245,
+  "activityTitle": "经度零点为什么能通过约定选择",
+  "contentKey": "annual-h031",
+  "reconstruction": {
+    "status": "RECONSTRUCTION",
+    "baseline": "recovered-928-extracted/source",
+    "lostReviewInherited": false,
+    "originalSha256": "b5e0143d7f0834c49033c32d31b61fd7c852273e5ef8493b182d0d1bdba3ad3b"
+  },
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "选另一处作起点，画着的地点会移动吗？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。本课不剪散卡，不用图钉、尖针、绳线、球体、手机定位或激光。编号与角度只在原创纸上模型中操作，不找真实儿童位置。",
+        "本龄整页纸件：rules.svg、history-card.svg、geometry-card.svg、model-reference.svg、source-card.svg、source-links.svg、globe-reference.svg、zero-record.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、preschool-old.svg、preschool-new.svg、preschool-record.svg；需要时续编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不攀高、不看太阳、不外出找经线，不触碰文物，不上传姓名、住址、定位、儿童照片或私人访谈。不会读写可指认或成人代写并注明；疲倦就停，未做如实记录。",
+      "steps": [
+        {
+          "title": "指认固定的四个地点",
+          "caption": "指认固定的四个地点",
+          "action": "成人读globe-reference及history-card的短说明，孩子在preschool-old上指A、D、G、J，挑一个地点画自己的标记。只用四个固定点，不要求读经度、计算角或背年份；preschool-record保留最初“零线是不是自然画出”的原话。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "先把A选作起点",
+          "caption": "先把A选作起点",
+          "action": "在preschool-old用笔圈A并由成人写起点0，孩子指G仍在同一位置；zero-record记本轮选了谁。整页保持朝向，不剪卡、不把G移到A，也不把N中心当一个地点。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "再把D选作起点而地点不动",
+          "caption": "再把D选作起点而地点不动",
+          "action": "在同布局preschool-new圈D作为新起点0；孩子逐一指同名A/D/G/J并比较位置，成人若代指或代画注明。只换起点的叫法，不转纸、不要求填其他编号、东西正负或公式。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "画出什么变了什么没变",
+          "caption": "画出什么变了什么没变",
+          "action": "在preschool-record的大画框画或口述“地点没动，起点标记换了”，保留原话和后来修订。成人说明这是纸上选择，不是重新创造山河，也不是把真实格林尼治历史改写；记录问题、帮助及未做。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "固定地点",
+          "起点约定"
+        ],
+        "explanation": "来源阅读事实：1884年国际会议在华盛顿选定通过格林尼治天文台Airy仪器的历史子午线作为共同经度起点；统一参考方便沟通，并非发现地表天然画着0°。这不是“随便一条弯线都行”：经线与地球转轴、两极相关，选择的是哪条经线为零，地形并未因选零而重造。赤道由转轴的几何关系确定，与经度起点的选定不是同一种任意性。 侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。",
+        "observation": "10岁以上约定东经为正、西经为负；写值范围为(-180°,180°]，本课统一写+180°而不再另写−180°，0°不附东西，360°与0°同位置但本课只写0°。令旧经度λ、旧系中新零点α=+90°，新值λ′=wrap(λ−α)；wrap把值加减整圈360°直到落入上述范围。逆变换λ=wrap(λ′+α)。这只是同球、同轴、同角单位、同东向的重编号，绝不是改地形、旋转纸面、交换点名或改变纬度。 任意两点的有向角差在模360°意义下不变，较短夹角也不变；简单带符号数的相减会受±180°接缝影响，不能据此说地点远近变了。示例I旧−120°、J旧−90°，新I+150°、J+180°，同向差均30°；另K旧−60°、J旧−90°，新K−150°、J+180°，直接相减有接缝，先模360再比较。0与180端点、东向箭头及各点身份必须一起核对。",
+        "limits": "历史Airy线与现代IERS参考子午线不可混同。RMG说明在格林尼治附近现代IRM约位于历史线东侧102.5米；这是该处的空间差异，不是地球每处都向东平移同一米数。现代地心参考系、历史观测实现不同；本课纸圈减一个角度只演示同一理想几何模型换零点，不能用于真实历史坐标到现代卫星坐标的转换，也不以手机定位验证。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。",
+        "nextQuestion": "换了起点后哪个地点还在那里？"
+      },
+      "guide": {
+        "goal": "画出什么变了什么没变",
+        "observe": "指认固定的四个地点",
+        "control": "侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。 先保留原猜和初标签，核对后在另一张revision页写修订，不擦原错。零点只用笔圈选该点并在zero-record登记，不剪换小卡；两张图靠同名点及相同印制位置对应，不转纸让它看似一致。成人代写、已见提示、抄参考、未读原文、未知和未做分开记录。结论分为来源历史事实、纸上模型结果、仍需查证，不把原创图当档案照片或真实GPS测量。 A4实际大小100%打印，每页含日志自身在print-log-1/2/3逐页记100毫米核线读数、裁边、箭头和文字清晰度及复核，共39行。没有足够量程就写未量；不清楚或变形则暂停，重印或成人按整页布局重画并复查。不把纸上毫米当经度或地表米数，模型角度由题设等分给定，不要求用短尺测角。",
+        "support": "幼儿只指四点并圈起点，不强迫角度或读字。六步号与十二点经度分开，不用幼儿规则替代高龄角值。所有地点均虚构，不采集私人位置。",
+        "time": "5—10分钟；准备与打印另计，可分次。",
+        "recordFields": [
+          "原话与四点指认",
+          "两轮起点",
+          "变化与帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RMG｜The Prime Meridian Line",
+          "url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
+          "claim": "1884年华盛顿会议选择格林尼治作为共同经度参考，选择与当时已有航海制图使用有关。",
+          "scope": "2026-11-05实读187—201行；历史事实摘要，不把1884选择说成今日所有坐标精确重合。"
+        },
+        {
+          "title": "RMG｜What is the Prime Meridian?",
+          "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich?lang=en",
+          "claim": "经度起点需共同选择；Airy历史线与现代IRM不同，现代线在格林尼治约向东102.5米。",
+          "scope": "2026-11-05实读178—190、226—254行；只用历史与现代参考区别，不复用照片、地图、视频或将地方米差推广全球。"
+        },
+        {
+          "title": "NOAA｜What is longitude?",
+          "url": "https://oceanservice.noaa.gov/facts/longitude.html",
+          "claim": "经度以角度表示相对零经线的东西方向，经线会合于两极；北极视图可用于理解参考与反子午线。",
+          "scope": "2026-11-05实读4—11、20—24行的正文和图像文字稿，未复用图像。现代基准与原线差异不由本课重编号计算代替。"
+        },
+        {
+          "title": "LOC｜Primary Source Analysis Tool: Forming Meaningful Questions",
+          "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+          "claim": "区分观察、解释、问题并返回证据核对。",
+          "scope": "2026-11-05实读252—272行。原guides链接本轮403，保留原字段但以这个实际可读官方方法页作正式来源；方法不认证本课模型为史料。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四正式来源本轮实读。原LOC guides访问403，正式方法来源单列实际可读博客。图纸和数值为原创理想练习，非历史坐标数据，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild245-4-6-1",
+          "description": "指认固定的四个地点。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先找四个同名地点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "中心N不是零地点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "四点固定不挪动",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不要求角度或公式",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-4-6-2",
+          "description": "先把A选作起点。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "圈A作起点0",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "地点G仍在原处",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "只改参考标签",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "成人代写要注明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-4-6-3",
+          "description": "再把D选作起点而地点不动。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "新起点选D",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "A/D/G/J仍对应原点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不能旋转纸页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不让孩子背经纬度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-4-6-4",
+          "description": "画出什么变了什么没变。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "原来怎样说",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "起点变了 / 点未动",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "后来怎样说与问题",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "画什么变了",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "再画什么没变",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "纸上选择不是史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "原话与帮助都保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "六点圈怎样换起点而保留地点？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。本课不剪散卡，不用图钉、尖针、绳线、球体、手机定位或激光。编号与角度只在原创纸上模型中操作，不找真实儿童位置。",
+        "本龄整页纸件：rules.svg、history-card.svg、geometry-card.svg、model-reference.svg、source-card.svg、source-links.svg、globe-reference.svg、zero-record.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、prediction-7-9.svg、six-old.svg、six-new.svg、six-revision.svg、six-record.svg、source-record.svg、reasoning-7-9.svg；需要时续编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不攀高、不看太阳、不外出找经线，不触碰文物，不上传姓名、住址、定位、儿童照片或私人访谈。不会读写可指认或成人代写并注明；疲倦就停，未做如实记录。",
+      "steps": [
+        {
+          "title": "给六点旧圈按方向编号",
+          "caption": "给六点旧圈按方向编号",
+          "action": "先在prediction-7-9猜换起点后哪些会变；six-old上把A记0，沿印出的东向逆时针依次给C/E/G/I/K记1至5，写入six-record旧号列。这里是六步编号圈，每一步到下一个点，不是米或正式经度数。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "换C为零重新数步",
+          "caption": "换C为零重新数步",
+          "action": "在six-new圈C为新0，仍沿同一东向数到E/G/I/K/A，写新号初值；paper位置和字母不改。满六步回到同一点只记0不另添第七个地点；先写自己的结果再看model-reference。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "用同名点核对初号和新号",
+          "caption": "用同名点核对初号和新号",
+          "action": "用six-revision另写修订，不擦six-old/new或six-record初答；逐个同名点核对，并用zero-record记录A、C两轮。检查旧0地点A是否仍在那里，区分编号变化与实际移动，不由两个号码差直接说真实距离。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "把纸上结果与历史事实分开",
+          "caption": "把纸上结果与历史事实分开",
+          "action": "读history-card，在source-record分开写来源说的1884选择、纸上六点观察和自己的问题；在reasoning-7-9只总结本圈换参考。RMG摘要不是自己已读档案，未打开原文注明，不把本课A/C称真实格林尼治与巴黎。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "环绕编号",
+          "共同参考"
+        ],
+        "explanation": "来源阅读事实：1884年国际会议在华盛顿选定通过格林尼治天文台Airy仪器的历史子午线作为共同经度起点；统一参考方便沟通，并非发现地表天然画着0°。这不是“随便一条弯线都行”：经线与地球转轴、两极相关，选择的是哪条经线为零，地形并未因选零而重造。赤道由转轴的几何关系确定，与经度起点的选定不是同一种任意性。 侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。",
+        "observation": "10岁以上约定东经为正、西经为负；写值范围为(-180°,180°]，本课统一写+180°而不再另写−180°，0°不附东西，360°与0°同位置但本课只写0°。令旧经度λ、旧系中新零点α=+90°，新值λ′=wrap(λ−α)；wrap把值加减整圈360°直到落入上述范围。逆变换λ=wrap(λ′+α)。这只是同球、同轴、同角单位、同东向的重编号，绝不是改地形、旋转纸面、交换点名或改变纬度。 任意两点的有向角差在模360°意义下不变，较短夹角也不变；简单带符号数的相减会受±180°接缝影响，不能据此说地点远近变了。示例I旧−120°、J旧−90°，新I+150°、J+180°，同向差均30°；另K旧−60°、J旧−90°，新K−150°、J+180°，直接相减有接缝，先模360再比较。0与180端点、东向箭头及各点身份必须一起核对。",
+        "limits": "历史Airy线与现代IERS参考子午线不可混同。RMG说明在格林尼治附近现代IRM约位于历史线东侧102.5米；这是该处的空间差异，不是地球每处都向东平移同一米数。现代地心参考系、历史观测实现不同；本课纸圈减一个角度只演示同一理想几何模型换零点，不能用于真实历史坐标到现代卫星坐标的转换，也不以手机定位验证。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。",
+        "nextQuestion": "怎样告诉另一个人你用了哪个起点？"
+      },
+      "guide": {
+        "goal": "把纸上结果与历史事实分开",
+        "observe": "给六点旧圈按方向编号",
+        "control": "侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。 先保留原猜和初标签，核对后在另一张revision页写修订，不擦原错。零点只用笔圈选该点并在zero-record登记，不剪换小卡；两张图靠同名点及相同印制位置对应，不转纸让它看似一致。成人代写、已见提示、抄参考、未读原文、未知和未做分开记录。结论分为来源历史事实、纸上模型结果、仍需查证，不把原创图当档案照片或真实GPS测量。 A4实际大小100%打印，每页含日志自身在print-log-1/2/3逐页记100毫米核线读数、裁边、箭头和文字清晰度及复核，共39行。没有足够量程就写未量；不清楚或变形则暂停，重印或成人按整页布局重画并复查。不把纸上毫米当经度或地表米数，模型角度由题设等分给定，不要求用短尺测角。",
+        "support": "幼儿只指四点并圈起点，不强迫角度或读字。六步号与十二点经度分开，不用幼儿规则替代高龄角值。所有地点均虚构，不采集私人位置。",
+        "time": "20—30分钟；准备与打印另计，可分次。",
+        "recordFields": [
+          "六点旧号新号",
+          "原猜和修订",
+          "来源事实与问题"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RMG｜The Prime Meridian Line",
+          "url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
+          "claim": "1884年华盛顿会议选择格林尼治作为共同经度参考，选择与当时已有航海制图使用有关。",
+          "scope": "2026-11-05实读187—201行；历史事实摘要，不把1884选择说成今日所有坐标精确重合。"
+        },
+        {
+          "title": "RMG｜What is the Prime Meridian?",
+          "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich?lang=en",
+          "claim": "经度起点需共同选择；Airy历史线与现代IRM不同，现代线在格林尼治约向东102.5米。",
+          "scope": "2026-11-05实读178—190、226—254行；只用历史与现代参考区别，不复用照片、地图、视频或将地方米差推广全球。"
+        },
+        {
+          "title": "NOAA｜What is longitude?",
+          "url": "https://oceanservice.noaa.gov/facts/longitude.html",
+          "claim": "经度以角度表示相对零经线的东西方向，经线会合于两极；北极视图可用于理解参考与反子午线。",
+          "scope": "2026-11-05实读4—11、20—24行的正文和图像文字稿，未复用图像。现代基准与原线差异不由本课重编号计算代替。"
+        },
+        {
+          "title": "LOC｜Primary Source Analysis Tool: Forming Meaningful Questions",
+          "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+          "claim": "区分观察、解释、问题并返回证据核对。",
+          "scope": "2026-11-05实读252—272行。原guides链接本轮403，保留原字段但以这个实际可读官方方法页作正式来源；方法不认证本课模型为史料。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四正式来源本轮实读。原LOC guides访问403，正式方法来源单列实际可读博客。图纸和数值为原创理想练习，非历史坐标数据，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild245-7-9-1",
+          "description": "给六点旧圈按方向编号。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A:0",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C:1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E:2",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G:3",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I:4",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K:5",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "A为0，沿东向数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "六点只用0至5步号",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "一步到下一个点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "计步不等于经度值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-7-9-2",
+          "description": "换C为零重新数步。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A:5",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C:0",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E:1",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G:2",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I:3",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K:4",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "换C为0再数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "同样逆时针方向",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "点名与纸位置不动",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "满六步回原点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-7-9-3",
+          "description": "用同名点核对初号和新号。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "同名点逐一核对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "旧号和新号分栏",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "错号留着另修订",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不推真实距离",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-7-9-4",
+          "description": "把纸上结果与历史事实分开。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "来源事实",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "纸圈结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "自己的问题",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "1884是来源事实",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "六点是原创模型",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "自己问题另列",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "未读原文就注明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "新零点在旧东经90°时怎样改经度标签？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。本课不剪散卡，不用图钉、尖针、绳线、球体、手机定位或激光。编号与角度只在原创纸上模型中操作，不找真实儿童位置。",
+        "本龄整页纸件：rules.svg、history-card.svg、geometry-card.svg、model-reference.svg、source-card.svg、source-links.svg、globe-reference.svg、zero-record.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、conversion-card.svg、prediction-10-12.svg、degree-old.svg、degree-new.svg、degree-revision.svg、conversion-record.svg、endpoint-record.svg、invariant-record.svg、history-modern-record.svg、source-record.svg、reasoning-10-12.svg；需要时续编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不攀高、不看太阳、不外出找经线，不触碰文物，不上传姓名、住址、定位、儿童照片或私人访谈。不会读写可指认或成人代写并注明；疲倦就停，未做如实记录。",
+      "steps": [
+        {
+          "title": "先猜十二点换零后的角值",
+          "caption": "先猜十二点换零后的角值",
+          "action": "在prediction-10-12先猜A/D/G/J换零后的值；读geometry-card、conversion-card，确认完整十二点相邻30°，旧A为零、新D旧值+90°。在degree-old对照题设写旧角值和自己的初理解，北极俯视东向逆时针不变。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "减去新零点并处理一圈",
+          "caption": "减去新零点并处理一圈",
+          "action": "在degree-new逐点先算旧值减90°，填conversion-record的未归一值与初归一值，必要时加减360°到(-180°,180°]。用degree-revision另写核对值；原−180统一记+180，不把360另作新地点。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "检查端点和地点对应",
+          "caption": "检查端点和地点对应",
+          "action": "用endpoint-record核A、D、J及0/180/360标签，逐点保持A—L身份；在invariant-record比较I/J和K/J的沿东向角差，越接缝先按模360处理。模型结果只说明本圈位置不变，未实际测到地表距离。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "区别纸圈换零与现代基准",
+          "caption": "区别纸圈换零与现代基准",
+          "action": "在history-modern-record分列1884历史Airy零线、现代IRM与本课纸圈。依据source-card写格林尼治附近约102.5米差异的局部范围，不把新D+90°当真实历史改现代的参数；reasoning-10-12保留原错、未查与未知。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "经度角值",
+          "换零与归一"
+        ],
+        "explanation": "来源阅读事实：1884年国际会议在华盛顿选定通过格林尼治天文台Airy仪器的历史子午线作为共同经度起点；统一参考方便沟通，并非发现地表天然画着0°。这不是“随便一条弯线都行”：经线与地球转轴、两极相关，选择的是哪条经线为零，地形并未因选零而重造。赤道由转轴的几何关系确定，与经度起点的选定不是同一种任意性。 侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。",
+        "observation": "10岁以上约定东经为正、西经为负；写值范围为(-180°,180°]，本课统一写+180°而不再另写−180°，0°不附东西，360°与0°同位置但本课只写0°。令旧经度λ、旧系中新零点α=+90°，新值λ′=wrap(λ−α)；wrap把值加减整圈360°直到落入上述范围。逆变换λ=wrap(λ′+α)。这只是同球、同轴、同角单位、同东向的重编号，绝不是改地形、旋转纸面、交换点名或改变纬度。 任意两点的有向角差在模360°意义下不变，较短夹角也不变；简单带符号数的相减会受±180°接缝影响，不能据此说地点远近变了。示例I旧−120°、J旧−90°，新I+150°、J+180°，同向差均30°；另K旧−60°、J旧−90°，新K−150°、J+180°，直接相减有接缝，先模360再比较。0与180端点、东向箭头及各点身份必须一起核对。",
+        "limits": "历史Airy线与现代IERS参考子午线不可混同。RMG说明在格林尼治附近现代IRM约位于历史线东侧102.5米；这是该处的空间差异，不是地球每处都向东平移同一米数。现代地心参考系、历史观测实现不同；本课纸圈减一个角度只演示同一理想几何模型换零点，不能用于真实历史坐标到现代卫星坐标的转换，也不以手机定位验证。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。",
+        "nextQuestion": "为什么新值不能总用未归一的相减结果？"
+      },
+      "guide": {
+        "goal": "区别纸圈换零与现代基准",
+        "observe": "先猜十二点换零后的角值",
+        "control": "侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。 先保留原猜和初标签，核对后在另一张revision页写修订，不擦原错。零点只用笔圈选该点并在zero-record登记，不剪换小卡；两张图靠同名点及相同印制位置对应，不转纸让它看似一致。成人代写、已见提示、抄参考、未读原文、未知和未做分开记录。结论分为来源历史事实、纸上模型结果、仍需查证，不把原创图当档案照片或真实GPS测量。 A4实际大小100%打印，每页含日志自身在print-log-1/2/3逐页记100毫米核线读数、裁边、箭头和文字清晰度及复核，共39行。没有足够量程就写未量；不清楚或变形则暂停，重印或成人按整页布局重画并复查。不把纸上毫米当经度或地表米数，模型角度由题设等分给定，不要求用短尺测角。",
+        "support": "幼儿只指四点并圈起点，不强迫角度或读字。六步号与十二点经度分开，不用幼儿规则替代高龄角值。所有地点均虚构，不采集私人位置。",
+        "time": "30—45分钟；准备与打印另计，可分次。",
+        "recordFields": [
+          "十二点初算及归一",
+          "端点和模差",
+          "历史现代边界"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RMG｜The Prime Meridian Line",
+          "url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
+          "claim": "1884年华盛顿会议选择格林尼治作为共同经度参考，选择与当时已有航海制图使用有关。",
+          "scope": "2026-11-05实读187—201行；历史事实摘要，不把1884选择说成今日所有坐标精确重合。"
+        },
+        {
+          "title": "RMG｜What is the Prime Meridian?",
+          "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich?lang=en",
+          "claim": "经度起点需共同选择；Airy历史线与现代IRM不同，现代线在格林尼治约向东102.5米。",
+          "scope": "2026-11-05实读178—190、226—254行；只用历史与现代参考区别，不复用照片、地图、视频或将地方米差推广全球。"
+        },
+        {
+          "title": "NOAA｜What is longitude?",
+          "url": "https://oceanservice.noaa.gov/facts/longitude.html",
+          "claim": "经度以角度表示相对零经线的东西方向，经线会合于两极；北极视图可用于理解参考与反子午线。",
+          "scope": "2026-11-05实读4—11、20—24行的正文和图像文字稿，未复用图像。现代基准与原线差异不由本课重编号计算代替。"
+        },
+        {
+          "title": "LOC｜Primary Source Analysis Tool: Forming Meaningful Questions",
+          "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+          "claim": "区分观察、解释、问题并返回证据核对。",
+          "scope": "2026-11-05实读252—272行。原guides链接本轮403，保留原字段但以这个实际可读官方方法页作正式来源；方法不认证本课模型为史料。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四正式来源本轮实读。原LOC guides访问403，正式方法来源单列实际可读博客。图纸和数值为原创理想练习，非历史坐标数据，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild245-10-12-1",
+          "description": "先猜十二点换零后的角值。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A:0°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 273.67433715,
+              "text": "B:30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C:60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D:90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E:120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 114.32566285,
+              "text": "F:150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G:180°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 114.32566285,
+              "text": "H:-150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I:-120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J:-90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K:-60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 273.67433715,
+              "text": "L:-30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "十二点每格30°",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "旧A=0；新D旧+90°",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "角值不是地表米数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "先猜再查参考",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-10-12-2",
+          "description": "减去新零点并处理一圈。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A:-90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 273.67433715,
+              "text": "B:-60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C:-30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D:0°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E:30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 114.32566285,
+              "text": "F:60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G:90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 114.32566285,
+              "text": "H:120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I:150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J:180°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K:-150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 273.67433715,
+              "text": "L:-120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "新值=旧值减90°",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "再加减整圈360°",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "归到(-180,180]",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "点不动，标签变",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-10-12-3",
+          "description": "检查端点和地点对应。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "0° / +180° / 360°",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "模差 / 原始数差",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "N极点：不赋唯一经度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "+180不重复写−180",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "360与0同位置",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "接缝先算模差",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "极点无唯一经度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-10-12-4",
+          "description": "区别纸圈换零与现代基准。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "Airy：历史零线",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "IRM：现代参考",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "纸圈：同轴换零示范",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "历史Airy与IRM不同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "102.5米仅指当地",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "纸圈不是基准转换",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不使用手机验证",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "换零点时哪些角量不变，适用边界是什么？",
+      "materials": [
+        "整张普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。本课不剪散卡，不用图钉、尖针、绳线、球体、手机定位或激光。编号与角度只在原创纸上模型中操作，不找真实儿童位置。",
+        "本龄整页纸件：rules.svg、history-card.svg、geometry-card.svg、model-reference.svg、source-card.svg、source-links.svg、globe-reference.svg、zero-record.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、conversion-card.svg、register-13-16.svg、prediction-13-16.svg、degree-old.svg、degree-new.svg、degree-revision.svg、conversion-record.svg、inverse-record.svg、endpoint-record.svg、invariant-record.svg、history-modern-record.svg、claim-audit.svg、source-record.svg、reasoning-13-16.svg；需要时续编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不攀高、不看太阳、不外出找经线，不触碰文物，不上传姓名、住址、定位、儿童照片或私人访谈。不会读写可指认或成人代写并注明；疲倦就停，未做如实记录。",
+      "steps": [
+        {
+          "title": "声明同轴同单位与角值范围",
+          "caption": "声明同轴同单位与角值范围",
+          "action": "在register-13-16声明同一球、同轴、同角单位、同东向和固定地点；规定值域(-180°,180°]、极点不赋唯一经度。先在degree-old/new和prediction-13-16留初预测，不把地表位置变化、投影变化或真实基准变换混入重编号。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "逐点验证正向和逆向转换",
+          "caption": "逐点验证正向和逆向转换",
+          "action": "在conversion-record对A—L逐点算λ−90°、wrap和逆变换wrap(λ′+90°)，另在degree-revision保留修订结果；在inverse-record逐点核是否回到旧值并说明已见答案。缺项记未做，不用预填答案冒充自己计算。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "用模差检查接缝与不变量",
+          "caption": "用模差检查接缝与不变量",
+          "action": "在invariant-record分别计算I→J、K→J、J→A、L→A沿东向的模360差和较短角；用endpoint-record解释接缝处原数相减为何可能不同而地点未动。检查画图坐标与北极观察方向，不能把屏幕y向下误当东向顺时针。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        },
+        {
+          "title": "审查历史与现代推论边界",
+          "caption": "审查历史与现代推论边界",
+          "action": "在history-modern-record和claim-audit区分历史约定、自然转轴/赤道、现代地心基准及本课理想圈；source-record填写实际读过的页/摘要和未核原文。reasoning-13-16写清单一角常数只适用于本模型，真实Airy到IRM变化不可由纸圈证明或手机测量代替；提出一个只查资料的后续问题。",
+          "actor": "together",
+          "adultNote": "成人读资料、代写和打印核查须注明；只作桌面纸笔模型，原猜、未读、未做和帮助都保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "模角差",
+          "模型与参考系"
+        ],
+        "explanation": "来源阅读事实：1884年国际会议在华盛顿选定通过格林尼治天文台Airy仪器的历史子午线作为共同经度起点；统一参考方便沟通，并非发现地表天然画着0°。这不是“随便一条弯线都行”：经线与地球转轴、两极相关，选择的是哪条经线为零，地形并未因选零而重造。赤道由转轴的几何关系确定，与经度起点的选定不是同一种任意性。 侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。",
+        "observation": "10岁以上约定东经为正、西经为负；写值范围为(-180°,180°]，本课统一写+180°而不再另写−180°，0°不附东西，360°与0°同位置但本课只写0°。令旧经度λ、旧系中新零点α=+90°，新值λ′=wrap(λ−α)；wrap把值加减整圈360°直到落入上述范围。逆变换λ=wrap(λ′+α)。这只是同球、同轴、同角单位、同东向的重编号，绝不是改地形、旋转纸面、交换点名或改变纬度。 任意两点的有向角差在模360°意义下不变，较短夹角也不变；简单带符号数的相减会受±180°接缝影响，不能据此说地点远近变了。示例I旧−120°、J旧−90°，新I+150°、J+180°，同向差均30°；另K旧−60°、J旧−90°，新K−150°、J+180°，直接相减有接缝，先模360再比较。0与180端点、东向箭头及各点身份必须一起核对。",
+        "limits": "历史Airy线与现代IERS参考子午线不可混同。RMG说明在格林尼治附近现代IRM约位于历史线东侧102.5米；这是该处的空间差异，不是地球每处都向东平移同一米数。现代地心参考系、历史观测实现不同；本课纸圈减一个角度只演示同一理想几何模型换零点，不能用于真实历史坐标到现代卫星坐标的转换，也不以手机定位验证。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。",
+        "nextQuestion": "真实参考系变化还需要什么测量与定义？"
+      },
+      "guide": {
+        "goal": "审查历史与现代推论边界",
+        "observe": "声明同轴同单位与角值范围",
+        "control": "侧面globe-reference中经线是球面上连接北极与南极的半大圆示意，背面未画；赤道与经线不同。ring纸图则假想从北极上方看赤道：中心N是北极投影，圆周上A到L是12个虚构赤道地点，每相邻30°。它不是城市地图、地表距离图或比例地球仪，南极被遮不画在圈上。东向在这幅北极俯视图中为逆时针；纸上A在最下方，D右、G上、J左。中心极点不赋唯一经度，不能把中心N当0°地点。 四龄任务有意不同：幼儿只看A/D/G/J四个固定标记，依次选A和D为起点，不填角度。7—9用A/C/E/G/I/K六点计步圈，每一步到下一个点，旧A记0、新C记0，编号0—5环绕；这些是步号，不直接叫经度或米。10岁以上用完整A—L十二点、每格30°：旧A=0°，新D为零点，D在旧系为+90°。地点、圆和东向不动，只改标签。 先保留原猜和初标签，核对后在另一张revision页写修订，不擦原错。零点只用笔圈选该点并在zero-record登记，不剪换小卡；两张图靠同名点及相同印制位置对应，不转纸让它看似一致。成人代写、已见提示、抄参考、未读原文、未知和未做分开记录。结论分为来源历史事实、纸上模型结果、仍需查证，不把原创图当档案照片或真实GPS测量。 A4实际大小100%打印，每页含日志自身在print-log-1/2/3逐页记100毫米核线读数、裁边、箭头和文字清晰度及复核，共39行。没有足够量程就写未量；不清楚或变形则暂停，重印或成人按整页布局重画并复查。不把纸上毫米当经度或地表米数，模型角度由题设等分给定，不要求用短尺测角。",
+        "support": "幼儿只指四点并圈起点，不强迫角度或读字。六步号与十二点经度分开，不用幼儿规则替代高龄角值。所有地点均虚构，不采集私人位置。",
+        "time": "35—50分钟；准备与打印另计，可分次。",
+        "recordFields": [
+          "假设及正逆变换",
+          "接缝和不变量",
+          "证据身份与待查"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RMG｜The Prime Meridian Line",
+          "url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
+          "claim": "1884年华盛顿会议选择格林尼治作为共同经度参考，选择与当时已有航海制图使用有关。",
+          "scope": "2026-11-05实读187—201行；历史事实摘要，不把1884选择说成今日所有坐标精确重合。"
+        },
+        {
+          "title": "RMG｜What is the Prime Meridian?",
+          "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich?lang=en",
+          "claim": "经度起点需共同选择；Airy历史线与现代IRM不同，现代线在格林尼治约向东102.5米。",
+          "scope": "2026-11-05实读178—190、226—254行；只用历史与现代参考区别，不复用照片、地图、视频或将地方米差推广全球。"
+        },
+        {
+          "title": "NOAA｜What is longitude?",
+          "url": "https://oceanservice.noaa.gov/facts/longitude.html",
+          "claim": "经度以角度表示相对零经线的东西方向，经线会合于两极；北极视图可用于理解参考与反子午线。",
+          "scope": "2026-11-05实读4—11、20—24行的正文和图像文字稿，未复用图像。现代基准与原线差异不由本课重编号计算代替。"
+        },
+        {
+          "title": "LOC｜Primary Source Analysis Tool: Forming Meaningful Questions",
+          "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+          "claim": "区分观察、解释、问题并返回证据核对。",
+          "scope": "2026-11-05实读252—272行。原guides链接本轮403，保留原字段但以这个实际可读官方方法页作正式来源；方法不认证本课模型为史料。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四正式来源本轮实读。原LOC guides访问403，正式方法来源单列实际可读博客。图纸和数值为原创理想练习，非历史坐标数据，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。静态协议、几何和纸图检查不等于实际打印、儿童试用、历史文物检查或现代定位测量；未做浏览器、整站构建或发布。仅证明此给定理想模型中的换零规则，不声称真实大地测量基准转换只需一个常数。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild245-13-16-1",
+          "description": "声明同轴同单位与角值范围。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "α：旧系中的新零点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "λ′=wrap(λ−α)",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "值域(-180°,180°]",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "同球、同轴、同东向",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "固定角单位和值域",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "只换零不动点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "屏幕y向下要区分",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-13-16-2",
+          "description": "逐点验证正向和逆向转换。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A:-90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 273.67433715,
+              "text": "B:-60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C:-30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D:0°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E:30°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 114.32566285,
+              "text": "F:60°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G:90°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 114.32566285,
+              "text": "H:120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I:150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J:180°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K:-150°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 273.67433715,
+              "text": "L:-120°",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "正向减α再归一",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "逆向加α再归一",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "十二点逐个留初算",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "α=旧系新零点角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-13-16-3",
+          "description": "用模差检查接缝与不变量。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 73,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 263.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2.5
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 263.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 286.0,
+              "text": "A",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 273.67433715,
+              "text": "B",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 240.0,
+              "text": "C",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 253.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 253.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 272.0,
+              "y": 194.0,
+              "text": "D",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 243.21985448,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 243.21985448,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 259.67433715,
+              "y": 148.0,
+              "text": "E",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 216.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 216.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 226.0,
+              "y": 114.32566285,
+              "text": "F",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 180.0,
+              "y2": 117.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 180.0,
+              "y": 117.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 102.0,
+              "text": "G",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 126.78014552,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 126.78014552,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 114.32566285,
+              "text": "H",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 153.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 153.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 148.0,
+              "text": "I",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 107.0,
+              "y2": 190.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 107.0,
+              "y": 190.0,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 88.0,
+              "y": 194.0,
+              "text": "J",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 116.78014552,
+              "y2": 226.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 116.78014552,
+              "y": 226.5,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 100.32566285,
+              "y": 240.0,
+              "text": "K",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 190,
+              "x2": 143.5,
+              "y2": 253.21985448,
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 143.5,
+              "y": 253.21985448,
+              "r": 3,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 134.0,
+              "y": 273.67433715,
+              "text": "L",
+              "fontSize": 10,
+              "anchor": "middle",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 180,
+              "y": 190,
+              "r": 2,
+              "fill": "#193D40",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176,
+              "y": 180,
+              "text": "N",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 87,
+              "text": "北极俯视；圆周表示赤道",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 297,
+              "text": "东向逆时针；中心不标经度",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 186.42498257,
+              "y1": 226.43788686,
+              "x2": 191.89326022,
+              "y2": 225.03641479,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 191.89326022,
+              "y1": 225.03641479,
+              "x2": 197.08469869,
+              "y2": 222.81940083,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 197.08469869,
+              "y1": 222.81940083,
+              "x2": 201.87845699,
+              "y2": 219.83845036,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 201.87845699,
+              "y1": 219.83845036,
+              "x2": 206.1629509,
+              "y2": 216.1629509,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 206.1629509,
+              "y1": 216.1629509,
+              "x2": 209.83845036,
+              "y2": 211.87845699,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 209.83845036,
+              "y1": 211.87845699,
+              "x2": 212.81940083,
+              "y2": 207.08469869,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 212.81940083,
+              "y1": 207.08469869,
+              "x2": 215.03641479,
+              "y2": 201.89326022,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 215.03641479,
+              "y1": 201.89326022,
+              "x2": 216.43788686,
+              "y2": 196.42498257,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 212.0422086844658,
+              "y2": 201.49233033556067,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "line",
+              "x1": 216.43788686,
+              "y1": 196.42498257,
+              "x2": 217.85435816712803,
+              "y2": 202.9819337697637,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.3
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "模360有向差不变",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "较短夹角也不变",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "原数相减可能跨缝",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不凭号码猜远近",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild245-13-16-4",
+          "description": "审查历史与现代推论边界。原创理想模型，非史料或GPS地图；北极俯视东向逆时针，点名与位置固定，中心N不赋经度。实际空操作母版另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "事实 / 模型 / 待查",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "现代参考实现不同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "不作真实基准转换",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "历史选择不是造地形",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "现代基准另有实现",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "纸圈公式限定适用",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "仍未知与待查保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

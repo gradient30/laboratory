@@ -1,0 +1,2294 @@
+{
+  "activityId": 110,
+  "activityTitle": "整张纸的一半",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同样的大方纸，一张折成长方形、一张折成三角形，都能折出两半吗？",
+      "materials": [
+        "成人预裁两张16×16厘米同样方纸，边缘完整；第三张同尺寸方纸作为不折的整体参照",
+        "两种粗笔颜色或不同画线方式，成人代记纸；幼儿不使用剪刀或小纸片"
+      ],
+      "safety": "使用普通纸、钝头尺和粗笔。裁切全部成人预制或在孩子画线后成人完成；剪刀、裁下碎屑收起，不用刀具、针、订书钉或小硬币。4—6岁不切纸，只折16厘米大方纸；不含咬或揉成小团。纸角轻压，桌面操作，不用身体、食物、金钱或真实奖品做分配实验。不把数学的等面积规则称为所有现实公平问题唯一标准。",
+      "steps": [
+        {
+          "title": "先把两张完整方纸叠齐",
+          "action": "孩子将两纸四边尽量对齐叠放，再分开，确认今天两个整体都是同样大小方纸。成人把第三张完整参照放旁边，说比较的是纸面大小，不是纸张重量或颜色深浅。若预裁明显不同先换同尺寸纸。",
+          "actor": "together",
+          "caption": "先把两张完整方纸叠齐",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "第一张对边折合，实际检查重叠",
+          "action": "孩子把第一张左边对右边折，成人可帮助对角后轻压折痕。检查两层边缘是否重合，展开用一色在一侧画疏线。因为折合两部分可对应覆盖，理想情况下各是这个整体的一半；实际没对齐就注明，不能硬说精确。",
+          "actor": "together",
+          "caption": "第一张对边折合，实际检查重叠",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "第二张对角折合，核另一种形状",
+          "action": "把第二张一角对向对角，沿对角线轻折成三角形，成人协助对齐两条边；检查上下两层能否重合再展开，任选一侧画线。孩子指第一张的长方形半边和第二张的三角形半边，不能凭形状不同断言面积不同。",
+          "actor": "together",
+          "caption": "第二张对角折合，核另一种形状",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "折回再打开，讲两半怎样成整体",
+          "action": "分别再折回核重合，再展开指出每张两个部分合成自己的整张纸；第三张完整参照始终不变。不剪或把两种半片强行重合，只说明两种折法都把同样整体等分，成人代写孩子观察与帮助。",
+          "actor": "together",
+          "caption": "折回再打开，讲两半怎样成整体",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "先固定相同整体",
+          "折合检验对应覆盖",
+          "半边形状可以不同",
+          "理想等分与折叠误差"
+        ],
+        "explanation": "一张纸沿正确折线折合，两部分对应覆盖，可作为等面积的直观依据。同样方纸既可沿对边中线，也可沿对角线等分，半边的外形不必一样。",
+        "limits": "实际折纸有边缘误差，不把粗略重合叫精密证明。幼儿只做大片纸折合，成人可代说“一半”，无需分数符号计算。",
+        "observation": "先记录实际折合、覆盖、数量和量尺，再与几何目标比较。错位、缝隙或帮助照实记，不把理想尺寸当测量结果。",
+        "nextQuestion": "说一半时，整体是什么、比较的是面积还是块数？形状、边界长度或整体改变后，哪个量保持不变？"
+      },
+      "guide": {
+        "goal": "幼儿亲自叠整纸、对边折和对角折、展开画线再复折，比较两种半边外形。",
+        "observe": "同样的大方纸，一张折成长方形、一张折成三角形，都能折出两半吗？",
+        "support": "把所指整体用边框或文字固定；允许旋转、平移而不重叠或漏缝。面积相等不要求轮廓相同，数块法只在每块面积相同时有效。",
+        "control": "三张均16×16；前两张各一种折法；同纸不裁不增减；以重合而不是颜色或重量判断。",
+        "time": "约15—20分钟，幼儿参与5—8分钟",
+        "recordFields": [
+          "整张是否同样大",
+          "两种实际折合与偏差",
+          "所画半边形状",
+          "复折/展开及成人帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数表示整体中的等份，分母说明相同整体被分成多少等份；矩形和分数片可作可视模型。",
+          "scope": "支持明确整体和等面积单位；本页折纸、异形拼块、周长及不等宽条反例为原创数学任务，不复制课本例图或以块数替代面积。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax分数整体与等份含义、矩形/分数片模型。四龄实物纸操作及全部尺寸/反例原创，尚未实际执行。数学等式为核算目标，不预填孩子操作成效或读尺数。",
+      "diagrams": [
+        {
+          "sceneKey": "half110-46-1",
+          "description": "先把同样16厘米方纸叠齐。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "先把同样16厘米方纸叠齐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 106,
+              "y": 125,
+              "width": 145,
+              "height": 145,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 116,
+              "width": 145,
+              "height": 145,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 385,
+              "y": 116,
+              "width": 145,
+              "height": 145,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 109,
+              "text": "整张参照",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 79,
+              "y": 291,
+              "text": "方纸尺寸相同；错位只是叠放动作示意",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-46-2",
+          "description": "对边折，展开后是两个长方形。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "对边折，展开后是两个长方形",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 116,
+              "width": 150,
+              "height": 150,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 116,
+              "width": 75,
+              "height": 150,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 166,
+              "y1": 116,
+              "x2": 166,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 112,
+              "y1": 190,
+              "x2": 221,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 158,
+              "text": "两层边缘对齐",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 213,
+              "text": "实际折合再判断",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-46-3",
+          "description": "对角折，展开后是两个三角形。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "对角折，展开后是两个三角形",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 116,
+              "width": 150,
+              "height": 150,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 91,
+              "y1": 116,
+              "x2": 241,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 128,
+              "x2": 103,
+              "y2": 128,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 140,
+              "x2": 115,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 152,
+              "x2": 127,
+              "y2": 152,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 164,
+              "x2": 139,
+              "y2": 164,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 176,
+              "x2": 151,
+              "y2": 176,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 188,
+              "x2": 163,
+              "y2": 188,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 200,
+              "x2": 175,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 212,
+              "x2": 187,
+              "y2": 212,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 224,
+              "x2": 199,
+              "y2": 224,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 236,
+              "x2": 211,
+              "y2": 236,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 94,
+              "y1": 248,
+              "x2": 223,
+              "y2": 248,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 158,
+              "text": "对应覆盖",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 213,
+              "text": "半边形状变了",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-46-4",
+          "description": "每张的两半仍合成原整张。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "每张的两半仍合成原整张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "再折合检查，再展开",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "长方形半边 / 三角形半边",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "同样整体可有不同形状的一半",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "未对齐与帮助照实记，不装精确",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "把八张同样方卡从左两列移成交错布局，所占整张纸的比例会变吗？",
+      "materials": [
+        "8张成人预裁4×4厘米方纸卡，面积相同、同颜色或同线型",
+        "A4底纸2张，各画16×16厘米的4行×4列方格，每格4×4厘米；一张记录原布局，一张做新布局",
+        "钝头尺、粗笔；成人预制的另一个16×16方格图，用粗线分左1列与右3列作为反例"
+      ],
+      "safety": "使用普通纸、钝头尺和粗笔。裁切全部成人预制或在孩子画线后成人完成；剪刀、裁下碎屑收起，不用刀具、针、订书钉或小硬币。4—6岁不切纸，只折16厘米大方纸；不含咬或揉成小团。纸角轻压，桌面操作，不用身体、食物、金钱或真实奖品做分配实验。不把数学的等面积规则称为所有现实公平问题唯一标准。",
+      "steps": [
+        {
+          "title": "量格子与卡，先数完整十六格",
+          "action": "孩子用尺核两底图同为4行4列、格子等大，点数总16格；8卡平铺不重叠、不超格，不把纸外空白算入本次整体。先说整体是画出的16×16方框，而非整张A4纸。",
+          "actor": "together",
+          "caption": "量格子与卡，先数完整十六格",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "把八卡铺满左两列，再留下记录",
+          "action": "8卡一格一卡放在第一图左两列，数选中8、未选8。用笔在记录图描或轻标选中格，保留布局后把8张取走；不能把留下的画线当另外新增的实体卡。",
+          "actor": "together",
+          "caption": "把八卡铺满左两列，再留下记录",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "同八卡改铺黑白棋盘式交错",
+          "action": "在第二图从左上格开始每隔一格摆一张，下一行错开，四行各2卡共8。核所有选中格和空格数，把卡逐一对应到第一图8个记号，说明数量没丢且每格同面积。形状分散、不连成大片仍可占同一整体的一半。",
+          "actor": "together",
+          "caption": "同八卡改铺黑白棋盘式交错",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "检验“两块就一半”的反例",
+          "action": "看第三图粗线分成左1列与右3列，共两块区域；分别数4格与12格，并实际用8卡向左区一格一卡试铺，放4张后其余4张留在框外，不能重叠来凑。两部分数量是2不说明面积相等，4/16不是1/2。回指前两图8/16=1/2，前提是16格等面积且整体相同。",
+          "actor": "together",
+          "caption": "检验“两块就一半”的反例",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同整体中的等面积格",
+          "形状分散不改所占面积",
+          "8/16与1/2等值",
+          "分成两块不一定等分"
+        ],
+        "explanation": "每个方格面积相同，选中8格占16格的一半；格子的排列影响形状但不影响总面积。若两块区域分别4格与12格，虽然只有两块，却不等面积。",
+        "limits": "纸卡与格实际略有误差应记录，不用叠卡或超出框补数；整体只指画出的方框，不是带白边的整张A4。",
+        "observation": "先记录实际折合、覆盖、数量和量尺，再与几何目标比较。错位、缝隙或帮助照实记，不把理想尺寸当测量结果。",
+        "nextQuestion": "说一半时，整体是什么、比较的是面积还是块数？形状、边界长度或整体改变后，哪个量保持不变？"
+      },
+      "guide": {
+        "goal": "亲手铺8卡、描记再取走、改成交错布局并逐卡配对，最后用4/12格反例检查等分前提。",
+        "observe": "把八张同样方卡从左两列移成交错布局，所占整张纸的比例会变吗？",
+        "support": "把所指整体用边框或文字固定；允许旋转、平移而不重叠或漏缝。面积相等不要求轮廓相同，数块法只在每块面积相同时有效。",
+        "control": "两图同16×16框、同4厘米格、同8卡；完整覆盖不重叠；原布局留记号后再移动，不偷偷加卡。",
+        "time": "约20—30分钟",
+        "recordFields": [
+          "整体框与16等格检查",
+          "左两列8格记录",
+          "交错8格与逐卡对应",
+          "反例4/12的面积差",
+          "误差/超框/帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数表示整体中的等份，分母说明相同整体被分成多少等份；矩形和分数片可作可视模型。",
+          "scope": "支持明确整体和等面积单位；本页折纸、异形拼块、周长及不等宽条反例为原创数学任务，不复制课本例图或以块数替代面积。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax分数整体与等份含义、矩形/分数片模型。四龄实物纸操作及全部尺寸/反例原创，尚未实际执行。数学等式为核算目标，不预填孩子操作成效或读尺数。",
+      "diagrams": [
+        {
+          "sceneKey": "half110-79-1",
+          "description": "整体是画出的16格方框。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "整体是画出的16格方框",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 153,
+              "text": "4行 × 4列",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 198,
+              "text": "每格4×4厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 243,
+              "text": "A4白边不算整体",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-79-2",
+          "description": "八张卡先铺左两列。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "八张卡先铺左两列",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 153,
+              "text": "选8格，余8格",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 198,
+              "text": "留下记号再取卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 243,
+              "text": "原卡数仍是8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-79-3",
+          "description": "同八张交错，仍占八个等格。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同八张交错，仍占八个等格",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 153,
+              "text": "每行2卡，共8",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 198,
+              "text": "逐卡对应原8格",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 243,
+              "text": "8/16 = 1/2",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-79-4",
+          "description": "只分成两块，不保证一半。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "只分成两块，不保证一半",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 116,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 152,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 188,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 96,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 132,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 204,
+              "y": 224,
+              "width": 36,
+              "height": 36,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 132,
+              "y1": 115,
+              "x2": 132,
+              "y2": 261,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 153,
+              "text": "左4格，右12格",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 198,
+              "text": "两块区域不等面积",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 317,
+              "y": 243,
+              "text": "4/16 = 1/4",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "同一张20×12厘米纸分成L形和长方形，面积都一半时周长会一样吗？",
+      "materials": [
+        "两张20×12厘米纸：一张作完整整体参照；另一张画4列×3行网格，每格5×4厘米",
+        "孩子画切线后成人剪成两大片：左1列加整条底行组成L形6格，余下右上3列×2行是15×8厘米长方形6格；坐标原点在左下，切线(5,12)→(5,4)→(20,4)",
+        "钝头厘米/毫米尺、两色笔或两种线型、面积/外边界记录纸；孩子不持剪刀"
+      ],
+      "safety": "使用普通纸、钝头尺和粗笔。裁切全部成人预制或在孩子画线后成人完成；剪刀、裁下碎屑收起，不用刀具、针、订书钉或小硬币。4—6岁不切纸，只折16厘米大方纸；不含咬或揉成小团。纸角轻压，桌面操作，不用身体、食物、金钱或真实奖品做分配实验。不把数学的等面积规则称为所有现实公平问题唯一标准。",
+      "steps": [
+        {
+          "title": "先定义整体与切线，再由成人裁",
+          "action": "孩子量20×12整体并画每格5×4的4列3行网；标左下为原点，按材料坐标画折线。成人沿线裁出L形和右上长方形两片，收起剪刀。孩子立即拼回原20×12并与完整参照叠核，无漏缝无重叠，实际偏差记下。",
+          "actor": "together",
+          "caption": "先定义整体与切线，再由成人裁",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "拆开数等面积格，求各占比例",
+          "action": "L形为左列3格加底行另外3格，共6；长方形为3列×2行6格。每格20平方厘米，理想各120、整体240，各为1/2。实际把两大片轮流放回原位置核格，注意底行左角不能重复数两次。",
+          "actor": "together",
+          "caption": "拆开数等面积格，求各占比例",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "只沿外边界量周长，不加内部格线",
+          "action": "分别用尺量两片各外边界，逐边编号防漏；L形理想六段为20、4、15、8、5、12厘米，合64；长方形15/8/15/8合46。记录实际长度与按设计的理论目标，不把网格内部线加入，也不把L内凹边漏掉。",
+          "actor": "together",
+          "caption": "只沿外边界量周长，不加内部格线",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "再拼回整张，解释哪些量守恒",
+          "action": "重新拼回检查面积仍覆盖原240平方厘米；两片各一半但周长不同、不能只靠旋转叠成同形。两片周长之和110比原整体64多46，因为切线长8+15=23形成两份新边界，新增2×23。注明这是该规定裁法的几何核算，不从所有等面积图形推相同周长。",
+          "actor": "together",
+          "caption": "再拼回整张，解释哪些量守恒",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等面积不要求全等",
+          "复合面积避免重数",
+          "周长只数外边界",
+          "切割产生双份新边界",
+          "理想几何与实际读尺分开"
+        ],
+        "explanation": "把同一整体12个等面积格分为6与6保证各占一半，即使一片凹形一片长方形。面积是覆盖量，周长是边界长度，二者不能互相替代。",
+        "limits": "纸有裁缝和测量误差，理论64/46厘米为设计核算目标。面积相等不说明周长、重量或用途相同；这里不测纸厚或质量。",
+        "observation": "先记录实际折合、覆盖、数量和量尺，再与几何目标比较。错位、缝隙或帮助照实记，不把理想尺寸当测量结果。",
+        "nextQuestion": "说一半时，整体是什么、比较的是面积还是块数？形状、边界长度或整体改变后，哪个量保持不变？"
+      },
+      "guide": {
+        "goal": "实际标线请成人切成L/矩形，拆拼核面积，逐段测边界，再用切线双份解释周长和增加。",
+        "observe": "同一张20×12厘米纸分成L形和长方形，面积都一半时周长会一样吗？",
+        "support": "把所指整体用边框或文字固定；允许旋转、平移而不重叠或漏缝。面积相等不要求轮廓相同，数块法只在每块面积相同时有效。",
+        "control": "同20×12原整体；格5×4；两片不再剪；面积数6格、周长只外边界；设计值和实测分栏。",
+        "time": "约30—40分钟",
+        "recordFields": [
+          "整体/网格/切线核查",
+          "L六格与矩形六格",
+          "每格20及两片120面积",
+          "各外边界实测/目标周长",
+          "重拼与双份切线23解释",
+          "裁缝/读尺/帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数表示整体中的等份，分母说明相同整体被分成多少等份；矩形和分数片可作可视模型。",
+          "scope": "支持明确整体和等面积单位；本页折纸、异形拼块、周长及不等宽条反例为原创数学任务，不复制课本例图或以块数替代面积。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax分数整体与等份含义、矩形/分数片模型。四龄实物纸操作及全部尺寸/反例原创，尚未实际执行。数学等式为核算目标，不预填孩子操作成效或读尺数。",
+      "diagrams": [
+        {
+          "sceneKey": "half110-1012-1",
+          "description": "按折线裁成两大片，再拼回。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "按折线裁成两大片，再拼回",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 151,
+              "text": "原整体20×12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 194,
+              "text": "格子5×4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 237,
+              "text": "成人裁，孩子拼",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1012-2",
+          "description": "六格与六格，各120平方厘米。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "六格与六格，各120平方厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 116,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 164,
+              "width": 60,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 186,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 246,
+              "y": 212,
+              "width": 60,
+              "height": 48,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 151,
+              "text": "L：3+3，不重数角格",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 194,
+              "text": "矩形：3×2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 351,
+              "y": 237,
+              "text": "各6/12 = 1/2",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1012-3",
+          "description": "面积相等，外边界却不同。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "面积相等，外边界却不同",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 58,
+              "y1": 116,
+              "x2": 118,
+              "y2": 116,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 118,
+              "y1": 116,
+              "x2": 118,
+              "y2": 212,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 118,
+              "y1": 212,
+              "x2": 298,
+              "y2": 212,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 298,
+              "y1": 212,
+              "x2": 298,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 298,
+              "y1": 260,
+              "x2": 58,
+              "y2": 260,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 58,
+              "y1": 260,
+              "x2": 58,
+              "y2": 116,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 367,
+              "y": 116,
+              "width": 180,
+              "height": 96,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 81,
+              "y": 286,
+              "text": "L理想周长64cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 359,
+              "y": 251,
+              "text": "矩形理想46cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1012-4",
+          "description": "切线两侧各多出一份边界。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "切线两侧各多出一份边界",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "切线长8+15=23厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "两片周长64+46=110厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "原整体周长64，新增46=2×23",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "面积仍240；周长和不守恒",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "四条宽度不同的纸，选两条就一定占一半吗？同一选区换整体后又占多少？",
+      "materials": [
+        "两张24×12厘米整纸，成人将其中一张按宽2/4/8/10厘米裁成4条，长均12厘米；另一张完整保留",
+        "毫米尺、计算器、两种颜色标记；记录每条宽/高/面积和所选组合，桌面留至少55×20厘米可连续摆放",
+        "A4论证纸，明确旧整体W=24×12，新整体由全部四条拼成的旧整体加另一张完整纸并排构成"
+      ],
+      "safety": "使用普通纸、钝头尺和粗笔。裁切全部成人预制或在孩子画线后成人完成；剪刀、裁下碎屑收起，不用刀具、针、订书钉或小硬币。4—6岁不切纸，只折16厘米大方纸；不含咬或揉成小团。纸角轻压，桌面操作，不用身体、食物、金钱或真实奖品做分配实验。不把数学的等面积规则称为所有现实公平问题唯一标准。",
+      "steps": [
+        {
+          "title": "实际复测四条，列不等面积单位",
+          "action": "孩子量四条宽2/4/8/10、共同高12并拼回24×12，保留裁切偏差。按设计各面积24/48/96/120平方厘米，合288；先固定整体W=288。四条是四个部件，不是四个等面积单位，因此不能直接用选中条数作面积分子。",
+          "actor": "together",
+          "caption": "实际复测四条，列不等面积单位",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "先选2与4厘米两条，做计数反例",
+          "action": "将这两条相邻摆在原整体左端，另外8与10放余区，实际拼合不漏不叠。选中2条/共4条的条数比例是1/2，但面积(2+4)×12=72，仅占72/288=1/4。分别写所比较的量，不能说一个比例计算错了，而是问题中的量不同。",
+          "actor": "together",
+          "caption": "先选2与4厘米两条，做计数反例",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "改选2与10，再换4与8，构造两半",
+          "action": "把四条重新移动，2与10并排宽12、高12；另外4与8也宽12、高12。两组各144面积，所以各占旧W的一半；换组合时保持四条原形完整。写一般条件：共同高度h时，选中条宽之和等于总宽的一半，才是面积一半，不要求条数一半。",
+          "actor": "together",
+          "caption": "改选2与10，再换4与8，构造两半",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        },
+        {
+          "title": "加入另一张完整纸，重新指定整体",
+          "action": "把四条按从左到右2、10、4、8厘米的顺序拼成旧24×12，保留前两条为同一选区，再把完整24×12放在旁边，合成48×12新整体2W=576。仍只标原来2与10两条组成的选区144，不再追加选区，所占从1/2降为1/4。实际指新外边界、旧边界和不变选区；一般写A/W与A/(2W)关系，强调改变的是分母所指整体而非纸面积消失。",
+          "actor": "together",
+          "caption": "加入另一张完整纸，重新指定整体",
+          "adultNote": "所有裁切均由成人按孩子标线完成并立即收好剪刀、碎屑；孩子折、量、搬动和拼回大片纸。成人指出理想几何目标与实际偏差，不代写完成情况。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "块数比例与面积比例不同",
+          "不等单位需要面积加权",
+          "共同高度的宽度条件",
+          "整体改变而选区不变",
+          "分母的实际指代"
+        ],
+        "explanation": "当各条宽不同，选几条的比例不能自动等于面积比例。共同高h时面积比等于宽度和之比；当原选区A固定而整体W加倍，比例随之减半。",
+        "limits": "所有结论使用明确面积整体，不代表质量、价值或现实分配公平。理想尺寸与实测偏差要区分；新整体由两份旧整体组成，而不是把同一纸张凭空放大。",
+        "observation": "先记录实际折合、覆盖、数量和量尺，再与几何目标比较。错位、缝隙或帮助照实记，不把理想尺寸当测量结果。",
+        "nextQuestion": "说一半时，整体是什么、比较的是面积还是块数？形状、边界长度或整体改变后，哪个量保持不变？"
+      },
+      "guide": {
+        "goal": "真实重排四不等宽纸条构造反例和两种等半组合，再加入完整纸改变整体，追踪不变选区的比例。",
+        "observe": "四条宽度不同的纸，选两条就一定占一半吗？同一选区换整体后又占多少？",
+        "support": "把所指整体用边框或文字固定；允许旋转、平移而不重叠或漏缝。面积相等不要求轮廓相同，数块法只在每块面积相同时有效。",
+        "control": "四条宽2/4/8/10、高12，旧W288；新整体现实加入另一张同纸成576；选区始终2+10宽12面积144。",
+        "time": "约35—45分钟",
+        "recordFields": [
+          "四条实测/设计面积及总288",
+          "选2+4的条数比/面积比",
+          "2+10与4+8的两半核查",
+          "共同高时的宽度和条件",
+          "新整体576与固定选区144",
+          "边界指认和测量限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜4.1 Visualize Fractions",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+          "claim": "分数表示整体中的等份，分母说明相同整体被分成多少等份；矩形和分数片可作可视模型。",
+          "scope": "支持明确整体和等面积单位；本页折纸、异形拼块、周长及不等宽条反例为原创数学任务，不复制课本例图或以块数替代面积。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax分数整体与等份含义、矩形/分数片模型。四龄实物纸操作及全部尺寸/反例原创，尚未实际执行。数学等式为核算目标，不预填孩子操作成效或读尺数。",
+      "diagrams": [
+        {
+          "sceneKey": "half110-1316-1",
+          "description": "四条不是四个等面积单位。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "四条不是四个等面积单位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 54,
+              "y": 120,
+              "width": 24,
+              "height": 144,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 78,
+              "y": 120,
+              "width": 48,
+              "height": 144,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 126,
+              "y": 120,
+              "width": 96,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 222,
+              "y": 120,
+              "width": 120,
+              "height": 144,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 287,
+              "text": "2",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 97,
+              "y": 287,
+              "text": "4",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 167,
+              "y": 287,
+              "text": "8",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 272,
+              "y": 287,
+              "text": "10cm",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 381,
+              "y": 151,
+              "text": "高均12cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 381,
+              "y": 201,
+              "text": "总宽24cm",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 381,
+              "y": 251,
+              "text": "总面积288",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1316-2",
+          "description": "选两条，是一半面积吗。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "选两条，是一半面积吗",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "选宽2+4：面积72平方厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "条数2/4 = 1/2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "面积72/288 = 1/4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "比较量不同，不是算式互相矛盾",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1316-3",
+          "description": "2+10与4+8，都拼成12×12。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "2+10与4+8，都拼成12×12",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 63,
+              "y": 116,
+              "width": 24,
+              "height": 144,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 116,
+              "width": 120,
+              "height": 144,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 365,
+              "y": 116,
+              "width": 48,
+              "height": 144,
+              "fill": "#E9D7A4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 116,
+              "width": 96,
+              "height": 144,
+              "fill": "#E9D7A4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 287,
+              "text": "2+10=12cm",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 373,
+              "y": 287,
+              "text": "4+8=12cm",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 183,
+              "text": "各144",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "half110-1316-4",
+          "description": "选区144不变，加入另一整张。尺寸与分数属于规定纸模型和理想几何核算，真实裁切、折线和测量误差另记；颜色只标选中面积，可用线型替代。所有纸保持原整体定义，不能把块数或边界长度冒充面积。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "选区144不变，加入另一整张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 59,
+              "y": 132,
+              "width": 240,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 59,
+              "y": 132,
+              "width": 120,
+              "height": 120,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 299,
+              "y": 132,
+              "width": 240,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 280,
+              "text": "旧整体288",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 280,
+              "text": "另加整张288",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 82,
+              "y": 114,
+              "text": "新整体576；固定选区144/576=1/4",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2398 @@
+{
+  "activityId": 236,
+  "activityTitle": "立方体的六张脸",
+  "contentKey": "annual-m030",
+  "reconstruction": {
+    "status": "RECONSTRUCTION",
+    "baseline": "recovered-928-extracted/source",
+    "lostReviewInherited": false,
+    "originalSha256": "64b2bd045b41e039caf09dc20873e7af044393f8eca1d8d8bc937a89bf92dd78"
+  },
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "能找到原来的两面，并指出面、边和角吗？",
+      "materials": [
+        "选择一条路径并在setup-record注明：①家中已有、轻、空、闭合且六个外表面轮廓清楚的近立方体大纸盒，三方向边长约10—18厘米，成人先实量；用连续量程至少20厘米、最小分度1毫米的直尺，零点对齐一端、尺贴所测直边不斜放，以厘米记录；看不清或超量程写未量，不估填。②没有安全盒就用本课整页连通展开图作纸上模型，实际描边、配对和记号，不把纸上指认写成转盒或触摸实物。纸上模型不剪、不折装，不是已制成的立体盒。两条路径结果分开，不把约定的理想图尺寸写成盒子实量。",
+        "铅笔、整页纸、厘米毫米直尺；本龄纸件：rules.svg、model-reference.svg、net-reference.svg、identity-key.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、setup-record.svg、preschool-record.svg。"
+      ],
+      "safety": "只选原本无钉、无锐边、无破口和脱落件的完整纸盒；不让孩子去钉、拆盒、剪盒或处理锐边，发现问题直接换安全盒或选纸上路径。不要金属盒、玻璃盒、药品/清洁剂包装、小积木或可吞咽小标记。纸盒放干燥稳桌中央，成人双手慢慢转动并放稳后孩子才指，手不伸进开口，不把盒套头或抛接。笔尺不入口，不用剪刀、针、磁铁或小贴片，成人收好文具；不适或盒变形就停，未做照记。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+      "steps": [
+        {
+          "title": "摸一面并选要找的另一面",
+          "caption": "摸一面并选要找的另一面",
+          "action": "成人检查盒并在setup-record写实体或纸上路径；实体只由成人慢慢转放。孩子摸或指一块平面，说想找哪块，成人把初话记在preschool-record。纸上路径指C方格内部并记录是画出的面，不称孩子摸到了立体盒。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "成人转稳后找原来的两面",
+          "caption": "成人转稳后找原来的两面",
+          "action": "实体由成人标A、B，先指A，再转稳让孩子找原来相对的B，最后转回尝试找A，找错也记。纸上则在连通图找到成人指出的A和B并用手指沿C上下相邻关系走到它们，成人说明合拢后相对；不要求孩子独立想象折叠。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "分别指出面边和角",
+          "caption": "分别指出面边和角",
+          "action": "成人在同一面示范内部、边界线段和角，孩子任选顺序分别指一处，成人在preschool-record写具体指了哪里、是否提示。只轻指，不以尖角触身体；不让幼儿数全12条边、8个点或说欧拉公式。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "画下找到与没找到的地方",
+          "caption": "画下找到与没找到的地方",
+          "action": "在preschool-record两个90×70毫米空框画先看到和后来找到的面；可由成人代画并标明。另留面/边/角的原话、找错、帮助、未知与未做，孩子选择要不要再指一次；不把成人演示写成幼儿独立完成。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "平面与边角",
+          "相同面身份"
+        ],
+        "explanation": "理想立方体由六个全等正方形面围成，相邻面成直角，12条边等长。面是平的区域，边是两个面的公共线段，顶点是三条边相遇的点。盒子只是近似模型；接缝、搭片、纸厚的小侧面、字画或划线不是本课理想模型增加的面、边或顶点。长宽高读数接近不能证明所有面严格正方或角严格90度；不接近则不能叫理想立方体，但安全长方体盒仍可作6/12/8的另一个形体实例，须写明不是立方体实证。 对闭合理想立方体，六面各有四条边，逐面共记24次，但每条边恰被两面共享，故24÷2=12；六面各有四个顶点，共记24次，每个顶点恰被三面共享，故24÷3=8。必须先核对共享条件，不对任意物体机械套用。面数、边数、顶点数都是个数，不是长度、表面积或体积，也不能由6面推出实际盒容量。",
+        "observation": "实体路径每次由成人转稳盒后，沿某面的四周逐段指公共边，逐角指真正相交处，并在记录上留下身份；一条边或一个顶点第二次遇到只写再次遇到、不再加总。纸上路径按net-reference中每面四边和四角实际描指，再把相同边码、角号连到记录中的同一行；展开图外轮廓的长度和纸上角点数不是立方体的边数和顶点数。先留下初猜及初数，再查模型对应表修订，已经看过题设要注明。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+        "limits": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。",
+        "nextQuestion": "转回后你还能找回刚才那一面吗？"
+      },
+      "guide": {
+        "goal": "画下找到与没找到的地方",
+        "observe": "摸一面并选要找的另一面",
+        "control": "实体路径先征得家长同意使用这只废旧盒。成人用铅笔在各面中央直接写大字A—F，不贴小标签：初始上A、下B、前C、后D、左E、右F。按这个初始朝向画在setup-record；转动后字母仍属于原面，不按新的上下重命名，成人转回初始朝向复核。若无法清楚标记或辨认则改用纸上路径并分栏，不猜标签。幼儿只需成人标A、B并帮助指出两者位置，不必自己写六字。 net-reference整页连通展开图给定A上、B下、C前、D后、E左、F右的合拢对应。相对面是AB、CD、EF，不能成为一条公共边。每条理想边用两相邻面字母按字母顺序作唯一编码；AC和CA是同一边。每个顶点用固定数字1—8及所遇的三个面核对。同一数字在展开图多个角出现，合拢后是同一点，不按纸上出现次数计新点；相同边码合拢后也是同一条边。图中角号稍向格内移，只为清楚印字，不是新增点。 A4实际大小100%打印，每页（含日志自身）在print-log-1/2/3填100毫米核线实量、单位、裁边与复核。三页36行可容全部纸件。net-reference与net-open每格设计40×40毫米，分别在setup-record实量水平/竖直边作变形检查；这些是纸图尺寸，不代替实物边长。若缩放变形，几何量测暂停；身份配对可用清晰重画的连通图并注明。无打印可由成人在整页纸按相同布局、全部边码与角号重画，不能只画六个无关联方框。",
+        "support": "成人可代读代记并标明，允许只指不摸或停做。幼儿只做两面与面边角区分，不要求全数或公式。纸上模型是独立替代，不能冒充实体观察。",
+        "time": "5—10分钟，准备另计，可分次。",
+        "recordFields": [
+          "路径与原话",
+          "找面前后图",
+          "面边角与帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e §9.6",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "长方体有六面，立方体是长宽高相等的长方体。",
+          "scope": "2026-11-05本轮实读82—92、180—190行。仅支持形体概念，不引用其图像，不支持本课安全或年龄适配认证。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Cube, MathWorld",
+          "url": "https://mathworld.wolfram.com/Cube.html",
+          "claim": "立方体有六个正方形面、八个顶点和十二条边，相邻面成直角。",
+          "scope": "2026-11-05本轮实读19、25、37行。固定字母/数字、展开图和去重操作为原创；该页117行“eight faces”与19行冲突，明确不采用。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Polyhedral Formula, MathWorld",
+          "url": "https://mathworld.wolfram.com/PolyhedralFormula.html",
+          "claim": "欧拉多面体关系V+F−E=2有适用范围，不能无条件扩展到所有形体。",
+          "scope": "2026-11-05本轮实读13—18、29—39行。本课只用更窄的闭合凸多面体范围；缺A面开放模型由本课身份表独立计数，不宣称一个例子证明一般定理。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读来源后新写，原图和记录空白，不继承丢失评审或机构安全认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild236-4-6-1",
+          "description": "摸一面并选要找的另一面。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 160,
+              "height": 160,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 147,
+              "y": 205,
+              "text": "C",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "成人先查完整安全盒",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "纸上路径另记",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "平面是一个区域",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不强迫全部计数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-4-6-2",
+          "description": "成人转稳后找原来的两面。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 105,
+              "width": 52,
+              "height": 52,
+              "fill": "#ead8b0",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 136,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#ead8b0",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "A与B身份不随转动改",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "成人转稳再指",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "找错仍然记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "纸上指认不写转盒",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-4-6-3",
+          "description": "分别指出面边和角。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 160,
+              "height": 160,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 147,
+              "y": 205,
+              "text": "C",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 120,
+              "x2": 240,
+              "y2": 120,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 126,
+              "y": 110,
+              "text": "与A共边",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "面内 / 一条边 / 一个角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "轻指，不碰身体",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "孩子任选顺序",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "成人提示照实留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-4-6-4",
+          "description": "画下找到与没找到的地方。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "先看到：自己画",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "后来找到：自己画",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "原话 / 帮助 / 未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先看到与后来分开画",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "代画要注明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "没找到写未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不用背12与8",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "怎样不重不漏地数清六面、边和顶点？",
+      "materials": [
+        "选择一条路径并在setup-record注明：①家中已有、轻、空、闭合且六个外表面轮廓清楚的近立方体大纸盒，三方向边长约10—18厘米，成人先实量；用连续量程至少20厘米、最小分度1毫米的直尺，零点对齐一端、尺贴所测直边不斜放，以厘米记录；看不清或超量程写未量，不估填。②没有安全盒就用本课整页连通展开图作纸上模型，实际描边、配对和记号，不把纸上指认写成转盒或触摸实物。纸上模型不剪、不折装，不是已制成的立体盒。两条路径结果分开，不把约定的理想图尺寸写成盒子实量。",
+        "铅笔、整页纸、厘米毫米直尺；本龄纸件：rules.svg、model-reference.svg、net-reference.svg、identity-key.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、setup-record.svg、prediction-7-9.svg、face-record.svg、edge-record-1.svg、edge-record-2.svg、edge-record-3.svg、vertex-record-1.svg、vertex-record-2.svg、conclusion-7-9.svg、extra-record-1.svg、extra-record-2.svg。"
+      ],
+      "safety": "只选原本无钉、无锐边、无破口和脱落件的完整纸盒；不让孩子去钉、拆盒、剪盒或处理锐边，发现问题直接换安全盒或选纸上路径。不要金属盒、玻璃盒、药品/清洁剂包装、小积木或可吞咽小标记。纸盒放干燥稳桌中央，成人双手慢慢转动并放稳后孩子才指，手不伸进开口，不把盒套头或抛接。笔尺不入口，不用剪刀、针、磁铁或小贴片，成人收好文具；不适或盒变形就停，未做照记。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+      "steps": [
+        {
+          "title": "先猜并给六面固定身份",
+          "caption": "先猜并给六面固定身份",
+          "action": "在prediction-7-9先猜面、边、顶点各多少并注明是否已看参考图。选好路径，实体成人写A—F并画初始朝向，纸上实际指连通图。用face-record逐面指A到F并各记一次，盖住答案清单再初数；转后不重命名。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "逐面走一圈把边去重",
+          "caption": "逐面走一圈把边去重",
+          "action": "从A面四周起，再查B面，再查C/D/E/F尚未记过的边。实体成人每次转稳，孩子指两面交界；纸上沿格边描指并认边码。在edge-record-1/2/3共12个空记录行写每次首次遇到的面字母对、位置和再次遇到记录；未找到留未知，不为填满猜答案。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "逐角配对不重复加总",
+          "caption": "逐角配对不重复加总",
+          "action": "按A面的四角、B面的四角寻找。把每个角所遇的三面写在vertex-record-1/2的8行，初次编号可自定，核对后再填参考号1—8。再次碰到同一点写在原行，不重复加数；不把纸上重复角号、图的线交叉或盒上印花当新顶点。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "核对三种数并保留初错",
+          "caption": "核对三种数并保留初错",
+          "action": "先在conclusion-7-9写自己的去重总数，再用identity-key核对每条边和每个点，把初错和修订分栏。对理想模型应得到六面、十二边、八顶点；实际没找到的仍标未知，说明实体盒只近似或本次只有纸上模型，不把6/12/8称作表面积或容量。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "唯一身份",
+          "去重计数"
+        ],
+        "explanation": "理想立方体由六个全等正方形面围成，相邻面成直角，12条边等长。面是平的区域，边是两个面的公共线段，顶点是三条边相遇的点。盒子只是近似模型；接缝、搭片、纸厚的小侧面、字画或划线不是本课理想模型增加的面、边或顶点。长宽高读数接近不能证明所有面严格正方或角严格90度；不接近则不能叫理想立方体，但安全长方体盒仍可作6/12/8的另一个形体实例，须写明不是立方体实证。 对闭合理想立方体，六面各有四条边，逐面共记24次，但每条边恰被两面共享，故24÷2=12；六面各有四个顶点，共记24次，每个顶点恰被三面共享，故24÷3=8。必须先核对共享条件，不对任意物体机械套用。面数、边数、顶点数都是个数，不是长度、表面积或体积，也不能由6面推出实际盒容量。",
+        "observation": "实体路径每次由成人转稳盒后，沿某面的四周逐段指公共边，逐角指真正相交处，并在记录上留下身份；一条边或一个顶点第二次遇到只写再次遇到、不再加总。纸上路径按net-reference中每面四边和四角实际描指，再把相同边码、角号连到记录中的同一行；展开图外轮廓的长度和纸上角点数不是立方体的边数和顶点数。先留下初猜及初数，再查模型对应表修订，已经看过题设要注明。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+        "limits": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。",
+        "nextQuestion": "换一条数的路线，哪些记录能防止重复？"
+      },
+      "guide": {
+        "goal": "核对三种数并保留初错",
+        "observe": "先猜并给六面固定身份",
+        "control": "实体路径先征得家长同意使用这只废旧盒。成人用铅笔在各面中央直接写大字A—F，不贴小标签：初始上A、下B、前C、后D、左E、右F。按这个初始朝向画在setup-record；转动后字母仍属于原面，不按新的上下重命名，成人转回初始朝向复核。若无法清楚标记或辨认则改用纸上路径并分栏，不猜标签。幼儿只需成人标A、B并帮助指出两者位置，不必自己写六字。 net-reference整页连通展开图给定A上、B下、C前、D后、E左、F右的合拢对应。相对面是AB、CD、EF，不能成为一条公共边。每条理想边用两相邻面字母按字母顺序作唯一编码；AC和CA是同一边。每个顶点用固定数字1—8及所遇的三个面核对。同一数字在展开图多个角出现，合拢后是同一点，不按纸上出现次数计新点；相同边码合拢后也是同一条边。图中角号稍向格内移，只为清楚印字，不是新增点。 A4实际大小100%打印，每页（含日志自身）在print-log-1/2/3填100毫米核线实量、单位、裁边与复核。三页36行可容全部纸件。net-reference与net-open每格设计40×40毫米，分别在setup-record实量水平/竖直边作变形检查；这些是纸图尺寸，不代替实物边长。若缩放变形，几何量测暂停；身份配对可用清晰重画的连通图并注明。无打印可由成人在整页纸按相同布局、全部边码与角号重画，不能只画六个无关联方框。",
+        "support": "成人可代读代记并标明，允许只指不摸或停做。幼儿只做两面与面边角区分，不要求全数或公式。纸上模型是独立替代，不能冒充实体观察。",
+        "time": "20—30分钟，准备另计，可分次。",
+        "recordFields": [
+          "初猜与六面",
+          "唯一边与顶点",
+          "核对修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e §9.6",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "长方体有六面，立方体是长宽高相等的长方体。",
+          "scope": "2026-11-05本轮实读82—92、180—190行。仅支持形体概念，不引用其图像，不支持本课安全或年龄适配认证。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Cube, MathWorld",
+          "url": "https://mathworld.wolfram.com/Cube.html",
+          "claim": "立方体有六个正方形面、八个顶点和十二条边，相邻面成直角。",
+          "scope": "2026-11-05本轮实读19、25、37行。固定字母/数字、展开图和去重操作为原创；该页117行“eight faces”与19行冲突，明确不采用。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Polyhedral Formula, MathWorld",
+          "url": "https://mathworld.wolfram.com/PolyhedralFormula.html",
+          "claim": "欧拉多面体关系V+F−E=2有适用范围，不能无条件扩展到所有形体。",
+          "scope": "2026-11-05本轮实读13—18、29—39行。本课只用更窄的闭合凸多面体范围；缺A面开放模型由本课身份表独立计数，不宣称一个例子证明一般定理。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读来源后新写，原图和记录空白，不继承丢失评审或机构安全认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild236-7-9-1",
+          "description": "先猜并给六面固定身份。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 105,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 136,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先猜，记录已看提示",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "六面字母身份固定",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "初数与修订分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "实物近似要注明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-7-9-2",
+          "description": "逐面走一圈把边去重。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 105,
+              "width": 52,
+              "height": 52,
+              "fill": "#ead8b0",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 136,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#ead8b0",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "两相邻面共一条边",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "AC与CA合并一条",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "再次碰到不加总",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "相对面不共边",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-7-9-3",
+          "description": "逐角配对不重复加总。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 160,
+              "height": 160,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 147,
+              "y": 205,
+              "text": "C",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 116,
+              "width": 8,
+              "height": 8,
+              "fill": "#c18346",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 108,
+              "text": "顶点1：A C E",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "同一点能从不同面找",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "同号纸角合拢成一点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "记录初次与再次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "未找到不猜答案",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-7-9-4",
+          "description": "核对三种数并保留初错。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "面数：逐面身份",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "边数：字母对去重",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "点数：同号合并",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "核对身份再看总数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "不按可见面数当总数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "未知不能参考补成完成",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "数量不是面积或容量",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "为什么逐面数会重复，实物又与模型有何差别？",
+      "materials": [
+        "选择一条路径并在setup-record注明：①家中已有、轻、空、闭合且六个外表面轮廓清楚的近立方体大纸盒，三方向边长约10—18厘米，成人先实量；用连续量程至少20厘米、最小分度1毫米的直尺，零点对齐一端、尺贴所测直边不斜放，以厘米记录；看不清或超量程写未量，不估填。②没有安全盒就用本课整页连通展开图作纸上模型，实际描边、配对和记号，不把纸上指认写成转盒或触摸实物。纸上模型不剪、不折装，不是已制成的立体盒。两条路径结果分开，不把约定的理想图尺寸写成盒子实量。",
+        "铅笔、整页纸、厘米毫米直尺；本龄纸件：rules.svg、model-reference.svg、net-reference.svg、identity-key.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、setup-record.svg、prediction-10-12.svg、net-blank.svg、face-record.svg、edge-record-1.svg、edge-record-2.svg、edge-record-3.svg、vertex-record-1.svg、vertex-record-2.svg、incidence-record.svg、reasoning-10-12.svg、extra-record-1.svg、extra-record-2.svg。"
+      ],
+      "safety": "只选原本无钉、无锐边、无破口和脱落件的完整纸盒；不让孩子去钉、拆盒、剪盒或处理锐边，发现问题直接换安全盒或选纸上路径。不要金属盒、玻璃盒、药品/清洁剂包装、小积木或可吞咽小标记。纸盒放干燥稳桌中央，成人双手慢慢转动并放稳后孩子才指，手不伸进开口，不把盒套头或抛接。笔尺不入口，不用剪刀、针、磁铁或小贴片，成人收好文具；不适或盒变形就停，未做照记。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+      "steps": [
+        {
+          "title": "实量近似盒并画完整对应",
+          "caption": "实量近似盒并画完整对应",
+          "action": "在setup-record实量盒的三个方向并记量具分度和原始方向；纸上路径明确实物未做，仅测图的横竖格边。prediction-10-12留数量及盒是否严格立方体的初判断，再在net-blank的连通六格写A—F、画角号和相邻关系，与net-reference核对但不擦初图。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "以相邻面编码十二条边",
+          "caption": "以相邻面编码十二条边",
+          "action": "实际逐面描指边，给每条唯一边以相邻面字母对命名，在edge-record三页保留首次位置和第二次从哪面遇到。用identity-key核对AB、CD、EF是相对面不相交，CA应并回AC；额外接缝不作为理想边，判断不清写未知。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "以相交面识别八个顶点",
+          "caption": "以相交面识别八个顶点",
+          "action": "逐个找三面相遇的角，在vertex-record两页写三面、实际位置、参考顶点号与重复遇到。把展开图不同位置的同号角映射回一行，解释纸上分开不等于实体不同；只有确实指到/核对到才记，不把参考图等同现场观察。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "解释重复次数和实物限制",
+          "caption": "解释重复次数和实物限制",
+          "action": "在incidence-record逐面写该面四个边码和四个顶点号，统计重复次数；在reasoning-10-12说明为什么24次边记录除以2、24次角记录除以3。对照setup的实际读数说明近似、测量误差与未检验的直角；数量正确不等于实际盒严格立方，也不是表面积或体积。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "面边点关联",
+          "近似与理想"
+        ],
+        "explanation": "理想立方体由六个全等正方形面围成，相邻面成直角，12条边等长。面是平的区域，边是两个面的公共线段，顶点是三条边相遇的点。盒子只是近似模型；接缝、搭片、纸厚的小侧面、字画或划线不是本课理想模型增加的面、边或顶点。长宽高读数接近不能证明所有面严格正方或角严格90度；不接近则不能叫理想立方体，但安全长方体盒仍可作6/12/8的另一个形体实例，须写明不是立方体实证。 对闭合理想立方体，六面各有四条边，逐面共记24次，但每条边恰被两面共享，故24÷2=12；六面各有四个顶点，共记24次，每个顶点恰被三面共享，故24÷3=8。必须先核对共享条件，不对任意物体机械套用。面数、边数、顶点数都是个数，不是长度、表面积或体积，也不能由6面推出实际盒容量。",
+        "observation": "实体路径每次由成人转稳盒后，沿某面的四周逐段指公共边，逐角指真正相交处，并在记录上留下身份；一条边或一个顶点第二次遇到只写再次遇到、不再加总。纸上路径按net-reference中每面四边和四角实际描指，再把相同边码、角号连到记录中的同一行；展开图外轮廓的长度和纸上角点数不是立方体的边数和顶点数。先留下初猜及初数，再查模型对应表修订，已经看过题设要注明。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+        "limits": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。",
+        "nextQuestion": "接缝增加了，为什么不一定增加理想模型的边？"
+      },
+      "guide": {
+        "goal": "解释重复次数和实物限制",
+        "observe": "实量近似盒并画完整对应",
+        "control": "实体路径先征得家长同意使用这只废旧盒。成人用铅笔在各面中央直接写大字A—F，不贴小标签：初始上A、下B、前C、后D、左E、右F。按这个初始朝向画在setup-record；转动后字母仍属于原面，不按新的上下重命名，成人转回初始朝向复核。若无法清楚标记或辨认则改用纸上路径并分栏，不猜标签。幼儿只需成人标A、B并帮助指出两者位置，不必自己写六字。 net-reference整页连通展开图给定A上、B下、C前、D后、E左、F右的合拢对应。相对面是AB、CD、EF，不能成为一条公共边。每条理想边用两相邻面字母按字母顺序作唯一编码；AC和CA是同一边。每个顶点用固定数字1—8及所遇的三个面核对。同一数字在展开图多个角出现，合拢后是同一点，不按纸上出现次数计新点；相同边码合拢后也是同一条边。图中角号稍向格内移，只为清楚印字，不是新增点。 A4实际大小100%打印，每页（含日志自身）在print-log-1/2/3填100毫米核线实量、单位、裁边与复核。三页36行可容全部纸件。net-reference与net-open每格设计40×40毫米，分别在setup-record实量水平/竖直边作变形检查；这些是纸图尺寸，不代替实物边长。若缩放变形，几何量测暂停；身份配对可用清晰重画的连通图并注明。无打印可由成人在整页纸按相同布局、全部边码与角号重画，不能只画六个无关联方框。",
+        "support": "成人可代读代记并标明，允许只指不摸或停做。幼儿只做两面与面边角区分，不要求全数或公式。纸上模型是独立替代，不能冒充实体观察。",
+        "time": "25—40分钟，准备另计，可分次。",
+        "recordFields": [
+          "实量与连通图",
+          "边点身份去重",
+          "逐面共享与近似"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e §9.6",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "长方体有六面，立方体是长宽高相等的长方体。",
+          "scope": "2026-11-05本轮实读82—92、180—190行。仅支持形体概念，不引用其图像，不支持本课安全或年龄适配认证。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Cube, MathWorld",
+          "url": "https://mathworld.wolfram.com/Cube.html",
+          "claim": "立方体有六个正方形面、八个顶点和十二条边，相邻面成直角。",
+          "scope": "2026-11-05本轮实读19、25、37行。固定字母/数字、展开图和去重操作为原创；该页117行“eight faces”与19行冲突，明确不采用。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Polyhedral Formula, MathWorld",
+          "url": "https://mathworld.wolfram.com/PolyhedralFormula.html",
+          "claim": "欧拉多面体关系V+F−E=2有适用范围，不能无条件扩展到所有形体。",
+          "scope": "2026-11-05本轮实读13—18、29—39行。本课只用更窄的闭合凸多面体范围；缺A面开放模型由本课身份表独立计数，不宣称一个例子证明一般定理。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读来源后新写，原图和记录空白，不继承丢失评审或机构安全认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild236-10-12-1",
+          "description": "实量近似盒并画完整对应。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 105,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 136,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "三方向实量并写单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "纸图不是实物读数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "先画自己的连通关系",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "接近不证明严格立方",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-10-12-2",
+          "description": "以相邻面编码十二条边。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "AC = CA",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "AB、CD、EF是相对面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "初记 / 再遇 / 修订",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "AB、CD、EF不共边",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "字母对按固定顺序",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "接缝不新增理想边",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "重复记在同一行",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-10-12-3",
+          "description": "以相交面识别八个顶点。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 160,
+              "height": 160,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 147,
+              "y": 205,
+              "text": "C",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 116,
+              "width": 8,
+              "height": 8,
+              "fill": "#c18346",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 84,
+              "y": 108,
+              "text": "顶点1：A C E",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "三个相交面锁定一点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "纸上分开不等于不同",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "透视交叉不是新顶点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "实物未知保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-10-12-4",
+          "description": "解释重复次数和实物限制。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "边出现：6 × 4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "点出现：6 × 4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "除数来自共享关系",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "逐面出现24次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "每边2面 / 每点3面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "共享条件先核对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "数量不证明形状精确",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "哪些共享条件和闭合条件支持计数关系？",
+      "materials": [
+        "选择一条路径并在setup-record注明：①家中已有、轻、空、闭合且六个外表面轮廓清楚的近立方体大纸盒，三方向边长约10—18厘米，成人先实量；用连续量程至少20厘米、最小分度1毫米的直尺，零点对齐一端、尺贴所测直边不斜放，以厘米记录；看不清或超量程写未量，不估填。②没有安全盒就用本课整页连通展开图作纸上模型，实际描边、配对和记号，不把纸上指认写成转盒或触摸实物。纸上模型不剪、不折装，不是已制成的立体盒。两条路径结果分开，不把约定的理想图尺寸写成盒子实量。",
+        "铅笔、整页纸、厘米毫米直尺；本龄纸件：rules.svg、model-reference.svg、net-reference.svg、identity-key.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、setup-record.svg、register-13-16.svg、net-blank.svg、face-record.svg、edge-record-1.svg、edge-record-2.svg、edge-record-3.svg、vertex-record-1.svg、vertex-record-2.svg、incidence-record.svg、derivation-13-16.svg、net-open.svg、open-edge-record.svg、open-vertex-record.svg、euler-13-16.svg、audit-13-16.svg、extra-record-1.svg、extra-record-2.svg。"
+      ],
+      "safety": "只选原本无钉、无锐边、无破口和脱落件的完整纸盒；不让孩子去钉、拆盒、剪盒或处理锐边，发现问题直接换安全盒或选纸上路径。不要金属盒、玻璃盒、药品/清洁剂包装、小积木或可吞咽小标记。纸盒放干燥稳桌中央，成人双手慢慢转动并放稳后孩子才指，手不伸进开口，不把盒套头或抛接。笔尺不入口，不用剪刀、针、磁铁或小贴片，成人收好文具；不适或盒变形就停，未做照记。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+      "steps": [
+        {
+          "title": "预登记计数对象和条件",
+          "caption": "预登记计数对象和条件",
+          "action": "在register-13-16先写计数对象为理想闭合立方体、面边点定义及去重规则，保留预测和已经看过的提示。选实体/纸上路径并用setup实量与定向；在net-blank画连通对应，写哪些实际几何条件未被证明，不用接近的三个读数证明严格相等。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "用面关联表推导去重数",
+          "caption": "用面关联表推导去重数",
+          "action": "实际描指六面四周，把12条边和8个顶点分别绑定到edge-record和vertex-record，再在incidence-record列出每面的四条边和四个点。用derivation-13-16写逐面出现次数、共享数及除法，逐项检查每边恰两面、每点恰三面。若有未知，保留未知，不拿推导强补观察。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "对闭合模型核验欧拉关系",
+          "caption": "对闭合模型核验欧拉关系",
+          "action": "把去重后的闭合模型F、E、V及来源记录页填入euler-13-16，计算V−E+F。只说明这一个立方体满足关系；来源中的一般关系适用于闭合凸多面体等特定范围，这次没有证明一般定理。先算再核对，不用期待结果2反改初数。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        },
+        {
+          "title": "检查缺顶模型与推广边界",
+          "caption": "检查缺顶模型与推广边界",
+          "action": "只在net-open纸上模型实际逐面/边/角描指，A面已被题设移去，但边界四边及原角仍在。用open-edge-record和open-vertex-record逐项核对保留的身份，在euler-13-16与闭合模型比较；在audit-13-16写为什么开放曲面结果1不反驳闭合凸多面体关系、6/12/8不能判定所有形状或容量。绝不拆剪实体盒。",
+          "actor": "together",
+          "adultNote": "成人检查材料、定向标字、转稳实体；不拆钉、不剪盒，不强迫完成。纸上结果与实物分开，初错、帮助和未做保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "双重计数",
+          "欧拉关系适用范围"
+        ],
+        "explanation": "理想立方体由六个全等正方形面围成，相邻面成直角，12条边等长。面是平的区域，边是两个面的公共线段，顶点是三条边相遇的点。盒子只是近似模型；接缝、搭片、纸厚的小侧面、字画或划线不是本课理想模型增加的面、边或顶点。长宽高读数接近不能证明所有面严格正方或角严格90度；不接近则不能叫理想立方体，但安全长方体盒仍可作6/12/8的另一个形体实例，须写明不是立方体实证。 对闭合理想立方体，六面各有四条边，逐面共记24次，但每条边恰被两面共享，故24÷2=12；六面各有四个顶点，共记24次，每个顶点恰被三面共享，故24÷3=8。必须先核对共享条件，不对任意物体机械套用。面数、边数、顶点数都是个数，不是长度、表面积或体积，也不能由6面推出实际盒容量。 公式中F为面数、E为边数、V为顶点数，不是图中面字母F或E。只在已说明的闭合凸多面体范围介绍欧拉关系V−E+F=2；本课闭合理想立方体用去重后的8、12、6代入核验，不把一个例子当一般证明。另用net-open纸上思想模型：只删去A面内部，保留原8个点和12条边（AC、AD、AE、AF是开口边界），剩5个面，故8−12+5=1。开放对照的边按保留下来的各面多边形边界线段计，允许只邻接一个面；两面共边的定义仅用于前面的闭合模型。原AC等编码仅追溯原身份，不表示A面仍存在；开口外部不算新增面。它是有边界的开放曲面，不是闭合凸多面体，不构成上述定理的反例；不能为演示去剪实体盒。",
+        "observation": "实体路径每次由成人转稳盒后，沿某面的四周逐段指公共边，逐角指真正相交处，并在记录上留下身份；一条边或一个顶点第二次遇到只写再次遇到、不再加总。纸上路径按net-reference中每面四边和四角实际描指，再把相同边码、角号连到记录中的同一行；展开图外轮廓的长度和纸上角点数不是立方体的边数和顶点数。先留下初猜及初数，再查模型对应表修订，已经看过题设要注明。 每龄单独拿空白记录，初答、实际指认/计数、修订、成人帮助和未做分开；不能擦掉重复计数或没找到的记录。答案表是题设身份/成人事后核对用，不是学生已经做到。实体没做或有部位没看清，写未知，纸上任务完成不能替它补成成功。初数如果超过主表的12边或8点，写extra-record-1/2并注明类型、原序号和位置，不能为塞满固定行数而删掉初错；核对后再并回原行，两页28行补记可保留逐面24次边和24次角都误当新身份时的额外记录。每次只做本龄目标，幼儿不用背6/12/8或写公式。",
+        "limits": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。",
+        "nextQuestion": "若模型不闭合，哪一条条件首先失效？"
+      },
+      "guide": {
+        "goal": "检查缺顶模型与推广边界",
+        "observe": "预登记计数对象和条件",
+        "control": "实体路径先征得家长同意使用这只废旧盒。成人用铅笔在各面中央直接写大字A—F，不贴小标签：初始上A、下B、前C、后D、左E、右F。按这个初始朝向画在setup-record；转动后字母仍属于原面，不按新的上下重命名，成人转回初始朝向复核。若无法清楚标记或辨认则改用纸上路径并分栏，不猜标签。幼儿只需成人标A、B并帮助指出两者位置，不必自己写六字。 net-reference整页连通展开图给定A上、B下、C前、D后、E左、F右的合拢对应。相对面是AB、CD、EF，不能成为一条公共边。每条理想边用两相邻面字母按字母顺序作唯一编码；AC和CA是同一边。每个顶点用固定数字1—8及所遇的三个面核对。同一数字在展开图多个角出现，合拢后是同一点，不按纸上出现次数计新点；相同边码合拢后也是同一条边。图中角号稍向格内移，只为清楚印字，不是新增点。 A4实际大小100%打印，每页（含日志自身）在print-log-1/2/3填100毫米核线实量、单位、裁边与复核。三页36行可容全部纸件。net-reference与net-open每格设计40×40毫米，分别在setup-record实量水平/竖直边作变形检查；这些是纸图尺寸，不代替实物边长。若缩放变形，几何量测暂停；身份配对可用清晰重画的连通图并注明。无打印可由成人在整页纸按相同布局、全部边码与角号重画，不能只画六个无关联方框。",
+        "support": "成人可代读代记并标明，允许只指不摸或停做。幼儿只做两面与面边角区分，不要求全数或公式。纸上模型是独立替代，不能冒充实体观察。",
+        "time": "30—45分钟，准备另计，可分次。",
+        "recordFields": [
+          "定义与预测",
+          "身份及共享推导",
+          "闭合/开放比较"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e §9.6",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+          "claim": "长方体有六面，立方体是长宽高相等的长方体。",
+          "scope": "2026-11-05本轮实读82—92、180—190行。仅支持形体概念，不引用其图像，不支持本课安全或年龄适配认证。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Cube, MathWorld",
+          "url": "https://mathworld.wolfram.com/Cube.html",
+          "claim": "立方体有六个正方形面、八个顶点和十二条边，相邻面成直角。",
+          "scope": "2026-11-05本轮实读19、25、37行。固定字母/数字、展开图和去重操作为原创；该页117行“eight faces”与19行冲突，明确不采用。"
+        },
+        {
+          "title": "Eric W. Weisstein｜Polyhedral Formula, MathWorld",
+          "url": "https://mathworld.wolfram.com/PolyhedralFormula.html",
+          "claim": "欧拉多面体关系V+F−E=2有适用范围，不能无条件扩展到所有形体。",
+          "scope": "2026-11-05本轮实读13—18、29—39行。本课只用更窄的闭合凸多面体范围；缺A面开放模型由本课身份表独立计数，不宣称一个例子证明一般定理。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：本轮实际读来源后新写，原图和记录空白，不继承丢失评审或机构安全认证。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05从现存原稿重新编写，不是恢复丢失成稿，不继承旧评审。只做928基线静态协议与渲染核查；未实际转盒、打印、儿童试做或安全认证，未运行浏览器或整站构建。图和身份清单是原创数学模型，不冒充观测。原始字段仅为原稿档案；本正式分龄方案以直接拒用有钉/锐边盒替代原稿的去钉做法。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "rebuild236-13-16-1",
+          "description": "预登记计数对象和条件。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 105,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 136,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先定义对象及共享规则",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "实体 / 纸上路径分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "原图原错保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不以期待数改观察",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-13-16-2",
+          "description": "用面关联表推导去重数。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "面→边：逐条对应",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "面→点：逐角对应",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "先核共享次数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "六面各4条边与4点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "每边恰2面共享",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "每点恰3面共享",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "未知不由推导补观察",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-13-16-3",
+          "description": "对闭合模型核验欧拉关系。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "F为面数：独立记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "E为边数：去重记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "V为点数：去重记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "先取得独立去重数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "再计算V−E+F",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "闭合凸多面体范围",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "一个例子不是一般证明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "rebuild236-13-16-4",
+          "description": "检查缺顶模型与推广边界。原创理想模型示意，不是已操作的实物。展开图中同身份边角合拢对应，不按图形外轮廓计数。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 209,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 240,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 117,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 188,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 188,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 188,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 169,
+              "y": 157,
+              "width": 52,
+              "height": 52,
+              "fill": "#e1efed",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 188,
+              "text": "F",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "连通展开图；不是六个独立盒子",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "只删A面内部",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "边界边和原角仍保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "这是开放曲面",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不拆剪盒子做演示",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

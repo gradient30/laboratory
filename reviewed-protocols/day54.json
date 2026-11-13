@@ -1,0 +1,2173 @@
+{
+  "activityId": 54,
+  "activityTitle": "用两条规则分物品",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "成人预裁约6×8厘米大卡4张：按1红圆、2红方、3蓝圆、4蓝方循环编号，各卡只有一个约3厘米的有色形状",
+        "A3纸2张或四张A4拼接成两张大底纸；粗笔1支、铅笔1支、直尺1把；记录纸2张；成人备少量纸胶带拼底纸"
+      ],
+      "safety": "成人预裁所有卡和遮纸，卡至少约6×8厘米，剪刀收好后再操作；不用小硬币、珠子、尖针或橡皮圈。桌面平整，纸卡不入口。用红/蓝字样或成人口述辅助颜色识别，不将辨色差异当作分类能力问题；若字样被遮就不暗示答案。仅作数学操作，不对参与者认知能力评分。",
+      "steps": [
+        {
+          "title": "摸清同四张卡",
+          "action": "成人备1红圆、2红方、3蓝圆、4蓝方四张大卡，孩子逐张说颜色或指形状。底纸画两个分离区，标红和蓝；这四张都完全属于其中一种颜色，不含混色。",
+          "actor": "together",
+          "caption": "摸清同四张卡",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "先按颜色真正摆放",
+          "action": "孩子把同四张各放进红区或蓝区。成人代记每区的卡号，允许孩子解释和改动，保留修改；不拿“有几个”代替“是哪几张”。",
+          "actor": "together",
+          "caption": "先按颜色真正摆放",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "收回再按形状摆放",
+          "action": "四卡全部收回桌上，另张底纸两个区标圆和方。按形状重新摆放，成人同样记卡号。规则改变，不是把颜色变成形状。",
+          "actor": "together",
+          "caption": "收回再按形状摆放",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "拿同伴卡比较组别",
+          "action": "挑1号卡，先回看颜色记录找与它同组的另一张，实际把两张并排；再按形状记录换成与1号同组的另一张。说出规则改变后谁与谁同组，不要求幼儿说集合术语。",
+          "actor": "together",
+          "caption": "拿同伴卡比较组别",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "对象有多个属性",
+          "规则改变同组关系",
+          "同一批对象不增删"
+        ],
+        "explanation": "一张卡可以同时是红色、圆形。按颜色找同伴和按形状找同伴，看的特征不同，因此同一张卡可能换同伴。",
+        "limits": "只操作指定四卡，不推断所有分类必然不同；成人提示与口述代记都需注明。",
+        "observation": "两次各区卡号、1号的同伴变化和解释。",
+        "nextQuestion": "1号没有变，为什么换一条规则后它的同伴可能换了？"
+      },
+      "guide": {
+        "goal": "同四卡实际完成两次单规则重排并用实物比较同伴。",
+        "observe": "同四张卡先按颜色、再按形状放，1号与谁同组发生了什么变化？",
+        "support": "成人画区读标签、代记卡号，孩子实际移卡指认。",
+        "control": "同四卡，第一次只看颜色，第二次全部收回只看形状；不增删不叠卡。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "颜色区卡号",
+          "形状区卡号",
+          "1号同伴与提示"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sort54-46-cards",
+          "description": "四种完整组合各一张。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "同四卡：红圆、红方、蓝圆、蓝方",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 163,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 175,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 163,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 175,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 163,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-46-color",
+          "description": "分离颜色区等待实际摆卡。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "按颜色，各卡只放一处",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 250,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 145,
+              "width": 250,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 130,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 130,
+              "text": "蓝",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-46-shape",
+          "description": "收回后换形状规则。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "四卡收回，再按形状放",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 250,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 145,
+              "width": 250,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 130,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 130,
+              "text": "方",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-46-peer",
+          "description": "实物卡对照两次记录，不给出学习结果。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "找1号的同伴：看两次实际记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 163,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 175,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 163,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 175,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 163,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "同四张卡先按颜色、再按形状放，1号与谁同组发生了什么变化？",
+      "sources": [
+        {
+          "title": "NRICH｜Data Shapes",
+          "url": "https://nrich.maths.org/problems/data-shapes",
+          "claim": "该任务让学习者按颜色或形状分类，并讨论红色圆形同时满足两种选择的情况。",
+          "scope": "仅引用多属性分类与重叠问题；本题卡数、身份编号、复排、遮挡条件均为独立设计。"
+        },
+        {
+          "title": "NRICH｜Carroll Diagrams",
+          "url": "https://nrich.maths.org/problems/carroll-diagrams",
+          "claim": "该页用双向分类表按性质放置对象，鼓励说明每个位置的理由。",
+          "scope": "原页主要使用数；本活动改成颜色与形状，不冒称原页给出本卡组或未知属性实验。"
+        }
+      ],
+      "sourceNote": "根据NRICH分类表示活动独立设计纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡组、规则和遮挡为任务条件，不是捏造参与者记录；不把数学操作称为自然科学实验或认知诊断。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "成人预裁约6×8厘米大卡8张：按1红圆、2红方、3蓝圆、4蓝方循环编号，各卡只有一个约3厘米的有色形状",
+        "A3纸2张或四张A4拼接成两张大底纸；粗笔1支、铅笔1支、直尺1把；记录纸2张；成人备少量纸胶带拼底纸",
+        "额外记录纸1张，分别写颜色先/形状先两次分组的卡号"
+      ],
+      "safety": "成人预裁所有卡和遮纸，卡至少约6×8厘米，剪刀收好后再操作；不用小硬币、珠子、尖针或橡皮圈。桌面平整，纸卡不入口。用红/蓝字样或成人口述辅助颜色识别，不将辨色差异当作分类能力问题；若字样被遮就不暗示答案。仅作数学操作，不对参与者认知能力评分。",
+      "steps": [
+        {
+          "title": "备八卡与两层分区",
+          "action": "备1–8卡，每种红圆/红方/蓝圆/蓝方各2张，身份编号不同。先在底纸左右分红/蓝，各区再上下分圆/方，形成四格；每格至少能并放两张卡。",
+          "actor": "together",
+          "caption": "备八卡与两层分区",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "颜色先，再在组内分形状",
+          "action": "先只按颜色放进左右区，再在各颜色区内按形状移到上/下小区；记录四格的完整卡号，不只计数。全过程卡留在同颜色区内完成第二次分。",
+          "actor": "together",
+          "caption": "颜色先，再在组内分形状",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "全部收回，交换分的次序",
+          "action": "八卡收回并混匀。第二张底纸先左右分圆/方，再在每种形状内上下分红/蓝。实际重复两阶段摆放，记录四格身份；本次格子的纸面位置与上次不同。",
+          "actor": "together",
+          "caption": "全部收回，交换分的次序",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "按双标签匹配而非位置",
+          "action": "用红且圆、红且方、蓝且圆、蓝且方四对标签对应两次结果，把同一双标签的卡并排核对。若不同先核漏卡/错放；说明交换判断次序不等于交换图上的相同位置。",
+          "actor": "together",
+          "caption": "按双标签匹配而非位置",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两阶段分类",
+          "两个条件同时成立",
+          "双标签与空间位置"
+        ],
+        "explanation": "先颜色后形状或先形状后颜色，最后每小组都由一对属性决定。只要两条规则没有变、每张都按两条判定，按双标签对应的小组应相同；纸面排列可能不同。",
+        "limits": "针对这套已知、互斥且穷尽的红蓝/圆方卡；不能推广为任何含糊规则交换顺序都无影响。",
+        "observation": "两条实际分组路径、每小组卡号、双标签对应和错误修正。",
+        "nextQuestion": "两次图上左上格不一样，怎样判断分类结果到底是否相同？"
+      },
+      "guide": {
+        "goal": "实际交换两阶段分类顺序，逐身份而不是只按数量核对交叉小组。",
+        "observe": "同八卡先颜色后形状、再先形状后颜色，按双标签对应的小组是否一样？",
+        "support": "成人帮助画足够大的双层区，不替孩子放卡；逐身份审查。",
+        "control": "同八卡两条规则，第二次全部收回；分别记录全过程，最终按双标签而非格位置匹配。",
+        "time": "约20–25分钟。",
+        "recordFields": [
+          "颜色先四格卡号",
+          "形状先四格卡号",
+          "双标签对应和更正"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sort54-79-eight",
+          "description": "每种组合两张但编号不同。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "八卡四种组合，每种两张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 163,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 175,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 163,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 175,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 163,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 233,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 245,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 233,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 228,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 233,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 245,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 233,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 228,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-79-first",
+          "description": "列颜色行形状的双向表。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先分红/非红，再各分圆/非圆",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 380,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 145,
+              "x2": 360,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 132,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 132,
+              "text": "非红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 188,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 258,
+              "text": "非圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-79-swap",
+          "description": "交换表轴：行颜色列形状。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "全部收回，交换先后顺序",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 380,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 145,
+              "x2": 360,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 132,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 132,
+              "text": "方",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 188,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 258,
+              "text": "蓝",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-79-match",
+          "description": "按标签核查，不预填分组。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "按双标签核卡号，不按纸上位置",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 380,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 145,
+              "x2": 360,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 132,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 132,
+              "text": "非红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 188,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 258,
+              "text": "非圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同八卡先颜色后形状、再先形状后颜色，按双标签对应的小组是否一样？",
+      "sources": [
+        {
+          "title": "NRICH｜Data Shapes",
+          "url": "https://nrich.maths.org/problems/data-shapes",
+          "claim": "该任务让学习者按颜色或形状分类，并讨论红色圆形同时满足两种选择的情况。",
+          "scope": "仅引用多属性分类与重叠问题；本题卡数、身份编号、复排、遮挡条件均为独立设计。"
+        },
+        {
+          "title": "NRICH｜Carroll Diagrams",
+          "url": "https://nrich.maths.org/problems/carroll-diagrams",
+          "claim": "该页用双向分类表按性质放置对象，鼓励说明每个位置的理由。",
+          "scope": "原页主要使用数；本活动改成颜色与形状，不冒称原页给出本卡组或未知属性实验。"
+        }
+      ],
+      "sourceNote": "根据NRICH分类表示活动独立设计纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡组、规则和遮挡为任务条件，不是捏造参与者记录；不把数学操作称为自然科学实验或认知诊断。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人预裁约6×8厘米大卡8张：按1红圆、2红方、3蓝圆、4蓝方循环编号，各卡只有一个约3厘米的有色形状",
+        "A3纸2张或四张A4拼接成两张大底纸；粗笔1支、铅笔1支、直尺1把；记录纸2张；成人备少量纸胶带拼底纸",
+        "再备A3底纸1张，画有全集外框和相交两圆；圆内必须能摆放大卡，可将两张A3并排拼接扩大",
+        "记录纸再1张，分别记红、圆、同时满足、至少满足一个的卡号"
+      ],
+      "safety": "成人预裁所有卡和遮纸，卡至少约6×8厘米，剪刀收好后再操作；不用小硬币、珠子、尖针或橡皮圈。桌面平整，纸卡不入口。用红/蓝字样或成人口述辅助颜色识别，不将辨色差异当作分类能力问题；若字样被遮就不暗示答案。仅作数学操作，不对参与者认知能力评分。",
+      "steps": [
+        {
+          "title": "先搭双向表与全集框",
+          "action": "同8卡每种组合各2张。在底纸画行圆/非圆、列红/非红的四格表；另纸画全集外框，框内两相交大圆分别标红与圆，留足仅红、仅圆、相交和两圈外四区域，各能并放两张卡。圈是画线不是绳圈。",
+          "actor": "together",
+          "caption": "先搭双向表与全集框",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "按两个真值填四格",
+          "action": "逐张问是否红、是否圆，放入唯一对应格，记每格卡号。这里非红即蓝、非圆即方仅因本批材料限定；不是把世界所有非红都称蓝。",
+          "actor": "together",
+          "caption": "按两个真值填四格",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "逐张迁移到交叠图",
+          "action": "保持四格记录，逐卡从表拿到全集框里的相应区域。两条件都满足的只在交叠区放一张实物，不复制到两边；两者都不满足的留在外框内两圈外，不扔掉。逐区域记录卡号。",
+          "actor": "together",
+          "caption": "逐张迁移到交叠图",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "实际取出两种选择并重置",
+          "action": "从图上先取出红且圆的卡并列记身份，然后全部按记录复位。再取红或圆（至少一个成立，包含同时成立）的卡，每张只取一次。用记录核对两次选取不同；将红组数量加圆组数量时指出哪些身份被算两次，不把重复计数当新增物品。",
+          "actor": "together",
+          "caption": "实际取出两种选择并重置",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "全集与补集",
+          "交集和包含交集的并集",
+          "双向表与交叠图",
+          "重复计数"
+        ],
+        "explanation": "双向表四格与两相交圈的四区域可以表达同一对条件。且需要两条件都真；或在此指至少一个真。交叠区属于两组，但实物始终只有一份，加两组数量会把交叠身份算两次。",
+        "limits": "限定这8张卡，图的面积不代表数量或概率；这是集合操作而非自然实验，没有随机人群推断。",
+        "observation": "四格与四区域身份对应、两次实际选取、重复计数的具体身份。",
+        "nextQuestion": "把红卡数和圆卡数相加，为什么不等于至少满足一个条件的不同卡片数？"
+      },
+      "guide": {
+        "goal": "实际逐卡转换分类表示并取交集/并集，审计重复与外部区域。",
+        "observe": "同八卡从四格表搬到相交圈后，红且圆与红或圆分别取到谁，怎样避免重复算同卡？",
+        "support": "成人扩大底纸保证区域装得下卡，学习者逐卡搬移，保留身份记录。",
+        "control": "同8卡、红/圆判据不变；每卡只一处，圈外保留全集内；两次选取间完全复位。",
+        "time": "约25–30分钟。",
+        "recordFields": [
+          "四格与四区域对应",
+          "且/或实际选取身份",
+          "重复计数及全集核查"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sort54-1012-prep",
+          "description": "两种表达的材料，卡先待分类。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先备八卡，底纸区域能并排放卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 163,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 175,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 163,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 175,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 163,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 158,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 233,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 129,
+              "y": 245,
+              "r": 17,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 233,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 247,
+              "y": 228,
+              "width": 34,
+              "height": 34,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 233,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "circle",
+              "x": 399,
+              "y": 245,
+              "r": 17,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 233,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 517,
+              "y": 228,
+              "width": 34,
+              "height": 34,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1012-table",
+          "description": "唯一格归属。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "逐卡回答：红吗？圆吗？",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 380,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 145,
+              "x2": 360,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 132,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 132,
+              "text": "非红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 188,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 258,
+              "text": "非圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1012-venn",
+          "description": "四区域均在全集外框里。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "从表逐张搬入相交圈",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 135,
+              "width": 550,
+              "height": 155,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255,
+              "y": 210,
+              "r": 70,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 365,
+              "y": 210,
+              "r": 70,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 125,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 125,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 280,
+              "text": "两圈外仍在全集框内",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1012-select",
+          "description": "先且后复位再或，不示结果。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "取“且” → 复位 → 取“或”",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 135,
+              "width": 550,
+              "height": 155,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255,
+              "y": 210,
+              "r": 70,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 365,
+              "y": 210,
+              "r": 70,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 125,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 125,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 280,
+              "text": "两圈外仍在全集框内",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同八卡从四格表搬到相交圈后，红且圆与红或圆分别取到谁，怎样避免重复算同卡？",
+      "sources": [
+        {
+          "title": "NRICH｜Data Shapes",
+          "url": "https://nrich.maths.org/problems/data-shapes",
+          "claim": "该任务让学习者按颜色或形状分类，并讨论红色圆形同时满足两种选择的情况。",
+          "scope": "仅引用多属性分类与重叠问题；本题卡数、身份编号、复排、遮挡条件均为独立设计。"
+        },
+        {
+          "title": "NRICH｜Carroll Diagrams",
+          "url": "https://nrich.maths.org/problems/carroll-diagrams",
+          "claim": "该页用双向分类表按性质放置对象，鼓励说明每个位置的理由。",
+          "scope": "原页主要使用数；本活动改成颜色与形状，不冒称原页给出本卡组或未知属性实验。"
+        },
+        {
+          "title": "NRICH｜Data Duos",
+          "url": "https://nrich.maths.org/problems/data-duos",
+          "claim": "该活动比较表达同一种形状分类信息的维恩图与双向分类表。",
+          "scope": "支持两种表示之间的对应；本题实际搬卡、并集核查和遮挡信息操作独立构造。"
+        }
+      ],
+      "sourceNote": "根据NRICH分类表示活动独立设计纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡组、规则和遮挡为任务条件，不是捏造参与者记录；不把数学操作称为自然科学实验或认知诊断。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "成人预裁6×10厘米身份卡8张，1–4依次红圆/红方/蓝圆/蓝方，5–8重复；但颜色块与黑色轮廓分列：左栏颜色块旁写红或蓝，右栏只画黑色圆或方，编号在顶端",
+        "成人预裁不透光遮纸8片（每片约4×7厘米），覆盖单栏及其颜色文字但不遮卡号；纸胶带少量，只作可揭遮挡",
+        "A3底纸2张、记录纸3张，铅笔和粗笔各1支、直尺1把；参与者1名与独立备卡成人1名"
+      ],
+      "safety": "成人预裁所有卡和遮纸，卡至少约6×8厘米，剪刀收好后再操作；不用小硬币、珠子、尖针或橡皮圈。桌面平整，纸卡不入口。用红/蓝字样或成人口述辅助颜色识别，不将辨色差异当作分类能力问题；若字样被遮就不暗示答案。仅作数学操作，不对参与者认知能力评分。",
+      "steps": [
+        {
+          "title": "遮挡前由成人独立备卡",
+          "action": "成人按材料固定8卡，不给参与者看全套映射。1/2遮左颜色栏，3/4遮右形状栏，5/6/7/8也按1/2/3/4方式遮对应栏；卡号保持可见，成人另留完整属性表。成人不告诉每组合有两张，避免用总数反推隐藏属性。底纸画红/非红×圆/非圆四格，另备待定区。",
+          "actor": "together",
+          "caption": "遮挡前由成人独立备卡",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "只用可见信息列可能格",
+          "action": "参与者逐卡列所有仍可能的格标签，不强放唯一格：已知圆但颜色未知，应列红圆/非红圆等。全部卡暂放待定区，记录每卡的两个候选格；不得用“不知道红”当成“非红”。卡号只当身份，不能从编号猜预设循环。",
+          "actor": "together",
+          "caption": "只用可见信息列可能格",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "逐张揭开并按信息更新",
+          "action": "成人逐张揭开遮纸，参与者先记录新看到的属性，再把该卡放入唯一格，核这个格是否属于原候选集合；不属于时查先前逻辑或抄写错误。记录收缩过程，不修改原候选来假装一直正确。",
+          "actor": "together",
+          "caption": "逐张揭开并按信息更新",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        },
+        {
+          "title": "重新遮回与信息边界",
+          "action": "按原规则遮回同一卡栏，参与者另写两列：现在凭记忆知道的完整属性、单看当前可见栏可支持的候选格；不把这次记忆测试当第二个盲试。解释更换未知的红蓝/圆方卡时仍需等待信息，不能用缺失值自动塞进非红或非圆。",
+          "actor": "together",
+          "caption": "重新遮回与信息边界",
+          "adultNote": "按编号保留真实摆放记录；分错先核规则与卡面，不替参与者预填正确结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "未知不等否定",
+          "部分信息的候选集合",
+          "信息更新与一致性审计",
+          "记忆泄漏与非独立复试"
+        ],
+        "explanation": "二值分类要求属性已知。遮住一栏不是把属性变成否，而是当前证据可兼容两个格。揭开能收缩候选集合；再次遮住不能消除人的记忆，故不能宣称第二次仍盲。",
+        "limits": "固定卡组与遮挡是人为数学信息模型，不估计真实人群的概率；候选格两个不等各有一半概率，不依赖总数倒推隐藏属性。",
+        "observation": "每卡遮挡候选、揭开新证据/唯一格、前后包含关系与记忆/可见证据分栏。",
+        "nextQuestion": "“没有看到红色”和“已经确认不是红色”为什么不能填进同一个格？"
+      },
+      "guide": {
+        "goal": "真实遮挡和逐卡揭开，构造候选格更新，再区分记忆与当前证据。",
+        "observe": "一栏被遮时哪些格仍可能，揭开后怎样核查更新，为什么遮回不能当新的盲试？",
+        "support": "成人独立备卡不泄露组合频数；参与者保留首次候选，成人最后协助核逻辑。",
+        "control": "相同8卡遮挡只删可见信息，不改属性；不透露全套映射/频数；逐卡揭开，遮回明确有记忆。",
+        "time": "约30–35分钟。",
+        "recordFields": [
+          "8卡可见属性和候选格",
+          "揭开后唯一格及包含核查",
+          "遮回的记忆/可见证据",
+          "未知不等否与模型限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sort54-1316-prep",
+          "description": "成人独立备卡，图示完整卡是备卡说明，不给盲试参与者提前看。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "成人独立备卡：颜色栏 / 形状栏",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 163,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 89,
+              "y": 163,
+              "width": 25,
+              "height": 25,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 143,
+              "y": 175,
+              "r": 13,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 163,
+              "width": 25,
+              "height": 25,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 265,
+              "y": 162,
+              "width": 26,
+              "height": 26,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 163,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 359,
+              "y": 163,
+              "width": 25,
+              "height": 25,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 413,
+              "y": 175,
+              "r": 13,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 145,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 163,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494,
+              "y": 163,
+              "width": 25,
+              "height": 25,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 535,
+              "y": 162,
+              "width": 26,
+              "height": 26,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 233,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 89,
+              "y": 233,
+              "width": 25,
+              "height": 25,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 143,
+              "y": 245,
+              "r": 13,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205,
+              "y": 233,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 224,
+              "y": 233,
+              "width": 25,
+              "height": 25,
+              "fill": "#D46B59",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 265,
+              "y": 232,
+              "width": 26,
+              "height": 26,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 233,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 359,
+              "y": 233,
+              "width": 25,
+              "height": 25,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 413,
+              "y": 245,
+              "r": 13,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 470,
+              "y": 215,
+              "width": 105,
+              "height": 55,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 475,
+              "y": 233,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 494,
+              "y": 233,
+              "width": 25,
+              "height": 25,
+              "fill": "#659EB5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 535,
+              "y": 232,
+              "width": 26,
+              "height": 26,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1316-mask",
+          "description": "示意1号左栏被遮而圆轮廓可见。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "只看可见栏，编号不是属性提示",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 145,
+              "width": 330,
+              "height": 120,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 165,
+              "y": 170,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 185,
+              "width": 85,
+              "height": 55,
+              "fill": "#BBBBBB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 390,
+              "y": 215,
+              "r": 28,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 175,
+              "y": 288,
+              "text": "左栏遮住：不是“非红”",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1316-reveal",
+          "description": "揭开后按证据放唯一格，图不预填卡结果。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "逐卡揭开，核新格在旧候选内",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 380,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 360,
+              "y1": 145,
+              "x2": 360,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 215,
+              "x2": 550,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 132,
+              "text": "红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 132,
+              "text": "非红",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 188,
+              "text": "圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 258,
+              "text": "非圆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sort54-1316-memory",
+          "description": "再次遮挡不能清除记忆。图为指定材料和操作装置示意，不预填参与者分类结果；空区域待真实摆卡，不表示分类后数量为零。图卡尺寸缩绘。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "遮回后：记忆 ≠ 当前可见证据",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 145,
+              "width": 330,
+              "height": 120,
+              "fill": "#F6F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 165,
+              "y": 170,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 185,
+              "width": 85,
+              "height": 55,
+              "fill": "#BBBBBB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 390,
+              "y": 215,
+              "r": 28,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 150,
+              "y": 288,
+              "text": "不把这一轮当第二次盲试",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "一栏被遮时哪些格仍可能，揭开后怎样核查更新，为什么遮回不能当新的盲试？",
+      "sources": [
+        {
+          "title": "NRICH｜Data Shapes",
+          "url": "https://nrich.maths.org/problems/data-shapes",
+          "claim": "该任务让学习者按颜色或形状分类，并讨论红色圆形同时满足两种选择的情况。",
+          "scope": "仅引用多属性分类与重叠问题；本题卡数、身份编号、复排、遮挡条件均为独立设计。"
+        },
+        {
+          "title": "NRICH｜Carroll Diagrams",
+          "url": "https://nrich.maths.org/problems/carroll-diagrams",
+          "claim": "该页用双向分类表按性质放置对象，鼓励说明每个位置的理由。",
+          "scope": "原页主要使用数；本活动改成颜色与形状，不冒称原页给出本卡组或未知属性实验。"
+        },
+        {
+          "title": "NRICH｜Data Duos",
+          "url": "https://nrich.maths.org/problems/data-duos",
+          "claim": "该活动比较表达同一种形状分类信息的维恩图与双向分类表。",
+          "scope": "支持两种表示之间的对应；本题实际搬卡、并集核查和遮挡信息操作独立构造。"
+        }
+      ],
+      "sourceNote": "根据NRICH分类表示活动独立设计纸卡数学操作，未真实课堂试用，不代表机构认证。指定卡组、规则和遮挡为任务条件，不是捏造参与者记录；不把数学操作称为自然科学实验或认知诊断。"
+    }
+  }
+}

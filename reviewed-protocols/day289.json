@@ -1,0 +1,2283 @@
+{
+  "activityId": 289,
+  "activityTitle": "杯口遮盖会改变蒸发吗",
+  "contentKey": "chem-103",
+  "ageProtocols": {
+    "4-6": {
+      "version": 2,
+      "question": "两杯今天看起来怎样？",
+      "materials": [
+        "相同矮塑料杯2只；常温清水各5毫升；完整硬塑料盖或小碟1只仅轻放不密封；量勺；纸笔；托盘",
+        "选页：preschool-start/daily/compare、conclusion-4-6；成人读公共safety/method，reference完成后再看。"
+      ],
+      "safety": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。",
+      "steps": [
+        {
+          "title": "辨认两杯的不同",
+          "caption": "辨认两杯的不同",
+          "action": "成人依safety和method准备，幼儿只指认A没有盖、B有轻盖，在preschool-start画或口述；不要求量水读数。",
+          "actor": "together",
+          "adultNote": "成人备杯量水；幼儿不量水、不取盖。"
+        },
+        {
+          "title": "跟成人留下今天所见",
+          "caption": "跟成人留下今天所见",
+          "action": "在每天短暂安全观察时，幼儿指画preschool-daily两杯所见，成人写第几天和原话；不能安全看则未做。",
+          "actor": "adult",
+          "adultNote": "成人同刻短暂看杯并代记，幼儿安全指画即可。"
+        },
+        {
+          "title": "相同不同都能说",
+          "caption": "相同不同都能说",
+          "action": "幼儿在preschool-compare指选看得出不同/看不清/没做，成人保留原答，不提示哪杯应少，不要求知道水量。",
+          "actor": "together",
+          "adultNote": "孩子只说所见和未知，不比较毫升数。"
+        },
+        {
+          "title": "说看见而不是猜成真",
+          "caption": "说看见而不是猜成真",
+          "action": "conclusion-4-6分我看见/我猜/不知道，成人到期收水；不算质量或速率，不要求完成其他龄纸题。",
+          "actor": "together",
+          "adultNote": "成人到期处理水，孩子不做高龄算题。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "所见与猜想",
+          "两杯对照"
+        ],
+        "explanation": "水在常温也能由表面进入气相，气相中的水也可凝结返回；遮盖影响局部交换，但轻盖及揭盖条件不能保证本次可见差异。",
+        "limits": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。",
+        "observation": "幼儿只指画两杯每天所见，成人记录和操作；看不清有效。",
+        "nextQuestion": "哪一句是你亲眼看到的？"
+      },
+      "guide": {
+        "goal": "说看见而不是猜成真",
+        "observe": "辨认两杯的不同",
+        "control": "成人按相同杯、各5mL、同处同刻执行，轻盖一杯；保留揭盖和异常，不要求幼儿控制或读数。",
+        "support": "成人读代记、量水和移盖；幼儿可只指画，疲倦或条件不足就停。",
+        "time": "幼儿每天参与约2—5分钟，可只参与一次；成人按每天同一时刻观察，总期最多3天，到期或异常即由成人弃水清理。",
+        "recordFields": [
+          "成人量水与移盖",
+          "孩子只指画说",
+          "看不清也是记录",
+          "最多3天即结束"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-evap-cover",
+          "title": "NSTA 2020｜蒸发与沸腾有何不同",
+          "url": "https://www.nsta.org/science-and-children/science-and-children-february-2020/q-whats-difference-between-evaporation-and",
+          "scope": "官方教学文章包括敞开和遮盖容器比较；本页只用常温少量清水、轻放盖不密封。",
+          "originalTitle": "NSTA 2020｜蒸发与沸腾有何不同",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        },
+        {
+          "id": "SC-humidity",
+          "title": "OpenStax｜湿度与蒸发",
+          "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+          "scope": "水蒸气分压与净蒸发的基础原理；据此解释遮盖附近空气交换影响，具体3天结果不保证。",
+          "originalTitle": "OpenStax｜湿度与蒸发",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        }
+      ],
+      "sourceNote": "本轮实读NSTA蒸发教学正文及OpenStax湿度/蒸发；原理参考不认证本轻盖流程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "cover289-4-6-1",
+          "description": "辨认两杯的不同；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "辨认两杯的不同",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人量水与移盖",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "看不清也是记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "最多3天即结束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-4-6-2",
+          "description": "跟成人留下今天所见；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "跟成人留下今天所见",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "同刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 193,
+              "text": "短暂揭盖",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人量水与移盖",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "看不清也是记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "最多3天即结束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-4-6-3",
+          "description": "相同不同都能说；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "相同不同都能说",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "所见？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 228,
+              "y": 193,
+              "text": "未知？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人量水与移盖",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "看不清也是记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "最多3天即结束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-4-6-4",
+          "description": "说看见而不是猜成真；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说看见而不是猜成真",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 144,
+              "text": "引用原始记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 185,
+              "text": "相同 / 不同 / 看不清",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 224,
+              "text": "最多3天，不追结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 264,
+              "text": "成人弃水清理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人量水与移盖",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指画说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "看不清也是记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "最多3天即结束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "每天同刻能看出差异吗？",
+      "materials": [
+        "相同矮塑料杯2只；常温清水各5毫升；完整硬塑料盖或小碟1只仅轻放不密封；量勺；纸笔；托盘",
+        "选页：setup/prediction/daily/drawing/compare/conclusion-7-9；成人读公共safety/method，reference完成后再看。"
+      ],
+      "safety": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。",
+      "steps": [
+        {
+          "title": "先写猜想和比较规则",
+          "caption": "先写猜想和比较规则",
+          "action": "prediction-7-9写可能相同/不同及理由；setup-7-9登记A敞开B轻盖、各5mL和同刻计划，成人执行安全步骤。",
+          "actor": "together",
+          "adultNote": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。"
+        },
+        {
+          "title": "保留四次原记录",
+          "caption": "保留四次原记录",
+          "action": "daily-7-9和drawing-7-9按method记第0/1/2/3天，液面或残水看不清写太粗，记录缺测及盖水珠，不捏造mL。",
+          "actor": "adult",
+          "adultNote": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。"
+        },
+        {
+          "title": "用同一天两杯比较",
+          "caption": "用同一天两杯比较",
+          "action": "compare-7-9逐行引用每天原记录，区分看见差异和猜测原因；不能把不同日期当同条件比较。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        },
+        {
+          "title": "写结果及最少一项限制",
+          "caption": "写结果及最少一项限制",
+          "action": "conclusion-7-9引用记录说明能否看出差异，并写移盖或分辨率等限制；第3天即停，不等到符合猜想。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "配对观察",
+          "缺测"
+        ],
+        "explanation": "水在常温也能由表面进入气相，气相中的水也可凝结返回；遮盖影响局部交换，但轻盖及揭盖条件不能保证本次可见差异。",
+        "limits": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。",
+        "observation": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。",
+        "nextQuestion": "同一天两杯记录是否齐全？"
+      },
+      "guide": {
+        "goal": "写结果及最少一项限制",
+        "observe": "先写猜想和比较规则",
+        "control": "同杯各5mL、同处同刻；轻盖与揭盖为实际处理包，记录所有偏移。",
+        "support": "成人读代记、量水和移盖；幼儿可只指画，疲倦或条件不足就停。",
+        "time": "每天约5分钟，至多3天",
+        "recordFields": [
+          "同一天两杯配对",
+          "不填猜出的毫升数",
+          "缺测保留不补造",
+          "结果不必合猜想"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-evap-cover",
+          "title": "NSTA 2020｜蒸发与沸腾有何不同",
+          "url": "https://www.nsta.org/science-and-children/science-and-children-february-2020/q-whats-difference-between-evaporation-and",
+          "scope": "官方教学文章包括敞开和遮盖容器比较；本页只用常温少量清水、轻放盖不密封。",
+          "originalTitle": "NSTA 2020｜蒸发与沸腾有何不同",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        },
+        {
+          "id": "SC-humidity",
+          "title": "OpenStax｜湿度与蒸发",
+          "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+          "scope": "水蒸气分压与净蒸发的基础原理；据此解释遮盖附近空气交换影响，具体3天结果不保证。",
+          "originalTitle": "OpenStax｜湿度与蒸发",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        }
+      ],
+      "sourceNote": "本轮实读NSTA蒸发教学正文及OpenStax湿度/蒸发；原理参考不认证本轻盖流程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "cover289-7-9-1",
+          "description": "先写猜想和比较规则；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先写猜想和比较规则",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "同一天两杯配对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不填猜出的毫升数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "缺测保留不补造",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结果不必合猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-7-9-2",
+          "description": "保留四次原记录；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "保留四次原记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "同刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 193,
+              "text": "短暂揭盖",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "同一天两杯配对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不填猜出的毫升数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "缺测保留不补造",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结果不必合猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-7-9-3",
+          "description": "用同一天两杯比较；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用同一天两杯比较",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "所见？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 228,
+              "y": 193,
+              "text": "未知？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "同一天两杯配对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不填猜出的毫升数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "缺测保留不补造",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结果不必合猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-7-9-4",
+          "description": "写结果及最少一项限制；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写结果及最少一项限制",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 144,
+              "text": "引用原始记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 185,
+              "text": "相同 / 不同 / 看不清",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 224,
+              "text": "最多3天，不追结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 264,
+              "text": "成人弃水清理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "同一天两杯配对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不填猜出的毫升数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "缺测保留不补造",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结果不必合猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 2,
+      "question": "哪些记录不能证明蒸发量？",
+      "materials": [
+        "相同矮塑料杯2只；常温清水各5毫升；完整硬塑料盖或小碟1只仅轻放不密封；量勺；纸笔；托盘",
+        "选页：setup/prediction/daily/drawing/conclusion-10-12、control-audit、lid-log、claim-input/work、boundary-work、design-10-12；成人读公共safety/method，reference完成后再看。"
+      ],
+      "safety": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。",
+      "steps": [
+        {
+          "title": "预登记可能混入的变化",
+          "caption": "预登记可能混入的变化",
+          "action": "setup/prediction-10-12与control-audit登记起始量、位置、同刻和移盖规则，不声称已经排除所有干扰。",
+          "actor": "together",
+          "adultNote": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。"
+        },
+        {
+          "title": "同时记杯中与盖下",
+          "caption": "同时记杯中与盖下",
+          "action": "daily/drawing-10-12记录0到3天；lid-log保留水珠滴回/滴出/未知、离盖估计，不能由珠数推质量。",
+          "actor": "adult",
+          "adultNote": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。"
+        },
+        {
+          "title": "审计液面与蒸发说法",
+          "caption": "审计液面与蒸发说法",
+          "action": "claim-input/work逐条审计液面、盖水珠、密闭平衡与因果主张，boundary-work分杯内液体、盖水珠、气体与外界。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        },
+        {
+          "title": "列出仍需的证据",
+          "caption": "列出仍需的证据",
+          "action": "conclusion-10-12仅定性比较，写进一步怎样测量的纸上计划design-10-12，不新增称量、加热或延长观察。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "系统边界",
+          "控制限制"
+        ],
+        "explanation": "水在常温也能由表面进入气相，气相中的水也可凝结返回；遮盖影响局部交换，但轻盖及揭盖条件不能保证本次可见差异。",
+        "limits": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。",
+        "observation": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。",
+        "nextQuestion": "哪些变化尚未测到？"
+      },
+      "guide": {
+        "goal": "列出仍需的证据",
+        "observe": "预登记可能混入的变化",
+        "control": "同杯各5mL、同处同刻；轻盖与揭盖为实际处理包，记录所有偏移。",
+        "support": "成人读代记、量水和移盖；幼儿可只指画，疲倦或条件不足就停。",
+        "time": "每天记录约5分钟，总观察期最多3天，到期或异常成人弃水清理；之后分析可用干记录分次完成。",
+        "recordFields": [
+          "盖下水珠非质量",
+          "移盖会改变系统",
+          "轻盖不等于密闭",
+          "因果结论有边界"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-evap-cover",
+          "title": "NSTA 2020｜蒸发与沸腾有何不同",
+          "url": "https://www.nsta.org/science-and-children/science-and-children-february-2020/q-whats-difference-between-evaporation-and",
+          "scope": "官方教学文章包括敞开和遮盖容器比较；本页只用常温少量清水、轻放盖不密封。",
+          "originalTitle": "NSTA 2020｜蒸发与沸腾有何不同",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        },
+        {
+          "id": "SC-humidity",
+          "title": "OpenStax｜湿度与蒸发",
+          "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+          "scope": "水蒸气分压与净蒸发的基础原理；据此解释遮盖附近空气交换影响，具体3天结果不保证。",
+          "originalTitle": "OpenStax｜湿度与蒸发",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        }
+      ],
+      "sourceNote": "本轮实读NSTA蒸发教学正文及OpenStax湿度/蒸发；原理参考不认证本轻盖流程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "cover289-10-12-1",
+          "description": "预登记可能混入的变化；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "预登记可能混入的变化",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "盖下水珠非质量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "移盖会改变系统",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轻盖不等于密闭",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "因果结论有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-10-12-2",
+          "description": "同时记杯中与盖下；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "同时记杯中与盖下",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "同刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 226,
+              "y": 193,
+              "text": "短暂揭盖",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "盖下水珠非质量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "移盖会改变系统",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轻盖不等于密闭",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "因果结论有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-10-12-3",
+          "description": "审计液面与蒸发说法；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "审计液面与蒸发说法",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 193,
+              "text": "所见？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 228,
+              "y": 193,
+              "text": "未知？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "盖下水珠非质量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "移盖会改变系统",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轻盖不等于密闭",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "因果结论有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-10-12-4",
+          "description": "列出仍需的证据；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "列出仍需的证据",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 144,
+              "text": "引用原始记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 185,
+              "text": "相同 / 不同 / 看不清",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 224,
+              "text": "最多3天，不追结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 264,
+              "text": "成人弃水清理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "盖下水珠非质量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "移盖会改变系统",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "轻盖不等于密闭",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "因果结论有边界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样区分累计转移与储库变化？",
+      "materials": [
+        "相同矮塑料杯2只；常温清水各5毫升；完整硬塑料盖或小碟1只仅轻放不密封；量勺；纸笔；托盘",
+        "选页：setup/prediction/daily/drawing/conclusion-13-16、control-audit、lid-log、model-input、balance-work、inverse-work、total-work、claim-work、design-13-16；成人读公共safety/method，reference完成后再看。"
+      ],
+      "safety": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。",
+      "steps": [
+        {
+          "title": "先完成实际记录再封存",
+          "caption": "先完成实际记录再封存",
+          "action": "按method完成setup/prediction/daily/drawing-13-16、control-audit及lid-log；之后才读model-input，不用算例替代观察。",
+          "actor": "together",
+          "adultNote": "成人全程负责量水、移盖、复位及弃水，幼儿近距离陪伴。两只相同完好矮塑料杯各量常温清水5mL，完整硬塑料盖或小碟只轻放一杯，不密封、不压紧。两杯在同处阴凉稳固托盘内、儿童与宠物无法触及处，远离电器和桌边；不攀爬取杯。仅成人在安全位置观察，儿童不能安全看到时由成人口述代记或记未做。不饮用、不加热、不晒太阳、不加水，不吹气、不触摸水。最多3天；污染、异味、洒水或容器不稳立即停止并由成人弃置，不让孩子嗅闻或处理。"
+        },
+        {
+          "title": "建立三储库收支另题",
+          "caption": "建立三储库收支另题",
+          "action": "model-input明确虚构单位u和E/C/K/R/X方向；balance-work逐项求三情景的L、G、D及外流X，保留方程过程。",
+          "actor": "adult",
+          "adultNote": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。"
+        },
+        {
+          "title": "检查可辨识性与总量",
+          "caption": "检查可辨识性与总量",
+          "action": "inverse-work比较情景乙丙相同液体终量却不同累计蒸发；total-work核总量守恒、E−C和液体损失的区别。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        },
+        {
+          "title": "把另题结论限制在假设内",
+          "caption": "把另题结论限制在假设内",
+          "action": "claim-work及conclusion-13-16说明未知实际转移量，轻盖不等于密闭；用design-13-16仅设计改进记录，禁止新器材实操。",
+          "actor": "together",
+          "adultNote": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "质量收支",
+          "不可辨识"
+        ],
+        "explanation": "水在常温也能由表面进入气相，气相中的水也可凝结返回；遮盖影响局部交换，但轻盖及揭盖条件不能保证本次可见差异。",
+        "limits": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。",
+        "observation": "第0天成人用同一可靠量勺各量5mL，杯在托盘内标敞开A与轻盖B（纸标签放旁边），记录实际起始日期和时刻。预定每天同一时刻观察，第1、2、3天各一次，最迟第3天结束。成人短暂移开B盖，只看液面/残水及盖下是否可见水珠，随即轻放复位；移盖时水珠滴回、滴出、看不清及离盖时间估计都记录，不故意甩盖或擦盖。A同刻观察，杯与位置不互换；漏观写缺测，不补编，不为等结果延长。只作可见比较，不用未列仪器称量或反复倒水量体积。到期或异常成人弃水清理。",
+        "nextQuestion": "相同末态能否唯一反推累计蒸发？"
+      },
+      "guide": {
+        "goal": "把另题结论限制在假设内",
+        "observe": "先完成实际记录再封存",
+        "control": "同杯各5mL、同处同刻；轻盖与揭盖为实际处理包，记录所有偏移。",
+        "support": "成人读代记、量水和移盖；幼儿可只指画，疲倦或条件不足就停。",
+        "time": "至多3天实录；另题20—30分钟可分次",
+        "recordFields": [
+          "先实录后做另题",
+          "虚构u不换成mL",
+          "储库与转移分开",
+          "同液量不定累计蒸发"
+        ]
+      },
+      "sources": [
+        {
+          "id": "SC-evap-cover",
+          "title": "NSTA 2020｜蒸发与沸腾有何不同",
+          "url": "https://www.nsta.org/science-and-children/science-and-children-february-2020/q-whats-difference-between-evaporation-and",
+          "scope": "官方教学文章包括敞开和遮盖容器比较；本页只用常温少量清水、轻放盖不密封。",
+          "originalTitle": "NSTA 2020｜蒸发与沸腾有何不同",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        },
+        {
+          "id": "SC-humidity",
+          "title": "OpenStax｜湿度与蒸发",
+          "url": "https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling",
+          "scope": "水蒸气分压与净蒸发的基础原理；据此解释遮盖附近空气交换影响，具体3天结果不保证。",
+          "originalTitle": "OpenStax｜湿度与蒸发",
+          "claim": "常温蒸发、凝结及遮盖气体交换的概念支持；不认证本家庭操作。"
+        }
+      ],
+      "sourceNote": "本轮实读NSTA蒸发教学正文及OpenStax湿度/蒸发；原理参考不认证本轻盖流程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "原创重建，未实物、儿童或打印测试。5mL少量水的液面差异可能分辨不了，真实结果不保证敞开杯更少或出现盖下水珠。轻盖有缝并每日揭盖，不是密闭平衡装置；气流、温湿度、初始量误差、杯壁挂水和移盖滴落都影响比较。水珠数量/湿痕面积不是质量，液面下降不等于累计蒸发量，未测净蒸发速率。高龄收支另题是虚构质量单位u，绝不能把初始100u或算例结果换填本次5mL实录。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "cover289-13-16-1",
+          "description": "先完成实际记录再封存；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先完成实际记录再封存",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 215,
+              "y": 155,
+              "width": 85,
+              "height": 93,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 208,
+              "y1": 145,
+              "x2": 306,
+              "y2": 145,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 275,
+              "text": "A敞开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 275,
+              "text": "B轻盖",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 126,
+              "text": "各5mL；非液面预测图",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "虚构u不换成mL",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "储库与转移分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "同液量不定累计蒸发",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-13-16-2",
+          "description": "建立三储库收支另题；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "建立三储库收支另题",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 143,
+              "text": "L液体  G气体  D盖水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 180,
+              "text": "E/C/K/R/X：有向转移",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "L+G+D+X = 100u",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 257,
+              "text": "另题，不是5mL测量",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "虚构u不换成mL",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "储库与转移分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "同液量不定累计蒸发",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-13-16-3",
+          "description": "检查可辨识性与总量；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "检查可辨识性与总量",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 143,
+              "text": "L液体  G气体  D盖水",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 180,
+              "text": "E/C/K/R/X：有向转移",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 218,
+              "text": "L+G+D+X = 100u",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 257,
+              "text": "另题，不是5mL测量",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "虚构u不换成mL",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "储库与转移分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "同液量不定累计蒸发",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cover289-13-16-4",
+          "description": "把另题结论限制在假设内；布置或另题提示，不预画水量变化。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把另题结论限制在假设内",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 144,
+              "text": "引用原始记录",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 185,
+              "text": "相同 / 不同 / 看不清",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 224,
+              "text": "最多3天，不追结果",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 264,
+              "text": "成人弃水清理",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "先实录后做另题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "虚构u不换成mL",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "储库与转移分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "同液量不定累计蒸发",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

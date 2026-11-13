@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 3,
+  "scope": "Whole 365-theme four-age curriculum release, not a one-theme pilot",
+  "reviews": [],
+  "note": "All five final joint-review gates remain pending. Schema 3 requires whole-release category-specific JSON attestations, current data/source fingerprints, exact report/support hashes, and traceable user requirements or feedback. See docs/final-review-contract.md. Structural validation does not prove report truth or real user acceptance.",
+  "requiredGates": [
+    "specification",
+    "facts",
+    "quality",
+    "regression",
+    "user-feedback"
+  ]
+}

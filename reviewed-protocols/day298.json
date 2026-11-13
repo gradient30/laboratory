@@ -1,0 +1,2166 @@
+{
+  "activityId": 298,
+  "activityTitle": "没画出来不等于不存在",
+  "contentKey": "annual-h039",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "图里看到了什么，画外还知道吗？",
+      "materials": [
+        "纸、铅笔；只备preschool-input、preschool-seen、preschool-outside、preschool-words、conclusion-4-6及protocol-4-6；成人代读代画，不使用其他年龄题。"
+      ],
+      "safety": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。",
+      "steps": [
+        {
+          "title": "看图并指已经画到的东西",
+          "caption": "看图并指已经画到的东西",
+          "action": "成人给preschool-input，读“这是我们画的假想图，不是照片”。孩子只指路、树或人，成人在preschool-seen代画代记，不要求数数。",
+          "actor": "together",
+          "adultNote": "成人读幼儿说明并代画代记；孩子只指画说，不要求数数或证明。"
+        },
+        {
+          "title": "在画外留一个不知道的框",
+          "caption": "在画外留一个不知道的框",
+          "action": "成人指preschool-input旁边空白画外框，孩子可指或画问号；preschool-outside代记原话。不让孩子必须画自行车，不说画外一定有车。",
+          "actor": "together",
+          "adultNote": "成人读幼儿说明并代画代记；孩子只指画说，不要求数数或证明。"
+        },
+        {
+          "title": "把看见和猜想分开说",
+          "caption": "把看见和猜想分开说",
+          "action": "成人口头说“这张图没画自行车，别的地方还不知道”，孩子可重复部分、指图或说不知道。preschool-words由成人代记，不要求理解强断言或反例术语。",
+          "actor": "together",
+          "adultNote": "成人读幼儿说明并代画代记；孩子只指画说，不要求数数或证明。"
+        },
+        {
+          "title": "留下一个还想问的问题",
+          "caption": "留下一个还想问的问题",
+          "action": "conclusion-4-6让孩子画/说我看见什么、还想看哪里；成人写“想象或问题，不是真实观察”。到此结束，不做高龄模型题。",
+          "actor": "together",
+          "adultNote": "成人读幼儿说明并代画代记；孩子只指画说，不要求数数或证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "图里看见的",
+          "画外不知道"
+        ],
+        "explanation": "图里画了路、树、人，没画自行车；画外还不知道。想象画外有什么不是我们真的发现。",
+        "limits": "孩子只指图中看得到的东西，再指空白的画外框说还不知道。画外框不是发现的地方，不要求数数、写字、证明全城命题或画出自行车；成人代读代记。",
+        "observation": "成人只记孩子指图和原话；画外框留作不知道，不预填自行车。",
+        "nextQuestion": "你还想看哪里？"
+      },
+      "guide": {
+        "goal": "留下一个还想问的问题",
+        "observe": "图中与画外能分开吗？",
+        "recordFields": [
+          "模拟图，不是照片",
+          "指路、树或人",
+          "画外还不知道",
+          "只指画说，不证明"
+        ],
+        "control": "固定同一幼儿模拟图，画外框不填成已发现；只指画说。",
+        "support": "成人代读代记，不要求数数、读写、强断言或证明；可随时停。",
+        "time": "5—10分钟，可随时停"
+      },
+      "sources": [
+        {
+          "id": "AN-H0",
+          "title": "美国国会图书馆｜史料分析指南",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "claim": "史料分析中分别记录所见、假设、问题并设计进一步核查。",
+          "scope": "方法参考；原目录抓取403，官方教师分析PDF已实读；本图为原创模拟而非LOC档案。"
+        },
+        {
+          "id": "LOC-photo-guide",
+          "title": "Library of Congress｜Analyzing Photographs & Prints",
+          "url": "https://lcweb2.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf",
+          "claim": "观察细节、检验假设、提出问题及进一步调查。",
+          "scope": "已读PDF正文并查看其单页实际图像；不支持本包虚构城市事实或认证。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读LOC官方Analyzing Photographs & Prints单页PDF正文及截图；目录访问403单列。只借方法，所有本课街景、世界与清单均原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "孩子只指图中看得到的东西，再指空白的画外框说还不知道。画外框不是发现的地方，不要求数数、写字、证明全城命题或画出自行车；成人代读代记。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "absence298-4-6-1",
+          "description": "看图并指已经画到的东西。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看图并指已经画到的东西",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 115,
+              "width": 260,
+              "height": 140,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 227,
+              "x2": 303,
+              "y2": 227,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 240,
+              "x2": 303,
+              "y2": 240,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 180,
+              "x2": 110,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 110,
+              "y": 166,
+              "r": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 235,
+              "y1": 180,
+              "x2": 235,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 235,
+              "y": 166,
+              "r": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 175,
+              "y": 189,
+              "r": 8,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 197,
+              "x2": 175,
+              "y2": 216,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 163,
+              "y1": 206,
+              "x2": 187,
+              "y2": 206,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 216,
+              "x2": 166,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 216,
+              "x2": 184,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 279,
+              "text": "自绘路、树、人",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模拟图，不是照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指路、树或人",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "画外还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-4-6-2",
+          "description": "在画外留一个不知道的框。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "在画外留一个不知道的框",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 125,
+              "width": 115,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 200,
+              "y": 125,
+              "width": 115,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 165,
+              "text": "图中",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 214,
+              "y": 165,
+              "text": "画外",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 220,
+              "y": 212,
+              "text": "？",
+              "fontSize": 28,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 175,
+              "y1": 180,
+              "x2": 193,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 276,
+              "text": "空白框不是发现",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模拟图，不是照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指路、树或人",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "画外还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-4-6-3",
+          "description": "把看见和猜想分开说。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把看见和猜想分开说",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 118,
+              "width": 270,
+              "height": 155,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 153,
+              "text": "图中没画车",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 202,
+              "text": "其他地方不知道",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 249,
+              "text": "成人代记我的话",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模拟图，不是照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指路、树或人",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "画外还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-4-6-4",
+          "description": "留下一个还想问的问题。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "留下一个还想问的问题",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 118,
+              "width": 270,
+              "height": 155,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 157,
+              "text": "我看见……",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 73,
+              "y": 218,
+              "text": "我想问……",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模拟图，不是照片",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "指路、树或人",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "画外还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "只指画说，不证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "图中没画车能告诉我们全城有无吗？",
+      "materials": [
+        "纸、铅笔；input-scene、possible-input、drawing-7-9、source-work-7-9、claim-work-7-9、outside-work、design/conclusion-7-9及protocol-7-9；reference-young后读。"
+      ],
+      "safety": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。",
+      "steps": [
+        {
+          "title": "画出限定的模拟街景",
+          "caption": "画出限定的模拟街景",
+          "action": "看input-scene，在drawing-7-9只画一段路、两棵树、一人并标原创模拟，非历史照片。不添自行车作原图证据；source-work-7-9记输入身份与未提供的时间地点。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "把图中话和全城话并排",
+          "caption": "把图中话和全城话并排",
+          "action": "claim-work-7-9比较“图中未见自行车”“全城没有自行车”“全城一定有自行车”，写哪项超出画面；不把未见理解为确定不存在。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "想一个可能的画外情况",
+          "caption": "想一个可能的画外情况",
+          "action": "outside-work只画或说“假如另一条路有车”，也保留“也可能没有”；用possible-input区分假想与实际。这个想象只说明原图不能决定全城事实。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "写清有限结论与所需资料",
+          "caption": "写清有限结论与所需资料",
+          "action": "conclusion-7-9引用图中实际画了什么，写还不能回答全城有无，design-7-9只设计要问的时间、视野或其他资料；reference-young做完才看。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "局部与整体",
+          "想象与证据"
+        ],
+        "explanation": "缺少某物的呈现不自动等于该物不存在，也不证明它存在。证据力取决于声明的范围、时刻、完整记录与检测能力；具备明确完备条件时可在限定范围作否定判断。",
+        "limits": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。",
+        "observation": "原图内容、来源身份、覆盖范围、时刻、作者选择与检测未知分栏；反例构造明确标假想，不能登记成史实。",
+        "nextQuestion": "还需要什么资料才能判断全城有无？"
+      },
+      "guide": {
+        "goal": "写清有限结论与所需资料",
+        "observe": "有限图景和全城断言相差什么？",
+        "recordFields": [
+          "图中不等于全城",
+          "画外只是想象",
+          "无与有都不能保证",
+          "结论注明范围"
+        ],
+        "control": "保持原模拟图不变；另加世界、时间、覆盖与检测条件必须注明是假设，不当新增历史资料。",
+        "support": "可口述由成人代记；输入、空白记录与完成后参考分开，只做纸笔。",
+        "time": "10—15分钟"
+      },
+      "sources": [
+        {
+          "id": "AN-H0",
+          "title": "美国国会图书馆｜史料分析指南",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "claim": "史料分析中分别记录所见、假设、问题并设计进一步核查。",
+          "scope": "方法参考；原目录抓取403，官方教师分析PDF已实读；本图为原创模拟而非LOC档案。"
+        },
+        {
+          "id": "LOC-photo-guide",
+          "title": "Library of Congress｜Analyzing Photographs & Prints",
+          "url": "https://lcweb2.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf",
+          "claim": "观察细节、检验假设、提出问题及进一步调查。",
+          "scope": "已读PDF正文并查看其单页实际图像；不支持本包虚构城市事实或认证。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读LOC官方Analyzing Photographs & Prints单页PDF正文及截图；目录访问403单列。只借方法，所有本课街景、世界与清单均原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "absence298-7-9-1",
+          "description": "画出限定的模拟街景。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画出限定的模拟街景",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 115,
+              "width": 260,
+              "height": 140,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 227,
+              "x2": 303,
+              "y2": 227,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 67,
+              "y1": 240,
+              "x2": 303,
+              "y2": 240,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 180,
+              "x2": 110,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 110,
+              "y": 166,
+              "r": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 235,
+              "y1": 180,
+              "x2": 235,
+              "y2": 223,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 235,
+              "y": 166,
+              "r": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 175,
+              "y": 189,
+              "r": 8,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 197,
+              "x2": 175,
+              "y2": 216,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 163,
+              "y1": 206,
+              "x2": 187,
+              "y2": 206,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 216,
+              "x2": 166,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 175,
+              "y1": 216,
+              "x2": 184,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 280,
+              "text": "只画一段路、两树、一人",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图中不等于全城",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "画外只是想象",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无与有都不能保证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结论注明范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-7-9-2",
+          "description": "把图中话和全城话并排。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把图中话和全城话并排",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 52,
+              "y": 116,
+              "width": 275,
+              "height": 160,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 151,
+              "text": "图中未见",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 194,
+              "text": "全城没有？",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 238,
+              "text": "全城一定有？",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图中不等于全城",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "画外只是想象",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无与有都不能保证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结论注明范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-7-9-3",
+          "description": "想一个可能的画外情况。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "想一个可能的画外情况",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 119,
+              "width": 273,
+              "height": 153,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 152,
+              "text": "假如另一条路有车",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 196,
+              "text": "也可能没有",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 241,
+              "text": "两个都是想象情形",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图中不等于全城",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "画外只是想象",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无与有都不能保证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结论注明范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-7-9-4",
+          "description": "写清有限结论与所需资料。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写清有限结论与所需资料",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 135,
+              "text": "只说这幅模拟图",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 53,
+              "y1": 164,
+              "x2": 316,
+              "y2": 164,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 207,
+              "text": "城市有无仍需资料",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 255,
+              "text": "先问范围与时间",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图中不等于全城",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "画外只是想象",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无与有都不能保证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "结论注明范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "哪些记录限制使未呈现不能决定有无？",
+      "materials": [
+        "纸、铅笔；input-scene、source-card、omission-input、worlds-input、scope-work、omission-work、worlds-work、audit-work、design/conclusion-10-12及protocol-10-12；reference后读。"
+      ],
+      "safety": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。",
+      "steps": [
+        {
+          "title": "记录来源身份与覆盖范围",
+          "caption": "记录来源身份与覆盖范围",
+          "action": "读input-scene、source-card，在scope-work记自绘身份、画面范围、城市/时刻未知与作者选择；文字方法来源不是这张模拟图的历史出处。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "逐一检查遗漏的不同原因",
+          "caption": "逐一检查遗漏的不同原因",
+          "action": "读omission-input，在omission-work分别写视野外、时刻不同、作者未选择、识别不到等可能。它们不是已发现原因，不能互相偷换，也不能推出实际存在。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "用两个相容世界检验推断",
+          "caption": "用两个相容世界检验推断",
+          "action": "worlds-input给两种假设，worlds-work写同一画面与相反城市有无如何相容；audit-work判断“无”“有”“无法由图定”各需的证据，不把反例世界当历史证据。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "为否定判断写清条件",
+          "caption": "为否定判断写清条件",
+          "action": "design-10-12写待查范围、时间、完整性与检测能力，conclusion-10-12区分未画、未查和已查未发现；不能说所有否定结论都永远不可能。reference最后读。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "覆盖范围",
+          "记录选择",
+          "遗漏机制"
+        ],
+        "explanation": "缺少某物的呈现不自动等于该物不存在，也不证明它存在。证据力取决于声明的范围、时刻、完整记录与检测能力；具备明确完备条件时可在限定范围作否定判断。",
+        "limits": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。",
+        "observation": "原图内容、来源身份、覆盖范围、时刻、作者选择与检测未知分栏；反例构造明确标假想，不能登记成史实。",
+        "nextQuestion": "什么条件使未发现更能支持限定的否定？"
+      },
+      "guide": {
+        "goal": "为否定判断写清条件",
+        "observe": "缺席可能由哪些环节产生？",
+        "recordFields": [
+          "视野·时间·选择",
+          "检测能力也需说明",
+          "可能原因不当事实",
+          "来源只支持方法"
+        ],
+        "control": "保持原模拟图不变；另加世界、时间、覆盖与检测条件必须注明是假设，不当新增历史资料。",
+        "support": "可口述由成人代记；输入、空白记录与完成后参考分开，只做纸笔。",
+        "time": "15—20分钟，可分次"
+      },
+      "sources": [
+        {
+          "id": "AN-H0",
+          "title": "美国国会图书馆｜史料分析指南",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "claim": "史料分析中分别记录所见、假设、问题并设计进一步核查。",
+          "scope": "方法参考；原目录抓取403，官方教师分析PDF已实读；本图为原创模拟而非LOC档案。"
+        },
+        {
+          "id": "LOC-photo-guide",
+          "title": "Library of Congress｜Analyzing Photographs & Prints",
+          "url": "https://lcweb2.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf",
+          "claim": "观察细节、检验假设、提出问题及进一步调查。",
+          "scope": "已读PDF正文并查看其单页实际图像；不支持本包虚构城市事实或认证。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读LOC官方Analyzing Photographs & Prints单页PDF正文及截图；目录访问403单列。只借方法，所有本课街景、世界与清单均原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "absence298-10-12-1",
+          "description": "记录来源身份与覆盖范围。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "记录来源身份与覆盖范围",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 54,
+              "y": 116,
+              "width": 273,
+              "height": 161,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 151,
+              "text": "画面范围 / 时刻",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 196,
+              "text": "作者选择 / 检测",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 241,
+              "text": "未知如实留空",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "视野·时间·选择",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "检测能力也需说明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因不当事实",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "来源只支持方法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-10-12-2",
+          "description": "逐一检查遗漏的不同原因。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐一检查遗漏的不同原因",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 115,
+              "width": 276,
+              "height": 163,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 149,
+              "text": "画外  |  别的时刻",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 193,
+              "text": "省略  |  识别不到",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 240,
+              "text": "原因候选 ≠ 已证事实",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "视野·时间·选择",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "检测能力也需说明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因不当事实",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "来源只支持方法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-10-12-3",
+          "description": "用两个相容世界检验推断。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用两个相容世界检验推断",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 52,
+              "y": 119,
+              "width": 128,
+              "height": 151,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 193,
+              "y": 119,
+              "width": 134,
+              "height": 151,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 154,
+              "text": "假设W0",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 204,
+              "y": 154,
+              "text": "假设W1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 207,
+              "text": "城中无",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 207,
+              "y": 207,
+              "text": "画外有",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 252,
+              "text": "同一图",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 207,
+              "y": 252,
+              "text": "同一图",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "视野·时间·选择",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "检测能力也需说明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因不当事实",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "来源只支持方法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-10-12-4",
+          "description": "为否定判断写清条件。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "为否定判断写清条件",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 136,
+              "text": "未画 / 未查 / 查未见",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 52,
+              "y1": 165,
+              "x2": 318,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 207,
+              "text": "覆盖与检测先说明",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 255,
+              "text": "否定结论也要条件",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "视野·时间·选择",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "检测能力也需说明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因不当事实",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "来源只支持方法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样用相容世界检验不蕴含与有条件否定？",
+      "materials": [
+        "纸、铅笔；input-scene、model-input、closed-input、definition-work、truth-work、case-work、closed-work、failure-work、design/conclusion-13-16及protocol-13-16；reference-model后读。"
+      ],
+      "safety": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。",
+      "steps": [
+        {
+          "title": "定义记录与真实状态变量",
+          "caption": "定义记录与真实状态变量",
+          "action": "读model-input，在definition-work写A/B区域、同一t0、a/b是否有车、s是否选择及d能否检测；这些是另题的二元假设，不是城市统计。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "列出记录为空的相容世界",
+          "caption": "列出记录为空的相容世界",
+          "action": "truth-work对四种(a,b)计算R=a×s×d；case-work列给定四世界的R及城市有无。只要同R=0可有相反结论，原记录就不唯一识别存在。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "比较局部图与完备有限清单",
+          "caption": "比较局部图与完备有限清单",
+          "action": "读closed-input，closed-work在有限三格、同一时刻、逐格穷尽、完美检测且诚实记录假设下推各格R=0意味着盒内无车；failure-work撤去覆盖或检测条件构造反例。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        },
+        {
+          "title": "把逻辑结果限制在声明范围",
+          "caption": "把逻辑结果限制在声明范围",
+          "action": "conclusion-13-16区分逻辑不蕴含与实际不存在/存在；design-13-16只设计需核验的覆盖、时段、选择与检测证据，不能推广到全城所有时刻。reference-model最后读。",
+          "actor": "together",
+          "adultNote": "只在桌面使用纸、铅笔与本包自绘模拟图，不到道路观察或骑车验证，不触碰文物，不上传私人照片或身份信息。成人备纸并保管橡皮等小件，幼儿全程近距离陪伴；无需剪裁，笔纸不入口，疲倦可停，结束整理洗手。延伸只纸笔。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "不蕴含",
+          "相容世界",
+          "检测与完备性"
+        ],
+        "explanation": "缺少某物的呈现不自动等于该物不存在，也不证明它存在。证据力取决于声明的范围、时刻、完整记录与检测能力；具备明确完备条件时可在限定范围作否定判断。",
+        "limits": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。",
+        "observation": "原图内容、来源身份、覆盖范围、时刻、作者选择与检测未知分栏；反例构造明确标假想，不能登记成史实。",
+        "nextQuestion": "若检测不完整，哪一个逻辑步骤会失效？"
+      },
+      "guide": {
+        "goal": "把逻辑结果限制在声明范围",
+        "observe": "在所有相容世界里结论是否均为真？",
+        "recordFields": [
+          "R = a × s × d",
+          "同R可有不同世界",
+          "完备需明确前提",
+          "反例不证明实有"
+        ],
+        "control": "保持原模拟图不变；另加世界、时间、覆盖与检测条件必须注明是假设，不当新增历史资料。",
+        "support": "可口述由成人代记；输入、空白记录与完成后参考分开，只做纸笔。",
+        "time": "20—30分钟，可分次"
+      },
+      "sources": [
+        {
+          "id": "AN-H0",
+          "title": "美国国会图书馆｜史料分析指南",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "claim": "史料分析中分别记录所见、假设、问题并设计进一步核查。",
+          "scope": "方法参考；原目录抓取403，官方教师分析PDF已实读；本图为原创模拟而非LOC档案。"
+        },
+        {
+          "id": "LOC-photo-guide",
+          "title": "Library of Congress｜Analyzing Photographs & Prints",
+          "url": "https://lcweb2.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf",
+          "claim": "观察细节、检验假设、提出问题及进一步调查。",
+          "scope": "已读PDF正文并查看其单页实际图像；不支持本包虚构城市事实或认证。"
+        }
+      ],
+      "sourceNote": "2026-11-06实读LOC官方Analyzing Photographs & Prints单页PDF正文及截图；目录访问403单列。只借方法，所有本课街景、世界与清单均原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独审",
+        "method": "作者静态检查",
+        "limitations": "一段路、两树、一人的图是原创模拟，不是历史照片、真实城市或档案。未画自行车既不证明全城无，也不证明全城有。画外、别的时间或作者省略只是相容假设；反例证明原图不能保证强断言，不证明想象情形实际发生。检测范围、选择规则及时间未知时保留未知；未做实物、儿童或打印测试。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "absence298-13-16-1",
+          "description": "定义记录与真实状态变量。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "定义记录与真实状态变量",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 54,
+              "y": 116,
+              "width": 273,
+              "height": 162,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 153,
+              "text": "a,b：两区有无",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 198,
+              "text": "s选择；d检测",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 244,
+              "text": "R=a×s×d",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "R = a × s × d",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "同R可有不同世界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "完备需明确前提",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "反例不证明实有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-13-16-2",
+          "description": "列出记录为空的相容世界。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "列出记录为空的相容世界",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 134,
+              "text": "R=0：不唯一",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 52,
+              "y1": 164,
+              "x2": 318,
+              "y2": 164,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 208,
+              "text": "a=0 或 s=0 或 d=0",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 255,
+              "text": "b未被这张图覆盖",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "R = a × s × d",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "同R可有不同世界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "完备需明确前提",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "反例不证明实有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-13-16-3",
+          "description": "比较局部图与完备有限清单。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较局部图与完备有限清单",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 134,
+              "width": 75,
+              "height": 90,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 134,
+              "width": 75,
+              "height": 90,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 134,
+              "width": 75,
+              "height": 90,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 77,
+              "y": 172,
+              "text": "格1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 166,
+              "y": 172,
+              "text": "格2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 256,
+              "y": 172,
+              "text": "格3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 267,
+              "text": "另题：全覆盖与可靠检测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "R = a × s × d",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "同R可有不同世界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "完备需明确前提",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "反例不证明实有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "absence298-13-16-4",
+          "description": "把逻辑结果限制在声明范围。原创模拟图或另题逻辑提示，假设世界不是实际历史发现。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把逻辑结果限制在声明范围",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 52,
+              "y": 116,
+              "width": 275,
+              "height": 162,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 152,
+              "text": "只限声明的盒与时刻",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 198,
+              "text": "撤去假设要重判",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 245,
+              "text": "不外推全城与历史",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "R = a × s × d",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "同R可有不同世界",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "完备需明确前提",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "反例不证明实有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

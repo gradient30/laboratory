@@ -1,0 +1,1787 @@
+{
+  "activityId": 63,
+  "activityTitle": "同一本书可能有不同材料",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "自家普通现代纸质书或练习本1本（可轻翻、无私人内容）；A3底纸1张",
+        "成人预裁至少6×10厘米大纸卡8张（其中留1张空白作遮纸），粗笔1支、记录纸2张",
+        "成人可打开本页所列机构来源，或事先按步骤写明来源标题与网址的中文摘要；不用付费或登录"
+      ],
+      "safety": "只使用自家完好、无私人笔记的普通现代书或练习本，成人确认可轻翻；不拆、不湿润、不揉搓、不刮、不燃烧、不嗅测书页，也不测试古籍或借阅书。所有纸卡/纸板/布片由成人预裁修边，剪刀收好；不用针线、订书钉、金属扣、真实皮革或动物皮，不入口。布边若散出长线由成人收走；活动不要求宗教参与。",
+      "steps": [
+        {
+          "title": "先找现代书的不同位置",
+          "action": "成人轻翻现代书，孩子指出印字页与封面，不撕拆。成人只把能确认的普通纸页记为“这本的纸页”；封面若不知涂层/芯材，写“未确认”，不能仅摸硬就叫木头。",
+          "actor": "together",
+          "caption": "先找现代书的不同位置",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "把观察放进本书范围",
+          "action": "在两张大卡写“这本现代书的页”和“所有古书的页”，孩子把实际观察摘要放在第一卡旁。成人说明眼前只看了一本现代书，没有看见所有古书。",
+          "actor": "together",
+          "caption": "把观察放进本书范围",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "读一件非纸书页证据",
+          "action": "成人读LC馆藏问答摘要：这部古腾堡印本的印字书页使用vellum，这里具体是经处理的犊皮，不是植物纤维纸。中文有时把parchment统称羊皮纸，但不能由这个俗称断定所有件都来自羊；本例来源明确是犊皮。书名只识别材料，不要求阅读宗教文本。用另一张卡写“LC古书页：犊皮材料，来源说明”，孩子把这张明确标来源的卡放到“并非全是纸”的区域，不把卡片本身的纸当古书原材。",
+          "actor": "adult",
+          "caption": "读一件非纸书页证据",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "亲手改掉过大的说法",
+          "action": "成人准备练习句“古书的书页全是纸”，明确是待检查的说法不是史实。孩子用大遮纸盖住“全是纸”，成人代写“至少有非纸书页实例”；再把现代书观察与来源卡分放两处，说明它们如何得知不同。",
+          "actor": "together",
+          "caption": "亲手改掉过大的说法",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "书页与封面不是同一部件",
+          "单个观察的范围",
+          "反例否定全称"
+        ],
+        "explanation": "眼前现代书的纸页只能说明这一本。机构记录的一件犊皮承印书页，已经足以反对“古书页全是纸”，但不能推出大多数古书是什么材料。",
+        "limits": "没有接触古书原物，材质来自馆藏说明；练习卡是纸制，不是犊皮样品；不推总体数量或比例。",
+        "observation": "现代页/封面指认、未知说明、来源卡放置与原句修改。",
+        "nextQuestion": "找到一本纸页书，为什么不能说世界上每一本古书的页都一样？"
+      },
+      "guide": {
+        "goal": "实际定位部件、归放证据卡并遮改全称断言。",
+        "observe": "眼前现代书的纸页和LC馆藏的犊皮书页，各能支持什么范围的说法？",
+        "support": "成人读摘要写卡，幼儿指认和移动卡，口述代记。",
+        "control": "只轻翻同一现代书；本书观察与机构来源分区，未知封面不猜，练习错误句明确标识。",
+        "time": "约15分钟。",
+        "recordFields": [
+          "现代书页/封面与未知",
+          "来源卡与观察分区",
+          "修改后的说法"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "material63-46-book",
+          "description": "现代书展开可见页与外封面。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "现代书：指页和封面，不拆",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 150,
+              "width": 330,
+              "height": 125,
+              "fill": "#DDC4A5",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 159,
+              "width": 306,
+              "height": 105,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 315,
+              "y1": 159,
+              "x2": 315,
+              "y2": 264,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 175,
+              "y": 205,
+              "text": "页",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-46-scope",
+          "description": "纸卡实际归放位置。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "一本的观察，不等所有古书",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "这本现代书",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "所有古书（不能全见）",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "实际观察卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "来源证据另放",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-46-source",
+          "description": "来源卡不是材料试样。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "LC来源说：该本书页是犊皮材料",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "机构说明",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "不是手边纸卡的材质",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-46-edit",
+          "description": "遮纸覆盖全是纸练习词。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "练习句改写：至少有非纸实例",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 170,
+              "width": 480,
+              "height": 65,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 211,
+              "text": "古书页",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 280,
+              "y": 211,
+              "text": "全是纸",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 270,
+              "y": 180,
+              "width": 110,
+              "height": 42,
+              "fill": "#C8D6D3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 280,
+              "text": "遮改的是练习断言，不是书页",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "眼前现代书的纸页和LC馆藏的犊皮书页，各能支持什么范围的说法？",
+      "sources": [
+        {
+          "title": "Library of Congress｜Gutenberg Bible FAQ",
+          "url": "https://guides.loc.gov/gutenberg/questions",
+          "claim": "问答注明LC本印在vellum（此件为经处理的犊皮）上；其装订说明为约1560年的木板外包白色猪皮。",
+          "scope": "严格区分书页承印材料和装订部件；约1560用于装订，不当印刷年代。此馆藏实例不代表全部古书或所有同版副本。"
+        }
+      ],
+      "sourceNote": "依据LC与Keio馆藏说明独立设计材料部件模型和历史证据操作，未课堂试用，不代表机构认证。没有接触或鉴定古籍原物，不把代理材料性质当史料；来源摘要、故意练习错误与实际参与记录分开。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "自家普通现代纸质书或练习本1本（可轻翻、无私人内容）；A3底纸1张",
+        "成人预裁至少6×10厘米大纸卡8张（其中留1张空白作遮纸），粗笔1支、记录纸2张",
+        "成人可打开本页所列机构来源，或事先按步骤写明来源标题与网址的中文摘要；不用付费或登录",
+        "再备大纸卡4张（共12张），两张底纸分别标LC馆藏和Keio馆藏，画书页/封板/外包三个位置"
+      ],
+      "safety": "只使用自家完好、无私人笔记的普通现代书或练习本，成人确认可轻翻；不拆、不湿润、不揉搓、不刮、不燃烧、不嗅测书页，也不测试古籍或借阅书。所有纸卡/纸板/布片由成人预裁修边，剪刀收好；不用针线、订书钉、金属扣、真实皮革或动物皮，不入口。布边若散出长线由成人收走；活动不要求宗教参与。",
+      "steps": [
+        {
+          "title": "成人写六张可回源的材料卡",
+          "action": "成人读LC馆藏问答摘要：这部古腾堡印本的印字书页使用vellum，这里具体是经处理的犊皮，不是植物纤维纸。中文有时把parchment统称羊皮纸，但不能由这个俗称断定所有件都来自羊；本例来源明确是犊皮。书名只识别材料，不要求阅读宗教文本。成人从两来源写六卡：LC书页犊皮材料、LC封板木、LC外包白色猪皮；Keio书页纸、Keio封板木、Keio外包棕色犊皮。每卡保留馆藏名、部件、来源网址；不把外包皮革直接叫书页vellum。",
+          "actor": "together",
+          "caption": "成人写六张可回源的材料卡",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "先按副本组装部件记录",
+          "action": "两底纸分别写LC/Keio，每张画页/封板/外包三个位置。打乱六卡，孩子按馆藏与部件实际放入对应位置，逐卡回看来源摘要。两张底纸代表同一印本的不同馆藏副本，不是同一个实物在两地。",
+          "actor": "together",
+          "caption": "先按副本组装部件记录",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "收回，再按部件并排比",
+          "action": "六卡收回，另把同部件的两馆藏卡并排：页对页、封板对封板、外包对外包。分别指出哪些材料描述相同、哪些不同；不因一个词“皮”相同就忽略部件和处理用途。",
+          "actor": "together",
+          "caption": "收回，再按部件并排比",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "回到同版与同件区别",
+          "action": "把六卡重新归两副本，写“同一版可有不同书页材料”和“一个副本的不同部件也可用不同材料”两句，各实际选出所需卡放旁边作证。缺证的一句不能用纸卡自身体感代替来源。",
+          "actor": "together",
+          "caption": "回到同版与同件区别",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同版不同副本",
+          "同副本不同部件",
+          "字段配对比较",
+          "材质词与用途"
+        ],
+        "explanation": "比较两馆藏时必须先对准部件：LC的犊皮书页和Keio的纸页是可比字段；封面外包的皮革则是另一个位置。一个书名不能自动决定每个副本、每个部件的材质。",
+        "limits": "仅两副本六个材料字段，不能估计全部古书分布；卡是摘要，真实材料识别来自机构记录。",
+        "observation": "六卡两种重排、同部件比较、两结论对应证据。",
+        "nextQuestion": "为什么不能拿一本的皮封面和另一本的纸书页直接说它们书页材质不同？"
+      },
+      "guide": {
+        "goal": "六卡按副本再按部件真实重排，支持两种不同层级的材料结论。",
+        "observe": "六张材料卡按副本和按部件重排后，哪些差异属于不同书，哪些属于同书的不同部分？",
+        "support": "成人按原源写摘要，孩子逐卡匹配并回核，未知不补猜。",
+        "control": "同六字段，保留副本/部件/出处；两次全部收回重排，不混用层级。",
+        "time": "约25分钟。",
+        "recordFields": [
+          "按副本六卡位置",
+          "按部件对照",
+          "两结论各自证据"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "material63-79-cards",
+          "description": "六条来源摘要字段，各卡不混副本。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每卡写副本 + 部件 + 材料",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "LC页：犊皮材料",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "Keio页：纸",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "LC封板：木",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "Keio封板：木",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 240,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 267,
+              "text": "LC外包：白猪皮",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 240,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 267,
+              "text": "Keio外包：棕犊皮",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-79-copies",
+          "description": "两副本底纸需真实放卡。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先按两个馆藏副本摆部件",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 240,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 145,
+              "width": 240,
+              "height": 140,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 132,
+              "text": "LC",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 425,
+              "y": 132,
+              "text": "Keio",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 180,
+              "text": "页 / 封板 / 外包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 360,
+              "y": 180,
+              "text": "页 / 封板 / 外包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-79-parts",
+          "description": "重排后比较对应部件。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "再按同部件并排，不交叉乱比",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "LC书页",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "Keio书页",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "LC封板",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "Keio封板",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 240,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 267,
+              "text": "LC外包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 240,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 267,
+              "text": "Keio外包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-79-evidence",
+          "description": "纸卡实物给两种结论配置来源。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "同版不同副本 ≠ 同件不同部分",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "两副本书页证据",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "一副本三部件证据",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "六张材料卡按副本和按部件重排后，哪些差异属于不同书，哪些属于同书的不同部分？",
+      "sources": [
+        {
+          "title": "Library of Congress｜Gutenberg Bible FAQ",
+          "url": "https://guides.loc.gov/gutenberg/questions",
+          "claim": "问答注明LC本印在vellum（此件为经处理的犊皮）上；其装订说明为约1560年的木板外包白色猪皮。",
+          "scope": "严格区分书页承印材料和装订部件；约1560用于装订，不当印刷年代。此馆藏实例不代表全部古书或所有同版副本。"
+        },
+        {
+          "title": "Keio University Libraries｜Incunabula 036",
+          "url": "https://dcollections.lib.keio.ac.jp/en/incunabula/036",
+          "claim": "馆藏正文称Keio本印在纸上、缺第二卷；保留十五世纪装订，棕色犊皮覆盖木板，书脊曾重新加固。",
+          "scope": "仅取本馆藏的材料/部件与装订描述，不把书脊修复日期猜成已知，也不沿用页面不同位置的存世总数估计来推总体比例。"
+        }
+      ],
+      "sourceNote": "依据LC与Keio馆藏说明独立设计材料部件模型和历史证据操作，未课堂试用，不代表机构认证。没有接触或鉴定古籍原物，不把代理材料性质当史料；来源摘要、故意练习错误与实际参与记录分开。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人预裁现代纸板4片（10×15厘米，边缘平滑）、普通白纸6片（9×14厘米）、干净布片4片（10×15厘米，成人收整毛边），不用皮革木板",
+        "A3底纸2张，粗笔1支、记录纸3张、大标签12张（至少6×8厘米）",
+        "本页LC与Keio来源摘要各1份，必须带馆藏/部件/网址；不用真实古书；普通现代书可选轻翻不拆"
+      ],
+      "safety": "只使用自家完好、无私人笔记的普通现代书或练习本，成人确认可轻翻；不拆、不湿润、不揉搓、不刮、不燃烧、不嗅测书页，也不测试古籍或借阅书。所有纸卡/纸板/布片由成人预裁修边，剪刀收好；不用针线、订书钉、金属扣、真实皮革或动物皮，不入口。布边若散出长线由成人收走；活动不要求宗教参与。",
+      "steps": [
+        {
+          "title": "标清代理材料不是原材料",
+          "action": "成人读LC馆藏问答摘要：这部古腾堡印本的印字书页使用vellum，这里具体是经处理的犊皮，不是植物纤维纸。中文有时把parchment统称羊皮纸，但不能由这个俗称断定所有件都来自羊；本例来源明确是犊皮。书名只识别材料，不要求阅读宗教文本。读Keio页的纸页、木板外覆棕犊皮说明。准备两套各3纸页、2纸板、2布片，分别标LC模型/Keio模型。每套纸、板、布都是现代代理物：LC纸页代理犊皮页，Keio纸页代理纸页；两套纸板代理木封板、布代理皮外包。另写实际材料/代表部件/原件材料三栏标签。",
+          "actor": "together",
+          "caption": "标清代理材料不是原材料",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "实际叠成两套部件模型",
+          "action": "每套从下到上放布/板/3纸页/板/布，松叠在底纸上，不打孔、不缝、不粘，成人扶平防散。标页、前后封板与外包的对应关系；说清布没有包住板、纸页没有装订，模型只演示部件层次，不是历史结构复原。",
+          "actor": "together",
+          "caption": "实际叠成两套部件模型",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "逐层拆开审计错误标签",
+          "action": "成人先声明放入一张故意错误的练习标签“LC原件书页：普通纸”，不当真实资料。孩子逐层取下并核实际代理物与来源所述原件材料，在错误卡上标“混淆代理与原件”，换上正确标签；同时核Keio模型不能因两套都用了现代白纸就认为原件页相同。",
+          "actor": "together",
+          "caption": "逐层拆开审计错误标签",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "重新组装并给出双层材料表",
+          "action": "两套重新松叠，分别完成实际用料表与来源部件表。写明哪些是亲手看见/触到，哪些仅由馆藏说明得知；代理材料触感、吸水性、耐用性均不能拿来代表古代材料性能，也不做湿测。",
+          "actor": "together",
+          "caption": "重新组装并给出双层材料表",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "部件层次",
+          "代理材料与原件材料",
+          "表征不等物性复原",
+          "双层证据记录"
+        ],
+        "explanation": "同一块现代纸可在两个模型代表不同的历史材料，所以摸模型本身不能识别原件。拆装帮助看部件位置，历史材质仍必须回到有明确副本与部件的来源字段。",
+        "limits": "松叠模型无缝线/包覆/锁扣，不是装订复原，也不测历史物性；不把故意错误标签记成参与者原始误判。",
+        "observation": "实际七层装拆、三栏对应、错误标签纠正与重新组装表。",
+        "nextQuestion": "两个模型都用了白纸，为什么不能据此断定两个古书原件的书页材料相同？"
+      },
+      "guide": {
+        "goal": "实际双模型松叠/拆装，核代理—部件—原件三层标签，避免把模型物性当史料。",
+        "observe": "两套模型的纸、板、布各代表什么，拆层后怎样识别“摸到的材料”与“来源说的材料”？",
+        "support": "成人预裁和扶层，学习者实际拆叠与核标签；故意错误预先标为练习。",
+        "control": "两模型同现代代理用料、每套七层，真实来源字段各自绑定；不做物性实验或修复古书。",
+        "time": "约30分钟。",
+        "recordFields": [
+          "两套七层装拆记录",
+          "实际/部件/原件三栏",
+          "练习错误标签纠正",
+          "亲见与来源边界"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "material63-1012-materials",
+          "description": "每套代理材料层数7，另套同样备料；展开示意。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每套：布2 / 板2 / 纸3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 265,
+              "width": 270,
+              "height": 15,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 240,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 215,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 190,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 160,
+              "width": 270,
+              "height": 15,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 148,
+              "text": "展开的层，不是悬浮实物",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 180,
+              "text": "布另放",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 205,
+              "width": 80,
+              "height": 20,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 245,
+              "width": 80,
+              "height": 20,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1012-stack",
+          "description": "松叠两模型，外布/板/三纸/板/布共七层。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "同代理材料，不等原件同材质",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 165,
+              "width": 210,
+              "height": 12,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 165,
+              "width": 210,
+              "height": 12,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 180,
+              "width": 210,
+              "height": 12,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 180,
+              "width": 210,
+              "height": 12,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 195,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 195,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 210,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 210,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 225,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 225,
+              "width": 210,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 240,
+              "width": 210,
+              "height": 12,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 240,
+              "width": 210,
+              "height": 12,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 255,
+              "width": 210,
+              "height": 12,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 360,
+              "y": 255,
+              "width": 210,
+              "height": 12,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 145,
+              "text": "LC模型",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 415,
+              "y": 145,
+              "text": "Keio模型",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1012-audit",
+          "description": "三纸两板展开，布件暂在旁，拆层不是古书拆解。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "拆代理层，核三栏标签",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 265,
+              "width": 270,
+              "height": 15,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 240,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 215,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 190,
+              "width": 246,
+              "height": 12,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 160,
+              "width": 270,
+              "height": 15,
+              "fill": "#B59C7F",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 148,
+              "text": "展开的层，不是悬浮实物",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 470,
+              "y": 180,
+              "text": "布另放",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 205,
+              "width": 80,
+              "height": 20,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 245,
+              "width": 80,
+              "height": 20,
+              "fill": "#D5D1DA",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1012-record",
+          "description": "真实代理和史料描述分开。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "实际白纸 ≠ LC原件是普通纸",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "实际代理：纸 / 板 / 布",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "原件材料：须查来源",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "亲眼看见现代模型",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "来源描述古书部件",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "两套模型的纸、板、布各代表什么，拆层后怎样识别“摸到的材料”与“来源说的材料”？",
+      "sources": [
+        {
+          "title": "Library of Congress｜Gutenberg Bible FAQ",
+          "url": "https://guides.loc.gov/gutenberg/questions",
+          "claim": "问答注明LC本印在vellum（此件为经处理的犊皮）上；其装订说明为约1560年的木板外包白色猪皮。",
+          "scope": "严格区分书页承印材料和装订部件；约1560用于装订，不当印刷年代。此馆藏实例不代表全部古书或所有同版副本。"
+        },
+        {
+          "title": "Keio University Libraries｜Incunabula 036",
+          "url": "https://dcollections.lib.keio.ac.jp/en/incunabula/036",
+          "claim": "馆藏正文称Keio本印在纸上、缺第二卷；保留十五世纪装订，棕色犊皮覆盖木板，书脊曾重新加固。",
+          "scope": "仅取本馆藏的材料/部件与装订描述，不把书脊修复日期猜成已知，也不沿用页面不同位置的存世总数估计来推总体比例。"
+        }
+      ],
+      "sourceNote": "依据LC与Keio馆藏说明独立设计材料部件模型和历史证据操作，未课堂试用，不代表机构认证。没有接触或鉴定古籍原物，不把代理材料性质当史料；来源摘要、故意练习错误与实际参与记录分开。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "成人预裁至少6×10厘米来源字段卡10张，A3底纸2张、记录纸4张、铅笔/粗笔各1支",
+        "大遮纸2张（至少8×12厘米）只遮字段卡来源，不修改网页；可移纸胶带少量",
+        "LC FAQ与Keio036正文可访问文本或成人抄写的带网址摘要；另备现代普通纸书1本仅供轻翻对照"
+      ],
+      "safety": "只使用自家完好、无私人笔记的普通现代书或练习本，成人确认可轻翻；不拆、不湿润、不揉搓、不刮、不燃烧、不嗅测书页，也不测试古籍或借阅书。所有纸卡/纸板/布片由成人预裁修边，剪刀收好；不用针线、订书钉、金属扣、真实皮革或动物皮，不入口。布边若散出长线由成人收走；活动不要求宗教参与。",
+      "steps": [
+        {
+          "title": "建立两副本的部件与年代档案",
+          "action": "从来源逐条实际制作8字段卡：LC页=犊皮、封板=木、外包=白猪皮、装订约1560；Keio页=纸、封板=木、外包=棕犊皮、装订=十五世纪且书脊曾重加固（加固日期未给）。每卡写副本、部件或事件、材料或年代、原网址和所据段落。LC约1560是装订事件，不是把整本印刷改到1560。",
+          "actor": "together",
+          "caption": "建立两副本的部件与年代档案",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "按查询不同实际重组证据",
+          "action": "在底纸建副本×页/封板/外包/装订事件四列，放8卡。依次完成三查询并把所需卡取到查询区、登记后复位：Q1两副本页材料是否一致；Q2LC副本是否只有一种材料；Q3能否由装订年代判定印刷年。Q3区必须区分已知装订事件与尚缺的印刷年代证据，不能用常识补成此8卡已经支持。",
+          "actor": "together",
+          "caption": "按查询不同实际重组证据",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "遮出处后做可追溯性审计",
+          "action": "成人先遮LC页卡与Keio页卡的副本名和网址，但保留材料词；参与者另写“单凭当前可见字能否归到特定副本”的答案及需要找回的字段。已看过原卡会有记忆，必须分记记忆归属与可见证据，不称盲测。揭开后回源核对并恢复正确位置。",
+          "actor": "together",
+          "caption": "遮出处后做可追溯性审计",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        },
+        {
+          "title": "形成最小反例包与保留未知",
+          "action": "为“古书书页全是普通纸”选最少足够的可追溯证据卡，写具体副本/页/材质/来源；另写为什么不能由两副本推古书材质总体比例。保留Keio书脊重加固日期未知、Q3缺印刷年代等空项，不以词“旧”或装订年填补。说明同版不同副本与同实物不同部件两种问题不同。",
+          "actor": "together",
+          "caption": "形成最小反例包与保留未知",
+          "adultNote": "只读公开机构说明、操作自制卡和普通现代书；未知字段留未知，不根据书名或页面颜色猜材质。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "副本—部件—事件三种字段",
+          "来源可追溯性",
+          "最小反例与全称断言",
+          "未知不以相关年代填补"
+        ],
+        "explanation": "一句“这书是皮的”缺少部件和副本，可能误把封皮当书页。年代也要挂到具体事件，装订可晚于印刷。带来源的一个非纸书页实例能否定全称，却不能告诉我们总体有多大比例。",
+        "limits": "仅两馆藏公开说明，不是材料鉴定或总体抽样；遮出处在先读后做，有记忆不算盲审；8卡未含印刷年代，不借装订年冒充。",
+        "observation": "8字段卡/三查询取卡路径、遮后证据与记忆分栏、最小反例包与未给字段。",
+        "nextQuestion": "“约1560年的装订”和“十五世纪的印本”可以同时成立吗，为什么必须写清年代属于哪一事件？"
+      },
+      "guide": {
+        "goal": "实际制作来源字段卡、按三查询重组、遮出处审计并保留不支持的空项。",
+        "observe": "同版、同副本部件和装订事件的资料怎样分别归类，遮掉出处后哪些断言不再可核？",
+        "support": "成人协助访问公开文本，学习者逐卡抄要点而非整页复制；每次查询取卡后复位。",
+        "control": "固定8来源字段，不自行填缺项；Q1/Q2/Q3逐项取证，遮后记忆与可见证据分开。",
+        "time": "约35–40分钟。",
+        "recordFields": [
+          "8字段及对应原段",
+          "三查询取证与缺项",
+          "遮出处的证据/记忆分栏",
+          "最小反例与总体限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "material63-1316-grid",
+          "description": "副本行、部件/事件列四列的档案底纸。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "8字段：副本×部件/事件",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 150,
+              "width": 480,
+              "height": 130,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 215,
+              "x2": 580,
+              "y2": 215,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 220,
+              "y1": 150,
+              "x2": 220,
+              "y2": 280,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 340,
+              "y1": 150,
+              "x2": 340,
+              "y2": 280,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 460,
+              "y1": 150,
+              "x2": 460,
+              "y2": 280,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 135,
+              "text": "页",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 135,
+              "text": "封板",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 135,
+              "text": "外包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 135,
+              "text": "装订",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 188,
+              "text": "LC",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 258,
+              "text": "Keio",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1316-query",
+          "description": "查询纸区真实取放证据卡。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "Q1页材 / Q2部件 / Q3事件",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "取所需来源卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "登记后复位",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "装订年代≠印刷年代",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "缺印刷字段就留缺",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1316-mask",
+          "description": "大遮纸盖住副本与出处，材料文字仍见。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "遮归属与出处，不当新盲测",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 150,
+              "width": 400,
+              "height": 130,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 180,
+              "text": "副本与来源",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 155,
+              "width": 330,
+              "height": 35,
+              "fill": "#C8D6D3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 235,
+              "text": "书页：犊皮材料",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "material63-1316-counter",
+          "description": "反例证据卡须含出处而不是大样本比例。绘图是现代书/材料位置或来源纸卡示意，不是古籍照片，不靠颜色推断真实材质；来源摘要与练习标签分开，分类与改错记录由实际操作填写。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "可追溯反例否定“全是纸”",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 167,
+              "text": "副本 + 书页 + 材料",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 140,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 167,
+              "text": "来源网址与段落",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 217,
+              "text": "不推出总体比例",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 190,
+              "width": 270,
+              "height": 40,
+              "fill": "#F5F1E7",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 217,
+              "text": "未知年代继续留未知",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同版、同副本部件和装订事件的资料怎样分别归类，遮掉出处后哪些断言不再可核？",
+      "sources": [
+        {
+          "title": "Library of Congress｜Gutenberg Bible FAQ",
+          "url": "https://guides.loc.gov/gutenberg/questions",
+          "claim": "问答注明LC本印在vellum（此件为经处理的犊皮）上；其装订说明为约1560年的木板外包白色猪皮。",
+          "scope": "严格区分书页承印材料和装订部件；约1560用于装订，不当印刷年代。此馆藏实例不代表全部古书或所有同版副本。"
+        },
+        {
+          "title": "Keio University Libraries｜Incunabula 036",
+          "url": "https://dcollections.lib.keio.ac.jp/en/incunabula/036",
+          "claim": "馆藏正文称Keio本印在纸上、缺第二卷；保留十五世纪装订，棕色犊皮覆盖木板，书脊曾重新加固。",
+          "scope": "仅取本馆藏的材料/部件与装订描述，不把书脊修复日期猜成已知，也不沿用页面不同位置的存世总数估计来推总体比例。"
+        }
+      ],
+      "sourceNote": "依据LC与Keio馆藏说明独立设计材料部件模型和历史证据操作，未课堂试用，不代表机构认证。没有接触或鉴定古籍原物，不把代理材料性质当史料；来源摘要、故意练习错误与实际参与记录分开。"
+    }
+  }
+}

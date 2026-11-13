@@ -1,0 +1,3302 @@
+{
+  "activityId": 331,
+  "activityTitle": "整包购买的最少总价",
+  "contentKey": "annual-m048",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "三包A的纸够不够12张？",
+      "materials": [
+        "整张白纸1张、笔1支。只画模拟纸包与做算术，不需要钱币、实物纸包、购物网站或打印卡片。 本龄记录：三包A点数配对；9与10的格子比较；孩子原话，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人帮助幼儿画包和一一对应；纸笔不入口，不用小钱币，不剪卡，不发生真实购买或转账。疲倦可停，收好洗手。",
+      "steps": [
+        {
+          "title": "成人画三包A",
+          "caption": "成人画三包A",
+          "action": "同纸上方写‘模拟：至少12张，整包买；A每包4张3元，B每包7张5元；包数为非负整数’。下方留A包数/B包数/总张数/总元数四列，幼儿不必读表。 成人画3个大框，每框内画4点，孩子指出每个框是一整包；不用拿小卡，成人代点数。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "和十二点配对",
+          "caption": "和十二点配对",
+          "action": "成人另画12个点，孩子可让成人逐个连线，确认三包A的12点够用；不要求独立加乘。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "听两种总价",
+          "caption": "听两种总价",
+          "action": "成人说三包A共9元，两包B共10元，都是模拟价格。画9个小格和10个小格作一一对应，孩子找多出的一个，成人代画。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "说有限选择",
+          "caption": "说有限选择",
+          "action": "孩子指出这两种中三包A少花，成人代记；明确幼儿只比较两个方案，不说已经自己穷举所有方案。收好洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "整包",
+          "一一对应"
+        ],
+        "explanation": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 幼儿只比较指定两方案，不声称已独立证明全局最优。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "三包A的纸够不够12张？",
+        "observe": "三包A的纸够不够12张？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "幼儿只比较指定两方案，不声称已独立证明全局最优。",
+        "time": "成人准备含检查、手绘与讲解约3—5分钟；幼儿参与5—10分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "三包A点数配对",
+          "9与10的格子比较",
+          "孩子原话"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        },
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "inquiry": {
+        "problem": "三包A的纸够不够12张？",
+        "solve": "若结论对不上，回到“写模拟包装”核对原始条件，再按“检查更多B包”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。 幼儿只比较指定两方案，不声称已独立证明全局最优。",
+        "learn": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 幼儿只比较指定两方案，不声称已独立证明全局最优。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day331-4-6-1",
+          "description": "成人画三包A。成人画3个大框，每框内画4点，孩子指出每个框是一整包；不用拿小卡，成人代点数。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "成人画三包A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 129,
+              "text": "成人画3个包，每包4点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 75,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 75,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 143,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 151,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 163,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 188,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 163,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 188,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 239,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 276,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 276,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 275,
+              "text": "孩子指点；成人代数、代记",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "A一包：4张，3元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-4-6-2",
+          "description": "和十二点配对。成人另画12个点，孩子可让成人逐个连线，确认三包A的12点够用；不要求独立加乘。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "和十二点配对",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 129,
+              "text": "三包A，共12个点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 75,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 75,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 143,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 151,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 163,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 188,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 163,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 188,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 152,
+              "width": 72,
+              "height": 80,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 239,
+              "y": 172,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 276,
+              "y": 191,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 276,
+              "y": 214,
+              "r": 4,
+              "fill": "#477F7D",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 275,
+              "text": "孩子指点；成人代数、代记",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "三包A：12张",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-4-6-3",
+          "description": "听两种总价。成人说三包A共9元，两包B共10元，都是模拟价格。画9个小格和10个小格作一一对应，孩子找多出的一个，成人代画。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "听两种总价",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 129,
+              "text": "模拟总价：9格与10格",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 158,
+              "text": "三A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 141,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 141,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 141,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 217,
+              "y": 141,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 141,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 166,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 166,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 166,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 217,
+              "y": 166,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 224,
+              "text": "两B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 207,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 207,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 207,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 217,
+              "y": 207,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 207,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 94,
+              "y": 232,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 232,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 176,
+              "y": 232,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 217,
+              "y": 232,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 258,
+              "y": 232,
+              "width": 25,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "一一对应，10格多出1格",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "三A9元 / 两B10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-4-6-4",
+          "description": "说有限选择。孩子指出这两种中三包A少花，成人代记；明确幼儿只比较两个方案，不说已经自己穷举所有方案。收好洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说有限选择",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 129,
+              "text": "只比较三A和两B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 151,
+              "width": 263,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 177,
+              "text": "三A：12张，9元",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 205,
+              "width": 263,
+              "height": 40,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 67,
+              "y": 231,
+              "text": "两B：14张，10元",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 280,
+              "text": "不要求幼儿证明所有组合",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "4-6岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "这里只比较两方案",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "三个候选方案哪个够用又总价最低？",
+      "materials": [
+        "整张白纸1张、笔1支。只画模拟纸包与做算术，不需要钱币、实物纸包、购物网站或打印卡片。 本龄记录：规则；三候选张数与总价；不足/更贵排除理由，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人帮助幼儿画包和一一对应；纸笔不入口，不用小钱币，不剪卡，不发生真实购买或转账。疲倦可停，收好洗手。",
+      "steps": [
+        {
+          "title": "读懂整包规则",
+          "caption": "读懂整包规则",
+          "action": "同纸上方写‘模拟：至少12张，整包买；A每包4张3元，B每包7张5元；包数为非负整数’。下方留A包数/B包数/总张数/总元数四列，幼儿不必读表。 儿童把A4张3元、B7张5元和至少12张圈出来，不能买半包，也不能把少于12张的低价当可行。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "算三类候选",
+          "caption": "算三类候选",
+          "action": "填(3A,0B)：12张9元；(2A,1B)：15张11元；(0A,2B)：14张10元。每行先算张数再算元数，成人助算。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "排除不足与更贵",
+          "caption": "排除不足与更贵",
+          "action": "检查1A+1B只有11张不够；3包以上B仅B价就至少15元，已高于9元。多买A只加正价，不会更省。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "写答案含条件",
+          "caption": "写答案含条件",
+          "action": "三类最低9/11/10，故3A够12张且最省9元。说清只在本题模拟条件成立，收齐洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "可行方案",
+          "总价"
+        ],
+        "explanation": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 先核至少12张，再比钱；不遗漏B≥3的正价下界。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "三个候选方案哪个够用又总价最低？",
+        "observe": "三个候选方案哪个够用又总价最低？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "先核至少12张，再比钱；不遗漏B≥3的正价下界。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "规则",
+          "三候选张数与总价",
+          "不足/更贵排除理由"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        },
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "inquiry": {
+        "problem": "三个候选方案哪个够用又总价最低？",
+        "solve": "若结论对不上，回到“写模拟包装”核对原始条件，再按“检查更多B包”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。 先核至少12张，再比钱；不遗漏B≥3的正价下界。",
+        "learn": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 先核至少12张，再比钱；不遗漏B≥3的正价下界。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day331-7-9-1",
+          "description": "读懂整包规则。儿童把A4张3元、B7张5元和至少12张圈出来，不能买半包，也不能把少于12张的低价当可行。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "读懂整包规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "4张 / 3元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "B包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "7张 / 5元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "至少12，不能拆包",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "至少12，不能拆包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-7-9-2",
+          "description": "算三类候选。填(3A,0B)：12张9元；(2A,1B)：15张11元；(0A,2B)：14张10元。每行先算张数再算元数，成人助算。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "算三类候选",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "3A / 2A1B / 2B",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "3A / 2A1B / 2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-7-9-3",
+          "description": "排除不足与更贵。检查1A+1B只有11张不够；3包以上B仅B价就至少15元，已高于9元。多买A只加正价，不会更省。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "排除不足与更贵",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "1A1B只有11张",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "1A1B只有11张",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-7-9-4",
+          "description": "写答案含条件。三类最低9/11/10，故3A够12张且最省9元。说清只在本题模拟条件成立，收齐洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写答案含条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "总价9 / 11 / 10",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "7-9岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "总价9 / 11 / 10",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "为什么没有漏掉更便宜的整包组合？",
+      "materials": [
+        "整张白纸1张、笔1支。只画模拟纸包与做算术，不需要钱币、实物纸包、购物网站或打印卡片。 本龄记录：B分类表与最少A；尾部下界；最优方案反查，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人帮助幼儿画包和一一对应；纸笔不入口，不用小钱币，不剪卡，不发生真实购买或转账。疲倦可停，收好洗手。",
+      "steps": [
+        {
+          "title": "按B包数列类",
+          "caption": "按B包数列类",
+          "action": "同纸上方写‘模拟：至少12张，整包买；A每包4张3元，B每包7张5元；包数为非负整数’。下方留A包数/B包数/总张数/总元数四列，幼儿不必读表。 从B=0、1、2三行开始，A数量必须非负整数。写够用条件4A+7B≥12，不满足就不可行。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "每类找最少A",
+          "caption": "每类找最少A",
+          "action": "B0需A≥3；B1剩至少5张需A≥2；B2已14张需A≥0。因A每包正价3元，各类选最小A才最便宜。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "封住更多B的尾部",
+          "caption": "封住更多B的尾部",
+          "action": "B≥3时仅B价5B≥15元，高于已有9元方案，故无需无限列举；不是随意设包数上限。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "比较与反查",
+          "caption": "比较与反查",
+          "action": "三行总价9、11、10，选3A0B。用张数12和费用9双重核回；B单位价5/7更低仍不是本题最低总价，收好洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "分类穷举",
+          "正价下界"
+        ],
+        "explanation": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 每类取最少A，由正价格证明可排除更多包。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "为什么没有漏掉更便宜的整包组合？",
+        "observe": "为什么没有漏掉更便宜的整包组合？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "每类取最少A，由正价格证明可排除更多包。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "B分类表与最少A",
+          "尾部下界",
+          "最优方案反查"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        },
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "inquiry": {
+        "problem": "为什么没有漏掉更便宜的整包组合？",
+        "solve": "若结论对不上，回到“写模拟包装”核对原始条件，再按“检查更多B包”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。 每类取最少A，由正价格证明可排除更多包。",
+        "learn": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 每类取最少A，由正价格证明可排除更多包。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day331-10-12-1",
+          "description": "按B包数列类。从B=0、1、2三行开始，A数量必须非负整数。写够用条件4A+7B≥12，不满足就不可行。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "按B包数列类",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "4张 / 3元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "B包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "7张 / 5元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "按B=0、1、2分类",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "按B=0、1、2分类",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-10-12-2",
+          "description": "每类找最少A。B0需A≥3；B1剩至少5张需A≥2；B2已14张需A≥0。因A每包正价3元，各类选最小A才最便宜。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "每类找最少A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "A最少3、2、0包",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "A最少3、2、0包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-10-12-3",
+          "description": "封住更多B的尾部。B≥3时仅B价5B≥15元，高于已有9元方案，故无需无限列举；不是随意设包数上限。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "封住更多B的尾部",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "B≥3仅B价已≥15",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "B≥3仅B价已≥15",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-10-12-4",
+          "description": "比较与反查。三行总价9、11、10，选3A0B。用张数12和费用9双重核回；B单位价5/7更低仍不是本题最低总价，收好洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较与反查",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "3A：12张，9元",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "10-12岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "3A：12张，9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "单位价更低为什么不一定使本题总价最低？",
+      "materials": [
+        "整张白纸1张、笔1支。只画模拟纸包与做算术，不需要钱币、实物纸包、购物网站或打印卡片。 本龄记录：整数模型；9元可行上界；分类及排除证明；单位价分数比较，均在同一张纸上；幼儿由成人代画代记。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 成人帮助幼儿画包和一一对应；纸笔不入口，不用小钱币，不剪卡，不发生真实购买或转账。疲倦可停，收好洗手。",
+      "steps": [
+        {
+          "title": "建立整数优化模型",
+          "caption": "建立整数优化模型",
+          "action": "同纸上方写‘模拟：至少12张，整包买；A每包4张3元，B每包7张5元；包数为非负整数’。下方留A包数/B包数/总张数/总元数四列，幼儿不必读表。 设A包数a、B包数b为非负整数，约束4a+7b≥12，最小化3a+5b。不存在自行假设的包数上限；所有价格为正。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "从可行解建立界",
+          "caption": "从可行解建立界",
+          "action": "a3 b0给成本9元，任何更优解成本<9；若b≥2则仅B成本≥10，已不可能更优。仍可列b2说明边界。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "有限分类求最优",
+          "caption": "有限分类求最优",
+          "action": "b0最小a3成本9；b1最小a2成本11；b2最小a0成本10；更大的b成本≥15。正价格确保每类额外包不会改进。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        },
+        {
+          "title": "分开单位价与总价",
+          "caption": "分开单位价与总价",
+          "action": "比较3/4与5/7：21/28>20/28，B单张便宜，但整包约束和剩余使3A总价低。把需求13仅列为下一问，今天不改本次答案或真实购买；收好洗手。",
+          "actor": "together",
+          "adultNote": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "整数优化",
+          "上界与剪枝",
+          "单位价局限"
+        ],
+        "explanation": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 保留非负整数约束与至少需求，不偷换成恰好12张。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。",
+        "observation": "只保留本次实际观察、推算或原文；未看清、未听清、未知与未做明确注明，不补成预期答案。",
+        "nextQuestion": "只在纸上提出下一步问题和所缺证据，不执行额外材料或危险操作。"
+      },
+      "guide": {
+        "goal": "单位价更低为什么不一定使本题总价最低？",
+        "observe": "单位价更低为什么不一定使本题总价最低？",
+        "support": "成人准备并检查材料、代读难词；4—6岁可只指、说或画，不要求读数书写。所有年龄严格遵守本题成人操作与停止规则。",
+        "control": "保留非负整数约束与至少需求，不偷换成恰好12张。",
+        "time": "准备含检查、手绘与讲解约3—5分钟；核心约10—20分钟。没有跨日等待；每个动作完成后再进入下一步，可随时停止并记录未完成。",
+        "recordFields": [
+          "整数模型",
+          "9元可行上界",
+          "分类及排除证明",
+          "单位价分数比较"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M8",
+          "title": "MIT｜Mathematics for Computer Science",
+          "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf",
+          "claim": "集合、计数、不变式及证明思维背景；本课程的五张数卡算法与反例是独立构造。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        },
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。 本批未重新联网核读，不验证家庭具体操作。"
+        }
+      ],
+      "sourceNote": "原题来源及全部字段原样保留。本批未重新联网核读，不声称机构认证或真人试用。题内示例、操作边界及分龄方案为原创家庭改编；图为动作与记录示意，不是实际测量结果。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者静态逻辑、原字段保留与实际渲染核查；未实地或儿童试做",
+        "limitations": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "inquiry": {
+        "problem": "单位价更低为什么不一定使本题总价最低？",
+        "solve": "若结论对不上，回到“写模拟包装”核对原始条件，再按“检查更多B包”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。 保留非负整数约束与至少需求，不偷换成恰好12张。",
+        "learn": "存在整包与最低数量约束时，应比较可行组合的总价；单位价较低的B不保证本题总花费最低。 保留非负整数约束与至少需求，不偷换成恰好12张。",
+        "evolve": "仅纸上设计下一问，不实施原题未列操作。",
+        "limits": "纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 纯模拟价格，无运费税费或品质差异；需求与约束变化时结论可能改变，不是购物推荐。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 价格是题内假设，只比较张数够用时的整包总价。这里没有运费税费、品质与退货差别，单位价排序不能直接给整包最优答案。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day331-13-16-1",
+          "description": "建立整数优化模型。设A包数a、B包数b为非负整数，约束4a+7b≥12，最小化3a+5b。不存在自行假设的包数上限；所有价格为正。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "建立整数优化模型",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "A包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "4张 / 3元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "B包",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "7张 / 5元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "min(3a+5b)",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第1步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "min(3a+5b)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-13-16-2",
+          "description": "从可行解建立界。a3 b0给成本9元，任何更优解成本<9；若b≥2则仅B成本≥10，已不可能更优。仍可列b2说明边界。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "从可行解建立界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "4a+7b≥12；a,b为整数",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第2步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "4a+7b≥12；a,b为整数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-13-16-3",
+          "description": "有限分类求最优。b0最小a3成本9；b1最小a2成本11；b2最小a0成本10；更大的b成本≥15。正价格确保每类额外包不会改进。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "有限分类求最优",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "正价格封住无限尾部",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第3步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "正价格封住无限尾部",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day331-13-16-4",
+          "description": "分开单位价与总价。比较3/4与5/7：21/28>20/28，B单张便宜，但整包约束和剩余使3A总价低。把需求13仅列为下一问，今天不改本次答案或真实购买；收好洗手。 图为原创示意，不是实测结果，示意大小不能直接当操作尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "分开单位价与总价",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 36,
+              "y": 104,
+              "width": 302,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 131,
+              "text": "整包模拟；不真实购买",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 166,
+              "text": "3A",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 166,
+              "text": "12张 / 9元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 179,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 200,
+              "text": "2A+1B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 200,
+              "text": "15张 / 11元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 213,
+              "width": 263,
+              "height": 30,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 234,
+              "text": "2B",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 163,
+              "y": 234,
+              "text": "14张 / 10元",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 278,
+              "text": "单张便宜≠整包总价最低",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 129,
+              "text": "13-16岁 · 第4步",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 156,
+              "text": "单张便宜≠整包总价最低",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 183,
+              "text": "不预填家庭实测结果",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 210,
+              "text": "详见本步动作与安全规则",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

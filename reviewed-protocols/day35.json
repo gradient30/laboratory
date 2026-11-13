@@ -1,0 +1,1990 @@
+{
+  "activityId": 35,
+  "activityTitle": "两本印本的年代线",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "成人预写A/B大事实卡各1张（至少约10×15厘米，按步骤给出的文字与来源）",
+        "A4纸2张、铅笔1支、橡皮1块；干净桌面1处",
+        "大方向卡1张，画“较早→较晚”（成人预裁）"
+      ],
+      "safety": "只操作自制纸卡，不接触文物、旧书或真实印刷设备；预裁纸由成人完成，剪刀收好后孩子操作。书名只用于历史材料识别，不要求宗教阅读或仪式。网络核对由成人打开列出的公开机构页面，不需注册、提供个人信息或联系陌生人。",
+      "steps": [
+        {
+          "title": "听两张卡说什么",
+          "action": "成人依据所列两条机构来源预写两张大事实卡。A：该《金刚经》印本，868年，木刻纸卷，发现地敦煌莫高窟，年份、材料与发现地来源IDP目录，纸卷形制另据IDP教育页。B：古腾堡《圣经》，1454—1455年，美因茨印制，活字印本，有纸本与羊皮纸本，来源美国国会图书馆指南。卡背写来源标题与网址；不抄全文、不下载整页图片。成人读两卡，只强调两份具体印本和年份，孩子指出哪张写868、哪张写1454—1455。",
+          "actor": "adult",
+          "caption": "听两张卡说什么",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "按年代摆两张卡",
+          "action": "成人把方向卡指向右，解释较早在箭尾、较晚在箭头。孩子依成人读出的年份把两张事实卡摆在较早/较晚位置，再把书名与自己的卡对应。",
+          "actor": "together",
+          "caption": "按年代摆两张卡",
+          "adultNote": "不让幼儿仅靠字数判年代；成人可解释1454和1455都在868之后。"
+        },
+        {
+          "title": "转方向，重新摆卡",
+          "action": "将方向卡转180度，较早方向现在在右。孩子实际交换两卡位置，使其仍符合较早→较晚；再问是桌面方向变了还是历史年份变了。",
+          "actor": "together",
+          "caption": "转方向，重新摆卡",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "用指认讲先后",
+          "action": "让孩子沿箭头指出两张卡的先后，成人代记其原话；再翻背指给孩子看这不是随便编的日期，而是来自两份机构资料。",
+          "actor": "together",
+          "caption": "用指认讲先后",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "事件先后",
+          "图的方向是约定",
+          "具体材料有来源"
+        ],
+        "explanation": "两张卡描述两份具体印本，日期可以比较先后。把纸卡放左或右是我们画图的约定，翻转方向不改变历史年代。",
+        "limits": "只比较这两个材料，不据两张卡说明全部印刷史或哪个地区的人先后学会阅读。B仍是两个相邻年份的范围。",
+        "observation": "原方向与反转后孩子怎样摆卡、怎样说先后，成人代记。",
+        "nextQuestion": "箭头换方向了，印本的年代会跟着改变吗？"
+      },
+      "guide": {
+        "goal": "真实摆卡、反转图向再重排，区分年代顺序和桌面位置。",
+        "observe": "把“较早→较晚”的方向转过来，两张印本卡应怎样重摆而年代不变？",
+        "support": "成人读日期和来源，孩子摆卡指认，不测试识字速度。",
+        "control": "同两张卡日期不改，只改变方向卡朝向；不把间距当年数。",
+        "time": "约10分钟。",
+        "recordFields": [
+          "第一次摆卡与口述",
+          "反向后摆卡与口述",
+          "仍需成人帮助的地方"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "print-46-cards",
+          "description": "两卡准备。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "两份具体印本，不是全部印刷史",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-46-order",
+          "description": "约定先后方向。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "较早 → 较晚",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 285,
+              "x2": 560,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-46-reverse",
+          "description": "箭头反向，卡的原摆放待学习者重排。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "转箭头后，自己重新摆卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 560,
+              "y1": 285,
+              "x2": 80,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-46-source",
+          "description": "卡背来源示意。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "翻背找到两份资料来源",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 150,
+              "width": 230,
+              "height": 110,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 185,
+              "text": "A卡背：IDP目录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 150,
+              "width": 245,
+              "height": 110,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 185,
+              "text": "B卡背：国会图书馆",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "把“较早→较晚”的方向转过来，两张印本卡应怎样重摆而年代不变？",
+      "sources": [
+        {
+          "title": "British Library / IDP｜Or.8210/P.2",
+          "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+          "claim": "目录将该《金刚经》印本定为868年，材料为木刻、纸、墨；发现地点列敦煌莫高窟。",
+          "scope": "目录中的发现地不等于印制地，868是该印本的定年而不是发现年；不据此主张世界印刷起源或首次发明。"
+        },
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "该馆指南把古腾堡《圣经》列为1454/1455年在美因茨印制的欧洲大开本活字印本，说明有纸本及羊皮纸本。",
+          "scope": "保留1454—1455年范围及欧洲限定；不把所有副本说成纸本，不把欧洲范围的表述改为世界最早印刷。指南与馆藏目录是机构对历史材料的描述，不是儿童直接见到原件。"
+        },
+        {
+          "title": "IDP｜Buddhist texts: The Diamond Sutra",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+          "claim": "教育页明确说明该印本的纸张连接成卷，支持本卡纸卷形制描述。",
+          "scope": "补充形制来源，不加入高龄六陈述卡的两核心来源审查，也不以形制证明印刷起源。"
+        }
+      ],
+      "sourceNote": "依据机构馆藏目录和研究指南独立构造历史资料操作；未真实课堂试用，不代表机构认证。纸卡、时间线、证据表均为原创教学示意，不是原件鉴定或自然科学实验；不以两个材料概括世界印刷史。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "成人预写A/B大事实卡各1张（至少约10×15厘米，按步骤给出的文字与来源）",
+        "A4纸2张、铅笔1支、橡皮1块；干净桌面1处",
+        "直尺1把（厘米刻度）；另一张A4纸用于画8个百年区间格"
+      ],
+      "safety": "只操作自制纸卡，不接触文物、旧书或真实印刷设备；预裁纸由成人完成，剪刀收好后孩子操作。书名只用于历史材料识别，不要求宗教阅读或仪式。网络核对由成人打开列出的公开机构页面，不需注册、提供个人信息或联系陌生人。",
+      "steps": [
+        {
+          "title": "先做两卡并核日期",
+          "action": "成人依据所列两条机构来源预写两张大事实卡。A：该《金刚经》印本，868年，木刻纸卷，发现地敦煌莫高窟，年份、材料与发现地来源IDP目录，纸卷形制另据IDP教育页。B：古腾堡《圣经》，1454—1455年，美因茨印制，活字印本，有纸本与羊皮纸本，来源美国国会图书馆指南。卡背写来源标题与网址；不抄全文、不下载整页图片。孩子把A的868和B的1454—1455抄到自己的记录，成人与来源卡逐字核对。",
+          "actor": "together",
+          "caption": "先做两卡并核日期",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "做百年区间格",
+          "action": "在纸上画8个等宽约2厘米的格，依次标800–899、900–999、1000–1099、1100–1199、1200–1299、1300–1399、1400–1499、1500–1599；格内只表示同一百年区间，不表示精确年距。",
+          "actor": "together",
+          "caption": "做百年区间格",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "把卡号放进所属格",
+          "action": "不把大卡挤入小格，在所属格内写A或B，并把两张事实卡放纸旁。逐一检查868与1454、1455各落在哪个百年范围；再从相反方向读标签，确认靠数字而不是凭左右记位置。",
+          "actor": "together",
+          "caption": "把卡号放进所属格",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "比较先后与不知道的部分",
+          "action": "用区间格说明哪份较早；把没有任何卡的格留空，写“本活动未给材料”，不能写这些年没有印刷。核对A发现地与B印制地不是同类字段。",
+          "actor": "together",
+          "caption": "比较先后与不知道的部分",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "百年区间归类",
+          "缺材料不是没有事件",
+          "来源字段不同"
+        ],
+        "explanation": "按年份所在的百年范围归类，能组织历史材料；空格只说明我们这套卡没有放资料，并不说明那一百年没有发生印刷。发现地点与制作地点也不能互换。",
+        "limits": "格宽不表示百年内精确位置，不用卡在格里的位置计算年距；两张卡不是完整历史样本。",
+        "observation": "八格标签、卡号归类、年份核对与空格解释。",
+        "nextQuestion": "一格没有卡，为什么不能说那一百年没有印本？"
+      },
+      "guide": {
+        "goal": "实际建立并使用百年分箱表，避免把资料空白当历史空白。",
+        "observe": "两份印本应放进哪些百年格，空着的格又能说明什么？",
+        "support": "成人核对区间端点，孩子自己归类并区分发现地/印制地。",
+        "control": "每格100个整数年份、边界不重叠；只放提供的两份材料。",
+        "time": "约20分钟。",
+        "recordFields": [
+          "百年格与A/B归类",
+          "年份边界核对",
+          "空格及两种地点的解释"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "print-79-facts",
+          "description": "先核卡片。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "日期逐项核对，地点字段不互换",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-79-bins",
+          "description": "八格示意，上排四格下排四格。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每格是一段百年，不是精确坐标",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 145,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 178,
+              "text": "800年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 145,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 178,
+              "text": "900年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 178,
+              "text": "1000年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 145,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 178,
+              "text": "1100年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 243,
+              "text": "1200年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 210,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 200,
+              "y": 243,
+              "text": "1300年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 210,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 340,
+              "y": 243,
+              "text": "1400年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 475,
+              "y": 210,
+              "width": 135,
+              "height": 55,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 480,
+              "y": 243,
+              "text": "1500年代",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-79-place",
+          "description": "用编号分类，非精确比例。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "把A/B写进所属格，不挤大卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 150,
+              "width": 210,
+              "height": 90,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 180,
+              "text": "800—899",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 150,
+              "width": 230,
+              "height": 90,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 180,
+              "text": "1400—1499",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 220,
+              "text": "填写卡号：",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 220,
+              "text": "填写卡号：",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-79-gaps",
+          "description": "空格无卡不等没有事件。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "空格：本套资料没有材料",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 160,
+              "width": 180,
+              "height": 85,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 160,
+              "width": 180,
+              "height": 85,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 190,
+              "text": "900—999",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 360,
+              "y": 190,
+              "text": "1000—1099",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "两份印本应放进哪些百年格，空着的格又能说明什么？",
+      "sources": [
+        {
+          "title": "British Library / IDP｜Or.8210/P.2",
+          "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+          "claim": "目录将该《金刚经》印本定为868年，材料为木刻、纸、墨；发现地点列敦煌莫高窟。",
+          "scope": "目录中的发现地不等于印制地，868是该印本的定年而不是发现年；不据此主张世界印刷起源或首次发明。"
+        },
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "该馆指南把古腾堡《圣经》列为1454/1455年在美因茨印制的欧洲大开本活字印本，说明有纸本及羊皮纸本。",
+          "scope": "保留1454—1455年范围及欧洲限定；不把所有副本说成纸本，不把欧洲范围的表述改为世界最早印刷。指南与馆藏目录是机构对历史材料的描述，不是儿童直接见到原件。"
+        },
+        {
+          "title": "IDP｜Buddhist texts: The Diamond Sutra",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+          "claim": "教育页明确说明该印本的纸张连接成卷，支持本卡纸卷形制描述。",
+          "scope": "补充形制来源，不加入高龄六陈述卡的两核心来源审查，也不以形制证明印刷起源。"
+        }
+      ],
+      "sourceNote": "依据机构馆藏目录和研究指南独立构造历史资料操作；未真实课堂试用，不代表机构认证。纸卡、时间线、证据表均为原创教学示意，不是原件鉴定或自然科学实验；不以两个材料概括世界印刷史。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "成人预写A/B大事实卡各1张（至少约10×15厘米，按步骤给出的文字与来源）",
+        "A4纸2张、铅笔1支、橡皮1块；干净桌面1处",
+        "有毫米刻度的30厘米直尺1把；A4纸再加1张（主线与放大线共3张可用）"
+      ],
+      "safety": "只操作自制纸卡，不接触文物、旧书或真实印刷设备；预裁纸由成人完成，剪刀收好后孩子操作。书名只用于历史材料识别，不要求宗教阅读或仪式。网络核对由成人打开列出的公开机构页面，不需注册、提供个人信息或联系陌生人。",
+      "steps": [
+        {
+          "title": "核日期与可表示精度",
+          "action": "成人依据所列两条机构来源预写两张大事实卡。A：该《金刚经》印本，868年，木刻纸卷，发现地敦煌莫高窟，年份、材料与发现地来源IDP目录，纸卷形制另据IDP教育页。B：古腾堡《圣经》，1454—1455年，美因茨印制，活字印本，有纸本与羊皮纸本，来源美国国会图书馆指南。卡背写来源标题与网址；不抄全文、不下载整页图片。保留B的1454—1455范围，不擅自改成1455一个点；写下A为868这个年值，资料没有要求本活动确定月日。",
+          "actor": "together",
+          "caption": "核日期与可表示精度",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "画可量的主年代线",
+          "action": "在横放A4上画800至1500年主线，规定1厘米=50年，总长14厘米；每2厘米标100年。A距800为68年，算1.36厘米，家庭毫米尺约画在1.4厘米处并标“868，位置近似”；B距800为654–655年，在约13.1厘米处用引线写全范围，不能伪画0.2毫米宽度。",
+          "actor": "together",
+          "caption": "画可量的主年代线",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "实际做放大线",
+          "action": "另一纸画1450至1460年局部线，1厘米=1年，总长10厘米；把1454至1455画成从4厘米到5厘米的线段，两端均标年份。注明这是不同尺度的放大图，不把两个图的纸上厘米直接比较。",
+          "actor": "together",
+          "caption": "实际做放大线",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "计算有限的年值差",
+          "action": "计算1454−868和1455−868，报告按给定年值差为586–587年。核对主线近似位置与放大线区间一致；说明这不是精确到日的实际历时，不能由年距推出发明时间或技术传承路线。",
+          "actor": "together",
+          "caption": "计算有限的年值差",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "比例尺与分辨率",
+          "点值和年代范围",
+          "放大图尺度",
+          "年值差不等精确历时"
+        ],
+        "explanation": "同样纸长可代表不同年数。主图难以画清的一年范围可在放大图表示，不该用毫米尺装作量到十分之几毫米。两端相减得到按已知年值计算的范围。",
+        "limits": "主线A位置取毫米近似，B在主线不表示可分辨宽度；586–587是年值差而非精确起止日期的时长，更不能证明因果传播。",
+        "observation": "两条比例尺、实际量出的纸长、A近似位置、B放大区间和两次减法。",
+        "nextQuestion": "为什么主图画不清的一年范围，在放大图可以用一厘米表示？"
+      },
+      "guide": {
+        "goal": "实际作比例年代主线与局部放大线，处理来源范围和家庭尺分辨率。",
+        "observe": "怎样在有限纸长上保留1454—1455范围，而不假装毫米尺能画清主图的0.2毫米？",
+        "support": "成人核对单位与端点，学习者实际画线测量并保留近似标记。",
+        "control": "主线1厘米50年，局部1厘米1年；两个日期及来源不改，尺度分别明确。",
+        "time": "约25–30分钟。",
+        "recordFields": [
+          "主线单位/纸长/近似位置",
+          "放大线单位与区间端点",
+          "年值差计算",
+          "不能从图推出的结论"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "print-1012-source",
+          "description": "来源日期保留范围。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "B保留1454—1455，不选方便的一年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1012-main",
+          "description": "主图示意不能作为打印测量模板。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "自己画：800—1500，总长14厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 125,
+              "text": "主线1厘米=50年；B用文字范围",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 75,
+              "y1": 225,
+              "x2": 570,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 218,
+              "x2": 80,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "800",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 148,
+              "y1": 218,
+              "x2": 148,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 255,
+              "text": "900",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 216,
+              "y1": 218,
+              "x2": 216,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 201,
+              "y": 255,
+              "text": "1000",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 284,
+              "y1": 218,
+              "x2": 284,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 255,
+              "text": "1100",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 352,
+              "y1": 218,
+              "x2": 352,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 337,
+              "y": 255,
+              "text": "1200",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 218,
+              "x2": 420,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 255,
+              "text": "1300",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 218,
+              "x2": 488,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 255,
+              "text": "1400",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 556,
+              "y1": 218,
+              "x2": 556,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 541,
+              "y": 255,
+              "text": "1500",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 210,
+              "x2": 126,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 198,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 525,
+              "y1": 210,
+              "x2": 525,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 198,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1012-zoom",
+          "description": "局部放大与主图分开尺度。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 85,
+              "text": "局部：1厘米=1年，总长10厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 75,
+              "y1": 225,
+              "x2": 570,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 218,
+              "x2": 80,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 255,
+              "text": "800",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 148,
+              "y1": 218,
+              "x2": 148,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 255,
+              "text": "900",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 216,
+              "y1": 218,
+              "x2": 216,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 201,
+              "y": 255,
+              "text": "1000",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 284,
+              "y1": 218,
+              "x2": 284,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 255,
+              "text": "1100",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 352,
+              "y1": 218,
+              "x2": 352,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 337,
+              "y": 255,
+              "text": "1200",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 420,
+              "y1": 218,
+              "x2": 420,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 255,
+              "text": "1300",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 488,
+              "y1": 218,
+              "x2": 488,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 473,
+              "y": 255,
+              "text": "1400",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 556,
+              "y1": 218,
+              "x2": 556,
+              "y2": 232,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 541,
+              "y": 255,
+              "text": "1500",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 126,
+              "y1": 210,
+              "x2": 126,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 198,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 525,
+              "y1": 210,
+              "x2": 525,
+              "y2": 225,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 515,
+              "y": 198,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 105,
+              "width": 245,
+              "height": 70,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 145,
+              "x2": 550,
+              "y2": 145,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 137,
+              "width": 20,
+              "height": 16,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 130,
+              "text": "1450",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 507,
+              "y": 130,
+              "text": "1460",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 375,
+              "y": 169,
+              "text": "1454—1455区间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1012-diff",
+          "description": "尺与纸上两条不同尺度线。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "主线与局部线，先核各自比例尺",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 235,
+              "height": 120,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 210,
+              "x2": 280,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 185,
+              "text": "主线：50年/厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 330,
+              "y": 145,
+              "width": 245,
+              "height": 120,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 350,
+              "y1": 210,
+              "x2": 555,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 345,
+              "y": 185,
+              "text": "局部：1年/厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "怎样在有限纸长上保留1454—1455范围，而不假装毫米尺能画清主图的0.2毫米？",
+      "sources": [
+        {
+          "title": "British Library / IDP｜Or.8210/P.2",
+          "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+          "claim": "目录将该《金刚经》印本定为868年，材料为木刻、纸、墨；发现地点列敦煌莫高窟。",
+          "scope": "目录中的发现地不等于印制地，868是该印本的定年而不是发现年；不据此主张世界印刷起源或首次发明。"
+        },
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "该馆指南把古腾堡《圣经》列为1454/1455年在美因茨印制的欧洲大开本活字印本，说明有纸本及羊皮纸本。",
+          "scope": "保留1454—1455年范围及欧洲限定；不把所有副本说成纸本，不把欧洲范围的表述改为世界最早印刷。指南与馆藏目录是机构对历史材料的描述，不是儿童直接见到原件。"
+        },
+        {
+          "title": "IDP｜Buddhist texts: The Diamond Sutra",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+          "claim": "教育页明确说明该印本的纸张连接成卷，支持本卡纸卷形制描述。",
+          "scope": "补充形制来源，不加入高龄六陈述卡的两核心来源审查，也不以形制证明印刷起源。"
+        }
+      ],
+      "sourceNote": "依据机构馆藏目录和研究指南独立构造历史资料操作；未真实课堂试用，不代表机构认证。纸卡、时间线、证据表均为原创教学示意，不是原件鉴定或自然科学实验；不以两个材料概括世界印刷史。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "成人预写A/B大事实卡各1张（至少约10×15厘米，按步骤给出的文字与来源）",
+        "A4纸2张、铅笔1支、橡皮1块；干净桌面1处",
+        "成人预写大陈述卡6张（按步骤列出的6句）；A4证据表再加2张",
+        "可查看指定机构网页的设备1台，成人打开；或成人预先逐项核实抄写相关字段与来源网址（不能只给结论而无字段）"
+      ],
+      "safety": "只操作自制纸卡，不接触文物、旧书或真实印刷设备；预裁纸由成人完成，剪刀收好后孩子操作。书名只用于历史材料识别，不要求宗教阅读或仪式。网络核对由成人打开列出的公开机构页面，不需注册、提供个人信息或联系陌生人。",
+      "steps": [
+        {
+          "title": "把两种证据层级分开",
+          "action": "成人依据所列两条机构来源预写两张大事实卡。A：该《金刚经》印本，868年，木刻纸卷，发现地敦煌莫高窟，年份、材料与发现地来源IDP目录，纸卷形制另据IDP教育页。B：古腾堡《圣经》，1454—1455年，美因茨印制，活字印本，有纸本与羊皮纸本，来源美国国会图书馆指南。卡背写来源标题与网址；不抄全文、不下载整页图片。实际打开或阅读成人核实抄下的IDP目录字段与国会图书馆指南段落，记录机构、材料名、日期和字段名。注明当前读到的是机构目录/指南，对历史物件的描述，不是亲眼鉴定868年原卷或1450年代原件。",
+          "actor": "together",
+          "caption": "把两种证据层级分开",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "逐条分配陈述卡",
+          "action": "六卡内容为：A的目录年份是868。；A在敦煌莫高窟被发现。；A一定在敦煌印制。；B指南把印制时间列1454—1455。；B是世界第一份印刷品。；两卡之间必有直接技术传承。。将每卡放到“本来源直接支持/本来源不够支持/需澄清措辞”纸区；先独立填写自己的判断与对应字段，不看成人答案。",
+          "actor": "together",
+          "caption": "逐条分配陈述卡",
+          "adultNote": "未获支持不是自动证明其反面；可选需澄清并说明缺什么。"
+        },
+        {
+          "title": "用来源字段实际复核",
+          "action": "对每卡回到来源找到具体字段或说明找不到；特别核Find site只指发现地点，不能当印刷地点；B来源的欧洲范围不能扩大成世界。允许修改初判，但保留初判与修改所用证据；不以成人多数票代替证据。",
+          "actor": "together",
+          "caption": "用来源字段实际复核",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        },
+        {
+          "title": "改写两条过强陈述",
+          "action": "选择至少两条原证据不足的卡，实际重写成这些来源能支持的有限说法，或写明仍需何类历史材料才能研究该问题。最后按868与1454—1455排序，同时写“先后关系不足以证明直接技术传承”。",
+          "actor": "together",
+          "caption": "改写两条过强陈述",
+          "adultNote": "来源未支持的内容保留未知，不补成完整故事。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "来源层级",
+          "字段语义",
+          "范围限定与过度推断",
+          "时间先后不等因果"
+        ],
+        "explanation": "馆藏目录和研究指南可提供有出处的年代及材料描述，但不同字段回答不同问题。发现地不是制作地；某地区范围的陈述不是全世界范围；两个时间点的先后不能单独证明两物之间的直接传播。",
+        "limits": "本活动没有检验原物、覆盖全部印刷史或证实/否定技术传播。未支持的陈述应保留待证，不因一页没写就断言其反面。",
+        "observation": "六卡初判、逐项字段/缺证据、修改理由及两条有限改写。",
+        "nextQuestion": "“这页没有证明某事”和“已经证明某事没发生”为什么不同？"
+      },
+      "guide": {
+        "goal": "实际做陈述卡证据归类、回源核查和限定改写，不只排列两年。",
+        "observe": "两份机构资料能支持哪些年代与地点说法，又有哪些“世界首次”或传播结论超出了证据？",
+        "support": "成人提供可读来源字段但不代判；学习者保留修改前后与理由。",
+        "control": "只用明确列出的两来源评价其支持范围；不把知识记忆或图像想象补成该页证据。",
+        "time": "约30–40分钟。",
+        "recordFields": [
+          "来源字段与材料层级",
+          "六卡初判和复核证据",
+          "修改与有限改写",
+          "仍需何类证据"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "print-1316-fields",
+          "description": "实际读字段，不能混地点类型。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "A：发现地点 ≠ B：印制地点",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 145,
+              "width": 235,
+              "height": 115,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 175,
+              "text": "A：868年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 205,
+              "text": "木刻纸卷",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 235,
+              "text": "发现地：敦煌",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 335,
+              "y": 145,
+              "width": 245,
+              "height": 115,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 175,
+              "text": "B：1454—1455年",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 205,
+              "text": "活字印本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 235,
+              "text": "印制地：美因茨",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1316-sort",
+          "description": "三纸区供六陈述卡归类，示意均待放不预填。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "六张陈述卡，先独立归类",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 150,
+              "width": 180,
+              "height": 125,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 180,
+              "text": "直接支持",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 230,
+              "y": 150,
+              "width": 180,
+              "height": 125,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 240,
+              "y": 180,
+              "text": "证据不足",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 150,
+              "width": 180,
+              "height": 125,
+              "fill": "none",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 430,
+              "y": 180,
+              "text": "需澄清",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 125,
+              "text": "陈述卡编号：1 2 3 4 5 6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1316-check",
+          "description": "卡片和来源字段对照而非投票。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "逐卡返回字段，保留初判与修改",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 145,
+              "width": 205,
+              "height": 125,
+              "fill": "#E9DCCB",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 180,
+              "text": "陈述卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 340,
+              "y": 145,
+              "width": 240,
+              "height": 125,
+              "fill": "#D1E6E3",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 355,
+              "y": 180,
+              "text": "机构字段/段落",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "arrow",
+              "x1": 280,
+              "y1": 205,
+              "x2": 330,
+              "y2": 205,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "print-1316-limit",
+          "description": "改写纸上留白不预填审查结果。原创纸卡与时间线示意，不是文物图像或学生已完成记录。A为目录定年，B保留来源范围；位置非纸上精确测量模板。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "实际重写两条证据范围内的说法",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 145,
+              "width": 500,
+              "height": 125,
+              "fill": "#F5F1E8",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 85,
+              "y": 175,
+              "text": "原说法 → 有限改写",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 210,
+              "x2": 550,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 90,
+              "y1": 245,
+              "x2": 550,
+              "y2": 245,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "两份机构资料能支持哪些年代与地点说法，又有哪些“世界首次”或传播结论超出了证据？",
+      "sources": [
+        {
+          "title": "British Library / IDP｜Or.8210/P.2",
+          "url": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+          "claim": "目录将该《金刚经》印本定为868年，材料为木刻、纸、墨；发现地点列敦煌莫高窟。",
+          "scope": "目录中的发现地不等于印制地，868是该印本的定年而不是发现年；不据此主张世界印刷起源或首次发明。"
+        },
+        {
+          "title": "Library of Congress｜The Gutenberg Bible: Introduction",
+          "url": "https://guides.loc.gov/gutenberg",
+          "claim": "该馆指南把古腾堡《圣经》列为1454/1455年在美因茨印制的欧洲大开本活字印本，说明有纸本及羊皮纸本。",
+          "scope": "保留1454—1455年范围及欧洲限定；不把所有副本说成纸本，不把欧洲范围的表述改为世界最早印刷。指南与馆藏目录是机构对历史材料的描述，不是儿童直接见到原件。"
+        },
+        {
+          "title": "IDP｜Buddhist texts: The Diamond Sutra",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+          "claim": "教育页明确说明该印本的纸张连接成卷，支持本卡纸卷形制描述。",
+          "scope": "补充形制来源，不加入高龄六陈述卡的两核心来源审查，也不以形制证明印刷起源。"
+        }
+      ],
+      "sourceNote": "依据机构馆藏目录和研究指南独立构造历史资料操作；未真实课堂试用，不代表机构认证。纸卡、时间线、证据表均为原创教学示意，不是原件鉴定或自然科学实验；不以两个材料概括世界印刷史。"
+    }
+  }
+}

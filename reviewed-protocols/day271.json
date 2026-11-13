@@ -1,0 +1,2690 @@
+{
+  "activityId": 271,
+  "activityTitle": "少量数据的平均分",
+  "contentKey": "annual-m035",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "能把同样的大卡搬得一样多吗？",
+      "materials": [
+        "preschool大绘图区、preschool-rules、conclusion-4-6，由成人填写公共print-log/setup-record/move-log，注明仅两列6卡且第2次不适用；公共safety/setup/layout，规则与计数按preschool-rules覆盖，三列rules/record不用于本龄；参考答案收起",
+        "成人准备6张同大60mm纸卡（cards-1一张A4，其他卡收起，实核至少50mm）、普通纸笔、圆钝毫米尺、约35×50cm以上安全可及桌面。成人专用剪刀预制后收起。"
+      ],
+      "safety": "成人全程近距离陪伴，所有剪裁由成人事先完成并收好剪刀；儿童不接触剪刀。只用整洁普通纸卡、纸笔和圆钝尺，不用硬币、豆子或小散件，纸卡笔不入口。桌面平稳干燥，远离桌边；坐着可轻松够到才移动，够不到由成人代搬，不站椅、不探身、不堆高。疲倦、纸边不适或不愿继续即可停，保留未做和帮助，不把数错或搬法评价为孩子好坏。",
+      "steps": [
+        {
+          "title": "先看两列并猜能否一样多",
+          "caption": "先看两列并猜能否一样多",
+          "action": "成人准备合格大纸卡，读setup/layout，孩子在preschool上方“先猜想/原话”框说或画；此时不展示reference答案。成人只摆X两张、Y四张共6张；其他卡收起，孩子只指哪里较多，不要求认数。",
+          "actor": "together",
+          "adultNote": "4—6岁只印cards-1一份取6张，其他年龄cards-1和cards-2各印一份取12张；不用的卡收起不计入数据。100%比例，先在print-log实记100mm核线及卡边长。两张A4各有6个60×60mm方卡，共12张；剪后检查同尺寸、边长至少50mm，卡号1–12仅作追踪。纸上卡模实际尺寸与网页小图不同。打印不准且不能重新准备同大的合格纸卡则不做；不缩小卡来挤桌面。 12张纸卡在桌面平放，不在一张A4纸上排六张。用约35×50cm以上可用桌面：三列各宽6cm，列间留约2cm，行间约0.5cm，同一底线。最长6张占6×6+5×0.5=38.5cm；三列总宽22cm，四边另留约5cm安全余量。35×50cm只是原创布局规划，不是实测安全认证；还需成人确认坐位可及与桌边安全，不合格记未做。layout纸仅布局说明，不能当原尺寸摆放垫。 幼龄简化任务仅6张卡，X两张、Y四张，Z列不用，其他卡先收起。只从Y向X搬一张，停手比较两列，目标是各三张。最多搬一次，不添、不拿走或剪卡；暂停在手中的卡也要记录，未知不当0。成人指引或代搬，不要求读写算数。"
+        },
+        {
+          "title": "把多的一张搬给少的一列",
+          "caption": "把多的一张搬给少的一列",
+          "action": "成人指Y和X，孩子愿意且能轻松够到时只搬一张，成人也可代搬并记录。放稳停手再看两列，preschool中框画或口述发生什么，不要求写算式。",
+          "actor": "together",
+          "adultNote": "幼龄简化任务仅6张卡，X两张、Y四张，Z列不用，其他卡先收起。只从Y向X搬一张，停手比较两列，目标是各三张。最多搬一次，不添、不拿走或剪卡；暂停在手中的卡也要记录，未知不当0。成人指引或代搬，不要求读写算数。"
+        },
+        {
+          "title": "停手配对检查两列",
+          "caption": "停手配对检查两列",
+          "action": "不追加第二次搬动，停手逐卡配对看两列是否同样多。preschool中框保留实际或未做，不把理想图当实际结果；成人可代数，不要求孩子报数字。",
+          "actor": "together",
+          "adultNote": "幼龄简化任务仅6张卡，X两张、Y四张，Z列不用，其他卡先收起。只从Y向X搬一张，停手比较两列，目标是各三张。最多搬一次，不添、不拿走或剪卡；暂停在手中的卡也要记录，未知不当0。成人指引或代搬，不要求读写算数。"
+        },
+        {
+          "title": "说说卡有没有凭空变多",
+          "caption": "说说卡有没有凭空变多",
+          "action": "preschool下框和conclusion-4-6由孩子指说或画，成人写原话与帮助。共同核6张卡仍在两列/手中哪里；可不知道，不要求算6除2。结束收齐6卡。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一一比较",
+          "移动不添卡"
+        ],
+        "explanation": "移动同一张完整卡不改变合计。幼龄只用2+4=6两列，一次Y→X后理想各3张；7岁以上核心初始2+4+6=12，若三列等数则每列12÷3=4；这是假设均分模型，真实操作未做或未完成须另记。均值不必是原数据中某一个数，中位数是排序后的中间值。本题不把模型卡解释为真实群体。",
+        "limits": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。",
+        "observation": "幼龄简化任务仅6张卡，X两张、Y四张，Z列不用，其他卡先收起。只从Y向X搬一张，停手比较两列，目标是各三张。最多搬一次，不添、不拿走或剪卡；暂停在手中的卡也要记录，未知不当0。成人指引或代搬，不要求读写算数。",
+        "nextQuestion": "哪些总量可以只搬完整卡而分成三列等数？为什么例子还需要一般理由？"
+      },
+      "guide": {
+        "goal": "说说卡有没有凭空变多",
+        "observe": "先看两列并猜能否一样多",
+        "support": "成人准备和代读代写，幼儿可只指认/口述/代搬；记录帮助、未知和未做。",
+        "control": "幼龄简化任务仅6张卡，X两张、Y四张，Z列不用，其他卡先收起。只从Y向X搬一张，停手比较两列，目标是各三张。最多搬一次，不添、不拿走或剪卡；暂停在手中的卡也要记录，未知不当0。成人指引或代搬，不要求读写算数。",
+        "time": "5—10分钟可停",
+        "recordFields": [
+          "实际两列与手中卡",
+          "卡号/转移/帮助",
+          "合计与等数条件",
+          "纸上另题单列",
+          "未做及结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e 5.5 Averages and Probability",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值为数值总和除以个数；中位数按排序后中间位置定义。",
+          "scope": "本轮实读正文47–71、129–168；仅用概念，纸卡、数据、图示及家庭流程原创。页面第72行严格介于端点的简述不适用于全相等数据，本稿使用含等号界限。未读外链视频或复制图。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax均值/中位数定义，全部卡片图、数值、记录及适龄步骤原创。来源不认证本卡大小、桌面或儿童操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mean271-4-6-1",
+          "description": "先看两列并猜能否一样多。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先看两列并猜能否一样多",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 277,
+              "x2": 310,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 93,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 252,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 220,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 252,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 220,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 188,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 156,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "大纸卡，成人预制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可指说或代搬",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知与未做有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不评价孩子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-4-6-2",
+          "description": "把多的一张搬给少的一列。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把多的一张搬给少的一列",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 55,
+              "y1": 277,
+              "x2": 310,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 93,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 252,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 85,
+              "y": 220,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 218,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 252,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 220,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 188,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 210,
+              "y": 156,
+              "width": 45,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 223,
+              "y1": 108,
+              "x2": 105,
+              "y2": 108,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 98,
+              "text": "只搬一次 Y→X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "大纸卡，成人预制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可指说或代搬",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知与未做有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不评价孩子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-4-6-3",
+          "description": "停手配对检查两列。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "停手配对检查两列",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 143,
+              "text": "两列逐卡配对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 183,
+              "text": "不追加第二次搬动",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 223,
+              "text": "未做 / 原话 / 帮助",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "大纸卡，成人预制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可指说或代搬",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知与未做有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不评价孩子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-4-6-4",
+          "description": "说说卡有没有凭空变多。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "说说卡有没有凭空变多",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 145,
+              "text": "卡片数仍守住了吗？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 185,
+              "text": "均分结果与现实区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 225,
+              "text": "保留实际和帮助记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "大纸卡，成人预制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可指说或代搬",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知与未做有效",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不评价孩子",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "三列变了，总数怎样核查？",
+      "materials": [
+        "prediction-7-9、core-log-7-9、mean-7-9、compare-7-9、conclusion-7-9；公共safety/setup/layout/rules/record、print-log、setup-record、move-log；reference和后续另题先收起",
+        "成人准备12张同大60mm纸卡（两张A4各6张，实核至少50mm）、普通纸笔、圆钝毫米尺、约35×50cm以上安全可及桌面。成人专用剪刀预制后收起。"
+      ],
+      "safety": "成人全程近距离陪伴，所有剪裁由成人事先完成并收好剪刀；儿童不接触剪刀。只用整洁普通纸卡、纸笔和圆钝尺，不用硬币、豆子或小散件，纸卡笔不入口。桌面平稳干燥，远离桌边；坐着可轻松够到才移动，够不到由成人代搬，不站椅、不探身、不堆高。疲倦、纸边不适或不愿继续即可停，保留未做和帮助，不把数错或搬法评价为孩子好坏。",
+      "steps": [
+        {
+          "title": "先记三列与猜想",
+          "caption": "先记三列与猜想",
+          "action": "成人完成print-log与setup，孩子在prediction-7-9保留先猜想。独立数初始三列，core-log-7-9第一行填X/Y/Z/合计；没有数到就写?，不看参考页填数。",
+          "actor": "together",
+          "adultNote": "4—6岁只印cards-1一份取6张，其他年龄cards-1和cards-2各印一份取12张；不用的卡收起不计入数据。100%比例，先在print-log实记100mm核线及卡边长。两张A4各有6个60×60mm方卡，共12张；剪后检查同尺寸、边长至少50mm，卡号1–12仅作追踪。纸上卡模实际尺寸与网页小图不同。打印不准且不能重新准备同大的合格纸卡则不做；不缩小卡来挤桌面。 12张纸卡在桌面平放，不在一张A4纸上排六张。用约35×50cm以上可用桌面：三列各宽6cm，列间留约2cm，行间约0.5cm，同一底线。最长6张占6×6+5×0.5=38.5cm；三列总宽22cm，四边另留约5cm安全余量。35×50cm只是原创布局规划，不是实测安全认证；还需成人确认坐位可及与桌边安全，不合格记未做。layout纸仅布局说明，不能当原尺寸摆放垫。"
+        },
+        {
+          "title": "逐次记一张从哪到哪",
+          "caption": "逐次记一张从哪到哪",
+          "action": "按核心从Z到X搬一张，停手重数，core-log-7-9填第一次后数量；move-log另记卡号/起终列/帮助，不能把去回重复算成两张新卡。",
+          "actor": "together",
+          "adultNote": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。"
+        },
+        {
+          "title": "第二次后检查均分与总数",
+          "caption": "第二次后检查均分与总数",
+          "action": "合格才再搬一次并记第二次后与最后核对。compare-7-9写是否三列同数、是否总量仍12、遗漏/手中卡如何解释；不同结果如实保留。",
+          "actor": "together",
+          "adultNote": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。"
+        },
+        {
+          "title": "把均分写成一个算式",
+          "caption": "把均分写成一个算式",
+          "action": "在mean-7-9先用实际核齐的总量和三列写总量÷列数，再对照每列数量。若未完成，另注明理想模型推算，不补造实录；conclusion写本次依据与疑问。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "均分与均值",
+          "总数守恒"
+        ],
+        "explanation": "移动同一张完整卡不改变合计。幼龄只用2+4=6两列，一次Y→X后理想各3张；7岁以上核心初始2+4+6=12，若三列等数则每列12÷3=4；这是假设均分模型，真实操作未做或未完成须另记。均值不必是原数据中某一个数，中位数是排序后的中间值。本题不把模型卡解释为真实群体。",
+        "limits": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。",
+        "observation": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "nextQuestion": "哪些总量可以只搬完整卡而分成三列等数？为什么例子还需要一般理由？"
+      },
+      "guide": {
+        "goal": "把均分写成一个算式",
+        "observe": "先记三列与猜想",
+        "support": "成人准备和代读代写，幼儿可只指认/口述/代搬；记录帮助、未知和未做。",
+        "control": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。 移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "time": "10—20分钟可分次",
+        "recordFields": [
+          "实际三列与手中卡",
+          "卡号/转移/帮助",
+          "合计与等数条件",
+          "纸上另题单列",
+          "未做及结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e 5.5 Averages and Probability",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值为数值总和除以个数；中位数按排序后中间位置定义。",
+          "scope": "本轮实读正文47–71、129–168；仅用概念，纸卡、数据、图示及家庭流程原创。页面第72行严格介于端点的简述不适用于全相等数据，本稿使用含等号界限。未读外链视频或复制图。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax均值/中位数定义，全部卡片图、数值、记录及适龄步骤原创。来源不认证本卡大小、桌面或儿童操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mean271-7-9-1",
+          "description": "先记三列与猜想。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先记三列与猜想",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 47,
+              "y1": 277,
+              "x2": 320,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 292,
+              "text": "Z",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 152,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 127,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 105,
+              "text": "初始输入；答案稍后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "一次只搬同一张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "停手后再计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "实录不预填答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "总量与列数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-7-9-2",
+          "description": "逐次记一张从哪到哪。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐次记一张从哪到哪",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 47,
+              "y1": 277,
+              "x2": 320,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 292,
+              "text": "Z",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 152,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 127,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 247,
+              "y1": 108,
+              "x2": 84,
+              "y2": 108,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 99,
+              "text": "只搬同一张 Z→X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "一次只搬同一张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "停手后再计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "实录不预填答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "总量与列数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-7-9-3",
+          "description": "第二次后检查均分与总数。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "第二次后检查均分与总数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 143,
+              "text": "停手后核每列实际张数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 183,
+              "text": "未知 / 未做 / 手中卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 223,
+              "text": "不把预期填写成实录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "一次只搬同一张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "停手后再计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "实录不预填答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "总量与列数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-7-9-4",
+          "description": "把均分写成一个算式。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "把均分写成一个算式",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 145,
+              "text": "卡片数仍守住了吗？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 185,
+              "text": "均分结果与现实区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 225,
+              "text": "保留实际和帮助记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "一次只搬同一张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "停手后再计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "实录不预填答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "总量与列数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "不同搬法与非整数均值有什么边界？",
+      "materials": [
+        "prediction-10-12、core-log-10-12、invariant-audit、route-A/B、fraction-work、conclusion-10-12；核心后才读route-input/fraction-input；公共safety/setup/layout/rules/record、print-log、setup-record、move-log；reference和后续另题先收起",
+        "成人准备12张同大60mm纸卡（两张A4各6张，实核至少50mm）、普通纸笔、圆钝毫米尺、约35×50cm以上安全可及桌面。成人专用剪刀预制后收起。"
+      ],
+      "safety": "成人全程近距离陪伴，所有剪裁由成人事先完成并收好剪刀；儿童不接触剪刀。只用整洁普通纸卡、纸笔和圆钝尺，不用硬币、豆子或小散件，纸卡笔不入口。桌面平稳干燥，远离桌边；坐着可轻松够到才移动，够不到由成人代搬，不站椅、不探身、不堆高。疲倦、纸边不适或不愿继续即可停，保留未做和帮助，不把数错或搬法评价为孩子好坏。",
+      "steps": [
+        {
+          "title": "登记计数时点与不变量",
+          "caption": "登记计数时点与不变量",
+          "action": "prediction-10-12先猜哪些数会变、哪些总量不变。core-log-10-12实记初始，setup注明停手后计数及掉卡/在手中时的处理，成人仅提供所需帮助。",
+          "actor": "together",
+          "adultNote": "4—6岁只印cards-1一份取6张，其他年龄cards-1和cards-2各印一份取12张；不用的卡收起不计入数据。100%比例，先在print-log实记100mm核线及卡边长。两张A4各有6个60×60mm方卡，共12张；剪后检查同尺寸、边长至少50mm，卡号1–12仅作追踪。纸上卡模实际尺寸与网页小图不同。打印不准且不能重新准备同大的合格纸卡则不做；不缩小卡来挤桌面。 12张纸卡在桌面平放，不在一张A4纸上排六张。用约35×50cm以上可用桌面：三列各宽6cm，列间留约2cm，行间约0.5cm，同一底线。最长6张占6×6+5×0.5=38.5cm；三列总宽22cm，四边另留约5cm安全余量。35×50cm只是原创布局规划，不是实测安全认证；还需成人确认坐位可及与桌边安全，不合格记未做。layout纸仅布局说明，不能当原尺寸摆放垫。"
+        },
+        {
+          "title": "记录核心两次并审计",
+          "caption": "记录核心两次并审计",
+          "action": "依次最多两次Z→X，core-log-10-12与move-log记录实际；invariant-audit逐次把减少1/增加1和合计对照，不把计划保持当真实已保持。",
+          "actor": "together",
+          "adultNote": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。"
+        },
+        {
+          "title": "另算两条虚构搬法",
+          "caption": "另算两条虚构搬法",
+          "action": "核心结束才看route-input无答案模型输入，route-A与route-B按给定转移逐步算三列及总数。A为Z→X两次；B为Z→Y、Y→X、Z→X。只纸算不同步数，不重新摆卡，不把模型结果当实录。",
+          "actor": "together",
+          "adultNote": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。"
+        },
+        {
+          "title": "用整除界限解释另题",
+          "caption": "用整除界限解释另题",
+          "action": "读fraction-input虚构2/4/7三列，fraction-work算总数及每列均值，判断只搬整卡能否等数；不添第13张或剪卡。conclusion区分核心12张、另题13单位与一般条件；有限两个例子不是一般证明。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "转移不变量",
+          "整除与分数"
+        ],
+        "explanation": "移动同一张完整卡不改变合计。幼龄只用2+4=6两列，一次Y→X后理想各3张；7岁以上核心初始2+4+6=12，若三列等数则每列12÷3=4；这是假设均分模型，真实操作未做或未完成须另记。均值不必是原数据中某一个数，中位数是排序后的中间值。本题不把模型卡解释为真实群体。",
+        "limits": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。",
+        "observation": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "nextQuestion": "哪些总量可以只搬完整卡而分成三列等数？为什么例子还需要一般理由？"
+      },
+      "guide": {
+        "goal": "用整除界限解释另题",
+        "observe": "登记计数时点与不变量",
+        "support": "成人准备和代读代写，幼儿可只指认/口述/代搬；记录帮助、未知和未做。",
+        "control": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。 移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "实际三列与手中卡",
+          "卡号/转移/帮助",
+          "合计与等数条件",
+          "纸上另题单列",
+          "未做及结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e 5.5 Averages and Probability",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值为数值总和除以个数；中位数按排序后中间位置定义。",
+          "scope": "本轮实读正文47–71、129–168；仅用概念，纸卡、数据、图示及家庭流程原创。页面第72行严格介于端点的简述不适用于全相等数据，本稿使用含等号界限。未读外链视频或复制图。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax均值/中位数定义，全部卡片图、数值、记录及适龄步骤原创。来源不认证本卡大小、桌面或儿童操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mean271-10-12-1",
+          "description": "登记计数时点与不变量。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "登记计数时点与不变量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 47,
+              "y1": 277,
+              "x2": 320,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 292,
+              "text": "Z",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 152,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 127,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 105,
+              "text": "初始输入；答案稍后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实录与纸算分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不同路径可核总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "整卡与分数均值区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "有限例不能代替证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-10-12-2",
+          "description": "记录核心两次并审计。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "记录核心两次并审计",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 47,
+              "y1": 277,
+              "x2": 320,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 292,
+              "text": "Z",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 152,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 127,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 247,
+              "y1": 108,
+              "x2": 84,
+              "y2": 108,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 99,
+              "text": "只搬同一张 Z→X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实录与纸算分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不同路径可核总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "整卡与分数均值区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "有限例不能代替证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-10-12-3",
+          "description": "另算两条虚构搬法。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "另算两条虚构搬法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 141,
+              "text": "另题A：Z→X，Z→X",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 181,
+              "text": "另题B：Z→Y，Y→X",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 218,
+              "text": "再 Z→X；逐步核总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 255,
+              "text": "纯纸算，不追加实物操作",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实录与纸算分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不同路径可核总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "整卡与分数均值区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "有限例不能代替证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-10-12-4",
+          "description": "用整除界限解释另题。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用整除界限解释另题",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 145,
+              "text": "另题输入：2、4、7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 185,
+              "text": "总数 / 三列 / 整卡？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 225,
+              "text": "不添卡，不剪分数卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "实录与纸算分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不同路径可核总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "整卡与分数均值区别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "有限例不能代替证明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "不变量证明与统计量能说明什么？",
+      "materials": [
+        "prediction-13-16、core-log-13-16、proof-work、stats-work、claim-audit、enumeration-plan、conclusion-13-16；核心后才读stats-input；公共safety/setup/layout/rules/record、print-log、setup-record、move-log；reference和后续另题先收起",
+        "成人准备12张同大60mm纸卡（两张A4各6张，实核至少50mm）、普通纸笔、圆钝毫米尺、约35×50cm以上安全可及桌面。成人专用剪刀预制后收起。"
+      ],
+      "safety": "成人全程近距离陪伴，所有剪裁由成人事先完成并收好剪刀；儿童不接触剪刀。只用整洁普通纸卡、纸笔和圆钝尺，不用硬币、豆子或小散件，纸卡笔不入口。桌面平稳干燥，远离桌边；坐着可轻松够到才移动，够不到由成人代搬，不站椅、不探身、不堆高。疲倦、纸边不适或不愿继续即可停，保留未做和帮助，不把数错或搬法评价为孩子好坏。",
+      "steps": [
+        {
+          "title": "先区分实际均分与统计量",
+          "caption": "先区分实际均分与统计量",
+          "action": "prediction-13-16先写均值和某个人/某列实际数的区别，core-log-13-16登记初始；setup仍遵守大卡尺寸与桌面，不因年龄增加风险。",
+          "actor": "together",
+          "adultNote": "4—6岁只印cards-1一份取6张，其他年龄cards-1和cards-2各印一份取12张；不用的卡收起不计入数据。100%比例，先在print-log实记100mm核线及卡边长。两张A4各有6个60×60mm方卡，共12张；剪后检查同尺寸、边长至少50mm，卡号1–12仅作追踪。纸上卡模实际尺寸与网页小图不同。打印不准且不能重新准备同大的合格纸卡则不做；不缩小卡来挤桌面。 12张纸卡在桌面平放，不在一张A4纸上排六张。用约35×50cm以上可用桌面：三列各宽6cm，列间留约2cm，行间约0.5cm，同一底线。最长6张占6×6+5×0.5=38.5cm；三列总宽22cm，四边另留约5cm安全余量。35×50cm只是原创布局规划，不是实测安全认证；还需成人确认坐位可及与桌边安全，不合格记未做。layout纸仅布局说明，不能当原尺寸摆放垫。"
+        },
+        {
+          "title": "完成核心并写代数不变量",
+          "caption": "完成核心并写代数不变量",
+          "action": "最多两次Z→X，真实数量填core-log-13-16，转移填move-log。proof-work用(a−1)+(b+1)+c=a+b+c解释一般一次转移，再写三列等数时3m=T；这是非负整卡计数模型，不把减到负数当合法移动。",
+          "actor": "together",
+          "adultNote": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。"
+        },
+        {
+          "title": "比较虚构统计量与范围",
+          "caption": "比较虚构统计量与范围",
+          "action": "只纸算stats-input四组与可选第五组数据，在stats-work逐组填总和/均值/中位数及极值。比较2/4/6与2/4/12的单值变动；2/3/6允许分数均值但不声称有分数张实卡；4/4/4检验均值可等于两端。",
+          "actor": "together",
+          "adultNote": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。"
+        },
+        {
+          "title": "挑战概括并说明证明范围",
+          "caption": "挑战概括并说明证明范围",
+          "action": "claim-audit核均值必是原值、相同均值必相同数据、常比中位数大、举例等于证明四项。enumeration-plan用公式或列举策略说明非负整三元组和12共有多少个、只有哪个相等，不要求手写全部；conclusion分一般代数、有限枚举与未试做边界。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "均值与中位数",
+          "代数证明与枚举"
+        ],
+        "explanation": "移动同一张完整卡不改变合计。幼龄只用2+4=6两列，一次Y→X后理想各3张；7岁以上核心初始2+4+6=12，若三列等数则每列12÷3=4；这是假设均分模型，真实操作未做或未完成须另记。均值不必是原数据中某一个数，中位数是排序后的中间值。本题不把模型卡解释为真实群体。",
+        "limits": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。",
+        "observation": "移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "nextQuestion": "哪些总量可以只搬完整卡而分成三列等数？为什么例子还需要一般理由？"
+      },
+      "guide": {
+        "goal": "挑战概括并说明证明范围",
+        "observe": "先区分实际均分与统计量",
+        "support": "成人准备和代读代写，幼儿可只指认/口述/代搬；记录帮助、未知和未做。",
+        "control": "核心只用这12张同大卡，初始X列2张、Y列4张、Z列6张，各列同底线、卡不重叠。一次只从较多列移一张到较少列；核心计划从Z到X，搬完停手重数再决定下一次，最多两次，不强求未完成者做完。卡只能在三列间转移，不添、不拿走、不剪卡、不压叠藏卡。若掉卡、错列或漏数，记暂停与实际，不把总数改成预期。 移动前先保留猜想，再数实际X/Y/Z及总卡数。移动时卡可能暂在手中，计数一律等放稳、手离开后；若正好暂停在手中，单列手中张数，不能误说总数减少。每次记从哪列到哪列、卡号、帮助或未做。只有实际三列等数且合计12才说本次均分完成；不知道可记?，未做记X，均不能当0。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "实际三列与手中卡",
+          "卡号/转移/帮助",
+          "合计与等数条件",
+          "纸上另题单列",
+          "未做及结论范围"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax｜Prealgebra 2e 5.5 Averages and Probability",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-5-averages-and-probability",
+          "claim": "均值为数值总和除以个数；中位数按排序后中间位置定义。",
+          "scope": "本轮实读正文47–71、129–168；仅用概念，纸卡、数据、图示及家庭流程原创。页面第72行严格介于端点的简述不适用于全相等数据，本稿使用含等号界限。未读外链视频或复制图。"
+        }
+      ],
+      "sourceNote": "本轮实读OpenStax均值/中位数定义，全部卡片图、数值、记录及适龄步骤原创。来源不认证本卡大小、桌面或儿童操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态检查",
+        "limitations": "RECONSTRUCTION原创纸卡方案，未实际桌面、儿童、打印或适龄认证。均值是数值总和除以数据个数；把模型卡均分不说明真实世界每个人都有均值数量，不评价儿童。核心2/4/6与后续虚构数据分开，后续非整数/离群题只纸算，不添卡或剪实物。一次成功或有限例不能替代一般证明。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "mean271-13-16-1",
+          "description": "先区分实际均分与统计量。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "先区分实际均分与统计量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 47,
+              "y1": 277,
+              "x2": 320,
+              "y2": 277,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 292,
+              "text": "X",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 292,
+              "text": "Y",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 244,
+              "y": 292,
+              "text": "Z",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 252,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 227,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 202,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 177,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 152,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 235,
+              "y": 127,
+              "width": 35,
+              "height": 21,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 42,
+              "y": 105,
+              "text": "初始输入；答案稍后看",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "均值不是人人实际值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "中位数需排序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "同均值不保证同分布",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "证明标明适用范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-13-16-2",
+          "description": "完成核心并写代数不变量。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "完成核心并写代数不变量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 145,
+              "text": "先实录核心，再代数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 185,
+              "text": "一列−1，另一列+1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 225,
+              "text": "等数时 3m=T",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "均值不是人人实际值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "中位数需排序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "同均值不保证同分布",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "证明标明适用范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-13-16-3",
+          "description": "比较虚构统计量与范围。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较虚构统计量与范围",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 140,
+              "text": "另题假设数据，不是真实记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 177,
+              "text": "总和 / 均值 / 中位数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 214,
+              "text": "全相等时看端点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 251,
+              "text": "不改变真实12张卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "均值不是人人实际值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "中位数需排序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "同均值不保证同分布",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "证明标明适用范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "mean271-13-16-4",
+          "description": "挑战概括并说明证明范围。原创缩小纸卡示意，非原尺寸摆放图，不表示已实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "挑战概括并说明证明范围",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 145,
+              "text": "非负整数 a+b+c=12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 185,
+              "text": "按a分组，数b的选择",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 225,
+              "text": "枚举与一般证明分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "均值不是人人实际值",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "中位数需排序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "同均值不保证同分布",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "证明标明适用范围",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

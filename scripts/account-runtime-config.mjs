@@ -1,7 +1,6 @@
-// Deployment-only secret synchronization. Never imported by the Worker or public assets.
+// Upgrade-only private configuration synchronization. Never imported by the Worker or public assets.
 // API contract: https://developers.cloudflare.com/api/resources/workers/subresources/scripts/subresources/secrets/methods/update/
 import {readFileSync} from 'node:fs';
-import {randomBytes} from 'node:crypto';
 import {resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {assertDeploymentAllowed} from './deploy-guard.mjs';
@@ -28,7 +27,7 @@ function validateInputs(policy,config,env){
 }
 
 /** Call only inside the serialized production deployment job after source approval. */
-export async function syncAccountRuntime({policy,config,env,fetchImpl=fetch,randomBytesImpl=randomBytes}){
+export async function syncAccountRuntime({policy,config,env,fetchImpl=fetch}){
   const {token,resend,owner,sender}=validateInputs(policy,config,env);
   async function api(method,body){
     let response,data;
@@ -38,16 +37,17 @@ export async function syncAccountRuntime({policy,config,env,fetchImpl=fetch,rand
     return data.result;
   }
   const metadata=await api('GET');
-  if(!Array.isArray(metadata)||metadata.some(x=>!x||typeof x.name!=='string'||typeof x.type!=='string'))fail('Cloudflare secret-name metadata was invalid.');
+  if(!Array.isArray(metadata)||metadata.some(x=>!x||Array.isArray(x)||typeof x.name!=='string'||!x.name.trim()||x.name!==x.name.trim()||typeof x.type!=='string'||!x.type.trim()||x.type!==x.type.trim())||new Set(metadata.map(x=>x.name)).size!==metadata.length)fail('Cloudflare secret-name metadata was invalid.');
   const auth=metadata.find(x=>x.name==='AUTH_SECRET');
-  if(auth&&auth.type!=='secret_text')fail('Existing authentication binding has an unexpected type; no changes made.');
-  const writes=[];
-  if(!auth){const bytes=randomBytesImpl(32);if(!(bytes instanceof Uint8Array)||bytes.length!==32)fail('Authentication key generation failed.');writes.push(['AUTH_SECRET',Buffer.from(bytes).toString('base64url')]);}
-  writes.push(['RESEND_API_KEY',resend],['EMAIL_FROM',sender],['BOOTSTRAP_ADMIN_EMAIL',owner],['EMAIL_PROVIDER','resend'],['REGISTRATION_ENABLED','true']);
+  // An upgrade must preserve the existing signing key, never silently create or rotate it.
+  // Initial key setup and recovery are separate maintainer operations, not a CI fallback.
+  if(!auth)fail('Required AUTH_SECRET is missing; no changes made. Initial setup or recovery requires a separate maintainer operation.');
+  if(auth.type!=='secret_text')fail('Existing authentication binding has an unexpected type; no changes made.');
+  const writes=[['RESEND_API_KEY',resend],['EMAIL_FROM',sender],['BOOTSTRAP_ADMIN_EMAIL',owner],['EMAIL_PROVIDER','resend'],['REGISTRATION_ENABLED','true']];
   // No ALLOWED_EMAIL_DOMAINS binding: runtime uses D1-only settings, defaulting to bootstrap-only.
   // PUT only updates these exact approved secret names; other bindings and databases are untouched.
   for(const[name,text]of writes)await api('PUT',{name,text,type:'secret_text'});
-  return {installedNames:writes.map(([name])=>name),authSecretCreated:!auth};
+  return {installedNames:writes.map(([name])=>name),authSecretCreated:false};
 }
 
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){

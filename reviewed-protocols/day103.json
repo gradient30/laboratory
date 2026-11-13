@@ -1,0 +1,2754 @@
+{
+  "activityId": 103,
+  "activityTitle": "公平分卡与余数",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "七张大卡给两个纸角色，每轮各一张，什么时候该把剩下的一张留在中间？",
+      "materials": [
+        "成人预裁7张边长8厘米的大方卡，外形相同，不编号也可",
+        "A4纸角色垫2张横放，分别画大图标A/B；每垫可平铺3张8厘米卡，一张A4暂留纸放中间",
+        "粗笔、成人代记的两轮记录纸：A张数/B张数/暂留张数/是否请求帮助"
+      ],
+      "safety": "只用成人预裁、边角圆钝的整张纸卡和纸垫，最小边长4厘米；4—6岁卡边长8厘米。不用硬币、珠子、糖果、食物、剪刀或真实奖品，不放入口鼻，不揉成小团或抛掷。桌面清空，成人看护低龄孩子并收齐材料。角色垫只是纸上模型，不让参与者争夺财物或按表现分配奖励；不把数学的等张数说成现实所有情境唯一公平原则。",
+      "steps": [
+        {
+          "title": "共同数七张，先说完整一轮",
+          "action": "孩子与成人一起把7卡排开点数，在两纸角色前摆空垫。成人示范只用手指比划：一轮要先确认中间至少有2张，再给A一张、B一张；未够2张就不开始新一轮，不给先到的人额外卡。",
+          "actor": "together",
+          "caption": "共同数七张，先说完整一轮",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "每轮各发一张，不够一轮就停",
+          "action": "孩子从中间逐张发，A后B完成一轮才再看剩余数，成人可代数但孩子实际移动大卡。停止时指每垫和中间，数并记录，不先告诉必须出现几个；漏发或错数就一起回看，原情况也记。",
+          "actor": "together",
+          "caption": "每轮各发一张，不够一轮就停",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "并排配对核张数，剩卡保持完整",
+          "action": "把A和B卡分别排在垫上，按一对一对应指认是否一样多。共同把两垫和暂留区合起来口头核仍是7，不撕开剩卡，不把余卡偷偷给一个角色。数学核对是每垫3张、中间1张，但只有实际数过才记录本次结果。",
+          "actor": "together",
+          "caption": "并排配对核张数，剩卡保持完整",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "收回重来，从B先发能改变吗",
+          "action": "收回全部7卡核数；这次B先、A后，每轮仍各一张，孩子再实际发到不能完成一轮。比较两次张数和帮助。先手改变不影响这套完整轮规则的等张数目标；只讨论纸模型，不说现实所有分配都应完全一样。",
+          "actor": "together",
+          "caption": "收回重来，从B先发能改变吗",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "完整一轮",
+          "一一对应核相等",
+          "剩余仍属于原总数",
+          "起始顺序与分配规则"
+        ],
+        "explanation": "每个完整轮次给两个角色各一张，因此完整轮后两边张数相同；若余下一张，已不够给两边各一张。七张的整卡模型可核为3、3和1。",
+        "limits": "只要求同样完整卡的张数一样，不谈卡的价值、个人需要或真实人的公平判断。口头等式可由成人代写，不要求幼儿独立做除法符号。",
+        "observation": "点数、完整轮次、暂留区和帮助如实记。图中的等式与卡数为数学核对目标，不预填实际操作是否无误。",
+        "nextQuestion": "余下的卡真的不够完整一轮，还是只是还没继续分？题目问的是每份张数、完整组数，还是容器数？"
+      },
+      "guide": {
+        "goal": "幼儿实际按完整轮分七大卡、配对核数，再换先手重分。",
+        "observe": "七张大卡给两个纸角色，每轮各一张，什么时候该把剩下的一张留在中间？",
+        "support": "先摆完整卡和指认每个数的单位，再用等式核总数。发生漏发先保留原记录并核卡，不为吻合答案偷偷增减。",
+        "control": "同7张不剪不增减、同2角色；每轮先确认够2；第二次只改变先发角色。",
+        "time": "约15—20分钟，幼儿参与5—8分钟",
+        "recordFields": [
+          "初始七卡与两角色",
+          "两次A/B/暂留实际张数",
+          "漏发/重数/成人帮助",
+          "改变先手后的比较"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜1.5 Divide Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-5-divide-whole-numbers",
+          "claim": "整物分组、分成相等数量可用于理解除法，商和余数需联系被分数量及组的含义。",
+          "scope": "作为实物整卡等分和分组的概念背景；本页卡数和变式原创，不使用食品。"
+        },
+        {
+          "title": "Lancaster University MATH111｜4.1 Divisibility, Theorem 4.1.8",
+          "url": "https://lancaster.ac.uk/~prendivs/accessible/math111/doth4.S1.html",
+          "claim": "对整数N与正整数d，标准商余数满足N=dq+r及0≤r<d，并且唯一。",
+          "scope": "本页仅研究非负卡数和正的分组数量；高龄以差为d倍数且绝对值小于d说明唯一性，不用有限案例冒充一般证明。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax整物除法模型及Lancaster标准余数条件与唯一性证明。四龄实物摆卡步骤为原创设计，未实际实施，不声称现实分配价值判断由除法决定。",
+      "diagrams": [
+        {
+          "sceneKey": "cards103-46-1",
+          "description": "七张完整大卡，两张空角色垫。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "七张完整大卡，两张空角色垫",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 46,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 101,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 156,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 211,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 266,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 321,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 376,
+              "y": 126,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 87,
+              "y": 214,
+              "width": 170,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 148,
+              "y": 254,
+              "text": "A",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 361,
+              "y": 214,
+              "width": 170,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 423,
+              "y": 254,
+              "text": "B",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-46-2",
+          "description": "一轮要先够两张，再各发一张。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "一轮要先够两张，再各发一张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 68,
+              "y": 135,
+              "width": 155,
+              "height": 125,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 166,
+              "text": "A",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 407,
+              "y": 135,
+              "width": 155,
+              "height": 125,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 474,
+              "y": 166,
+              "text": "B",
+              "fontSize": 23,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 263,
+              "y": 142,
+              "width": 42,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 320,
+              "y": 142,
+              "width": 42,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 255,
+              "y1": 211,
+              "x2": 179,
+              "y2": 211,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 367,
+              "y1": 211,
+              "x2": 451,
+              "y2": 211,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 280,
+              "text": "每轮各1张",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-46-3",
+          "description": "核对摆法：3、3和1。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "核对摆法：3、3和1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 198,
+              "height": 135,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 394,
+              "y": 122,
+              "width": 198,
+              "height": 135,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 137,
+              "y": 148,
+              "text": "A",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 484,
+              "y": 148,
+              "text": "B",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 66,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 184,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 412,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 471,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 530,
+              "y": 172,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 296,
+              "y": 173,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 270,
+              "y": 270,
+              "text": "暂留整张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-46-4",
+          "description": "收回七张，第二次从B开始。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "收回七张，第二次从B开始",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "B一张 → A一张，算完整一轮",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "仍先确认够2张才开始",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "实际重数：A___ B___ 暂留___",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "不剪卡、不暗送剩卡给一方",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "十四张分给四个角色，再添两张和取回四张，余数怎么变？",
+      "materials": [
+        "16张边长5厘米同样整方卡：14张投入、2张先放独立备用区",
+        "A4角色垫4张标A/B/C/D，每垫画2×2摆卡区；A4暂留纸、A4备用纸",
+        "记录纸三行分别为14/16/12张，粗笔；成人预裁，孩子实际摆放"
+      ],
+      "safety": "只用成人预裁、边角圆钝的整张纸卡和纸垫，最小边长4厘米；4—6岁卡边长8厘米。不用硬币、珠子、糖果、食物、剪刀或真实奖品，不放入口鼻，不揉成小团或抛掷。桌面清空，成人看护低龄孩子并收齐材料。角色垫只是纸上模型，不让参与者争夺财物或按表现分配奖励；不把数学的等张数说成现实所有情境唯一公平原则。",
+      "steps": [
+        {
+          "title": "分清投入十四张和备用两张",
+          "action": "孩子点数16卡，把2卡放备用区并明确暂不参与；14卡放投入区。四角色垫一轮需4张，先凑出4张才各发一张，重复到不能完整一轮。实际记录四垫张数、剩下数，核对总14。",
+          "actor": "together",
+          "caption": "分清投入十四张和备用两张",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "添两备用，看看能否再走一轮",
+          "action": "保持四垫原卡不动，把2备用卡加入暂留区，再看是否够一轮4张。若此前操作无误，2余卡加2新卡够一轮，每垫各添1张；实际执行再记录总16、各垫及暂留。不是只在纸上改数字。",
+          "actor": "together",
+          "caption": "添两备用，看看能否再走一轮",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "每垫取回一张，投入数变十二",
+          "action": "从当前每垫各取1张，共4张移到明确的备用区，不能仍算在投入总数。重新核四垫和暂留的投入总数12，记录每份及余卡；若前轮有漏卡先查清，不能把14到12误说成每垫各取1张。",
+          "actor": "together",
+          "caption": "每垫取回一张，投入数变十二",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "用三条等式核单位，不隐去备用",
+          "action": "孩子为三轮写N=4×每份张数+余卡张数，核对目标14=4×3+2、16=4×4+0、12=4×3+0。指出N只算当轮投入的卡，最后备用4张另列。解释余卡必须不足4，否则还能给四角色再各一张。",
+          "actor": "together",
+          "caption": "用三条等式核单位，不隐去备用",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "投入区与备用区",
+          "等分的每份张数",
+          "余数与下一完整轮",
+          "总数守恒与范围"
+        ],
+        "explanation": "余卡不是卡消失了，而是在既定四个角色的整卡等分规则下尚不能组成完整轮的卡。加入两张可使14变16；从四垫各拿回一张是16变12。",
+        "limits": "等式指规定数量的正确核算目标；实际移动若错先记录并复核。备用卡不计入当前投入N，但全桌仍应有16张。",
+        "observation": "点数、完整轮次、暂留区和帮助如实记。图中的等式与卡数为数学核对目标，不预填实际操作是否无误。",
+        "nextQuestion": "余下的卡真的不够完整一轮，还是只是还没继续分？题目问的是每份张数、完整组数，还是容器数？"
+      },
+      "guide": {
+        "goal": "实际完成14卡四份、加入2张再发一轮、每份取回1张，再核三个总数与余数。",
+        "observe": "十四张分给四个角色，再添两张和取回四张，余数怎么变？",
+        "support": "先摆完整卡和指认每个数的单位，再用等式核总数。发生漏发先保留原记录并核卡，不为吻合答案偷偷增减。",
+        "control": "同4角色、整卡不切；备用区独立；每次记录投入N和全桌总16，余数0至3。",
+        "time": "约20—30分钟",
+        "recordFields": [
+          "各轮投入/备用数",
+          "每垫实际张数与暂留",
+          "三条带单位等式",
+          "完整轮次/错误与修正"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜1.5 Divide Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-5-divide-whole-numbers",
+          "claim": "整物分组、分成相等数量可用于理解除法，商和余数需联系被分数量及组的含义。",
+          "scope": "作为实物整卡等分和分组的概念背景；本页卡数和变式原创，不使用食品。"
+        },
+        {
+          "title": "Lancaster University MATH111｜4.1 Divisibility, Theorem 4.1.8",
+          "url": "https://lancaster.ac.uk/~prendivs/accessible/math111/doth4.S1.html",
+          "claim": "对整数N与正整数d，标准商余数满足N=dq+r及0≤r<d，并且唯一。",
+          "scope": "本页仅研究非负卡数和正的分组数量；高龄以差为d倍数且绝对值小于d说明唯一性，不用有限案例冒充一般证明。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax整物除法模型及Lancaster标准余数条件与唯一性证明。四龄实物摆卡步骤为原创设计，未实际实施，不声称现实分配价值判断由除法决定。",
+      "diagrams": [
+        {
+          "sceneKey": "cards103-79-1",
+          "description": "14张投入；另2张先不参与。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "14张投入；另2张先不参与",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 34,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 147,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 179,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 147,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 189,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 189,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 324,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 334,
+              "y": 147,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 469,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 147,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 479,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 511,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 479,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 168,
+              "y": 255,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 198,
+              "y": 255,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 35,
+              "y": 278,
+              "text": "余2示例",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 308,
+              "y": 278,
+              "text": "备用2另放，不混入14",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-79-2",
+          "description": "余2加备用2，实际再分一轮。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "余2加备用2，实际再分一轮",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 78,
+              "y": 141,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 135,
+              "y": 141,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 217,
+              "y": 179,
+              "text": "+",
+              "fontSize": 28,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 276,
+              "y": 141,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 333,
+              "y": 141,
+              "width": 45,
+              "height": 45,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 407,
+              "y1": 163,
+              "x2": 482,
+              "y2": 163,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 490,
+              "y": 168,
+              "text": "一轮4",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 242,
+              "text": "操作后每份目标4张，总16，余0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 282,
+              "text": "先核卡，再填实际结果",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-79-3",
+          "description": "从每份取回1张，共取回4。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "从每份取回1张，共取回4",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 34,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 147,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 179,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 189,
+              "y": 147,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 189,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 221,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 189,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 324,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 334,
+              "y": 147,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 366,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 469,
+              "y": 124,
+              "width": 130,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 147,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 479,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 511,
+              "y": 164,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 479,
+              "y": 196,
+              "width": 27,
+              "height": 27,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 278,
+              "text": "当前投入12；取回4张另列备用",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-79-4",
+          "description": "每个数都注明含义。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "每个数都注明含义",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "14 = 4×3 + 2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "16 = 4×4 + 0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "12 = 4×3 + 0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "N只算投入；全桌16张仍须核齐",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "二十三张按“给五人”与“每包五张”重摆，商的单位一样吗？",
+      "materials": [
+        "25张边长4厘米的同样整卡，23张投入、2张备用另放",
+        "A5角色垫6张，标A至F，每垫画2×3卡位（可容六张4厘米卡）；另5张A5包装垫各画5卡位，不需真实袋子",
+        "A4暂留/备用纸，记录表含题意/投入N/除数及单位/商及单位/余卡；粗笔"
+      ],
+      "safety": "只用成人预裁、边角圆钝的整张纸卡和纸垫，最小边长4厘米；4—6岁卡边长8厘米。不用硬币、珠子、糖果、食物、剪刀或真实奖品，不放入口鼻，不揉成小团或抛掷。桌面清空，成人看护低龄孩子并收齐材料。角色垫只是纸上模型，不让参与者争夺财物或按表现分配奖励；不把数学的等张数说成现实所有情境唯一公平原则。",
+      "steps": [
+        {
+          "title": "二十三张给五角色，逐轮整分",
+          "action": "数出23张投入、2张放备用；先用A至E五角色垫，F收在旁边。每轮先从暂留区凑5卡，再每角色各发1张。核各份和剩余，等分目标是5角色各4张、余3张，记录商的单位为“张/角色”。",
+          "actor": "together",
+          "caption": "二十三张给五角色，逐轮整分",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "全部收回，改成每包五张",
+          "action": "把原23卡收回核数，换用5张包装垫。按每垫5个卡位逐格放满，满一包才换下一包；暂留不足5卡不叫完整包。实际摆后目标4个满包、余3张，写商单位“满包”，除数单位“张/包”。数字23÷5没变，提问与单位变了。",
+          "actor": "together",
+          "caption": "全部收回，改成每包五张",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "再收回改六角色，然后添一张",
+          "action": "收回原23卡改用A至F六角色垫，完整一轮需6张。目标各3张、余5。只从备用取1张加入余卡区，投入变24、备用还1张；凑齐6张后给六角色各1张，目标各4张、余0。实际移动、核数，不能把剩余1张备用也混入。",
+          "actor": "together",
+          "caption": "再收回改六角色，然后添一张",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "核四种摆法，解释标准余数",
+          "action": "逐行写23=5×4+3、23=6×3+5、24=6×4+0，并给重复的23÷5写出两种不同单位解释。对N=dq+r说明N、d、q、r都为非负整数但d必须正，0≤r<d；这里只是操作验证这些具体数，不能靠三例证明所有整数。",
+          "actor": "together",
+          "caption": "核四种摆法，解释标准余数",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等分与按容量分组",
+          "商的单位取决于题意",
+          "标准余数小于除数",
+          "投入总数和备用分离"
+        ],
+        "explanation": "同样23÷5，给五角色所得商是每角色4张，按每包五张所得商是4满包；余数都是3张。把除数改6或投入改24，必须重新按相应完整轮或包容量摆放。",
+        "limits": "未研究分数卡或除数0。三种等式只核本次例子，不代替一般定理证明；包装垫是容量模型，现实包装体积或价值未考虑。",
+        "observation": "点数、完整轮次、暂留区和帮助如实记。图中的等式与卡数为数学核对目标，不预填实际操作是否无误。",
+        "nextQuestion": "余下的卡真的不够完整一轮，还是只是还没继续分？题目问的是每份张数、完整组数，还是容器数？"
+      },
+      "guide": {
+        "goal": "亲手把同23卡在等分/定容量之间重摆，再改六份并加一卡，辨认商和除数单位。",
+        "observe": "二十三张按“给五人”与“每包五张”重摆，商的单位一样吗？",
+        "support": "先摆完整卡和指认每个数的单位，再用等式核总数。发生漏发先保留原记录并核卡，不为吻合答案偷偷增减。",
+        "control": "23投入与2备用起始清楚；每次完全回收再改题意；只加1使24，备用1不计N；整卡不裁。",
+        "time": "约30—40分钟",
+        "recordFields": [
+          "四种题意与实摆张数",
+          "N/d/q/r及各自单位",
+          "23回收/24投入/备用1",
+          "等式核对及余数范围",
+          "漏卡/帮助/不能一般化之处"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜1.5 Divide Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-5-divide-whole-numbers",
+          "claim": "整物分组、分成相等数量可用于理解除法，商和余数需联系被分数量及组的含义。",
+          "scope": "作为实物整卡等分和分组的概念背景；本页卡数和变式原创，不使用食品。"
+        },
+        {
+          "title": "Lancaster University MATH111｜4.1 Divisibility, Theorem 4.1.8",
+          "url": "https://lancaster.ac.uk/~prendivs/accessible/math111/doth4.S1.html",
+          "claim": "对整数N与正整数d，标准商余数满足N=dq+r及0≤r<d，并且唯一。",
+          "scope": "本页仅研究非负卡数和正的分组数量；高龄以差为d倍数且绝对值小于d说明唯一性，不用有限案例冒充一般证明。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax整物除法模型及Lancaster标准余数条件与唯一性证明。四龄实物摆卡步骤为原创设计，未实际实施，不声称现实分配价值判断由除法决定。",
+      "diagrams": [
+        {
+          "sceneKey": "cards103-1012-1",
+          "description": "23给5角色：商是每角色张数。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "23给5角色：商是每角色张数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 124,
+              "width": 106,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 147,
+              "text": "A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 99,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 191,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 124,
+              "width": 106,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 147,
+              "text": "B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 187,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 214,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 191,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 265,
+              "y": 124,
+              "width": 106,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 147,
+              "text": "C",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 302,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 329,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 191,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 124,
+              "width": 106,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 147,
+              "text": "D",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 417,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 444,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 191,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 495,
+              "y": 124,
+              "width": 106,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 505,
+              "y": 147,
+              "text": "E",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 532,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 559,
+              "y": 164,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 191,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 278,
+              "text": "核对目标：5份×4张＋余3张＝23张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1012-2",
+          "description": "同23改每包5张：商是满包数。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同23改每包5张：商是满包数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 124,
+              "width": 128,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 147,
+              "text": "包1",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 182,
+              "y": 124,
+              "width": 128,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 147,
+              "text": "包2",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 222,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 252,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 192,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 222,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 324,
+              "y": 124,
+              "width": 128,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 334,
+              "y": 147,
+              "text": "包3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 364,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 394,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 334,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 364,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 466,
+              "y": 124,
+              "width": 128,
+              "height": 115,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 476,
+              "y": 147,
+              "text": "包4",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 476,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 506,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 536,
+              "y": 164,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 476,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 506,
+              "y": 194,
+              "width": 25,
+              "height": 25,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 278,
+              "text": "核对目标：4满包×5张＋余3张",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1012-3",
+          "description": "六角色先分23，再实际添1。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "六角色先分23，再实际添1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "23：六份各3张，余5张为目标",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "从备用只取1张：投入变24",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "余5加1再完整发一轮6张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "核24：六份各4；备用仍1张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1012-4",
+          "description": "算式相同，商的单位仍要读题。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "算式相同，商的单位仍要读题",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "23÷5：4张/角色 或 4满包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "23=6×3+5；24=6×4+0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "N=dq+r；d为正整数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "0≤r<d；有限摆例不是一般证明",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "29=6×3+11也成立，为什么11不是标准余数，而装六张一包又需要五包？",
+      "materials": [
+        "29张边长4厘米同样整卡；A5角色垫6张A至F，每垫2×3卡位",
+        "另5张A5容量垫各画2×3卡位（容量6张）；A4暂留区与等式/证明记录纸",
+        "直尺和笔用于预画卡位；成人预裁卡，不用真实盒子或实际金钱"
+      ],
+      "safety": "只用成人预裁、边角圆钝的整张纸卡和纸垫，最小边长4厘米；4—6岁卡边长8厘米。不用硬币、珠子、糖果、食物、剪刀或真实奖品，不放入口鼻，不揉成小团或抛掷。桌面清空，成人看护低龄孩子并收齐材料。角色垫只是纸上模型，不让参与者争夺财物或按表现分配奖励；不把数学的等张数说成现实所有情境唯一公平原则。",
+      "steps": [
+        {
+          "title": "实摆等式成立却尚未分完的状态",
+          "action": "数29卡；给A至F各3卡，剩11卡放暂留区，实际核6×3+11=29。问11是否不足下一完整轮，不先改算式；从11中凑6卡给六角色各1卡，得到各4、余5，再核总数。保留前后两幅数量记录，前式并非算术错误。",
+          "actor": "together",
+          "caption": "实摆等式成立却尚未分完的状态",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "逆向收一轮，审计余数约束",
+          "action": "从六角色每垫收回1张，合并进暂留区，回到各3、余11。写出能恢复29但不满足0≤r<6，因11仍够再分一轮；再实际分回完成标准状态各4、余5。解释标准余数条件描述这套分配已不能再走完整轮，不仅要求等式成立。",
+          "actor": "together",
+          "caption": "逆向收一轮，审计余数约束",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "用整数倍关系证明唯一性",
+          "action": "对任意非负整数N、正整数d，假设N=dq₁+r₁=dq₂+r₂且两r都在0至d−1。相减得d(q₁−q₂)=r₂−r₁，右边绝对值小于d；唯一绝对值小于d的d的整数倍是0，因此两q、两r分别相等。明确这是一般唯一性论证，不把29的实摆称为完整存在性证明。",
+          "actor": "together",
+          "caption": "用整数倍关系证明唯一性",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        },
+        {
+          "title": "改为容量六张的包装，重新摆满",
+          "action": "收回29卡，换5张容量垫，按每包6卡逐包放满：四个满包24卡，剩5放第五包并标未满。记录完整包数4、剩卡5、实际容器数5；容器数问题需要容纳所有卡时是上取整29/6，而六人整卡等分的每份数是4。第五包不叫第五个满包，允许部分包是新问题的规则。",
+          "actor": "together",
+          "caption": "改为容量六张的包装，重新摆满",
+          "adultNote": "成人预裁大卡并收好剪刀；只演示和提示点数，不替孩子补成预期答案。模型人物或纸盒不是现实分配对象，不用食物、钱或奖惩制造输赢。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等式与标准余数约束",
+          "可逆重组",
+          "商余数唯一性证明",
+          "完整组数与向上取整",
+          "问题单位和模型边界"
+        ],
+        "explanation": "满足N=dq+r的整数组合可能不止一个；再限制0≤r<d后标准商余数唯一。29=6×3+11等式正确但还可转移一个完整轮，标准为q=4、r=5。容量6且所有卡都要入包时，需要4满包加1部分包。",
+        "limits": "唯一性论证以整数和d>0为条件，只证明符合条件的解最多一组；一般存在性可由q为N/d向下取整推出，但不能声称本次单例实摆已证明。纸格容量只按张数，不涉及真实容器体积或现实分配伦理。",
+        "observation": "点数、完整轮次、暂留区和帮助如实记。图中的等式与卡数为数学核对目标，不预填实际操作是否无误。",
+        "nextQuestion": "余下的卡真的不够完整一轮，还是只是还没继续分？题目问的是每份张数、完整组数，还是容器数？"
+      },
+      "guide": {
+        "goal": "真实建立并逆转非标准余数摆法，独立写唯一性论证，再把全29张重新装容量格辨完整包和总包数。",
+        "observe": "29=6×3+11也成立，为什么11不是标准余数，而装六张一包又需要五包？",
+        "support": "先摆完整卡和指认每个数的单位，再用等式核总数。发生漏发先保留原记录并核卡，不为吻合答案偷偷增减。",
+        "control": "同29卡不剪不借；等分六角色与包装容量6分开；证明明确正除数/整数/余数界；部分包单列。",
+        "time": "约35—45分钟",
+        "recordFields": [
+          "29的三次可逆摆法",
+          "各份/暂留及N核对",
+          "标准余数条件审计",
+          "一般唯一性证明与条件",
+          "四满包/一部分包/容器总数",
+          "题意单位及现实边界"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e｜1.5 Divide Whole Numbers",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/1-5-divide-whole-numbers",
+          "claim": "整物分组、分成相等数量可用于理解除法，商和余数需联系被分数量及组的含义。",
+          "scope": "作为实物整卡等分和分组的概念背景；本页卡数和变式原创，不使用食品。"
+        },
+        {
+          "title": "Lancaster University MATH111｜4.1 Divisibility, Theorem 4.1.8",
+          "url": "https://lancaster.ac.uk/~prendivs/accessible/math111/doth4.S1.html",
+          "claim": "对整数N与正整数d，标准商余数满足N=dq+r及0≤r<d，并且唯一。",
+          "scope": "本页仅研究非负卡数和正的分组数量；高龄以差为d倍数且绝对值小于d说明唯一性，不用有限案例冒充一般证明。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读OpenStax整物除法模型及Lancaster标准余数条件与唯一性证明。四龄实物摆卡步骤为原创设计，未实际实施，不声称现实分配价值判断由除法决定。",
+      "diagrams": [
+        {
+          "sceneKey": "cards103-1316-1",
+          "description": "等式正确，但还够再分一轮。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "等式正确，但还够再分一轮",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "29 = 6×3 + 11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "余区取6张，六角色各加1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "29 = 6×4 + 5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "实际核卡；11不是标准余数",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1316-2",
+          "description": "收回一轮，再分回一轮。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "收回一轮，再分回一轮",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 121,
+              "width": 217,
+              "height": 131,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 160,
+              "text": "每份3，暂留11",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 72,
+              "y": 210,
+              "text": "等式仍为29",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 369,
+              "y": 121,
+              "width": 217,
+              "height": 131,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 388,
+              "y": 160,
+              "text": "每份4，暂留5",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 388,
+              "y": 210,
+              "text": "5不足完整一轮6",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 280,
+              "y1": 158,
+              "x2": 357,
+              "y2": 158,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 357,
+              "y1": 221,
+              "x2": 280,
+              "y2": 221,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 78,
+              "y": 290,
+              "text": "实际双向移动6张，每垫恰好1张",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1316-3",
+          "description": "唯一性靠一般论证，不靠单例。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "唯一性靠一般论证，不靠单例",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 147,
+              "text": "d(q₁−q₂) = r₂−r₁",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 187,
+              "text": "两标准余数使 |r₂−r₁| < d",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 227,
+              "text": "d的整数倍中只有0满足此界",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 267,
+              "text": "所以q₁=q₂，且r₁=r₂；要求d>0",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "cards103-1316-4",
+          "description": "29张全入包：4满包加1部分包。每个小方框代表一张完整卡，所示数量是规定任务或供核算的数学摆法，不是已观察到的儿童操作结果；实际漏发、帮助和重数另记。示意纸垫不按真实尺寸印制。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "29张全入包：4满包加1部分包",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 35,
+              "y": 122,
+              "width": 106,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 145,
+              "text": "满包",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 99,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 72,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 99,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 122,
+              "width": 106,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 145,
+              "text": "满包",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 187,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 214,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 160,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 187,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 214,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 265,
+              "y": 122,
+              "width": 106,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 275,
+              "y": 145,
+              "text": "满包",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 302,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 329,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 302,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 329,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 122,
+              "width": 106,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 145,
+              "text": "满包",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 417,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 444,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 417,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 444,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 495,
+              "y": 122,
+              "width": 106,
+              "height": 120,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 505,
+              "y": 145,
+              "text": "未满",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 532,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 559,
+              "y": 162,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 505,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 532,
+              "y": 189,
+              "width": 22,
+              "height": 22,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 58,
+              "y": 279,
+              "text": "4×6＋5＝29；容器共5，不是5满包",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

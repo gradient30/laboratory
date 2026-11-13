@@ -5,3 +5,10 @@ node_modules/
 *.log
 test-results/
 playwright-report/
+deployment-assets/
+
+# Byte-pinned inputs reconstructed from source-parts before build/check.
+/dist/data.json
+/paper-resources/catalog.json
+/deployment-manifest.json
+/worker/fixtures/paper-staged-protocols.json

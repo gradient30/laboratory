@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {renderActivityDiagram} from './dist/diagrams.js';
+import {renderActivityDiagram,resolveAgeProtocol} from './dist/diagrams.js';
 const data=JSON.parse(readFileSync('./dist/data.json','utf8'));
 const ages=['4-6','7-9','10-12','13-16'];
 assert.equal(data.experiments.length,365);
@@ -45,7 +45,7 @@ for(const [index,e] of data.experiments.entries()){
 assert.deepEqual(new Set(Object.keys(counts)),categories);
 const html=readFileSync('./dist/index.html','utf8'),js=readFileSync('./dist/app.js','utf8'),css=readFileSync('./dist/styles.css','utf8');
 assert.match(html,/lang="zh-CN"/);assert.match(html,/<dialog/);assert.match(html,/type="module"/);assert.match(css,/prefers-reduced-motion/);assert.match(js,/localStorage/);assert.ok(!/https?:\/\//.test(js),'App must use same-origin authenticated APIs, never external record endpoints');
-assert.ok(readdirSync('./dist').every(f=>['index.html','styles.css','app.js','data.json','diagrams.js'].includes(f)));
+assert.ok(readdirSync('./dist').every(f=>['index.html','styles.css','app.js','data.json','diagrams.js','progress-client.js'].includes(f)));
 console.log(JSON.stringify({status:'passed',experiments:365,categories:counts,ageModes:4,illustratedVariants:diagrams,distinctRenderedArtwork:hashes.size,sourceLinks:links,outputFiles:readdirSync('./dist'),scope:'Data integrity, exact duplicate detection (not semantic fact validation), age-scaffold uniqueness, SVG rendering, static privacy/accessibility contracts. Source accuracy and browser QA require separate review.'},null,2));
 
 // Pure scheduling helpers are tested without importing browser-side effects.
@@ -66,5 +66,25 @@ console.log('Annual schedule, legacy storage key, category labels, navigation co
 const frozenLegacySchemas=JSON.parse(readFileSync('./scripts/legacy-record-schemas.json','utf8'));
 const embeddedLegacySchemas=JSON.parse(js.match(/const legacyRecordSchemas=(\{[^\n]+\});/)[1]);
 assert.deepEqual(embeddedLegacySchemas,frozenLegacySchemas,'Legacy labels must remain exact, not merely keep positional values');
-for(const category of categories){const e=data.experiments.find(x=>x.id>30&&x.category===category);for(const age of ages){const svg=renderActivityDiagram(e,3,age);for(const field of e.ageGuides[age].recordFields.slice(0,4))assert.ok(svg.includes(field.slice(0,17).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')),`Record drawing must use actual age fields ${e.id}/${age}/${field}`)}}
-console.log('Exact legacy field schema and age-specific SVG recording prompts passed.');
+// Exercise the preserved legacy renderer even after the sampled activity gains authored protocols.
+// Authored rendering is independently checked against every frozen protocol and retained scene.
+for(const category of categories){const e=structuredClone(data.experiments.find(x=>x.id>30&&x.category===category));delete e.ageProtocols;for(const age of ages){const svg=renderActivityDiagram(e,3,age);for(const field of e.ageGuides[age].recordFields.slice(0,4))assert.ok(svg.includes(field.slice(0,17).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')),`Record drawing must use actual age fields ${e.id}/${age}/${field}`)}}
+console.log('Exact legacy field schema and explicit legacy SVG recording prompts passed.');
+
+// Keep the same migrated sample on the real current-protocol projection/rendering path.
+const migratedRecordSamples=data.experiments.filter(e=>e.ageProtocols);
+assert.ok(migratedRecordSamples.some(e=>e.id===31),'Migrated record-contract coverage must include activity31');
+for(const migratedRecordSample of migratedRecordSamples){
+const migratedBefore=structuredClone(migratedRecordSample);
+const normalizeDiagram=svg=>svg.replace(/science-diagram-\d+-\d+-\d+/g,'diagram');
+for(const age of ages){
+ const projected=resolveAgeProtocol(migratedRecordSample,age),authored=migratedRecordSample.ageProtocols[age];
+ assert.equal(projected.activeAgeProtocol,authored,`Current record guide must select authored protocol${migratedRecordSample.id}/${age}`);
+ assert.deepEqual(projected.ageGuides[age].recordFields,authored.guide.recordFields,`Current record labels must match authored guide${migratedRecordSample.id}/${age}`);
+ assert.notDeepEqual(projected.ageGuides[age].recordFields,migratedRecordSample.ageGuides[age].recordFields,`Current record labels must not silently revert to legacy${migratedRecordSample.id}/${age}`);
+ assert.deepEqual(projected.legacyAgeGuide.recordFields,migratedRecordSample.ageGuides[age].recordFields,`Legacy history labels remain preserved${migratedRecordSample.id}/${age}`);
+ for(let step=0;step<4;step++)assert.equal(normalizeDiagram(renderActivityDiagram(migratedRecordSample,step,age)),normalizeDiagram(renderActivityDiagram(projected,step,age)),`Default and projected authored diagram paths agree${migratedRecordSample.id}/${age}/${step}`);
+}
+assert.deepEqual(migratedRecordSample,migratedBefore,'Legacy test projection must not mutate the current activity');
+}
+console.log('All migrated current record guides and default authored rendering passed for all four ages, including activity31.');

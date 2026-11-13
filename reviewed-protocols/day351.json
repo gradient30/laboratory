@@ -1,0 +1,4729 @@
+{
+  "activityId": 351,
+  "activityTitle": "总是增加的规则一定成比例吗",
+  "contentKey": "annual-m058",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "一个变两个、两个变四个，怎样配对看？",
+      "materials": [
+        "A4整纸1张、普通铅笔1支、圆滑直尺1把可选。成人在纸上画输入/规则A/规则B三列表，输入0、1、2、3；幼儿只用1、2两行画大圆点，不剪卡或用小物。高龄在同纸下半画x为0—3、y为0—6的格点图，格距约15毫米。 本龄记录：孩子配对与原话；一行相同/一行不同；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿仅整纸笔尺，不剪裁不使用小件。幼儿可只指点，成人代画代读代记，不要求乘除或负数。收齐材料洗手。",
+      "steps": [
+        {
+          "title": "画两种输入点数",
+          "caption": "画两种输入点数",
+          "action": "成人画上下两行：上行左边1个大点，下行左边2个大点；孩子分别指认，不必写数字。每行是独立开始，不把上行结果拿到下一行。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "给每点画一个伙伴",
+          "caption": "给每点画一个伙伴",
+          "action": "成人在上行右边画两点，下行右边画四点，按每个原点对应两点分组。孩子用手指一对一组地配，不要求说乘法口诀。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "看看另外加两个",
+          "caption": "看看另外加两个",
+          "action": "在同纸旁成人另画上行1个原点加2个新点共3，下行2个原点加2个新点共4；用空心/实心笔纹区分新增点，不用颜色材料。孩子只指哪一行两种做法看起来一样。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "留下一句不同",
+          "caption": "留下一句不同",
+          "action": "成人让孩子指1个输入时一边2一边3，而2个输入时都4；代记原话，不要求证明正比例。说“有一行一样，不代表规则一样”。收纸笔洗手。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "成组配对",
+          "规则不同"
+        ],
+        "explanation": "每个变两个与额外添两个是不同做法，有时结果刚好相同。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "下一步只纸上设计或核算，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "一个变两个、两个变四个，怎样配对看？",
+        "observe": "一个变两个、两个变四个，怎样配对看？",
+        "support": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。 可口述代记，不强求预期结论。",
+        "control": "只用1、2两行点图，每行从自己的输入开始。",
+        "time": "画表/图准备约3—5分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "孩子配对与原话",
+          "一行相同/一行不同"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day351-4-6-1",
+          "description": "画两种输入点数。成人画上下两行：上行左边1个大点，下行左边2个大点；孩子分别指认，不必写数字。每行是独立开始，不把上行结果拿到下一行。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画两种输入点数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 165,
+              "x2": 170,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 90,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 245,
+              "x2": 170,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 279,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 123,
+              "text": "每点对应两点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "输入1点和2点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "每行独立开始",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "成人画，孩子指",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-4-6-2",
+          "description": "给每点画一个伙伴。成人在上行右边画两点，下行右边画四点，按每个原点对应两点分组。孩子用手指一对一组地配，不要求说乘法口诀。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "给每点画一个伙伴",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 165,
+              "x2": 170,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 90,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 245,
+              "x2": 170,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 279,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 123,
+              "text": "每点对应两点",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "每点对应两点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "1变2，2变4",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不用乘法口诀",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-4-6-3",
+          "description": "看看另外加两个。在同纸旁成人另画上行1个原点加2个新点共3，下行2个原点加2个新点共4；用空心/实心笔纹区分新增点，不用颜色材料。孩子只指哪一行两种做法看起来一样。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "看看另外加两个",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 165,
+              "x2": 170,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 165,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 165,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 90,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 245,
+              "x2": 170,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 245,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 279,
+              "y": 245,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 123,
+              "text": "另规则：原点数再加2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "另做额外添2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "1变3，2变4",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "用笔纹分新增",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-4-6-4",
+          "description": "留下一句不同。成人让孩子指1个输入时一边2一边3，而2个输入时都4；代记原话，不要求证明正比例。说“有一行一样，不代表规则一样”。收纸笔洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "留下一句不同",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 165,
+              "x2": 170,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 165,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 165,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 165,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 65,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 90,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "arrow",
+              "x1": 115,
+              "y1": 245,
+              "x2": 170,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 195,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 223,
+              "y": 245,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 251,
+              "y": 245,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 279,
+              "y": 245,
+              "r": 6,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 123,
+              "text": "另规则：原点数再加2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "一行同不代表规则同",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "只说或指即可",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "成人照实代记",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "一个变两个、两个变四个，怎样配对看？",
+        "solve": "若结论对不上，回到“画输入表”核对原始条件，再按“规则B乘2”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "每个变两个与额外添两个是不同做法，有时结果刚好相同。",
+        "evolve": "下一步只纸上设计或核算，不增加实物实验。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      }
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一输入用加2和乘2，输出怎样不同？",
+      "materials": [
+        "A4整纸1张、普通铅笔1支、圆滑直尺1把可选。成人在纸上画输入/规则A/规则B三列表，输入0、1、2、3；幼儿只用1、2两行画大圆点，不剪卡或用小物。高龄在同纸下半画x为0—3、y为0—6的格点图，格距约15毫米。 本龄记录：四行A/B输出；输入2的相同与其他差别；输入4预测及核对；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿仅整纸笔尺，不剪裁不使用小件。幼儿可只指点，成人代画代读代记，不要求乘除或负数。收齐材料洗手。",
+      "steps": [
+        {
+          "title": "画输入表而非数列",
+          "caption": "画输入表而非数列",
+          "action": "写输入0、1、2、3四行，成人说明每行独立把输入交给两规则，不能把前一行输出再加工。画A加2、B乘2两列空白。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "逐行算规则A",
+          "caption": "逐行算规则A",
+          "action": "把每个输入加2，写2、3、4、5；逐行用点图或算式核对。指出输入0仍输出2，不把0理解成没有这一行。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "逐行算规则B",
+          "caption": "逐行算规则B",
+          "action": "把每个输入乘2，写0、2、4、6；对照A，圈输入2时两个输出都4，其余不同。不会乘法可画两份输入点数。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "用新输入检验说法",
+          "caption": "用新输入检验说法",
+          "action": "先预测输入4时A为6、B为8，再算核对；说明两列随输入增加不意味着同一规则。只口述B是输入两倍、A是比输入多2，不在0行做输出除输入。收材料洗手。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "独立输入",
+          "加法与倍数"
+        ],
+        "explanation": "加2保持差，乘2保持倍数；输出都增加不能说明成比例。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "下一步只纸上设计或核算，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "同一输入用加2和乘2，输出怎样不同？",
+        "observe": "同一输入用加2和乘2，输出怎样不同？",
+        "support": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。 可口述代记，不强求预期结论。",
+        "control": "每行重新从输入计算；0行不用除法。",
+        "time": "画表/图准备约3—5分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "四行A/B输出",
+          "输入2的相同与其他差别",
+          "输入4预测及核对"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day351-7-9-1",
+          "description": "画输入表而非数列。写输入0、1、2、3四行，成人说明每行独立把输入交给两规则，不能把前一行输出再加工。画A加2、B乘2两列空白。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画输入表而非数列",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "输入0、1、2、3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "不是连续迭代数列",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "A/B各自算",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-7-9-2",
+          "description": "逐行算规则A。把每个输入加2，写2、3、4、5；逐行用点图或算式核对。指出输入0仍输出2，不把0理解成没有这一行。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐行算规则A",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A：2、3、4、5",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "每行输入加2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "0也有对应输出",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-7-9-3",
+          "description": "逐行算规则B。把每个输入乘2，写0、2、4、6；对照A，圈输入2时两个输出都4，其余不同。不会乘法可画两份输入点数。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "逐行算规则B",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "B：0、2、4、6",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "输入2时同为4",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "一行相同不够",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-7-9-4",
+          "description": "用新输入检验说法。先预测输入4时A为6、B为8，再算核对；说明两列随输入增加不意味着同一规则。只口述B是输入两倍、A是比输入多2，不在0行做输出除输入。收材料洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "用新输入检验说法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "输入4：A6、B8",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "先预测再核",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "0不能作除数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "同一输入用加2和乘2，输出怎样不同？",
+        "solve": "若结论对不上，回到“画输入表”核对原始条件，再按“规则B乘2”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "加2保持差，乘2保持倍数；输出都增加不能说明成比例。",
+        "evolve": "下一步只纸上设计或核算，不增加实物实验。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      }
+    },
+    "10-12": {
+      "version": 1,
+      "question": "怎样分别检验恒定差和恒定比？",
+      "materials": [
+        "A4整纸1张、普通铅笔1支、圆滑直尺1把可选。成人在纸上画输入/规则A/规则B三列表，输入0、1、2、3；幼儿只用1、2两行画大圆点，不剪卡或用小物。高龄在同纸下半画x为0—3、y为0—6的格点图，格距约15毫米。 本龄记录：四行输出和差；非零输入比值；0行未定义标记；反例与公式范围；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿仅整纸笔尺，不剪裁不使用小件。幼儿可只指点，成人代画代读代记，不要求乘除或负数。收齐材料洗手。",
+      "steps": [
+        {
+          "title": "写两列输入输出",
+          "caption": "写两列输入输出",
+          "action": "画四行输入0—3，算A=x+2和B=2x；表旁增“输出−输入”“输出÷输入”两栏。先标0行比值为未定义，不写0或无穷。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "比较A的差与比",
+          "caption": "比较A的差与比",
+          "action": "A的差每行都是2；非零输入1、2、3时比为3、2、5/3，非恒定。保留分数而非四舍五入成相同。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "比较B并查原点",
+          "caption": "比较B并查原点",
+          "action": "B的非零输入比值都为2，差分别为输入本身而不恒定；0输入输出0，但0/0仍未定义。“过原点”和“非零比值恒定”分别核对。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "给出反例与有限结论",
+          "caption": "给出反例与有限结论",
+          "action": "用A证明“随输入增加就一定正比例”为假。这里公式已经给定，可用B/x=2（x≠0）说明任意非零输入；仅凭几个观测点不能保证一个未知规则也如此。收纸笔尺洗手。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "恒定差",
+          "恒定比",
+          "零点"
+        ],
+        "explanation": "A差恒定但比不恒定；B为正比例，零点不用除法检验。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "下一步只纸上设计或核算，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "怎样分别检验恒定差和恒定比？",
+        "observe": "怎样分别检验恒定差和恒定比？",
+        "support": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。 可口述代记，不强求预期结论。",
+        "control": "分母非零才算比；公式与有限样例证据分开。",
+        "time": "画表/图准备约3—5分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "四行输出和差",
+          "非零输入比值",
+          "0行未定义标记",
+          "反例与公式范围"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day351-10-12-1",
+          "description": "写两列输入输出。画四行输入0—3，算A=x+2和B=2x；表旁增“输出−输入”“输出÷输入”两栏。先标0行比值为未定义，不写0或无穷。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "写两列输入输出",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "输出/输入只在非零行",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "0行写未定义",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不写0或无穷",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-10-12-2",
+          "description": "比较A的差与比。A的差每行都是2；非零输入1、2、3时比为3、2、5/3，非恒定。保留分数而非四舍五入成相同。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较A的差与比",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A差恒为2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "比为3、2、5/3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "差恒定不是正比例",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-10-12-3",
+          "description": "比较B并查原点。B的非零输入比值都为2，差分别为输入本身而不恒定；0输入输出0，但0/0仍未定义。“过原点”和“非零比值恒定”分别核对。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "比较B并查原点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "B非零比恒为2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "0对应0但不除0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "两条性质分开查",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-10-12-4",
+          "description": "给出反例与有限结论。用A证明“随输入增加就一定正比例”为假。这里公式已经给定，可用B/x=2（x≠0）说明任意非零输入；仅凭几个观测点不能保证一个未知规则也如此。收纸笔尺洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "给出反例与有限结论",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 132,
+              "text": "x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 132,
+              "text": "A=x+2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 132,
+              "text": "B=2x",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 163,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 163,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 194,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 194,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 194,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 225,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 225,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 256,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 145,
+              "y": 256,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 256,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A是反例",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "公式可推一般关系",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "有限样例不证明未知",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "怎样分别检验恒定差和恒定比？",
+        "solve": "若结论对不上，回到“画输入表”核对原始条件，再按“规则B乘2”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "A差恒定但比不恒定；B为正比例，零点不用除法检验。",
+        "evolve": "下一步只纸上设计或核算，不增加实物实验。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      }
+    },
+    "13-16": {
+      "version": 1,
+      "question": "直线图像、仿射关系与正比例怎样区分？",
+      "materials": [
+        "A4整纸1张、普通铅笔1支、圆滑直尺1把可选。成人在纸上画输入/规则A/规则B三列表，输入0、1、2、3；幼儿只用1、2两行画大圆点，不剪卡或用小物。高龄在同纸下半画x为0—3、y为0—6的格点图，格距约15毫米。 本龄记录：定义域/公式/点表；两直线与交点；线性术语说明；a+b/x及b=0条件；同张纸当场画空栏，可口述代记，无打印依赖。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 本稿仅整纸笔尺，不剪裁不使用小件。幼儿可只指点，成人代画代读代记，不要求乘除或负数。收齐材料洗手。",
+      "steps": [
+        {
+          "title": "定义范围并列坐标点",
+          "caption": "定义范围并列坐标点",
+          "action": "把A(x)=x+2、B(x)=2x定义在实数上，先用0—3列表点。纸下画x0—3、y0—6格点，标单位步长，A用空心点、B用实心点；不必另买彩笔。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "画两条已知公式的线",
+          "caption": "画两条已知公式的线",
+          "action": "按点连接A和B为直线段并注明图只显示这个窗口；A过(0,2)、B过原点，交于(2,4)。连线合法依据是给出的公式，不是几个点能排除弯曲的未知函数。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "辨清术语与比例条件",
+          "caption": "辨清术语与比例条件",
+          "action": "写A为仿射关系（初等教材常称一次函数）；B为正比例。若“线性”指线性映射，必须保持加法和数乘，A因A(0)=2不满足，B满足。不要在不同术语习惯间偷换定义。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        },
+        {
+          "title": "推一般式而非只看上升",
+          "caption": "推一般式而非只看上升",
+          "action": "对y=ax+b，若在包含0及非零数的实数范围为正比例，则b=0；非零x上y/x=a+b/x，b≠0一般不恒定。两例都递增但只有B满足；在x=0不计算比。提出未知数据需要哪些额外信息才能确定规则，不做额外实测。收材料洗手。",
+          "actor": "together",
+          "adultNote": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "仿射与正比例",
+          "定义域",
+          "公式与数据"
+        ],
+        "explanation": "上升或直线外观不等于正比例；需要明确规则、定义域和截距条件。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。",
+        "observation": "区分设计示例与自己的操作记录；未知、未做和异常保留，不改原数凑预期。",
+        "nextQuestion": "下一步只纸上设计或核算，不增加实物实验。"
+      },
+      "guide": {
+        "goal": "直线图像、仿射关系与正比例怎样区分？",
+        "observe": "直线图像、仿射关系与正比例怎样区分？",
+        "support": "成人画表或点图、检查笔尺，幼儿只指认配对，成人代记。 可口述代记，不强求预期结论。",
+        "control": "已知公式画直线；比值讨论限定x≠0。",
+        "time": "画表/图准备约3—5分钟，核心10—15分钟；幼儿只参与5—10分钟。无额外等待阶段，准备已计入。",
+        "recordFields": [
+          "定义域/公式/点表",
+          "两直线与交点",
+          "线性术语说明",
+          "a+b/x及b=0条件"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M5",
+          "title": "OpenStax｜直角坐标系",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "有序数对、坐标轴及坐标表示的基础。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "沿用原题来源范围，本批未联网重新核读；原创活动未实地或儿童试用，不代表来源机构测试或认证。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、题内模型及实际SVG栅格检查；未实测",
+        "limitations": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day351-13-16-1",
+          "description": "定义范围并列坐标点。把A(x)=x+2、B(x)=2x定义在实数上，先用0—3列表点。纸下画x0—3、y0—6格点，标单位步长，A用空心点、B用实心点；不必另买彩笔。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "定义范围并列坐标点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 300,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 60,
+              "y2": 125,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 284,
+              "y": 285,
+              "text": "x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 126,
+              "text": "y",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 283,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 283,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 283,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 267,
+              "y": 283,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 270,
+              "text": "0",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 250,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 230,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 210,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 190,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 170,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 150,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 226,
+              "x2": 270,
+              "y2": 166,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 270,
+              "y2": 146,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 145,
+              "text": "A=x+2；B=2x",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 183,
+              "text": "(2,4)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A=x+2；B=2x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "定义域为实数",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "画窗只取0至3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-13-16-2",
+          "description": "画两条已知公式的线。按点连接A和B为直线段并注明图只显示这个窗口；A过(0,2)、B过原点，交于(2,4)。连线合法依据是给出的公式，不是几个点能排除弯曲的未知函数。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "画两条已知公式的线",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 300,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 60,
+              "y2": 125,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 284,
+              "y": 285,
+              "text": "x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 126,
+              "text": "y",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 283,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 283,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 283,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 267,
+              "y": 283,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 270,
+              "text": "0",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 250,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 230,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 210,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 190,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 170,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 150,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 226,
+              "x2": 270,
+              "y2": 166,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 270,
+              "y2": 146,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 145,
+              "text": "A=x+2；B=2x",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 183,
+              "text": "(2,4)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A过(0,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "B过原点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "交点(2,4)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-13-16-3",
+          "description": "辨清术语与比例条件。写A为仿射关系（初等教材常称一次函数）；B为正比例。若“线性”指线性映射，必须保持加法和数乘，A因A(0)=2不满足，B满足。不要在不同术语习惯间偷换定义。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "辨清术语与比例条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 300,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 60,
+              "y2": 125,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 284,
+              "y": 285,
+              "text": "x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 126,
+              "text": "y",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 283,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 283,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 283,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 267,
+              "y": 283,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 270,
+              "text": "0",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 250,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 230,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 210,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 190,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 170,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 150,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 226,
+              "x2": 270,
+              "y2": 166,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 270,
+              "y2": 146,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 145,
+              "text": "A=x+2；B=2x",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 183,
+              "text": "(2,4)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "A仿射，B正比例",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "线性术语需说明",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "不混教材定义",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day351-13-16-4",
+          "description": "推一般式而非只看上升。对y=ax+b，若在包含0及非零数的实数范围为正比例，则b=0；非零x上y/x=a+b/x，b≠0一般不恒定。两例都递增但只有B满足；在x=0不计算比。提出未知数据需要哪些额外信息才能确定规则，不做额外实测。收材料洗手。 图为示意，未预填家庭观察结果，不能从屏幕量尺寸。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 83,
+              "text": "推一般式而非只看上升",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 300,
+              "y2": 266,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 60,
+              "y2": 125,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 284,
+              "y": 285,
+              "text": "x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 44,
+              "y": 126,
+              "text": "y",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 283,
+              "text": "0",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 127,
+              "y": 283,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 197,
+              "y": 283,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 267,
+              "y": 283,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 266,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 246,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 226,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 206,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 186,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 1,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 270,
+              "text": "0",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 250,
+              "text": "1",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 230,
+              "text": "2",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 210,
+              "text": "3",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 190,
+              "text": "4",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 170,
+              "text": "5",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 150,
+              "text": "6",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 226,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 206,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 166,
+              "r": 3,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 60,
+              "y": 266,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 130,
+              "y": 226,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "circle",
+              "x": 270,
+              "y": 146,
+              "r": 3,
+              "fill": "#18383A",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 226,
+              "x2": 270,
+              "y2": 166,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 60,
+              "y1": 266,
+              "x2": 270,
+              "y2": 146,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 125,
+              "y": 145,
+              "text": "A=x+2；B=2x",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "circle",
+              "x": 200,
+              "y": 186,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 208,
+              "y": 183,
+              "text": "(2,4)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 104,
+              "width": 247,
+              "height": 187,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 140,
+              "text": "y/x=a+b/x",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 187,
+              "text": "正比例要求b=0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 364,
+              "y": 234,
+              "text": "x=0不做除法",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ],
+      "inquiry": {
+        "problem": "直线图像、仿射关系与正比例怎样区分？",
+        "solve": "若结论对不上，回到“画输入表”核对原始条件，再按“规则B乘2”复查。分别检查数量、单位、等分/对齐与规则；换一条纸上方法核验，不改原始记录。",
+        "learn": "上升或直线外观不等于正比例；需要明确规则、定义域和截距条件。",
+        "evolve": "下一步只纸上设计或核算，不增加实物实验。",
+        "limits": "在输入0处不能用输出/输入检验，因为除0未定义。 在输入0处不能用输出/输入检验，因为除0未定义。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 本题“加2”和“乘2”指每个输入x分别变成x+2与2x，不是把上一次输出不断加2或翻倍的数列。输入0不做除法；单个输入x=2时两输出相等，不代表两规则相同。有限表格核验不能独自证明任意未知函数规律。"
+      }
+    }
+  }
+}

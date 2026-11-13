@@ -1,0 +1,2103 @@
+{
+  "activityId": 128,
+  "activityTitle": "日期03/04到底是哪一天",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "只看03/04，能知道要找三月四日，还是四月三日吗？",
+      "materials": [
+        "两张A4公历月历：2026年3月、4月，写汉字月份与星期，成人核月历正确；也可按规则手画完整月历",
+        "三张A5大卡：03/04、2026年3月4日、2026年4月3日，均标教学示例非约会；一张空白A5供补字段",
+        "粗笔、记录纸；成人代读，孩子圈日期并移动整张大卡，不用小筹码"
+      ],
+      "safety": "只用普通纸、笔、钝头尺，成人预裁A5或更大的卡片并收好剪刀；幼儿不用硬币、图钉等小物标日，用粗笔圈日期。所有例题写“教学示例，非约会”，不新增、更改或发送真实日程，不使用真实个人信息，不把一个格式约定刻板归于某国或某个人。",
+      "steps": [
+        {
+          "title": "读含糊卡，成人给两种明确读法",
+          "action": "成人展示03/04，分别说如果前数是月可读3月4日，如果前数是日可读4月3日；不说哪种天然正确。孩子把它放两月历中间，先不把唯一答案贴死，成人说明这里只研究例子。",
+          "actor": "together",
+          "caption": "读含糊卡，成人给两种明确读法",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "在两张实历分别找两个日期",
+          "action": "孩子先找2026年3月月历的4，再找4月月历的3，成人可读月名协助。用粗笔分别圈格，核这是两张月历的不同日子；不用星期位置代替读月份，不要求幼儿算相隔天数。",
+          "actor": "together",
+          "caption": "在两张实历分别找两个日期",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "把完整日期卡移到对应格旁",
+          "action": "将“2026年3月4日”“2026年4月3日”两张卡分别摆到对应月历旁，孩子指卡中的年/月/日与格子。成人帮在空白卡写其中一个明确日期，再与只写03/04的卡比较多了哪些信息。",
+          "actor": "together",
+          "caption": "把完整日期卡移到对应格旁",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "交换位置复核，不凭卡的位置记答案",
+          "action": "成人交换两张完整卡左右位置，月历不换，孩子按文字重新匹配；可以求成人代读，并记录帮助。最后把03/04卡标“需要问清格式”，不擅自改成真实约定的某一天。",
+          "actor": "together",
+          "caption": "交换位置复核，不凭卡的位置记答案",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同一数字串可能有两种解释",
+          "月名帮助定位",
+          "完整年月日降低歧义",
+          "位置线索不能代替字段",
+          "不确定时保留待问"
+        ],
+        "explanation": "月与日的顺序未说明时，03/04能对应两个不同日期。补上年、月、日文字，可以让日期脱离现场也更清楚。",
+        "limits": "只演练两种约定，不评价任何地区写法；年份由课堂明确指定2026，不从03/04本身推出来。幼儿不需学国际编码。",
+        "observation": "保留原卡与改写卡，逐项写年/月/日或偏移的出处；若来源不足保留多种解释或待查，不以熟悉习惯填补证据。",
+        "nextQuestion": "要让没在场的人知道同一天或同一瞬间，还缺哪些字段？格式整齐就一定是有效日期吗？"
+      },
+      "guide": {
+        "goal": "实际翻看两月历、圈两个日期、搬完整大卡匹配、换卡位置再核并补写年月日。",
+        "observe": "只看03/04，能知道要找三月四日，还是四月三日吗？",
+        "support": "日期表示、日期是否合法、时间先后是不同问题。可给出条件下的解释，但不要把一种可能当原作者已确认的意思。",
+        "control": "同一指定年2026、固定两月历、两个候选日；卡是例题非约会，不靠左右位置猜。",
+        "time": "约15—20分钟，幼儿参与5—8分钟",
+        "recordFields": [
+          "03/04两种读法",
+          "两月历圈到的格",
+          "两完整日期卡匹配",
+          "换位复核与帮助",
+          "补年月日后的卡",
+          "待问格式说明"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RFC Editor｜RFC3339 Date and Time on the Internet",
+          "url": "https://www.rfc-editor.org/rfc/rfc3339.html",
+          "claim": "完整日期使用四位年和两位月日；日期合法性依年月，带数值偏移的本地时刻可换算到UTC。",
+          "scope": "支持本课日期表示、日期有效性及固定偏移演算，不处理地区时区数据库、夏令时、闰秒或真实会议安排。"
+        },
+        {
+          "title": "US Naval Observatory｜Leap Years",
+          "url": "https://aa.usno.navy.mil/faq/leap_years",
+          "claim": "公历闰年为4的倍数，但整百年须同时为400的倍数。",
+          "scope": "支持2026非闰年、2028闰年与二月29日的有效性；本课日期均为教学例，不用日期格式猜用户所在地。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读RFC3339日期语法、月长和UTC偏移算法及USNO公历闰年规则。所有例题、纸卡和时间线原创；日期计算独立核验，实际学习者步骤未执行，不涉及真实约会。",
+      "diagrams": [
+        {
+          "sceneKey": "dates128-46-1",
+          "description": "03/04：先保留两种读法。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "03/04：先保留两种读法",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 201,
+              "y": 116,
+              "width": 220,
+              "height": 72,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 241,
+              "y": 163,
+              "text": "03/04",
+              "fontSize": 28,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 243,
+              "y1": 198,
+              "x2": 132,
+              "y2": 239,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 380,
+              "y1": 198,
+              "x2": 502,
+              "y2": 239,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 279,
+              "text": "月/日：三月四日",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 365,
+              "y": 279,
+              "text": "日/月：四月三日",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-46-2",
+          "description": "在两张2026月历，分别找不同格。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "在两张2026月历，分别找不同格",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 49,
+              "y": 125,
+              "text": "2026年3月（前两周）",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 149,
+              "text": "一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 89,
+              "y": 149,
+              "text": "二",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 121,
+              "y": 149,
+              "text": "三",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 149,
+              "text": "四",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 185,
+              "y": 149,
+              "text": "五",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 217,
+              "y": 149,
+              "text": "六",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 249,
+              "y": 149,
+              "text": "日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 209,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 241,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 248,
+              "y": 185,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 56,
+              "y": 227,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 81,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 88,
+              "y": 227,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 113,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 227,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 152,
+              "y": 227,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 177,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 184,
+              "y": 227,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 209,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 216,
+              "y": 227,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 241,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 248,
+              "y": 227,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 349,
+              "y": 125,
+              "text": "2026年4月（前两周）",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 357,
+              "y": 149,
+              "text": "一",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 389,
+              "y": 149,
+              "text": "二",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 421,
+              "y": 149,
+              "text": "三",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 453,
+              "y": 149,
+              "text": "四",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 485,
+              "y": 149,
+              "text": "五",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 517,
+              "y": 149,
+              "text": "六",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 149,
+              "text": "日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 349,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 381,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 420,
+              "y": 185,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 452,
+              "y": 185,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 477,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#D8E8D2",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 484,
+              "y": 185,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 509,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 516,
+              "y": 185,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 541,
+              "y": 157,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 548,
+              "y": 185,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 349,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 356,
+              "y": 227,
+              "text": "6",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 381,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 388,
+              "y": 227,
+              "text": "7",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 413,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 420,
+              "y": 227,
+              "text": "8",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 452,
+              "y": 227,
+              "text": "9",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 477,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 484,
+              "y": 227,
+              "text": "10",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 509,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 516,
+              "y": 227,
+              "text": "11",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 541,
+              "y": 199,
+              "width": 32,
+              "height": 42,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 548,
+              "y": 227,
+              "text": "12",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 81,
+              "y": 285,
+              "text": "只示前两周；实际用完整月历",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-46-3",
+          "description": "完整卡写清年月日，再放月历旁。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "完整卡写清年月日，再放月历旁",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 123,
+              "width": 534,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 79,
+              "y": 165,
+              "text": "2026年3月4日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 53,
+              "y": 214,
+              "width": 534,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 79,
+              "y": 256,
+              "text": "2026年4月3日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-46-4",
+          "description": "卡交换位置，仍按字段重新找。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "卡交换位置，仍按字段重新找",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "读年月日，不凭左右位置记答案",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "成人可代读，孩子指对应格",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "03/04原卡保留“格式待问”",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "全部是教学例，不是实际约会",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "所有斜线日期都有两种合法读法吗？月历能排除哪些，却不能证明什么？",
+      "materials": [
+        "2026年完整公历或成人核好的每月天数表，A3纸画“月/日”“日/月”两个解释栏",
+        "七张A5卡：03/04、04/03、05/06、13/04、04/13、11/12、31/04，全部指定例题年2026且只考虑这两种格式",
+        "三张分类底纸标两种皆可/仅一种可/两种皆不可；笔，记录原卡/两种候选/有效性/还需询问字段"
+      ],
+      "safety": "只用普通纸、笔、钝头尺，成人预裁A5或更大的卡片并收好剪刀；幼儿不用硬币、图钉等小物标日，用粗笔圈日期。所有例题写“教学示例，非约会”，不新增、更改或发送真实日程，不使用真实个人信息，不把一个格式约定刻板归于某国或某个人。",
+      "steps": [
+        {
+          "title": "声明规则再把七卡逐一放入双栏",
+          "action": "孩子写“本模型仅比较月/日与日/月，年固定2026”。逐张放左栏读一遍再放右栏读一遍，成人帮助把两种候选完整年月日写下；不先看数字是否熟悉就定格式。",
+          "actor": "together",
+          "caption": "声明规则再把七卡逐一放入双栏",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "用月历核月份范围与每月天数",
+          "action": "检两候选：月须1—12，日须该月存在。13/04只在日/月解释成4月13日有效，04/13只在月/日有效；31/04在月/日月份31无效，在日/月4月31日也无效。其余四卡在两种约定都有效，但为不同日子。",
+          "actor": "together",
+          "caption": "用月历核月份范围与每月天数",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "搬到三分类区，核4、2、1设计计数",
+          "action": "把实际核过的卡分三堆，按该固定卡组理想两种皆可4张、仅一种可2张、皆不可1张。计数用于复核漏卡或规则，不预填孩子已做正确；分类错就回月历保留修订痕迹。",
+          "actor": "together",
+          "caption": "搬到三分类区，核4、2、1设计计数",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "写有条件改写，保留来源未确认",
+          "action": "对仅一种可的卡写“在限定两格式且无抄错前提下，候选为……”，不能因此声称现实原作者已确认。对两种皆可的卡保留两个完整日期并标需问格式；皆不可卡标无效待查，不能自行把31改30。",
+          "actor": "together",
+          "caption": "写有条件改写，保留来源未确认",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "语法与日历有效性不同",
+          "排除法依赖候选范围",
+          "四月没有31日",
+          "可能唯一不等于来源确认",
+          "原始错误不应静默修补"
+        ],
+        "explanation": "月份和日数范围能排除部分解释，但排除结论依赖事先限定的格式和无抄写错误等前提。两种都合法时仍需要来源语境。",
+        "limits": "七卡是人为例题，实际世界还可能有其他格式或抄错；本课不从有效性猜国别、个人习惯或真实计划。",
+        "observation": "保留原卡与改写卡，逐项写年/月/日或偏移的出处；若来源不足保留多种解释或待查，不以熟悉习惯填补证据。",
+        "nextQuestion": "要让没在场的人知道同一天或同一瞬间，还缺哪些字段？格式整齐就一定是有效日期吗？"
+      },
+      "guide": {
+        "goal": "实际搬七卡双读、查全年月历、分三类并计数、写条件化改写而不篡改原卡。",
+        "observe": "所有斜线日期都有两种合法读法吗？月历能排除哪些，却不能证明什么？",
+        "support": "日期表示、日期是否合法、时间先后是不同问题。可给出条件下的解释，但不要把一种可能当原作者已确认的意思。",
+        "control": "例题年2026，仅MD/DM两模型；保留原字符串；先核月1—12再核该月日数；四张双解、两张单解、一张无解为设计复核。",
+        "time": "约25—35分钟",
+        "recordFields": [
+          "七卡原字符串",
+          "MD/DM完整候选",
+          "月份/日数有效性理由",
+          "三分类实数与4/2/1核对",
+          "修订痕迹",
+          "条件化改写与待查"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RFC Editor｜RFC3339 Date and Time on the Internet",
+          "url": "https://www.rfc-editor.org/rfc/rfc3339.html",
+          "claim": "完整日期使用四位年和两位月日；日期合法性依年月，带数值偏移的本地时刻可换算到UTC。",
+          "scope": "支持本课日期表示、日期有效性及固定偏移演算，不处理地区时区数据库、夏令时、闰秒或真实会议安排。"
+        },
+        {
+          "title": "US Naval Observatory｜Leap Years",
+          "url": "https://aa.usno.navy.mil/faq/leap_years",
+          "claim": "公历闰年为4的倍数，但整百年须同时为400的倍数。",
+          "scope": "支持2026非闰年、2028闰年与二月29日的有效性；本课日期均为教学例，不用日期格式猜用户所在地。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读RFC3339日期语法、月长和UTC偏移算法及USNO公历闰年规则。所有例题、纸卡和时间线原创；日期计算独立核验，实际学习者步骤未执行，不涉及真实约会。",
+      "diagrams": [
+        {
+          "sceneKey": "dates128-79-1",
+          "description": "两种解释栏，不先猜作者习惯。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "两种解释栏，不先猜作者习惯",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 51,
+              "y": 117,
+              "width": 250,
+              "height": 163,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 324,
+              "y": 117,
+              "width": 265,
+              "height": 163,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 153,
+              "text": "月/日",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 341,
+              "y": 153,
+              "text": "日/月",
+              "fontSize": 24,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 68,
+              "y": 204,
+              "text": "03/04 → 3月4日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 341,
+              "y": 204,
+              "text": "03/04 → 4月3日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 255,
+              "text": "例题年2026",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 341,
+              "y": 255,
+              "text": "限定这两种读法",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-79-2",
+          "description": "不只查月≤12，还查每月日数。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "不只查月≤12，还查每月日数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "13/04：仅日/月给出4月13日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "04/13：仅月/日给出4月13日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "31/04：月份31无效；4月31也无效",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "四月30天，不能静默把31改30",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-79-3",
+          "description": "实际搬七卡分类，再核固定组计数。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "实际搬七卡分类，再核固定组计数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 46,
+              "y": 126,
+              "width": 176,
+              "height": 142,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 234,
+              "y": 126,
+              "width": 176,
+              "height": 142,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 422,
+              "y": 126,
+              "width": 176,
+              "height": 142,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 166,
+              "text": "两种皆可",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 249,
+              "y": 166,
+              "text": "仅一种可",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 437,
+              "y": 166,
+              "text": "两种皆不可",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 70,
+              "y": 222,
+              "text": "目标4张",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 258,
+              "y": 222,
+              "text": "目标2张",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 446,
+              "y": 222,
+              "text": "目标1张",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 295,
+              "text": "设计复核数，不代填参与者分类结果",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-79-4",
+          "description": "唯一候选也要写清假设与出处。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "唯一候选也要写清假设与出处",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "限定两格式、假设没抄错才谈排除",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "两种皆可：保留两日期，需问格式",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "两种皆不可：标无效待查，不改原卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "不从格式判断国别或个人习惯",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "把日期数字排整齐就能正确排序吗？补零能修好不存在的日期吗？",
+      "materials": [
+        "六张A5例题卡：2026-3-4、2026-11-2、2026-4-3、2026-02-29、2028-02-29、2026-04-31；明确各卡原约定均为年-月-日",
+        "公历2026/2028月历或核好的月长/闰年规则卡；A3纸画原字符串/解析年月日/合法性/规范日期四栏",
+        "六张空白A5改写卡、笔和纸条排两行：逐字符顺序与真实日期先后；保留原卡不擦"
+      ],
+      "safety": "只用普通纸、笔、钝头尺，成人预裁A5或更大的卡片并收好剪刀；幼儿不用硬币、图钉等小物标日，用粗笔圈日期。所有例题写“教学示例，非约会”，不新增、更改或发送真实日程，不使用真实个人信息，不把一个格式约定刻板归于某国或某个人。",
+      "steps": [
+        {
+          "title": "只取前三合法例，实际逐字符排卡",
+          "action": "明确字符串排序规则：从左到右找首个不同字符，数字字符按0至9比。孩子对前三卡得到2026-11-2、2026-3-4、2026-4-3的字符顺序，再按已声明年/月/日读实际日期，时间先后却为3月4日、4月3日、11月2日；保留两排不混名。",
+          "actor": "together",
+          "caption": "只取前三合法例，实际逐字符排卡",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "补两位月日，再排规范字符串",
+          "action": "把前三改写为2026-03-04、2026-11-02、2026-04-03，另用空白卡按同字符规则排序；在同为四位年/两位月日的有效公历日期范围内，字典序与先后相符。补零改变表达而非哪一天，原卡与改写卡一一连线。",
+          "actor": "together",
+          "caption": "补两位月日，再排规范字符串",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "核后三张合法性，不只看格式外形",
+          "action": "2026不是闰年，2026-02-29不存在；2028是闰年，2028-02-29存在；四月仅30天，2026-04-31不存在。成人解释公历4倍数闰年但整百年须400倍数的规则，此处只需核2026/2028。无效卡不偷偷滚动到次月或改日期。",
+          "actor": "together",
+          "caption": "核后三张合法性，不只看格式外形",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "把解析、有效性和排序分三关记录",
+          "action": "表中先记原约定与解析年月日，再标日历合法，最后仅对有效规范卡排序，包括有效2028卡应在全部2026有效卡后。对无效保留原文、原因、待查，不声称补零就修好了。完整日期也不指定一天中的时刻或所在时区，别把它当精确瞬间。",
+          "actor": "together",
+          "caption": "把解析、有效性和排序分三关记录",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "字符串排序与日历次序不同",
+          "统一宽度的年月日表示",
+          "格式合法不等于日期存在",
+          "闰年及月长检查",
+          "日期不是带偏移的瞬间"
+        ],
+        "explanation": "已知年月日顺序后，补零可统一有效日期的字符串排序，但仍要验证该月是否有这一天。表示规范化不能替代事实和合法性核查。",
+        "limits": "只讨论四位年份有效公历日期，不处理其他历法或地区日历改革；没有时刻与偏移的日期不能比较同一天中哪个瞬间先发生。",
+        "observation": "保留原卡与改写卡，逐项写年/月/日或偏移的出处；若来源不足保留多种解释或待查，不以熟悉习惯填补证据。",
+        "nextQuestion": "要让没在场的人知道同一天或同一瞬间，还缺哪些字段？格式整齐就一定是有效日期吗？"
+      },
+      "guide": {
+        "goal": "手动做两套卡排序、补零改写并连回原卡、核三张日期有效性、只将有效卡纳入最终顺序。",
+        "observe": "把日期数字排整齐就能正确排序吗？补零能修好不存在的日期吗？",
+        "support": "日期表示、日期是否合法、时间先后是不同问题。可给出条件下的解释，但不要把一种可能当原作者已确认的意思。",
+        "control": "原卡均明示年-月-日；字符按0—9，四位年/月日补两位；日期有效性单独检查，无效卡不自动修正。",
+        "time": "约30—40分钟",
+        "recordFields": [
+          "前三卡字符顺序",
+          "前三卡真实日期顺序",
+          "原卡与补零卡对应",
+          "后三张有效性理由",
+          "最终有效卡排序",
+          "无效原文和待查",
+          "日期与瞬间区别"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RFC Editor｜RFC3339 Date and Time on the Internet",
+          "url": "https://www.rfc-editor.org/rfc/rfc3339.html",
+          "claim": "完整日期使用四位年和两位月日；日期合法性依年月，带数值偏移的本地时刻可换算到UTC。",
+          "scope": "支持本课日期表示、日期有效性及固定偏移演算，不处理地区时区数据库、夏令时、闰秒或真实会议安排。"
+        },
+        {
+          "title": "US Naval Observatory｜Leap Years",
+          "url": "https://aa.usno.navy.mil/faq/leap_years",
+          "claim": "公历闰年为4的倍数，但整百年须同时为400的倍数。",
+          "scope": "支持2026非闰年、2028闰年与二月29日的有效性；本课日期均为教学例，不用日期格式猜用户所在地。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读RFC3339日期语法、月长和UTC偏移算法及USNO公历闰年规则。所有例题、纸卡和时间线原创；日期计算独立核验，实际学习者步骤未执行，不涉及真实约会。",
+      "diagrams": [
+        {
+          "sceneKey": "dates128-1012-1",
+          "description": "同组卡，两种顺序不要混名。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "同组卡，两种顺序不要混名",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "字符顺序：11月的串先于3月的串",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "2026-11-2 / 2026-3-4 / 2026-4-3",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "日历顺序：3月4日→4月3日→11月2日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "前提：原卡已声明年-月-日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1012-2",
+          "description": "补零后另排卡，原卡仍保留。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "补零后另排卡，原卡仍保留",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "2026-03-04",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "2026-04-03",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "2026-11-02",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "有效、统一YYYY-MM-DD才按此比较",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1012-3",
+          "description": "看起来像日期，也可能根本不存在。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "看起来像日期，也可能根本不存在",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "2026-02-29：非闰年，无此日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "2028-02-29：闰年，有此日",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "2026-04-31：四月只有30天",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "不自动改到次月，不涂掉原卡",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1012-4",
+          "description": "三关：已知格式→合法日期→排序。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "三关：已知格式→合法日期→排序",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 144,
+              "width": 165,
+              "height": 91,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 236,
+              "y": 144,
+              "width": 165,
+              "height": 91,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 427,
+              "y": 144,
+              "width": 165,
+              "height": 91,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 64,
+              "y": 181,
+              "text": "解析年月日",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 181,
+              "text": "查日历合法",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 446,
+              "y": 181,
+              "text": "有效卡排序",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 214,
+              "y1": 199,
+              "x2": 230,
+              "y2": 199,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 405,
+              "y1": 199,
+              "x2": 421,
+              "y2": 199,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 66,
+              "y": 280,
+              "text": "完整日期仍不指定时刻和UTC偏移",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "写着3月4日的时间戳，会比写着3月3日的另一个时间戳更早吗？",
+      "materials": [
+        "四张A5教学例卡：A 2026-03-04T00:30:00+08:00；B 2026-03-03T17:00:00Z；C 2026-03-03T11:30:00-05:00；D 2026-03-04T00:30:00（无偏移）",
+        "A3纸画30厘米长UTC时间线，左端2026-03-03 16:00Z、右端17:00Z，每5厘米代表10分钟；钝头尺、笔",
+        "另备3张空白A5卡写A/B/C换算结果，D单放待查；不使用地点名称替代偏移，不查询或修改真实日程"
+      ],
+      "safety": "只用普通纸、笔、钝头尺，成人预裁A5或更大的卡片并收好剪刀；幼儿不用硬币、图钉等小物标日，用粗笔圈日期。所有例题写“教学示例，非约会”，不新增、更改或发送真实日程，不使用真实个人信息，不把一个格式约定刻板归于某国或某个人。",
+      "steps": [
+        {
+          "title": "拆字段并按有符号偏移换算",
+          "action": "孩子逐卡圈日期、时刻、偏移；Z表示此例用UTC。按UTC=本地时刻−所写偏移：A减8小时跨回3月3日16:30Z；B已为3日17:00Z；C减负5即加5小时到3日16:30Z。D无偏移，不能从用户所在地或其他卡猜它是+08。",
+          "actor": "together",
+          "caption": "拆字段并按有符号偏移换算",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "实画统一时间线，把三个瞬间放准",
+          "action": "孩子用尺画30厘米轴，标16:00、16:10、16:20、16:30、16:40、16:50、17:00（均2026-03-03 UTC）。将A/C标在距左15厘米同一点，可在上下分别连标签避免误当先后；B在右30厘米。D放轴外“偏移待查”，不放某个推测位置。",
+          "actor": "together",
+          "caption": "实画统一时间线，把三个瞬间放准",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "比较原字串顺序与真正瞬间关系",
+          "action": "看本地日期A是3月4日、B是3月3日，但换算后A比B早30分钟，且A与C同瞬间。不同UTC偏移的原字符串不能直接按本地日期或逐字符排序来判断瞬间。把三张转换卡都写成统一UTC的完整表示，再排，保留原偏移作追溯。",
+          "actor": "together",
+          "caption": "比较原字串顺序与真正瞬间关系",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        },
+        {
+          "title": "区分固定偏移和地区时区，完善记录",
+          "action": "结论写A=C<B和差30分钟，并说明本例是给定固定偏移，不推断某个地区全年都用该偏移。未来真实安排可能还需要地区时区及当日规则，本课不处理夏令时、闰秒或缺失偏移的补救。D需向来源查偏移/时区信息，缺证据保持待查，不加一个Z假装已确定。",
+          "actor": "together",
+          "caption": "区分固定偏移和地区时区，完善记录",
+          "adultNote": "成人预裁纸卡并收好剪刀，量具平放；先保留实际原始数字、单位和对象，再另列换算值，不为符合目标重写原记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "日期与瞬间不同",
+          "有符号UTC偏移换算",
+          "跨日与等价时间戳",
+          "统一时间基准再排序",
+          "固定偏移不等于地区时区规则"
+        ],
+        "explanation": "本地日期不同的表示可能对应同一瞬间，甚至本地日期较晚却实际更早。统一到UTC后可比较，前提是原时刻具有已知偏移；无偏移数据不能凭习惯补成确定瞬间。",
+        "limits": "只计算给定固定偏移与普通分钟，不处理夏令时重叠/缺失、闰秒和历史地区规则。时间线是精确例题模型，不是用户真实日程。",
+        "observation": "保留原卡与改写卡，逐项写年/月/日或偏移的出处；若来源不足保留多种解释或待查，不以熟悉习惯填补证据。",
+        "nextQuestion": "要让没在场的人知道同一天或同一瞬间，还缺哪些字段？格式整齐就一定是有效日期吗？"
+      },
+      "guide": {
+        "goal": "拆四卡字段、实际画有尺度UTC轴、把A/C放同点B放末端、D轴外待查，再统一表示核顺序。",
+        "observe": "写着3月4日的时间戳，会比写着3月3日的另一个时间戳更早吗？",
+        "support": "日期表示、日期是否合法、时间先后是不同问题。可给出条件下的解释，但不要把一种可能当原作者已确认的意思。",
+        "control": "A+08/BZ/C−05三个偏移明确，D无偏移；UTC=本地−偏移；轴每5厘米10分钟；原卡和UTC卡同时保留。",
+        "time": "约35—45分钟",
+        "recordFields": [
+          "四卡日期/时刻/偏移字段",
+          "A/B/C UTC转换与跨日",
+          "30厘米时间线位置",
+          "A=C<B和30分钟差",
+          "D缺偏移的待查状态",
+          "原字串排序限制",
+          "偏移与地区时区区别"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RFC Editor｜RFC3339 Date and Time on the Internet",
+          "url": "https://www.rfc-editor.org/rfc/rfc3339.html",
+          "claim": "完整日期使用四位年和两位月日；日期合法性依年月，带数值偏移的本地时刻可换算到UTC。",
+          "scope": "支持本课日期表示、日期有效性及固定偏移演算，不处理地区时区数据库、夏令时、闰秒或真实会议安排。"
+        },
+        {
+          "title": "US Naval Observatory｜Leap Years",
+          "url": "https://aa.usno.navy.mil/faq/leap_years",
+          "claim": "公历闰年为4的倍数，但整百年须同时为400的倍数。",
+          "scope": "支持2026非闰年、2028闰年与二月29日的有效性；本课日期均为教学例，不用日期格式猜用户所在地。"
+        }
+      ],
+      "sourceNote": "2026-11-03直接核读RFC3339日期语法、月长和UTC偏移算法及USNO公历闰年规则。所有例题、纸卡和时间线原创；日期计算独立核验，实际学习者步骤未执行，不涉及真实约会。",
+      "diagrams": [
+        {
+          "sceneKey": "dates128-1316-1",
+          "description": "先拆偏移，UTC=本地时刻−偏移。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "先拆偏移，UTC=本地时刻−偏移",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "A：03-04 00:30 +08 → 03-03 16:30Z",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "B：03-03 17:00Z → 同日17:00Z",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "C：03-03 11:30 −05 → 同日16:30Z",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "例题均2026；D无偏移不能定位",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1316-2",
+          "description": "画同一UTC轴：A/C同点，B更晚。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "画同一UTC轴：A/C同点，B更晚",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 73,
+              "y1": 210,
+              "x2": 553,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 73,
+              "y1": 201,
+              "x2": 73,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 153,
+              "y1": 201,
+              "x2": 153,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 233,
+              "y1": 201,
+              "x2": 233,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 313,
+              "y1": 201,
+              "x2": 313,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 393,
+              "y1": 201,
+              "x2": 393,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 473,
+              "y1": 201,
+              "x2": 473,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 553,
+              "y1": 201,
+              "x2": 553,
+              "y2": 219,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 246,
+              "text": "16:00",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 286,
+              "y": 246,
+              "text": "16:30",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 517,
+              "y": 246,
+              "text": "17:00",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 313,
+              "y1": 136,
+              "x2": 313,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 276,
+              "y": 122,
+              "text": "A与C",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 553,
+              "y1": 160,
+              "x2": 553,
+              "y2": 210,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 540,
+              "y": 148,
+              "text": "B",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 76,
+              "y": 286,
+              "text": "2026-03-03 UTC；轴30cm，每5cm代表10分钟",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1316-3",
+          "description": "原本地日期排序，会把先后看错。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "原本地日期排序，会把先后看错",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "A本地3月4日，却比B早30分钟",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "A与C同一瞬间，不是间隔5或8小时",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "统一为UTC完整时间戳后再排序",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "原偏移保留，不用新卡覆盖来源",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "dates128-1316-4",
+          "description": "D无偏移，放轴外待查，不能添Z。全部日期为明确教学例题，不是真实约会或已发生事件；月历与偏移计算是模型规则，参与者操作和修订另记。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 28,
+              "y": 84,
+              "text": "D无偏移，放轴外待查，不能添Z",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 49,
+              "y": 112,
+              "width": 544,
+              "height": 165,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 147,
+              "text": "D：2026-03-04T00:30:00",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 187,
+              "text": "缺偏移，不能唯一确定UTC瞬间",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 227,
+              "text": "+08是偏移，不是地区全年规则保证",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 69,
+              "y": 267,
+              "text": "本课不排真实约会，不处理夏令时",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

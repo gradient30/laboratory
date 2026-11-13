@@ -1,0 +1,2406 @@
+{
+  "activityId": 280,
+  "activityTitle": "只有先后关系也能排时间",
+  "contentKey": "annual-h036",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "没有年份，能排出哪些顺序？ 哪件先、哪件后可以不知道？",
+      "materials": [
+        "preschool-input、preschool、pending、conclusion-4-6；成人代读，不用进阶纸；公共cards/setup/rules/safety，reference后读。",
+        "普通纸笔；只画杯和卡片，不使用真杯、破片、胶水或私人照片。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 本题只用新纸笔自画杯，不拿真杯摔裂、粘补或触摸破片；不实际拍照、不收集私人影像或访谈。整页指图即可，无须裁剪；若成人预制大卡，应收齐工具。",
+      "steps": [
+        {
+          "title": "听三个模拟杯片段",
+          "caption": "听三个模拟杯片段",
+          "action": "成人按setup读A/B/C，并展示preschool-input的整杯、裂杯、修补图。孩子只指或画听到的片段；先后来自故事，不凭裂纹外观猜真实年代。preschool第一框记原话。",
+          "actor": "together",
+          "adultNote": "输入cards只给同一模拟杯：A“杯子先买来”；B“后来摔裂”；C“最后修补”。先后约束为A在B前、B在C前；此处“最后”只相对三条已知事件，不限制后来新增的P。P“杯子拍照发生何时，没有资料”。所有图为原创示意，无真实照片。卡不含年月日，不能补年份、人物、修补方式或持续时间。"
+        },
+        {
+          "title": "按故事排先后",
+          "caption": "按故事排先后",
+          "action": "成人把整页三图依次指给孩子，孩子可说哪件先、哪件后或指认，填preschool第二框；不要求识字、箭头、年份或完整复述，成人帮助标明。",
+          "actor": "together",
+          "adultNote": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。"
+        },
+        {
+          "title": "让拍照暂留不知道",
+          "caption": "让拍照暂留不知道",
+          "action": "成人代读P，指向pending框；孩子可把P指在“待定位”，不强迫夹进三图。preschool第三框写或画不知道何时，也可说想问什么。",
+          "actor": "together",
+          "adultNote": "只用题给模拟线索；新条件单独写，不补造日期和人物。"
+        },
+        {
+          "title": "说能排与不能说的",
+          "caption": "说能排与不能说的",
+          "action": "conclusion-4-6保留孩子关于先后的话和不知道的日期；成人示范故事没有年份，注明提示。不会排序也可记录，禁止用真杯演示破裂或修补。",
+          "actor": "together",
+          "adultNote": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "先后与不知道",
+          "图只是模拟"
+        ],
+        "explanation": "三条模拟线索只支持购入先于破裂、破裂先于修补。未知拍照事件不应被强行插位；相对顺序不提供绝对日期或时长。幼儿只听故事排序和保留不知道。",
+        "limits": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。",
+        "observation": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "nextQuestion": "需要哪条明确的新模拟信息，才能排除一种目前仍可能的顺序？"
+      },
+      "guide": {
+        "goal": "说能排与不能说的",
+        "observe": "听三个模拟杯片段",
+        "control": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "support": "成人代读代画，幼儿仅指认即可；未知、错误尝试和帮助保留，不强求唯一顺序。",
+        "time": "5—10分钟可停",
+        "recordFields": [
+          "卡号原句",
+          "箭头与依据",
+          "只是推测的P位置",
+          "模型假设与限制",
+          "未知日期和帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "National Archives｜Analyze an Artifact",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-an-artifact-intermediate",
+          "claim": "先观察物件细节，再给解释理由并寻找补充证据。",
+          "scope": "本轮实读turn486view1第39—65行；方法概念改述，不复制表格，不将模拟杯当真文物。"
+        },
+        {
+          "title": "National Park Service｜How Do Archeologists Date Sites and Artifacts?",
+          "url": "https://www.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm",
+          "claim": "相对年代处理事件彼此先后；绝对年代试图给出具体时间区间。",
+          "scope": "本轮实读turn494view0第21—23行；本题顺序枚举和条件故事是原创，不涉及专业测年操作。"
+        }
+      ],
+      "sourceNote": "NARA支持依据细节解释并找补充证据的方法，NPS支持相对/绝对年代区分。全部杯图、线索与逻辑算例原创，不是机构史料、认证或真实考古操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "order280-4-6-1",
+          "description": "听三个模拟杯片段；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "听三个模拟杯片段",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读故事，不要真杯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只指认或画图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "拍照可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求日期或推导",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-4-6-2",
+          "description": "按故事排先后；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "按故事排先后",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读故事，不要真杯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只指认或画图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "拍照可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求日期或推导",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-4-6-3",
+          "description": "让拍照暂留不知道；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "让拍照暂留不知道",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "P：杯子何时拍照？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "题中没有给出",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "先放待定位",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "不用硬塞进三图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读故事，不要真杯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只指认或画图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "拍照可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求日期或推导",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-4-6-4",
+          "description": "说能排与不能说的；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "说能排与不能说的",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "资料明确的顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "我猜的 / 尚未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "没有年份就不填年表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "全程只有纸上模拟",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读故事，不要真杯",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只指认或画图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "拍照可以不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求日期或推导",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "没有年份，能排出哪些顺序？ 哪些箭头有原句支持？",
+      "materials": [
+        "prediction-7-9、claim-ledger、graph-work、edge-ledger、pending、placement-work、conclusion-7-9；公共cards/setup/rules/safety，reference后读。",
+        "普通纸笔；只画杯和卡片，不使用真杯、破片、胶水或私人照片。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 本题只用新纸笔自画杯，不拿真杯摔裂、粘补或触摸破片；不实际拍照、不收集私人影像或访谈。整页指图即可，无须裁剪；若成人预制大卡，应收齐工具。",
+      "steps": [
+        {
+          "title": "抄线索并标最初猜想",
+          "caption": "抄线索并标最初猜想",
+          "action": "prediction-7-9写自己初猜P位置或未知及理由，claim-ledger逐条抄cards的A/B/C/P，不用当天日期替故事填年表。",
+          "actor": "together",
+          "adultNote": "输入cards只给同一模拟杯：A“杯子先买来”；B“后来摔裂”；C“最后修补”。先后约束为A在B前、B在C前；此处“最后”只相对三条已知事件，不限制后来新增的P。P“杯子拍照发生何时，没有资料”。所有图为原创示意，无真实照片。卡不含年月日，不能补年份、人物、修补方式或持续时间。"
+        },
+        {
+          "title": "把明确先后画成箭头",
+          "caption": "把明确先后画成箭头",
+          "action": "在graph-work画A→B→C，edge-ledger逐箭头写对应原句；可推出A在C前但不是新原句。不按箭头长度推间隔，不把先后叫因果证明。",
+          "actor": "together",
+          "adultNote": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。"
+        },
+        {
+          "title": "给P保留待定位位置",
+          "caption": "给P保留待定位位置",
+          "action": "在pending与placement-work说明P为何暂不连线，并尝试举两种不违反A→B→C的可能顺序，注明只是可能。可包括购买前的P，因为杯不是买来才出现。",
+          "actor": "together",
+          "adultNote": "只用题给模拟线索；新条件单独写，不补造日期和人物。"
+        },
+        {
+          "title": "把结论分为已知与未知",
+          "caption": "把结论分为已知与未知",
+          "action": "conclusion-7-9分别写明确的相对顺序、只是猜的P位置和未知的年月日；对照最初猜想留修订理由。未知事件不等于不存在，也不要求选唯一答案。",
+          "actor": "together",
+          "adultNote": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "原句与推论",
+          "相对顺序不等于日期"
+        ],
+        "explanation": "三条模拟线索只支持购入先于破裂、破裂先于修补。未知拍照事件不应被强行插位；相对顺序不提供绝对日期或时长。每条箭头要能回查原句，传递推论和直接线索分开。",
+        "limits": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。",
+        "observation": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "nextQuestion": "需要哪条明确的新模拟信息，才能排除一种目前仍可能的顺序？"
+      },
+      "guide": {
+        "goal": "把结论分为已知与未知",
+        "observe": "抄线索并标最初猜想",
+        "control": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "support": "成人代读代画，幼儿仅指认即可；未知、错误尝试和帮助保留，不强求唯一顺序。",
+        "time": "10—20分钟可分次",
+        "recordFields": [
+          "卡号原句",
+          "箭头与依据",
+          "只是推测的P位置",
+          "模型假设与限制",
+          "未知日期和帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "National Archives｜Analyze an Artifact",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-an-artifact-intermediate",
+          "claim": "先观察物件细节，再给解释理由并寻找补充证据。",
+          "scope": "本轮实读turn486view1第39—65行；方法概念改述，不复制表格，不将模拟杯当真文物。"
+        },
+        {
+          "title": "National Park Service｜How Do Archeologists Date Sites and Artifacts?",
+          "url": "https://www.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm",
+          "claim": "相对年代处理事件彼此先后；绝对年代试图给出具体时间区间。",
+          "scope": "本轮实读turn494view0第21—23行；本题顺序枚举和条件故事是原创，不涉及专业测年操作。"
+        }
+      ],
+      "sourceNote": "NARA支持依据细节解释并找补充证据的方法，NPS支持相对/绝对年代区分。全部杯图、线索与逻辑算例原创，不是机构史料、认证或真实考古操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "order280-7-9-1",
+          "description": "抄线索并标最初猜想；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "抄线索并标最初猜想",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每条箭头注明依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "箭头不是年数刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "P暂不强行连线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "购买不等于杯的诞生",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-7-9-2",
+          "description": "把明确先后画成箭头；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把明确先后画成箭头",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每条箭头注明依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "箭头不是年数刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "P暂不强行连线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "购买不等于杯的诞生",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-7-9-3",
+          "description": "给P保留待定位位置；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "给P保留待定位位置",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "资料明确的顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "我猜的 / 尚未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "没有年份就不填年表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "全程只有纸上模拟",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每条箭头注明依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "箭头不是年数刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "P暂不强行连线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "购买不等于杯的诞生",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-7-9-4",
+          "description": "把结论分为已知与未知；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把结论分为已知与未知",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "资料明确的顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "我猜的 / 尚未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "没有年份就不填年表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "全程只有纸上模拟",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每条箭头注明依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "箭头不是年数刻度",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "P暂不强行连线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "购买不等于杯的诞生",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "没有年份，能排出哪些顺序？ 裂缝照片真的能固定拍照位置吗？",
+      "materials": [
+        "prediction-10-12、claim-ledger、assumption-work、orders-work、edge-check、photo-audit、update-work、evidence-plan、conclusion-10-12；基础后读extension-input；公共cards/setup/rules/safety，reference后读。",
+        "普通纸笔；只画杯和卡片，不使用真杯、破片、胶水或私人照片。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 本题只用新纸笔自画杯，不拿真杯摔裂、粘补或触摸破片；不实际拍照、不收集私人影像或访谈。整页指图即可，无须裁剪；若成人预制大卡，应收齐工具。",
+      "steps": [
+        {
+          "title": "先区分输入和额外假设",
+          "caption": "先区分输入和额外假设",
+          "action": "prediction-10-12、claim-ledger与assumption-work标出原句、逻辑推论和模型假设，特别是四事件各一次、非同时。先不读extension-input和reference。",
+          "actor": "together",
+          "adultNote": "输入cards只给同一模拟杯：A“杯子先买来”；B“后来摔裂”；C“最后修补”。先后约束为A在B前、B在C前；此处“最后”只相对三条已知事件，不限制后来新增的P。P“杯子拍照发生何时，没有资料”。所有图为原创示意，无真实照片。卡不含年月日，不能补年份、人物、修补方式或持续时间。"
+        },
+        {
+          "title": "枚举P在三件事周围的位置",
+          "caption": "枚举P在三件事周围的位置",
+          "action": "在orders-work四行写基础模型的可行顺序，每行用edge-check核A在B前、B在C前。要允许P在A前；四行是可能安排，不是四次实测或概率。",
+          "actor": "together",
+          "adultNote": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。"
+        },
+        {
+          "title": "加入裂缝线索先审它能说什么",
+          "caption": "加入裂缝线索先审它能说什么",
+          "action": "读extension-input：E只说“照片中已有裂缝”。在photo-audit先写不能单凭这句断言P在C前；照片可能是旧裂缝、同杯未核实，修补也可能留痕。再读明示E1假设，update-work只在该条件下加B→P。",
+          "actor": "together",
+          "adultNote": "只用题给模拟线索；新条件单独写，不补造日期和人物。"
+        },
+        {
+          "title": "保留条件化结论与缺口",
+          "caption": "保留条件化结论与缺口",
+          "action": "conclusion-10-12比较基础和E1模型保留的序列，说明B→P仍不保证P在修补前。evidence-plan仅设计需要的补充来源，不能实际索取私人照片或编造日期。",
+          "actor": "together",
+          "adultNote": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "部分顺序和可行位置",
+          "照片解释需核假设"
+        ],
+        "explanation": "三条模拟线索只支持购入先于破裂、破裂先于修补。未知拍照事件不应被强行插位；相对顺序不提供绝对日期或时长。裂缝图像需核同杯、同次破裂及修补留痕条件，不能仅凭外观断定在修补前。",
+        "limits": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。",
+        "observation": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "nextQuestion": "需要哪条明确的新模拟信息，才能排除一种目前仍可能的顺序？"
+      },
+      "guide": {
+        "goal": "保留条件化结论与缺口",
+        "observe": "先区分输入和额外假设",
+        "control": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "support": "成人代读代画，幼儿仅指认即可；未知、错误尝试和帮助保留，不强求唯一顺序。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "卡号原句",
+          "箭头与依据",
+          "只是推测的P位置",
+          "模型假设与限制",
+          "未知日期和帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "National Archives｜Analyze an Artifact",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-an-artifact-intermediate",
+          "claim": "先观察物件细节，再给解释理由并寻找补充证据。",
+          "scope": "本轮实读turn486view1第39—65行；方法概念改述，不复制表格，不将模拟杯当真文物。"
+        },
+        {
+          "title": "National Park Service｜How Do Archeologists Date Sites and Artifacts?",
+          "url": "https://www.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm",
+          "claim": "相对年代处理事件彼此先后；绝对年代试图给出具体时间区间。",
+          "scope": "本轮实读turn494view0第21—23行；本题顺序枚举和条件故事是原创，不涉及专业测年操作。"
+        }
+      ],
+      "sourceNote": "NARA支持依据细节解释并找补充证据的方法，NPS支持相对/绝对年代区分。全部杯图、线索与逻辑算例原创，不是机构史料、认证或真实考古操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "order280-10-12-1",
+          "description": "先区分输入和额外假设；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "先区分输入和额外假设",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与假设分列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "裂缝可在修补后可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "条件改变，结论另列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不编造照片或年月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-10-12-2",
+          "description": "枚举P在三件事周围的位置；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "枚举P在三件事周围的位置",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "P可在A前、A/B间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "也可在B/C间、C后",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "逐行核A→B→C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "未知不等于等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与假设分列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "裂缝可在修补后可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "条件改变，结论另列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不编造照片或年月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-10-12-3",
+          "description": "加入裂缝线索先审它能说什么；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "加入裂缝线索先审它能说什么",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "E：照片中已有裂缝",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "同杯同次？先核假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "修补可能留下裂痕",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "不能直接说P在C前",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与假设分列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "裂缝可在修补后可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "条件改变，结论另列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不编造照片或年月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-10-12-4",
+          "description": "保留条件化结论与缺口；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "保留条件化结论与缺口",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "资料明确的顺序",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "我猜的 / 尚未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "没有年份就不填年表",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "全程只有纸上模拟",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句与假设分列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "裂缝可在修补后可见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "条件改变，结论另列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不编造照片或年月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "没有年份，能排出哪些顺序？ 哪些假设使可行顺序减少或产生矛盾？",
+      "materials": [
+        "prediction-13-16、claim-ledger、assumption-work、graph-work、orders-work、edge-check、completeness-work、conditional-work、cycle-work、date-audit、conclusion-13-16；基础后读extension-input/cycle-input；公共cards/setup/rules/safety，reference后读。",
+        "普通纸笔；只画杯和卡片，不使用真杯、破片、胶水或私人照片。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 本题只用新纸笔自画杯，不拿真杯摔裂、粘补或触摸破片；不实际拍照、不收集私人影像或访谈。整页指图即可，无须裁剪；若成人预制大卡，应收齐工具。",
+      "steps": [
+        {
+          "title": "给相对顺序建立约束集",
+          "caption": "给相对顺序建立约束集",
+          "action": "完成claim-ledger和assumption-work，在graph-work区分直接给定A→B/B→C与传递推论A→C；P无边。prediction-13-16写哪些新增信息才会排除P位置。",
+          "actor": "together",
+          "adultNote": "输入cards只给同一模拟杯：A“杯子先买来”；B“后来摔裂”；C“最后修补”。先后约束为A在B前、B在C前；此处“最后”只相对三条已知事件，不限制后来新增的P。P“杯子拍照发生何时，没有资料”。所有图为原创示意，无真实照片。卡不含年月日，不能补年份、人物、修补方式或持续时间。"
+        },
+        {
+          "title": "证明基础列举既全又合法",
+          "caption": "证明基础列举既全又合法",
+          "action": "orders-work列四个基础线性序并用completeness-work解释将P插入三事件链的四个间隙，覆盖依赖于各一次非同时假设。每行edge-check核验，不把四个可能当等概率。",
+          "actor": "together",
+          "adultNote": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。"
+        },
+        {
+          "title": "比较裂缝和消痕两个条件包",
+          "caption": "比较裂缝和消痕两个条件包",
+          "action": "完成前表才读extension-input：E1明确同杯同次破裂、可信照片、裂缝产生于B且此前不存在，得B→P；E2再假定C后该痕永久不可见且不再破裂，才可得P→C。conditional-work分别列E、E1、E1+E2，不把额外假设当原史料。",
+          "actor": "together",
+          "adultNote": "只用题给模拟线索；新条件单独写，不补造日期和人物。"
+        },
+        {
+          "title": "检验循环约束并保持年代边界",
+          "caption": "检验循环约束并保持年代边界",
+          "action": "读cycle-input另设新增C→A，cycle-work画循环并解释与原A→B→C不能同时满足；应核资料/模型，不宣布真实历史不存在或谁撒谎。date-audit/conclusion-13-16说明排序唯一仍不给具体日期、时长或因果。",
+          "actor": "together",
+          "adultNote": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "线性序枚举与约束一致性",
+          "条件化推理与循环冲突"
+        ],
+        "explanation": "三条模拟线索只支持购入先于破裂、破裂先于修补。未知拍照事件不应被强行插位；相对顺序不提供绝对日期或时长。可行线性序受假设约束；额外边可缩小集合或形成不一致循环，不能代替真实历史证据。",
+        "limits": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。",
+        "observation": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "nextQuestion": "需要哪条明确的新模拟信息，才能排除一种目前仍可能的顺序？"
+      },
+      "guide": {
+        "goal": "检验循环约束并保持年代边界",
+        "observe": "给相对顺序建立约束集",
+        "control": "先原样记录三条输入，再画A→B→C，箭头只表示严格先于，不代表等长时间、因果或材料流动。P另放待定位区，不自行连线。列举顺序的纸模型额外假定四个事件各发生一次、互不同时，且照片指同一杯；购买前已有杯子并不矛盾。若不采用这些模型假定，就不声称列举已覆盖全部真实历史。未知、未做和成人提示保留。",
+        "support": "成人代读代画，幼儿仅指认即可；未知、错误尝试和帮助保留，不强求唯一顺序。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "卡号原句",
+          "箭头与依据",
+          "只是推测的P位置",
+          "模型假设与限制",
+          "未知日期和帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "National Archives｜Analyze an Artifact",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-an-artifact-intermediate",
+          "claim": "先观察物件细节，再给解释理由并寻找补充证据。",
+          "scope": "本轮实读turn486view1第39—65行；方法概念改述，不复制表格，不将模拟杯当真文物。"
+        },
+        {
+          "title": "National Park Service｜How Do Archeologists Date Sites and Artifacts?",
+          "url": "https://www.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm",
+          "claim": "相对年代处理事件彼此先后；绝对年代试图给出具体时间区间。",
+          "scope": "本轮实读turn494view0第21—23行；本题顺序枚举和条件故事是原创，不涉及专业测年操作。"
+        }
+      ],
+      "sourceNote": "NARA支持依据细节解释并找补充证据的方法，NPS支持相对/绝对年代区分。全部杯图、线索与逻辑算例原创，不是机构史料、认证或真实考古操作。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创模拟杯故事，不是真实文物史。未做儿童、实物、打印或课程认证。相对先后不给年份、间隔长短或原因；可行顺序不代表真实发生，也不代表各序列等概率。照片缺资料时不强行插位，购买不等于制造，因此拍照可能在购买前。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "order280-13-16-1",
+          "description": "给相对顺序建立约束集；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "给相对顺序建立约束集",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 145,
+              "y": 122,
+              "width": 70,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 243,
+              "y": 122,
+              "width": 78,
+              "height": 55,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "A购入",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 153,
+              "y": 145,
+              "text": "B破裂",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 250,
+              "y": 145,
+              "text": "C修补",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 119,
+              "y1": 150,
+              "x2": 141,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 217,
+              "y1": 150,
+              "x2": 239,
+              "y2": 150,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 50,
+              "y": 216,
+              "text": "只表示先后，不是日期刻度",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 235,
+              "width": 205,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 263,
+              "text": "P拍照：待定位",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "枚举依赖非同时假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可能顺序不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增边须有明确依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "循环先查资料和假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-13-16-2",
+          "description": "证明基础列举既全又合法；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "证明基础列举既全又合法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "P可在A前、A/B间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "也可在B/C间、C后",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "逐行核A→B→C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "未知不等于等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "枚举依赖非同时假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可能顺序不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增边须有明确依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "循环先查资料和假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-13-16-3",
+          "description": "比较裂缝和消痕两个条件包；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "比较裂缝和消痕两个条件包",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "E：照片中已有裂缝",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "同杯同次？先核假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "修补可能留下裂痕",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "不能直接说P在C前",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "枚举依赖非同时假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可能顺序不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增边须有明确依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "循环先查资料和假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "order280-13-16-4",
+          "description": "检验循环约束并保持年代边界；原创相对顺序示意，不是真实文物证据或年代测量。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "检验循环约束并保持年代边界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 110,
+              "width": 280,
+              "height": 169,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 138,
+              "text": "另题：加C→A",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "A→B→C→A成环",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 206,
+              "text": "约束不能同时满足",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 240,
+              "text": "不能因此编出真实年代",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "枚举依赖非同时假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "可能顺序不等概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "新增边须有明确依据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "循环先查资料和假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

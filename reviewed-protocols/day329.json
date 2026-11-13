@@ -1,0 +1,1899 @@
+{
+  "activityId": 329,
+  "activityTitle": "平均速率不是各段的简单平均",
+  "contentKey": "annual-m047",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同样长的路，哪段用时更少？",
+      "materials": [
+        "普通纸2张、笔1支、橡皮1块（成人保管）。直接画示意路径、时间格与计算表，不剪小卡。",
+        "所有数据为本页虚构纸面行程，第一段10米/5秒、第二段10米/10秒；不跑步、不真实计时、不使用道路或楼梯。图不按实地比例绘制。",
+        "本龄手绘准备：第1张成人画两条同长线标同为10米，旁画5格和10格代表虚构秒；第2张记孩子指认。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全程只画写或指图，不让儿童跑、跳、竞速或走到路上验证。幼儿不要求分数、除法或速率公式；纸笔不入口。",
+      "steps": [
+        {
+          "title": "看两条同长路线",
+          "caption": "看两条同长路线",
+          "action": "成人画两条一样长的纸上线，分别说故事里都是10米，不要求用尺量纸上线。显著写虚构故事，不要求孩子真的走或跑。",
+          "actor": "adult",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "看五格和十格时间",
+          "caption": "看五格和十格时间",
+          "action": "成人在两线旁分别画5格和10格，代读一个故事用了5秒、另一个用了10秒；孩子可指格子较少的一行，不必数到10。",
+          "actor": "adult",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "指哪段比较快",
+          "caption": "指哪段比较快",
+          "action": "说明同样长的路，用时更少表示这一段平均较快；孩子指第一段或说理由，成人记原话。不要求2米/秒或1米/秒的计算。",
+          "actor": "adult",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "把范围说清再结束",
+          "caption": "把范围说清再结束",
+          "action": "成人说今天只比较两段，不从两个格子行去猜整个故事的平均。孩子留一个问题或收纸；不要求分数，不把虚构秒数称实测。",
+          "actor": "adult",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同路程比较",
+          "用时"
+        ],
+        "explanation": "在路程一样的前提下，较少用时对应较大的平均速率；幼儿只需指出这一点。",
+        "limits": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "可核对的是给定数学输入与演算，不能声称有真人跑步结果。若改时间或路程须把新例另标。",
+        "nextQuestion": "如果两条路不一样长，还能只看时间吗？"
+      },
+      "guide": {
+        "goal": "只指认同路程较少用时的一段",
+        "observe": "同样长的路，哪段用时更少？",
+        "control": "路径同长是给定条件，时间是故事数据，绝不实际跑步。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘路径和表格；无需打印或校准。 儿童核心5—10分钟；无实验等待，不做真实计时；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "孩子指认",
+          "原话或问题",
+          "成人代画时间格"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day329-4-6-s1",
+          "description": "看两条同长路线；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "看两条同长路线",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "两条路都10米",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "同长纸线是示意",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "虚构故事，不跑步",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只需指认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不要求分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不给跑步任务",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "数据标虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-4-6-s2",
+          "description": "看五格和十格时间；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "看五格和十格时间",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "第一段：5个时间格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "第二段：10个时间格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "孩子可只指较少",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只需指认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不要求分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不给跑步任务",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "数据标虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-4-6-s3",
+          "description": "指哪段比较快；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "指哪段比较快",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "同样路程",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "用时更少 → 较快",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "不要求除法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只需指认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不要求分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不给跑步任务",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "数据标虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-4-6-s4",
+          "description": "把范围说清再结束；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "把范围说清再结束",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "只比较两段",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "不要求全程分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "虚构数不是实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "只需指认",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "不要求分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不给跑步任务",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "数据标虚构",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "全程总共走多少、用多久？",
+      "materials": [
+        "普通纸2张、笔1支、橡皮1块（成人保管）。直接画示意路径、时间格与计算表，不剪小卡。",
+        "所有数据为本页虚构纸面行程，第一段10米/5秒、第二段10米/10秒；不跑步、不真实计时、不使用道路或楼梯。图不按实地比例绘制。",
+        "本龄手绘准备：第1张虚构两段表，列路程/用时；第2张成人协助画总20米、总15秒及除法。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全程只画写或指图，不让儿童跑、跳、竞速或走到路上验证。幼儿不要求分数、除法或速率公式；纸笔不入口。",
+      "steps": [
+        {
+          "title": "保留虚构两段输入",
+          "caption": "保留虚构两段输入",
+          "action": "写第一段10米5秒，第二段10米10秒，标虚构。路程与时间各一列，单位分开，不把秒数填进米那列。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "分别算每秒路程",
+          "caption": "分别算每秒路程",
+          "action": "将10米分到5秒，每秒平均2米；10米分到10秒，每秒平均1米。可画格分组，成人代算除法；这些是各段平均，不保证每一秒实际都一样。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "先合并再作除法",
+          "caption": "先合并再作除法",
+          "action": "总路程10+10=20米，总时间5+10=15秒；写全程20÷15米/秒。成人可读作4/3米/秒，不要求孩子先熟练分数；核心是先加总再除。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "用反算检查简单平均",
+          "caption": "用反算检查简单平均",
+          "action": "成人演示把2和1简单平均得1.5米/秒，乘总15秒会得22.5米，不等于给定20米。孩子只要指出对不上即可；说明两段用时不同不能各占一半。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "单位率",
+          "总量合并",
+          "反算"
+        ],
+        "explanation": "全程要把总路程除总时间，不能不看各段用时就把两个速率平均。",
+        "limits": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "可核对的是给定数学输入与演算，不能声称有真人跑步结果。若改时间或路程须把新例另标。",
+        "nextQuestion": "如果第一段和第二段用时相同会怎样？"
+      },
+      "guide": {
+        "goal": "合并路程和时间再看全程平均",
+        "observe": "全程总共走多少、用多久？",
+        "control": "小数分数由成人协助，保留原数据不改写以匹配答案。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘路径和表格；无需打印或校准。 儿童核心10—18分钟；无实验等待，不做真实计时；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "两段原表",
+          "合计20米15秒",
+          "反算不一致"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day329-7-9-s1",
+          "description": "保留虚构两段输入；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "保留虚构两段输入",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "虚构：10m / 5s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "虚构：10m / 10s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "米和秒分列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先合计再除",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "分数可成人代读",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求实跑",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原数据保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-7-9-s2",
+          "description": "分别算每秒路程；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "分别算每秒路程",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "10÷5=2米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "10÷10=1米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "各段平均，不是逐秒实测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先合计再除",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "分数可成人代读",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求实跑",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原数据保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-7-9-s3",
+          "description": "先合并再作除法；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "先合并再作除法",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "总路程：20米",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "总时间：15秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "全程：20÷15=4/3米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先合计再除",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "分数可成人代读",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求实跑",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原数据保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-7-9-s4",
+          "description": "用反算检查简单平均；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "用反算检查简单平均",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "简单平均：1.5米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "1.5×15=22.5米 ≠ 20米",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "两个用时不是一样长",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先合计再除",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "分数可成人代读",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "不要求实跑",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "原数据保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "为什么全程更靠近较慢那段？",
+      "materials": [
+        "普通纸2张、笔1支、橡皮1块（成人保管）。直接画示意路径、时间格与计算表，不剪小卡。",
+        "所有数据为本页虚构纸面行程，第一段10米/5秒、第二段10米/10秒；不跑步、不真实计时、不使用道路或楼梯。图不按实地比例绘制。",
+        "本龄手绘准备：第1张原题单位率、总量与加权式；第2张另列两段各5秒且仍各10米的新例。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全程只画写或指图，不让儿童跑、跳、竞速或走到路上验证。幼儿不要求分数、除法或速率公式；纸笔不入口。",
+      "steps": [
+        {
+          "title": "逐项核核心输入和单位",
+          "caption": "逐项核核心输入和单位",
+          "action": "标虚构行程，算10/5=2与10/10=1米/秒。总路程20米，总时间15秒，写20/15=4/3米/秒，保留精确分数不只报小数。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "按用时给权重",
+          "caption": "按用时给权重",
+          "action": "第一段5/15=1/3，第二段10/15=2/3；算2×1/3+1×2/3=4/3。较慢段用了更多时间，故更靠近1而不是两数正中；权重和为1。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "另改为等用时检验",
+          "caption": "另改为等用时检验",
+          "action": "新表明确仍各10米，但把第二段用时改为5秒，两段都2米/秒。总20米/10秒=2，简单平均也2；这是新条件的例子，不把原10秒擦成5秒。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "解释适用条件而非口诀",
+          "caption": "解释适用条件而非口诀",
+          "action": "写一般两段总速率=(v1t1+v2t2)/(t1+t2)，等用时时两权重各一半可简单平均。原题等路程但不等时间，所以不能把等路程误当等权重。全程只是速率，不含方向。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "加权平均",
+          "条件改变",
+          "精确分数"
+        ],
+        "explanation": "时间权重反映每种段平均速率对应的持续时间，等路程不会自动给相同权重。",
+        "limits": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "可核对的是给定数学输入与演算，不能声称有真人跑步结果。若改时间或路程须把新例另标。",
+        "nextQuestion": "若保持2和1米/秒但让时间相同，路程还会相同吗？"
+      },
+      "guide": {
+        "goal": "用时间权重解释4/3并比较新题",
+        "observe": "为什么全程更靠近较慢那段？",
+        "control": "新例明确改变第二段时间且保留路程，原题不改；不混速度方向。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘路径和表格；无需打印或校准。 儿童核心15—22分钟；无实验等待，不做真实计时；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "原题精确算式",
+          "时间权重",
+          "等用时新例"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day329-10-12-s1",
+          "description": "逐项核核心输入和单位；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "逐项核核心输入和单位",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "v1=2，v2=1米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "20米 / 15秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "全程=4/3米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "权重由时间决定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先列改变的条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留精确分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "速率不是向量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-10-12-s2",
+          "description": "按用时给权重；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "按用时给权重",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "时间权重：1/3与2/3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "2×1/3 + 1×2/3 = 4/3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "权重和为1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "权重由时间决定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先列改变的条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留精确分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "速率不是向量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-10-12-s3",
+          "description": "另改为等用时检验；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "另改为等用时检验",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "新例：10m/5s + 10m/5s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "两段都是2米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "总20m/10s=2米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "权重由时间决定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先列改变的条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留精确分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "速率不是向量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-10-12-s4",
+          "description": "解释适用条件而非口诀；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "解释适用条件而非口诀",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "时间相等 → 等权重",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "路程相等 ≠ 时间相等",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "原题与新例分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "权重由时间决定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "先列改变的条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "保留精确分数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "速率不是向量",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "等路程为何产生调和平均？",
+      "materials": [
+        "普通纸2张、笔1支、橡皮1块（成人保管）。直接画示意路径、时间格与计算表，不剪小卡。",
+        "所有数据为本页虚构纸面行程，第一段10米/5秒、第二段10米/10秒；不跑步、不真实计时、不使用道路或楼梯。图不按实地比例绘制。",
+        "本龄手绘准备：第1张原题与等路程符号推导；第2张两种等时间新例、范围与反算。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。 全程只画写或指图，不让儿童跑、跳、竞速或走到路上验证。幼儿不要求分数、除法或速率公式；纸笔不入口。",
+      "steps": [
+        {
+          "title": "从总量推导核心算式",
+          "caption": "从总量推导核心算式",
+          "action": "原题虚构10米5秒与10米10秒，算v1=2、v2=1，V=20/15=4/3米/秒。另写时间加权式V=(v1t1+v2t2)/(t1+t2)，t1,t2为正且包含对应全段用时。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "对等路程推调和平均",
+          "caption": "对等路程推调和平均",
+          "action": "设两段各正路程d且v1,v2>0，则t1=d/v1,t2=d/v2；V=2d/(d/v1+d/v2)=2v1v2/(v1+v2)。代2、1得4/3。零速率情形不能直接套此除法，须回总路程/总时间。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "区分两种等时间改题",
+          "caption": "区分两种等时间改题",
+          "action": "新例A保留两段各10米、时间各5秒，段速率都2，总平均2。新例B保留速率2和1且各5秒，路程须为10和5米，总15米10秒，平均1.5；B是另一个明确改题，不偷换原数据。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        },
+        {
+          "title": "推算术平均并核条件",
+          "caption": "推算术平均并核条件",
+          "action": "等时间t>0时V=(v1t+v2t)/(2t)=(v1+v2)/2。对正v1,v2，算术减调和=(v1−v2)²/[2(v1+v2)]≥0，等号仅v1=v2；原题差1/6米/秒。写适用条件和单位，不谈带方向速度。",
+          "actor": "together",
+          "adultNote": "成人代画同长路径和时间格，所有数值标虚构；低龄只比较同路程用时，不要求计算4/3。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "调和平均",
+          "时间权重",
+          "条件推导"
+        ],
+        "explanation": "等路程和等用时是不同约束；正速率且等路程时是调和平均，等用时时是算术平均。",
+        "limits": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。",
+        "observation": "可核对的是给定数学输入与演算，不能声称有真人跑步结果。若改时间或路程须把新例另标。",
+        "nextQuestion": "若有停留时间，应怎样并入总时间而不滥用调和公式？"
+      },
+      "guide": {
+        "goal": "推导正速率下的调和与算术平均",
+        "observe": "等路程为何产生调和平均？",
+        "control": "两改题各自明确保持与改变项，分母非零且时间正，不把零速率硬代公式。",
+        "support": "成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。",
+        "time": "成人准备约3—5分钟，含手绘路径和表格；无需打印或校准。 儿童核心20—25分钟；无实验等待，不做真实计时；收纸或成人清理约2分钟。可分次。",
+        "recordFields": [
+          "总量推导",
+          "调和与算术条件",
+          "两新例及差值核查"
+        ]
+      },
+      "sources": [
+        {
+          "id": "AN-M12",
+          "title": "OpenStax｜比与单位率",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/5-6-ratios-and-rate",
+          "claim": "比、单位率与单位价格。",
+          "scope": "概念或方法参考；本页例子、数值及家庭步骤为原创改编，不是机构认证课例。"
+        }
+      ],
+      "sourceNote": "来源核对的是所列概念、馆藏字段或方法；本页家庭任务为原创改编，自绘示意不等于实物照片。 本轮保留原题来源与范围，不声称重新联网实读；独立改编步骤与图。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待全新独审",
+        "method": "作者结构、纸上逻辑与实际栅格目检；不是家庭或儿童实测",
+        "limitations": "纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 纸面算例不要求儿童跑步计时；使用速率而不是带方向的速度。 家庭步骤未经实地试做；来源审核不等于真人专家会审、课程认证或法律合规认证。 计算使用路程总量与总用时，属于平均速率而非带方向的平均速度。虚构行程数据不是孩子实测；新条件另开表，不能改写原10米5秒和10米10秒。 作者候选，未实地、儿童、家庭或打印试用；保留全部原发布门禁。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day329-13-16-s1",
+          "description": "从总量推导核心算式；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "从总量推导核心算式",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "核心：2与1米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "V=20/15=4/3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "V=(v1t1+v2t2)/(t1+t2)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先看约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "正速率条件保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "新例不能偷换",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "回总量公式核验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-13-16-s2",
+          "description": "对等路程推调和平均；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "对等路程推调和平均",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "等路程d，v1,v2>0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "V=2/(1/v1+1/v2)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "代2和1得4/3米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先看约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "正速率条件保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "新例不能偷换",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "回总量公式核验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-13-16-s3",
+          "description": "区分两种等时间改题；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "区分两种等时间改题",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "新例A：各10m、各5s → 2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "新例B：2和1m/s、各5s",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "B路程10m与5m → 1.5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先看约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "正速率条件保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "新例不能偷换",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "回总量公式核验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day329-13-16-s4",
+          "description": "推算术平均并核条件；原创示意，观察空格不预填，模型非实测。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 87,
+              "text": "推算术平均并核条件",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 43,
+              "y": 112,
+              "width": 286,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 139,
+              "text": "等时间 → 算术平均",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 169,
+              "text": "差=(v1−v2)²/[2(v1+v2)]",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 199,
+              "text": "原题差1/6米/秒",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 112,
+              "width": 246,
+              "height": 166,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 140,
+              "text": "先看约束",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 173,
+              "text": "正速率条件保留",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 206,
+              "text": "新例不能偷换",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 239,
+              "text": "回总量公式核验",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

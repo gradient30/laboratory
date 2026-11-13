@@ -1,0 +1,4353 @@
+{
+  "activityId": 246,
+  "activityTitle": "一周天气不是气候结论",
+  "contentKey": "annual-content-nature-life-321",
+  "reconstruction": {
+    "status": "RECONSTRUCTION",
+    "baseline": "recovered-928-extracted/source",
+    "lostReviewInherited": false,
+    "originalSha256": "6d91f64f2c78a733083ba86cbef5843da70d4874e14c032c74170741018381d8"
+  },
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "故事里的三天能告诉我们全年吗？",
+      "materials": [
+        "整页普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。全课桌面纸笔，不剪小卡、不使用真实雨水、温度计、手机定位或户外观测。真实官网资料只供读定义和方法，没有采集站点实测值。",
+        "本龄整页纸件：rules.svg、climate-card.svg、source-card.svg、source-links.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、data-A.svg、preschool-match.svg、preschool-revision.svg、preschool-record.svg；需续写时加编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不因课程外出追风雨、看太阳、开窗探身或接触积水、电器。疲倦就停，未做记录；不会读写可指认或成人代写并注明。不上传姓名、住址、定位或儿童照片。",
+      "steps": [
+        {
+          "title": "先分清故事和真实天气",
+          "caption": "先分清故事和真实天气",
+          "action": "成人读rules、data-A和climate-card，说明这是编的故事，不是今天或某个城市实测。幼儿只取A的周一/周二/周三三个日格（晴/雨/阴），先在preschool-record记录孩子原话与猜想，不要求读七天或计算比例。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "把三天与三个符号相连",
+          "caption": "把三天与三个符号相连",
+          "action": "在preschool-match整页上，孩子把三行日格分别连到右侧三个符号框；符号与文字同时给出，太阳记晴、雨线记雨、云记阴。连接线由孩子画，初始完全留空；不剪卡。成人可读字或代画并记录帮助，不能把代画当独立完成。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "只说这三格发生什么",
+          "caption": "只说这三格发生什么",
+          "action": "用preschool-revision重做核对，不擦旧线；在preschool-record画出一个自己看到的标签或口述。只比较这三格是否相同，不用小样本说全年如何；也不让孩子从太阳符号判断今天真实天气。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "留下不知道和自己的问题",
+          "caption": "留下不知道和自己的问题",
+          "action": "成人读“这三格有晴、雨、阴”和“这里全年都下雨”两句，请孩子指哪句能由三格支持，也可答不知道。原答、修改、未做及帮助写入preschool-record；孩子提出一个要看更多天的问题，不强求气候定义。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "虚构与真实",
+          "三格指认"
+        ],
+        "explanation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 天气描述特定时间地点的短期大气状态；气候描述长期统计特征。真实观测可以成为长期资料的一部分，但七个虚构日格不能独立支持全年多雨、某地气候类型、明日必下雨或气候变化趋势。即使一整年也不自动代表长期气候，不能把“周样本不够”误改成“补满一年就够”。",
+        "observation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。",
+        "limits": "NOAA/NCEI官方资料说明常规美国气候正常值以统一30年期的温度、降水等变量计算统计参考；现行常规例子是1991—2020，首尾都算30年，通常每10年更新。它不是“每天正常应该怎样”，也不是30个年号或30年任意零散记录就自动证明气候趋势。产品还包括不止均值的统计量，并有用途明确的15年补充产品；本课不说所有气候研究只能用30年。实际计算涉及质量控制、缺测估计及站址、仪器和观测实践变化，不能把本课缺格随意补值叫官方处理。 气候正常值主要描述参考期气候，不是专为追踪气候变化而设计；一致资料可为变化提供证据，但不能只凭两次发布的站点温度正常值相减就断言趋势。NCEI说明1981—2010旧发布与1991—2020新发布使用不同版本、不同时间同质化的历史资料；应比较同一底层同质化资料版本的相应统计并检查变量、单位、地点、季节和方法。两参考期本身还重叠1991—2010的20年，不是两组独立30年。本课只审这些方法条件，没有下载或计算任何真实站点趋势。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。",
+        "nextQuestion": "还要看哪些天才知道更多？"
+      },
+      "guide": {
+        "goal": "留下不知道和自己的问题",
+        "observe": "先分清故事和真实天气",
+        "control": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 先在prediction或记录初答栏留下自己的判断；核对后在修订栏或另一张chart-revision改写，不擦掉原错。假数据的已给值与孩子填写的结果分清，未做、未读原文、成人代算、已见提示、缺测分别写。初答和修订都需要单位、分子、分母及所指集合，幼儿不强求公式或数字。 A4按实际大小100%打印；每页含日志自身都在print-log-1/2/3/4登记100毫米核线读数、裁边、文字/格线清晰度与处理，共48行。不够量程写未量，不估填；不清则暂停重印或整页重画后复核。条格的每格一天是题设计数单位，不是纸长代表时长或降雨量。",
+        "support": "幼儿只连三格和口述，不强求计数、比例或术语。年长者分别列集合和依据；三数据集不混合。来源正文、摘要和虚构数字身份始终分开。",
+        "time": "5—10分钟；准备打印另计，可分次。",
+        "recordFields": [
+          "三次连线与原话",
+          "初答与修订",
+          "帮助与未做"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气包括大气状态及多种要素，常规观测帮助理解。",
+          "scope": "2026-11-05实读15—18、86—88行。保留原来源，仅支持一般天气概念，不单独证明30年正常值或本课数字。"
+        },
+        {
+          "title": "NOAA｜What is the difference between climate and weather?",
+          "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+          "claim": "天气对应短时特定地点，气候对应长期统计，短期天气变化不能替代长期气候解释。",
+          "scope": "2026-11-05实读35—39、56—75行。取时段概念，不泛化成气候在短距离处不能不同。"
+        },
+        {
+          "title": "NOAA｜Understanding Climate Normals",
+          "url": "https://www.noaa.gov/explainers/understanding-climate-normals",
+          "claim": "常规正常值采用30年统一期；计算还处理缺测、仪器与站址变化，有其他时段补充用途。",
+          "scope": "2026-11-05实读66—84、99—103行。没有把简单数格称作官方质量控制或正常值计算。"
+        },
+        {
+          "title": "NCEI｜U.S. Climate Normals",
+          "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "claim": "1991—2020常规期、统计量与补充产品、站点温度版本比较限制、同质化和参考期重叠。",
+          "scope": "2026-11-05实读4—6、16—24、81、115—149、249—261行；方法正文而非本课实测数据。未下载比较数据CSV或观看图像像素，未声称完成趋势分析。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四个正式NOAA/NCEI正文来源本轮实读，仅定义方法资料；A/B/C全部虚构，无真实气象站数据，原字段保留，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day246-4-6-step1",
+          "description": "先分清故事和真实天气。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "A前三天：全部虚构练习",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 134,
+              "text": "周一",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 160,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 134,
+              "text": "周二",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 160,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 134,
+              "text": "周三",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 160,
+              "text": "阴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "只取A的前三天",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "太阳/雨线/云是符号",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "全部是虚构练习",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不判断今天真天气",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-4-6-step2",
+          "description": "把三天与三个符号相连。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "虚构A前三天：连线由自己画",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 83,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 130,
+              "text": "周一",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 150,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 167,
+              "width": 83,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 185,
+              "text": "周二",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 205,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 222,
+              "width": 83,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 240,
+              "text": "周三",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 53,
+              "y": 260,
+              "text": "阴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 112,
+              "width": 87,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 256,
+              "y": 135,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 262,
+              "y": 131,
+              "r": 8,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 269,
+              "y": 135,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 252,
+              "y1": 140,
+              "x2": 273,
+              "y2": 140,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 147,
+              "text": "阴",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 167,
+              "width": 87,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 262,
+              "y": 190,
+              "r": 8,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 273,
+              "y1": 190,
+              "x2": 277,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "line",
+              "x1": 251,
+              "y1": 190,
+              "x2": 247,
+              "y2": 190,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "line",
+              "x1": 262,
+              "y1": 201,
+              "x2": 262,
+              "y2": 205,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "line",
+              "x1": 262,
+              "y1": 179,
+              "x2": 262,
+              "y2": 175,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 202,
+              "text": "晴",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 222,
+              "width": 87,
+              "height": 48,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 256,
+              "y": 239,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 262,
+              "y": 236,
+              "r": 6,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "circle",
+              "x": 268,
+              "y": 239,
+              "r": 5,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 256,
+              "y1": 248,
+              "x2": 253,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "line",
+              "x1": 262,
+              "y1": 248,
+              "x2": 259,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "line",
+              "x1": 268,
+              "y1": 248,
+              "x2": 265,
+              "y2": 256,
+              "stroke": "#477F7D",
+              "strokeWidth": 1.2
+            },
+            {
+              "type": "text",
+              "x": 294,
+              "y": 257,
+              "text": "雨",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "自己连三条线",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "符号同时配文字",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不剪小卡或出门",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "成人代画要注明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-4-6-step3",
+          "description": "只说这三格发生什么。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "先留原来的连线",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "另页重做核对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "只说这三格的内容",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "三格里各是什么",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "核对另页不擦原线",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不用比率或术语",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不推一整年天气",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-4-6-step4",
+          "description": "留下不知道和自己的问题。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "三格有什么",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "全年怎样：还不知道",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "自己的问题与帮助",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "可以说三格内容",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "全年怎样还不知道",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "原话与帮助保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "提一个还想问的问题",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "怎样准确描述这七个虚构日格？",
+      "materials": [
+        "整页普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。全课桌面纸笔，不剪小卡、不使用真实雨水、温度计、手机定位或户外观测。真实官网资料只供读定义和方法，没有采集站点实测值。",
+        "本龄整页纸件：rules.svg、climate-card.svg、source-card.svg、source-links.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、data-A.svg、prediction-7-9.svg、daily-A-record.svg、count-A-record.svg、chart-A.svg、chart-A-revision.svg、summary-7-9.svg、claim-7-9.svg、model-reference.svg、source-record.svg；需续写时加编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不因课程外出追风雨、看太阳、开窗探身或接触积水、电器。疲倦就停，未做记录；不会读写可指认或成人代写并注明。不上传姓名、住址、定位或儿童照片。",
+      "steps": [
+        {
+          "title": "逐日保留原七格标签",
+          "caption": "逐日保留原七格标签",
+          "action": "在prediction-7-9先猜A哪类多、能否说全年；从data-A逐日抄入daily-A-record，保留周一到周日次序，确认每个日格只能取题设一个标签。这七天全为虚构，不添加原稿没有的同日重叠。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "按互斥规则统计并画条格",
+          "caption": "按互斥规则统计并画条格",
+          "action": "在count-A-record按晴/雨/阴逐一记对应星期、初次数和修订；在chart-A七层空条格中从底线起逐格标记，一格一天，每类最多7格，用文字轴名不用只凭颜色。核查时另在chart-A-revision重画，不擦原图。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "核对总数而不扩展全年",
+          "caption": "核对总数而不扩展全年",
+          "action": "检查各日只数一次，合计应与7个已有标签相符；在summary-7-9用“虚构A这七个日格中……”写初总结。先完成自己的数与图再看model-reference，不把两类并列当真实天气全部要素。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "改写超过七天的结论",
+          "caption": "改写超过七天的结论",
+          "action": "在claim-7-9逐句区分可说、证据不足和待查，划单线保留超过全年、明日或趋势的初推断，再写有限结论。读climate-card区分天气与长期统计，并在source-record注明读官网原文还是本课摘要。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "互斥标签",
+          "七天计数"
+        ],
+        "explanation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 天气描述特定时间地点的短期大气状态；气候描述长期统计特征。真实观测可以成为长期资料的一部分，但七个虚构日格不能独立支持全年多雨、某地气候类型、明日必下雨或气候变化趋势。即使一整年也不自动代表长期气候，不能把“周样本不够”误改成“补满一年就够”。",
+        "observation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。",
+        "limits": "NOAA/NCEI官方资料说明常规美国气候正常值以统一30年期的温度、降水等变量计算统计参考；现行常规例子是1991—2020，首尾都算30年，通常每10年更新。它不是“每天正常应该怎样”，也不是30个年号或30年任意零散记录就自动证明气候趋势。产品还包括不止均值的统计量，并有用途明确的15年补充产品；本课不说所有气候研究只能用30年。实际计算涉及质量控制、缺测估计及站址、仪器和观测实践变化，不能把本课缺格随意补值叫官方处理。 气候正常值主要描述参考期气候，不是专为追踪气候变化而设计；一致资料可为变化提供证据，但不能只凭两次发布的站点温度正常值相减就断言趋势。NCEI说明1981—2010旧发布与1991—2020新发布使用不同版本、不同时间同质化的历史资料；应比较同一底层同质化资料版本的相应统计并检查变量、单位、地点、季节和方法。两参考期本身还重叠1991—2010的20年，不是两组独立30年。本课只审这些方法条件，没有下载或计算任何真实站点趋势。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。",
+        "nextQuestion": "如果有一天没记录，能填晴吗？"
+      },
+      "guide": {
+        "goal": "改写超过七天的结论",
+        "observe": "逐日保留原七格标签",
+        "control": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 先在prediction或记录初答栏留下自己的判断；核对后在修订栏或另一张chart-revision改写，不擦掉原错。假数据的已给值与孩子填写的结果分清，未做、未读原文、成人代算、已见提示、缺测分别写。初答和修订都需要单位、分子、分母及所指集合，幼儿不强求公式或数字。 A4按实际大小100%打印；每页含日志自身都在print-log-1/2/3/4登记100毫米核线读数、裁边、文字/格线清晰度与处理，共48行。不够量程写未量，不估填；不清则暂停重印或整页重画后复核。条格的每格一天是题设计数单位，不是纸长代表时长或降雨量。",
+        "support": "幼儿只连三格和口述，不强求计数、比例或术语。年长者分别列集合和依据；三数据集不混合。来源正文、摘要和虚构数字身份始终分开。",
+        "time": "20—30分钟；准备打印另计，可分次。",
+        "recordFields": [
+          "七日标签与计数",
+          "初图与修订图",
+          "有限结论及来源"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气包括大气状态及多种要素，常规观测帮助理解。",
+          "scope": "2026-11-05实读15—18、86—88行。保留原来源，仅支持一般天气概念，不单独证明30年正常值或本课数字。"
+        },
+        {
+          "title": "NOAA｜What is the difference between climate and weather?",
+          "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+          "claim": "天气对应短时特定地点，气候对应长期统计，短期天气变化不能替代长期气候解释。",
+          "scope": "2026-11-05实读35—39、56—75行。取时段概念，不泛化成气候在短距离处不能不同。"
+        },
+        {
+          "title": "NOAA｜Understanding Climate Normals",
+          "url": "https://www.noaa.gov/explainers/understanding-climate-normals",
+          "claim": "常规正常值采用30年统一期；计算还处理缺测、仪器与站址变化，有其他时段补充用途。",
+          "scope": "2026-11-05实读66—84、99—103行。没有把简单数格称作官方质量控制或正常值计算。"
+        },
+        {
+          "title": "NCEI｜U.S. Climate Normals",
+          "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "claim": "1991—2020常规期、统计量与补充产品、站点温度版本比较限制、同质化和参考期重叠。",
+          "scope": "2026-11-05实读4—6、16—24、81、115—149、249—261行；方法正文而非本课实测数据。未下载比较数据CSV或观看图像像素，未声称完成趋势分析。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四个正式NOAA/NCEI正文来源本轮实读，仅定义方法资料；A/B/C全部虚构，无真实气象站数据，原字段保留，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day246-7-9-step1",
+          "description": "逐日保留原七格标签。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "A：全部虚构练习",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 134,
+              "text": "周一",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 160,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 134,
+              "text": "周二",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 160,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 134,
+              "text": "周三",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 160,
+              "text": "阴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 254,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 261,
+              "y": 134,
+              "text": "周四",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 261,
+              "y": 160,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 216,
+              "text": "周五",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 242,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 216,
+              "text": "周六",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 242,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 216,
+              "text": "周日",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 242,
+              "text": "阴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "A每格只有一个标签",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "七天次序保持",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不能凭空加重叠",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "先猜再数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-7-9-step2",
+          "description": "按互斥规则统计并画条格。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "A：虚构计数示范",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 108,
+              "text": "一格=一天；分母7",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 242,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 223,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 204,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 185,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 166,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 147,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 83,
+              "y": 128,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 96,
+              "y": 282,
+              "text": "晴",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 120,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 242,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 223,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 204,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 185,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 166,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 147,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 158,
+              "y": 128,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 171,
+              "y": 282,
+              "text": "雨",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 173,
+              "y": 120,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 242,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 223,
+              "width": 38,
+              "height": 19,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 204,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 185,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 166,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 147,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 233,
+              "y": 128,
+              "width": 38,
+              "height": 19,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 246,
+              "y": 282,
+              "text": "阴",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 248,
+              "y": 120,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 265,
+              "text": "0",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "一格一天，从底往上",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "晴3、雨2、阴2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "标明虚构A与单位",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "实际空图另页画",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-7-9-step3",
+          "description": "核对总数而不扩展全年。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "逐日表 → 分类次数",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "分类次数 → 空条格",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "七格合计，不是全年",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "每个日格只数一次",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "总数与七天核对",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "先留自己的原答",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "再读参考结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-7-9-step4",
+          "description": "改写超过七天的结论。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "可说：虚构七天内容",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "不足：全年/明日/趋势",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "需要：长期可比资料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "七天不能代表全年",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "不预报明天必然",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不独立证明趋势",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "来源与模型分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "缺了两天时应该数哪个集合？",
+      "materials": [
+        "整页普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。全课桌面纸笔，不剪小卡、不使用真实雨水、温度计、手机定位或户外观测。真实官网资料只供读定义和方法，没有采集站点实测值。",
+        "本龄整页纸件：rules.svg、climate-card.svg、source-card.svg、source-links.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、data-B.svg、missing-card.svg、normals-card.svg、prediction-10-12.svg、daily-B-record.svg、denominator-B-record.svg、completion-B.svg、bounds-B-record.svg、reasoning-10-12.svg、model-reference.svg、source-record.svg；需续写时加编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不因课程外出追风雨、看太阳、开窗探身或接触积水、电器。疲倦就停，未做记录；不会读写可指认或成人代写并注明。不上传姓名、住址、定位或儿童照片。",
+      "steps": [
+        {
+          "title": "先找另一个周的缺测格",
+          "caption": "先找另一个周的缺测格",
+          "action": "先在prediction-10-12写缺测能否填晴与分母的初想法；读独立data-B，不看A补值。在daily-B-record逐日抄标签或缺测，再圈已有标签集合及两个未知日格，记录规则和成人帮助。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "分别定义计划与观测集合",
+          "caption": "分别定义计划与观测集合",
+          "action": "在denominator-B-record分别写计划7格、有效5格、缺2格的身份；统计雨/晴/阴的有效数量与有效分母。比较“有效标签中雨占多少”和“已知雨格占全部计划格多少”，不把2/7误叫完整一周雨比例；未做不代填。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "用允许补全检验范围",
+          "caption": "用允许补全检验范围",
+          "action": "在completion-B两个独立面板只给缺测位置填允许标签：情景X两缺格都填雨、情景Y两缺格都填晴，其余五格保持给定值。写明两情景都是假想补全，不是观测恢复；在bounds-B-record求全周雨可能最少/最多与分母7，证明两格各可贡献0或1。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "保留未知并限制结论",
+          "caption": "保留未知并限制结论",
+          "action": "在reasoning-10-12保留初答与修订：B有效子集、完整周未知部分、2至4边界与不能外推全年。读normals-card了解30年参考与质量要求，不能把官方专业缺测处理当允许本课猜填。源页未读就写读摘要。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "缺测集合",
+          "分母与范围"
+        ],
+        "explanation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 天气描述特定时间地点的短期大气状态；气候描述长期统计特征。真实观测可以成为长期资料的一部分，但七个虚构日格不能独立支持全年多雨、某地气候类型、明日必下雨或气候变化趋势。即使一整年也不自动代表长期气候，不能把“周样本不够”误改成“补满一年就够”。",
+        "observation": "B是另一个独立虚构周：晴、雨、缺测、阴、雨、缺测、晴；不是把A遮住让人猜答案。缺测格保留未知，不能照A补回、不算晴、不算零降雨。计划日格7，已有标签5、缺测2；已观察标签里雨2/5、晴2/5、阴1/5。已知雨格占计划格2/7回答另一问题，不是完整一周雨比例。若两个缺测格仍只可取晴/雨/阴，全周雨数可2至4，对应2/7至4/7；这只是所有允许补全的界，不是概率、预报或估计。",
+        "limits": "NOAA/NCEI官方资料说明常规美国气候正常值以统一30年期的温度、降水等变量计算统计参考；现行常规例子是1991—2020，首尾都算30年，通常每10年更新。它不是“每天正常应该怎样”，也不是30个年号或30年任意零散记录就自动证明气候趋势。产品还包括不止均值的统计量，并有用途明确的15年补充产品；本课不说所有气候研究只能用30年。实际计算涉及质量控制、缺测估计及站址、仪器和观测实践变化，不能把本课缺格随意补值叫官方处理。 气候正常值主要描述参考期气候，不是专为追踪气候变化而设计；一致资料可为变化提供证据，但不能只凭两次发布的站点温度正常值相减就断言趋势。NCEI说明1981—2010旧发布与1991—2020新发布使用不同版本、不同时间同质化的历史资料；应比较同一底层同质化资料版本的相应统计并检查变量、单位、地点、季节和方法。两参考期本身还重叠1991—2010的20年，不是两组独立30年。本课只审这些方法条件，没有下载或计算任何真实站点趋势。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。",
+        "nextQuestion": "官方处理缺测为什么不能等于随意猜？"
+      },
+      "guide": {
+        "goal": "保留未知并限制结论",
+        "observe": "先找另一个周的缺测格",
+        "control": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 B是另一个独立虚构周：晴、雨、缺测、阴、雨、缺测、晴；不是把A遮住让人猜答案。缺测格保留未知，不能照A补回、不算晴、不算零降雨。计划日格7，已有标签5、缺测2；已观察标签里雨2/5、晴2/5、阴1/5。已知雨格占计划格2/7回答另一问题，不是完整一周雨比例。若两个缺测格仍只可取晴/雨/阴，全周雨数可2至4，对应2/7至4/7；这只是所有允许补全的界，不是概率、预报或估计。 先在prediction或记录初答栏留下自己的判断；核对后在修订栏或另一张chart-revision改写，不擦掉原错。假数据的已给值与孩子填写的结果分清，未做、未读原文、成人代算、已见提示、缺测分别写。初答和修订都需要单位、分子、分母及所指集合，幼儿不强求公式或数字。 A4按实际大小100%打印；每页含日志自身都在print-log-1/2/3/4登记100毫米核线读数、裁边、文字/格线清晰度与处理，共48行。不够量程写未量，不估填；不清则暂停重印或整页重画后复核。条格的每格一天是题设计数单位，不是纸长代表时长或降雨量。",
+        "support": "幼儿只连三格和口述，不强求计数、比例或术语。年长者分别列集合和依据；三数据集不混合。来源正文、摘要和虚构数字身份始终分开。",
+        "time": "30—40分钟；准备打印另计，可分次。",
+        "recordFields": [
+          "缺测与有效集合",
+          "分子分母及补全界",
+          "初答修订与限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气包括大气状态及多种要素，常规观测帮助理解。",
+          "scope": "2026-11-05实读15—18、86—88行。保留原来源，仅支持一般天气概念，不单独证明30年正常值或本课数字。"
+        },
+        {
+          "title": "NOAA｜What is the difference between climate and weather?",
+          "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+          "claim": "天气对应短时特定地点，气候对应长期统计，短期天气变化不能替代长期气候解释。",
+          "scope": "2026-11-05实读35—39、56—75行。取时段概念，不泛化成气候在短距离处不能不同。"
+        },
+        {
+          "title": "NOAA｜Understanding Climate Normals",
+          "url": "https://www.noaa.gov/explainers/understanding-climate-normals",
+          "claim": "常规正常值采用30年统一期；计算还处理缺测、仪器与站址变化，有其他时段补充用途。",
+          "scope": "2026-11-05实读66—84、99—103行。没有把简单数格称作官方质量控制或正常值计算。"
+        },
+        {
+          "title": "NCEI｜U.S. Climate Normals",
+          "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "claim": "1991—2020常规期、统计量与补充产品、站点温度版本比较限制、同质化和参考期重叠。",
+          "scope": "2026-11-05实读4—6、16—24、81、115—149、249—261行；方法正文而非本课实测数据。未下载比较数据CSV或观看图像像素，未声称完成趋势分析。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四个正式NOAA/NCEI正文来源本轮实读，仅定义方法资料；A/B/C全部虚构，无真实气象站数据，原字段保留，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day246-10-12-step1",
+          "description": "先找另一个周的缺测格。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "B：全部虚构练习",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 134,
+              "text": "周一",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 160,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 134,
+              "text": "周二",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 160,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 134,
+              "text": "周三",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 160,
+              "text": "缺测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 254,
+              "y": 114,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 261,
+              "y": 134,
+              "text": "周四",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 261,
+              "y": 160,
+              "text": "阴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 216,
+              "text": "周五",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 54,
+              "y": 242,
+              "text": "雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 116,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 216,
+              "text": "周六",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 123,
+              "y": 242,
+              "text": "缺测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 196,
+              "width": 62,
+              "height": 65,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 216,
+              "text": "周日",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 192,
+              "y": 242,
+              "text": "晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "B不是A缺了遮挡",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "缺测保持未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不是晴也不是零雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "先写自己的猜想",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-10-12-step2",
+          "description": "分别定义计划与观测集合。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "计划集：7个日格",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "有效集：5个标签",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "缺测集：2个未知",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "计划7，已有5，缺2",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "2/5：有效标签中雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "2/7：已知雨占计划格",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "两句回答不同问题",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-10-12-step3",
+          "description": "用允许补全检验范围。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "假想X：两缺格均雨",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "假想Y：两缺格均晴",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "其余五格保持原值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "两个缺格各可贡献0或1",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "全周雨数可2至4",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "全周比例分母仍是7",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "范围不是概率预报",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-10-12-step4",
+          "description": "保留未知并限制结论。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "已知子集",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "未知与假想补全",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "长期资料另查",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "已有子集与未知分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "原错留着再修订",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "不能借A恢复B",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "正常值需专业质量处理",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "重叠、缺测与真实气候参考期怎样分清？",
+      "materials": [
+        "整页普通A4纸、铅笔、连续量程至少10厘米且最小分度1毫米的直尺；成人打印或按完整布局重画。全课桌面纸笔，不剪小卡、不使用真实雨水、温度计、手机定位或户外观测。真实官网资料只供读定义和方法，没有采集站点实测值。",
+        "本龄整页纸件：rules.svg、climate-card.svg、source-card.svg、source-links.svg、setup-record.svg、print-log-1.svg、print-log-2.svg、print-log-3.svg、print-log-4.svg、data-C.svg、paired-card.svg、normals-card.svg、comparability-card.svg、prediction-13-16.svg、daily-C-record.svg、denominator-C-record.svg、paired-C-board.svg、normal-years.svg、normal-windows.svg、period-record.svg、source-audit.svg、design-13-16.svg、claim-13-16.svg、model-reference.svg、source-record.svg；需续写时加编号整页白纸。"
+      ],
+      "safety": "4—6岁成人近距离陪伴，纸笔尺不入口，纸边避开眼口；不因课程外出追风雨、看太阳、开窗探身或接触积水、电器。疲倦就停，未做记录；不会读写可指认或成人代写并注明。不上传姓名、住址、定位或儿童照片。",
+      "steps": [
+        {
+          "title": "为双属性各自选分母",
+          "caption": "为双属性各自选分母",
+          "action": "在prediction-13-16先猜C两比例能否相加；逐行把data-C抄入daily-C-record，分别标出有雨有效天、多云有效天和两项都完整的天。给定否是有效值，缺测不是否；C与A/B是不同虚构周，不能合并样本。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "用完整配对检查重叠",
+          "caption": "用完整配对检查重叠",
+          "action": "在denominator-C-record为有雨、多云、两项同时为是列出具体日号集合、分子/分母和初比例。用paired-C-board在第1、2、5、6、7天的空分类框填“都/仅雨/仅云/都否”，核对配对重叠；其他两天保留缺项，不强行归入四类。比例可以重叠，不当互斥类别相加成100%。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "审查三十年正常值参考期",
+          "caption": "审查三十年正常值参考期",
+          "action": "在normal-years逐个数1991至2020的30个年号，在period-record写首尾是否包含及重叠期；在normal-windows比较1981—2010和1991—2020，共有1991—2010的20年。读normals-card、comparability-card及NCEI来源方法，用source-audit区分真实定义、虚构周数据和未取得的真实测站值；空年号框绝不是合格观测证明。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        },
+        {
+          "title": "设计可比较的长期证据",
+          "caption": "设计可比较的长期证据",
+          "action": "在design-13-16设计而不执行长期比较：问题、地点/站点、变量单位、季节、时段、相同数据版本、缺测与质量控制、方法及剩余不确定性逐项填写。用claim-13-16解释一周不支持趋势、30年不是自动证明、两个站点正常值发布不能直接充当可靠趋势；保留原错、来源和未知，不外出补测。",
+          "actor": "together",
+          "adultNote": "成人读资料、打印核查及代写帮助须注明；全为纸笔练习，不外出测天气。原错、未读、未做和缺测保留。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "属性重叠",
+          "正常值与可比性"
+        ],
+        "explanation": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 天气描述特定时间地点的短期大气状态；气候描述长期统计特征。真实观测可以成为长期资料的一部分，但七个虚构日格不能独立支持全年多雨、某地气候类型、明日必下雨或气候变化趋势。即使一整年也不自动代表长期气候，不能把“周样本不够”误改成“补满一年就够”。",
+        "observation": "C又是独立虚构周，用两个题设二元字段有雨/多云：第1天是/是、第2天否/是、第3天缺/是、第4天是/缺、第5天否/否、第6天是/是、第7天否/否。字段“否”是给定无此属性的值，和缺测不同；有雨不是降雨毫米，多云也没有本课实测阈值。各属性有效6天：有雨3/6，多云4/6；不能把两个比例相加当互斥分布。两项都完整的配对集合为第1、2、5、6、7天，共5天，其中两项都为是2天，故完整配对内重叠2/5；不是全7天的重叠率。两项缺测的两天都可能新增重叠，全周重叠数仍未知。",
+        "limits": "NOAA/NCEI官方资料说明常规美国气候正常值以统一30年期的温度、降水等变量计算统计参考；现行常规例子是1991—2020，首尾都算30年，通常每10年更新。它不是“每天正常应该怎样”，也不是30个年号或30年任意零散记录就自动证明气候趋势。产品还包括不止均值的统计量，并有用途明确的15年补充产品；本课不说所有气候研究只能用30年。实际计算涉及质量控制、缺测估计及站址、仪器和观测实践变化，不能把本课缺格随意补值叫官方处理。 气候正常值主要描述参考期气候，不是专为追踪气候变化而设计；一致资料可为变化提供证据，但不能只凭两次发布的站点温度正常值相减就断言趋势。NCEI说明1981—2010旧发布与1991—2020新发布使用不同版本、不同时间同质化的历史资料；应比较同一底层同质化资料版本的相应统计并检查变量、单位、地点、季节和方法。两参考期本身还重叠1991—2010的20年，不是两组独立30年。本课只审这些方法条件，没有下载或计算任何真实站点趋势。 RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。",
+        "nextQuestion": "怎样取得相同版本且质量可比的长期资料？"
+      },
+      "guide": {
+        "goal": "设计可比较的长期证据",
+        "observe": "为双属性各自选分母",
+        "control": "A、B、C三个数据集全为原创或原稿给定的虚构练习，没有真实地点、日期、气象站或测量时刻。A保留原稿周一晴、周二雨、周三阴、周四晴、周五雨、周六晴、周日阴；这里每个日格只给一个互斥标签，不凭空添加同日其他现象。只是在数题设标签，不代表一天完整天气，也不是从真实天气诊断出的科学分类。现实的云和降雨可同时出现；只在另列的C双属性模型练习重叠，不回填A。 C又是独立虚构周，用两个题设二元字段有雨/多云：第1天是/是、第2天否/是、第3天缺/是、第4天是/缺、第5天否/否、第6天是/是、第7天否/否。字段“否”是给定无此属性的值，和缺测不同；有雨不是降雨毫米，多云也没有本课实测阈值。各属性有效6天：有雨3/6，多云4/6；不能把两个比例相加当互斥分布。两项都完整的配对集合为第1、2、5、6、7天，共5天，其中两项都为是2天，故完整配对内重叠2/5；不是全7天的重叠率。两项缺测的两天都可能新增重叠，全周重叠数仍未知。 先在prediction或记录初答栏留下自己的判断；核对后在修订栏或另一张chart-revision改写，不擦掉原错。假数据的已给值与孩子填写的结果分清，未做、未读原文、成人代算、已见提示、缺测分别写。初答和修订都需要单位、分子、分母及所指集合，幼儿不强求公式或数字。 A4按实际大小100%打印；每页含日志自身都在print-log-1/2/3/4登记100毫米核线读数、裁边、文字/格线清晰度与处理，共48行。不够量程写未量，不估填；不清则暂停重印或整页重画后复核。条格的每格一天是题设计数单位，不是纸长代表时长或降雨量。",
+        "support": "幼儿只连三格和口述，不强求计数、比例或术语。年长者分别列集合和依据；三数据集不混合。来源正文、摘要和虚构数字身份始终分开。",
+        "time": "35—50分钟；准备打印另计，可分次。",
+        "recordFields": [
+          "各属性及配对集合",
+          "参考期与版本条件",
+          "设计和证据边界"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NOAA｜Weather and atmosphere",
+          "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere",
+          "claim": "天气包括大气状态及多种要素，常规观测帮助理解。",
+          "scope": "2026-11-05实读15—18、86—88行。保留原来源，仅支持一般天气概念，不单独证明30年正常值或本课数字。"
+        },
+        {
+          "title": "NOAA｜What is the difference between climate and weather?",
+          "url": "https://www.noaa.gov/explainers/what-s-difference-between-climate-and-weather",
+          "claim": "天气对应短时特定地点，气候对应长期统计，短期天气变化不能替代长期气候解释。",
+          "scope": "2026-11-05实读35—39、56—75行。取时段概念，不泛化成气候在短距离处不能不同。"
+        },
+        {
+          "title": "NOAA｜Understanding Climate Normals",
+          "url": "https://www.noaa.gov/explainers/understanding-climate-normals",
+          "claim": "常规正常值采用30年统一期；计算还处理缺测、仪器与站址变化，有其他时段补充用途。",
+          "scope": "2026-11-05实读66—84、99—103行。没有把简单数格称作官方质量控制或正常值计算。"
+        },
+        {
+          "title": "NCEI｜U.S. Climate Normals",
+          "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "claim": "1991—2020常规期、统计量与补充产品、站点温度版本比较限制、同质化和参考期重叠。",
+          "scope": "2026-11-05实读4—6、16—24、81、115—149、249—261行；方法正文而非本课实测数据。未下载比较数据CSV或观看图像像素，未声称完成趋势分析。"
+        }
+      ],
+      "sourceNote": "RECONSTRUCTION：四个正式NOAA/NCEI正文来源本轮实读，仅定义方法资料；A/B/C全部虚构，无真实气象站数据，原字段保留，不继承丢失审核。",
+      "review": {
+        "status": "draft",
+        "checkedAt": "待本轮独立复核",
+        "method": "RECONSTRUCTION author static checks only",
+        "limitations": "RECONSTRUCTION：2026-11-05据保存原稿重新创作，原字段完整保留，不继承丢失旧审核。仅纸上数据分析与实际SVG静态检查，未实际打印、儿童试用、天气观测或测站资料计算；未做浏览器、整站构建或发布。官方文字支持定义和方法，不能认证本课虚构结果为真实气候事实。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "day246-13-16-step1",
+          "description": "为双属性各自选分母。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "C：两属性分开，全部虚构",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 111,
+              "text": "有雨",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 111,
+              "text": "多云",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 117,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 132,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 117,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 132,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 155,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 140,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 155,
+              "text": "否",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 140,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 155,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 178,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 163,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 178,
+              "text": "缺",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 163,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 178,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 201,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 186,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 201,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 186,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 201,
+              "text": "缺",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 224,
+              "text": "5",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 209,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 224,
+              "text": "否",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 209,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 224,
+              "text": "否",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 247,
+              "text": "6",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 232,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 247,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 232,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 247,
+              "text": "是",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 270,
+              "text": "7",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 91,
+              "y": 255,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 270,
+              "text": "否",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 255,
+              "width": 70,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 178,
+              "y": 270,
+              "text": "否",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "有雨、多云分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "每项各有6个有效字段",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "否有效，缺不算否",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "先列日号再算",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-13-16-step2",
+          "description": "用完整配对检查重叠。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 112,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "有雨3/6；多云4/6",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 163,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 191,
+              "text": "完整配对5天",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 214,
+              "width": 275,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "配对中重叠2/5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "完整配对只有5天",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "其中两项都为是2天",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "配对重叠是2/5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "不是全7天重叠率",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-13-16-step3",
+          "description": "审查三十年正常值参考期。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "真实参考期；这里没有气象值",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 130,
+              "text": "1991",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 130,
+              "text": "1992",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 139,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 130,
+              "text": "1993",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 130,
+              "text": "1994",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 236,
+              "y": 130,
+              "text": "1995",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 112,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 282,
+              "y": 130,
+              "text": "1996",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 160,
+              "text": "1997",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 160,
+              "text": "1998",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 139,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 160,
+              "text": "1999",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 160,
+              "text": "2000",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 236,
+              "y": 160,
+              "text": "2001",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 142,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 282,
+              "y": 160,
+              "text": "2002",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 190,
+              "text": "2003",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 190,
+              "text": "2004",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 139,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 190,
+              "text": "2005",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 190,
+              "text": "2006",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 236,
+              "y": 190,
+              "text": "2007",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 172,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 282,
+              "y": 190,
+              "text": "2008",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 220,
+              "text": "2009",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 220,
+              "text": "2010",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 139,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 220,
+              "text": "2011",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 220,
+              "text": "2012",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 236,
+              "y": 220,
+              "text": "2013",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 202,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 282,
+              "y": 220,
+              "text": "2014",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 47,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 52,
+              "y": 250,
+              "text": "2015",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 98,
+              "y": 250,
+              "text": "2016",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 139,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 144,
+              "y": 250,
+              "text": "2017",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 185,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 190,
+              "y": 250,
+              "text": "2018",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 231,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 236,
+              "y": 250,
+              "text": "2019",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 277,
+              "y": 232,
+              "width": 43,
+              "height": 27,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 282,
+              "y": 250,
+              "text": "2020",
+              "fontSize": 10,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "30个年号不等于30年合格观测",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "1991至2020共30年",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "年号不是实测气象值",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "标准基线不是趋势证明",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "另有15年补充用途",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "day246-13-16-step4",
+          "description": "设计可比较的长期证据。A/B/C均为不同虚构练习；给定标签和示范结果不是孩子实测。真实正常值资料只支持定义及方法，不含本课测站数据；空操作纸件另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 45,
+              "y": 88,
+              "text": "真实参考期；这里没有气象值",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 123,
+              "text": "1981—2010",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 45.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 51.8,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 58.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 65.4,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 72.2,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 79.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 85.8,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 92.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 99.4,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 106.19999999999999,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 113.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 119.8,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 126.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 133.39999999999998,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 140.2,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 147.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 153.8,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 160.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 167.39999999999998,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 174.2,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 181.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 187.79999999999998,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 194.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 201.4,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 208.2,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 215.0,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 221.79999999999998,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 228.6,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 235.4,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 242.2,
+              "y": 133,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 189,
+              "text": "1991—2020",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 113.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 119.8,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 126.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 133.39999999999998,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 140.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 147.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 153.8,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 160.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 167.39999999999998,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 174.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 181.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 187.79999999999998,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 194.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 201.4,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 208.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 215.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 221.79999999999998,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 228.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 235.4,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 242.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#ABCBC4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 249.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 255.79999999999998,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 262.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 269.4,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 276.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 283.0,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 289.79999999999995,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 296.6,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 303.4,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rect",
+              "x": 310.2,
+              "y": 199,
+              "width": 6.8,
+              "height": 22,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 258,
+              "text": "两期重叠1991—2010，共20年",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 282,
+              "text": "不把两个发布版本直接当趋势",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 110,
+              "width": 248,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 138,
+              "text": "两个参考期重叠20年",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 173,
+              "text": "底层资料版本要一致",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 208,
+              "text": "站址仪器改变须处理",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 362,
+              "y": 243,
+              "text": "这里只做设计，不测站",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

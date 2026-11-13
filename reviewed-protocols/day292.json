@@ -1,0 +1,2618 @@
+{
+  "activityId": 292,
+  "activityTitle": "两个网页可能只有一个来源",
+  "contentKey": "annual-h038",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "这句话先从哪张纸传来？",
+      "materials": [
+        "input-A/B/C、preschool、conclusion-4-6、reference-young；公共safety先读，参考最后看。",
+        "纸笔与成人代读；只用本课模拟，不上网、不剪裁。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 默认仅用本课原创模拟纸页，不需剪裁、上网、登录、联系他人或上传资料。不得替虚构桥补真实地点或年份。",
+      "steps": [
+        {
+          "title": "听成人读最初的卡",
+          "caption": "听成人读最初的卡",
+          "action": "成人读input-A上的“桥于某年修好”，说明这是编的练习句，孩子只指A；preschool第一框由成人画或代记。",
+          "actor": "together",
+          "adultNote": "成人代读代记；无需认字、计算或书写。"
+        },
+        {
+          "title": "跟着话传到下一张",
+          "caption": "跟着话传到下一张",
+          "action": "成人依次读B转引A、C抄B，手指沿A→B→C移动；孩子可跟指，不要求识字、画箭头或计数。",
+          "actor": "together",
+          "adultNote": "手指从A移向B再到C，孩子只跟指。"
+        },
+        {
+          "title": "找这句话从哪里来",
+          "caption": "找这句话从哪里来",
+          "action": "孩子再指最初读到的A，成人在preschool第二框记原话；不说三次听到就有三个人亲眼见到。",
+          "actor": "together",
+          "adultNote": "不要求孩子解释独立来源、循环或模型。"
+        },
+        {
+          "title": "把不知道留下来",
+          "caption": "把不知道留下来",
+          "action": "成人在第三框和conclusion-4-6代写孩子的问题；只说还不知道桥的故事是不是真的，不要求根数、来源图或核查方案。",
+          "actor": "together",
+          "adultNote": "只留下孩子的问题和不知道。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "开始与转述",
+          "不知道"
+        ],
+        "explanation": "听到同一句话多次，可能只是后来的人在学前面的话。",
+        "limits": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。",
+        "observation": "成人代读代记；无需认字、计算或书写。",
+        "nextQuestion": "你想再问什么？"
+      },
+      "guide": {
+        "goal": "把不知道留下来",
+        "observe": "听成人读最初的卡",
+        "control": "手指从A移向B再到C，孩子只跟指。",
+        "support": "成人代读代记，记录未知和帮助，不要求完成高龄路径。",
+        "time": "5—10分钟",
+        "recordFields": [
+          "孩子指到哪里",
+          "原话",
+          "不知道",
+          "帮助"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Library of Congress｜Evaluating Sources and Using Evidence",
+          "url": "https://blogs.loc.gov/teachers/2014/05/primary-sources-and-research-part-iii-evaluating-sources-and-using-evidence-2/",
+          "claim": "核对来源背景、比较证据、识别还缺哪些信息。",
+          "scope": "实读turn518view1第261—275行；支持方法，不认证虚构桥或本课图模型。"
+        },
+        {
+          "title": "National Archives｜Analyze a Written Document",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-a-written-document-intermediate",
+          "claim": "核对作者、日期、地点，并寻找其他证据帮助理解资料。",
+          "scope": "实读turn516view0第49—63行；本课不要求儿童提供个人资料。"
+        }
+      ],
+      "sourceNote": "实读来源支持史料分析方法；原guides入口403未作实读，全部卡片、图和计算为原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态检查",
+        "limitations": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "source292-4-6-1",
+          "description": "听成人读最初的卡；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "听成人读最初的卡",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读模拟卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指和说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不要求图论或计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "真假还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-4-6-2",
+          "description": "跟着话传到下一张；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "跟着话传到下一张",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读模拟卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指和说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不要求图论或计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "真假还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-4-6-3",
+          "description": "找这句话从哪里来；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "找这句话从哪里来",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "再指开始听到的A",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "后来两张在转述",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "不等于多次亲眼见",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "成人保留孩子原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读模拟卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指和说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不要求图论或计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "真假还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-4-6-4",
+          "description": "把不知道留下来；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把不知道留下来",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "故事是不是真的？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "纸卡还不能告诉我们",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "可以说不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不做高龄图论任务",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人读模拟卡",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "孩子只指和说",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不要求图论或计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "真假还不知道",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "三张纸是否等于三份独立证据？",
+      "materials": [
+        "input-A/B/C、quote-work、prediction-7-9、chain-work、edge-work、source-work、count-work、truth-work、plan-work、conclusion-7-9、reference；公共safety先读，参考最后看。",
+        "纸笔与成人代读；只用本课模拟，不上网、不剪裁。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 默认仅用本课原创模拟纸页，不需剪裁、上网、登录、联系他人或上传资料。不得替虚构桥补真实地点或年份。",
+      "steps": [
+        {
+          "title": "保留原句和转引标记",
+          "caption": "保留原句和转引标记",
+          "action": "读三张模拟纸页，在quote-work逐页记原句及明确出处；prediction-7-9写初猜，不补“某年”的数字。",
+          "actor": "together",
+          "adultNote": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。"
+        },
+        {
+          "title": "画正确传播方向",
+          "caption": "画正确传播方向",
+          "action": "在chain-work画A→B→C，再用edge-work解释谁转述谁；用source-work区分资料说的与自己猜的。",
+          "actor": "together",
+          "adultNote": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。"
+        },
+        {
+          "title": "分开页数与已知源头",
+          "caption": "分开页数与已知源头",
+          "action": "count-work分别记纸页数和题内已知源头数；truth-work写A真实性与更早出处仍未知，不把重复当证实。",
+          "actor": "together",
+          "adultNote": "未知和假设必须分开；题设模型不能冒充调查结果。"
+        },
+        {
+          "title": "写一项核查计划",
+          "caption": "写一项核查计划",
+          "action": "plan-work只设计寻找独立施工记录或另一同时期资料及检查作者日期的办法；conclusion-7-9说明现在能说什么，参考最后看。",
+          "actor": "together",
+          "adultNote": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "引用链",
+          "页数与源头"
+        ],
+        "explanation": "A→B→C记录传播，三页目前沿同一已知来源，真实性仍待核查。",
+        "limits": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。",
+        "observation": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。",
+        "nextQuestion": "还应找什么材料？"
+      },
+      "guide": {
+        "goal": "写一项核查计划",
+        "observe": "保留原句和转引标记",
+        "control": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。",
+        "support": "成人代读代记，记录未知和帮助，不要求完成高龄路径。",
+        "time": "10—20分钟",
+        "recordFields": [
+          "原句与出处",
+          "传播链",
+          "数量区别",
+          "核查计划"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Library of Congress｜Evaluating Sources and Using Evidence",
+          "url": "https://blogs.loc.gov/teachers/2014/05/primary-sources-and-research-part-iii-evaluating-sources-and-using-evidence-2/",
+          "claim": "核对来源背景、比较证据、识别还缺哪些信息。",
+          "scope": "实读turn518view1第261—275行；支持方法，不认证虚构桥或本课图模型。"
+        },
+        {
+          "title": "National Archives｜Analyze a Written Document",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-a-written-document-intermediate",
+          "claim": "核对作者、日期、地点，并寻找其他证据帮助理解资料。",
+          "scope": "实读turn516view0第49—63行；本课不要求儿童提供个人资料。"
+        }
+      ],
+      "sourceNote": "实读来源支持史料分析方法；原guides入口403未作实读，全部卡片、图和计算为原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态检查",
+        "limitations": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "source292-7-9-1",
+          "description": "保留原句和转引标记；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "保留原句和转引标记",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句某年不改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "传播方向A到B到C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "页数不等独立证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "一源头不等于真",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-7-9-2",
+          "description": "画正确传播方向；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "画正确传播方向",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句某年不改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "传播方向A到B到C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "页数不等独立证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "一源头不等于真",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-7-9-3",
+          "description": "分开页数与已知源头；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "分开页数与已知源头",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "纸页和源头分别记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "A是目前已知起点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "A更早出处未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "A内容也尚未验证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句某年不改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "传播方向A到B到C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "页数不等独立证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "一源头不等于真",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-7-9-4",
+          "description": "写一项核查计划；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "写一项核查计划",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "只设计找什么资料",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "作者日期形成过程",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "检查是否仍抄A",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不能补造实际史料",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原句某年不改",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "传播方向A到B到C",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "页数不等独立证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "一源头不等于真",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "缺来源和相互转引该怎样记录？",
+      "materials": [
+        "input-A/B/C、quote-work、chain-work、claim-work、unknown-input、cycle-input、unknown-work、cycle-work、repair-input、repair-work、author-work、audit-plan、conclusion-10-12、reference；公共safety先读，参考最后看。",
+        "纸笔与成人代读；只用本课模拟，不上网、不剪裁。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 默认仅用本课原创模拟纸页，不需剪裁、上网、登录、联系他人或上传资料。不得替虚构桥补真实地点或年份。",
+      "steps": [
+        {
+          "title": "按具体主张追溯",
+          "caption": "按具体主张追溯",
+          "action": "先完成quote-work、chain-work及claim-work，只追“桥于某年修好”这句话；不同主题的一般链接不自动算该主张的证据。",
+          "actor": "together",
+          "adultNote": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。"
+        },
+        {
+          "title": "处理缺来源与循环",
+          "caption": "处理缺来源与循环",
+          "action": "读unknown-input和cycle-input，在unknown-work与cycle-work分别记录缺出处、相互转引、待查信息；不把无入箭头或循环中的页算独立源头。",
+          "actor": "together",
+          "adultNote": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。"
+        },
+        {
+          "title": "检验补引用能改什么",
+          "caption": "检验补引用能改什么",
+          "action": "读repair-input：C保留原链并补准确引用A；repair-work记可追溯性改善、已知源头未增加，author-work区分作者多与调查独立。",
+          "actor": "together",
+          "adultNote": "未知和假设必须分开；题设模型不能冒充调查结果。"
+        },
+        {
+          "title": "提出可检验的补证要求",
+          "caption": "提出可检验的补证要求",
+          "action": "audit-plan写需查的作者日期、形成过程和是否依赖A；conclusion-10-12保留未知，页面好看不证明真，转引也不必假。",
+          "actor": "together",
+          "adultNote": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "主张级追溯",
+          "缺失与循环"
+        ],
+        "explanation": "缺出处不能证明独立，循环不能自证，准确引用提升追溯但不增加独立证据。",
+        "limits": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。",
+        "observation": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。",
+        "nextQuestion": "怎样知道材料没有依赖同一上游？"
+      },
+      "guide": {
+        "goal": "提出可检验的补证要求",
+        "observe": "按具体主张追溯",
+        "control": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。",
+        "support": "成人代读代记，记录未知和帮助，不要求完成高龄路径。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "主张边界",
+          "缺失循环",
+          "修订引用",
+          "调查标准"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Library of Congress｜Evaluating Sources and Using Evidence",
+          "url": "https://blogs.loc.gov/teachers/2014/05/primary-sources-and-research-part-iii-evaluating-sources-and-using-evidence-2/",
+          "claim": "核对来源背景、比较证据、识别还缺哪些信息。",
+          "scope": "实读turn518view1第261—275行；支持方法，不认证虚构桥或本课图模型。"
+        },
+        {
+          "title": "National Archives｜Analyze a Written Document",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-a-written-document-intermediate",
+          "claim": "核对作者、日期、地点，并寻找其他证据帮助理解资料。",
+          "scope": "实读turn516view0第49—63行；本课不要求儿童提供个人资料。"
+        }
+      ],
+      "sourceNote": "实读来源支持史料分析方法；原guides入口403未作实读，全部卡片、图和计算为原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态检查",
+        "limitations": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "source292-10-12-1",
+          "description": "按具体主张追溯；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "按具体主张追溯",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只追具体一句话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺出处记未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "循环不造新来源",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补引用不加证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-10-12-2",
+          "description": "处理缺来源与循环；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "处理缺来源与循环",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "D缺出处：未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "U和V互引：未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "没有箭头不等独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不要新增证据计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只追具体一句话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺出处记未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "循环不造新来源",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补引用不加证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-10-12-3",
+          "description": "检验补引用能改什么；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "检验补引用能改什么",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "C补准确引用A",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "追溯更方便",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "仍沿同一已知链",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不同作者不等独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只追具体一句话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺出处记未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "循环不造新来源",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补引用不加证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-10-12-4",
+          "description": "提出可检验的补证要求；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "提出可检验的补证要求",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "先限定同一句主张",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "核验形成过程",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "外观好看不保证真",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "转引也不一定为假",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只追具体一句话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "缺出处记未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "循环不造新来源",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "补引用不加证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "来源依赖变化怎样改变起点集合？",
+      "materials": [
+        "input-A/B/C、core-work、model-input、graph-input、ancestor-work、mixed-work、boundary-work、revision-input、revision-work、risk-work、conclusion-13-16、reference-model；公共safety先读，参考最后看。",
+        "纸笔与成人代读；只用本课模拟，不上网、不剪裁。"
+      ],
+      "safety": "成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。桌面操作，疲倦即可停。只用普通新纸或成人确认安全的普通旧物，不拆解、清洗、粘贴或触碰文物；不上传姓名、住址、证件、儿童照片或私人访谈。 默认仅用本课原创模拟纸页，不需剪裁、上网、登录、联系他人或上传资料。不得替虚构桥补真实地点或年份。",
+      "steps": [
+        {
+          "title": "声明纸图的额外假设",
+          "caption": "声明纸图的额外假设",
+          "action": "先按core-work复述A→B→C，再读model-input及graph-input：仅在纸题假定A、D形成过程彼此独立且是该主张的起点。记录模型假设与现实未核验之别。",
+          "actor": "together",
+          "adultNote": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。"
+        },
+        {
+          "title": "逐项求上游集合",
+          "caption": "逐项求上游集合",
+          "action": "完成ancestor-work：沿传播边反查C、E、F的指定起点集合；在mixed-work处理F同时依赖B与E，不能把页数或路径条数当独立起点数。",
+          "actor": "together",
+          "adultNote": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。"
+        },
+        {
+          "title": "让未知与循环保留未知",
+          "caption": "让未知与循环保留未知",
+          "action": "boundary-work分析X→G但X出处不明，以及U与V互引且无已知起点；unknown不等于0份证据或新增独立根，不从入度直接认定独立。",
+          "actor": "together",
+          "adultNote": "未知和假设必须分开；题设模型不能冒充调查结果。"
+        },
+        {
+          "title": "加入新边再更新结论",
+          "caption": "加入新边再更新结论",
+          "action": "读revision-input：发现D实际转引A，撤回D独立假设并加A→D；revision-work重新求F的起点集合，risk-work说明共同错误可传播但不能算真实正确概率。conclusion-13-16同时写模型结论与真实性仍未知。",
+          "actor": "together",
+          "adultNote": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "祖先集合",
+          "条件独立与修订"
+        ],
+        "explanation": "指定起点集合按依赖关系传播并去重；独立形成是外部假设，不由图形自动证明。发现共同上游时必须更新假设和集合。",
+        "limits": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。",
+        "observation": "分别读input-A、input-B、input-C。A保留“桥于某年修好”；B注明转引A；C注明抄B。某年是占位语，不补数字。三页内容传递方向是A→B→C，箭头从被转述页指向转述页；追查时可逆着箭头找上游，但不能反画传播方向。",
+        "nextQuestion": "未知依赖会怎样改变根集合和风险？"
+      },
+      "guide": {
+        "goal": "加入新边再更新结论",
+        "observe": "声明纸图的额外假设",
+        "control": "把原句、明确注明的来源、推测分开记录。A为题内目前已知源头，其更早来源和真实性没有给出。只凭页面没标出处不能说它独立；只凭转引也不能说它必假。补引用可改进可追溯性，不会凭空增加证据。核查计划只写想找的材料及判断标准，不执行搜索或接触真实档案。",
+        "support": "成人代读代记，记录未知和帮助，不要求完成高龄路径。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "模型前提",
+          "祖先集合",
+          "未知状态",
+          "新增依赖修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Library of Congress｜Evaluating Sources and Using Evidence",
+          "url": "https://blogs.loc.gov/teachers/2014/05/primary-sources-and-research-part-iii-evaluating-sources-and-using-evidence-2/",
+          "claim": "核对来源背景、比较证据、识别还缺哪些信息。",
+          "scope": "实读turn518view1第261—275行；支持方法，不认证虚构桥或本课图模型。"
+        },
+        {
+          "title": "National Archives｜Analyze a Written Document",
+          "url": "https://www.archives.gov/education/lessons/worksheets/analyze-a-written-document-intermediate",
+          "claim": "核对作者、日期、地点，并寻找其他证据帮助理解资料。",
+          "scope": "实读turn516view0第49—63行；本课不要求儿童提供个人资料。"
+        }
+      ],
+      "sourceNote": "实读来源支持史料分析方法；原guides入口403未作实读，全部卡片、图和计算为原创模拟。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态检查",
+        "limitations": "全部纸页和扩展图为原创模拟，不是档案、真实网页或历史事实；未儿童或打印试用。A只是题内目前已知源头，不代表其内容已验证或完整独立调查。传播次数、不同作者和不同观点均不自动等于独立证据。缺来源及循环关系必须记未知，不能当新增独立根。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "source292-13-16-1",
+          "description": "声明纸图的额外假设；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "声明纸图的额外假设",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 133,
+              "text": "模拟传播；不是真实史料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 74,
+              "y": 194,
+              "text": "A",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 155,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 169,
+              "y": 194,
+              "text": "B",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 250,
+              "y": 165,
+              "width": 45,
+              "height": 45,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 264,
+              "y": 194,
+              "text": "C",
+              "fontSize": 17,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 187,
+              "x2": 154,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 154,
+              "y1": 187,
+              "x2": 145,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 200,
+              "y1": 187,
+              "x2": 249,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 181,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 249,
+              "y1": 187,
+              "x2": 240,
+              "y2": 193,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 248,
+              "text": "从提供话语页 → 转述页",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模型假设另行声明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "集合去重不数路径",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知支路不计独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "新证据可推翻假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-13-16-2",
+          "description": "逐项求上游集合；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "逐项求上游集合",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "A→B→C；D→E",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "B→F；E→F",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "沿边反查起点集合",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "每个起点只计一次",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模型假设另行声明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "集合去重不数路径",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知支路不计独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "新证据可推翻假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-13-16-3",
+          "description": "让未知与循环保留未知；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "让未知与循环保留未知",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "X→G；X出处不明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "U→V；V→U",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "缺出处与循环保留未知",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不是零证据或新增根",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模型假设另行声明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "集合去重不数路径",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知支路不计独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "新证据可推翻假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "source292-13-16-4",
+          "description": "加入新边再更新结论；全部原创模拟。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "加入新边再更新结论",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 44,
+              "y": 108,
+              "width": 283,
+              "height": 177,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 139,
+              "text": "新发现A→D",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 174,
+              "text": "撤回D独立假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 209,
+              "text": "重算F的起点集合",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 244,
+              "text": "不计算真实正确概率",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "模型假设另行声明",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "集合去重不数路径",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未知支路不计独立",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "新证据可推翻假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

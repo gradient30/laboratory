@@ -1,0 +1,2084 @@
+{
+  "activityId": 299,
+  "activityTitle": "月相记录允许看不见",
+  "contentKey": "annual-content-nature-life-329",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "没有记录的地方要补一个月亮吗？",
+      "materials": [
+        "纸笔；仅本龄页：preschool-input、preschool-story、preschool-work、preschool-record、conclusion-4-6、reference-young；先读safety，最后看参考。",
+        "成人代读代记，不需上网、打印外部图或实际天空观察。"
+      ],
+      "safety": "全龄只在室内读本课纸张和资料，不安排天空寻找或观测；不看太阳，不用望远镜、激光或手电，不开窗探身、不攀爬。只用纸笔，成人代读代记；不剪小卡，不用私密照片，不上传个人信息；外部图片只查看，不擅自转载。疲倦即停。",
+      "steps": [
+        {
+          "title": "先看纸上的三个月亮",
+          "caption": "先看纸上的三个月亮",
+          "action": "成人读preschool-input上的三个过去日期，只说来自资料，不是我们刚才见到；孩子指一幅喜欢的形状，不要求认识日期。",
+          "actor": "together",
+          "adultNote": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。"
+        },
+        {
+          "title": "指画亮面的大致样子",
+          "caption": "指画亮面的大致样子",
+          "action": "成人按日期顺序指图，孩子在preschool-work任选一框画或指，细弯、约半亮、近圆即可，不要求准确复刻方向。",
+          "actor": "together",
+          "adultNote": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。"
+        },
+        {
+          "title": "没有记录就留着空缺",
+          "caption": "没有记录就留着空缺",
+          "action": "成人读preschool-story中的虚构小故事，在preschool-record代记孩子原话；缺测处不补月相，不画黑圆来表示新月。",
+          "actor": "together",
+          "adultNote": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。"
+        },
+        {
+          "title": "说一句还不知道",
+          "caption": "说一句还不知道",
+          "action": "conclusion-4-6只记孩子的发现或问题；没有看见不能单独告诉我们是什么月相，成人不逼选云、视野或新月之一。",
+          "actor": "together",
+          "adultNote": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "资料",
+          "缺测"
+        ],
+        "explanation": "没有取得记录时，留缺测，不靠猜把月亮补上。",
+        "limits": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。",
+        "observation": "成人读preschool-input上的三个过去日期，只说来自资料，不是我们刚才见到；孩子指一幅喜欢的形状，不要求认识日期。",
+        "nextQuestion": "没有记录的地方要补一个月亮吗？"
+      },
+      "guide": {
+        "goal": "说一句还不知道",
+        "observe": "没有记录的地方要补一个月亮吗？",
+        "control": "幼儿只听指画，成人代记，不分发高龄表。",
+        "support": "允许不知道、未做；成人可代记。",
+        "time": "5—10分钟",
+        "recordFields": [
+          "资料图不是亲眼观察",
+          "成人读日期和记原话",
+          "只指画，不做计算",
+          "缺测不画成黑月亮"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NASA SVS｜Moon Phase and Libration, 2025",
+          "url": "https://svs.gsfc.nasa.gov/5415/",
+          "claim": "三份有日期地心科学可视化；北向上，按小时，非地面实拍。",
+          "scope": "2026-11-06实读主页面与三张fancy日期帧及三张730px原图；具体URL见source-register。"
+        },
+        {
+          "title": "NASA SVS｜mooninfo_2025.txt",
+          "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/mooninfo_2025.txt",
+          "claim": "2025-01-03/07/13 00:00 UT亮面百分数10.88/50.16/98.77。",
+          "scope": "实读文本第49、145、289行并对照fancy帧日期和舍入数值。"
+        },
+        {
+          "title": "NASA Space Place｜What Are the Moon’s Phases?",
+          "url": "https://spaceplace.nasa.gov/moon-phases/en/",
+          "claim": "亮面视角随轨道位置变化；相位不等于观测成功与否。",
+          "scope": "实读turn547view0第30—60行；不采用其食品活动或现实寻月建议。"
+        }
+      ],
+      "sourceNote": "已实读三张NASA日期帧及对应资料图；本课形状重绘与缺测题原创，来源未认证课程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查，未实测",
+        "limitations": "只读纸上资料图和故事，不去找月亮。图有过去的资料日期，不是今天亲眼看见。孩子只指、说或画；没有记录就留缺测，不画一个黑圆冒充新月。不要求识日期、写字或计算。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "moon299-4-6-1",
+          "description": "先看纸上的三个月亮；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "先看纸上的三个月亮",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "三份过去的资料",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "A细弯 / B约半亮",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "C接近圆亮",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不是今天亲眼观察",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "资料图不是亲眼观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读日期和记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只指画，不做计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "缺测不画成黑月亮",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-4-6-2",
+          "description": "指画亮面的大致样子；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "指画亮面的大致样子",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "成人按日期指图",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "孩子任选一幅指画",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "不用背相位名称",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不求复刻精确转角",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "资料图不是亲眼观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读日期和记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只指画，不做计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "缺测不画成黑月亮",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-4-6-3",
+          "description": "没有记录就留着空缺；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "没有记录就留着空缺",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "故事：没有取得记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "留空，并写缺测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "黑圆不是缺测符号",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不猜当天就是新月",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "资料图不是亲眼观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读日期和记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只指画，不做计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "缺测不画成黑月亮",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-4-6-4",
+          "description": "说一句还不知道；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "说一句还不知道",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "孩子指了什么？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "孩子还有什么问题？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "成人代记原话",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不知道也可以",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "资料图不是亲眼观察",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人读日期和记原话",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只指画，不做计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "缺测不画成黑月亮",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "资料日期与今天亲眼看到是一回事吗？",
+      "materials": [
+        "纸笔；仅本龄页：input-A、input-B、input-C、date-work、shape-work、missing-input、missing-work、conclusion-7-9、reference；先读safety，最后看参考。",
+        "成人代读代记，不需上网、打印外部图或实际天空观察。"
+      ],
+      "safety": "全龄只在室内读本课纸张和资料，不安排天空寻找或观测；不看太阳，不用望远镜、激光或手电，不开窗探身、不攀爬。只用纸笔，成人代读代记；不剪小卡，不用私密照片，不上传个人信息；外部图片只查看，不擅自转载。疲倦即停。",
+      "steps": [
+        {
+          "title": "按真实资料日期排序",
+          "caption": "按真实资料日期排序",
+          "action": "读input-A/B/C，在date-work把三时刻按早晚记录，标UTC和资料类型；不能把2025年资料写到今天亲眼观察栏。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "分别画大致亮面",
+          "caption": "分别画大致亮面",
+          "action": "shape-work每框写资料代号、日期及非实拍，再画亮面；不从示意图量精确面积，不把接近圆亮称恰好满月。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "给缺测和未做留位置",
+          "caption": "给缺测和未做留位置",
+          "action": "missing-input是虚构文字练习；missing-work分别写未做、尝试未见或资料缺失。空白或缺测不是0%，不能填成新月。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "写证据允许的一句话",
+          "caption": "写证据允许的一句话",
+          "action": "conclusion-7-9区分资料中的亮面与自己今日是否观测；本课没有实地观测，不得补亲眼观察。看不见的原因仍可未知。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "日期排序",
+          "记录类型"
+        ],
+        "explanation": "资料描绘指定时刻的月相，不是我们曾亲眼看见的证据。",
+        "limits": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。",
+        "observation": "读input-A/B/C，在date-work把三时刻按早晚记录，标UTC和资料类型；不能把2025年资料写到今天亲眼观察栏。",
+        "nextQuestion": "资料日期与今天亲眼看到是一回事吗？"
+      },
+      "guide": {
+        "goal": "写证据允许的一句话",
+        "observe": "资料日期与今天亲眼看到是一回事吗？",
+        "control": "时间与时区、来源类型、未知和推断分栏。",
+        "support": "允许不知道、未做；成人可代记。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "真实日期与UTC同记",
+          "资料与亲眼观察分栏",
+          "未做、缺测、未知有别",
+          "近圆不等于精确全满"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NASA SVS｜Moon Phase and Libration, 2025",
+          "url": "https://svs.gsfc.nasa.gov/5415/",
+          "claim": "三份有日期地心科学可视化；北向上，按小时，非地面实拍。",
+          "scope": "2026-11-06实读主页面与三张fancy日期帧及三张730px原图；具体URL见source-register。"
+        },
+        {
+          "title": "NASA SVS｜mooninfo_2025.txt",
+          "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/mooninfo_2025.txt",
+          "claim": "2025-01-03/07/13 00:00 UT亮面百分数10.88/50.16/98.77。",
+          "scope": "实读文本第49、145、289行并对照fancy帧日期和舍入数值。"
+        },
+        {
+          "title": "NASA Space Place｜What Are the Moon’s Phases?",
+          "url": "https://spaceplace.nasa.gov/moon-phases/en/",
+          "claim": "亮面视角随轨道位置变化；相位不等于观测成功与否。",
+          "scope": "实读turn547view0第30—60行；不采用其食品活动或现实寻月建议。"
+        }
+      ],
+      "sourceNote": "已实读三张NASA日期帧及对应资料图；本课形状重绘与缺测题原创，来源未认证课程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查，未实测",
+        "limitations": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "moon299-7-9-1",
+          "description": "按真实资料日期排序；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "按真实资料日期排序",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "A：2025-01-03",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "B：2025-01-07",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "C：2025-01-13",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "三图均00:00 UTC",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "真实日期与UTC同记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "资料与亲眼观察分栏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未做、缺测、未知有别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近圆不等于精确全满",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-7-9-2",
+          "description": "分别画大致亮面；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "分别画大致亮面",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "给每幅写资料代号",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "保留日期、资料类型",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "画大致亮面形状",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不是照片，不量面积",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "真实日期与UTC同记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "资料与亲眼观察分栏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未做、缺测、未知有别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近圆不等于精确全满",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-7-9-3",
+          "description": "给缺测和未做留位置；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "给缺测和未做留位置",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "未观察：未做",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "尝试未见：缺测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "图打不开：资料缺失",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "都不能填成新月",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "真实日期与UTC同记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "资料与亲眼观察分栏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未做、缺测、未知有别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近圆不等于精确全满",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-7-9-4",
+          "description": "写证据允许的一句话；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "写证据允许的一句话",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "三图只是三个时刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "今天没有实地观察",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "资料不能补亲眼栏",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "未知继续保留",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "真实日期与UTC同记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "资料与亲眼观察分栏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "未做、缺测、未知有别",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "近圆不等于精确全满",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "看不见能判定唯一原因吗？",
+      "materials": [
+        "纸笔；仅本龄页：input-A、input-B、input-C、source-register、source-work、condition-input、condition-work、claim-input、claim-work、plan-work、conclusion-10-12、reference；先读safety，最后看参考。",
+        "成人代读代记，不需上网、打印外部图或实际天空观察。"
+      ],
+      "safety": "全龄只在室内读本课纸张和资料，不安排天空寻找或观测；不看太阳，不用望远镜、激光或手电，不开窗探身、不攀爬。只用纸笔，成人代读代记；不剪小卡，不用私密照片，不上传个人信息；外部图片只查看，不擅自转载。疲倦即停。",
+      "steps": [
+        {
+          "title": "审计日期和来源链",
+          "caption": "审计日期和来源链",
+          "action": "source-register把三帧、文本日期与来源类型连起来，source-work核对UTC、北向上及非实拍；目录上传时间不是月相时刻。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "拆开看不见与可能原因",
+          "caption": "拆开看不见与可能原因",
+          "action": "condition-input给三个虚构情境；condition-work分别列已有信息、可能解释和还缺什么，云、未入视野、新月可重叠，不作唯一诊断。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "检查越过证据的说法",
+          "caption": "检查越过证据的说法",
+          "action": "claim-input中的三条说法在claim-work审查；三张稀疏资料不能证明连续每一天变化，更不能补写个人观察。保留原话再修正。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "设计安全的资料核对",
+          "caption": "设计安全的资料核对",
+          "action": "plan-work只设计需要的时间、地点、天气或官方资料，不实际外出或寻日旁月亮；conclusion-10-12写已经知道与仍未知。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "来源链",
+          "替代解释"
+        ],
+        "explanation": "未见月亮与多种条件相容，需另查证据，不能倒推唯一月相。",
+        "limits": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。",
+        "observation": "source-register把三帧、文本日期与来源类型连起来，source-work核对UTC、北向上及非实拍；目录上传时间不是月相时刻。",
+        "nextQuestion": "看不见能判定唯一原因吗？"
+      },
+      "guide": {
+        "goal": "设计安全的资料核对",
+        "observe": "看不见能判定唯一原因吗？",
+        "control": "时间与时区、来源类型、未知和推断分栏。",
+        "support": "允许不知道、未做；成人可代记。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "图帧日期不是上传日",
+          "条件与解释分别写",
+          "可能原因可以重叠",
+          "未收集的不说已验证"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NASA SVS｜Moon Phase and Libration, 2025",
+          "url": "https://svs.gsfc.nasa.gov/5415/",
+          "claim": "三份有日期地心科学可视化；北向上，按小时，非地面实拍。",
+          "scope": "2026-11-06实读主页面与三张fancy日期帧及三张730px原图；具体URL见source-register。"
+        },
+        {
+          "title": "NASA SVS｜mooninfo_2025.txt",
+          "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/mooninfo_2025.txt",
+          "claim": "2025-01-03/07/13 00:00 UT亮面百分数10.88/50.16/98.77。",
+          "scope": "实读文本第49、145、289行并对照fancy帧日期和舍入数值。"
+        },
+        {
+          "title": "NASA Space Place｜What Are the Moon’s Phases?",
+          "url": "https://spaceplace.nasa.gov/moon-phases/en/",
+          "claim": "亮面视角随轨道位置变化；相位不等于观测成功与否。",
+          "scope": "实读turn547view0第30—60行；不采用其食品活动或现实寻月建议。"
+        }
+      ],
+      "sourceNote": "已实读三张NASA日期帧及对应资料图；本课形状重绘与缺测题原创，来源未认证课程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查，未实测",
+        "limitations": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "moon299-10-12-1",
+          "description": "审计日期和来源链；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "审计日期和来源链",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "查帧号与UTC时刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "查看来源资料类型",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "北向上不等于地面姿态",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "不拿上传日当月相日",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图帧日期不是上传日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "条件与解释分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因可以重叠",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未收集的不说已验证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-10-12-2",
+          "description": "拆开看不见与可能原因；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "拆开看不见与可能原因",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "看不见：先列条件",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "云 / 视野 / 月相",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "相容不等于唯一",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "未给的地点时间不编",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图帧日期不是上传日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "条件与解释分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因可以重叠",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未收集的不说已验证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-10-12-3",
+          "description": "检查越过证据的说法；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "检查越过证据的说法",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "资料是亲眼观察？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "没见就一定新月？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "三图能填满每一天？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "逐句核对证据",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图帧日期不是上传日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "条件与解释分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因可以重叠",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未收集的不说已验证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-10-12-4",
+          "description": "设计安全的资料核对；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "设计安全的资料核对",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "需要哪些可靠资料？",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "只设计，不去寻月",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "资料核对另列一栏",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "保留原缺测记录",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "图帧日期不是上传日",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "条件与解释分别写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "可能原因可以重叠",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未收集的不说已验证",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "把缺测补零会怎样改变均值？",
+      "materials": [
+        "纸笔；仅本龄页：input-A、input-B、input-C、source-register、scope-work、model-input、model-work、bound-work、audit-work、conclusion-13-16、reference-model；先读safety，最后看参考。",
+        "成人代读代记，不需上网、打印外部图或实际天空观察。"
+      ],
+      "safety": "全龄只在室内读本课纸张和资料，不安排天空寻找或观测；不看太阳，不用望远镜、激光或手电，不开窗探身、不攀爬。只用纸笔，成人代读代记；不剪小卡，不用私密照片，不上传个人信息；外部图片只查看，不擅自转载。疲倦即停。",
+      "steps": [
+        {
+          "title": "把资料与统计另题隔开",
+          "caption": "把资料与统计另题隔开",
+          "action": "scope-work先记三份NASA资料的范围；model-input的D1至D6是纯虚构数列，与真实三日期无映射，不当成月相实测。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "比较有效值与错误补零",
+          "caption": "比较有效值与错误补零",
+          "action": "model-work统计已知数个数、已知和、有效值均值及错误补零均值；未知不作为0，不用有效均值直接宣称全体均值。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "给未知留下可行区间",
+          "caption": "给未知留下可行区间",
+          "action": "bound-work只用每个未知在0至1的题设求六项整体均值下上界；区间宽说明资料不足，不是对真实月相的预测。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        },
+        {
+          "title": "审计分母和实际推断",
+          "caption": "审计分母和实际推断",
+          "action": "audit-work审查“未见就是新月”“一律补零”“已知均值代表全部”；conclusion-13-16把数值模型答案与资料可支持的结论分开。",
+          "actor": "together",
+          "adultNote": "只读纸和资料；原记录不覆盖，不补造实地观测。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "缺失值",
+          "均值边界"
+        ],
+        "explanation": "把未知记零添加了未经证实的数据；有效均值不自动代表全部，需保留可行范围。",
+        "limits": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。 六项数列完全虚构，与来源日期不对应。",
+        "observation": "scope-work先记三份NASA资料的范围；model-input的D1至D6是纯虚构数列，与真实三日期无映射，不当成月相实测。",
+        "nextQuestion": "把缺测补零会怎样改变均值？"
+      },
+      "guide": {
+        "goal": "审计分母和实际推断",
+        "observe": "把缺测补零会怎样改变均值？",
+        "control": "时间与时区、来源类型、未知和推断分栏。",
+        "support": "允许不知道、未做；成人可代记。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "虚构六项是独立纸题",
+          "未知不能自动补零",
+          "写清分母和可行区间",
+          "统计不证明个人见月"
+        ]
+      },
+      "sources": [
+        {
+          "title": "NASA SVS｜Moon Phase and Libration, 2025",
+          "url": "https://svs.gsfc.nasa.gov/5415/",
+          "claim": "三份有日期地心科学可视化；北向上，按小时，非地面实拍。",
+          "scope": "2026-11-06实读主页面与三张fancy日期帧及三张730px原图；具体URL见source-register。"
+        },
+        {
+          "title": "NASA SVS｜mooninfo_2025.txt",
+          "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005415/mooninfo_2025.txt",
+          "claim": "2025-01-03/07/13 00:00 UT亮面百分数10.88/50.16/98.77。",
+          "scope": "实读文本第49、145、289行并对照fancy帧日期和舍入数值。"
+        },
+        {
+          "title": "NASA Space Place｜What Are the Moon’s Phases?",
+          "url": "https://spaceplace.nasa.gov/moon-phases/en/",
+          "claim": "亮面视角随轨道位置变化；相位不等于观测成功与否。",
+          "scope": "实读turn547view0第30—60行；不采用其食品活动或现实寻月建议。"
+        }
+      ],
+      "sourceNote": "已实读三张NASA日期帧及对应资料图；本课形状重绘与缺测题原创，来源未认证课程。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独审",
+        "method": "作者静态核查，未实测",
+        "limitations": "新编课程未儿童、打印或实物试用。三图是据NASA科学可视化资料原创的形状示意，不是实拍、不是本家庭亲眼观察。日期为2025年UTC资料时刻，不是今天的记录；来源按天球北向上，示意将亮面概括在右边，不保留精确转角、地形、尺寸和距离。缺测不是零照明，更不是新月诊断；云、视野和月相都是可能相关因素，不是单一确定原因。 六项数列完全虚构，与来源日期不对应。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "moon299-13-16-1",
+          "description": "把资料与统计另题隔开；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "把资料与统计另题隔开",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "NASA资料有真实时刻",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "另题D1至D6全虚构",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "0.1 / ? / 0.5",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "? / 0.9 / ?",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "虚构六项是独立纸题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "未知不能自动补零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "写清分母和可行区间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "统计不证明个人见月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-13-16-2",
+          "description": "比较有效值与错误补零；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "比较有效值与错误补零",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "已知数与未知数分开",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "有效均值分母是多少",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "错误补零分母是多少",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "两种数不混为实测",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "虚构六项是独立纸题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "未知不能自动补零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "写清分母和可行区间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "统计不证明个人见月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-13-16-3",
+          "description": "给未知留下可行区间；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "给未知留下可行区间",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "三个未知均在0至1",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "分别取界限求总和",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "再除全部六项",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "区间不是观测结果",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "虚构六项是独立纸题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "未知不能自动补零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "写清分母和可行区间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "统计不证明个人见月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "moon299-13-16-4",
+          "description": "审计分母和实际推断；只读纸和资料。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "审计分母和实际推断",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 108,
+              "width": 292,
+              "height": 178,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 139,
+              "text": "未见不诊断新月",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 173,
+              "text": "补零不是中立操作",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 207,
+              "text": "已知均值未必代表全体",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 51,
+              "y": 241,
+              "text": "回到资料有限结论",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "虚构六项是独立纸题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "未知不能自动补零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "写清分母和可行区间",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "统计不证明个人见月",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3271 @@
+{
+  "activityId": 257,
+  "activityTitle": "走格子的最短路线",
+  "contentKey": "annual-m033",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "两条不同先后的小路线能到同一地点吗？",
+      "materials": [
+        "small-first/second、preschool、conclusion-4-6，成人预读rules/setup",
+        "rules、setup、math-card；A4整纸、普通笔、圆钝毫米尺，手指代替小棋子。"
+      ],
+      "safety": "仅桌面整纸绘图，不在地面铺路线、过马路或据此选择真实交通路线。使用普通笔、圆钝尺；成人保管橡皮等小物，不用剪刀、针、磁粒或可吞棋子。手指沿线即可，纸笔不入口、不近眼。4—6岁成人全程近距离陪伴并代读代写，疲倦随时停。只记日期或匿名代号，不记录姓名住址。",
+      "steps": [
+        {
+          "title": "认起终点和允许方向",
+          "caption": "认起终点和允许方向",
+          "action": "成人读rules和幼儿小网格说明，在small-first指S与T=(2,1)。孩子在preschool下方标“先猜想/原话”的专用空框画/说猜想，不占用上方逐步实录格；不要求认坐标、算数或读R/U。成人代记原话。",
+          "actor": "together",
+          "adultNote": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。"
+        },
+        {
+          "title": "跟指第一条三边路",
+          "caption": "跟指第一条三边路",
+          "action": "成人在small-first按右、右、上画一条线，每过一条边停一下让孩子指认；只沿线不跳点。preschool三格分别画记号/未做/需帮助，计步可由成人完成。",
+          "actor": "together",
+          "adultNote": "成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。"
+        },
+        {
+          "title": "另纸换先后再比较",
+          "caption": "另纸换先后再比较",
+          "action": "在small-second由成人按上、右、右演示，孩子按兴趣指认。preschool第二组三格保留实际参与；比较两条是否同终点，别把曲折外观当更长。",
+          "actor": "together",
+          "adultNote": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。"
+        },
+        {
+          "title": "画出自己的疑问",
+          "caption": "画出自己的疑问",
+          "action": "用conclusion-4-6大空框画/说今天看到的路线与不知道处，成人代写。能指到起终点就可停，不以答出三步或写坐标作为完成条件。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "起终点",
+          "沿边指认"
+        ],
+        "explanation": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。",
+        "limits": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。",
+        "observation": "记录实际画出的逐点路线，错误候选/未做/未知保留，不用理论答案回填。",
+        "nextQuestion": "只在纸上改变一个禁点并先注明新规则，不推广到实际交通。"
+      },
+      "guide": {
+        "goal": "画出自己的疑问",
+        "observe": "认起终点和允许方向",
+        "support": "可分次；成人代读代画，幼儿不要求读写计算。保留帮助和未做。",
+        "control": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。 成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。",
+        "time": "5—10分钟，可随时停",
+        "recordFields": [
+          "本次规则与起终点",
+          "路径/步骤/访问点",
+          "方向与合法性",
+          "步数或条数及证据",
+          "帮助/未知/下一问"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e §11.1 Use the Rectangular Coordinate System",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "坐标轴方向、有序对顺序、原点与格点定位。",
+          "scope": "2026-11-05实际读取正文77–114、206–216、251–253行。只作坐标方法依据；最短步数、组合计数、禁点和四龄步骤均为本项目原创推导，不是该页定理或认证课程。"
+        }
+      ],
+      "sourceNote": "官方来源仅支持坐标法；路径证明和计数为原创推导，来源不认证本活动。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态核查",
+        "limitations": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "grid257-4-6-1",
+          "description": "认起终点和允许方向。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "认起终点和允许方向",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 245,
+              "x2": 145,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 245,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 225,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 165,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 169,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 152,
+              "text": "T(2,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "终点是(2,1)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "成人代读代画",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "只指认也可",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先说猜想",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-4-6-2",
+          "description": "跟指第一条三边路。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "跟指第一条三边路",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 245,
+              "x2": 145,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 245,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 225,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 165,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 169,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 152,
+              "text": "T(2,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 245,
+              "x2": 145,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 145,
+              "y1": 245,
+              "x2": 225,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 225,
+              "y1": 245,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "沿边一次停一下",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "示例：右右上",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不强求数字书写",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "未做如实记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-4-6-3",
+          "description": "另纸换先后再比较。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "另纸换先后再比较",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 245,
+              "x2": 145,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 141,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 245,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 221,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 225,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 165,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 169,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 152,
+              "text": "T(2,1)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 165,
+              "x2": 145,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 145,
+              "y1": 165,
+              "x2": 225,
+              "y2": 165,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "另纸：上右右",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "别擦第一条",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "同终点再比较",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "孩子可随时停",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-4-6-4",
+          "description": "画出自己的疑问。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "画出自己的疑问",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 120,
+              "width": 265,
+              "height": 148,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 151,
+              "text": "我画 / 我说 / 我不知道",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 190,
+              "text": "成人记录原话与帮助",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 232,
+              "text": "不强求三步的数字答案",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "原话不改答案",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "记录帮助/未做",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不把外观当距离",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不去真实道路试",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "换先后为何步数仍相同？",
+      "materials": [
+        "core-first/second、setup/prediction-7-9、route-7-9-A/B、compare-7-9、conclusion-7-9",
+        "rules、setup、math-card；A4整纸、普通笔、圆钝毫米尺，手指代替小棋子。"
+      ],
+      "safety": "仅桌面整纸绘图，不在地面铺路线、过马路或据此选择真实交通路线。使用普通笔、圆钝尺；成人保管橡皮等小物，不用剪刀、针、磁粒或可吞棋子。手指沿线即可，纸笔不入口、不近眼。4—6岁成人全程近距离陪伴并代读代写，疲倦随时停。只记日期或匿名代号，不记录姓名住址。",
+      "steps": [
+        {
+          "title": "固定同一张格点规则",
+          "caption": "固定同一张格点规则",
+          "action": "读rules，setup-7-9记S/T、右上规则及打印状态；prediction-7-9先猜两条步数。使用core-first与core-second两张空网格，起终点不能换成幼儿版。",
+          "actor": "together",
+          "adultNote": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。"
+        },
+        {
+          "title": "画第一条并逐边登记",
+          "caption": "画第一条并逐边登记",
+          "action": "在core-first画RRRUU，从S开始，route-7-9-A五行分别填起终点、方向和第几步；成人可帮读坐标并记帮助。先核相邻一边，再核是否到T，未知不补。",
+          "actor": "together",
+          "adultNote": "成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。"
+        },
+        {
+          "title": "换顺序不改规则",
+          "caption": "换顺序不改规则",
+          "action": "在core-second画RURUR，route-7-9-B同样逐边记录；compare-7-9分别统计右、上、边数、访问点数，并检验终点。顺序变了不等于步数必变。",
+          "actor": "together",
+          "adultNote": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。"
+        },
+        {
+          "title": "用记录解释五步",
+          "caption": "用记录解释五步",
+          "action": "conclusion-7-9引用自己的两表说明3右2上与总步数；起点单独记，不当一步。区分看过两例与所有合法路线的一般解释，可请成人代读math-card，不用直线长度代替沿边步数。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "步数与点数",
+          "方向与净位移"
+        ],
+        "explanation": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。",
+        "limits": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。",
+        "observation": "记录实际画出的逐点路线，错误候选/未做/未知保留，不用理论答案回填。",
+        "nextQuestion": "只在纸上改变一个禁点并先注明新规则，不推广到实际交通。"
+      },
+      "guide": {
+        "goal": "用记录解释五步",
+        "observe": "固定同一张格点规则",
+        "support": "可分次；成人代读代画，幼儿不要求读写计算。保留帮助和未做。",
+        "control": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。 成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。",
+        "time": "10—20分钟",
+        "recordFields": [
+          "本次规则与起终点",
+          "路径/步骤/访问点",
+          "方向与合法性",
+          "步数或条数及证据",
+          "帮助/未知/下一问"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e §11.1 Use the Rectangular Coordinate System",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "坐标轴方向、有序对顺序、原点与格点定位。",
+          "scope": "2026-11-05实际读取正文77–114、206–216、251–253行。只作坐标方法依据；最短步数、组合计数、禁点和四龄步骤均为本项目原创推导，不是该页定理或认证课程。"
+        }
+      ],
+      "sourceNote": "官方来源仅支持坐标法；路径证明和计数为原创推导，来源不认证本活动。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态核查",
+        "limitations": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "grid257-7-9-1",
+          "description": "固定同一张格点规则。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "固定同一张格点规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "坐标标格点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "x右、y上",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "一条相邻边一步",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "两张空图分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-7-9-2",
+          "description": "画第一条并逐边登记。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "画第一条并逐边登记",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 245,
+              "x2": 123,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 123,
+              "y1": 245,
+              "x2": 181,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 181,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 239,
+              "y1": 187,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "示例 RRRUU",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "逐边写起终点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "起点不算一步",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "帮助另记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-7-9-3",
+          "description": "换顺序不改规则。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "换顺序不改规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 245,
+              "x2": 123,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 123,
+              "y1": 187,
+              "x2": 181,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 181,
+              "y1": 187,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 181,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "示例 RURUR",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "终点仍(3,2)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "各方向分别计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "比较边数/点数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-7-9-4",
+          "description": "用记录解释五步。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "用记录解释五步",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 120,
+              "width": 265,
+              "height": 148,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 151,
+              "text": "每步：x+y 增加 1",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 190,
+              "text": "S到T：从0变到5",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 232,
+              "text": "先数边，不把起点算一步",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "两例不是穷尽",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "解释每步的改变",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "3R + 2U",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "沿边不等于直线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "加入禁点会改变最短步数还是可用路线？",
+      "materials": [
+        "core-first/second、candidate-1/2/3、blocked-own、candidate-input、fourway-input、setup-10-12及prediction-10-12各两份分别标基准/禁点、candidate-audit、own-route、proof/claim-10-12、fourway-audit",
+        "rules、setup、math-card；A4整纸、普通笔、圆钝毫米尺，手指代替小棋子。"
+      ],
+      "safety": "仅桌面整纸绘图，不在地面铺路线、过马路或据此选择真实交通路线。使用普通笔、圆钝尺；成人保管橡皮等小物，不用剪刀、针、磁粒或可吞棋子。手指沿线即可，纸笔不入口、不近眼。4—6岁成人全程近距离陪伴并代读代写，疲倦随时停。只记日期或匿名代号，不记录姓名住址。",
+      "steps": [
+        {
+          "title": "预测禁点会改变什么",
+          "caption": "预测禁点会改变什么",
+          "action": "setup-10-12与prediction-10-12各打印两份，分别标“基准”和“禁点”，先登记基准右上规则与另场景禁点F=(1,1)，禁点含进入和经过；不禁整行或邻边。基准无禁点和禁点场景分表，先预测最短步数与可用路线是否改变。",
+          "actor": "together",
+          "adultNote": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。"
+        },
+        {
+          "title": "对三条候选逐点核查",
+          "caption": "对三条候选逐点核查",
+          "action": "使用candidate-input给出的RRRUU、RURUR、UURRR，在candidate-1/2/3网格分别描画。candidate-audit记录每条6个访问点、是否碰F、是否到T及步数；撞F的完整序列也是不合法候选，不能混入最短比较。",
+          "actor": "together",
+          "adultNote": "成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。"
+        },
+        {
+          "title": "找可行路并给下界",
+          "caption": "找可行路并给下界",
+          "action": "在blocked-own空图另画自己的避F路线，用own-route五行逐步核查。proof-10-12分别写每步对x+y的改变、从S到T所需改变、可行实例，因此禁点下最短是多少；不能从只有三候选证明全部路线数量。",
+          "actor": "together",
+          "adultNote": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。"
+        },
+        {
+          "title": "审查另一规则与空集合",
+          "caption": "审查另一规则与空集合",
+          "action": "在fourway-input只纸上读RLRRRUU，并在fourway-audit逐边核查：它回退所以不属右上题，但在上下左右规则下到T且更长。claim-10-12改写禁点必让路更长、直线合法、起点算一步、S被禁时最短为0四个断言；没有路时记无可行路线。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "可行集合",
+          "最短路下界"
+        ],
+        "explanation": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。",
+        "limits": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。",
+        "observation": "记录实际画出的逐点路线，错误候选/未做/未知保留，不用理论答案回填。",
+        "nextQuestion": "只在纸上改变一个禁点并先注明新规则，不推广到实际交通。"
+      },
+      "guide": {
+        "goal": "审查另一规则与空集合",
+        "observe": "预测禁点会改变什么",
+        "support": "可分次；成人代读代画，幼儿不要求读写计算。保留帮助和未做。",
+        "control": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。 成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。",
+        "time": "20—30分钟，可分两次",
+        "recordFields": [
+          "本次规则与起终点",
+          "路径/步骤/访问点",
+          "方向与合法性",
+          "步数或条数及证据",
+          "帮助/未知/下一问"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e §11.1 Use the Rectangular Coordinate System",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "坐标轴方向、有序对顺序、原点与格点定位。",
+          "scope": "2026-11-05实际读取正文77–114、206–216、251–253行。只作坐标方法依据；最短步数、组合计数、禁点和四龄步骤均为本项目原创推导，不是该页定理或认证课程。"
+        }
+      ],
+      "sourceNote": "官方来源仅支持坐标法；路径证明和计数为原创推导，来源不认证本活动。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态核查",
+        "limitations": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "grid257-10-12-1",
+          "description": "预测禁点会改变什么。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "预测禁点会改变什么",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 180,
+              "x2": 130,
+              "y2": 194,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 194,
+              "x2": 130,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 177,
+              "text": "F禁点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "只禁格点(1,1)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "不封整行整列",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "基准和禁点分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先写预测",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-10-12-2",
+          "description": "对三条候选逐点核查。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "对三条候选逐点核查",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 180,
+              "x2": 130,
+              "y2": 194,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 194,
+              "x2": 130,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 177,
+              "text": "F禁点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "arrow",
+              "x1": 65,
+              "y1": 245,
+              "x2": 123,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 123,
+              "y1": 187,
+              "x2": 181,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 181,
+              "y1": 187,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 181,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "三条候选逐点查",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "经过禁点即不合法",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不合法不参与最短",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "保留原候选记录",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-10-12-3",
+          "description": "找可行路并给下界。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "找可行路并给下界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 180,
+              "x2": 130,
+              "y2": 194,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 194,
+              "x2": 130,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 177,
+              "text": "F禁点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "空图画自己的路",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "每步x+y增加1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "实例与下界相配",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不声称已数完路线",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-10-12-4",
+          "description": "审查另一规则与空集合。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "审查另一规则与空集合",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 120,
+              "width": 265,
+              "height": 148,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 150,
+              "text": "另题：可上下左右",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 190,
+              "text": "R L R R R U U",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 63,
+              "y": 232,
+              "text": "不属于原来的右上路线",
+              "fontSize": 13,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "四方向是另一题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "回退路不属右上题",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无路不等于零步",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "模型不是道路导航",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "怎样不重不漏数路线并独立核验？",
+      "materials": [
+        "core-first/second、setup/prediction-13-16、enum-1/2、dp-grid、dp-rule、dp-audit、proof/claim-13-16",
+        "rules、setup、math-card；A4整纸、普通笔、圆钝毫米尺，手指代替小棋子。"
+      ],
+      "safety": "仅桌面整纸绘图，不在地面铺路线、过马路或据此选择真实交通路线。使用普通笔、圆钝尺；成人保管橡皮等小物，不用剪刀、针、磁粒或可吞棋子。手指沿线即可，纸笔不入口、不近眼。4—6岁成人全程近距离陪伴并代读代写，疲倦随时停。只记日期或匿名代号，不记录姓名住址。",
+      "steps": [
+        {
+          "title": "先界定集合和计数对象",
+          "caption": "先界定集合和计数对象",
+          "action": "setup/prediction-13-16登记S/T、右上边、序列不同判定及禁点F=(1,1)。先在core-first/second分别画RRRUU与RURUR两个核心例子以熟悉，再在proof-13-16区分最短步数与路线条数、基准与禁点。保留预测，不从参考数倒填。",
+          "actor": "together",
+          "adultNote": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。"
+        },
+        {
+          "title": "按两个上步位置穷尽",
+          "caption": "按两个上步位置穷尽",
+          "action": "enum-1/2已给出五个位置中两个U位置的十对输入，逐对核查无重复遗漏，剩下三位填R；每行写序列及六访问点，审查是否重复或遗漏。任一合法序列唯一对应一对U位置，不能把UR与RU当同路。",
+          "actor": "together",
+          "adultNote": "成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。"
+        },
+        {
+          "title": "用另一算法核禁点",
+          "caption": "用另一算法核禁点",
+          "action": "在enum中逐行标是否过F；再独立填dp-grid各点可行前缀数，规则见dp-rule：S置1，F置0，其他点取左邻加下邻，不存在邻居按0。dp-audit记录枚举总条数、枚举避F条数、递推T值和经过F条数，比较枚举避F条数，出现矛盾保留并定位。",
+          "actor": "together",
+          "adultNote": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。"
+        },
+        {
+          "title": "分开长度数量与证据边界",
+          "caption": "分开长度数量与证据边界",
+          "action": "proof-13-16说明5选2为10、不经F的数量如何由枚举/递推支持，解释经过F的前后路径拼接为何无重复。claim-13-16对最短步数、条数、欧氏距离、禁点无路四类结论加条件；结论限此有限纸面模型，不用于真实道路。",
+          "actor": "together",
+          "adultNote": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一一对应与组合",
+          "动态递推核查"
+        ],
+        "explanation": "右上核心路线每一步恰使x+y增加1；从0到5需要且只能走5步，必须3R和2U。数到6个访问点不能说6步。欧氏直线sqrt(13)格不是允许的沿边路线。若另开允许上下左右的规则，净横移3、净纵移2给出至少5步的下界；往返会增加步数。最短是符合约束的路线中的最小步数，不等于最少转弯，也不等于路线条数。",
+        "limits": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。",
+        "observation": "记录实际画出的逐点路线，错误候选/未做/未知保留，不用理论答案回填。",
+        "nextQuestion": "只在纸上改变一个禁点并先注明新规则，不推广到实际交通。"
+      },
+      "guide": {
+        "goal": "分开长度数量与证据边界",
+        "observe": "先界定集合和计数对象",
+        "support": "可分次；成人代读代画，幼儿不要求读写计算。保留帮助和未做。",
+        "control": "坐标是格点而不是格子内部；x向右、y向上。核心网格含x=0,1,2,3和y=0,1,2，共12个格点；起点S=(0,0)，终点T=(3,2)。每一步沿一条水平或竖直边到相邻格点，只准右R=(+1,0)、上U=(0,+1)，不准斜走、跳点或回退。到达T才算完整路线；中止、不完整、未知不能算成零步。一步数一条走过的边，起点不是一步。路线顺序不同即不同路线，不以画线颜色判断。幼儿另用终点(2,1)的六格点小网格，不能把两套终点混比。 成人按本龄材料清单单面打印A4母版，选100%原尺寸，先用毫米刻度圆钝尺核底部100mm线并记录实际读数/缩放。核心格距30mm，小龄格距50mm；本活动计单位步数，不把纸面毫米等同真实距离，打印比例改变不会改变连通关系。可不量尺而仅指认，但标明未核线。只画本次指定路线，不擦去第一次，第二次用另一张纸；图示为原创示意，实际作答使用标注空白母版。",
+        "time": "25—40分钟，可分多次",
+        "recordFields": [
+          "本次规则与起终点",
+          "路径/步骤/访问点",
+          "方向与合法性",
+          "步数或条数及证据",
+          "帮助/未知/下一问"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OpenStax Prealgebra 2e §11.1 Use the Rectangular Coordinate System",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+          "claim": "坐标轴方向、有序对顺序、原点与格点定位。",
+          "scope": "2026-11-05实际读取正文77–114、206–216、251–253行。只作坐标方法依据；最短步数、组合计数、禁点和四龄步骤均为本项目原创推导，不是该页定理或认证课程。"
+        }
+      ],
+      "sourceNote": "官方来源仅支持坐标法；路径证明和计数为原创推导，来源不认证本活动。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待新独立审核",
+        "method": "作者静态核查",
+        "limitations": "RECONSTRUCTION新编，原字段保留，不继承丢失旧审核。原创纸面数学模型；无实物打印、儿童试做、教学适龄认证、独审或发布结论。证明仅对清楚声明的格点/边/方向/禁点规则成立，不能当真实道路导航或安全决策。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "grid257-13-16-1",
+          "description": "先界定集合和计数对象。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "先界定集合和计数对象",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "序列不同即不同路",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "步数与条数分开",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "规则和终点固定",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "先预测再枚举",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-13-16-2",
+          "description": "按两个上步位置穷尽。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "按两个上步位置穷尽",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 120,
+              "width": 265,
+              "height": 148,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 150,
+              "text": "位置 1  2  3  4  5",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 188,
+              "text": "例：U位置选(1,4)",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 226,
+              "text": "U  R  R  U  R",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 253,
+              "text": "只示一例，其余自己列",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "五位置选两处U",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "每一对只列一次",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "其余三处填R",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "写六个访问点",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-13-16-3",
+          "description": "用另一算法核禁点。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "用另一算法核禁点",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 65,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 61,
+              "y": 267,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 123,
+              "y1": 245,
+              "x2": 123,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 267,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 181,
+              "y1": 245,
+              "x2": 181,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 177,
+              "y": 267,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 239,
+              "y1": 245,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 235,
+              "y": 267,
+              "text": "3",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 245,
+              "x2": 239,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 249,
+              "text": "0",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 187,
+              "x2": 239,
+              "y2": 187,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 191,
+              "text": "1",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 129,
+              "x2": 239,
+              "y2": 129,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 43,
+              "y": 133,
+              "text": "2",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 46,
+              "y": 285,
+              "text": "S(0,0)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 209,
+              "y": 116,
+              "text": "T(3,2)",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 180,
+              "x2": 130,
+              "y2": 194,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 116,
+              "y1": 194,
+              "x2": 130,
+              "y2": 180,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 133,
+              "y": 177,
+              "text": "F禁点",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "S=1，禁点F=0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "其余=左邻+下邻",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "不存在邻居按0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "与枚举独立核对",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "grid257-13-16-4",
+          "description": "分开长度数量与证据边界。原创关系示意，不是儿童实录；空白作答纸另附。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 84,
+              "text": "分开长度数量与证据边界",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 120,
+              "width": 265,
+              "height": 148,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 151,
+              "text": "步数 ≠ 路线条数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 190,
+              "text": "枚举 ↔ 逐点递推",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 62,
+              "y": 230,
+              "text": "证明条件不能省略",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "长度下界与实例",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "穷尽及一一对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "禁点前后路径拼接",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "写清模型条件",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

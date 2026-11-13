@@ -1,0 +1,4026 @@
+{
+  "activityId": 40,
+  "activityTitle": "十格里的空位",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "十格里先放6张蓝卡，每个空格再放一张橙卡，刚好填满要用几张橙卡？",
+      "materials": [
+        "成人预裁大纸卡10张，各4×4厘米：蓝色或写B的6张，橙色或写O的4张；无须孩子识字",
+        "白纸或废纸A4至少3张；笔2支（或不同线型代替颜色）；30厘米直尺1把",
+        "成人预画十格框1张：2行5列，每格5×5厘米，总框25×10厘米，画在横放A4纸上",
+        "记录纸1张；橡皮1块仅成人保管（可不用，另画修正）"
+      ],
+      "safety": "全部纸卡由成人预先剪成至少4×4厘米、边平整的大卡，不用豆子、纽扣、硬币、小珠、小磁铁或小塑料计数片。纸卡、笔不入口，低龄全程成人近旁；有入口习惯只看成人摆卡。剪刀不交孩子，纸边避免划手，尺不挥舞。纸框放稳固桌面，卡不散到地上；不计速度、不比赛或强迫完成，累了可停。结束清点收齐大卡，橡皮等小件由成人收好。",
+      "steps": [
+        {
+          "title": "先找十个位置",
+          "action": "成人把十格框横放，让孩子逐个指格；每行5格、两行共10格可由成人说明。把6蓝4橙放框外分成两组，不用卡遮住格线。",
+          "actor": "together",
+          "caption": "一个格子是一个位置。",
+          "adultNote": "不要求低龄背10以内算式，数到哪里记到哪里。"
+        },
+        {
+          "title": "实际放六张蓝卡",
+          "action": "孩子从上排左格起逐格放蓝卡，上排5张，下排最左1张；每格最多1张、不叠卡。一起数蓝卡，确认共6张，其他格仍空。",
+          "actor": "together",
+          "caption": "上面五张，下面一张。",
+          "adultNote": "若放错、重叠或漏数，停下逐格对照，不直接替孩子报答案。"
+        },
+        {
+          "title": "用橙卡补所有空格",
+          "action": "孩子把橙卡一张一张放进空格，直到每格恰1张；每放一张就指一个原空位。数实际用掉的橙卡，确认框外是否还有卡。",
+          "actor": "together",
+          "caption": "只放空格，不盖住蓝卡。",
+          "adultNote": "在规则满足时应恰好4张；若不是4，检查卡总数、叠卡和漏格，记录修正过程。"
+        },
+        {
+          "title": "取出橙卡再指空位",
+          "action": "只取走4张橙卡，蓝卡不动，孩子再指4个空格并说“六个有卡，还差四个”。成人可写6+4=10，孩子不必抄写；随后收齐10张。",
+          "actor": "child",
+          "caption": "取走补进去的，空位又出现。",
+          "adultNote": "这是十格和一格一卡的关系，不需要多次试验才使6+4成为10。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "一格一卡的一一对应",
+          "空位表示补足部分",
+          "两部分合成一个整体"
+        ],
+        "explanation": "十个不同格子分为放蓝卡的6格和其余空格；每个空格放一张橙卡后刚好覆盖十格。因此补足部分是4，成人可写6+4=10。",
+        "limits": "这个结论依赖明确共有10格、蓝卡占6个不同格且每格1张；叠卡或数错不能当成“这次数学不同”。本龄不要求形式证明或书写。",
+        "observation": "孩子实际指到哪些空格、用了几张橙卡、哪里漏数及怎样修正。",
+        "nextQuestion": "如果移走一张蓝卡，空格会多一个还是少一个？"
+      },
+      "guide": {
+        "goal": "实际用6蓝4橙大卡完成补满和移走补卡的逆操作。",
+        "observe": "十格里先放6张蓝卡，每个空格再放一张橙卡，刚好填满要用几张橙卡？",
+        "support": "成人预画预裁并读出规则；孩子实际摆、移、翻卡并口述或记录，低龄可指格由成人代记。",
+        "control": "同一2×5十格，一格1卡，先上排5蓝下排左1蓝，补空不叠卡。",
+        "time": "约5–10分钟，可口述代记。",
+        "recordFields": [
+          "我找到的空位",
+          "补橙卡时怎样数",
+          "取出橙卡后的发现或修正"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "ten-46-empty",
+          "description": "起点为空十格，卡在框外准备；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "2行，每行5格；先逐格指认",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "每格最多放一张大卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-46-six",
+          "description": "蓝6张：上排5、下排最左1；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 85,
+              "text": "放6张蓝卡：5＋1",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "蓝卡标B；其他格保持空",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-46-complete",
+          "description": "指定补满示例：六蓝四橙，无空格；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "只补空格：再放4张橙卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "橙卡标O；6＋4＝10",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-46-remove",
+          "description": "移走四橙，六蓝位置不变；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "只取走橙卡，再找空位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "仍是6张蓝卡和4个空格",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Illustrative Mathematics｜Ten Frame Addition",
+          "url": "https://tasks.illustrativemathematics.org/content-standards/K/OA/A/1/tasks/1406",
+          "claim": "十格与逐个放置的计数物可帮助表示十以内加法，把两部分放在同一框中计总数。",
+          "scope": "参考十格数学教具方法；本方案改为4厘米大纸卡，不使用骰子或小计数片，具体数值和步骤独立构造。"
+        },
+        {
+          "title": "University of Cambridge NRICH｜Packing",
+          "url": "https://nrich.maths.org/eyfs-activities/packing",
+          "claim": "低龄可以通过把物件放入空间、比较和调整位置探索数量与空间关系。",
+          "scope": "只支持低龄操作与讨论的教学取向，不声称该页给出6+4、数量不变或本页组合计数的证明。"
+        }
+      ],
+      "sourceNote": "独立数学操作探究，未实地试教，不是物理或化学实验。指定示例和经推理确定的数学结论不等于实际课堂观察；漏数、重叠或少做要如实记录并核查，不能把操作错误当作另一条数学定律。来源支持方法，不代表机构认证。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "不增不减同6张蓝卡，换三种位置后，每次填满十格所需的橙卡数会变吗？",
+      "materials": [
+        "大纸卡10张，各4×4厘米：蓝或B卡6张，橙或O卡4张",
+        "白纸或废纸A4至少3张；笔2支（或不同线型代替颜色）；30厘米直尺1把",
+        "成人预画十格框1张：2行5列，每格5×5厘米，总框25×10厘米，画在横放A4纸上",
+        "记录纸1张；橡皮1块仅成人保管（可不用，另画修正）"
+      ],
+      "safety": "全部纸卡由成人预先剪成至少4×4厘米、边平整的大卡，不用豆子、纽扣、硬币、小珠、小磁铁或小塑料计数片。纸卡、笔不入口，低龄全程成人近旁；有入口习惯只看成人摆卡。剪刀不交孩子，纸边避免划手，尺不挥舞。纸框放稳固桌面，卡不散到地上；不计速度、不比赛或强迫完成，累了可停。结束清点收齐大卡，橡皮等小件由成人收好。",
+      "steps": [
+        {
+          "title": "先摆第一种位置再补满",
+          "action": "横放十格框，固定上/下排和从左到右1–5列。第一摆：上排5蓝、下排第1列1蓝。数空格后用橙卡填完，记录蓝、橙、空格数；完成后只取出橙卡。",
+          "actor": "together",
+          "caption": "先数空位，再放补卡。",
+          "adultNote": "保持同10张卡，一格一张；满框后空格数是0，不把4张橙卡叫4个当前空格。"
+        },
+        {
+          "title": "实际改成每排三张",
+          "action": "只移动同6张蓝卡，摆上排第1/3/5列、下排第1/3/5列。橙卡仍在框外，先数空位，再补满并记录；补后仍只撤橙卡。",
+          "actor": "child",
+          "caption": "卡没增加，只换了格。",
+          "adultNote": "每移动后清点蓝卡总数，不能把两张叠放当一个占位。"
+        },
+        {
+          "title": "实际摆第三种不对称位置",
+          "action": "把蓝卡移成上排第2/5列、下排第1/2/3/5列，仍6张。先指出空位，再用同4橙补满，记录三次需要的橙卡数和遇到的数错。",
+          "actor": "child",
+          "caption": "形状不对称，也按格核对。",
+          "adultNote": "三种摆法都需实际摆；不是只把第一摆数字复制到表里。"
+        },
+        {
+          "title": "解释不变而非只说试了三次",
+          "action": "把橙卡取出，任选一张蓝卡移动到一个空格；指出原位置变空、新位置不再空，空格总数没有变。用“一空变有、一有变空”解释，并核对三摆记录。",
+          "actor": "together",
+          "caption": "换位置不等于换数量。",
+          "adultNote": "三个例子只帮助看规律；一格一张且蓝总数固定为6，才使每次空格都为10−6=4。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "排列形状与占格数量不同",
+          "空位与已占格互补",
+          "一次移动保持数量的理由"
+        ],
+        "explanation": "移动一张卡到空格时，原格空出来、新格被占，空格数一增一减抵消。只要6张蓝卡占6个不同格，剩余必是4个空格，不依赖摆成哪种形状。",
+        "limits": "只看三次相同记录不是所有情况的证明；规则和每次移动的一一变化才解释一般性。满框后橙色部分为4格，但当前空格为0。",
+        "observation": "三种实际位置、补卡前空格、补橙数、移动一张后空位交换及纠错。",
+        "nextQuestion": "如果允许蓝卡总数从0到10变化，能把所有两部分数量列全吗？"
+      },
+      "guide": {
+        "goal": "真实完成三种六卡重排与补空，再用单卡移动解释数量不变。",
+        "observe": "不增不减同6张蓝卡，换三种位置后，每次填满十格所需的橙卡数会变吗？",
+        "support": "成人预画预裁并读出规则；孩子实际摆、移、翻卡并口述或记录，低龄可指格由成人代记。",
+        "control": "三指定布局、蓝6不变、橙4，一格1卡；每摆先空位计数再补满。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "三摆蓝卡位置与补前空格",
+          "三摆实际补橙卡数",
+          "单卡移动的一增一减解释",
+          "叠卡漏数与修正"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "ten-79-first",
+          "description": "第一摆：上5下1，尚未补橙；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "第一摆：先数空位再补",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "蓝6张；每次补后取出橙卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-79-second",
+          "description": "第二摆：两排的1/3/5列各有蓝卡；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "第二摆：每排第1、3、5列",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "实际移动同6张蓝卡",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-79-third",
+          "description": "第三摆：上2/5，下1/2/3/5；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "第三摆：上2张，下4张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "先数空，再用橙卡补满",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-79-move",
+          "description": "由第三摆将上排第2列卡移至第1列后的示例；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 85,
+              "text": "移一张：原格变空，新格被占",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "一增一减；总空格数不变",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Illustrative Mathematics｜Ten Frame Addition",
+          "url": "https://tasks.illustrativemathematics.org/content-standards/K/OA/A/1/tasks/1406",
+          "claim": "十格与逐个放置的计数物可帮助表示十以内加法，把两部分放在同一框中计总数。",
+          "scope": "参考十格数学教具方法；本方案改为4厘米大纸卡，不使用骰子或小计数片，具体数值和步骤独立构造。"
+        },
+        {
+          "title": "University of Cambridge NRICH｜Packing",
+          "url": "https://nrich.maths.org/eyfs-activities/packing",
+          "claim": "低龄可以通过把物件放入空间、比较和调整位置探索数量与空间关系。",
+          "scope": "只支持低龄操作与讨论的教学取向，不声称该页给出6+4、数量不变或本页组合计数的证明。"
+        }
+      ],
+      "sourceNote": "独立数学操作探究，未实地试教，不是物理或化学实验。指定示例和经推理确定的数学结论不等于实际课堂观察；漏数、重叠或少做要如实记录并核查，不能把操作错误当作另一条数学定律。来源支持方法，不代表机构认证。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "把十张双面卡按固定顺序逐张翻面，能不漏不重地摆出多少种按颜色区分的两部分数量？",
+      "materials": [
+        "成人预裁双面大纸卡10张，各4×4厘米：每张一面蓝/B、一面橙/O（不再另备10张）",
+        "白纸或废纸A4至少3张；笔2支（或不同线型代替颜色）；30厘米直尺1把",
+        "成人预画十格框1张：2行5列，每格5×5厘米，总框25×10厘米，画在横放A4纸上",
+        "记录纸1张；橡皮1块仅成人保管（可不用，另画修正）"
+      ],
+      "safety": "全部纸卡由成人预先剪成至少4×4厘米、边平整的大卡，不用豆子、纽扣、硬币、小珠、小磁铁或小塑料计数片。纸卡、笔不入口，低龄全程成人近旁；有入口习惯只看成人摆卡。剪刀不交孩子，纸边避免划手，尺不挥舞。纸框放稳固桌面，卡不散到地上；不计速度、不比赛或强迫完成，累了可停。结束清点收齐大卡，橡皮等小件由成人收好。",
+      "steps": [
+        {
+          "title": "全蓝起点与计数约定",
+          "action": "十张卡每格放一张，全部蓝/B面朝上。框位置不转，翻面顺序为上排从左到右，再下排从左到右。记录有序数对(橙数,蓝数)，起点必须记(0,10)；这里颜色身份不同，(2,8)与(8,2)先视为不同。",
+          "actor": "together",
+          "caption": "十张双面卡，不是二十张。",
+          "adultNote": "本任务数两部分的数量配对，不数每种配对所有可能的位置布局。"
+        },
+        {
+          "title": "实际逐张翻完十次",
+          "action": "沿固定顺序每次只翻下一张尚蓝的卡成橙色，不移动到别格、不叠卡。每翻一次都数橙与蓝并记录数对，直到全橙，最后记(10,0)。从起点到末态共11条记录，未做完的状态不填成已操作。",
+          "actor": "child",
+          "caption": "每翻一次，橙加一、蓝减一。",
+          "adultNote": "翻错或漏记就在表里标出后核对；保持十格始终满，当前空格一直为0。"
+        },
+        {
+          "title": "用有序表解释完整性",
+          "action": "按橙数从0到10检查11条实际记录是否缺项或重复；说明橙数只能是0、1、…、10中的一个，蓝数被10−橙数唯一确定。写一般关系a+(10−a)=10，a为0到10整数。",
+          "actor": "child",
+          "caption": "列全的理由，不只是写得整齐。",
+          "adultNote": "11是有序颜色数量配对数，不是十格二色布局总数，也不是十次翻面的次数。"
+        },
+        {
+          "title": "改变数法并实际配对",
+          "action": "把每一对(a,10−a)与反向(10−a,a)在纸表中连起来，再实际将卡翻到2橙8蓝和8橙2蓝两个状态说明差别。若不区分两部分的身份，则归并为{0,10}到{5,5}共6类；保留两种计数约定。",
+          "actor": "together",
+          "caption": "改了什么算不同，答案才会变。",
+          "adultNote": "归并6类不推翻原11种，不能把有序和无序结果混在同一列。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "逐一变化的系统枚举",
+          "有序数量配对与无序分拆",
+          "状态数和操作次数不同"
+        ],
+        "explanation": "每翻一次卡使橙数加1、蓝数减1，总数仍10。从0到10有11个可能橙数，每个唯一确定蓝数，故有11种按颜色区分的数量配对。若忽略两部分身份，交换的数对合并，得到6类。",
+        "limits": "这里不是计算两色在十格中的所有布局：例如2橙8蓝可以放在许多不同格；固定翻序只选择其中一个代表。十次操作连接11状态，不能混数。",
+        "observation": "11个实际状态、漏翻/漏记修正、交换归并对应和2/8与8/2实际摆放。",
+        "nextQuestion": "若固定蓝卡数为6，却改为数不同位置，规则怎样影响布局总数？"
+      },
+      "guide": {
+        "goal": "用同十张双面卡实际逐张翻出所有颜色数量配对，再改变等价规则归并。",
+        "observe": "把十张双面卡按固定顺序逐张翻面，能不漏不重地摆出多少种按颜色区分的两部分数量？",
+        "support": "成人预画预裁并读出规则；孩子实际摆、移、翻卡并口述或记录，低龄可指格由成人代记。",
+        "control": "一格一卡满框；固定翻序；有序(橙,蓝)，起点和末态都计入。",
+        "time": "约15–20分钟，10次主翻面加两种回摆演示。",
+        "recordFields": [
+          "起点及十次翻后的有序数对",
+          "缺项、重复或翻错修正",
+          "11种的完整性理由",
+          "忽略身份后的6类与实际回摆"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "ten-1012-start",
+          "description": "十张全蓝，橙0蓝10的初始状态；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "起点：(橙,蓝)＝(0,10)",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "同10张双面卡，一格一张",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1012-flip",
+          "description": "固定序第一张翻橙，1橙9蓝；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "第一次翻面：(1,9)",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "下一张：先上排，再下排",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1012-last",
+          "description": "十次翻完后全橙，10橙0蓝；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 85,
+              "text": "第十次翻面：(10,0)",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "十次操作连接十一个状态",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1012-swap",
+          "description": "指定回摆示例2橙8蓝，之后实际再摆8橙2蓝；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#F3D5AE",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "先回摆(2,8)，再实际摆(8,2)",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "有序11种；忽略身份为6类",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Illustrative Mathematics｜Ten Frame Addition",
+          "url": "https://tasks.illustrativemathematics.org/content-standards/K/OA/A/1/tasks/1406",
+          "claim": "十格与逐个放置的计数物可帮助表示十以内加法，把两部分放在同一框中计总数。",
+          "scope": "参考十格数学教具方法；本方案改为4厘米大纸卡，不使用骰子或小计数片，具体数值和步骤独立构造。"
+        },
+        {
+          "title": "University of Cambridge NRICH｜Teams",
+          "url": "https://nrich.maths.org/problems/teams",
+          "claim": "组合问题可通过约束、系统记录与解释来组织推理。",
+          "scope": "仅参考系统穷举和组合思路；本页十格、空位对、30种布局及证明是独立数学构造，非该题原答案。"
+        }
+      ],
+      "sourceNote": "独立数学操作探究，未实地试教，不是物理或化学实验。指定示例和经推理确定的数学结论不等于实际课堂观察；漏数、重叠或少做要如实记录并核查，不能把操作错误当作另一条数学定律。来源支持方法，不代表机构认证。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "十格固定每行3张卡，若两行的空位不能处在同一列，共有多少种不同位置布局？",
+      "materials": [
+        "成人预裁同色同样大卡6张，各4×4厘米；全部蓝/B面，卡片身份不区分",
+        "另备记录纸2张，列空位对及检查是否重复",
+        "白纸或废纸A4至少3张；笔2支（或不同线型代替颜色）；30厘米直尺1把",
+        "成人预画十格框1张：2行5列，每格5×5厘米，总框25×10厘米，画在横放A4纸上",
+        "记录纸1张；橡皮1块仅成人保管（可不用，另画修正）"
+      ],
+      "safety": "全部纸卡由成人预先剪成至少4×4厘米、边平整的大卡，不用豆子、纽扣、硬币、小珠、小磁铁或小塑料计数片。纸卡、笔不入口，低龄全程成人近旁；有入口习惯只看成人摆卡。剪刀不交孩子，纸边避免划手，尺不挥舞。纸框放稳固桌面，卡不散到地上；不计速度、不比赛或强迫完成，累了可停。结束清点收齐大卡，橡皮等小件由成人收好。",
+      "steps": [
+        {
+          "title": "固定位置身份与基本约束",
+          "action": "十格框保持上/下两行和左至右1–5列，不旋转、不镜像归并。用6张同色卡每行各摆3张，每行因此留2空格。卡本身不编号，交换两张卡若占格不变算同一布局。先不施加“无同列空位”限制，试摆一例并记每行空列。",
+          "actor": "together",
+          "caption": "数位置，不数哪张卡去了哪里。",
+          "adultNote": "基本例可有共同空列；下一步新增限制后才需排除，不能把规则前后混算。"
+        },
+        {
+          "title": "实际列全一行十种空位对",
+          "action": "下行3卡暂保持不变，只移动上行3卡。按空位对小列号先排序，实际依次摆并记录(1,2),(1,3),(1,4),(1,5),(2,3),(2,4),(2,5),(3,4),(3,5),(4,5)。每个空位对用剩余3列放卡，检查每行仍3卡。说明按较小列号分组4+3+2+1=10，恰好无漏无重。",
+          "actor": "child",
+          "caption": "每个空位对都实际摆一次。",
+          "adultNote": "(1,2)与(2,1)是同一空位集合，只写小号在前；下行同样有10种，但无需伪称已摆完100整框布局。"
+        },
+        {
+          "title": "加入无同列空位并摆三例",
+          "action": "现在规定每一列不能上下同时空。固定上行空1、2，即上行卡在3、4、5；下行空位只能从剩余3、4、5列选2列。用同一个框依次实际摆下空(3,4)、(3,5)、(4,5)，记录三例并逐列检查。再试下空(1,3)这一反例，指出第1列同时空，所以不合新规则；随后恢复合法例。",
+          "actor": "child",
+          "caption": "同框依次摆，不需要三套卡。",
+          "adultNote": "不把“没有同列空位”误读为“没有同列放卡”：6卡在5列必有一列上下都占，仍合法。"
+        },
+        {
+          "title": "推理总数并说明未逐一摆的部分",
+          "action": "对任意一个上行空位对，剩余恰3列，下行从中选2空列总有3种；上行10种互不重复，每种下行3种，故10×3=30种。对照没有新增限制时10×10=100种，清楚写出不同规则。说明实际摆卡用于核对例子，30的完整性由分类乘法理由得出，不是观察了30次。",
+          "actor": "together",
+          "caption": "例子帮助检查，推理保证列全。",
+          "adultNote": "两行身份固定；若把旋转或镜像也看成同一种，须另分析，不能沿用30。结束清点6卡。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "位置布局与数量分解不同",
+          "空位对作为不重不漏的编码",
+          "约束下的分类乘法计数"
+        ],
+        "explanation": "每行5格放3张同卡等价于选2个空列。较小空列为1/2/3/4时分别有4/3/2/1种，合10。若上下空列不能重合，上行任取一对后，给下行留下3列选2空位，共3种。两行标签固定，每个完整布局唯一对应一个上对与下对，故总数为30。",
+        "limits": "30依赖每行3卡、无同列双空、列与上下行有身份、不辨卡身份这些规则。它不是所有6卡十格布局数，也不是无约束每行3卡的100种；课堂摆少数例不能单独构成完全性证明。",
+        "observation": "实际10个上行空位对、三合法配对和一反例、规则检查及10×3的完整性论证。",
+        "nextQuestion": "若改成必须恰有一列上下同时空，如何重新分类而不把卡身份重复计数？"
+      },
+      "guide": {
+        "goal": "实际枚举单行10种空位对并操作新增约束，用分类计数解释30种整框布局。",
+        "observe": "十格固定每行3张卡，若两行的空位不能处在同一列，共有多少种不同位置布局？",
+        "support": "成人预画预裁并读出规则；孩子实际摆、移、翻卡并口述或记录，低龄可指格由成人代记。",
+        "control": "同框6同卡，每行3，行列固定；上空对小号在前，加入上下空列不重合后按新规则数。",
+        "time": "约20–30分钟；10个单行摆法、3合法整框例及1反例。",
+        "recordFields": [
+          "10个上行空位对与实际摆放检查",
+          "上空1/2时三合法下空对及反例",
+          "10×3＝30的无漏无重理由",
+          "100与30的规则差别和未实摆范围"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "ten-1316-rule",
+          "description": "初始每行前三格放卡，同空4/5；尚未加入无同列空限制；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 136.6,
+              "y": 120,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 206.6,
+              "y": 120,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 276.6,
+              "y": 120,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 346.6,
+              "y": 120,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 416.6,
+              "y": 120,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "先定每行3张；暂允许同列空",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "上/下与列号固定，不辨卡身份",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1316-list",
+          "description": "上空1/2，下空4/5固定，展示单行枚举其中一例；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 120.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 134.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 136.6,
+              "y": 120,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 206.6,
+              "y": 120,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 276.6,
+              "y": 120,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 346.6,
+              "y": 120,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 416.6,
+              "y": 120,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "逐一摆上行10种空位对",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "下行暂固定；不声称摆过100种",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1316-three",
+          "description": "同框依次重摆的三例，上空1/2，下空34/35/45；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 40,
+              "y": 165,
+              "width": 160,
+              "height": 64,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 72,
+              "y1": 165,
+              "x2": 72,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 104,
+              "y1": 165,
+              "x2": 104,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 136,
+              "y1": 165,
+              "x2": 136,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 168,
+              "y1": 165,
+              "x2": 168,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 40,
+              "y1": 197,
+              "x2": 200,
+              "y2": 197,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 108.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 140.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 172.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 44.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 172.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 165,
+              "width": 160,
+              "height": 64,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 272,
+              "y1": 165,
+              "x2": 272,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 304,
+              "y1": 165,
+              "x2": 304,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 336,
+              "y1": 165,
+              "x2": 336,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 368,
+              "y1": 165,
+              "x2": 368,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 197,
+              "x2": 400,
+              "y2": 197,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 308.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 340.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 372.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 244.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 276.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 340.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 440,
+              "y": 165,
+              "width": 160,
+              "height": 64,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 472,
+              "y1": 165,
+              "x2": 472,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 504,
+              "y1": 165,
+              "x2": 504,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 536,
+              "y1": 165,
+              "x2": 536,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 568,
+              "y1": 165,
+              "x2": 568,
+              "y2": 229,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 440,
+              "y1": 197,
+              "x2": 600,
+              "y2": 197,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 508.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 540.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 572.8,
+              "y": 169.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 444.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 476.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 508.8,
+              "y": 201.8,
+              "width": 22.4,
+              "height": 22.4,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 85,
+              "text": "同一框依次摆：上空1、2不变",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 45,
+              "y": 145,
+              "text": "下空3、4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 245,
+              "y": 145,
+              "text": "下空3、5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 145,
+              "text": "下空4、5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 115,
+              "y": 280,
+              "text": "这是三次先后，不是三套材料",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "ten-1316-counter",
+          "description": "反例上空1/2下空1/3，第1列上下都空；图是指定数学操作示例，不是孩子已完成的观察记录。蓝卡标B，橙卡标O；图元大小为示意。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 110,
+              "y": 130,
+              "width": 350,
+              "height": 140,
+              "fill": "#FFFCF3",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 180,
+              "y1": 130,
+              "x2": 180,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 250,
+              "y1": 130,
+              "x2": 250,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 320,
+              "y1": 130,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 390,
+              "y1": 130,
+              "x2": 390,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 110,
+              "y1": 200,
+              "x2": 460,
+              "y2": 200,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 260.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 274.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 140.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 171.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 204.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 330.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 344.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 400.5,
+              "y": 210.5,
+              "width": 49.0,
+              "height": 49.0,
+              "fill": "#BEDDDD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 414.5,
+              "y": 241.3,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 136.6,
+              "y": 120,
+              "text": "1",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 206.6,
+              "y": 120,
+              "text": "2",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 276.6,
+              "y": 120,
+              "text": "3",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 346.6,
+              "y": 120,
+              "text": "4",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 416.6,
+              "y": 120,
+              "text": "5",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "反例：上空1、2；下空1、3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "第1列双空，不满足新规则",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Illustrative Mathematics｜Ten Frame Addition",
+          "url": "https://tasks.illustrativemathematics.org/content-standards/K/OA/A/1/tasks/1406",
+          "claim": "十格与逐个放置的计数物可帮助表示十以内加法，把两部分放在同一框中计总数。",
+          "scope": "参考十格数学教具方法；本方案改为4厘米大纸卡，不使用骰子或小计数片，具体数值和步骤独立构造。"
+        },
+        {
+          "title": "University of Cambridge NRICH｜Teams",
+          "url": "https://nrich.maths.org/problems/teams",
+          "claim": "组合问题可通过约束、系统记录与解释来组织推理。",
+          "scope": "仅参考系统穷举和组合思路；本页十格、空位对、30种布局及证明是独立数学构造，非该题原答案。"
+        }
+      ],
+      "sourceNote": "独立数学操作探究，未实地试教，不是物理或化学实验。指定示例和经推理确定的数学结论不等于实际课堂观察；漏数、重叠或少做要如实记录并核查，不能把操作错误当作另一条数学定律。来源支持方法，不代表机构认证。"
+    }
+  }
+}

@@ -1,0 +1,3210 @@
+{
+  "activityId": 36,
+  "activityTitle": "桌面也能变成地图",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "把三本书的位置变成三个纸长方形，别人能按这张图指出哪本在左、右或较远吗？",
+      "materials": [
+        "成人预裁纸长方形3片，每片约5×3厘米，分别写A/B/C",
+        "轻薄小书或小笔记本3本，封面各不大于15×10厘米、无尖角，不叠放",
+        "白纸A4至少2张；笔1支；直尺1把、带厘米刻度软尺1把",
+        "可移除纸胶带1卷；成人预裁A/B/C标签各1张和★方向标签1张（约4厘米宽）"
+      ],
+      "safety": "选择稳固低桌，工作区各边离桌沿至少10厘米；书全放在区内、不叠、不滑到桌边。成人负责划区、贴标签和移动可能够不到的物品；孩子坐稳或自然站稳在同一侧观察，不站椅子、攀爬、探身俯冲或把脸悬在桌面上方。不为正上方照片冒险，图是想象俯视和尺量，不需要拍照。书、纸、胶带不入口，纸边注意划手；剪裁由成人预先完成，尺不挥舞指人。够不到、桌面不足或物品易掉就停止并换合适空间，不缩安全边距。",
+      "steps": [
+        {
+          "title": "三本书安全摆好",
+          "action": "成人用纸胶带在桌内标60×40厘米矩形工作区（60厘米沿左右，40厘米由近到远），四边距桌沿至少10厘米；人固定站/坐在近边，远边中点贴★。所有书与边平行、长边沿左右，留间隔且不越工作区。★只指约定远边，不代表地理北。成人把A、B放近侧左右，C放远侧中间，不量精确书间距；请孩子说哪本靠自己、哪本较远。",
+          "actor": "adult",
+          "caption": "书稳稳的，人不用爬高。",
+          "adultNote": "俯视只是想象，不要求孩子从桌子正上方看。"
+        },
+        {
+          "title": "把位置搬到纸上",
+          "action": "成人在A4纸上画工作区长方形，标近边和远边★，让纸的★朝实际远边。孩子把A/B/C三张小长方形摆进图框，表示实物左右、近远关系；不要求按比例或精确相同距离。",
+          "actor": "together",
+          "caption": "三个小长方形代表三本书。",
+          "adultNote": "书不动，只摆纸片；字不会认可由成人读标签。"
+        },
+        {
+          "title": "按图指回实物",
+          "action": "成人在纸图上依次点一张纸片，请孩子指相应实物，再让孩子点图由成人指出实物。若指错，先核对纸的方向和标签，再移动纸片修正，不移动书来迁就图。",
+          "actor": "together",
+          "caption": "从图找到书，再从书找到图。",
+          "adultNote": "不设分数、不催速度；记录哪一处关系需要帮助。"
+        },
+        {
+          "title": "说出图没有画什么",
+          "action": "孩子说“这张图告诉我位置，没有告诉我书里讲什么”等自己的发现。把修正前后的摆法画下或口述，成人收齐纸片。",
+          "actor": "child",
+          "caption": "图可以省略，也可以改好。",
+          "adultNote": "不把大小画得不一样判为错误，本龄未规定比例。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "俯视表示与实物不同",
+          "左右近远和相对位置",
+          "符号替代物件"
+        ],
+        "explanation": "把一本书用小长方形代表，仍可保留它与其他书的相对位置。先把图的远边与实际远边对齐，能减少左右颠倒。",
+        "limits": "本图只表达大致位置，没有统一比例，也未测距离；不能用纸片之间的厘米数推算真实距离。",
+        "observation": "三本书与三纸片对应，左右近远指认及修正位置。",
+        "nextQuestion": "如果把图倒过来，怎样知道哪边应朝远处？"
+      },
+      "guide": {
+        "goal": "实际摆三纸片制图，再进行图物双向指认。",
+        "observe": "把三本书的位置变成三个纸长方形，别人能按这张图指出哪本在左、右或较远吗？",
+        "support": "成人负责安全布局、预裁和必要移动；孩子可指认、画图或尺量，低龄可口述由成人代记。",
+        "control": "三书保持原位；固定近侧观察、★远边；只调整图，不要求比例。",
+        "time": "约5–10分钟，随时可停。",
+        "recordFields": [
+          "书与纸片怎么对应",
+          "哪处近远／左右需要修正",
+          "孩子原话与成人帮助"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "map-46-books",
+          "description": "实际区三书，A/B近、C远；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 120,
+              "width": 300,
+              "height": 160,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 106.0,
+              "y": 224.0,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 114.0,
+              "y": 247.0,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 224.0,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 297.0,
+              "y": 247.0,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 199.0,
+              "y": 145.6,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 207.0,
+              "y": 168.6,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "三本书不叠放；★是远边",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 300,
+              "text": "近侧：观察者固定在这里",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-46-pieces",
+          "description": "左为实物，右为纸片图，方向相同；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 130,
+              "width": 290,
+              "height": 140,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 190.0,
+              "y": 120,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 94.8,
+              "y": 221.0,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 102.8,
+              "y": 244.0,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 271.7,
+              "y": 221.0,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279.7,
+              "y": 244.0,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 184.7,
+              "y": 152.4,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 192.7,
+              "y": 175.4,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 415,
+              "y": 140,
+              "width": 160,
+              "height": 105,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 563,
+              "y1": 170,
+              "x2": 563,
+              "y2": 148,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 547,
+              "y": 130,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 427.2,
+              "y": 203.6,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 436.2,
+              "y": 221.6,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 521.6,
+              "y": 203.6,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 530.6,
+              "y": 221.6,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 473.6,
+              "y": 156.35,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 482.6,
+              "y": 174.35,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 85,
+              "text": "摆纸片表示位置，不按比例",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 365,
+              "y1": 215,
+              "x2": 400,
+              "y2": 215,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-46-match",
+          "description": "指图找实物，不移动书；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 60,
+              "y": 130,
+              "width": 290,
+              "height": 140,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 190.0,
+              "y": 120,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 94.8,
+              "y": 221.0,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 102.8,
+              "y": 244.0,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 271.7,
+              "y": 221.0,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279.7,
+              "y": 244.0,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 184.7,
+              "y": 152.4,
+              "width": 55.1,
+              "height": 30.8,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 192.7,
+              "y": 175.4,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 415,
+              "y": 140,
+              "width": 160,
+              "height": 105,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 563,
+              "y1": 170,
+              "x2": 563,
+              "y2": 148,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 547,
+              "y": 130,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 427.2,
+              "y": 203.6,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 436.2,
+              "y": 221.6,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 521.6,
+              "y": 203.6,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 530.6,
+              "y": 221.6,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 473.6,
+              "y": 156.35,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 482.6,
+              "y": 174.35,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 85,
+              "text": "图指向书；书再指回图",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 405,
+              "y1": 245,
+              "x2": 350,
+              "y2": 245,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-46-end",
+          "description": "三纸片修正图与真实书对应；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 135,
+              "width": 320,
+              "height": 135,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 458,
+              "y1": 165,
+              "x2": 458,
+              "y2": 143,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 442,
+              "y": 125,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 189.4,
+              "y": 220.2,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 198.4,
+              "y": 238.2,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 378.2,
+              "y": 220.2,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 387.2,
+              "y": 238.2,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 282.20000000000005,
+              "y": 159.45,
+              "width": 30,
+              "height": 24,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 291.20000000000005,
+              "y": 177.45,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "位置图可修正；距离未测量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 140,
+              "y": 300,
+              "text": "未规定比例，不读图上厘米数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Geographic Education｜Mapping the Classroom",
+          "url": "https://education.nationalgeographic.org/resource/mapping-the-classroom/",
+          "claim": "可将熟悉空间以俯视位置和符号表示，用位置语言读图、改图。",
+          "scope": "独立缩小为桌面任务；不采用原活动藏小物或蒙眼寻宝，不攀爬求俯视。"
+        }
+      ],
+      "sourceNote": "独立跨学科空间探究与制图任务，未实地试做；示意图不预填实测坐标或恢复误差。尺寸、方向、图例和定位点均需按本页约定，来源用于原理核对，不代表机构认证。"
+    },
+    "7-9": {
+      "version": 1,
+      "question": "用○、□、×和远边★读六格桌面图，移动一本书并把纸图倒转后还能正确定位吗？",
+      "materials": [
+        "成人预裁○、□、×符号标签各1张，约4厘米宽；另备A4纸1张画六格图",
+        "轻薄小书或小笔记本3本，封面各不大于15×10厘米、无尖角，不叠放",
+        "白纸A4至少2张；笔1支；直尺1把、带厘米刻度软尺1把",
+        "可移除纸胶带1卷；成人预裁A/B/C标签各1张和★方向标签1张（约4厘米宽）"
+      ],
+      "safety": "选择稳固低桌，工作区各边离桌沿至少10厘米；书全放在区内、不叠、不滑到桌边。成人负责划区、贴标签和移动可能够不到的物品；孩子坐稳或自然站稳在同一侧观察，不站椅子、攀爬、探身俯冲或把脸悬在桌面上方。不为正上方照片冒险，图是想象俯视和尺量，不需要拍照。书、纸、胶带不入口，纸边注意划手；剪裁由成人预先完成，尺不挥舞指人。够不到、桌面不足或物品易掉就停止并换合适空间，不缩安全边距。",
+      "steps": [
+        {
+          "title": "实际划出六格与图例",
+          "action": "成人用纸胶带在桌内标60×40厘米矩形工作区（60厘米沿左右，40厘米由近到远），四边距桌沿至少10厘米；人固定站/坐在近边，远边中点贴★。所有书与边平行、长边沿左右，留间隔且不越工作区。★只指约定远边，不代表地理北。将工作区分为3列2行，每格20×20厘米；列按固定近侧观察从左到右1、2、3，行称近/远。A书贴○放近1格，B贴□放近3格，C贴×放远2格，均完全在格内。纸图也画3列2行，图旁写○=A、□=B、×=C，并标★远边。",
+          "actor": "adult",
+          "caption": "图例说是谁，格位说在哪。",
+          "adultNote": "格子用来定位，不把纸上格大小当精确比例。"
+        },
+        {
+          "title": "按图找三本书",
+          "action": "孩子不看书封面文字，先按纸图符号说格位，再指实物，成人核对。保持固定近侧视角，读列号时先确认★在远边。",
+          "actor": "child",
+          "caption": "先看方向，再读行列。",
+          "adultNote": "不会认列号可以口述左中右，由成人转写。"
+        },
+        {
+          "title": "实际移一本并更新图",
+          "action": "成人把C从远2格移到空的远1格，其他书不动。孩子指出旧图哪处过时，将×改到远1格，原×位置划去或擦去，保留改动说明。",
+          "actor": "together",
+          "caption": "书真的换位置，图也要更新。",
+          "adultNote": "只改一书，C仍在格内；地图不能同时保留两个未解释的C。"
+        },
+        {
+          "title": "纸图倒转再定向",
+          "action": "成人把更新的纸图平面旋转180度，实物不动、人不换座位。孩子先用★把图转回与桌面对齐，再依次报○、□、×的行列。记录是否先定向、哪些地方不清楚。",
+          "actor": "together",
+          "caption": "转纸找★，不用爬到桌对面。",
+          "adultNote": "本活动约定远边不是北方，不用此图导航到真实东南西北。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "图例与格位各有作用",
+          "图与实物的方向对齐",
+          "更新地图与信息时效"
+        ],
+        "explanation": "符号帮助识别对象，行列帮助表达区域位置；★把纸图与固定桌面方向联系起来。物件移动后图需要更新，旋转纸张并不表示书跟着移动。",
+        "limits": "六格只能告诉书在哪个20厘米格内，不提供书角精确坐标；没有指南针，★不能宣称地理北。",
+        "observation": "初始格位、C的实际移动、旧图到新图更新，以及旋转后定位。",
+        "nextQuestion": "要知道一本书在格内离边多远，还要量什么？"
+      },
+      "guide": {
+        "goal": "实际六格定位、移动C更新图并执行180度转图定向。",
+        "observe": "用○、□、×和远边★读六格桌面图，移动一本书并把纸图倒转后还能正确定位吗？",
+        "support": "成人负责安全布局、预裁和必要移动；孩子可指认、画图或尺量，低龄可口述由成人代记。",
+        "control": "区60×40厘米，3列2行；A近1、B近3、C远2→远1，固定近侧人位和★。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "○□×图例与初始格位",
+          "C移动后图的改动",
+          "转图前后方向判断与不清楚处"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "map-79-grid",
+          "description": "六格与三书初始布置，○A□B×C；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 120,
+              "width": 300,
+              "height": 160,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 205.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 170.0,
+              "y1": 120,
+              "x2": 170.0,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 270.0,
+              "y1": 120,
+              "x2": 270.0,
+              "y2": 280,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 70,
+              "y1": 200.0,
+              "x2": 370,
+              "y2": 200.0,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 106.0,
+              "y": 224.0,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 114.0,
+              "y": 247.0,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 148.0,
+              "y": 243.2,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 289.0,
+              "y": 224.0,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 297.0,
+              "y": 247.0,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 323.0,
+              "y": 235.2,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 199.0,
+              "y": 145.6,
+              "width": 57.0,
+              "height": 35.2,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 207.0,
+              "y": 168.6,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 233.0,
+              "y1": 156.79999999999998,
+              "x2": 249.0,
+              "y2": 172.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 233.0,
+              "y1": 172.79999999999998,
+              "x2": 249.0,
+              "y2": 156.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 85,
+              "text": "每格20×20厘米；★为远边",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 165,
+              "text": "○ = A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 205,
+              "text": "□ = B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 245,
+              "text": "× = C",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-79-read",
+          "description": "纸图六格和实物同向；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 135,
+              "width": 290,
+              "height": 135,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 125,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 146.66666666666669,
+              "y1": 135,
+              "x2": 146.66666666666669,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 243.33333333333334,
+              "y1": 135,
+              "x2": 243.33333333333334,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 202.5,
+              "x2": 340,
+              "y2": 202.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 84.8,
+              "y": 222.75,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 92.8,
+              "y": 245.75,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 125.4,
+              "y": 238.95,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 261.7,
+              "y": 222.75,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269.7,
+              "y": 245.75,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 294.3,
+              "y": 230.95,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 174.7,
+              "y": 156.6,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 182.7,
+              "y": 179.6,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 207.29999999999998,
+              "y1": 164.79999999999998,
+              "x2": 223.29999999999998,
+              "y2": 180.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 207.29999999999998,
+              "y1": 180.79999999999998,
+              "x2": 223.29999999999998,
+              "y2": 164.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 415,
+              "y": 140,
+              "width": 160,
+              "height": 105,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 563,
+              "y1": 170,
+              "x2": 563,
+              "y2": 148,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 547,
+              "y": 130,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 468.3333333333333,
+              "y1": 140,
+              "x2": 468.3333333333333,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 521.6666666666666,
+              "y1": 140,
+              "x2": 521.6666666666666,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 192.5,
+              "x2": 575,
+              "y2": 192.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 442.2,
+              "y": 215.6,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 528.6,
+              "y": 207.6,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.6,
+              "y1": 160.35,
+              "x2": 496.6,
+              "y2": 176.35,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 480.6,
+              "y1": 176.35,
+              "x2": 496.6,
+              "y2": 160.35,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 85,
+              "text": "行：近／远；列：左起1、2、3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-79-move",
+          "description": "C真实移到远1格，图符号同步更新；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 50,
+              "y": 135,
+              "width": 290,
+              "height": 135,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 180.0,
+              "y": 125,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 146.66666666666669,
+              "y1": 135,
+              "x2": 146.66666666666669,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 243.33333333333334,
+              "y1": 135,
+              "x2": 243.33333333333334,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 50,
+              "y1": 202.5,
+              "x2": 340,
+              "y2": 202.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 84.8,
+              "y": 222.75,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 92.8,
+              "y": 245.75,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 125.4,
+              "y": 238.95,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 261.7,
+              "y": 222.75,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269.7,
+              "y": 245.75,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 294.3,
+              "y": 230.95,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 84.8,
+              "y": 156.6,
+              "width": 55.1,
+              "height": 29.7,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 92.8,
+              "y": 179.6,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 117.4,
+              "y1": 164.79999999999998,
+              "x2": 133.4,
+              "y2": 180.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 117.4,
+              "y1": 180.79999999999998,
+              "x2": 133.4,
+              "y2": 164.79999999999998,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 415,
+              "y": 140,
+              "width": 160,
+              "height": 105,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 563,
+              "y1": 170,
+              "x2": 563,
+              "y2": 148,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 547,
+              "y": 130,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 468.3333333333333,
+              "y1": 140,
+              "x2": 468.3333333333333,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 521.6666666666666,
+              "y1": 140,
+              "x2": 521.6666666666666,
+              "y2": 245,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 192.5,
+              "x2": 575,
+              "y2": 192.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 442.2,
+              "y": 215.6,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 528.6,
+              "y": 207.6,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 434.2,
+              "y1": 160.35,
+              "x2": 450.2,
+              "y2": 176.35,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 434.2,
+              "y1": 176.35,
+              "x2": 450.2,
+              "y2": 160.35,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 110,
+              "y": 85,
+              "text": "C：远2 → 远1；只改一本",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-79-turn",
+          "description": "图示更新后正确对齐方向；实际先转180度再转回；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 150,
+              "y": 140,
+              "width": 320,
+              "height": 135,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 458,
+              "y1": 170,
+              "x2": 458,
+              "y2": 148,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 442,
+              "y": 130,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 256.6666666666667,
+              "y1": 140,
+              "x2": 256.6666666666667,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 363.33333333333337,
+              "y1": 140,
+              "x2": 363.33333333333337,
+              "y2": 275,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 150,
+              "y1": 207.5,
+              "x2": 470,
+              "y2": 207.5,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 204.4,
+              "y": 237.2,
+              "r": 9,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 385.2,
+              "y": 229.2,
+              "width": 16,
+              "height": 16,
+              "fill": "none",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 196.4,
+              "y1": 168.45,
+              "x2": 212.4,
+              "y2": 184.45,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 196.4,
+              "y1": 184.45,
+              "x2": 212.4,
+              "y2": 168.45,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 85,
+              "text": "先旋转纸180°，再用★转回",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 300,
+              "text": "只转纸，实物和人位置不动",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Geographic Education｜Mapping the Classroom",
+          "url": "https://education.nationalgeographic.org/resource/mapping-the-classroom/",
+          "claim": "可将熟悉空间以俯视位置和符号表示，用位置语言读图、改图。",
+          "scope": "独立缩小为桌面任务；不采用原活动藏小物或蒙眼寻宝，不攀爬求俯视。"
+        },
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺描述图上长度与实际对应长度的比；读图还需明确方向。",
+          "scope": "用于比例和方向概念，本任务不用指南针、不将桌面★当真实北方。"
+        }
+      ],
+      "sourceNote": "独立跨学科空间探究与制图任务，未实地试做；示意图不预填实测坐标或恢复误差。尺寸、方向、图例和定位点均需按本页约定，来源用于原理核对，不代表机构认证。"
+    },
+    "10-12": {
+      "version": 1,
+      "question": "测三本书同一角点的桌面坐标，再画成1:5点位图，图上位置能换回原来的厘米坐标吗？",
+      "materials": [
+        "带毫米刻度的30厘米直尺1把（可代替基础材料中的直尺）；另备记录纸1张",
+        "轻薄小书或小笔记本3本，封面各不大于15×10厘米、无尖角，不叠放",
+        "白纸A4至少2张；笔1支；直尺1把、带厘米刻度软尺1把",
+        "可移除纸胶带1卷；成人预裁A/B/C标签各1张和★方向标签1张（约4厘米宽）"
+      ],
+      "safety": "选择稳固低桌，工作区各边离桌沿至少10厘米；书全放在区内、不叠、不滑到桌边。成人负责划区、贴标签和移动可能够不到的物品；孩子坐稳或自然站稳在同一侧观察，不站椅子、攀爬、探身俯冲或把脸悬在桌面上方。不为正上方照片冒险，图是想象俯视和尺量，不需要拍照。书、纸、胶带不入口，纸边注意划手；剪裁由成人预先完成，尺不挥舞指人。够不到、桌面不足或物品易掉就停止并换合适空间，不缩安全边距。",
+      "steps": [
+        {
+          "title": "先约定原点和角点",
+          "action": "成人用纸胶带在桌内标60×40厘米矩形工作区（60厘米沿左右，40厘米由近到远），四边距桌沿至少10厘米；人固定站/坐在近边，远边中点贴★。所有书与边平行、长边沿左右，留间隔且不越工作区。★只指约定远边，不代表地理北。成人将三书摆在区内不同位置，留空且不重叠，贴A/B/C。取工作区近左内角为原点O，沿近边向右为x，向远边为y，单位厘米。每本书的定位点固定为封面靠近原点一侧的近左角；不是中心、书脊或纸标签中心。x量该角到左边界的垂直距离，y量到近边界的垂直距离，尺与边平行，读至整厘米；书长边始终平行近边。纸上画O和x/y箭头，暂不填坐标。",
+          "actor": "together",
+          "caption": "每本都量同一种角，不量中心。",
+          "adultNote": "远侧尺量由成人协助，身体不探到桌子上；书若移动需重新记录。"
+        },
+        {
+          "title": "真实量三对坐标",
+          "action": "沿两条互相垂直方向分别测A/B/C的x、y，读到最近整厘米，记录原始六个数与读不清处，不按示意图数字填。若软尺弯曲或起点错，保留旧读数、标原因后重测，不悄悄覆盖。",
+          "actor": "child",
+          "caption": "x和y都用厘米。",
+          "adultNote": "软尺用于较长距离，要拉直且贴平不绷弹；直尺帮助对齐边，不能把斜距当x或y。"
+        },
+        {
+          "title": "按1:5实际绘制点位图",
+          "action": "在纸上用尺画12×8厘米图框，近左角O，x向右、y向★远边，写“1:5；图1厘米=桌5厘米”。把每个实测x、y除以5，以图上厘米从O量出并点A/B/C；桌面整1厘米对应图上2毫米。点只标书角，书的外形大小不按比例描。",
+          "actor": "child",
+          "caption": "实际除以5，再用尺落点。",
+          "adultNote": "用毫米尺落2毫米档，不报小数点后很多位；图框若画错尺寸先改框，不能靠改比例标签补救。"
+        },
+        {
+          "title": "从图反读并核对",
+          "action": "用尺读每个图点到图框左/近边的距离到2毫米档，乘5换回桌面厘米，与原始坐标逐个核对。记录差异或无法读清，再改图；书保持原位。",
+          "actor": "together",
+          "caption": "图上数乘5，回到桌面厘米。",
+          "adultNote": "纸笔线宽、量尺不正会造成差别；零差异只表示在当前取整档内一致，不代表无误差。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "相对原点的二维坐标",
+          "一致单位下的1:5长度比例",
+          "角点符号与书外形不同"
+        ],
+        "explanation": "以固定原点和两条垂直轴可描述书的一个定位角。1:5把对应长度缩为五分之一：60×40厘米工作区成为12×8厘米图框；点位与物件尺寸是不同信息。",
+        "limits": "本任务只测平面角点，不测书厚或外形。桌面读整厘米、图上2毫米档，线宽和对齐限制结果；不是GPS、航空影像或精密测绘。",
+        "observation": "三本书原始(x,y)厘米、图点坐标、反算值与修正原因。",
+        "nextQuestion": "别人没见过原布局，只靠这个图能把三本书摆回来吗？"
+      },
+      "guide": {
+        "goal": "真实尺量三书角点，按1:5制作坐标点图并反读检验。",
+        "observe": "测三本书同一角点的桌面坐标，再画成1:5点位图，图上位置能换回原来的厘米坐标吗？",
+        "support": "成人负责安全布局、预裁和必要移动；孩子可指认、画图或尺量，低龄可口述由成人代记。",
+        "control": "区60×40厘米、固定O/x/y/★，同一近左角点，桌读整厘米、图2毫米档，书不动。",
+        "time": "约18–25分钟。",
+        "recordFields": [
+          "三书原始(x,y)厘米与重测说明",
+          "1:5图点位置与图框尺寸",
+          "图读数×5的反算与差异",
+          "取整、线宽和对齐限制"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "map-1012-origin",
+          "description": "点标每本书近左角，O在工作区近左，坐标方向固定；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 108.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 108.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 116.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 263.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 183.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 183.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 191.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 80,
+              "y2": 120,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 288,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 292,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 135,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "固定近左角点；不是书中心",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 180,
+              "text": "x向右",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 220,
+              "text": "y向★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1012-measure",
+          "description": "实际量点到左边和近边距离，线为量距方向示意；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 108.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 108.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 116.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 263.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 183.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 183.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 191.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 250,
+              "x2": 109,
+              "y2": 250,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 109,
+              "y1": 250,
+              "x2": 109,
+              "y2": 270,
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 85,
+              "text": "量x、y：沿边平行，不量斜线",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 185,
+              "text": "读整厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 225,
+              "text": "书保持原位",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1012-scale",
+          "description": "左工作区与右放大纸图示意，点对应同一书角；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 93.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 101.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 240.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 240.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 248.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 168.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 168.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 155,
+              "width": 120,
+              "height": 80,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 468.0,
+              "y": 143,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 540,
+              "y2": 235,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 155,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 253,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 530,
+              "y": 257,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 170,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 434.4,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 441.4,
+              "y": 217.6,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 507.6,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 514.6,
+              "y": 217.6,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 471.6,
+              "y": 185.4,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 478.6,
+              "y": 178.4,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 85,
+              "text": "60×40厘米 → 12×8厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 280,
+              "text": "纸图放大示意",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1012-backread",
+          "description": "纸上角点图反算，图尺寸需按文字实际画；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 135,
+              "width": 180,
+              "height": 120,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 258.0,
+              "y": 123,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 180,
+              "y1": 255,
+              "x2": 360,
+              "y2": 255,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 180,
+              "y1": 255,
+              "x2": 180,
+              "y2": 135,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 273,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 350,
+              "y": 277,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 150,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 201.6,
+              "y": 239.4,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 208.6,
+              "y": 232.4,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 311.4,
+              "y": 239.4,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 318.4,
+              "y": 232.4,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 257.4,
+              "y": 180.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 264.4,
+              "y": 173.6,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "图1厘米=桌5厘米；位置反读",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 300,
+              "text": "示意图放大，不能拿屏幕长度量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺描述图上长度与实际对应长度的比；读图还需明确方向。",
+          "scope": "用于比例和方向概念，本任务不用指南针、不将桌面★当真实北方。"
+        },
+        {
+          "title": "Geoscience Australia｜What is Map Scale?",
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/topographic-maps-data/basics/what-is-map-scale",
+          "claim": "地图比例尺是图距与对应实际距离的关系；单位换算必须一致。",
+          "scope": "用于1:5桌面点位图换算，不把纸笔结果当测绘级定位。"
+        },
+        {
+          "title": "USGS｜27 Ideas for Teaching with Topographic Maps",
+          "url": "https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0",
+          "claim": "坐标系统需明确原点，定位精度与用途有关，重复读图有局限。",
+          "scope": "仅参考坐标、相对位置和精度讨论；不用GPS、外出测绘、经纬度或仪器精度假设。"
+        }
+      ],
+      "sourceNote": "独立跨学科空间探究与制图任务，未实地试做；示意图不预填实测坐标或恢复误差。尺寸、方向、图例和定位点均需按本页约定，来源用于原理核对，不代表机构认证。"
+    },
+    "13-16": {
+      "version": 1,
+      "question": "没有看过原布局的人只靠1:5点位图复原三本书，角点坐标与原始记录相差多少？",
+      "materials": [
+        "带毫米刻度的30厘米直尺1把（可代替基础直尺）；另备记录纸2张",
+        "用于遮住原始坐标记录的A4纸1张；需要成人制图者1位与学习者读图者1位",
+        "轻薄小书或小笔记本3本，封面各不大于15×10厘米、无尖角，不叠放",
+        "白纸A4至少2张；笔1支；直尺1把、带厘米刻度软尺1把",
+        "可移除纸胶带1卷；成人预裁A/B/C标签各1张和★方向标签1张（约4厘米宽）"
+      ],
+      "safety": "选择稳固低桌，工作区各边离桌沿至少10厘米；书全放在区内、不叠、不滑到桌边。成人负责划区、贴标签和移动可能够不到的物品；孩子坐稳或自然站稳在同一侧观察，不站椅子、攀爬、探身俯冲或把脸悬在桌面上方。不为正上方照片冒险，图是想象俯视和尺量，不需要拍照。书、纸、胶带不入口，纸边注意划手；剪裁由成人预先完成，尺不挥舞指人。够不到、桌面不足或物品易掉就停止并换合适空间，不缩安全边距。",
+      "steps": [
+        {
+          "title": "制图者保留原布局读数",
+          "action": "成人作为制图者，学习者作为读图者，准备阶段背向桌面坐着做其他事，不蒙眼、不移动找角度，也不看原坐标。成人用纸胶带在桌内标60×40厘米矩形工作区（60厘米沿左右，40厘米由近到远），四边距桌沿至少10厘米；人固定站/坐在近边，远边中点贴★。所有书与边平行、长边沿左右，留间隔且不越工作区。★只指约定远边，不代表地理北。成人自由摆三书且同向，贴A/B/C。取工作区近左内角为原点O，沿近边向右为x，向远边为y，单位厘米。每本书的定位点固定为封面靠近原点一侧的近左角；不是中心、书脊或纸标签中心。x量该角到左边界的垂直距离，y量到近边界的垂直距离，尺与边平行，读至整厘米；书长边始终平行近边。每本x/y各独立量两遍、每遍读整厘米并保留。预先约定第一遍为作图和之后比较的参考；第二遍只检查读数重复性，不取最利于结果的一遍。",
+          "actor": "adult",
+          "caption": "读图者还没见原布局。",
+          "adultNote": "若两遍差异明显，检查尺线/书是否移动；发现操作错误则标原布局无效、重新开始准备，不带病当精确真值。"
+        },
+        {
+          "title": "完成图后撤下三书",
+          "action": "成人用第一遍坐标画12×8厘米1:5点位图，O/x/y/★、A/B/C、图例“点=书的近左角”、长边平行近边都写清；图不另写原始坐标数字。收起原读数并用纸盖住，再撤下三书放安全旁侧，保留工作区边界/原点/★，不留书位置胶带印或书轮廓。",
+          "actor": "adult",
+          "caption": "给点位图，不给原布局提示。",
+          "adultNote": "书撤下后学习者才转向桌面；若已看见原布局，记录为非盲读，不能称这次为未见布局测试。"
+        },
+        {
+          "title": "读图者实际复原三书",
+          "action": "学习者只用纸图、尺、原点与方向标记，将图距×5换成实际厘米，按A/B/C把三书摆回区内，长边平行近边。不许制图者给位置提示或手势纠正，安全提醒不受此限。读图者宣布完成后，两人按同一定位点约定量复原x/y到整厘米，先记录再揭原读数。",
+          "actor": "child",
+          "caption": "读图换算，再真的摆回去。",
+          "adultNote": "提出的图例/方向疑问先记录；若需要解释或代摆才能继续，标“有提示复原”，不混同无提示结果。"
+        },
+        {
+          "title": "计算两方向偏差，不先修位置",
+          "action": "揭开原始记录，对每本算Δx=x复原−x首测、Δy=y复原−y首测，单位厘米，同时列原两遍读数差。正负号分别表示向右/向远偏移，保留六个偏差；不要先挪到正确位置再量。若需修图或再摆，另列第二轮，说明已看原布局有练习效应。",
+          "actor": "together",
+          "caption": "偏差不是测得绝对真值误差。",
+          "adultNote": "原坐标也有尺量和取整误差；本次只有一人一次三物件，三本书不是三个独立读图者。无偏差只代表当前记录档一致。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "读图信息的实际独立使用",
+          "参考读数与真值的区别",
+          "有符号位置偏差与重复读数"
+        ],
+        "explanation": "盲读复原把地图当成传递空间信息的工具：读图者需要清楚的原点、方向、比例和定位点，才能将点位变回实物布局。两方向偏差能指出本次偏移方式，但参考读数本身不是绝对真值。",
+        "limits": "地图绘制、尺量取整、读图、书方向与放置都会贡献差异。首测作参考是预先规则，不能挑更贴近复原结果的读数；一套三书不能保证其他读图者同样表现。",
+        "observation": "原两遍坐标、是否未见布局、提示记录、复原坐标、各Δx/Δy与修正前状态。",
+        "nextQuestion": "怎样增加新的读图者或新布局，区分图不清楚与个人读图习惯？"
+      },
+      "guide": {
+        "goal": "实际进行未见布局的点位图复原，并保留原始读数与坐标偏差。",
+        "observe": "没有看过原布局的人只靠1:5点位图复原三本书，角点坐标与原始记录相差多少？",
+        "support": "成人负责安全布局、预裁和必要移动；孩子可指认、画图或尺量，低龄可口述由成人代记。",
+        "control": "同60×40厘米区、1:5点图、同角点方向、首测参考；成人制图、学习者未见原布局且无位置提示。",
+        "time": "约25–35分钟；只做一次无提示复原，重复另列。",
+        "recordFields": [
+          "原布局两遍(x,y)厘米及参考约定",
+          "图中信息、是否盲读与提示",
+          "三书复原坐标与Δx/Δy厘米",
+          "读数差、取整限制与改进"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "map-1316-reference",
+          "description": "制图者测原布局，读图者尚未看到；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 108.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 108.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 116.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 263.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 183.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 183.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 191.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 80,
+              "y2": 120,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 288,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 292,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 135,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "原坐标量两遍；首遍作参考",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 390,
+              "y": 150,
+              "width": 170,
+              "height": 100,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 190,
+              "text": "原始记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 405,
+              "y": 230,
+              "text": "先不展示",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1316-clear",
+          "description": "原书已撤下，只有工作区边界和点位图给读图者；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 155,
+              "width": 120,
+              "height": 80,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 468.0,
+              "y": 143,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 540,
+              "y2": 235,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 155,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 253,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 530,
+              "y": 257,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 170,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 434.4,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 441.4,
+              "y": 217.6,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 507.6,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 514.6,
+              "y": 217.6,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 471.6,
+              "y": 185.4,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 478.6,
+              "y": 178.4,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 85,
+              "text": "撤下三书，不留原位置印记",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 280,
+              "text": "纸图放大示意",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1316-restore",
+          "description": "读图者实际摆书，图中布局仅示例非成功保证；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 93.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 93.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 101.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 240.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 240.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 248.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 168.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 168.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 176.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 420,
+              "y": 155,
+              "width": 120,
+              "height": 80,
+              "fill": "#FFFDFC",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 468.0,
+              "y": 143,
+              "text": "★",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 540,
+              "y2": 235,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 420,
+              "y1": 235,
+              "x2": 420,
+              "y2": 155,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 253,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 530,
+              "y": 257,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 400,
+              "y": 170,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 434.4,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 441.4,
+              "y": 217.6,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 507.6,
+              "y": 224.6,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 514.6,
+              "y": 217.6,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "circle",
+              "x": 471.6,
+              "y": 185.4,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 478.6,
+              "y": 178.4,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 90,
+              "y": 85,
+              "text": "读图×5复原；先量再揭记录",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 385,
+              "y": 280,
+              "text": "不提示位置",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "map-1316-check",
+          "description": "复原点位与坐标方向用于记录差值，不预填误差；俯视装置示意，不用于读取实测坐标。示例位置非观察数据，纸上点符号大小不代表书的实际大小。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 120,
+              "width": 240,
+              "height": 150,
+              "fill": "#F6F0DF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 185.0,
+              "y": 110,
+              "text": "★",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 108.8,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 108.8,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 116.8,
+              "y": 244.5,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255.2,
+              "y": 217.5,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 255.2,
+              "y": 250.5,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 263.2,
+              "y": 244.5,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 183.2,
+              "y": 144.0,
+              "width": 45.6,
+              "height": 33.0,
+              "fill": "#E0E9DB",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 183.2,
+              "y": 177.0,
+              "r": 4,
+              "fill": "#B36F46",
+              "stroke": "#8E5E3C",
+              "strokeWidth": 1
+            },
+            {
+              "type": "text",
+              "x": 191.2,
+              "y": 171.0,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 320,
+              "y2": 270,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 80,
+              "y1": 270,
+              "x2": 80,
+              "y2": 120,
+              "stroke": "#AC7547",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 288,
+              "text": "O",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 310,
+              "y": 292,
+              "text": "x",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 60,
+              "y": 135,
+              "text": "y",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 85,
+              "text": "Δx、Δy分开记录，单位厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 175,
+              "text": "不先修位置",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 380,
+              "y": 220,
+              "text": "不当绝对真值",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "USGS｜Finding Your Way With Map and Compass",
+          "url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+          "claim": "比例尺描述图上长度与实际对应长度的比；读图还需明确方向。",
+          "scope": "用于比例和方向概念，本任务不用指南针、不将桌面★当真实北方。"
+        },
+        {
+          "title": "Geoscience Australia｜What is Map Scale?",
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/topographic-maps-data/basics/what-is-map-scale",
+          "claim": "地图比例尺是图距与对应实际距离的关系；单位换算必须一致。",
+          "scope": "用于1:5桌面点位图换算，不把纸笔结果当测绘级定位。"
+        },
+        {
+          "title": "USGS｜27 Ideas for Teaching with Topographic Maps",
+          "url": "https://www.usgs.gov/educational-resources/27-ideas-teaching-topographic-maps-0",
+          "claim": "坐标系统需明确原点，定位精度与用途有关，重复读图有局限。",
+          "scope": "仅参考坐标、相对位置和精度讨论；不用GPS、外出测绘、经纬度或仪器精度假设。"
+        }
+      ],
+      "sourceNote": "独立跨学科空间探究与制图任务，未实地试做；示意图不预填实测坐标或恢复误差。尺寸、方向、图例和定位点均需按本页约定，来源用于原理核对，不代表机构认证。"
+    }
+  }
+}

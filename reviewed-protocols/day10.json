@@ -1,0 +1,2999 @@
+{
+  "activityId": 10,
+  "activityTitle": "苹果怎样少变褐",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "同一片苹果切面，在刚切开、20分钟和60分钟时看起来一样吗？",
+      "materials": [
+        "完整无碰伤苹果1个（只取1片观察）",
+        "成人用刀1把、砧板1块；小白盘1个；托盘1个",
+        "白纸1张、记录纸1张、彩笔1套",
+        "带拍照和计时功能的手机1部，仅成人操作"
+      ],
+      "safety": "4–6岁全程成人近距离陪伴，孩子不碰刀、不拿切片。刀与砧板上的全部切片操作只由成人完成，切完立即收刀；样品和处理液均不入口、不用于试吃或留作食物。材料放托盘中，室温避开烈日和热源，不盖严、不加热，每片只观察到切开或处理后约60分钟，留存末次照片后即由成人逐片丢弃，不等待末片；洒液立即擦干，结束洗手。若已知苹果过敏，不接触本材料。本龄段不使用柠檬汁或其他处理液。",
+      "steps": [
+        {
+          "title": "成人切一片",
+          "action": "成人准备1片苹果。成人在砧板上切去皮、核和籽，取约3×3厘米、厚约5毫米的平整果肉片，避开已有碰伤和褐斑。把同一个切面朝上放在白盘中，旁放白纸，不加任何液体，不戳伤果肉。记录切开时刻，立刻拍起点照。",
+          "actor": "adult",
+          "caption": "先看看刚切开的颜色。",
+          "adultNote": "孩子站在切菜区域之外；只取1片，不另外制造伤痕来加快变色。"
+        },
+        {
+          "title": "留在同一位置",
+          "action": "白盘放托盘内，同处避开阳光和热源，苹果一直同面朝上，不翻、不摸。孩子指一指起点照片里和盘里是同一片，选择一个边缘作为认位置的记号，不在苹果上画。",
+          "actor": "together",
+          "caption": "不换片，也不翻面。",
+          "adultNote": "不凭颜色判断能不能吃；样品从开始就与食物分开。"
+        },
+        {
+          "title": "两次回来看看",
+          "action": "到切开后20分钟、60分钟，成人在原处拍照。手机固定同一拍摄位置、距离和光线，画面带同一张白纸；不用滤镜、美颜或闪光。白纸只帮助发现光线变化，不是仪器校准；反光或光线明显变化记为观察限制。孩子口述“看着差不多／某一处变色／看不清”，可指出变化位置，不要求一定变褐。",
+          "actor": "together",
+          "caption": "哪里和刚才不一样？",
+          "adultNote": "每次只需看约1分钟，不让孩子持续等待；不能分辨也是结果。"
+        },
+        {
+          "title": "画出自己所见",
+          "action": "把起点和60分钟照片并排，孩子画或说同一切面发生的变化。成人记原话并在60分钟后丢弃实验切片、清理盘子，不延长到出现预想颜色。",
+          "actor": "together",
+          "caption": "画看到的，不猜应该有的。",
+          "adultNote": "不触摸或尝味验证变化，手机照片只用于本次观察记录。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "同一物体可以随等待发生变化",
+          "先留下起点再作比较",
+          "看到变色不等于知道所有原因"
+        ],
+        "explanation": "苹果切开后，里面的一些物质接触空气，切面可能慢慢变色。先看刚切开的样子，再看同一片的后来样子，能帮助我们发现变化，而不是靠记忆猜颜色。",
+        "limits": "这次只有一片，没有处理对照，不能证明是哪一种条件造成变化。光线、手机颜色和果肉本来的颜色都会影响观察；颜色不能告诉我们是否可食用。",
+        "observation": "起点、20分钟和60分钟同一切面的实际颜色与变化位置，或看不清。",
+        "nextQuestion": "如果下次要比较一种保护切面的办法，还需要再准备什么？"
+      },
+      "guide": {
+        "goal": "不加处理液，用一片苹果的真实切面作三时点原位观察。",
+        "observe": "同一片苹果切面，在刚切开、20分钟和60分钟时看起来一样吗？",
+        "support": "成人切片、拍照、计时和清理；孩子指认、口述或画图任选。",
+        "control": "同一片、同一朝向和摆放、不加液体、不戳伤；尽量同光线拍照。",
+        "time": "准备约5分钟；20分钟、60分钟各看约1分钟，60分钟结束。",
+        "recordFields": [
+          "刚切开的样子",
+          "20分钟／60分钟的变化位置或看不清",
+          "孩子的原话或图画"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Why Does Fruit Turn Brown?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/FoodSci_p082/cooking-food-science/enzymatic-browning",
+          "claim": "切开组织后，酶、多酚类物质与氧接触，可形成褐色产物；可比较不同液体处理下的切片外观。",
+          "scope": "用于褐变机制与切片对照思路。本方案60分钟、1毫升涂覆及分龄设计独立改编；不使用原文的热处理、酒精或过夜延长。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编，未实地试做，不代表来源机构认证。图中不预填褐变，60分钟没有明显差别也如实记录。这里比较外观，不测酶活性、氧化反应速率或食品是否安全，不作保鲜食用建议。",
+      "diagrams": [
+        {
+          "sceneKey": "apple-46-cut",
+          "description": "成人取一片放盘，不加入液体；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 145,
+              "width": 220,
+              "height": 125,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 231.60000000000002,
+              "y": 180.0,
+              "width": 96.8,
+              "height": 55.0,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 135,
+              "text": "同一切面朝上",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 170,
+              "y": 100,
+              "text": "只用1片，不戳伤",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-46-stay",
+          "description": "同一盘和旁边白纸保持原处；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 140,
+              "width": 220,
+              "height": 125,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 181.60000000000002,
+              "y": 175.0,
+              "width": 96.8,
+              "height": 55.0,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 130,
+              "text": "不翻面",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 405,
+              "y": 150,
+              "width": 110,
+              "height": 95,
+              "fill": "#FFFFFF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 410,
+              "y": 126,
+              "text": "白纸",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 395,
+              "y": 282,
+              "text": "不用处理液",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-46-photo",
+          "description": "成人从同一方向拍同一切面；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 120,
+              "y": 155,
+              "width": 220,
+              "height": 120,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 181.60000000000002,
+              "y": 188.6,
+              "width": 96.8,
+              "height": 52.8,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 120,
+              "y": 145,
+              "text": "同一片",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 190,
+              "y": 75,
+              "width": 80,
+              "height": 55,
+              "fill": "#D9E6E4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 230,
+              "y": 103,
+              "r": 15,
+              "fill": "#F7F6EF",
+              "stroke": "#64805A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 230,
+              "y1": 133,
+              "x2": 230,
+              "y2": 151,
+              "stroke": "#BD7D48",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 130,
+              "text": "20分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 176,
+              "text": "60分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 222,
+              "text": "相同光线",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-46-finish",
+          "description": "在同一盘前对照照片后清理；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 95,
+              "y": 150,
+              "width": 220,
+              "height": 120,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 156.60000000000002,
+              "y": 183.6,
+              "width": 96.8,
+              "height": 52.8,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 140,
+              "text": "原位观察结束",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 430,
+              "y": 143,
+              "width": 80,
+              "height": 55,
+              "fill": "#D9E6E4",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 470,
+              "y": 171,
+              "r": 15,
+              "fill": "#F7F6EF",
+              "stroke": "#64805A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 368,
+              "y": 109,
+              "text": "比较起点与60分钟",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 370,
+              "y": 260,
+              "text": "不试吃，成人清理",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "同一苹果的原样、水和柠檬汁三片，60分钟内的变褐外观有什么不同？",
+      "materials": [
+        "完整无碰伤苹果1个，成人取相近切片3片",
+        "成人用刀1把、砧板1块；相同小白盘3个；托盘1个",
+        "清水5毫升；同瓶食用纯柠檬汁5毫升（配料为柠檬汁，不用加糖饮料）",
+        "1毫升刻度无针头塑料滴管2支（水、柠檬各专用）；小塑料勺2把（各液体专用涂抹）",
+        "标签3张、白纸1张、记录纸1张、笔1支；带拍照计时功能手机1部"
+      ],
+      "safety": "刀与砧板上的全部切片操作只由成人完成，切完立即收刀；样品和处理液均不入口、不用于试吃或留作食物。材料放托盘中，室温避开烈日和热源，不盖严、不加热，每片只观察到切开或处理后约60分钟，留存末次照片后即由成人逐片丢弃，不等待末片；洒液立即擦干，结束洗手。若已知苹果过敏，不接触本材料。开始前由成人确认参与者没有已知柑橘过敏；有柑橘过敏者不做含柠檬方案，可选无柠檬的低龄观察。液体只低位滴加，不挤喷、不揉眼；不用药物、浓酸或清洁剂替代。",
+      "steps": [
+        {
+          "title": "先标盘，再现切三片",
+          "action": "先标3盘“原样”“水”“柠檬汁”。成人从同一苹果相近部位取3片。成人在砧板上切去皮、核和籽，取约3×3厘米、厚约5毫米的平整果肉片，避开已有碰伤和褐斑。切面都朝上，各盘一片，记录切开时刻；不挑已经变色的片作原样对照。",
+          "actor": "adult",
+          "caption": "同一苹果，三个位置。",
+          "adultNote": "先备好器具减少处理延迟；切开到各片加液之间的等待若明显不同，记录下来。"
+        },
+        {
+          "title": "加等体积不同液体",
+          "action": "“原样”不加液体；“水”片用专用滴管加1毫升清水，“柠檬汁”片加1毫升原汁。各用对应小勺背在上切面轻轻铺开，不戳、不压烂，不让盘间液体混入。记录处理完成起点并立刻拍三片起点照。",
+          "actor": "together",
+          "caption": "两种液体一样多，另片不加。",
+          "adultNote": "水和柠檬的滴管、勺不交换；不能因为一片看起来较干就追加液体。"
+        },
+        {
+          "title": "在相同时点观察",
+          "action": "三盘并排同处，切面不翻动。处理后20分钟、60分钟观察并拍照。手机固定同一拍摄位置、距离和光线，画面带同一张白纸；不用滤镜、美颜或闪光。白纸只帮助发现光线变化，不是仪器校准；反光或光线明显变化记为观察限制。分别和各自处理后起点比，记“无明显变化／局部变褐／大部分变褐／看不清”，另记湿润反光或液体本色。",
+          "actor": "child",
+          "caption": "每片都先和自己的起点比。",
+          "adultNote": "柠檬汁原本颜色与反光不直接计作褐变；看不清要单列。"
+        },
+        {
+          "title": "比较两种对照关系",
+          "action": "先比柠檬汁与水，再比水与原样，说明为什么需要3片。只描述本次60分钟内看到的差别；若无明显差别也记录。成人随即丢弃切片和余液，清理器具。",
+          "actor": "child",
+          "caption": "水片帮我们检查湿润的影响。",
+          "adultNote": "每种处理只有1片，不称某处理永远最好；颜色不是食品安全判断。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "液体处理对照与不加液体的参照",
+          "等体积不等于同一种作用",
+          "果汁颜色和反光可能干扰观察"
+        ],
+        "explanation": "切开后果肉内部成分与空气中的氧接触，酶参与形成褐色产物。水片帮助检查“加液体、变湿”本身的影响；柠檬汁的酸性与抗氧化成分都可能参与，不能把差别只归因于一种成分。",
+        "limits": "每处理1片，苹果部位和涂覆不完全相同；没测酸度或抗氧化物浓度，也没有分别隔离它们。此活动不能证明外观较浅的样品更安全或更有营养。",
+        "observation": "3片各自起点、20分钟、60分钟的变化描述及反光、汁液颜色和处理延迟。",
+        "nextQuestion": "如果把同一柠檬汁稀释，除了酸度以外还同时改变了什么？"
+      },
+      "guide": {
+        "goal": "实际给3片相近苹果分别不加液体、加水、加柠檬汁，观察两个对照关系。",
+        "observe": "同一苹果的原样、水和柠檬汁三片，60分钟内的变褐外观有什么不同？",
+        "support": "成人切片和监督加液；孩子配标签、看起点与后续并解释对照。",
+        "control": "同苹果、相近切片、同朝向同处；水和柠檬各1毫升，原样不加，记录实际时点。",
+        "time": "准备约10分钟；处理后20、60分钟观察，60分钟结束。",
+        "recordFields": [
+          "三片起点与切开／加液时间",
+          "20分钟：三片变化与看不清之处",
+          "60分钟：三片变化与看不清之处",
+          "柠檬对水、水对原样的比较和限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Why Does Fruit Turn Brown?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/FoodSci_p082/cooking-food-science/enzymatic-browning",
+          "claim": "切开组织后，酶、多酚类物质与氧接触，可形成褐色产物；可比较不同液体处理下的切片外观。",
+          "scope": "用于褐变机制与切片对照思路。本方案60分钟、1毫升涂覆及分龄设计独立改编；不使用原文的热处理、酒精或过夜延长。"
+        },
+        {
+          "title": "Illinois Extension｜Tips for Preventing Apples from Turning Brown",
+          "url": "https://extension.illinois.edu/news-releases/tips-preventing-apples-turning-brown",
+          "claim": "柠檬等果汁中的维生素C与减缓褐变有关；果汁也可能改变样品颜色。",
+          "scope": "只参考果汁与抗氧化成分的解释；不沿用药片、亚硫酸盐、沸水或食品保存操作，不把此活动当可食用保鲜指南。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编，未实地试做，不代表来源机构认证。图中不预填褐变，60分钟没有明显差别也如实记录。这里比较外观，不测酶活性、氧化反应速率或食品是否安全，不作保鲜食用建议。",
+      "diagrams": [
+        {
+          "sceneKey": "apple-79-three",
+          "description": "同一苹果分出三个相近切片；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 150,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 176.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 140,
+              "text": "原样",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 150,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 176.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 140,
+              "text": "水",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 150,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 176.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 140,
+              "text": "柠檬汁",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 93,
+              "text": "先标盘，再切3片",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-79-dose",
+          "description": "水和柠檬各1毫升，原样不加；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 155,
+              "text": "不加液体",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 155,
+              "text": "水1毫升",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 155,
+              "text": "汁1毫升",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 350,
+              "y": 85,
+              "width": 14,
+              "height": 40,
+              "fill": "#D9ECE8",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 357,
+              "y1": 127,
+              "x2": 320,
+              "y2": 204,
+              "stroke": "#BD7D48",
+              "strokeWidth": 3
+            },
+            {
+              "type": "rect",
+              "x": 550,
+              "y": 85,
+              "width": 14,
+              "height": 40,
+              "fill": "#F2E9B0",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "arrow",
+              "x1": 557,
+              "y1": 127,
+              "x2": 520,
+              "y2": 204,
+              "stroke": "#BD7D48",
+              "strokeWidth": 3
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-79-watch",
+          "description": "三片同处观察，不画预期褐变；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 155,
+              "text": "原样",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 155,
+              "text": "水",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 165,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 191.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 155,
+              "text": "柠檬汁",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 78,
+              "y": 95,
+              "text": "起点 → 20分钟 → 60分钟",
+              "fontSize": 22,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-79-compare",
+          "description": "柠檬与水、水与原样两种对照；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 155,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 181.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 145,
+              "text": "原样",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 155,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 181.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 145,
+              "text": "水",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 155,
+              "width": 130,
+              "height": 94,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 181.32,
+              "width": 57.2,
+              "height": 41.36,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 145,
+              "text": "柠檬汁",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "arrow",
+              "x1": 250,
+              "y1": 205,
+              "x2": 193,
+              "y2": 205,
+              "stroke": "#BD7D48",
+              "strokeWidth": 3
+            },
+            {
+              "type": "arrow",
+              "x1": 450,
+              "y1": 205,
+              "x2": 393,
+              "y2": 205,
+              "stroke": "#BD7D48",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 95,
+              "text": "同等液量，不是同等作用",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 160,
+              "y": 286,
+              "text": "无明显差异也保留",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "同一柠檬汁的0%、25%和100%配方，在相同涂覆量下，两片重复的外观是否给出一致趋势？",
+      "materials": [
+        "完整无碰伤苹果1个，成人取相近切片6片",
+        "成人用刀1把、砧板1块；相同小白盘6个；托盘2个",
+        "同瓶食用纯柠檬汁10毫升（配料为柠檬汁）；清水10毫升",
+        "小塑料杯3个；1毫升刻度无针头塑料滴管5支（原水/原汁各1，三配方各1）；小塑料勺3把（每配方专用）",
+        "标签9张（3杯+6盘）；白纸1张、记录纸2张、笔1支；带拍照计时功能手机1部"
+      ],
+      "safety": "刀与砧板上的全部切片操作只由成人完成，切完立即收刀；样品和处理液均不入口、不用于试吃或留作食物。材料放托盘中，室温避开烈日和热源，不盖严、不加热，每片只观察到切开或处理后约60分钟，留存末次照片后即由成人逐片丢弃，不等待末片；洒液立即擦干，结束洗手。若已知苹果过敏，不接触本材料。开始前由成人确认参与者没有已知柑橘过敏；有柑橘过敏者不做含柠檬方案，可选无柠檬的低龄观察。液体只低位滴加，不挤喷、不揉眼；不用药物、浓酸或清洁剂替代。",
+      "steps": [
+        {
+          "title": "真实配出三个比例",
+          "action": "切苹果前，成人用原水、原汁专用滴管配3杯，每杯总4毫升：0%为4毫升水；25%为1毫升柠檬汁+3毫升水；100%为4毫升柠檬原汁。标签写组成。各配方用自己的第3/4/5支滴管轻吸放混匀，之后只用它给该配方切片加液。",
+          "actor": "together",
+          "caption": "25%是1份汁加3份水。",
+          "adultNote": "百分比指原汁体积占配方体积的标称比例，不是酸的质量分数或pH；所有杯先准备好，原液取用器具不碰混合液。"
+        },
+        {
+          "title": "每种配方处理两片",
+          "action": "成人从同一苹果取相近6片。成人在砧板上切去皮、核和籽，取约3×3厘米、厚约5毫米的平整果肉片，避开已有碰伤和褐斑。先切一组三片，分别给0%、25%、100%各1片，每片用对应滴管1毫升，用该配方专用勺背轻铺上切面；再切第二组三片，按100%、25%、0%的相反次序加液。每片独立盘，编号0甲/0乙、25甲/25乙、100甲/100乙，记切开与处理时刻。",
+          "actor": "adult",
+          "caption": "六片，各用1毫升。",
+          "adultNote": "不压烂、不戳刺；每配方4毫升够两片各1毫升，剩余不追加。反向顺序只减小顺序偏差，不完全消除它。"
+        },
+        {
+          "title": "按固定面积等级记录",
+          "action": "各片加液后立刻拍起点，分别在处理后约20、60分钟观察同一上切面，记录实际时刻。先固定同一规则：相对该片处理后起点，0＝无可见新增褐区；1＝新增褐区少于切面1/3；2＝约1/3至2/3；3＝超过2/3；反光、液体着色或边界不清无法判断时写“？”，不填0。手机固定同一拍摄位置、距离和光线，画面带同一张白纸；不用滤镜、美颜或闪光。白纸只帮助发现光线变化，不是仪器校准；反光或光线明显变化记为观察限制。同一人按固定规则评，保留6片分别的等级与原照片。",
+          "actor": "child",
+          "caption": "按同一规则，别只选好看的片。",
+          "adultNote": "这套等级描述可见新增褐区范围，不是色度仪读数；边界难分时写问号，不为了得到整齐趋势改等级。"
+        },
+        {
+          "title": "保留两片差异并解释",
+          "action": "各片60分钟后结束。对每配方并列甲乙两片等级，检查是否方向一致；不把0—3等级当等间距数字求反应速度、倍数或“减半”。解释稀释同时改变酸、抗氧化成分等的量，不能宣称只改变酸度。成人清理。",
+          "actor": "child",
+          "caption": "配方比例变了，多个成分都变。",
+          "adultNote": "只用1个苹果，6片不是6个独立苹果；一个60分钟窗口不能保证长期保鲜效果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "体积配方与pH不是同一种量",
+          "稀释同时改变多种溶质",
+          "两片重复与序数评分的限制"
+        ],
+        "explanation": "真正配制三个柠檬汁比例，再用相同1毫升量处理切片，可以比较配方与可见褐区的关系。原汁含有多种物质，稀释不只改变一种活性成分；0—3是有顺序的观察类别，不是等间隔化学测量。",
+        "limits": "没有测pH、维生素C或酶活性，不能把趋势只归因于酸。每配方仅两片且来自同一苹果；切片部位、加液顺序与主观边界都有影响，可能出现不单调或无法分辨的结果。",
+        "observation": "3配方实际组成；6片各自时刻、起点与20/60分钟等级或问号，甲乙是否一致。",
+        "nextQuestion": "若要分开检验酸性与抗氧化成分的作用，还缺什么独立控制和测量？"
+      },
+      "guide": {
+        "goal": "实际配制0/25/100%原汁比例，每配方处理两片并检查一致性与评分边界。",
+        "observe": "同一柠檬汁的0%、25%和100%配方，在相同涂覆量下，两片重复的外观是否给出一致趋势？",
+        "support": "成人量取监督、全部切片与加液；孩子计算配方、记录真实时刻并评估两片一致性。",
+        "control": "同瓶原汁与同苹果；三配方各总4毫升、每片涂1毫升；同规则同拍照条件，保留甲乙与顺序差异。",
+        "time": "准备约15分钟；每片处理后约20、60分钟观察，末片满60分钟后全程结束。",
+        "recordFields": [
+          "三配方实际体积与6片处理时刻",
+          "0%两片：起点、20／60分钟等级或？",
+          "25%／100%各两片：起点、20／60分钟等级或？",
+          "两片一致性、配方趋势及多因素解释限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Why Does Fruit Turn Brown?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/FoodSci_p082/cooking-food-science/enzymatic-browning",
+          "claim": "切开组织后，酶、多酚类物质与氧接触，可形成褐色产物；可比较不同液体处理下的切片外观。",
+          "scope": "用于褐变机制与切片对照思路。本方案60分钟、1毫升涂覆及分龄设计独立改编；不使用原文的热处理、酒精或过夜延长。"
+        },
+        {
+          "title": "Illinois Extension｜Tips for Preventing Apples from Turning Brown",
+          "url": "https://extension.illinois.edu/news-releases/tips-preventing-apples-turning-brown",
+          "claim": "柠檬等果汁中的维生素C与减缓褐变有关；果汁也可能改变样品颜色。",
+          "scope": "只参考果汁与抗氧化成分的解释；不沿用药片、亚硫酸盐、沸水或食品保存操作，不把此活动当可食用保鲜指南。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编，未实地试做，不代表来源机构认证。图中不预填褐变，60分钟没有明显差别也如实记录。这里比较外观，不测酶活性、氧化反应速率或食品是否安全，不作保鲜食用建议。",
+      "diagrams": [
+        {
+          "sceneKey": "apple-1012-mix",
+          "description": "三个配方都共4毫升，显示配制量不是测量结果；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 150,
+              "width": 125,
+              "height": 105,
+              "fill": "#D9ECE8",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 150,
+              "width": 125,
+              "height": 105,
+              "fill": "#E4EACD",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 445,
+              "y": 150,
+              "width": 125,
+              "height": 105,
+              "fill": "#F2E9B0",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 75,
+              "y": 123,
+              "text": "0%",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 265,
+              "y": 123,
+              "text": "25%",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 123,
+              "text": "100%",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 282,
+              "text": "水4毫升",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 238,
+              "y": 282,
+              "text": "汁1＋水3毫升",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 445,
+              "y": 282,
+              "text": "汁4毫升",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 84,
+              "text": "各杯4毫升；体积比例不是pH",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1012-six",
+          "description": "每配方两片独立盘，每片只用1毫升；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 110,
+              "text": "0甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 110,
+              "text": "25甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 110,
+              "text": "100甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 215,
+              "text": "0乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 215,
+              "text": "25乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 215,
+              "text": "100乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 130,
+              "y": 82,
+              "text": "每片1毫升，不追加",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1012-score",
+          "description": "同六片分别记录，不预填等级；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 110,
+              "text": "0甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 110,
+              "text": "25甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 110,
+              "text": "100甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 215,
+              "text": "0乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 215,
+              "text": "25乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 215,
+              "text": "100乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 86,
+              "y": 82,
+              "text": "各自起点 → 20分 → 60分",
+              "fontSize": 21,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1012-pairs",
+          "description": "各配方保留两片结果，不把类别转成反应速度；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 110,
+              "text": "0甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 110,
+              "text": "25甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 120,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 138.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 110,
+              "text": "100甲",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 91.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 215,
+              "text": "0乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 255,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 291.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 255,
+              "y": 215,
+              "text": "25乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 455,
+              "y": 225,
+              "width": 130,
+              "height": 65,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 491.4,
+              "y": 243.2,
+              "width": 57.2,
+              "height": 28.6,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 455,
+              "y": 215,
+              "text": "100乙",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 100,
+              "y": 82,
+              "text": "看甲乙是否一致；不求倍数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "在两只苹果各自的三对切片中，水和柠檬汁的外观差异是否一致，隐藏处理信息后的评分又有哪些限制？",
+      "materials": [
+        "同一已知品种、不同个体的完整无碰伤苹果2个，分别A/B；每个取6片，共12片，记录来源和成熟外观",
+        "成人用刀1把、砧板1块；相同小白盘12个；托盘3个（每盘能放4小盘）",
+        "清水10毫升；同瓶食用纯柠檬汁10毫升（配料为柠檬汁）；取液小杯2个",
+        "1毫升刻度无针头塑料滴管2支（水、柠檬各专用）；小塑料勺2把（各液体专用）",
+        "无含义编号标签12张、成人对照密钥纸1张、白纸1张、记录纸2张、笔1支",
+        "带拍照与计时功能的手机1部；成人与1位不参与加液的观察者"
+      ],
+      "safety": "刀与砧板上的全部切片操作只由成人完成，切完立即收刀；样品和处理液均不入口、不用于试吃或留作食物。材料放托盘中，室温避开烈日和热源，不盖严、不加热，每片只观察到切开或处理后约60分钟，留存末次照片后即由成人逐片丢弃，不等待末片；洒液立即擦干，结束洗手。若已知苹果过敏，不接触本材料。开始前由成人确认参与者没有已知柑橘过敏；有柑橘过敏者不做含柠檬方案，可选无柠檬的低龄观察。液体只低位滴加，不挤喷、不揉眼；不用药物、浓酸或清洁剂替代。",
+      "steps": [
+        {
+          "title": "以苹果个体为组准备配对",
+          "action": "先规定A、B每个苹果各取3对相近部位的邻近切片，每对2片，共12片。成人准备水/柠檬专用器具和盘编号，用打乱的01—12编号标签作不显示处理的代码，私下写好苹果个体、配对号和处理对应表，观察者不看加液。切片按下一步逐对进行，不提前放着等待。",
+          "actor": "together",
+          "caption": "2个苹果，各有3对。",
+          "adultNote": "代码不保证完全盲：液体颜色、气味或先验信息仍可能泄露处理；若观察者参与准备，应记录“未隐藏处理”，不能称盲评。"
+        },
+        {
+          "title": "逐对切片并处理",
+          "action": "成人逐对现切。成人在砧板上切去皮、核和籽，取约3×3厘米、厚约5毫米的平整果肉片，避开已有碰伤和褐斑。每对一片用1毫升水，另一片用1毫升柠檬汁，各专用勺背轻铺；A的第1/3对先水后汁、第2对先汁后水，B次序相反。每片独立盘，记录切开与加液时刻、配对关系，拍处理后起点。各盘按打乱编号摆放，同处避光热。",
+          "actor": "adult",
+          "caption": "逐对现切，减少先后差。",
+          "adultNote": "不让观察者靠近刀或在处理时看密钥；不把同苹果的3片当3个独立苹果。每种液体6片各1毫升，共6毫升，余液不追加。"
+        },
+        {
+          "title": "先按代码评再揭示",
+          "action": "不参与加液者在各片处理后约20、60分钟按代码观察照片与实物，记录实际时刻。先固定同一规则：相对该片处理后起点，0＝无可见新增褐区；1＝新增褐区少于切面1/3；2＝约1/3至2/3；3＝超过2/3；反光、液体着色或边界不清无法判断时写“？”，不填0。手机固定同一拍摄位置、距离和光线，画面带同一张白纸；不用滤镜、美颜或闪光。白纸只帮助发现光线变化，不是仪器校准；反光或光线明显变化记为观察限制。评分时不告知苹果/处理对应关系；若从颜色猜到，也照实记。不能由成人提示哪片“应该更浅”。每片末次记录留照后，由成人逐片丢弃，不等待末片。",
+          "actor": "child",
+          "caption": "先留下分数，再看密钥。",
+          "adultNote": "液体着色与反光不算确定新增褐区；没有独立观察者可做公开评分，但须标“非盲”，其余记录仍保留。"
+        },
+        {
+          "title": "恢复配对关系分析",
+          "action": "各片60分钟记录完成后才公开密钥，使用已留存照片和记录分析，不保留实物等待。分别在A、B中查看3对水/汁的等级方向，保留每对是否汁较低、相同、较高或无法判断；可给每个苹果每种处理的三片中位等级与最低/最高等级，不把序数作反应速率。比较两个苹果方向是否一致，成人清理。",
+          "actor": "child",
+          "caption": "先看每对，再看两个苹果。",
+          "adultNote": "两苹果不是两个批次或两个品种的充分样本；单观察者盲评分只减少部分期待偏差，不能排除照片、部位和处理时延误差。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "邻近切片配对与苹果个体内比较",
+          "编码隐藏处理信息减少部分期待偏差",
+          "切片重复不等于独立苹果重复，序数不等于速率"
+        ],
+        "explanation": "实际用两个苹果分别提供水/柠檬配对，再让未看加液的人先按代码评分，可以检查处理差异在不同个体内是否一致，并减少按预期挑结果。苹果部位、成熟度和酶/底物状态可能不同，分析应保留来源和配对而不是只合并12片。",
+        "limits": "只有2个苹果，不能据此推断整个品种或来源批次。果汁颜色可能破坏信息隐藏；没有测pH、抗氧化成分、氧气或酶活性，不能分离具体机制，也不能从等级差求百分比抑制率或氧化速度。",
+        "observation": "12片代码、切开/处理/观察实际时刻、0/20/60分钟记录；揭示后6对等级方向与A/B的异同。",
+        "nextQuestion": "若两个苹果方向不同，应增加哪些独立苹果与一致处理，而不是只增加同一苹果的切片？"
+      },
+      "guide": {
+        "goal": "真实完成两苹果×水/柠檬×3对切片，并执行编码评分和按苹果配对分析。",
+        "observe": "在两只苹果各自的三对切片中，水和柠檬汁的外观差异是否一致，隐藏处理信息后的评分又有哪些限制？",
+        "support": "成人独立切片、加液及保管密钥；未看准备者评外观，揭示后共同检查配对和偏差。",
+        "control": "同品种两苹果分别配对；每片1毫升、统一评分拍照规则、逐对切片处理并记录时延；代码打乱且评分前不揭示。",
+        "time": "准备约20分钟；逐片处理后约20、60分钟观察，末片满60分钟后结束。",
+        "recordFields": [
+          "12代码的时间与未揭示评分：起点／20／60分钟或？",
+          "揭示后A苹果3对：水与汁等级方向",
+          "揭示后B苹果3对：水与汁等级方向",
+          "中位等级/范围、个体一致性、盲法及机制限制"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Buddies｜Why Does Fruit Turn Brown?",
+          "url": "https://www.sciencebuddies.org/science-fair-projects/project-ideas/FoodSci_p082/cooking-food-science/enzymatic-browning",
+          "claim": "切开组织后，酶、多酚类物质与氧接触，可形成褐色产物；可比较不同液体处理下的切片外观。",
+          "scope": "用于褐变机制与切片对照思路。本方案60分钟、1毫升涂覆及分龄设计独立改编；不使用原文的热处理、酒精或过夜延长。"
+        },
+        {
+          "title": "Illinois Extension｜Tips for Preventing Apples from Turning Brown",
+          "url": "https://extension.illinois.edu/news-releases/tips-preventing-apples-turning-brown",
+          "claim": "柠檬等果汁中的维生素C与减缓褐变有关；果汁也可能改变样品颜色。",
+          "scope": "只参考果汁与抗氧化成分的解释；不沿用药片、亚硫酸盐、沸水或食品保存操作，不把此活动当可食用保鲜指南。"
+        }
+      ],
+      "sourceNote": "依据所列原始教学资料独立改编，未实地试做，不代表来源机构认证。图中不预填褐变，60分钟没有明显差别也如实记录。这里比较外观，不测酶活性、氧化反应速率或食品是否安全，不作保鲜食用建议。",
+      "diagrams": [
+        {
+          "sceneKey": "apple-1316-pairs",
+          "description": "两个苹果各提供六片，三对为材料安排不是观察结果；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "circle",
+              "x": 150,
+              "y": 138,
+              "r": 34,
+              "fill": "#E2E8B5",
+              "stroke": "#64805A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "circle",
+              "x": 460,
+              "y": 138,
+              "r": 34,
+              "fill": "#E2E8B5",
+              "stroke": "#64805A",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 114,
+              "y": 88,
+              "text": "苹果A",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 424,
+              "y": 88,
+              "text": "苹果B",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 70,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 180,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 380,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 435,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 435,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490,
+              "y": 210,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 490,
+              "y": 252,
+              "width": 35,
+              "height": 22,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 298,
+              "text": "各3对，共6片",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 390,
+              "y": 298,
+              "text": "各3对，共6片",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1316-code",
+          "description": "12个独立盘按无含义编号排列，实际密钥由成人保管；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 102,
+              "text": "01",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 102,
+              "text": "02",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 102,
+              "text": "03",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 102,
+              "text": "04",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 172,
+              "text": "05",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 172,
+              "text": "06",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 172,
+              "text": "07",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 172,
+              "text": "08",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 242,
+              "text": "09",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 242,
+              "text": "10",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 242,
+              "text": "11",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 242,
+              "text": "12",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 80,
+              "text": "每片1毫升；处理密钥成人保管",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1316-blind",
+          "description": "保持12代码盘，先评价后揭示；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 102,
+              "text": "01",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 102,
+              "text": "02",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 102,
+              "text": "03",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 102,
+              "text": "04",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 172,
+              "text": "05",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 172,
+              "text": "06",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 172,
+              "text": "07",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 172,
+              "text": "08",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 242,
+              "text": "09",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 242,
+              "text": "10",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 242,
+              "text": "11",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 242,
+              "text": "12",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 105,
+              "y": 80,
+              "text": "先按代码评分，不看密钥",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        },
+        {
+          "sceneKey": "apple-1316-reveal",
+          "description": "通过已留存的12盘照片恢复六个配对，样品已按时逐片丢弃；图中盘是照片记录示意；装置及材料示意，不按比例，苹果均未预填实际变褐结果。",
+          "elements": [
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 102,
+              "text": "01",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 102,
+              "text": "02",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 102,
+              "text": "03",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 112,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 122.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 102,
+              "text": "04",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 172,
+              "text": "05",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 172,
+              "text": "06",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 172,
+              "text": "07",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 182,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 192.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 172,
+              "text": "08",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 48,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 76.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 242,
+              "text": "09",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 195,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 223.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 195,
+              "y": 242,
+              "text": "10",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 342,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 370.84000000000003,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 342,
+              "y": 242,
+              "text": "11",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "rect",
+              "x": 489,
+              "y": 252,
+              "width": 103,
+              "height": 36,
+              "fill": "#F7F6EF",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 517.84,
+              "y": 262.08,
+              "width": 45.32,
+              "height": 15.84,
+              "fill": "#F4E6BA",
+              "stroke": "#477F7D",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 489,
+              "y": 242,
+              "text": "12",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            },
+            {
+              "type": "text",
+              "x": 80,
+              "y": 80,
+              "text": "按照片揭示配对，不再保留样品",
+              "fontSize": 19,
+              "anchor": "start",
+              "fill": "#193D40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

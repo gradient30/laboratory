@@ -1,0 +1,4488 @@
+{
+  "activityId": 279,
+  "activityTitle": "取样位置会改变结果",
+  "contentKey": "annual-content-nature-life-286",
+  "reconstruction": true,
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "question": "只看一个角落能代表整片区域吗？ 我在哪几个格看见了什么？",
+      "materials": [
+        "preschool、conclusion-4-6；成人持map-input并指出L/D，不用进阶纸；公共safety/setup/rules/map-input；reference暂收起。",
+        "原题纸上4×4格与笔；可手抄、无需剪裁或打印，不添加真实采样。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 本次全程纸笔，不接触、捕捉、培养真实生物，不外出调查；无需剪裁、采样器或额外器材。幼儿由成人代读坐标和计数，只指认或画图即可。",
+      "steps": [
+        {
+          "title": "先认两种纸上符号",
+          "caption": "先认两种纸上符号",
+          "action": "成人按setup画图并说明都是假想符号，幼儿可用手指认A或B，不要求读字母。preschool第一框画/说自己注意到什么，成人代记原话与帮助。",
+          "actor": "together",
+          "adultNote": "纸画4×4等大格，行r从上到下1—4，列c从左到右1—4。左半c1/c2每格一个A，共8个；B只在(1,3)、(2,4)、(3,3)、(4,4)各一个，共4个。右半其余4格为空。每个字母放格内中心，不压边。按map-input逐格核对，不能为了结果改分布。若手抄与输入不同，保留差异并修正副本，原计数不擦除。"
+        },
+        {
+          "title": "只看成人指出的角落",
+          "caption": "只看成人指出的角落",
+          "action": "成人按rule只指出L四格，孩子在preschool第二框指说看见哪种符号。成人不问“这里没有B所以全图没有B吗”诱导确定答案；可说不知道。",
+          "actor": "together",
+          "adultNote": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。"
+        },
+        {
+          "title": "再看四处分散的小格",
+          "caption": "再看四处分散的小格",
+          "action": "成人逐一指出D四格，孩子比较是否看见刚才未指到的符号，第三框画或口述。无须数4、写坐标或解释概率；未做和成人提示单列。",
+          "actor": "together",
+          "adultNote": "保留原始计数；不同记录不覆盖，帮助与未知单列。"
+        },
+        {
+          "title": "用一小块不能说完全部",
+          "caption": "用一小块不能说完全部",
+          "action": "在conclusion-4-6指图说刚才看了哪几处、还有哪里没看。成人可代述“这几个格里没看见，不等于全图没有”，注明提示，不要求背术语或做总体估计。",
+          "actor": "together",
+          "adultNote": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "局部与整体",
+          "允许不知道"
+        ],
+        "explanation": "同一张虚构图中，不同四格可能包含不同类别和数量；一个角落的发现不能自动代表16格整体。幼儿只指出看过和没看过的位置。",
+        "limits": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。",
+        "observation": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "nextQuestion": "怎样先写清抽格规则，让另一个人能够复核你的推断？"
+      },
+      "guide": {
+        "goal": "用一小块不能说完全部",
+        "observe": "先认两种纸上符号",
+        "control": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "support": "成人可代读、指格、代记，幼儿不用坐标计算；允许未知、未做或停止。",
+        "time": "5—10分钟可停",
+        "recordFields": [
+          "样本坐标",
+          "逐格A/B或未知",
+          "格数/个体数/类别数",
+          "依据和限制",
+          "帮助与修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "自然监测和调查技能的背景。",
+          "scope": "本轮实读turn486view0第60—69行；不提供或认证本页网格、坐标或抽样计算。"
+        },
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "等大小子集等可能是简单随机抽样条件；取样方法及抽样变异影响推断。",
+          "scope": "本轮实读turn487view2第180—181行与turn487view1第223—231、379—384行。概念改述，未复制例题、表格或图。"
+        }
+      ],
+      "sourceNote": "NHM只提供自然监测背景；抽样概念另核OpenStax。本页固定图、坐标、算例和记录表均原创，不是来源机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sampling279-4-6-1",
+          "description": "先认两种纸上符号；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "先认两种纸上符号",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人指格并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只谈这几个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "没有看见不等于没有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求坐标或计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-4-6-2",
+          "description": "只看成人指出的角落；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "只看成人指出的角落",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人指格并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只谈这几个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "没有看见不等于没有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求坐标或计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-4-6-3",
+          "description": "再看四处分散的小格；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "再看四处分散的小格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人指格并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只谈这几个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "没有看见不等于没有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求坐标或计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-4-6-4",
+          "description": "用一小块不能说完全部；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "用一小块不能说完全部",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "局部记录 / 全图证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "规则与结论要对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "分散不自动等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "只纸上设计改进",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "成人指格并代记",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "只谈这几个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "没有看见不等于没有",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不要求坐标或计算",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "7-9": {
+      "version": 1,
+      "question": "只看一个角落能代表整片区域吗？ 同样四格能看到不同类别吗？",
+      "materials": [
+        "plan、prediction-7-9、sample-L/D、L/D-summary、compare-7-9、conclusion-7-9；公共safety/setup/rules/map-input；reference暂收起。",
+        "原题纸上4×4格与笔；可手抄、无需剪裁或打印，不添加真实采样。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 本次全程纸笔，不接触、捕捉、培养真实生物，不外出调查；无需剪裁、采样器或额外器材。幼儿由成人代读坐标和计数，只指认或画图即可。",
+      "steps": [
+        {
+          "title": "先写要看哪四格",
+          "caption": "先写要看哪四格",
+          "action": "成人代读setup，照map-input确认方向。在prediction-7-9先猜两套是否见到同样类别，plan抄L/D坐标，不能看结果再挑格。",
+          "actor": "together",
+          "adultNote": "纸画4×4等大格，行r从上到下1—4，列c从左到右1—4。左半c1/c2每格一个A，共8个；B只在(1,3)、(2,4)、(3,3)、(4,4)各一个，共4个。右半其余4格为空。每个字母放格内中心，不压边。按map-input逐格核对，不能为了结果改分布。若手抄与输入不同，保留差异并修正副本，原计数不擦除。"
+        },
+        {
+          "title": "逐格保留角落记录",
+          "caption": "逐格保留角落记录",
+          "action": "在sample-L每行抄坐标，分别数A和B，空格写0，不清楚写未知。L-summary登记看了几格、A/B个数、见到几种；类别数不是所有字母的总数。",
+          "actor": "together",
+          "adultNote": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。"
+        },
+        {
+          "title": "用同样格数记录分散组",
+          "caption": "用同样格数记录分散组",
+          "action": "按D坐标填sample-D、D-summary，不改变图案，不删空格，不把L已有格当无需记录。compare-7-9并排四格结果，若抄错保留原行另改。",
+          "actor": "together",
+          "adultNote": "保留原始计数；不同记录不覆盖，帮助与未知单列。"
+        },
+        {
+          "title": "只根据这张图作结论",
+          "caption": "只根据这张图作结论",
+          "action": "conclusion-7-9引用格坐标说明两套发现的相同与不同，并说明未见B不能断言全图无B。指出本题是固定规则，分散也不自动保证代表整体。",
+          "actor": "together",
+          "adultNote": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "坐标和同样格数",
+          "类别与个体数"
+        ],
+        "explanation": "同一张虚构图中，不同四格可能包含不同类别和数量；一个角落的发现不能自动代表16格整体。同格数比较仍需交代坐标，不能把分散称作随机。",
+        "limits": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。",
+        "observation": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "nextQuestion": "怎样先写清抽格规则，让另一个人能够复核你的推断？"
+      },
+      "guide": {
+        "goal": "只根据这张图作结论",
+        "observe": "先写要看哪四格",
+        "control": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "support": "成人可代读、指格、代记，幼儿不用坐标计算；允许未知、未做或停止。",
+        "time": "10—15分钟可分次",
+        "recordFields": [
+          "样本坐标",
+          "逐格A/B或未知",
+          "格数/个体数/类别数",
+          "依据和限制",
+          "帮助与修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "自然监测和调查技能的背景。",
+          "scope": "本轮实读turn486view0第60—69行；不提供或认证本页网格、坐标或抽样计算。"
+        },
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "等大小子集等可能是简单随机抽样条件；取样方法及抽样变异影响推断。",
+          "scope": "本轮实读turn487view2第180—181行与turn487view1第223—231、379—384行。概念改述，未复制例题、表格或图。"
+        }
+      ],
+      "sourceNote": "NHM只提供自然监测背景；抽样概念另核OpenStax。本页固定图、坐标、算例和记录表均原创，不是来源机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sampling279-7-9-1",
+          "description": "先写要看哪四格；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "先写要看哪四格",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每组恰好四个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "空格0，未知不写0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "类别数不是字母总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不根据答案换格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-7-9-2",
+          "description": "逐格保留角落记录；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "逐格保留角落记录",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每组恰好四个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "空格0，未知不写0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "类别数不是字母总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不根据答案换格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-7-9-3",
+          "description": "用同样格数记录分散组；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "用同样格数记录分散组",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每组恰好四个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "空格0，未知不写0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "类别数不是字母总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不根据答案换格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-7-9-4",
+          "description": "只根据这张图作结论；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "只根据这张图作结论",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "局部记录 / 全图证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "规则与结论要对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "分散不自动等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "只纸上设计改进",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "每组恰好四个格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "空格0，未知不写0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "类别数不是字母总数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "不根据答案换格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "10-12": {
+      "version": 1,
+      "question": "只看一个角落能代表整片区域吗？ 4倍外推与全图相差多少？",
+      "materials": [
+        "plan、prediction-10-12、control-audit、sample-L/D、L/D-summary、audit-work、census-work、estimate-work、ratio-work、claim-audit、conclusion-10-12；公共safety/setup/rules/map-input；reference暂收起。",
+        "原题纸上4×4格与笔；可手抄、无需剪裁或打印，不添加真实采样。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 本次全程纸笔，不接触、捕捉、培养真实生物，不外出调查；无需剪裁、采样器或额外器材。幼儿由成人代读坐标和计数，只指认或画图即可。",
+      "steps": [
+        {
+          "title": "审计比较分母和规则",
+          "caption": "审计比较分母和规则",
+          "action": "完成prediction-10-12、plan和control-audit，区分4格面积单位、字母个体数、类别数。确认两套同格数、同图、同图例和计数方法，不把未测当0。",
+          "actor": "together",
+          "adultNote": "纸画4×4等大格，行r从上到下1—4，列c从左到右1—4。左半c1/c2每格一个A，共8个；B只在(1,3)、(2,4)、(3,3)、(4,4)各一个，共4个。右半其余4格为空。每个字母放格内中心，不压边。按map-input逐格核对，不能为了结果改分布。若手抄与输入不同，保留差异并修正副本，原计数不擦除。"
+        },
+        {
+          "title": "核对两套逐格原始计数",
+          "caption": "核对两套逐格原始计数",
+          "action": "独立填sample-L/D及summary，audit-work检查重复格、漏格、空格/未知。修订旁留原值和依据，不为了符合预计把角落加B。",
+          "actor": "together",
+          "adultNote": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。"
+        },
+        {
+          "title": "用全图核算推断误差",
+          "caption": "用全图核算推断误差",
+          "action": "记录封存后逐行在census-work数全图16格。estimate-work另算4倍样本A、B、总数及与全图差值，这是粗略外推不是实测总数。ratio-work比较B/个体总数，分母若0或未知则不计算。",
+          "actor": "together",
+          "adultNote": "保留原始计数；不同记录不覆盖，帮助与未知单列。"
+        },
+        {
+          "title": "分清规则偏差与读图错误",
+          "caption": "分清规则偏差与读图错误",
+          "action": "claim-audit判“分散就随机”“样本没B所以全图没B”等；conclusion-10-12引用实际原始计数、外推误差和坐标限制。只设计先定规则的改进，不开展真实生态调查。",
+          "actor": "together",
+          "adultNote": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "分母及外推误差",
+          "计数错误与规则限制"
+        ],
+        "explanation": "同一张虚构图中，不同四格可能包含不同类别和数量；一个角落的发现不能自动代表16格整体。格数、个体数与类别数是不同分母；外推量不是全图实测。",
+        "limits": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。",
+        "observation": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "nextQuestion": "怎样先写清抽格规则，让另一个人能够复核你的推断？"
+      },
+      "guide": {
+        "goal": "分清规则偏差与读图错误",
+        "observe": "审计比较分母和规则",
+        "control": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "support": "成人可代读、指格、代记，幼儿不用坐标计算；允许未知、未做或停止。",
+        "time": "15—25分钟可分次",
+        "recordFields": [
+          "样本坐标",
+          "逐格A/B或未知",
+          "格数/个体数/类别数",
+          "依据和限制",
+          "帮助与修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "自然监测和调查技能的背景。",
+          "scope": "本轮实读turn486view0第60—69行；不提供或认证本页网格、坐标或抽样计算。"
+        },
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "等大小子集等可能是简单随机抽样条件；取样方法及抽样变异影响推断。",
+          "scope": "本轮实读turn487view2第180—181行与turn487view1第223—231、379—384行。概念改述，未复制例题、表格或图。"
+        }
+      ],
+      "sourceNote": "NHM只提供自然监测背景；抽样概念另核OpenStax。本页固定图、坐标、算例和记录表均原创，不是来源机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sampling279-10-12-1",
+          "description": "审计比较分母和规则；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "审计比较分母和规则",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "格数 / 个体数 / 类别数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "先写分母和计数规则",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "同一张虚构图",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "未知不能代成零",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "分母先写清楚",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "保留漏数与修订",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "4倍只是模型外推",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "分散不自动无偏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-10-12-2",
+          "description": "核对两套逐格原始计数；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "核对两套逐格原始计数",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "分母先写清楚",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "保留漏数与修订",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "4倍只是模型外推",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "分散不自动无偏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-10-12-3",
+          "description": "用全图核算推断误差；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "用全图核算推断误差",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "先保留原始计数",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "再数全图16格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "样本 × 4 是外推",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "与全图差多少？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "分母先写清楚",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "保留漏数与修订",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "4倍只是模型外推",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "分散不自动无偏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-10-12-4",
+          "description": "分清规则偏差与读图错误；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "分清规则偏差与读图错误",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "局部记录 / 全图证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "规则与结论要对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "分散不自动等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "只纸上设计改进",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "分母先写清楚",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "保留漏数与修订",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "4倍只是模型外推",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "分散不自动无偏",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    },
+    "13-16": {
+      "version": 1,
+      "question": "只看一个角落能代表整片区域吗？ 等概率机制下为何仍可能漏掉B？",
+      "materials": [
+        "plan、prediction-13-16、sample-L/D、L/D-summary、census-work、estimate-work、ratio-work、fixed-vs-random、random-work、expectation-work、estimator-audit、design-work、conclusion-13-16；前表后才读random-input；公共safety/setup/rules/map-input；reference暂收起。",
+        "原题纸上4×4格与笔；可手抄、无需剪裁或打印，不添加真实采样。"
+      ],
+      "safety": "4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。材料不入口、不揉眼，结束后整理并洗手。 本次全程纸笔，不接触、捕捉、培养真实生物，不外出调查；无需剪裁、采样器或额外器材。幼儿由成人代读坐标和计数，只指认或画图即可。",
+      "steps": [
+        {
+          "title": "先冻结固定样本及目标量",
+          "caption": "先冻结固定样本及目标量",
+          "action": "在prediction-13-16、plan注明估计A总数、B总数还是类别数，分别填两套sample和summary；不把两套共享格当互不相关新样本。",
+          "actor": "together",
+          "adultNote": "纸画4×4等大格，行r从上到下1—4，列c从左到右1—4。左半c1/c2每格一个A，共8个；B只在(1,3)、(2,4)、(3,3)、(4,4)各一个，共4个。右半其余4格为空。每个字母放格内中心，不压边。按map-input逐格核对，不能为了结果改分布。若手抄与输入不同，保留差异并修正副本，原计数不擦除。"
+        },
+        {
+          "title": "从总体清单检查固定估计",
+          "caption": "从总体清单检查固定估计",
+          "action": "记录封存后做census-work、estimate-work及ratio-work，检查D恰好得到某个正确值是否只是这张图的巧合。fixed-vs-random逐格说明L/D并无随机机制。",
+          "actor": "together",
+          "adultNote": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。"
+        },
+        {
+          "title": "分析另题等概率抽样",
+          "caption": "分析另题等概率抽样",
+          "action": "完成前表再读random-input：从16格均匀不放回取4格。random-work算总子集数、没有B的子集数及概率；expectation-work用每格入样概率4/16推4倍计数的期望。只纸算，不声称已随机实验。",
+          "actor": "together",
+          "adultNote": "保留原始计数；不同记录不覆盖，帮助与未知单列。"
+        },
+        {
+          "title": "限定估计量和现实外推",
+          "caption": "限定估计量和现实外推",
+          "action": "estimator-audit区分总数线性估计与“见到几类”，解释无偏是重复机制下平均性质而非每次都准。design-work写选格前冻结规则、未知处理、验证方法；conclusion-13-16不把纸模型外推成野外调查认证。",
+          "actor": "together",
+          "adultNote": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "等概率子集与包含概率",
+          "期望无偏不保证单次准确"
+        ],
+        "explanation": "同一张虚构图中，不同四格可能包含不同类别和数量；一个角落的发现不能自动代表16格整体。理想等概率无放回机制可使线性总量估计无偏，类别发现率与单次准确性仍不同。",
+        "limits": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。",
+        "observation": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "nextQuestion": "怎样先写清抽格规则，让另一个人能够复核你的推断？"
+      },
+      "guide": {
+        "goal": "限定估计量和现实外推",
+        "observe": "先冻结固定样本及目标量",
+        "control": "先把两套固定坐标写在plan，再数图。角落L={(1,1),(1,2),(2,1),(2,2)}；分散D={(1,1),(1,4),(4,1),(4,4)}。各4个不同格，每格面积相同；每套内一个格只数一次，两套重合格可各计一次，不把两套拼成8个独立格。空格记A=0、B=0；没看清记未知，不写0。比较类别和个体数要分开，记录后才读reference。",
+        "support": "成人可代读、指格、代记，幼儿不用坐标计算；允许未知、未做或停止。",
+        "time": "20—30分钟可分次",
+        "recordFields": [
+          "样本坐标",
+          "逐格A/B或未知",
+          "格数/个体数/类别数",
+          "依据和限制",
+          "帮助与修订"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Natural History Museum｜Urban Nature Project",
+          "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+          "claim": "自然监测和调查技能的背景。",
+          "scope": "本轮实读turn486view0第60—69行；不提供或认证本页网格、坐标或抽样计算。"
+        },
+        {
+          "title": "OpenStax｜Data, Sampling, and Variation",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling",
+          "claim": "等大小子集等可能是简单随机抽样条件；取样方法及抽样变异影响推断。",
+          "scope": "本轮实读turn487view2第180—181行与turn487view1第223—231、379—384行。概念改述，未复制例题、表格或图。"
+        }
+      ],
+      "sourceNote": "NHM只提供自然监测背景；抽样概念另核OpenStax。本页固定图、坐标、算例和记录表均原创，不是来源机构认证课例。",
+      "review": {
+        "status": "reconstruction-draft",
+        "checkedAt": "待独立审核",
+        "method": "作者静态检查",
+        "limitations": "原创虚构4×4网格，不是真实生物调查；未做儿童、实物、打印或课程认证。A/B只是类别代号，不代表物种鉴定。两个固定样本不证明随机、无偏或普遍更好；未见某类不等于总体没有。随机公式是另题理想纸模型，不是本次实际随机抽样结果。"
+      },
+      "diagrams": [
+        {
+          "sceneKey": "sampling279-13-16-1",
+          "description": "先冻结固定样本及目标量；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "先冻结固定样本及目标量",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "先定义要估计什么",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "L与D各四格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "两组有重合格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "不声称独立随机抽样",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "固定组没有随机机制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等概率是另题假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无偏是期望性质",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "单次可能完全漏B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-13-16-2",
+          "description": "从总体清单检查固定估计；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "从总体清单检查固定估计",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 132,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 132,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 108,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#E7EFE4",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 170,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 146,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 170,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 208,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 208,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 184,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 74,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 118,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 246,
+              "text": "A",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 162,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "rect",
+              "x": 206,
+              "y": 222,
+              "width": 44,
+              "height": 38,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 246,
+              "text": "B",
+              "fontSize": 15,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 91,
+              "y": 101,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 135,
+              "y": 101,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 101,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 223,
+              "y": 101,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 132,
+              "text": "1",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 170,
+              "text": "2",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 208,
+              "text": "3",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 57,
+              "y": 246,
+              "text": "4",
+              "fontSize": 11,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 48,
+              "y": 285,
+              "text": "有底色格：本步指定；非随机",
+              "fontSize": 12,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "固定组没有随机机制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等概率是另题假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无偏是期望性质",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "单次可能完全漏B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-13-16-3",
+          "description": "分析另题等概率抽样；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "分析另题等概率抽样",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "另题：等概率取四格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "无放回，不重复格",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "漏B概率如何算？",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "期望不等于单次准确",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "固定组没有随机机制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等概率是另题假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无偏是期望性质",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "单次可能完全漏B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        },
+        {
+          "sceneKey": "sampling279-13-16-4",
+          "description": "限定估计量和现实外推；原创固定网格示意，不是生物实测或儿童作答。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 35,
+              "y": 82,
+              "text": "限定估计量和现实外推",
+              "fontSize": 16,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 45,
+              "y": 108,
+              "width": 280,
+              "height": 173,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 137,
+              "text": "局部记录 / 全图证据",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 172,
+              "text": "规则与结论要对应",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 207,
+              "text": "分散不自动等于随机",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 55,
+              "y": 242,
+              "text": "只纸上设计改进",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "rect",
+              "x": 353,
+              "y": 109,
+              "width": 246,
+              "height": 175,
+              "fill": "#FFFDF6",
+              "stroke": "#477F7D",
+              "strokeWidth": 1.5
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 137,
+              "text": "固定组没有随机机制",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 170,
+              "text": "等概率是另题假设",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 203,
+              "text": "无偏是期望性质",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            },
+            {
+              "type": "text",
+              "x": 363,
+              "y": 236,
+              "text": "单次可能完全漏B",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#18383A"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -16,3 +16,22 @@ export async function waitForCode(page,email,count=0){let box;await expect.poll(
 export async function changeProfileAge(page,age){
  const id=await page.locator('#child-switch').inputValue();await cloudSaved(page);await openAccount(page);await page.locator(`[data-edit-child="${id}"]`).click();await page.locator('#child-age').selectOption(age);await page.locator('#child-consent').check();await page.locator('#save-child').click();await expect(page.locator('#open-safety')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(id);await expect(page.locator('[data-age]')).toHaveCount(0);await cloudSaved(page);
 }
+
+// Assertion-only reconstruction uses the real paginated v2 export, not the
+// retired whole-state endpoint. The browser app never downloads this whole map.
+export async function readProgressSnapshot(page,id){
+ const summary=await(await authFetch(page,`/api/children/${id}/progress`)).json();expect(summary.ok).toBe(true);let after=null,through,context,first,items=[];
+ do{const result=await(await authFetch(page,`/api/children/${id}/progress/export`+(after!==null?`?after=${after}&through=${through}&context=${encodeURIComponent(context)}`:''))).json();expect(result.ok).toBe(true);first??=result;context=result.context;items.push(...result.items);through=result.through;after=result.nextCursor}while(after!==null);
+ const state={records:{},steps:{},viewedSteps:{},completed:{},legacyRecords:{},protocolProgress:{},...JSON.parse(first.legacyStateJSON),...first.navigation,recordSchemaVersion:3};
+ for(const {key,record}of items){const[day,age,version]=key.split(':'),base=day+':'+age;if(version==='v0'){state.records[base]=record.records;state.steps[base]=record.step;state.viewedSteps[base]=record.viewedSteps;state.completed[base]=record.completed;if(record.legacyRecord)state.legacyRecords[base]=record.legacyRecord;}else state.protocolProgress[key]={records:record.records,step:record.step,viewedSteps:record.viewedSteps,completed:record.completed};}
+ return {state,access:summary.access,navigationRevision:summary.navigationRevision};
+}
+export async function writeProgressRecord(page,id,key,record){
+ const session=await(await page.request.get('/api/session')).json(),current=await(await authFetch(page,`/api/children/${id}/progress/records/${key}`)).json();expect(current.ok).toBe(true);
+ return page.request.put(`/api/children/${id}/progress/records/${key}`,{headers:{Origin:origin,'X-CSRF-Token':session.csrfToken,'If-Match':current.etag,'Idempotency-Key':crypto.randomUUID()},data:{record}});
+}
+export async function writeProgressNavigation(page,id,change){
+ const session=await(await page.request.get('/api/session')).json(),summary=await(await authFetch(page,`/api/children/${id}/progress`)).json();expect(summary.ok).toBe(true);
+ return page.request.put(`/api/children/${id}/progress/navigation`,{headers:{Origin:origin,'X-CSRF-Token':session.csrfToken,'If-Match':summary.navigationETag,'Idempotency-Key':crypto.randomUUID()},data:{...summary.navigation,...change}});
+}
+export async function openOriginalRecord(page,key){const detail=page.locator(`[data-history-key="${key}"]`);await detail.locator('summary').click();await detail.locator('[data-read-history]').click();await expect(detail.locator('.saved-history-entry')).toBeVisible();return detail;}

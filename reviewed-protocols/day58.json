@@ -1,0 +1,5230 @@
+{
+  "activityId": 58,
+  "activityTitle": "尺子没从零开始怎么办",
+  "ageProtocols": {
+    "4-6": {
+      "version": 1,
+      "materials": [
+        "完整30厘米塑料直尺1把，厘米刻线清晰且零刻线可见",
+        "成人预裁长约8厘米、宽3厘米纸条1张（成人准备时使长度接近8个厘米格；真实读数另记）；白纸2张、粗笔1支",
+        "成人预裁3×6厘米大指示纸1张，只指端点不当附加长度"
+      ],
+      "safety": "只用完整、边缘平滑的塑料直尺，不折断、锯开或磨尺，不用破损尺与锋利金属边。成人预裁纸条并收好剪刀，纸条宽至少3厘米，幼儿不把纸或尺入口；不拿尺弹射或挥动。桌上平放操作，不站椅或趴桌边；不用激光。遮挡仅在完整尺上放纸，不粘到皮肤。",
+      "steps": [
+        {
+          "title": "找刻线而不是尺外边",
+          "action": "成人把尺平放，指出0刻线与尺外边可能不是同一处。把纸条左端对齐0，孩子指两端；成人读右端所在刻线或相邻两线之间，不强说一定正好8厘米。",
+          "actor": "together",
+          "caption": "找刻线而不是尺外边",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "一格一格走过纸条",
+          "action": "孩子沿尺在纸条两端之间指相邻厘米格，成人跟随计完整格并注明末端是否有不足一格。数的是格子间隔，不是把两端刻线都当一厘米。",
+          "actor": "together",
+          "caption": "一格一格走过纸条",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "同纸条移到3厘米线",
+          "action": "不剪不拉同纸条，把左端改对3厘米线，长边仍与尺平行。成人读两端，孩子重新逐格指纸条覆盖的间隔，比较末端数字变了而纸条没有换长。",
+          "actor": "together",
+          "caption": "同纸条移到3厘米线",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "移回零再核实",
+          "action": "把同纸条移回0，重复指端点与数格。成人用两列记录“末端在哪个数附近”和“条跨了多少格”，允许末端半格口述，不让孩子必须做减法。",
+          "actor": "together",
+          "caption": "移回零再核实",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "单位是两刻线之间的间隔",
+          "刻线坐标不等物体长度",
+          "平移不改变纸条"
+        ],
+        "explanation": "尺上的数表示从它的起点累计到哪里。纸条移到另一个起点，末端的数可以变，但纸条覆盖的间隔没有因此增加。",
+        "limits": "幼儿只指格比较，不强求毫米精度；纸条约8厘米是备料目标，不是假定实际测量一定为8。",
+        "observation": "0/3/回0三位置端点与数格、半格和提示。",
+        "nextQuestion": "纸条没剪也没拉长，为什么挪到3后末端看到的数字变大了？"
+      },
+      "guide": {
+        "goal": "实际移条、数间隔、移回核查，分开位置数与长度。",
+        "observe": "同纸条从0挪到3再挪回，末端数字与跨过的格子分别怎样变化？",
+        "support": "成人读数代记，孩子指端点与间隔，不强迫减法或小数。",
+        "control": "同尺同条不伸拉，长边平行；起点0/3/0，数间隔不数刻线个数。",
+        "time": "约10–15分钟。",
+        "recordFields": [
+          "三位置端点附近刻数",
+          "跨格与不足一格",
+          "提示与位置/长度解释"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "offset58-46-zero",
+          "description": "纸条左端对零线，外边另有边距。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "对0刻线，不对尺外边",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 180,
+              "width": 280,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 205,
+              "x2": 65,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 205,
+              "x2": 345,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-46-gaps",
+          "description": "指间隔不是数刻线。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "一厘米是相邻刻线间的一格",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 180,
+              "width": 280,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 205,
+              "x2": 65,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 205,
+              "x2": 345,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 285,
+              "text": "图示长度仅为操作示例",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-46-three",
+          "description": "同条平移到3线。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "条不变，只把左端移到3",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 180,
+              "width": 280,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 205,
+              "x2": 170,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 205,
+              "x2": 450,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-46-return",
+          "description": "移回零线核查。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "回0复查：位置数字≠长度",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 65,
+              "y": 180,
+              "width": 280,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 205,
+              "x2": 65,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 205,
+              "x2": 345,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "同纸条从0挪到3再挪回，末端数字与跨过的格子分别怎样变化？",
+      "sources": [
+        {
+          "title": "Waterloo Region District School Board｜The Broken Ruler",
+          "url": "https://schools.wrdsb.ca/athome/learn/elementary-home/elementary-2/math/math-grades-1-3/investigations/the-broken-ruler/",
+          "claim": "该学区家庭活动用从6开始的纸尺，询问从尺边还是刻线起量，并建议在原标数下重新从0标记。",
+          "scope": "支持起点刻线和单位间隔的教学背景；本题不折断尺，改用完整尺偏置/遮挡/自制标度，具体实验独立设计。"
+        }
+      ],
+      "sourceNote": "依据学区单位测量活动和NIST刻线准确性背景独立设计完整尺/纸尺操作，未课堂试用，不代表机构认证。没有折断尺；图例和备料目标不是伪造实测值。手画尺与重复读数不是校准或专业计量结论。"
+    },
+    "7-9": {
+      "version": 1,
+      "materials": [
+        "完整30厘米塑料直尺1把，带毫米小刻度",
+        "成人预裁宽3厘米纸条A/B/C各1张，长度各在5–9厘米内且不同，不把准备长度告诉孩子",
+        "记录纸3张、铅笔1支；成人预裁身份标签3张或直接在条中部写A/B/C"
+      ],
+      "safety": "只用完整、边缘平滑的塑料直尺，不折断、锯开或磨尺，不用破损尺与锋利金属边。成人预裁纸条并收好剪刀，纸条宽至少3厘米，幼儿不把纸或尺入口；不拿尺弹射或挥动。桌上平放操作，不站椅或趴桌边；不用激光。遮挡仅在完整尺上放纸，不粘到皮肤。",
+      "steps": [
+        {
+          "title": "备三条，定义两端读数",
+          "action": "纸条A/B/C长度各不同但都5–9厘米，成人只公布范围。读一条时记左端a、右端b，单位统一毫米；尺可从厘米数换成毫米，如3厘米=30毫米，不把3.5厘米写成3.5毫米。",
+          "actor": "together",
+          "caption": "备三条，定义两端读数",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "每条三个起点实际重放",
+          "action": "A从0/3/6厘米起，B从6/3/0起，C从3/0/6起，各位置都拿起重新摆平，不沿用上次终点。记录a和b，再算L=b−a，共9次。目标起点虽指定，仍检查是否真对齐；不齐就调整再读。",
+          "actor": "together",
+          "caption": "每条三个起点实际重放",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "用端点数与差值分别排序",
+          "action": "每条将三次b列一栏、三次L列另一栏，比较同条的末端位置数是否变化而长度差是否近似一致。出现1毫米差不擦掉，重看斜放、读点和线宽；只有明显操作错误才补测并保留原记录。",
+          "actor": "together",
+          "caption": "用端点数与差值分别排序",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "把三条左端齐平直接比较",
+          "action": "离开尺，三条左端齐平并排，直接看右端长短顺序，再与各条三次长度的范围比较。如果范围相接或重叠，不强行凭小差排名；末端读数b不能跨不同起点直接当长短。",
+          "actor": "together",
+          "caption": "把三条左端齐平直接比较",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "两端读数差",
+          "同物平移重复测量",
+          "独立摆放与读数分散",
+          "共同起点的直接比较"
+        ],
+        "explanation": "当坐标沿尺从左向右增加，长度是右端读数减左端读数。三个不同起点改变坐标，不改变条本身；实际读数可能因摆放和视读出现小差。",
+        "limits": "毫米刻度不等毫米准确度，九次是三条重复摆放不是九个独立物体；齐端目测也不是校准真值。",
+        "observation": "9组a/b/L、各条范围和齐端排序一致性。",
+        "nextQuestion": "两条纸的末端都到11厘米，为什么它们仍可能长短不同？"
+      },
+      "guide": {
+        "goal": "三条×三起点真实重放与差值记录，再用齐端排列交叉核查。",
+        "observe": "A/B/C各换三个起点后，端点差与末端数字哪个能与齐端长短比较对应？",
+        "support": "成人备不同条与读单位，学习者每次重放、算差，保留分散。",
+        "control": "同尺毫米单位，三条各三位置，共9次；条平行、正上方读，两端齐线再记。",
+        "time": "约25分钟。",
+        "recordFields": [
+          "9次a/b/L毫米",
+          "每条L范围和重测原因",
+          "齐端排序与边界"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "offset58-79-strips",
+          "description": "不同纸条身份示意，实际长短不预填。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "三条A/B/C，实际长度自己量",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 145,
+              "width": 220,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 167,
+              "text": "A",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 195,
+              "width": 290,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 217,
+              "text": "B",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 245,
+              "width": 180,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 95,
+              "y": 267,
+              "text": "C",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-79-offsets",
+          "description": "示例起点3，其余实际重放。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "每次重放，记录两端a与b",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 205,
+              "x2": 170,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 205,
+              "x2": 380,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-79-difference",
+          "description": "差值演算针对实读，图不给观测结果。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "L=b−a；先统一成毫米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 275,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 205,
+              "x2": 275,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 205,
+              "x2": 485,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-79-align",
+          "description": "齐左端直接比较，示意不固定学习者排序。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "最后齐左端，和实测范围比较",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 80,
+              "y1": 135,
+              "x2": 80,
+              "y2": 285,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 145,
+              "width": 220,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 195,
+              "width": 290,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 80,
+              "y": 245,
+              "width": 180,
+              "height": 30,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        }
+      ],
+      "question": "A/B/C各换三个起点后，端点差与末端数字哪个能与齐端长短比较对应？",
+      "sources": [
+        {
+          "title": "Waterloo Region District School Board｜The Broken Ruler",
+          "url": "https://schools.wrdsb.ca/athome/learn/elementary-home/elementary-2/math/math-grades-1-3/investigations/the-broken-ruler/",
+          "claim": "该学区家庭活动用从6开始的纸尺，询问从尺边还是刻线起量，并建议在原标数下重新从0标记。",
+          "scope": "支持起点刻线和单位间隔的教学背景；本题不折断尺，改用完整尺偏置/遮挡/自制标度，具体实验独立设计。"
+        }
+      ],
+      "sourceNote": "依据学区单位测量活动和NIST刻线准确性背景独立设计完整尺/纸尺操作，未课堂试用，不代表机构认证。没有折断尺；图例和备料目标不是伪造实测值。手画尺与重复读数不是校准或专业计量结论。"
+    },
+    "10-12": {
+      "version": 1,
+      "materials": [
+        "完整30厘米塑料直尺1把，厘米数字与毫米小刻线清晰；不透明纸1张遮住0–4厘米段，不破坏尺",
+        "成人预裁宽3厘米、长6–9厘米纸条A/B各1张；纸胶带少量用于固定条不拉伸",
+        "A3底纸1张，铅笔1支、记录纸3张；底纸标桌面左/右以免混淆"
+      ],
+      "safety": "只用完整、边缘平滑的塑料直尺，不折断、锯开或磨尺，不用破损尺与锋利金属边。成人预裁纸条并收好剪刀，纸条宽至少3厘米，幼儿不把纸或尺入口；不拿尺弹射或挥动。桌上平放操作，不站椅或趴桌边；不用激光。遮挡仅在完整尺上放纸，不粘到皮肤。",
+      "steps": [
+        {
+          "title": "只遮数字，不折断尺",
+          "action": "用纸盖完整尺的0–4厘米段。A条固定桌面底纸，左/右端标清，先让尺数字从桌面左向右增加；将可见的5厘米线对条左端，另端应在可见量程内。读两端数x左、x右，以毫米记。",
+          "actor": "together",
+          "caption": "只遮数字，不折断尺",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "平移尺做第二个可见起点",
+          "action": "条保持固定，把尺平移到10厘米线对条左端，记录两端。先后计算|x右−x左|，不将被遮的起点等同物体从0起。不能用看不到的线猜读数。",
+          "actor": "together",
+          "caption": "平移尺做第二个可见起点",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "尺转半圈但条不动",
+          "action": "只在桌面内旋转尺180度，纸遮挡仍随尺留在0–4段；数字现从桌面左向右减小。把5厘米线对条右端读两端，再把10厘米线对右端读两端。保持同一刻度边靠近纸条，尺不压弯条；差的绝对值是长度，不是负长度。",
+          "actor": "together",
+          "caption": "尺转半圈但条不动",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "第二条重做并审查方向",
+          "action": "换B条，重复四种实际摆尺，共8组两端读数。比较正向/反向的有符号差与绝对差，列出哪次仅因尺向改变了符号，哪次有实际读数分散；遮零并不会自动毁掉中间完整刻度的用途。",
+          "actor": "together",
+          "caption": "第二条重做并审查方向",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "尺的零点可不在物体端点",
+          "坐标方向与有符号差",
+          "长度为端点差绝对值",
+          "可见区间与量程"
+        ],
+        "explanation": "尺转半圈后桌面左端可能有较大的刻数。右减左得到负值表示坐标方向，不表示物体有负长度。只要两端都在可靠可见的完整刻度区，就可用两读数差的绝对值。",
+        "limits": "遮纸只模拟零点不可用，不模拟真实断尺变形、错刻或缺失区间；读数接近不证明尺已校准。",
+        "observation": "两条×正反向×5/10线对端的8组读数、有符号差/绝对差及分散。",
+        "nextQuestion": "同纸条不动，只把尺转半圈，为什么右端减左端可能变成负数而长度不变？"
+      },
+      "guide": {
+        "goal": "真实遮零、平移和转尺，在固定对象上检验坐标方向与长度差。",
+        "observe": "零点被遮、尺又反向时，同纸条的两端数如何求长度，怎样避免把坐标负差叫负长度？",
+        "support": "成人帮固定条/遮纸，学习者每次实际转移尺而不转条；两端均可见才读。",
+        "control": "两条各4次；正向5/10对左端，反向5/10对右端；同毫米刻度，条固定不伸拉。",
+        "time": "约25–30分钟。",
+        "recordFields": [
+          "8组两端坐标毫米",
+          "有符号差及绝对长度",
+          "方向/遮挡/读数分散说明"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "offset58-1012-mask",
+          "description": "遮住0–4，示例条从5开始。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "遮零，不损坏完整尺",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 205,
+              "x2": 240,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 205,
+              "x2": 450,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 207,
+              "width": 155,
+              "height": 52,
+              "fill": "#CCCCCC",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1012-move",
+          "description": "示意只显示完整可见段，[5,19]非另造尺。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "条固定，只平移尺",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 205,
+              "x2": 240,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 205,
+              "x2": 450,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "17",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "19",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1012-reverse",
+          "description": "数字反向，条仍桌面同向。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "只转尺，左/右端以桌面为准",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 205,
+              "x2": 240,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 205,
+              "x2": 450,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 480,
+              "y": 207,
+              "width": 85,
+              "height": 52,
+              "fill": "#CCCCCC",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1012-absolute",
+          "description": "反向坐标用差绝对值；本幅截示21至7刻度段，0–4被遮段在画幅外。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "长度=|右端数−左端数|",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 240,
+              "y": 180,
+              "width": 210,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 205,
+              "x2": 240,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 205,
+              "x2": 450,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 510,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "21",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "20",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "19",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "18",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "17",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 520,
+              "y1": 210,
+              "x2": 520,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 514,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 555,
+              "y1": 210,
+              "x2": 555,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 549,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 285,
+              "text": "两端都必须在可见刻度内",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "零点被遮、尺又反向时，同纸条的两端数如何求长度，怎样避免把坐标负差叫负长度？",
+      "sources": [
+        {
+          "title": "Waterloo Region District School Board｜The Broken Ruler",
+          "url": "https://schools.wrdsb.ca/athome/learn/elementary-home/elementary-2/math/math-grades-1-3/investigations/the-broken-ruler/",
+          "claim": "该学区家庭活动用从6开始的纸尺，询问从尺边还是刻线起量，并建议在原标数下重新从0标记。",
+          "scope": "支持起点刻线和单位间隔的教学背景；本题不折断尺，改用完整尺偏置/遮挡/自制标度，具体实验独立设计。"
+        },
+        {
+          "title": "NIST｜How Do You Ensure That a Tape Measure Is Accurate?",
+          "url": "https://www.nist.gov/how-do-you-measure-it/how-do-you-ensure-tape-measure-accurate",
+          "claim": "NIST介绍制造商用参考长度与测量系统检查尺上刻线位置。",
+          "scope": "仅支持刻线间隔也需准确、不能只看数字的计量背景；本家庭重复读数和手画纸尺都不是校准或认证，不采用工业装置与公差作家庭要求。"
+        }
+      ],
+      "sourceNote": "依据学区单位测量活动和NIST刻线准确性背景独立设计完整尺/纸尺操作，未课堂试用，不代表机构认证。没有折断尺；图例和备料目标不是伪造实测值。手画尺与重复读数不是校准或专业计量结论。"
+    },
+    "13-16": {
+      "version": 1,
+      "materials": [
+        "完整30厘米塑料毫米直尺1把（用于构造与对照，不声称校准标准）",
+        "成人预裁纸尺底条A/B各14×4厘米、C26×4厘米；在A/B各画12个1厘米间隔，A标0–12，B标5–17；C画12个2厘米间隔标0–12，三者刻线都留边距1厘米",
+        "成人预裁长4–6厘米宽3厘米目标纸条1张；A3底纸、铅笔/细笔各1支、记录纸3张；纸胶带少量"
+      ],
+      "safety": "只用完整、边缘平滑的塑料直尺，不折断、锯开或磨尺，不用破损尺与锋利金属边。成人预裁纸条并收好剪刀，纸条宽至少3厘米，幼儿不把纸或尺入口；不拿尺弹射或挥动。桌上平放操作，不站椅或趴桌边；不用激光。遮挡仅在完整尺上放纸，不粘到皮肤。",
+      "steps": [
+        {
+          "title": "实作三种坐标标度",
+          "action": "用完整尺构造纸尺A/B/C，逐刻线检查不漏间隔：A和B每格约1厘米但起始标签不同，C每格约2厘米。分别写“每数值单位约1厘米/1厘米/2厘米”，C不得标成厘米数字。留出尺外边距，卡片本身长度不是刻度长度。用原完整尺先测目标条作参照并记录，不叫已知真值。",
+          "actor": "together",
+          "caption": "实作三种坐标标度",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "三尺各两位置实测端点范围",
+          "action": "A/B先把目标条左端放在各尺物理第1个间隔线，再放第3个间隔线；C同样放第1、第3间隔线。每次重放不复用终点，共6次。分别给左/右端读数包围区间[a低,a高]、[b低,b高]：清晰落在线上可同值，有线宽或不确定就用相邻刻线包住，不填超过纸尺可读的细小数。",
+          "actor": "together",
+          "caption": "三尺各两位置实测端点范围",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "区间差与单位转换核算",
+          "action": "对每次先算数值长度范围[b低−a高,b高−a低]，再分别乘A/B的1厘米/单位或C的2厘米/单位；若下界因粗读变负就只取非负长度范围。核参照读数与各粗范围是否相容，失败先查手绘线距、歪放和混用单位，保留原值。",
+          "actor": "together",
+          "caption": "区间差与单位转换核算",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        },
+        {
+          "title": "区别改原点与改尺度",
+          "action": "比A/B：同间隔只是标签整体加5，两端相减抵消共同平移。比A/C：单位实际间隔变为约2倍，差值不能直接冒称厘米，必须乘转换因子。解释范围只覆盖本次端点包围规则，不含手画刻距/原尺误差，不是统计置信区间或真实长度保证。",
+          "actor": "together",
+          "caption": "区别改原点与改尺度",
+          "adultNote": "纸条平直与刻线方向垂直、长边与尺平行；视线从正上方看端点，读不清记缺测，不猜更细小数。"
+        }
+      ],
+      "knowledge": {
+        "concepts": [
+          "坐标原点平移抵消",
+          "尺度变化不被减法消除",
+          "端点区间差",
+          "单位转换与误差范围"
+        ],
+        "explanation": "同给两端读数加常数不会改变它们的差；但把每格实际长度改变，数值差所代表的长度也变了。先按读数求差再按单位换算，比只背“末减初”更完整。",
+        "limits": "自制纸尺刻线可能不准，所列端点区间不是全误差预算/置信区间；原完整尺只供参照，不证明任何一尺准确。",
+        "observation": "三尺制作核查、6次端点包围范围/换算、参照相容性、原点与尺度区别。",
+        "nextQuestion": "两端都加5可相减抵消，为什么把每格画成两倍宽却不能只靠减法消除？"
+      },
+      "guide": {
+        "goal": "真实构造平移标签与拉大刻距纸尺，测量端点区间并转换单位。",
+        "observe": "改起始标签和改单位刻距对差值有什么不同，六次粗读范围怎样换成厘米而不夸大准确度？",
+        "support": "成人预裁，学习者画尺核间隔；线不清用区间，不凭预期填精细数。",
+        "control": "同条，三纸尺各物理第1/3间隔起点；A/B1厘米一单位、C2厘米一单位；每次重放两端包围。",
+        "time": "约35–40分钟。",
+        "recordFields": [
+          "纸尺间隔/标签制作核查",
+          "6次端点区间与厘米换算",
+          "完整尺参照及相容性",
+          "原点/尺度和误差边界"
+        ]
+      },
+      "diagrams": [
+        {
+          "sceneKey": "offset58-1316-scales",
+          "description": "纸尺A/B同长同距不同标数；C完整12间隔，刻距及活动长度均双倍。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 90,
+              "text": "A/B同间隔；C每单位约2厘米",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 120,
+              "width": 260,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 120,
+              "x2": 65,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 155,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 120,
+              "x2": 85,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 79,
+              "y": 155,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 120,
+              "x2": 105,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 155,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 120,
+              "x2": 125,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 155,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 120,
+              "x2": 145,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 139,
+              "y": 155,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 165,
+              "y1": 120,
+              "x2": 165,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 155,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 120,
+              "x2": 185,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 155,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 120,
+              "x2": 205,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 155,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 120,
+              "x2": 225,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 155,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 120,
+              "x2": 245,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 239,
+              "y": 155,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 120,
+              "x2": 265,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 259,
+              "y": 155,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 120,
+              "x2": 285,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 155,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 120,
+              "x2": 305,
+              "y2": 132,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 155,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 185,
+              "width": 260,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 185,
+              "x2": 65,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 220,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 85,
+              "y1": 185,
+              "x2": 85,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 79,
+              "y": 220,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 185,
+              "x2": 105,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 220,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 185,
+              "x2": 125,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 220,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 185,
+              "x2": 145,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 139,
+              "y": 220,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 165,
+              "y1": 185,
+              "x2": 165,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 159,
+              "y": 220,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 185,
+              "x2": 185,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 220,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 185,
+              "x2": 205,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 220,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 185,
+              "x2": 225,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 220,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 185,
+              "x2": 245,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 239,
+              "y": 220,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 185,
+              "x2": 265,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 259,
+              "y": 220,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 285,
+              "y1": 185,
+              "x2": 285,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 279,
+              "y": 220,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 185,
+              "x2": 305,
+              "y2": 197,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 220,
+              "text": "17",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 250,
+              "width": 500,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 250,
+              "x2": 65,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 285,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 105,
+              "y1": 250,
+              "x2": 105,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 99,
+              "y": 285,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 145,
+              "y1": 250,
+              "x2": 145,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 139,
+              "y": 285,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 250,
+              "x2": 185,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 285,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 225,
+              "y1": 250,
+              "x2": 225,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 219,
+              "y": 285,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 265,
+              "y1": 250,
+              "x2": 265,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 259,
+              "y": 285,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 250,
+              "x2": 305,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 285,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 250,
+              "x2": 345,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 285,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 385,
+              "y1": 250,
+              "x2": 385,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 379,
+              "y": 285,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 425,
+              "y1": 250,
+              "x2": 425,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 419,
+              "y": 285,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 465,
+              "y1": 250,
+              "x2": 465,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 459,
+              "y": 285,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 505,
+              "y1": 250,
+              "x2": 505,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 499,
+              "y": 285,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 545,
+              "y1": 250,
+              "x2": 545,
+              "y2": 262,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 539,
+              "y": 285,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1316-place",
+          "description": "同物用各纸尺实际读包围区间。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "三尺各两位置：端点都用实读",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 180,
+              "width": 175,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 205,
+              "x2": 100,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 205,
+              "x2": 275,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 440,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1316-range",
+          "description": "原点平移不改变纸尺间隔。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "先区间相减，再乘每单位厘米数",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 170,
+              "y": 180,
+              "width": 175,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 205,
+              "x2": 170,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 205,
+              "x2": 345,
+              "y2": 210,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 440,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 100,
+              "y1": 210,
+              "x2": 100,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 94,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 135,
+              "y1": 210,
+              "x2": 135,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 129,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 170,
+              "y1": 210,
+              "x2": 170,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 164,
+              "y": 245,
+              "text": "8",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 205,
+              "y1": 210,
+              "x2": 205,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 199,
+              "y": 245,
+              "text": "9",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 240,
+              "y1": 210,
+              "x2": 240,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 234,
+              "y": 245,
+              "text": "10",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 275,
+              "y1": 210,
+              "x2": 275,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 269,
+              "y": 245,
+              "text": "11",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 310,
+              "y1": 210,
+              "x2": 310,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 304,
+              "y": 245,
+              "text": "12",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 345,
+              "y1": 210,
+              "x2": 345,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 339,
+              "y": 245,
+              "text": "13",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 380,
+              "y1": 210,
+              "x2": 380,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 374,
+              "y": 245,
+              "text": "14",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 415,
+              "y1": 210,
+              "x2": 415,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 409,
+              "y": 245,
+              "text": "15",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 450,
+              "y1": 210,
+              "x2": 450,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 444,
+              "y": 245,
+              "text": "16",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "17",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 285,
+              "text": "C差值单位不是厘米",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        },
+        {
+          "sceneKey": "offset58-1316-limit",
+          "description": "C双间隔图前7格，完整尺实际12格。刻度与纸条为操作几何示意，图中指定位置/示例尺寸不是参与者实际读数；正式记录使用家中完整尺或自制纸尺实物，不从屏幕量长。",
+          "elements": [
+            {
+              "type": "text",
+              "x": 60,
+              "y": 95,
+              "text": "端点范围不含手画刻距误差",
+              "fontSize": 20,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "rect",
+              "x": 125,
+              "y": 180,
+              "width": 175,
+              "height": 25,
+              "fill": "#BBDCD6",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "rect",
+              "x": 55,
+              "y": 210,
+              "width": 440,
+              "height": 45,
+              "fill": "#F0E4BD",
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "line",
+              "x1": 65,
+              "y1": 210,
+              "x2": 65,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 59,
+              "y": 245,
+              "text": "0",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 125,
+              "y1": 210,
+              "x2": 125,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 119,
+              "y": 245,
+              "text": "1",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 185,
+              "y1": 210,
+              "x2": 185,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 179,
+              "y": 245,
+              "text": "2",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 245,
+              "y1": 210,
+              "x2": 245,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 239,
+              "y": 245,
+              "text": "3",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 305,
+              "y1": 210,
+              "x2": 305,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 299,
+              "y": 245,
+              "text": "4",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 365,
+              "y1": 210,
+              "x2": 365,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 359,
+              "y": 245,
+              "text": "5",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 425,
+              "y1": 210,
+              "x2": 425,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 419,
+              "y": 245,
+              "text": "6",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "line",
+              "x1": 485,
+              "y1": 210,
+              "x2": 485,
+              "y2": 222,
+              "stroke": "#254651",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "x": 479,
+              "y": 245,
+              "text": "7",
+              "fontSize": 14,
+              "anchor": "start",
+              "fill": "#254651"
+            },
+            {
+              "type": "text",
+              "x": 65,
+              "y": 285,
+              "text": "非校准、非置信区间",
+              "fontSize": 18,
+              "anchor": "start",
+              "fill": "#254651"
+            }
+          ]
+        }
+      ],
+      "question": "改起始标签和改单位刻距对差值有什么不同，六次粗读范围怎样换成厘米而不夸大准确度？",
+      "sources": [
+        {
+          "title": "Waterloo Region District School Board｜The Broken Ruler",
+          "url": "https://schools.wrdsb.ca/athome/learn/elementary-home/elementary-2/math/math-grades-1-3/investigations/the-broken-ruler/",
+          "claim": "该学区家庭活动用从6开始的纸尺，询问从尺边还是刻线起量，并建议在原标数下重新从0标记。",
+          "scope": "支持起点刻线和单位间隔的教学背景；本题不折断尺，改用完整尺偏置/遮挡/自制标度，具体实验独立设计。"
+        },
+        {
+          "title": "NIST｜How Do You Ensure That a Tape Measure Is Accurate?",
+          "url": "https://www.nist.gov/how-do-you-measure-it/how-do-you-ensure-tape-measure-accurate",
+          "claim": "NIST介绍制造商用参考长度与测量系统检查尺上刻线位置。",
+          "scope": "仅支持刻线间隔也需准确、不能只看数字的计量背景；本家庭重复读数和手画纸尺都不是校准或认证，不采用工业装置与公差作家庭要求。"
+        }
+      ],
+      "sourceNote": "依据学区单位测量活动和NIST刻线准确性背景独立设计完整尺/纸尺操作，未课堂试用，不代表机构认证。没有折断尺；图例和备料目标不是伪造实测值。手画尺与重复读数不是校准或专业计量结论。"
+    }
+  }
+}
