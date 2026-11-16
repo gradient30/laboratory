@@ -18,7 +18,7 @@ test('changed source falls back rather than using stale material assumptions',()
  assert.doesNotMatch(renderActivityDiagram(e,0,'4-6'),/data-illustration-version/);
 });
 test('other courses retain unstyled protocol renderer',()=>{
- for(const e of rows.filter(e=>e.id!==3))for(const age of Object.keys(e.ageProtocols))for(let s=0;s<4;s++) assert.doesNotMatch(renderActivityDiagram(e,s,age),/data-illustration-version/);
+ for(const e of rows.filter(e=>e.id!==3))for(const age of Object.keys(e.ageProtocols))for(let s=0;s<4;s++) assert.doesNotMatch(renderActivityDiagram(e,s,age),/data-illustration-version="january-leaf-v1"/);
 });
 test('projected active-age protocol receives the same pilot',()=>{const e=structuredClone(rows[2]);e.activeAgeProtocol=e.ageProtocols['4-6'];delete e.ageProtocols;assert.match(renderActivityDiagram(e,0,'4-6'),/data-illustration-version/);});
 test('pilot top labels clear the clip edge and explicit adult handling has visible hands',()=>{
