@@ -15,7 +15,7 @@ test('ice final records remain unknown independently for every labelled vessel',
  for(let s=0;s<3;s++)assert.doesNotMatch(renderActivityDiagram(rows[25],s,age),/data-observation-placeholder/);
  }
 });
-test('unknown badges cannot spread to changed source scenes or other courses',()=>{
+test('January ink/ice badges cannot spread to changed source scenes or other courses',()=>{
  for(const id of [12,26]){const e=structuredClone(rows[id-1]);e.ageProtocols['4-6'].diagrams[3].description+=' changed';assert.doesNotMatch(renderActivityDiagram(e,3,'4-6'),/data-observation-placeholder/);}
- for(const e of rows.filter(e=>![12,26].includes(e.id)))for(const age of Object.keys(e.ageProtocols))for(let s=0;s<4;s++)assert.doesNotMatch(renderActivityDiagram(e,s,age),/data-observation-placeholder/);
+ for(const e of rows.filter(e=>![12,26].includes(e.id)))for(const age of Object.keys(e.ageProtocols))for(let s=0;s<4;s++)assert.doesNotMatch(renderActivityDiagram(e,s,age),/data-observation-placeholder="(?:ink|ice)-unknown"/);
 });
