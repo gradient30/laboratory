@@ -22,6 +22,7 @@
 
 ```bash
 npm ci --ignore-scripts --no-audit --no-fund
+npm run prepare:source
 npm run check:syntax
 npm test
 npx --no-install playwright install --with-deps chromium
@@ -114,3 +115,9 @@ npm run deploy:dry-run
 - [生活常识](docs/annual-everyday-evidence.md)
 
 所有资料核查均不等于现实家庭试做或真人专家审签。持续维护须保留活动ID、证据范围和旧记录字段语义；不要通过重排编号覆盖既有成长记录。
+
+## 图示源文件的小批量传输
+
+`dist/diagrams.js` 与课程数据一样，由受哈希约束的 `source-parts` 在干净检出时重建，不再直接跟踪大文件。先运行 `npm run prepare:source` 再查看或编辑；线上仍使用原路径并要求登录，未增加公开课程端点。
+
+编辑后运行 `npm run manifest:update`、`node scripts/build-curriculum.mjs`，再运行 `node scripts/refresh-renderer-parts.mjs` 保存 renderer 和派生部署清单的小分片。编辑过的本地源文件不会被 prepare 静默覆盖；不要删除本地编辑来绕过失败。然后更新精确候选声明，运行语法、全套测试、打包检查并审查提交。所有分片和清单、哈希钉必须随改动原子提交；标准发布门禁不变。
