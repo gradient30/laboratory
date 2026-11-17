@@ -778,12 +778,12 @@
     {
       "path": "deployment-manifest.json",
       "bytes": 705409,
-      "sha256": "a77c1442bb69a5f48f0682c6958cbe569335d97125f10405f41729c1aa56413e",
+      "sha256": "bc30e5b3544882987c6ad8c9d32f5c66741539f9c385648d10977f1e09b53225",
       "parts": [
         {
-          "file": "9f4eb443e3c96c536c3efe7574e0cd1fb464b4e23f47328e0d08ab29a817cd02.b64",
+          "file": "fab9f7f8248abe04f4ab7610c4d1ccd84f20cd06f5d605ee16f8adc0379a0fb3.b64",
           "bytes": 48000,
-          "sha256": "9f4eb443e3c96c536c3efe7574e0cd1fb464b4e23f47328e0d08ab29a817cd02"
+          "sha256": "fab9f7f8248abe04f4ab7610c4d1ccd84f20cd06f5d605ee16f8adc0379a0fb3"
         },
         {
           "file": "182c18652b40569ab8d9b56dae9aca9c189ba0fa6e615bf09997e29fd9e1d645.b64",
@@ -851,9 +851,9 @@
           "sha256": "b94aa0eecdc26aebccf2c404ef26eb7792f7afd81c1842534d54eb6ed814dc69"
         },
         {
-          "file": "ad153b525c25451fdd2acb8c948c86436adafa9718f730651e47efb3b612d451.b64",
+          "file": "edcf0e059a71add2349eb79fee98ba08ebf912e5719899c5a81fb5b200188000.b64",
           "bytes": 33409,
-          "sha256": "ad153b525c25451fdd2acb8c948c86436adafa9718f730651e47efb3b612d451"
+          "sha256": "edcf0e059a71add2349eb79fee98ba08ebf912e5719899c5a81fb5b200188000"
         }
       ]
     },
@@ -876,8 +876,8 @@
     },
     {
       "path": "dist/diagrams.js",
-      "bytes": 2426543,
-      "sha256": "7a33698b8aa74549106e8834dcfb0464a81f592333dfb52ad0d51d758cffd6e0",
+      "bytes": 2464670,
+      "sha256": "080ca6d849e88ddc9c774b2234f56661f601e8e77b7f8a8d1b339c16aaa46587",
       "parts": [
         {
           "file": "8eddc3562562daef0538ecf086b4df32bd800c2e90135ce5c6dccd0b5e6402cb.b64",
@@ -1130,9 +1130,14 @@
           "sha256": "5753192e4f4d683e7cb0f216b2ce4bbbd74af7dd46f22e45522ef0e4a7c40275"
         },
         {
-          "file": "efae4d9a288ecb1ebe024c692aa472dd065f0a2a7e30ab75e0ff1c450c4efd2d.b64",
-          "bytes": 26543,
-          "sha256": "efae4d9a288ecb1ebe024c692aa472dd065f0a2a7e30ab75e0ff1c450c4efd2d"
+          "file": "2ec800211e96f694a2a5afa42891cb49890c28101e7249c15e7ebbbf9ca5dc80.b64",
+          "bytes": 48000,
+          "sha256": "2ec800211e96f694a2a5afa42891cb49890c28101e7249c15e7ebbbf9ca5dc80"
+        },
+        {
+          "file": "64e3c6dfeed3ac834596ed8eb2cd7815376fb666b817974521915f0b3048edb1.b64",
+          "bytes": 16670,
+          "sha256": "64e3c6dfeed3ac834596ed8eb2cd7815376fb666b817974521915f0b3048edb1"
         }
       ]
     }
