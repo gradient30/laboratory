@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
-export const sourcePartsManifestSha256='1d8592ab3f9a17ef433d41e47a265d6132c51009e5b200687de455e7eec9d28c';
+export const sourcePartsManifestSha256='3afa93daf191907c7dfe98e4bcbce8eaa67f28b6b9d6b0d9f9d25885785a9804';
 const sha=b=>createHash('sha256').update(b).digest('hex');
 function regular(root,relative){
  if(typeof relative!=='string'||relative.startsWith('/')||relative.split('/').some(s=>!s||s==='.'||s==='..'))throw Error('Unsafe source path');
