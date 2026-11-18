@@ -189,9 +189,6 @@ jobs:
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          BOOTSTRAP_ADMIN_EMAIL: ${{ secrets.BOOTSTRAP_ADMIN_EMAIL }}
           XDG_CONFIG_HOME: ${{ runner.temp }}/wrangler-deploy
         run: |
           set -euo pipefail
@@ -199,11 +196,10 @@ jobs:
             echo "::error::CLOUDFLARE_API_TOKEN is missing; nothing was deployed."
             exit 1
           fi
-          # Require existing AUTH_SECRET metadata before any private-config writes.
-          # Missing/malformed key metadata stops here, before migrations or deployment.
-          # Approved, serialized, exact-target configuration only; never generate or rotate keys.
-          node scripts/account-runtime-config.mjs
-          # Name-only preflight. No secret values or database exports are logged.
+          # Upgrade existing configuration without rewriting any private value or signing key.
+          # Configuration changes require a separately authorized maintenance operation.
+          # Read-only name/type preflight; missing, duplicate or malformed bindings stop here.
+          # No secret values or database exports are logged.
           ./node_modules/.bin/wrangler secret list --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-secret-names.json"
           node scripts/check-runtime-secrets.mjs "$RUNNER_TEMP/little-lab-secret-names.json"
           ./node_modules/.bin/wrangler d1 time-travel info DB --json --config wrangler.jsonc > "$RUNNER_TEMP/little-lab-pre-migration-bookmark.json"

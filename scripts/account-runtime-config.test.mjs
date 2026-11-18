@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync,mkdtempSync,mkdirSync,writeFileSync,rmSync,existsSync} from 'node:fs';
+import {readFileSync,mkdtempSync,mkdirSync,writeFileSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
-import {join,dirname} from 'node:path';
+import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 import {syncAccountRuntime} from './account-runtime-config.mjs';
@@ -62,10 +62,10 @@ test('secret-list failure or bad metadata blocks all writes',async()=>{
 test('unexpected existing auth binding type blocks writes',async()=>{const m=mock([{name:'AUTH_SECRET',type:'secret_key'}]);await assert.rejects(run(fixture(),m),/unexpected type; no changes made/);onlyNameLookup(m.requests);});
 test('network failure cannot expose token or response details',async()=>{await assert.rejects(run(fixture(),{fetchImpl:async()=>{throw Error('DO_NOT_LOG_PRIVATE_VALUE');}}),e=>!e.message.includes('DO_NOT_LOG'));});
 test('partial approved-config failure stops immediately; no deletion or restore attempted',async()=>{const calls=[];await assert.rejects(run(fixture(),{fetchImpl:async(url,init)=>{calls.push(init);return Response.json(calls.length===1?{success:true,result:authMetadata}:{success:false,errors:[{message:'DO_NOT_LOG'}]});}}),e=>!e.message.includes('DO_NOT_LOG'));assert.deepEqual(calls.map(c=>c.method),['GET','PUT']);assert.equal(JSON.parse(calls[1].body).name,'RESEND_API_KEY');});
-test('production workflow stops missing-key upgrade before entropy, any PUT, Wrangler, migration or deploy',t=>{
- const root=mkdtempSync(join(tmpdir(),'lab-upgrade-preflight-'));t.after(()=>rmSync(root,{recursive:true,force:true}));
- const f=fixture(),events=join(root,'events'),bin=join(root,'bin');
- mkdirSync(join(root,'.github'));mkdirSync(bin);mkdirSync(join(root,'node_modules','.bin'),{recursive:true});
+test('standalone maintenance helper still stops missing-key requests without entropy or writes',t=>{
+ const root=mkdtempSync(join(tmpdir(),'lab-maintenance-preflight-'));t.after(()=>rmSync(root,{recursive:true,force:true}));
+ const f=fixture(),events=join(root,'events');
+ mkdirSync(join(root,'.github'));
  writeFileSync(join(root,'.github','deployment-policy.json'),JSON.stringify(f.policy));writeFileSync(join(root,'wrangler.jsonc'),JSON.stringify(f.config));
  const preload=join(root,'mock-runtime.mjs');
  writeFileSync(preload,`import crypto from 'node:crypto';
@@ -79,17 +79,10 @@ globalThis.fetch=async(url,init)=>{
  if(url!==${JSON.stringify(endpoint)}||init.method!=='GET'||init.body!==undefined)throw Error('DO_NOT_LOG_UNEXPECTED_REQUEST');
  return {ok:true,json:async()=>({success:true,result:[]})};
 };\n`);
- writeFileSync(join(bin,'node'),'#!/bin/bash\nif [[ "$1" != "scripts/account-runtime-config.mjs" ]]; then\n  echo UNEXPECTED_NODE >> "$TEST_EVENTS"\n  exit 70\nfi\nexec "$TEST_NODE" --import "$TEST_PRELOAD" "$TEST_HELPER"\n',{mode:0o700});
- writeFileSync(join(root,'node_modules','.bin','wrangler'),'#!/bin/bash\necho WRANGLER >> "$TEST_EVENTS"\nexit 70\n',{mode:0o700});
- const workflow=readFileSync(new URL('../.github/workflows/cloudflare.yml',import.meta.url),'utf8');
- const step=workflow.slice(workflow.indexOf('      - name: Migrate approved D1 and deploy account Worker using locked Wrangler'));
- assert.ok(step.includes('        run: |\n'));
- const shell=step.split('        run: |\n')[1].split('\n').map(line=>line.replace(/^          /,'')).join('\n');
- const result=spawnSync('/bin/bash',['-c',shell],{cwd:root,encoding:'utf8',timeout:30000,env:{...f.env,PATH:`${bin}:${dirname(process.execPath)}:/usr/bin:/bin`,RUNNER_TEMP:root,GITHUB_STEP_SUMMARY:join(root,'summary'),TEST_EVENTS:events,TEST_NODE:process.execPath,TEST_PRELOAD:preload,TEST_HELPER:fileURLToPath(new URL('./account-runtime-config.mjs',import.meta.url))}});
+ const result=spawnSync(process.execPath,['--import',preload,fileURLToPath(new URL('./account-runtime-config.mjs',import.meta.url))],{cwd:root,encoding:'utf8',timeout:30000,env:{...f.env,TEST_EVENTS:events}});
  assert.equal(result.error,undefined);assert.equal(result.status,1);assert.equal(result.stdout,'');
  assert.match(result.stderr,/Private runtime configuration stopped/);
  assert.deepEqual(readFileSync(events,'utf8').trim().split('\n'),['GET']);
- assert.equal(existsSync(join(root,'summary')),false);
  for(const name of ['CLOUDFLARE_API_TOKEN','RESEND_API_KEY','EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL'])assert.ok(!`${result.stdout}${result.stderr}`.includes(f.env[name]));
  assert.ok(!`${result.stdout}${result.stderr}`.includes('DO_NOT_LOG'));
 });

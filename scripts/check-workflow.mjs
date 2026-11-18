@@ -53,13 +53,17 @@ assert.ok(deploy.indexOf('d1 migrations apply')<deploy.indexOf('wrangler deploy'
 assert.ok(!/d1 (?:delete|time-travel restore|export)/.test(s),'No automatic destructive restore/delete or production data export');
 console.log('Account runtime tests, private-config preflight, recovery-bookmark and additive migration deployment ordering passed.');
 
-assert.match(deploy,/node scripts\/account-runtime-config\.mjs/);
-for(const name of ['RESEND_API_KEY','EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL']){assert.ok(deploy.includes(`secrets.${name}`));assert.ok(!s.includes(`vars.${name}`),`Private configuration ${name} must never use public-log variables`);}
-assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('wrangler secret list'));
+assert.ok(!s.includes('account-runtime-config.mjs'),'Configuration synchronization must not run as a deployment side effect');
+for(const name of ['AUTH_SECRET','RESEND_API_KEY','EMAIL_FROM','BOOTSTRAP_ADMIN_EMAIL','EMAIL_PROVIDER','REGISTRATION_ENABLED']){
+ assert.ok(!s.includes(`secrets.${name}`)&&!s.includes(`vars.${name}`),`Deployment must not receive or rewrite private configuration ${name}`);
+}
+assert.ok(!/\bsecret\s+(?:put|bulk|delete)\b|\bsecrets-bulk\b|--secrets-file|(?:-X|--request)\s+(?:PUT|PATCH|POST|DELETE)\b/.test(s),'No private-configuration mutation command in deployment');
+assert.equal((deploy.match(/wrangler secret list --config wrangler\.jsonc/g)||[]).length,1);
+assert.ok(deploy.indexOf('wrangler secret list')<deploy.indexOf('check-runtime-secrets.mjs'));
 assert.match(deploy,/set -euo pipefail/,'Runtime preflight failure must stop the deployment shell');
-assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('d1 time-travel info'));
-assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('d1 migrations apply'));
-assert.ok(deploy.indexOf('account-runtime-config.mjs')<deploy.indexOf('wrangler deploy'));
+assert.ok(deploy.indexOf('check-runtime-secrets.mjs')<deploy.indexOf('d1 time-travel info'));
+assert.ok(deploy.indexOf('check-runtime-secrets.mjs')<deploy.indexOf('d1 migrations apply'));
+assert.ok(deploy.indexOf('check-runtime-secrets.mjs')<deploy.indexOf('wrangler deploy'));
 
 // Preview is an explicit, exact-candidate exception, never the default path.
 const jobBlocks=Object.fromEntries(['check','curriculum-release-readiness','deploy'].map(name=>{
