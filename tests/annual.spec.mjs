@@ -100,8 +100,8 @@ test('fresh first-month subject filtering offers a direct whole-year escape',asy
 test('synthetic visual review snapshots for seven subjects and four ages',async({page},testInfo)=>{
  test.setTimeout(150000);await ready(page);
  const {mkdir}=await import('node:fs/promises');await mkdir('test-results/visual-review',{recursive:true});
- for(const subject of subjects){const id=experiments.find(e=>e.category===subject&&e.id>30).id;await choose(page,id);
-  for(const age of ['4-6','7-9','10-12','13-16']){await matrixAge(page,age);await page.locator('#preview-main').click();await page.locator('[data-step="1"]').click();await page.locator('#step-stage').scrollIntoViewIfNeeded();await page.screenshot({path:`test-results/visual-review/${testInfo.project.name}-${subject}-${age}.png`,fullPage:false})}
+ for(const subject of subjects){const id=experiments.find(e=>e.category===subject&&e.id>30).id;await choose(page,id);await savedDay(page,id);
+  for(const age of ['4-6','7-9','10-12','13-16']){await matrixAge(page,age,id);await page.locator('#preview-main').click();await page.locator('[data-step="1"]').click();await page.locator('#step-stage').scrollIntoViewIfNeeded();await page.screenshot({path:`test-results/visual-review/${testInfo.project.name}-${subject}-${age}.png`,fullPage:false})}
  }
 });
 

@@ -7,8 +7,11 @@ async function contrast(node){return node.evaluate(el=>{const s=getComputedStyle
 async function shot(page,info,name){mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-visual-states-${name}.png`,fullPage:false})}
 
 test('current viewed and unviewed steps use distinct accessible treatments and labels',async({page},info)=>{
- await ready(page);await page.locator('#preview-main').click();await expect(page.locator('#workspace-toolbar')).toHaveAttribute('data-preparation','preview');await expect(page.locator('.safety-compact')).toHaveCSS('background-color','rgb(234, 241, 255)');await page.locator('#step-next').click();
- const current=page.locator('.flow-button[data-read-state=current]'),viewed=page.locator('.flow-button[data-read-state=viewed]').first(),unviewed=page.locator('.flow-button[data-read-state=unviewed]').first();
+ await ready(page);await page.locator('#preview-main').click();await expect(page.locator('#workspace-toolbar')).toHaveAttribute('data-preparation','preview');await expect(page.locator('.safety-compact')).toHaveCSS('background-color','rgb(234, 241, 255)');
+ // Opening Preview scrolls asynchronously; advance only after step 1 was actually seen.
+ const stage=page.locator('#step-stage');await stage.scrollIntoViewIfNeeded();await expect(stage).toBeInViewport();
+ await expect(page.locator('#reading-count')).toHaveText('已查看 1 / 4 步');await page.locator('#step-next').click();
+ const current=page.locator('.flow-button[data-step="1"][data-read-state="current"]'),viewed=page.locator('.flow-button[data-step="0"][data-read-state="viewed"]'),unviewed=page.locator('.flow-button[data-step="2"][data-read-state="unviewed"]');
  await expect(current).toContainText('当前查看');await expect(viewed).toContainText('已查看');await expect(unviewed).toContainText('未查看');
  const styles=await Promise.all([current,viewed,unviewed].map(appearance));expect(new Set(styles.map(s=>s.background)).size).toBe(3);expect(styles[2].border).toBe('dashed');
  for(const node of [current,viewed,unviewed])expect(await contrast(node)).toBeGreaterThanOrEqual(4.5);
