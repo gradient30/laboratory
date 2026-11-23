@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {resetServer,fixture,loginAPI,cloudSaved,openAccount,authFetch} from './account-helpers.mjs';
+import {resetServer,fixture,loginAPI,cloudSaved,openAccount,authFetch,writeProgressRecord} from './account-helpers.mjs';
 async function ready(page,options={}){await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#lab');await expect(page.locator('#open-safety')).toBeVisible();if(await page.locator('#child-switch').inputValue()!==seed.children[0].id){await page.locator('#child-switch').selectOption(seed.children[0].id);await expect(page.locator('#open-safety')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(seed.children[0].id)}return seed}
 async function stored(page,id,key='1:4-6:v1'){return(await authFetch(page,`/api/children/${id}/progress/records/${key}`)).json()}
 async function put(page,id,key,record,etag){const session=await(await page.request.get('/api/session')).json();return page.request.put(`/api/children/${id}/progress/records/${key}`,{headers:{Origin:'http://127.0.0.1:4173','X-CSRF-Token':session.csrfToken,'If-Match':etag,'Idempotency-Key':crypto.randomUUID()},data:{record}})}
@@ -16,7 +16,42 @@ test('failed selected read does not become empty editable state or leak prior ch
  const seed=await ready(page,{children:[{nickname:'甲',ageBand:'4-6',state:{protocolProgress:{'1:4-6:v1':{records:{spoken:'甲的私人笔记'},step:0,viewedSteps:0,completed:false}}}},{nickname:'乙',ageBand:'4-6'}]});await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toHaveValue('甲的私人笔记');const path=`**/api/children/${seed.children[1].id}/progress/records/*`;await page.route(path,route=>route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({ok:false,error:{code:'QA_FAIL',message:'合成读取失败'}})}));await page.locator('#child-switch').selectOption(seed.children[1].id);await expect(page.locator('#retry-child')).toBeVisible();await expect(page.locator('[data-field]')).toHaveCount(0);expect(await page.locator('#experiment').textContent()).not.toContain('甲的私人笔记');await page.unroute(path);await page.locator('#retry-child').click();await expect(page.locator('#open-safety')).toBeVisible();await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toHaveValue('');
 });
 test('complete export traverses all record pages, preserves original raw state and archived children',async({page})=>{
- const seed=await ready(page,{children:[{nickname:'甲',ageBand:'4-6',state:{records:{'1:4-6':{spoken:'原始备份'}}}},{nickname:'乙',ageBand:'4-6'}]});await page.locator('#tab-observations').click();for(let n=0;n<6;n++){await page.locator('[data-field="spoken"]').fill('第'+n+'次保存');await cloudSaved(page)}await openAccount(page);page.once('dialog',d=>d.accept());await page.locator(`[data-archive-child="${seed.children[1].id}"]`).click();await expect(page.locator('[data-restore-child]')).toBeVisible();const download=page.waitForEvent('download');await page.locator('#export-account').click();const file=await download;const stream=await file.createReadStream();let text='';for await(const chunk of stream)text+=chunk;const data=JSON.parse(text);expect(data.complete).toBe(true);expect(data.children.length).toBe(2);const child=data.children.find(c=>c.id===seed.children[0].id);expect(child.legacyStateJSON).toContain('原始备份');expect(child.progressRevisions.length).toBe(1);expect(child.progressRevisions.at(-1).record.records.spoken).toBe('第5次保存');expect(data.children.find(c=>c.id===seed.children[1].id).archivedAt).toBeTruthy();
+ const seed=await ready(page,{children:[{nickname:'甲',ageBand:'4-6',state:{records:{'1:4-6':{spoken:'原始备份'}}}},{nickname:'乙',ageBand:'4-6'}]});
+ const [active,archived]=seed.children,firstKey='1:4-6:v1';
+ await page.locator('#tab-observations').click();
+ for(let n=0;n<6;n++){await page.locator('[data-field="spoken"]').fill('第'+n+'次保存');await cloudSaved(page)}
+ // Repeated autosaves update one key. Add four genuinely distinct keys to cross the four-item page boundary.
+ const otherNotes={};
+ for(const day of [2,3,4,5]){
+  const key=`${day}:4-6:v1`,spoken=`QA 第${day}天的独立记录`;
+  const result=await writeProgressRecord(page,active.id,key,{records:{spoken},step:0,viewedSteps:0,completed:false});
+  expect(result.ok(),`seed export record ${key}`).toBe(true);
+  otherNotes[key]=spoken;
+ }
+ await openAccount(page);
+ page.once('dialog',d=>d.accept());
+ await page.locator(`[data-archive-child="${archived.id}"]`).click();
+ const restore=page.locator(`[data-restore-child="${archived.id}"]`);
+ await page.locator('details').filter({has:restore}).locator('summary').click();
+ await expect(restore).toBeVisible();
+ const activePages=[];
+ page.on('request',request=>{
+  const url=new URL(request.url());
+  if(request.method()==='GET'&&url.pathname===`/api/children/${active.id}/progress/export`)activePages.push(url);
+ });
+ const download=page.waitForEvent('download');await page.locator('#export-account').click();
+ const file=await download,stream=await file.createReadStream();let text='';for await(const chunk of stream)text+=chunk;
+ const data=JSON.parse(text);
+ expect(data.complete).toBe(true);
+ expect(data.children).toHaveLength(2);
+ const child=data.children.find(c=>c.id===active.id);
+ expect(child.legacyStateJSON).toContain('原始备份');
+ const firstRevisions=child.progressRevisions.filter(item=>item.key===firstKey);
+ expect(firstRevisions).toHaveLength(1);
+ expect(firstRevisions[0].record.records.spoken).toBe('第5次保存');
+ expect(child.progressRevisions.map(item=>[item.key,item.record.records.spoken])).toEqual(Object.entries({[firstKey]:'第5次保存',...otherNotes}));
+ expect(activePages.some(url=>Number(url.searchParams.get('after'))>0)).toBe(true);
+ expect(data.children.find(c=>c.id===archived.id).archivedAt).toBeTruthy();
 });
 
 test('segmented export includes an ordered hashed backup part and allows the same part to be downloaded again',async({page})=>{

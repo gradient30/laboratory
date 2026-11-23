@@ -8,8 +8,19 @@ const localDate=()=>new Date().toISOString().slice(0,10);
 const seeds=new WeakMap();
 async function seed(page,record){seeds.set(page,record)}
 async function ready(page){await resetServer(page);const state=seeds.get(page);await fixture(page,{children:[{nickname:'合成探险家',ageBand:state?.age||'4-6',...(state&&typeof state==='object'?{state}:{})}]});await loginAPI(page);await page.goto('/');await expect(page.locator('#open-safety')).toBeVisible()}
-// Content matrices use the same profile API as the editor without repeating form navigation 56 times.
-async function matrixAge(page,age){await cloudSaved(page);const id=await page.locator('#child-switch').inputValue();const session=await(await page.request.get('/api/session')).json();const child=session.children.find(c=>c.id===id);expect((await authFetch(page,'/api/children/'+id,'PATCH',{nickname:child.nickname,ageBand:age})).ok()).toBe(true);await page.reload();await expect(page.locator('#open-safety')).toBeVisible();await expect(page.locator('[data-age]')).toHaveCount(0)}
+const selectedDay=(page,day)=>expect(page.locator('#day-number')).toContainText('DAY '+experiments[day-1].day+' / 365');
+async function savedDay(page,day){
+ const id=await page.locator('#child-switch').inputValue();
+ // The day heading can render before the debounced navigation write. A
+ // matching stored day also works when a same-day navigation needs no PUT.
+ await expect.poll(async()=>{const r=await page.request.get('/api/children/'+encodeURIComponent(id)+'/progress');expect(r.ok()).toBe(true);return (await r.json()).navigation.day},{message:'选中的日期应已保存到当前儿童档案',timeout:15000}).toBe(day);
+}
+// Use the profile API for matrix coverage without repeating the editor flow.
+async function matrixAge(page,age,day){
+ await cloudSaved(page);const id=await page.locator('#child-switch').inputValue();const session=await(await page.request.get('/api/session')).json();const child=session.children.find(c=>c.id===id);
+ expect((await authFetch(page,'/api/children/'+id,'PATCH',{nickname:child.nickname,ageBand:age})).ok()).toBe(true);
+ await page.reload();await expect(page.locator('#open-safety')).toBeVisible();await expect(page.locator('#child-switch')).toHaveValue(id);await selectedDay(page,day);await expect(page.locator('#age-context')).toContainText(age.replace('-','–')+'岁');await expect(page.locator('[data-age]')).toHaveCount(0);
+}
 async function choose(page,id){await page.locator('.map-trigger').first().click();await expect(page.locator('#day-map')).toBeVisible();await page.locator('#map-month').selectOption('all');await page.locator('[data-filter="all"]').click();await page.locator('#map-search').fill(String(id));await page.locator(`#map-grid [data-day="${id}"]`).click();await expect(page.locator('#day-map')).not.toBeVisible();await expect(page.locator('#day-number')).toContainText('DAY '+experiments[id-1].day+' / 365');await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null)}
 test('annual navigation, subject badges, inquiry and month boundaries',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));await ready(page);
@@ -24,8 +35,8 @@ test('annual navigation, subject badges, inquiry and month boundaries',async({pa
 });
 test('each subject and age has safe four-step guidance, zoom and Back/Escape',async({page})=>{
  test.setTimeout(150000);await ready(page);
- for(const subject of subjects){const id=experiments.find(e=>e.category===subject&&e.id>30).id;await choose(page,id);
-  for(const age of ['4-6','7-9','10-12','13-16']){await matrixAge(page,age);await page.locator('#open-safety').click();await expect(page.locator('#begin')).toBeDisabled();await page.locator('#close-safety').click();await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null);await expect(page.locator('#step-next')).toBeDisabled();await page.locator('#preview-main').click();const resolved=resolveAgeProtocol(experiments[id-1],age),g=resolved.ageGuides[age];if(g.control)await expect(page.locator('.age-control-note')).toContainText(g.control);if(g.support)await expect(page.locator('.age-support')).toContainText(g.support);await page.locator('[data-panel="learning-panel"]').click();await page.locator('.extension summary').click();if(resolved.extension.ageNote)await expect(page.locator('.extension-age-note')).toContainText(resolved.extension.ageNote);
+ for(const subject of subjects){const id=experiments.find(e=>e.category===subject&&e.id>30).id;await choose(page,id);await savedDay(page,id);
+  for(const age of ['4-6','7-9','10-12','13-16']){await matrixAge(page,age,id);await page.locator('#open-safety').click();await expect(page.locator('#begin')).toBeDisabled();await page.locator('#close-safety').click();await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null);await expect(page.locator('#step-next')).toBeDisabled();await page.locator('#preview-main').click();const resolved=resolveAgeProtocol(experiments[id-1],age),g=resolved.ageGuides[age];if(g.control)await expect(page.locator('.age-control-note')).toContainText(g.control);if(g.support)await expect(page.locator('.age-support')).toContainText(g.support);await page.locator('[data-panel="learning-panel"]').click();await page.locator('.extension summary').click();if(resolved.extension.ageNote)await expect(page.locator('.extension-age-note')).toContainText(resolved.extension.ageNote);
    await page.locator('[data-panel="procedure"]').click();for(let step=0;step<4;step++){await page.locator(`[data-step="${step}"]`).click();await expect(page.locator('#step-stage svg title')).toHaveText(new RegExp(`第${step+1}步`));const core=resolved.steps[step].detail,action=resolved.ageGuides[age].steps[step].action;if(!action.includes(core))await expect(page.locator('.step-detail')).toHaveText(core);else await expect(page.locator('.step-detail')).toHaveCount(0);await expect(page.locator('.age-action')).toContainText(action)}
   }
  }
@@ -41,17 +52,22 @@ test('legacy day1/day30 records import only after consent and day365 persists in
  const legacy={startDate:localDate(),day:30,age:'7-9',records:{'1:4-6':{spoken:'QA legacy first day'},'30:7-9':{field0:'QA legacy day30'}},completed:{'1:4-6':true,'30:7-9':true},steps:{'30:7-9':2}};
  await page.addInitScript(value=>{if(!localStorage.getItem('little-lab-v2'))localStorage.setItem('little-lab-v2',JSON.stringify(value))},legacy);await ready(page);
  await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toHaveValue('');await importLocal(page);
- await choose(page,30);await changeProfileAge(page,'7-9');await expect(page.locator('[data-field="field0"]')).toHaveValue('QA legacy day30');await expect(page.locator('#step-counter')).toContainText('3');
- await choose(page,1);await changeProfileAge(page,'4-6');await page.locator('#tab-observations').click();await expect(page.locator('.protocol-history')).toContainText('QA legacy first day');await expect(page.locator('[data-field="spoken"]')).toHaveValue('');
- await choose(page,365);await changeProfileAge(page,'7-9');await page.locator('#tab-observations').click();await page.locator('[data-field="field0"]').fill('QA final day');await cloudSaved(page);await page.reload();await expect(page.locator('[data-field="field0"]')).toHaveValue('QA final day');
+ const child=await page.locator('#child-switch').inputValue();
+ await choose(page,30);await savedDay(page,30);await changeProfileAge(page,'7-9');await selectedDay(page,30);await page.locator('#tab-observations').click();
+ const old30=await openOriginalRecord(page,'30:7-9:v0');await expect(old30.locator('.saved-history-entry')).toContainText('QA legacy day30');await expect(old30.locator('input,textarea,select')).toHaveCount(0);
+ await expect(page.locator('[data-field="field0"]')).toHaveValue('');await expect(page.locator('#complete-day')).toHaveAttribute('aria-pressed','false');
+ const oldSnapshot=(await readProgressSnapshot(page,child)).state;expect(oldSnapshot.records['30:7-9'].field0).toBe('QA legacy day30');expect(oldSnapshot.steps['30:7-9']).toBe(2);expect(oldSnapshot.completed['30:7-9']).toBe(true);
+ await choose(page,1);await savedDay(page,1);await changeProfileAge(page,'4-6');await selectedDay(page,1);await page.locator('#tab-observations').click();const old1=await openOriginalRecord(page,'1:4-6:v0');await expect(old1.locator('.saved-history-entry')).toContainText('QA legacy first day');await expect(page.locator('[data-field="spoken"]')).toHaveValue('');
+ await choose(page,365);await savedDay(page,365);await changeProfileAge(page,'7-9');await selectedDay(page,365);await page.locator('#tab-observations').click();await page.locator('[data-field="field0"]').fill('QA final day');await cloudSaved(page);await page.reload();await selectedDay(page,365);await expect(page.locator('#child-switch')).toHaveValue(child);await expect(page.locator('[data-field="field0"]')).toHaveValue('QA final day');
  const local=await page.evaluate(()=>JSON.parse(localStorage.getItem('little-lab-v2')));expect(local.records['30:7-9'].field0).toBe('QA legacy day30');expect(local.records['365:7-9']).toBeUndefined();
 });
 test('malformed old browser storage cannot overwrite valid cloud progress',async({page})=>{
  await page.addInitScript(()=>localStorage.setItem('little-lab-v2','{not valid'));await ready(page);await page.locator('#tab-observations').click();await page.locator('[data-field="spoken"]').fill('QA valid cloud');await cloudSaved(page);await page.reload();await expect(page.locator('[data-field="spoken"]')).toHaveValue('QA valid cloud');await page.locator('#account-nav').click();await page.locator('#import-details summary').click();await expect(page.locator('#legacy-import-preview')).toContainText('没有找到可读取的旧记录');
 });
 test('cloud state day and future-date recommendations stay bounded',async({page})=>{
- await seed(page,{day:366,age:'4-6',startDate:localDate(),records:{},steps:{},completed:{},legacyRecords:{}});await ready(page);await expect(page.locator('#day-number')).toContainText('DAY 365 / 365');
- const session=await (await page.request.get('/api/session')).json(),child=session.children[0];const before=await readProgressSnapshot(page,child.id);await writeProgressNavigation(page,child.id,{startDate:'2099-01-01',day:1});await page.reload();await page.locator('#today-btn').click();await expect(page.locator('#day-number')).toContainText('DAY 01 / 365');
+ await seed(page,{day:366,age:'4-6',startDate:localDate(),records:{},steps:{},completed:{},legacyRecords:{}});await ready(page);await selectedDay(page,1);await savedDay(page,1);
+ const child=await page.locator('#child-switch').inputValue();const invalid=await writeProgressNavigation(page,child,{day:366});expect(invalid.status()).toBe(400);expect((await invalid.json()).error.code).toBe('INVALID_NAVIGATION');await savedDay(page,1);
+ const future=await writeProgressNavigation(page,child,{startDate:'2099-01-01',day:365});expect(future.ok()).toBe(true);await page.reload();await selectedDay(page,365);await page.locator('#today-btn').click();await selectedDay(page,1);await savedDay(page,1);
 });
 test('no horizontal page overflow; interactive controls retain readable access',async({page})=>{
  await ready(page);for(const id of [1,365,experiments.find(e=>e.category==='history').id]){await choose(page,id);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await expect(page.locator('.category-badge').first()).toHaveText(/物理|化学|数学|生物|历史|地理|生活常识/)}

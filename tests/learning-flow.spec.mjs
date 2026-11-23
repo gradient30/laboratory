@@ -1,12 +1,19 @@
 import {test,expect} from '@playwright/test';
 import {readFileSync,mkdirSync} from 'node:fs';
 import {resolveAgeProtocol} from '../dist/diagrams.js';
-import {resetServer,fixture,loginAPI,cloudSaved,openAccount,changeProfileAge} from './account-helpers.mjs';
+import {resetServer,fixture,loginAPI,cloudSaved,openAccount,changeProfileAge,authFetch} from './account-helpers.mjs';
 const experiments=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url),'utf8')).experiments;
 async function ready(page,options={}){await resetServer(page);const seed=await fixture(page,options);await loginAPI(page,options.email||'owner@qa.test');await page.goto('/#lab');await expect(page.locator('#family-bar')).toBeVisible();if(await page.locator('#child-switch').inputValue()!==seed.children[0].id)await page.locator('#child-switch').selectOption(seed.children[0].id);return seed}
 async function closeSafety(page){await page.locator('#close-safety').click();await expect(page.locator('#safety-dialog')).not.toBeVisible();await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null)}
 async function confirmSafety(page){await page.locator('#open-safety').click();for(const i of [0,1,2])await page.locator(`[data-check="${i}"]`).check();await page.locator('#begin').click();await expect(page.locator('#safety-dialog')).not.toBeVisible();await expect(page.locator('#open-safety')).toHaveText('✓ 已确认 · 查看准备');await expect.poll(()=>page.evaluate(()=>history.state?.littleLabDialog||null)).toBe(null)}
 async function checks(page,expected){for(const i of [0,1,2])await expect(page.locator(`[data-check="${i}"]`)).toBeChecked({checked:expected[i]})}
+async function waitForSavedDay(page,childId,day){
+ await expect.poll(async()=>{
+  const response=await authFetch(page,`/api/children/${childId}/progress`);
+  expect(response.ok()).toBe(true);
+  return (await response.json()).navigation.day;
+ },{message:`navigation persisted day ${day}`}).toBe(day);
+}
 async function clickLocked(page,selector){const target=page.locator(selector);await expect(target).toBeVisible();await target.scrollIntoViewIfNeeded();await expect.poll(()=>target.evaluate(el=>{const r=el.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return top===el||el.contains(top)})).toBe(true);const box=await target.boundingBox();await page.mouse.click(box.x+box.width/2,box.y+box.height/2)}
 async function shot(page,info,name){mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-learning-flow-${name}.png`,fullPage:false})}
 
@@ -20,8 +27,16 @@ test('partial checks survive reopening and refresh but never confirm themselves'
 });
 
 test('confirmed preparation survives same activity reload and return, and unchecking revokes it',async({page},info)=>{
- await ready(page);await confirmSafety(page);await cloudSaved(page);await page.reload();await expect(page.locator('#open-safety')).toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await checks(page,[true,true,true]);await expect(page.locator('#begin')).toContainText('已确认，继续探索');await page.locator('#safety-dialog').evaluate(el=>el.scrollTop=el.scrollHeight);for(const i of [0,1,2]){const box=page.locator(`[data-check="${i}"]`);await box.scrollIntoViewIfNeeded();await expect(box).toBeInViewport();expect(await box.evaluate(el=>{const r=el.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return top===el||el.contains(top)})).toBe(true)}await shot(page,info,'confirmed');await closeSafety(page);
- await page.locator('#day-next').click();await expect(page.locator('#open-safety')).not.toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await checks(page,[false,false,false]);await closeSafety(page);await page.locator('#day-prev').click();await expect(page.locator('#open-safety')).toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await page.locator('[data-check="1"]').uncheck();await closeSafety(page);await expect(page.locator('#step-next')).toBeDisabled();await page.reload();await page.locator('#open-safety').click();await checks(page,[true,false,true]);await expect(page.locator('#begin')).toBeDisabled();
+ const seed=await ready(page),childId=seed.children[0].id;await confirmSafety(page);await cloudSaved(page);await page.reload();await expect(page.locator('#open-safety')).toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await checks(page,[true,true,true]);await expect(page.locator('#begin')).toContainText('已确认，继续探索');await page.locator('#safety-dialog').evaluate(el=>el.scrollTop=el.scrollHeight);for(const i of [0,1,2]){const box=page.locator(`[data-check="${i}"]`);await box.scrollIntoViewIfNeeded();await expect(box).toBeInViewport();expect(await box.evaluate(el=>{const r=el.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return top===el||el.contains(top)})).toBe(true)}await shot(page,info,'confirmed');await closeSafety(page);
+ await page.locator('#day-next').click();await expect(page.locator('#day-number')).toContainText('DAY 02');
+ await expect(page.locator('#open-safety')).not.toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await checks(page,[false,false,false]);await closeSafety(page);
+ // Preparation is scoped to the activity. Make the saved navigation unambiguous before a same-activity reload.
+ await waitForSavedDay(page,childId,2);
+ await page.locator('#day-prev').click();await expect(page.locator('#day-number')).toContainText('DAY 01');
+ await expect(page.locator('#open-safety')).toHaveText('✓ 已确认 · 查看准备');await page.locator('#open-safety').click();await page.locator('[data-check="1"]').uncheck();await closeSafety(page);
+ await expect(page.locator('#step-next')).toBeDisabled();await waitForSavedDay(page,childId,1);
+ await page.reload();await expect(page.locator('#day-number')).toContainText('DAY 01');
+ await page.locator('#open-safety').click();await checks(page,[true,false,true]);await expect(page.locator('#begin')).toBeDisabled();
 });
 
 test('preparation is isolated by profile, age, account and updated safety content',async({page})=>{
