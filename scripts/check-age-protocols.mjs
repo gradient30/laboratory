@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
-import {releaseSourceFingerprint,validateReleaseEvidence,readReleaseEvidenceFile} from './release-evidence.mjs';
+import {releaseSourceFingerprint,classifyStandardReleaseEvidence,readReleaseEvidenceFile} from './release-evidence.mjs';
 import {inheritedSafetyCandidateContext} from './inherited-safety-evidence.mjs';
 import {protocolAges,validateAgeProtocol,resolveAgeProtocol} from '../dist/diagrams.js';
 export const canonical=value=>JSON.stringify(value,function(_key,v){return v&&typeof v==='object'&&!Array.isArray(v)?Object.fromEntries(Object.keys(v).sort().map(k=>[k,v[k]])):typeof v==='string'?v.trim().replace(/\s+/g,' '):v;});
@@ -26,14 +26,26 @@ export function checkAgeProtocols(data,identities,{requireComplete=true}={}){
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
  const raw=fs.readFileSync('dist/data.json','utf8'),requireComplete=!process.argv.includes('--allow-incomplete');
+ const allowUnreviewed=process.argv.includes('--allow-unreviewed');
+ if(allowUnreviewed&&(!requireComplete||process.env.GITHUB_ACTIONS!=='true'||!['push','pull_request'].includes(process.env.GITHUB_EVENT_NAME))){
+  throw Error('--allow-unreviewed is restricted to ordinary GitHub Actions push and pull_request checks');
+ }
  const data=JSON.parse(raw);
  const result=checkAgeProtocols(data,JSON.parse(fs.readFileSync('scripts/activity-identities.json','utf8')),{requireComplete});
  if(requireComplete){
   const hash=createHash('sha256').update(raw).digest('hex');let evidence;try{evidence=JSON.parse(fs.readFileSync('docs/age-protocol-release.json','utf8'))}catch{evidence={};}
   const sourceSha256=releaseSourceFingerprint();
-  result.errors.push(...validateReleaseEvidence(evidence,{dataSha256:hash,sourceSha256,readReport:readReleaseEvidenceFile,safetyCandidate:inheritedSafetyCandidateContext(data,resolveAgeProtocol)}));
+  const standard=classifyStandardReleaseEvidence(evidence,{dataSha256:hash,sourceSha256,readReport:readReleaseEvidenceFile,safetyCandidate:inheritedSafetyCandidateContext(data,resolveAgeProtocol)},{allowUnreviewed});
+  result.errors.push(...standard.errors);
   result.sourceSha256=sourceSha256;
   result.passed=result.errors.length===0;result.dataSha256=hash;
+  result.standardRelease=result.passed?standard.disposition:'invalid';
+  if(result.passed&&process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,`standard_review_eligible=${result.standardRelease==='eligible'}\n`);
+  if(result.standardRelease==='unreviewed'){
+   const summary='Standard release not attempted: all five final reviews are pending. This run cannot deploy. Browser regression runs independently; archived annual review evidence was not checked.';
+   console.error(summary);
+   if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`${summary}\n`);
+  }
  }
  console.log(JSON.stringify(result,null,2));if(!result.passed)process.exitCode=1;
 }

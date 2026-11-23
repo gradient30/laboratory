@@ -78,29 +78,56 @@ const named=(job,name)=>{const matches=steps(job).filter(step=>step.name===name)
 assert.match(s,/workflow_dispatch:\n    inputs:\n      release_mode:\n        description: [^\n]+\n        type: choice\n        required: true\n        default: standard\n        options:\n          - standard\n          - personal-preview-20261109\n/);
 assert.match(s,/RELEASE_MODE: \$\{\{ inputs\.release_mode \|\| 'standard' \}\}/);
 assert.ok(!/continue-on-error:|always\(\).*needs\./.test(s),'No failed-check deployment fallback');
+const checkJob=jobBlocks.check,readyJob=jobBlocks['curriculum-release-readiness'];
+for(const [prefix,job]of [['little-lab-check-',checkJob],['little-lab-release-readiness-',readyJob]]){
+ assert.match(job,/    name: [^\n]+\n/);
+ assert.ok(!/^    needs:/m.test(job),'Common and release check jobs run independently');
+ assert.ok(job.includes(`group: ${prefix}`+"\${{ github.workflow }}-\${{ github.event.pull_request.number || github.ref }}-\${{ github.event_name }}-\${{ inputs.release_mode || 'standard' }}"));
+ assert.match(job,/cancel-in-progress: true/);
+}
+assert.match(s,/needs\['curriculum-release-readiness'\]\.outputs\.release_eligible == 'true'/);
+assert.ok(deploy.includes("(github.event_name == 'push' || github.event_name == 'workflow_dispatch')"));
+assert.match(readyJob,/release_eligible: \$\{\{ steps\.release\.outputs\.personal_preview == 'true' \|\| steps\.standard\.outputs\.standard_review_eligible == 'true' \}\}/);
 assert.equal((s.match(/run: node scripts\/check-release-mode\.mjs/g)||[]).length,3);
 const skip="        if: steps.release.outputs.personal_preview != 'true'\n";
-for(const [name,job]of Object.entries(jobBlocks)){
- assert.equal((job.match(/        id: release\n/g)||[]).length,1,`${name} must validate its own exact revision`);
- assert.ok(job.indexOf('run: node scripts/check-release-mode.mjs')<job.indexOf(skip),`${name} cannot skip before validation`);
+const standard="        if: steps.standard.outputs.standard_review_eligible == 'true'\n";
+const ordinary="        if: steps.release.outputs.personal_preview == 'false'\n";
+for(const [job,firstConditional]of [[checkJob,ordinary],[readyJob,skip],[deploy,skip]]){
+ assert.equal((job.match(/        id: release\n/g)||[]).length,1);
+ assert.ok(job.indexOf('run: node scripts/check-release-mode.mjs')<job.indexOf(firstConditional),'Validate preview before any checks can be deferred');
  const selector=steps(job).find(step=>step.block.includes('id: release\n'));
  assert.ok(selector&&!/\n        if:|continue-on-error/.test(selector.block),'Release selector must be unconditional and fail closed');
 }
-const checkJob=jobBlocks.check,readyJob=jobBlocks['curriculum-release-readiness'];
-for(const name of ['Verify runner Chrome or install pinned Chromium','Ensure Chinese glyphs exist for actual visual review','Verify desktop and mobile browser flows','Verify archived static visual evidence for standard releases'])assert.ok(named(checkJob,name).includes(skip),`Only validated preview may defer ${name}`);
-assert.ok(named(checkJob,'Retain synthetic interface screenshots for visual review').includes("        if: always() && steps.release.outputs.personal_preview != 'true'\n"));
-for(const [job,name]of [[readyJob,'Reject incomplete independent protocols and final review evidence for standard releases'],[deploy,'Recheck all five final reviews for standard deployment']]){
- const step=named(job,name);assert.ok(step.includes(skip));assert.match(step,/\n        run: npm run test:curriculum:complete(?:\n|$)/);
+const classifier=named(readyJob,'Classify standard release evidence without deferring any review');
+assert.ok(classifier.includes(skip+'        id: standard\n'));
+assert.ok(classifier.includes(`          if [[ "$GITHUB_EVENT_NAME" == 'push' || "$GITHUB_EVENT_NAME" == 'pull_request' ]]; then
+            npm run test:curriculum:complete -- --allow-unreviewed
+          else
+            npm run test:curriculum:complete
+          fi`),'Only routine events may report unreviewed without passing release');
+assert.equal((s.match(/--allow-unreviewed/g)||[]).length,1);
+const archive=named(readyJob,'Verify archived static visual evidence for standard releases');
+assert.ok(archive.includes(standard),'Require positive standard eligibility for the archive checks');
+assert.ok(readyJob.indexOf(classifier)<readyJob.indexOf(archive),'Validate the standard evidence before its archive checks');
+for(const name of ['Verify runner Chrome or install pinned Chromium','Ensure Chinese glyphs exist for actual visual review','Verify desktop and mobile browser flows']){
+ assert.ok(named(checkJob,name).includes(ordinary),`Only validated standard mode runs ${name}`);
 }
+assert.ok(named(checkJob,'Retain synthetic interface screenshots for visual review').includes("        if: always() && steps.release.outputs.personal_preview == 'false'\n"));
+assert.doesNotMatch(checkJob,/test:visual-evidence|--allow-unreviewed/);
+assert.doesNotMatch(readyJob,/test:browser|playwright install/);
+for(const command of ['run: npm run check:syntax','run: npm test','run: npm run test:curriculum:partial','wrangler deploy --dry-run'])assert.ok(checkJob.indexOf(command)<checkJob.indexOf('run: node scripts/check-release-mode.mjs'),'Run base CI before any release-mode validation');
+const recheck=named(deploy,'Recheck all five final reviews for standard deployment');
+assert.ok(recheck.includes(skip));assert.match(recheck,/\n        run: npm run test:curriculum:complete(?:\n|$)/);
+assert.ok(deploy.indexOf(recheck)<deploy.indexOf('run: node scripts/deploy-guard.mjs'));
 for(const [job,name,command]of [[checkJob,'Check JavaScript syntax','npm run check:syntax'],[checkJob,'Check content, deployment policy and workflow','npm test'],[checkJob,'Audit authored age protocols without pretending the remaining curriculum is complete','npm run test:curriculum:partial'],[checkJob,'Validate Wrangler package without deploying','./node_modules/.bin/wrangler deploy --dry-run --config wrangler.jsonc'],[deploy,'Recheck deployable content','npm run check:syntax && npm test'],[deploy,'Verify approved repository, branch, account and Worker','node scripts/deploy-guard.mjs'],[deploy,'Migrate approved D1 and deploy account Worker using locked Wrangler',null]]){
  const step=named(job,name);assert.ok(!/\n        if:|continue-on-error/.test(step),`Both release modes require ${name}`);if(command)assert.ok(step.split('\n').includes(`        run: ${command}`),name);
 }
 assert.ok(deploy.indexOf('run: node scripts/check-release-mode.mjs')<deploy.indexOf('run: node scripts/deploy-guard.mjs'));
-assert.equal((s.match(/if: steps\.release\.outputs\.personal_preview != 'true'/g)||[]).length,6);
+assert.equal((s.match(/if: steps\.release\.outputs\.personal_preview != 'true'/g)||[]).length,2);
 console.log('Standard browser/five-review gates remain strict; exact-candidate manual preview retains all common tests and deployment safeguards. This is structural validation, not a live Actions run.');
 
 assert.equal(pkg.scripts['test:visual-evidence'],'node --test scripts/static-scene-evidence.check.mjs');
-assert.match(named(checkJob,'Verify archived static visual evidence for standard releases'),/run: npm run test:visual-evidence/);
+assert.match(named(readyJob,'Verify archived static visual evidence for standard releases'),/run: npm run test:visual-evidence/);
 
 assert.equal((s.match(/run: npm run prepare:source/g)||[]).length,3);
 for(const job of Object.values(jobBlocks))assert.ok(job.indexOf('run: npm run prepare:source')<job.indexOf('run: node scripts/check-release-mode.mjs'));

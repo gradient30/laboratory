@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {releaseGates,gateChecks,validateReleaseEvidence,releaseSourceFingerprint,readReleaseEvidenceFile} from './release-evidence.mjs';
+import {releaseGates,gateChecks,validateReleaseEvidence,classifyStandardReleaseEvidence,releaseSourceFingerprint,readReleaseEvidenceFile} from './release-evidence.mjs';
 const sha=b=>createHash('sha256').update(b).digest('hex');
 // Synthetic fixtures test structure only. They are never saved as release approvals.
 import {fixture} from './release-evidence-fixture.mjs';
@@ -25,4 +25,30 @@ test('deployment, generated assets, runtime upgrade safety and API/client tests 
  const fs=await import('node:fs'),os=await import('node:os'),path=await import('node:path');const root=fs.mkdtempSync(path.join(os.tmpdir(),'release-fingerprint-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
  for(const dir of ['dist','worker','migrations','scripts','tests','.github/workflows'])fs.mkdirSync(path.join(root,dir),{recursive:true});for(const name of ['package.json','package-lock.json','playwright.config.mjs','wrangler.jsonc','test.mjs','verify-package.mjs','source-manifest.json','deployment-manifest.json','worker/curriculum-index.json','scripts/build-curriculum.mjs','worker/curriculum.test.mjs','scripts/curriculum-loading.test.mjs','tests/curriculum-loading.spec.mjs','scripts/account-runtime-config.mjs','scripts/account-runtime-config.test.mjs','scripts/check-workflow.mjs','.github/workflows/cloudflare.yml'])fs.writeFileSync(path.join(root,name),'synthetic');
  const first=releaseSourceFingerprint(root);for(const name of ['deployment-manifest.json','worker/curriculum-index.json','scripts/build-curriculum.mjs','worker/curriculum.test.mjs','scripts/curriculum-loading.test.mjs','tests/curriculum-loading.spec.mjs','scripts/account-runtime-config.mjs','scripts/account-runtime-config.test.mjs','scripts/check-workflow.mjs','.github/workflows/cloudflare.yml']){fs.appendFileSync(path.join(root,name),'changed');assert.notEqual(releaseSourceFingerprint(root),first);fs.writeFileSync(path.join(root,name),'synthetic');}
+});
+
+test('standard eligibility requires complete current attestations, even on routine pushes',()=>{
+ const f=fixture();
+ f.evidence.requiredGates=[...releaseGates];
+ const classify=()=>classifyStandardReleaseEvidence(f.evidence,f.context,{allowUnreviewed:true});
+ assert.deepEqual(classify(),{disposition:'eligible',errors:[]});
+ f.evidence.reviews[0].sourceSha256='d'.repeat(64);
+ assert.equal(classify().disposition,'invalid');
+ assert.ok(classify().errors.some(e=>e.startsWith('Final specification review:')));
+ f.evidence.reviews.pop();
+ assert.equal(classify().disposition,'invalid');
+ assert.ok(classify().errors.some(e=>e.startsWith('Final user-feedback review:')));
+});
+test('only an explicitly empty, valid review manifest is unreviewed',()=>{
+ const empty={schemaVersion:3,requiredGates:[...releaseGates],reviews:[]};
+ const classify=e=>classifyStandardReleaseEvidence(e,fixture().context,{allowUnreviewed:true});
+ assert.deepEqual(classify(empty),{disposition:'unreviewed',errors:[]});
+ const strict=classifyStandardReleaseEvidence(empty,fixture().context);
+ assert.equal(strict.disposition,'invalid');
+ assert.equal(strict.errors.length,5);
+ for(const malformed of [null,{},[],{...empty,schemaVersion:2},{...empty,requiredGates:[...releaseGates].reverse()},{...empty,reviews:null},{...empty,reviews:[{}]},{...empty,note:0},{...empty,status:'passed'}]){
+  const r=classify(malformed);
+  assert.equal(r.disposition,'invalid');
+  assert.ok(r.errors.length);
+ }
 });

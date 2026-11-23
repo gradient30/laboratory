@@ -37,3 +37,37 @@ test('failed preview emits no skip output or success summary',t=>{const p=temp(t
 test('synthetic exact-candidate CLI succeeds with explicit unverified summary',t=>{const p=syntheticCandidate(t),output=path.join(p,'output'),summary=path.join(p,'summary');const r=spawnSync(process.execPath,[path.join(root,'scripts/check-release-mode.mjs')],{cwd:p,encoding:'utf8',env:{...process.env,...env(),GITHUB_OUTPUT:output,GITHUB_STEP_SUMMARY:summary}});assert.equal(r.status,0,r.stderr);assert.equal(fs.readFileSync(output,'utf8'),'personal_preview=true\n');const s=fs.readFileSync(summary,'utf8');assert.match(s,/Browser tests: UNRUN/);assert.match(s,/Final joint reviews: DEFERRED \/ UNVERIFIED/);assert.match(s,/does not restrict access to the owner/);});
 test('standard complete gate still fails for synthetic missing final reviews',t=>{const p=syntheticCandidate(t);const r=spawnSync(process.execPath,[path.join(root,'scripts/check-age-protocols.mjs')],{cwd:p,encoding:'utf8',env:process.env});assert.equal(r.status,1,r.stderr);assert.ok(r.stdout,r.stderr);const result=JSON.parse(r.stdout);assert.equal(result.explicitValidProtocols,1460);assert.equal(result.passed,false);assert.equal(result.productionReady,false);assert.equal(result.errors.length,5);for(const gate of releaseGates)assert.ok(result.errors.some(e=>e.startsWith(`Final ${gate} review:`)));});
 test('source, workflow, scripts, dependencies and data changes invalidate preview binding',t=>{const p=temp(t);for(const d of ['dist','worker','migrations','scripts','tests','.github/workflows','docs'])fs.mkdirSync(path.join(p,d),{recursive:true});const files=['package.json','package-lock.json','playwright.config.mjs','wrangler.jsonc','test.mjs','verify-package.mjs','source-manifest.json','deployment-manifest.json','worker/index.mjs','dist/data.json','scripts/check-release-mode.mjs','.github/workflows/cloudflare.yml'];for(const f of files)fs.writeFileSync(path.join(p,f),'synthetic');const original=releaseSourceFingerprint(p);for(const f of files){fs.writeFileSync(path.join(p,f),'changed');assert.notEqual(releaseSourceFingerprint(p),original);fs.writeFileSync(path.join(p,f),'synthetic');}fs.writeFileSync(path.join(p,'docs/personal-preview-20261109.json'),'declaration is outside the hash to avoid self-reference');assert.equal(releaseSourceFingerprint(p),original);});
+
+test('routine unreviewed CI runs never provide positive deployment eligibility',t=>{
+ const p=syntheticCandidate(t);
+ for(const event of ['push','pull_request']){
+  const output=path.join(p,event+'-output'),summary=path.join(p,event+'-summary');
+  const r=spawnSync(process.execPath,[path.join(root,'scripts/check-age-protocols.mjs'),'--allow-unreviewed'],{cwd:p,encoding:'utf8',env:{...process.env,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:event,GITHUB_OUTPUT:output,GITHUB_STEP_SUMMARY:summary}});
+  assert.equal(r.status,0,r.stderr);
+  const result=JSON.parse(r.stdout);assert.equal(result.explicitValidProtocols,1460);
+  assert.equal(result.standardRelease,'unreviewed');assert.equal(result.productionReady,false);
+  assert.equal(fs.readFileSync(output,'utf8'),'standard_review_eligible=false\n');
+  assert.match(fs.readFileSync(summary,'utf8'),/Standard release not attempted.*cannot deploy/);
+ }
+});
+test('the CI-only flag rejects an explicit dispatch; malformed or partial evidence emits no eligibility',t=>{
+ const p=syntheticCandidate(t),output=path.join(p,'output');
+ const run=event=>spawnSync(process.execPath,[path.join(root,'scripts/check-age-protocols.mjs'),'--allow-unreviewed'],{cwd:p,encoding:'utf8',env:{...process.env,GITHUB_ACTIONS:'true',GITHUB_EVENT_NAME:event,GITHUB_OUTPUT:output}});
+ const dispatch=run('workflow_dispatch');
+ assert.equal(dispatch.status,1);assert.match(dispatch.stderr,/restricted to ordinary GitHub Actions/);assert.equal(fs.existsSync(output),false);
+ const manifest=path.join(p,'docs/age-protocol-release.json'),empty=JSON.parse(fs.readFileSync(manifest,'utf8'));
+ for(const contents of ['{',JSON.stringify({...empty,reviews:[{gate:'facts',status:'pending'}]})]){
+  fs.writeFileSync(manifest,contents);
+  const r=run('push');assert.equal(r.status,1,r.stderr);
+  assert.equal(JSON.parse(r.stdout).standardRelease,'invalid');assert.equal(fs.existsSync(output),false);
+ }
+ // Even an empty valid review manifest cannot neutralize a real structural failure.
+ fs.writeFileSync(manifest,JSON.stringify(empty));
+ const source=path.join(p,'dist/data.json'),bad=JSON.parse(fs.readFileSync(source,'utf8'));
+ bad.experiments[0].contentKey='changed';
+ fs.writeFileSync(source,JSON.stringify(bad));
+ const r=run('push');assert.equal(r.status,1,r.stderr);
+ const verdict=JSON.parse(r.stdout);assert.equal(verdict.standardRelease,'invalid');
+ assert.ok(verdict.errors.some(e=>e.startsWith('Frozen identity changed:')));
+ assert.equal(fs.existsSync(output),false);
+});

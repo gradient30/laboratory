@@ -79,3 +79,20 @@ export function validateReleaseEvidence(evidence,context){
  if(reviews.some(r=>!releaseGates.includes(r?.gate)))errors.push('Unknown final review gate');
  return errors;
 }
+
+// A clean empty manifest describes planned work, not a passed review. A malformed
+// manifest, any evidence offered for review, or a strict release request is evaluated
+// fail-closed. Eligibility here only permits the remaining standard release checks.
+export function classifyStandardReleaseEvidence(evidence,context,{allowUnreviewed=false}={}){
+ const fields=['schemaVersion','scope','reviews','note','requiredGates'];
+ if(!evidence||typeof evidence!=='object'||Array.isArray(evidence)||Object.keys(evidence).some(key=>!fields.includes(key))||
+    evidence.schemaVersion!==3||!Array.isArray(evidence.reviews)||
+    !Array.isArray(evidence.requiredGates)||evidence.requiredGates.length!==releaseGates.length||
+    !releaseGates.every((gate,i)=>evidence.requiredGates[i]===gate)||
+    ['scope','note'].some(key=>Object.hasOwn(evidence,key)&&!nonempty(evidence[key]))){
+  return {disposition:'invalid',errors:['Invalid final-review manifest: expected schemaVersion 3, the exact five required gates and a reviews array']};
+ }
+ if(allowUnreviewed&&evidence.reviews.length===0)return {disposition:'unreviewed',errors:[]};
+ const errors=validateReleaseEvidence(evidence,context);
+ return {disposition:errors.length?'invalid':'eligible',errors};
+}
