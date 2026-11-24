@@ -12,6 +12,9 @@ async function ready(page,options={}){
 async function stored(page,id){return (await readProgressSnapshot(page,id)).state}
 // Day 1 uses the real migrated curriculum; do not strip protocols in fixtures.
 const day1Protocol=(state,age='4-6')=>state.protocolProgress?.[`1:${age}:v1`];
+const day1RecordPath=child=>`/api/children/${child}/progress/records/1:4-6:v1`;
+const recordURL=(url,path)=>decodeURIComponent(url.pathname)===path;
+const recordWrite=(response,path)=>response.request().method()==='PUT'&&recordURL(new URL(response.url()),path);
 async function preview(page){await page.locator('#preview-main').click();await page.locator('#step-stage').scrollIntoViewIfNeeded();await expect(page.locator('#reading-count')).not.toHaveText('已查看 0 / 4 步')}
 async function view(page,index){await page.locator(`[data-step="${index}"]`).click();await page.locator('#step-stage').scrollIntoViewIfNeeded();await expect(page.locator(`[data-step="${index}"]`)).toHaveAttribute('aria-label',/当前查看，已查看/)}
 async function shot(page,info,name){mkdirSync('test-results/visual-review',{recursive:true});await page.screenshot({path:`test-results/visual-review/${info.project.name}-exploration-${name}.png`,fullPage:true});if(['fresh','nonsequential','360-current'].includes(name)){await page.locator('#reading-summary').evaluate(n=>n.scrollIntoView({block:'start',behavior:'instant'}));await page.screenshot({path:`test-results/visual-review/${info.project.name}-exploration-${name}-viewport.png`,fullPage:false})}}
@@ -67,15 +70,30 @@ test('view save failure stays unsaved and retry persists; no note or completion 
 });
 
 test('concurrent revision conflict does not silently overwrite viewed history or observations',async({page})=>{
- const seed=await ready(page);expect((await writeProgressRecord(page,seed.children[0].id,'1:4-6:v1',{records:{spoken:'另一设备的观察'},step:0,viewedSteps:2,completed:false})).ok()).toBe(true);
- await preview(page);await expect(page.locator('#cloud-status')).toContainText('另一设备');expect(day1Protocol(await stored(page,seed.children[0].id)).viewedSteps).toBe(2);await page.locator('#retry-save').click();await expect(page.locator('#reload-cloud')).toBeVisible();page.once('dialog',d=>d.accept());await page.locator('#reload-cloud').click();await page.locator('[data-select-child]').first().click();await expect(page.locator('#reading-count')).toHaveText('已查看 1 / 4 步');await expect(page.locator('[data-step="0"] .flow-status')).toHaveText('○ 未查看');await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toHaveValue('另一设备的观察');
+ const {children:[{id:child}]}=await ready(page);const path=day1RecordPath(child),other={records:{spoken:'另一设备的观察'},step:0,viewedSteps:2,completed:false};
+ expect((await writeProgressRecord(page,child,'1:4-6:v1',other)).ok()).toBe(true);
+ // Preview itself scrolls the stage. The viewport observer produces a real
+ // write; a second scroll can race with the conflict refresh replacing it.
+ const [conflict]=await Promise.all([page.waitForResponse(r=>recordWrite(r,path)),page.locator('#preview-main').click()]);
+ expect(conflict.request().postDataJSON().record.viewedSteps).toBe(1);expect(conflict.status()).toBe(409);expect((await conflict.json()).error.code).toBe('RECORD_CONFLICT');
+ await expect(page.locator('#cloud-status')).toContainText('另一设备');expect(day1Protocol(await stored(page,child))).toEqual(other);
+ await page.locator('#retry-save').click();await expect(page.locator('#reload-cloud')).toBeVisible();page.once('dialog',d=>d.accept());await page.locator('#reload-cloud').click();await expect(page.locator('#reload-cloud')).toHaveCount(0);
+ await page.locator(`[data-select-child="${child}"]`).click();await expect(page.locator('#reading-count')).toHaveText('已查看 1 / 4 步');await expect(page.locator('[data-step="0"] .flow-status')).toHaveText('○ 未查看');await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toHaveValue('另一设备的观察');
 });
 
 test('server relock removes stale reading controls and preserves only previously saved history',async({page,request})=>{
- const seed=await ready(page,{email:'relock@qa.test',role:'parent',unlockAll:false,unlockThrough:1});await preview(page);await cloudSaved(page);
+ const seed=await ready(page,{email:'relock@qa.test',role:'parent',unlockAll:false,unlockThrough:1});const child=seed.children[0].id;await preview(page);await cloudSaved(page);
+ const original=day1Protocol(await stored(page,child));expect(original.viewedSteps).toBe(1);
  // The isolated API context changes permissions without replacing the parent's cookie/CSRF session.
  const admin={request};await fixture(admin);await loginAPI(admin);expect((await authFetch(admin,'/api/admin/users/'+seed.user.id+'/access','POST',{mode:'locked'})).ok()).toBe(true);
- let release;const held=new Promise(resolve=>release=resolve);const savePath='**/api/children/'+seed.children[0].id+'/progress/records/*';await page.route(savePath,async route=>{if(route.request().method()==='PUT')await held;await route.continue()});await view(page,3);await page.locator('#zoom-diagram').click();release();await expect(page.locator('.locked-activity')).toBeVisible();await page.unroute(savePath);await expect(page.locator('#diagram-dialog')).not.toBeVisible();await expect(page.locator('#enlarged-diagram')).toBeEmpty();await expect(page.locator('#enlarged-instruction')).toBeEmpty();await expect(page.locator('#cloud-status')).toContainText('另一设备');await expect(page.locator('#reading-summary')).toHaveCount(0);await expect(page.locator('#step-stage')).toHaveCount(0);expect(day1Protocol(await stored(page,seed.children[0].id)).viewedSteps).toBe(1);
+ let release;const held=new Promise(resolve=>release=resolve),path=day1RecordPath(child),match=url=>recordURL(url,path);
+ await page.route(match,async route=>{if(route.request().method()==='PUT')await held;await route.continue()});
+ try{
+  const [denied]=await Promise.all([page.waitForResponse(r=>recordWrite(r,path)),(async()=>{try{await view(page,3);await page.locator('#zoom-diagram').click();await expect(page.locator('#diagram-dialog')).toBeVisible()}finally{release()}})()]);
+  expect(denied.request().postDataJSON().record.viewedSteps).toBe(9);expect(denied.status()).toBe(403);expect((await denied.json()).error.code).toBe('ACTIVITY_LOCKED');
+ }finally{release();await page.unroute(match)}
+ await expect(page.locator('.locked-activity')).toBeVisible();await expect(page.locator('#diagram-dialog')).not.toBeVisible();await expect(page.locator('#enlarged-diagram')).toBeEmpty();await expect(page.locator('#enlarged-instruction')).toBeEmpty();
+ await expect(page.locator('#cloud-status')).toContainText('尚未保存：此活动尚未解锁');await expect(page.locator('#reading-summary')).toHaveCount(0);await expect(page.locator('#step-stage')).toHaveCount(0);expect(day1Protocol(await stored(page,child))).toEqual(original);
 });
 
 test('keyboard step controls, accessible names and 360px hierarchy remain usable',async({page},info)=>{

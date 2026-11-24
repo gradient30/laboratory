@@ -11,7 +11,40 @@ test('rapid day switching ignores the slower old day and removes stale completio
  await ready(page);const wait=pause();let started=false;await page.route('**/curriculum/2?*',async route=>{const response=await route.fetch();started=true;await wait.promise;await route.fulfill({response});});await page.locator('#day-next').click();await expect.poll(()=>started).toBe(true);await expect(page.locator('#complete-day')).toHaveCount(0);await expect(page.locator('#safety-dialog-content')).toBeEmpty();await page.locator('#day-next').click();await expect(page.locator('.activity-heading')).toContainText(activities[2].title);wait.release();await page.unrouteAll({behavior:'wait'});await expect(page.locator('.activity-heading')).toContainText(activities[2].title);await expect(page.locator('#day-number')).toContainText('DAY 03');
 });
 test('pending sibling detail cannot replace the newly selected child or its record fields',async({page})=>{
- const seed=await ready(page,[{nickname:'合成甲',ageBand:'4-6'},{nickname:'合成乙',ageBand:'7-9'}]),wait=pause();let started=false;const path='**/api/children/'+seed.children[1].id+'/curriculum/1?*';await page.route(path,async route=>{const response=await route.fetch();started=true;await wait.promise;await route.fulfill({response});});await page.locator('#child-switch').selectOption(seed.children[1].id);await expect.poll(()=>started).toBe(true);await expect(page.locator('#complete-day')).toHaveCount(0);await page.locator('#child-switch').selectOption(seed.children[0].id);await expect(page.locator('#cloud-status')).toHaveText('已保存 · 合成甲');await expect(page.locator('#age-context')).toContainText('4–6');wait.release();await page.unrouteAll({behavior:'wait'});await expect(page.locator('#child-switch')).toHaveValue(seed.children[0].id);await page.locator('#tab-observations').click();await expect(page.locator('[data-field="spoken"]')).toBeVisible();await expect(page.locator('[data-field="field0"]')).toHaveCount(0);
+ const ownNote='QA 甲的平纸记录',siblingNote='QA 乙的前后对比笔记';
+ const ownProtocol=activities[0].ageProtocols['4-6'],siblingProtocol=activities[0].ageProtocols['7-9'];
+ const ownLabel=ownProtocol.guide.recordFields[0],siblingLabel=siblingProtocol.guide.recordFields[0];
+ expect(ownLabel).not.toBe(siblingLabel);
+ const saved=(age,version,field0)=>({protocolProgress:{[`1:${age}:v${version}`]:{records:{field0},step:0,viewedSteps:0,completed:false}}});
+ const seed=await ready(page,[
+  {nickname:'合成甲',ageBand:'4-6',state:saved('4-6',ownProtocol.version,ownNote)},
+  {nickname:'合成乙',ageBand:'7-9',state:saved('7-9',siblingProtocol.version,siblingNote)}
+ ]);
+ const wait=pause();let started=false;
+ const path='**/api/children/'+seed.children[1].id+'/curriculum/1?*';
+ await page.route(path,async route=>{const response=await route.fetch();started=true;await wait.promise;await route.fulfill({response});});
+ try{
+  await page.locator('#child-switch').selectOption(seed.children[1].id);
+  await expect.poll(()=>started).toBe(true);
+  await expect(page.locator('#complete-day')).toHaveCount(0);
+  await page.locator('#child-switch').selectOption(seed.children[0].id);
+  await expect(page.locator('#cloud-status')).toHaveText('已保存 · 合成甲');
+  await expect(page.locator('#age-context')).toContainText('4–6');
+ }finally{
+  wait.release();
+  await page.unrouteAll({behavior:'wait'});
+ }
+ await expect(page.locator('#child-switch')).toHaveValue(seed.children[0].id);
+ await expect(page.locator('#age-context')).toContainText('4–6');
+ await page.locator('#tab-observations').click();
+ await expect(page.locator('[data-field="spoken"]')).toBeVisible();
+ const ownField=page.locator('#record-area [data-field="field0"]');
+ await expect(ownField).toBeVisible();
+ await expect(ownField).toHaveValue(ownNote);
+ await expect(ownField.locator('..')).toContainText(ownLabel);
+ await expect(page.locator('#record-area')).not.toContainText(siblingLabel);
+ const values=await page.locator('#record-area [data-field]').evaluateAll(fields=>fields.map(field=>field.value));
+ expect(values).not.toContain(siblingNote);
 });
 for(const mode of ['failed-fetch','stale-revision','stale-access'])test(`${mode} clears detail and completion until a fresh catalog and detail succeed`,async({page})=>{
  await ready(page);const path='**/curriculum/2?*';await page.route(path,async route=>{if(mode==='failed-fetch')return route.abort('failed');const response=await route.fetch(),body=await response.json();if(mode==='stale-revision')body.curriculumRevision='0'.repeat(64);else body.accessVersion='obsolete';await route.fulfill({response,json:body});});await page.locator('#day-next').click();await expect(page.locator('#retry-detail')).toBeVisible();await expect(page.locator('#complete-day')).toHaveCount(0);await expect(page.locator('#open-safety')).toHaveCount(0);await expect(page.locator('#safety-dialog-content')).toBeEmpty();await expect(page.locator('#enlarged-diagram')).toBeEmpty();await page.unroute(path);await page.locator('#retry-detail').click();await expect(page.locator('.activity-heading')).toContainText(activities[1].title);await expect(page.locator('#complete-day')).toBeAttached();await cloudSaved(page);

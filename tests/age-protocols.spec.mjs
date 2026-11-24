@@ -62,7 +62,10 @@ for(const sampled of sample.activities.filter(activity=>activity.id!==e.id)){con
   await page.locator('#tab-learning-panel').click();await expect(page.locator('#learning-panel')).toContainText(selected.explanation);await page.locator('#tab-observations').click();const field=age==='4-6'?'spoken':'field0';await page.locator(`[data-field="${field}"]`).fill(`QA theme${day} age${age}`);await cloudSaved(page);
  }
  const session=await(await page.request.get('/api/session')).json(),r=await readProgressSnapshot(page,session.children[0].id);
- for(const age of ['4-6','7-9','10-12','13-16']){const protocol=r.state.protocolProgress[`${day}:${age}:v1`];expect(protocol.records[age==='4-6'?'spoken':'field0']).toBe(`QA theme${day} age${age}`);expect(protocol.completed).toBe(false);}
+ for(const age of ['4-6','7-9','10-12','13-16']){
+  const key=`${day}:${age}:v${activity.ageProtocols[age].version}`,protocol=r.state.protocolProgress[key];
+  expect(protocol,`saved current protocol ${key}`).toMatchObject({records:{[age==='4-6'?'spoken':'field0']:`QA theme${day} age${age}`},completed:false});
+ }
 });}
 
 // Live viewport hit-testing distinguishes a full-page fixed-toolbar capture artifact from obstruction.
