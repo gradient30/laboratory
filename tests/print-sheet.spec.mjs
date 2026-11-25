@@ -1,10 +1,25 @@
 import {test,expect} from '@playwright/test';
+import {mkdir} from 'node:fs/promises';
 import {resetServer,fixture,loginAPI} from './account-helpers.mjs';
 test('A4 preview contains all four steps and prints without marking the experiment complete',async({page})=>{
  await resetServer(page);await fixture(page);await loginAPI(page);await page.goto('/');
  await expect(page.locator('#print-experiment')).toBeVisible();
  const before=await page.locator('#complete-day').getAttribute('aria-pressed');
  const popupPromise=page.waitForEvent('popup');await page.locator('#print-experiment').click();const popup=await popupPromise;
+ await expect(popup.locator('#print-fit')).not.toHaveText('正在排版…');
+ await expect(popup.locator('.step-art svg.science-diagram[role="img"]')).toHaveCount(4);
+ await expect(popup.locator('.materials li svg')).toHaveCount(4);
+ await expect(popup.locator('.safety')).toContainText('先请成人读完整版');
+ expect(await popup.locator('.discovery .lines').evaluate(el=>el.getBoundingClientRect().height)).toBeGreaterThanOrEqual(90);
+ await expect(popup.locator('#print-now')).toBeEnabled();
+ await popup.emulateMedia({media:'print'});await expect(popup.locator('.toolbar')).toBeHidden();
+ const illustrated=await popup.pdf({format:'A4',preferCSSPageSize:true,displayHeaderFooter:false,scale:1});
+ expect((illustrated.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length).toBe(1);
+ await mkdir('test-results/visual-review',{recursive:true});
+ await popup.locator('.sheet').screenshot({path:`test-results/visual-review/a4-illustrated-${test.info().project.name}.png`});
+ await popup.emulateMedia({media:'screen'});
+ await popup.locator('#switch-print').click();
+ await expect(popup.locator('#switch-print')).toHaveText('返回看图卡');
  await expect(popup.locator('#print-fit')).not.toHaveText('正在排版…');await expect(popup.locator('.step')).toHaveCount(4);await expect(popup.locator('.materials li').first()).toBeVisible();await expect(popup.locator('.safety')).toContainText('成人');
  await popup.emulateMedia({media:'print'});await expect(popup.locator('.toolbar')).toBeHidden();
  const sizes=await popup.locator('.sheet').evaluate(el=>({width:el.scrollWidth,available:el.clientWidth,font:parseFloat(el.style.getPropertyValue('--body-size')),height:el.scrollHeight,blocked:el.ownerDocument.body.classList.contains('print-overflow')}));
@@ -19,5 +34,7 @@ test('A4 preview contains all four steps and prints without marking the experime
  await popup.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));
  await expect(popup.locator('#print-now')).toBeDisabled();
  await popup.emulateMedia({media:'screen'});await popup.evaluate(()=>{document.querySelector('.sheet').innerHTML=window.originalPrintHTML;window.dispatchEvent(new Event('beforeprint'));});await expect(popup.locator('#print-now')).toBeEnabled();
+ await popup.locator('#switch-print').click();await expect(popup.locator('.visual-step')).toHaveCount(4);
+ await expect(popup.locator('#print-now')).toBeEnabled();
  await popup.close();expect(await page.locator('#complete-day').getAttribute('aria-pressed')).toBe(before);
 });

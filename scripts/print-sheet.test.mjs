@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
-import {resolveAgeProtocol} from '../dist/diagrams.js';
+import {resolveAgeProtocol,renderActivityDiagram} from '../dist/diagrams.js';
 const app=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8');
 const ctx=vm.createContext({});
-vm.runInContext(app.split('\n').find(l=>l.startsWith('const escapeHTML='))+'\n'+app.slice(app.indexOf('function renderExperimentPrintSheet('),app.indexOf('function openExperimentPrintSheet('))+'\nglobalThis.render=renderExperimentPrintSheet;globalThis.cards=EXPERIMENT_PRINT_CARDS;globalThis.sourceCheck=printSourceCheck;globalThis.renderCard=renderConcisePrintSheet;',ctx);
+vm.runInContext(app.split('\n').find(l=>l.startsWith('const escapeHTML='))+'\n'+app.slice(app.indexOf('function renderExperimentPrintSheet('),app.indexOf('function openExperimentPrintSheet('))+'\nglobalThis.render=renderExperimentPrintSheet;globalThis.cards=EXPERIMENT_PRINT_CARDS;globalThis.sourceCheck=printSourceCheck;globalThis.renderCard=renderConcisePrintSheet;globalThis.renderVisual=renderVisualPrintSheet;',ctx);
 const data=JSON.parse(fs.readFileSync(new URL('../dist/data.json',import.meta.url)));
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 test('1460 printable variants preserve full safety, source sentences or fingerprint-bound curated cards, and never mutate curriculum',()=>{
@@ -41,11 +41,11 @@ test('both rendering modes escape all strings and print no saved child record',(
  assert.match(app,/printButton.addEventListener\('click',openExperimentPrintSheet\)/);
 });
 test('single-page fitting keeps at least 10pt and refuses overflow without truncating content',()=>{
- const fitSource=app.slice(app.indexOf(' const fit=()=>'),app.indexOf("\n printButton.addEventListener"));
+ const fitSource=app.slice(app.indexOf(' const fit=()=>'),app.indexOf("\n  printButton.addEventListener",app.indexOf(" const fit=()=>")));
  for(const base of [900,1150,2000]){
-  let size=11,blocked=false;const sheet={style:{setProperty:(_,s)=>{size=parseFloat(s)}},get scrollHeight(){return base*size/11},scrollWidth:733,clientWidth:733};
+  let size=11,blocked=false;const sheet={isConnected:true,style:{setProperty:(name,s)=>{if(name==='--body-size')size=parseFloat(s)}},get scrollHeight(){return base*size/11},scrollWidth:733,clientWidth:733};
   const status={},printButton={},doc={body:{classList:{remove:()=>{blocked=false},toggle:(_,v)=>{blocked=v}}}};
-  const sandbox=vm.createContext({popup:{closed:false},sheet,status,printButton,doc});vm.runInContext(fitSource+';globalThis.result=fit();',sandbox);
+  const sandbox=vm.createContext({popup:{closed:false},sheet,status,printButton,doc,visual:false});vm.runInContext(fitSource+';globalThis.result=fit();',sandbox);
   assert.ok(size>=10&&size<=11);assert.equal(blocked,base*size/11>281*96/25.4+1);assert.equal(printButton.disabled,blocked);assert.equal(sandbox.result,!blocked);
   if(blocked)assert.match(status.textContent,/暂不提供单页打印/);else assert.match(status.textContent,/一张 A4/);
  }
@@ -54,4 +54,21 @@ test('single-page fitting keeps at least 10pt and refuses overflow without trunc
 test('supplemental deduplication removes only exact repeats',()=>{
  const e=structuredClone(resolveAgeProtocol(data.experiments[0],'4-6')),g=e.ageGuides['4-6'];g.steps[0].adultNote='独立安全要求：停止后由成人清理，材料不可入口。';g.steps[1].adultNote=g.steps[0].adultNote;
  const html=ctx.render(e,g,'4-6');assert.equal(html.split(g.steps[0].adultNote).length-1,1);assert.ok(html.includes(e.safety));
+});
+
+test('illustrated card has four age-correct scenes, adult safety and space to draw',()=>{
+ for(const [day,age] of [[1,'4-6'],[172,'10-12'],[255,'13-16'],[365,'7-9']]){
+  const e=resolveAgeProtocol(data.experiments[day-1],age),g=e.ageGuides[age];
+  const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{actual.push(args.slice(1));return renderActivityDiagram(...args);});
+  assert.deepEqual(actual,[[0,age],[1,age],[2,age],[3,age]]);
+  assert.equal((html.match(/class="science-diagram"/g)||[]).length,4);
+  assert.ok(html.includes(escape(e.safety)));
+  assert.ok(html.includes('先请成人读完整版'));assert.ok(html.includes('图是示意'));
+  assert.match(html,/height:24mm/);assert.match(html,/我的发现/);assert.doesNotMatch(html,/record-area|儿童姓名/);
+  if(day===1)for(const item of e.materials)assert.ok(html.includes(escape(item)));
+  if(day===172||day===255){
+   assert.match(html,/按完整版的材料表准备/);
+   assert.match(ctx.render(e,g,age),/精简操作卡/);
+  }
+ }
 });
