@@ -44,7 +44,7 @@ test('single-page fitting keeps at least 10pt and refuses overflow without trunc
  const fitSource=app.slice(app.indexOf(' const fit=()=>'),app.indexOf("\n  printButton.addEventListener",app.indexOf(" const fit=()=>")));
  for(const base of [900,1150,2000]){
   let size=11,blocked=false;const sheet={isConnected:true,style:{setProperty:(name,s)=>{if(name==='--body-size')size=parseFloat(s)}},get scrollHeight(){return base*size/11},scrollWidth:733,clientWidth:733};
-  const status={},printButton={},doc={body:{classList:{remove:()=>{blocked=false},toggle:(_,v)=>{blocked=v}}}};
+  const status={},printButton={},doc={body:{classList:{add:()=>{},remove:name=>{if(name==='print-overflow')blocked=false},toggle:(_,v)=>{blocked=v}}}};
   const sandbox=vm.createContext({popup:{closed:false},sheet,status,printButton,doc,visual:false});vm.runInContext(fitSource+';globalThis.result=fit();',sandbox);
   assert.ok(size>=10&&size<=11);assert.equal(blocked,base*size/11>281*96/25.4+1);assert.equal(printButton.disabled,blocked);assert.equal(sandbox.result,!blocked);
   if(blocked)assert.match(status.textContent,/暂不提供单页打印/);else assert.match(status.textContent,/一张 A4/);
@@ -70,5 +70,19 @@ test('illustrated card has four age-correct scenes, adult safety and space to dr
    assert.match(html,/按完整版的材料表准备/);
    assert.match(ctx.render(e,g,age),/精简操作卡/);
   }
+ }
+});
+
+test('Day 172 illustrated discovery preserves age-specific comparisons and full safety',()=>{
+ for(const [age,comparison] of [['4-6',/等一样久.*5圈和20圈.*一样吗/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/]]){
+  const e=structuredClone(resolveAgeProtocol(data.experiments[171],age)),g=e.ageGuides[age];
+  const html=ctx.renderVisual(e,g,age,renderActivityDiagram);
+  const discovery=html.match(/<section class="discovery">[^]*?<p>([^<]+)<\/p>/)[1];
+  assert.match(discovery,comparison);assert.ok(html.includes(escape(e.safety)));assert.match(html,/height:24mm/);
+  assert.ok(ctx.render(e,g,age).includes(escape(ctx.cards['172:'+age].discovery)));
+  g.observe='新的实际观察问题？';
+  assert.notEqual(ctx.sourceCheck(e,g,age),ctx.cards['172:'+age].sourceCheck);
+  const revised=ctx.renderVisual(e,g,age,renderActivityDiagram);
+  assert.ok(revised.includes(g.observe));assert.ok(!revised.includes(discovery));
  }
 });

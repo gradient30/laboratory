@@ -274,7 +274,7 @@ function renderExperimentPrintSheet(e,g,age){
  const steps=e.steps.map((step,i)=>{const gs=g.steps?.[i]||{},actor=gs.actor||step.actor;
   return `<section class="step"><h2>${i+1}. ${h(step.title)} <small>${{adult:'成人操作',child:'孩子探索 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁'}</small></h2>${paragraph('操作：',gs.action||step.detail)}${gs.action&&gs.action!==step.detail?paragraph('',step.detail):''}${unique('观察：',gs.caption)}${unique('成人提示：',gs.adultNote)}</section>`;
  }).join('');
- return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>${h(e.title)} · A4 实验卡</title><style>
+ return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(e.title)} · A4 实验卡</title><style>
  @page{size:A4 portrait;margin:8mm}*{box-sizing:border-box}body{margin:0;background:#eceeea;color:#17251e;font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}.toolbar{padding:14px;text-align:center;background:#fff;border-bottom:1px solid #bbb}.toolbar button{font:inherit;padding:8px 16px;cursor:pointer}.toolbar p{margin:8px 0 0;font-size:14px}.sheet{--body-size:11pt;width:194mm;margin:12px auto;padding:0;background:white;font-size:var(--body-size);line-height:1.08;overflow-wrap:anywhere}h1{font-size:15pt;line-height:1.08;margin:0 0 1mm}h2{font-size:1.03em;margin:0 0 .7mm}p{margin:.25mm 0}small,.meta{font-size:1em;font-weight:normal}.meta{padding-bottom:1mm;border-bottom:2px solid #243f31}.safety{border:1.4px solid #344b3c;padding:1mm;margin:1mm 0}.safety b{font-weight:800}.materials{margin:1mm 0}.materials ul{list-style:none;padding:0;margin:.7mm 0}.materials li{display:inline}.materials li::before{content:'□ ';font-weight:bold}.materials li::after{content:'； '}.step{border-top:1px solid #aab5ac;padding:.5mm 0;break-inside:avoid}.discovery{border-top:2px solid #243f31;padding-top:1.5mm;break-inside:avoid}.lines{height:12mm;border-bottom:1px solid #aab5ac}footer{font-size:9pt;margin-top:1mm;border-top:1px solid #aab5ac;padding-top:1mm}.print-blocker{display:none}@media print{body{background:white}.toolbar{display:none}.sheet{width:194mm;margin:0}h1,h2{break-after:avoid}body.print-overflow .sheet{display:none}body.print-overflow .print-blocker{display:block;font-size:12pt}}
  </style></head><body><div class="toolbar"><button id="print-now" type="button" disabled>打印 / 保存为 PDF</button> <button id="close-print" type="button">关闭</button><p id="print-fit" role="status">正在排版…</p></div><p class="print-blocker">本课内容暂不能安全排入单张 A4。没有删减安全信息，也没有打印不完整操作单。请返回网页查看完整步骤。</p><main class="sheet"><h1>${h(e.title)}</h1><div class="meta">家庭实验站 · 第 ${h(e.day)} 项 · ${h(age)}岁 · ${h(e.duration)}${e.wait?' · 等待：'+h(e.wait):''}</div><p><b>探索问题：</b>${h(e.question)}</p><section class="safety"><h2>安全重点 · 开始前成人确认</h2><p><b>${h(e.safety)}</b></p>${paragraph('本年龄支持：',g.support)}</section><section class="materials"><h2>01 / 材料 · 核对用量</h2><ul>${e.materials.map(m=>`<li>${h(m)}</li>`).join('')}</ul></section><h2>02 / 操作步骤 · 按顺序完成</h2>${unique('比较条件：',g.control)}${g.time!==e.duration?paragraph('时间安排：',g.time):''}${steps}<section class="discovery"><h2>03 / 我的发现 · 先记现象，再作解释</h2>${paragraph('',g.observe||e.question)}<p>我观察到：　　　　　　　　　　　我还想知道：</p><div class="lines"></div></section><footer>操作图、原尺寸纸样及详细解释请看网页。只记录实验现象，不填儿童姓名等个人信息。 · labs.996fb.cn</footer></main></body></html>`;
 }
@@ -285,7 +285,7 @@ function printSourceCheck(e,g,age){
 }
 function renderConcisePrintSheet(c){
  const h=escapeHTML;
- return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>${h(c.title)} · A4 实验卡</title><style>
+ return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(c.title)} · A4 实验卡</title><style>
  @page{size:A4 portrait;margin:8mm}*{box-sizing:border-box}body{margin:0;background:#eceeea;color:#142a21;font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}.toolbar{padding:14px;text-align:center;background:white;border-bottom:1px solid #bbb}.toolbar button{font:inherit;padding:8px 16px;cursor:pointer}.toolbar p{font-size:14px}.sheet{--body-size:11pt;width:194mm;margin:12px auto;padding:0;background:white;font-size:var(--body-size);line-height:1.12;overflow-wrap:anywhere}h1{font-size:16pt;margin:0}h2{font-size:1.05em;margin:1mm 0 .5mm}p{margin:.5mm 0}header{border-bottom:2px solid #244c38;padding-bottom:1mm}.safety{border:1px solid #244c38;padding:1mm;margin:1mm 0;font-weight:600}section{break-inside:avoid}.materials ul{list-style:none;padding:0;margin:0}.materials li{margin:.5mm 0}.materials li::before{content:'□ ';font-weight:bold}.step{border-top:1px solid #a9b8ae;padding-top:.5mm;margin-top:.7mm}.discovery{border-top:2px solid #244c38;margin-top:1mm;break-inside:avoid}.blank{height:12mm;border-bottom:1px solid #a9b8ae}footer{font-size:9pt;padding-top:1mm}.print-blocker{display:none}@media print{body{background:white}.toolbar{display:none}.sheet{margin:0}body.print-overflow .sheet{display:none}body.print-overflow .print-blocker{display:block;font-size:12pt}}
  </style></head><body><div class="toolbar"><button id="print-now" type="button" disabled>打印 / 保存为 PDF</button> <button id="close-print" type="button">关闭</button><p id="print-fit" role="status">正在排版…</p></div><p class="print-blocker">本课内容暂不能安全排入单张 A4。没有打印不完整操作单，请返回网页查看完整步骤。</p><main class="sheet"><header><h1>${h(c.title)}</h1><p>家庭实验站 · 第 ${h(c.id)} 项 · ${h(c.age)}岁 · 精简操作卡</p><p>${h(c.duration)}</p></header><section class="safety"><h2>先读安全重点</h2><p>${h(c.safety)}</p></section><section class="materials"><h2>材料与准备 · 先核对再操作</h2><ul>${c.materials.map(p=>`<li>${h(p)}</li>`).join('')}</ul></section>${c.steps.map(([title,p])=>`<section class="step"><h2>${h(title)}</h2><p>${h(p)}</p></section>`).join('')}<section class="discovery"><h2>我的发现 · 保留异常和未知</h2><p>${h(c.discovery)}</p><div class="blank"></div></section><footer>完整图示、纸样、原始记录表及模型资料请配合网页使用。此卡不替代配套纸样；不填写儿童姓名等个人信息。 · labs.996fb.cn</footer></main></body></html>`;
 }
@@ -319,8 +319,14 @@ function renderVisualPrintSheet(e,g,age,draw){
  }).join('');
  const support=g.support&&!e.safety.includes(g.support)?`<p>${h(g.support)}</p>`:'';
  const compact=EXPERIMENT_PRINT_CARDS[`${e.id}:${band}`];
- const prompt=compact?.sourceCheck===printSourceCheck(e,g,band)?compact.discovery:(g.observe||e.question||'');
- const discovery=prompt.length>54?'画下或写下你真的看到的变化。':prompt;
+ const currentCompact=compact?.sourceCheck===printSourceCheck(e,g,band);
+ const prompt=currentCompact?compact.discovery:(g.observe||e.question||'');
+ // Keep the age-specific comparison; the separate record reminder stays in the full card.
+ const shortDiscovery=currentCompact&&e.id===172&&({
+  '4-6':'停下后等一样久。搅5圈和20圈，两杯看起来一样吗？',
+  '10-12':'同一观察时窗，小圆和较大圆各搅5或20圈，外观有何差别？水杯参照提示什么？',
+ }[band]);
+ const discovery=shortDiscovery||((currentCompact||prompt.length<=54)?prompt:'画下或写下你真的看到的变化。');
  return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(e.title)} · A4 看图卡</title><style>
  @page{size:A4 portrait;margin:8mm}
  *{box-sizing:border-box}body{margin:0;background:#eef3f1;color:#193831;font-family:"Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif}
@@ -356,6 +362,18 @@ function openExperimentPrintSheet(){
   const content=visual?renderVisualPrintSheet(e,g,age,renderActivityDiagram):renderExperimentPrintSheet(e,g,age);
   popup.document.open();popup.document.write(content);popup.document.close();
   const doc=popup.document,sheet=doc.querySelector('.sheet'),status=doc.querySelector('#print-fit');
+  // The on-screen guide reflows; print and fit measurements always use A4 geometry.
+  const previewStyle=doc.createElement('style');
+  previewStyle.textContent=`
+   @media screen and (max-width:760px){
+    .toolbar{padding:8px;position:static}
+    .toolbar button{margin:3px;min-height:44px}
+    body:not(.paper-measure) .sheet{width:calc(100% - 16px);margin:8px auto;padding:10px;font-size:max(14px,var(--body-size))}
+    body:not(.paper-measure) .step-grid,body:not(.paper-measure) .materials ul{grid-template-columns:minmax(0,1fr)}
+    body:not(.paper-measure) .step-art{height:auto;aspect-ratio:16/9}
+   }
+  `;
+  doc.head.append(previewStyle);
   const printButton=doc.querySelector('#print-now');
   const switchButton=doc.querySelector('#switch-print')||doc.createElement('button');
   if(!visual){switchButton.type='button';switchButton.id='switch-print';switchButton.textContent='返回看图卡';printButton.after(' ',switchButton);}
@@ -363,17 +381,20 @@ function openExperimentPrintSheet(){
   const fit=()=>{
    if(popup.closed||!sheet.isConnected)return false;
    doc.body.classList.remove('print-overflow');
-   const max=281*96/25.4;
-   const tooLarge=()=>sheet.scrollHeight>max+1||sheet.scrollWidth>sheet.clientWidth+1;
-   let size=11;sheet.style.setProperty('--body-size',size+'pt');
-   if(visual){
-    // Keep the drawing area and type size; tighten the illustrations only
-    // when the safety/material copy needs the extra space.
-    sheet.style.setProperty('--art-height','45mm');
-    if(tooLarge())sheet.style.setProperty('--art-height','38mm');
-   }
-   while(sheet.scrollHeight>max+1&&size>10){size-=.25;sheet.style.setProperty('--body-size',size+'pt');}
-   const overflow=tooLarge();doc.body.classList.toggle('print-overflow',overflow);printButton.disabled=overflow;
+   doc.body.classList.add('paper-measure');
+   let overflow;
+   try{
+    const max=281*96/25.4;
+    const tooLarge=()=>sheet.scrollHeight>max+1||sheet.scrollWidth>sheet.clientWidth+1;
+    let size=11;sheet.style.setProperty('--body-size',size+'pt');
+    if(visual){
+     sheet.style.setProperty('--art-height','45mm');
+     if(tooLarge())sheet.style.setProperty('--art-height','38mm');
+    }
+    while(sheet.scrollHeight>max+1&&size>10){size-=.25;sheet.style.setProperty('--body-size',size+'pt');}
+    overflow=tooLarge();
+   }finally{doc.body.classList.remove('paper-measure');}
+   doc.body.classList.toggle('print-overflow',overflow);printButton.disabled=overflow;
    status.textContent=overflow?'本课尚不能在可读字号下排入单张 A4，暂不提供单页打印。未删减安全内容，请切换另一版或返回网页。':'已排为一张 A4。请选择 A4、100% 缩放，关闭浏览器页眉页脚。';
    return !overflow;
   };
