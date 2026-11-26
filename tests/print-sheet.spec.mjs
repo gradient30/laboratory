@@ -135,3 +135,25 @@ for(const [day,age,icons] of [[9,'4-6',['measure','book','measure']],[14,'4-6',[
   await popup.close();
  });
 }
+
+test('A dense card prints a single A4 without dropping its stop and cleanup instructions',async({page})=>{
+ await resetServer(page);await fixture(page,{children:[{nickname:'合成探险家',ageBand:'13-16'}]});await loginAPI(page);await page.goto('/');
+ await page.locator('#navigator-handle').click();await expect(page.locator('#day-map')).toBeVisible();
+ await page.locator('#map-month').selectOption('all');await page.locator('[data-filter="all"]').click();
+ await page.locator('#map-search').fill('130');await page.locator('#map-grid [data-day="130"]').click();
+ await expect(page.locator('#day-number')).toContainText('DAY 130 / 365');
+ const opening=page.waitForEvent('popup');await page.locator('#print-experiment').click();const popup=await opening;
+ await expect(popup.locator('#print-now')).toBeEnabled();
+ await popup.emulateMedia({media:'print'});
+ await expect(popup.locator('.safety')).toBeVisible();
+ await expect(popup.locator('.safety')).toContainText('严禁干倒或吹扫');
+ await expect(popup.locator('.safety')).toContainText('发现霉样物、异常色或污染立即停止');
+ await expect(popup.locator('.step-art svg.science-diagram')).toHaveCount(4);
+ expect(await popup.locator('.sheet').evaluate(sheet=>parseFloat(sheet.style.getPropertyValue('--body-size')))).toBeGreaterThanOrEqual(10);
+ expect(await popup.locator('.discovery .lines').evaluate(el=>el.getBoundingClientRect().height)).toBeGreaterThanOrEqual(90);
+ const pdf=await popup.pdf({format:'A4',preferCSSPageSize:true,displayHeaderFooter:false,scale:1});
+ expect((pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length).toBe(1);
+ await mkdir('test-results/visual-review',{recursive:true});
+ await popup.locator('.sheet').screenshot({path:`test-results/visual-review/a4-dense-day130-${test.info().project.name}.png`});
+ await popup.close();
+});

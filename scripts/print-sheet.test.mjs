@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 import {resolveAgeProtocol,renderActivityDiagram} from '../dist/diagrams.js';
 const app=fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8');
 const ctx=vm.createContext({});
-vm.runInContext(app.split('\n').find(l=>l.startsWith('const escapeHTML='))+'\n'+app.slice(app.indexOf('function renderExperimentPrintSheet('),app.indexOf('function openExperimentPrintSheet('))+'\nglobalThis.render=renderExperimentPrintSheet;globalThis.cards=EXPERIMENT_PRINT_CARDS;globalThis.sourceCheck=printSourceCheck;globalThis.renderCard=renderConcisePrintSheet;globalThis.renderVisual=renderVisualPrintSheet;',ctx);
+vm.runInContext(app.split('\n').find(l=>l.startsWith('const escapeHTML='))+'\n'+app.slice(app.indexOf('function renderExperimentPrintSheet('),app.indexOf('function openExperimentPrintSheet('))+'\nglobalThis.render=renderExperimentPrintSheet;globalThis.cards=EXPERIMENT_PRINT_CARDS;globalThis.sourceCheck=printSourceCheck;globalThis.renderCard=renderConcisePrintSheet;globalThis.renderVisual=renderVisualPrintSheet;globalThis.visualSafety=printVisualSafety;',ctx);
 const data=JSON.parse(fs.readFileSync(new URL('../dist/data.json',import.meta.url)));
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 test('1460 printable variants preserve full safety, source sentences or fingerprint-bound curated cards, and never mutate curriculum',()=>{
@@ -43,7 +43,7 @@ test('both rendering modes escape all strings and print no saved child record',(
 test('single-page fitting keeps at least 10pt and refuses overflow without truncating content',()=>{
  const fitSource=app.slice(app.indexOf(' const fit=()=>'),app.indexOf("\n  printButton.addEventListener",app.indexOf(" const fit=()=>")));
  for(const base of [900,1150,2000]){
-  let size=11,blocked=false;const sheet={isConnected:true,style:{setProperty:(name,s)=>{if(name==='--body-size')size=parseFloat(s)}},get scrollHeight(){return base*size/11},scrollWidth:733,clientWidth:733};
+  let size=11,blocked=false;const sheet={isConnected:true,classList:{remove:()=>{}},style:{setProperty:(name,s)=>{if(name==='--body-size')size=parseFloat(s)}},get scrollHeight(){return base*size/11},scrollWidth:733,clientWidth:733};
   const status={},printButton={},doc={body:{classList:{add:()=>{},remove:name=>{if(name==='print-overflow')blocked=false},toggle:(_,v)=>{blocked=v}}}};
   const sandbox=vm.createContext({popup:{closed:false},sheet,status,printButton,doc,visual:false});vm.runInContext(fitSource+';globalThis.result=fit();',sandbox);
   assert.ok(size>=10&&size<=11);assert.equal(blocked,base*size/11>281*96/25.4+1);assert.equal(printButton.disabled,blocked);assert.equal(sandbox.result,!blocked);
@@ -62,7 +62,7 @@ test('illustrated card has four age-correct scenes, adult safety and space to dr
   const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{assert.equal(args[3]?.sceneOnly,true);actual.push(args.slice(1,3));return renderActivityDiagram(...args);});
   assert.deepEqual(actual,day===172?[[0,age]]:[[0,age],[1,age],[2,age],[3,age]]);
   assert.equal((html.match(/class="science-diagram"/g)||[]).length,4);
-  if(day!==1)assert.ok(html.includes(escape(e.safety)));
+  for(const sentence of ctx.visualSafety(e,g,age))assert.ok(html.includes(escape(sentence)));
   assert.equal((html.match(/viewBox="24 65 592 235"/g)||[]).length,day===172?1:4);
   assert.doesNotMatch(html,/分龄操作图/);
   assert.ok(html.includes('安全要点'));assert.ok(html.includes('图是示意'));
@@ -90,6 +90,23 @@ test('Day 1 print keeps concrete limits and stop conditions without repeating ad
  }
 });
 
+test('printed safety condenses reviewed guidance, but leaves unfamiliar warnings verbatim',()=>{
+ const e={id:0,safety:'成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。',ageGuides:{}};
+ const lines=ctx.visualSafety(e,{support:'成人可代读代画代记；未知可保留，不要求幼儿完成高龄推导，疲倦即停。'},'4-6');
+ assert.deepEqual(Array.from(lines),['成人剪裁、准备并收齐纸片；纸片和笔不入口。','疲倦即停。']);
+ e.safety='成人全程近距离陪伴；打翻即停，不能徒手清理。';
+ assert.deepEqual(Array.from(ctx.visualSafety(e,{support:'成人独占温度计操作；可口述代记，不强求预期结论。'},'4-6')),[e.safety,'成人独占温度计操作。']);
+ assert.deepEqual(Array.from(ctx.visualSafety(e,{support:e.safety+'温度计仅成人操作。'},'4-6')),[e.safety,'温度计仅成人操作。']);
+ let touched=0;
+ for(const raw of data.experiments)for(const age of ['4-6','7-9','10-12','13-16']){
+  const e=resolveAgeProtocol(raw,age),g=e.ageGuides[age];
+  const [safety,...guidance]=Array.from(ctx.visualSafety(e,g,age));
+  const original=[e.safety,...(g.support&&!e.safety.includes(g.support)?[g.support]:[])];
+  if(JSON.stringify([safety,...guidance])!==JSON.stringify(original))touched++;
+  assert.ok(safety,`${raw.id}/${age}: missing safety`);
+ }
+ assert.ok(touched>=140);
+});
 test('Day 172 illustrated discovery preserves age-specific comparisons and full safety',()=>{
  for(const [age,comparison] of [['4-6',/等一样久.*5圈和20圈.*一样吗/],['7-9',/不搅、搅5圈、搅20圈/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/],['13-16',/搅10圈的B和C.*缺测或无差别/]]){
   const e=structuredClone(resolveAgeProtocol(data.experiments[171],age)),g=e.ageGuides[age];

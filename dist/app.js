@@ -353,6 +353,42 @@ function printBridgeSafety(e,g,band){
   `纸折坏、滑落、碰托盘或书移动就停，${young?'取走纸桥':'取下纸包'}。材料不入口，收好剪刀。`,
  ];
 }
+// Print-only exact phrases: keep duties and stopping rules, not participation coaching.
+const PRINT_SAFETY_SENTENCES=new Map([
+ ['成人全程近距离陪伴4—6岁；所有剪裁、预制小纸片由成人完成并收齐，纸片和笔不入口。','成人剪裁、准备并收齐纸片；纸片和笔不入口。'],
+ ['4—6岁成人全程近距离陪伴；纸边勿划手，剪裁由成人预先完成。','成人先裁纸；小心纸边划手。'],
+ ['成人准备全部材料并做所有实物动作，孩子只观察、口述、画图或记录；纸边不划脸、不入口，剪刀用后收起。','实物操作由成人完成，孩子只观察和记录；纸边不碰脸，材料不入口，收好剪刀。'],
+]);
+const PRINT_SUPPORT_CLAUSES=new Map([
+ ['成人可代读代画代记',''],
+ ['未知可保留，不要求幼儿完成高龄推导，疲倦即停','疲倦即停'],
+ ['成人代读代画和记录',''],
+ ['幼儿只指认或口述，不要求数字推导、独立计时测量','不让幼儿独立计时或测量'],
+ ['4—6岁可只指、说或画，不要求读数书写',''],
+ ['成人准备并检查材料、代读难词','成人准备并检查材料'],
+ ['成人代读代记，可停可分次，不以正确答案施压','可停、可分次'],
+ ['可口述代记，不强求预期结论',''],
+ ['可口述由成人代记',''],
+ ['低龄可口述由成人代记',''],
+ ['幼儿由成人代记',''],
+]);
+function printVisualSafety(e,g,band){
+ const bridge=printBridgeSafety(e,g,band);
+ if(bridge)return bridge;
+ const safety=e.safety.replace(/[^。！？\n]+[。！？]?/g,part=>PRINT_SAFETY_SENTENCES.get(part)??part);
+ if(!g.support)return [safety];
+ const sentences=value=>(value.match(/[^。！？\n]+[。！？]?/g)||[]).map(part=>part.trim());
+ const repeated=new Set(sentences(e.safety));
+ const unique=sentences(g.support).filter(part=>!repeated.has(part)).join('');
+ const chunks=unique.match(/[^；。！？\n]+(?:[；。！？\n]|$)/g)||[];
+ const reduced=chunks.map(part=>{
+  const text=part.replace(/[；。！？\n]$/,'').trim();
+  if(!PRINT_SUPPORT_CLAUSES.has(text))return part;
+  const kept=PRINT_SUPPORT_CLAUSES.get(text);
+  return kept?part.replace(text,kept):'';
+ }).join('').trim().replace(/；$/,'。');
+ return reduced?[safety,reduced]:[safety];
+}
 // The illustrated card is a child-facing companion, not a substitute for the
 // age-specific procedure. Never shorten safety copy or guess measurements.
 function renderVisualPrintSheet(e,g,age,draw){
@@ -390,11 +426,9 @@ function renderVisualPrintSheet(e,g,age,draw){
  const steps=e.steps.map((s,i)=>{
   const actor=g.steps?.[i]?.actor||s.actor;
   const art=(currentCompact&&e.id===172&&renderDay172PrintScene(i,band))||draw(e,i,band,{sceneOnly:true});
-  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${art}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁'}</p></section>`;
+  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${art}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手',together:'亲子一起'}[actor]||'请成人协助'}</p></section>`;
  }).join('');
- const bridgeSafety=printBridgeSafety(e,g,band);
- const support=g.support&&!e.safety.includes(g.support)?`<p>${h(g.support)}</p>`:'';
- const safetyCopy=bridgeSafety?bridgeSafety.map(item=>`<p>${h(item)}</p>`).join(''):`<p>${h(e.safety)}</p>${support}`;
+ const safetyCopy=printVisualSafety(e,g,band).map(item=>`<p>${h(item)}</p>`).join('');
  const prompt=currentCompact?compact.discovery:(g.observe||e.question||'');
  // Keep the age-specific comparison; the separate record reminder stays in the full card.
  const shortDiscovery=currentCompact&&e.id===172&&({
@@ -419,10 +453,14 @@ function renderVisualPrintSheet(e,g,age,draw){
  .step-art{height:var(--art-height,45mm);display:flex;justify-content:center;align-items:center}.step-art>svg{max-width:100%;max-height:100%;width:100%;height:100%!important}
  .step-role{margin-top:.3mm;color:#284c44;font-weight:650}
  .discovery{margin-top:1.8mm;border:1.2pt solid #355f59;border-radius:2mm;padding:1.2mm 2mm;break-inside:avoid}.discovery h2{display:flex;align-items:center;gap:1.2mm;margin-bottom:.5mm}.lines{height:24mm;margin-top:.6mm;border:1px dashed #8baba3;border-radius:1.5mm}
+ .sheet.paper-tight header{padding-bottom:.7mm;margin-bottom:.7mm}.sheet.paper-tight h2{margin-bottom:.6mm}
+ .sheet.paper-tight .safety,.sheet.paper-tight .materials,.sheet.paper-tight .discovery{margin-bottom:.7mm}
+ .sheet.paper-tight .safety,.sheet.paper-tight .discovery{padding-top:.7mm;padding-bottom:.7mm}.sheet.paper-tight .discovery{margin-top:.9mm}
+ .sheet.paper-tight .step-grid{gap:.8mm}.sheet.paper-tight .visual-step{padding:.7mm}
  footer{margin-top:1mm;font-size:10pt}.print-blocker{display:none}
  @media print{body{background:white}.toolbar{display:none}.sheet{margin:0}body.print-overflow .sheet{display:none}body.print-overflow .print-blocker{display:block}}
  </style></head><body><div class="toolbar"><button id="print-now" type="button" disabled>打印 / 保存为 PDF</button> <button id="switch-print" type="button">查看完整版</button> <button id="close-print" type="button">关闭</button><p id="print-fit" role="status">正在排版…</p></div>
- <p class="print-blocker">本课看图卡无法在可读字号下排入单张 A4，请切换完整版或使用网页。没有删减安全说明。</p>
+ <p class="print-blocker">本课看图卡无法在可读字号下排入单张 A4，请切换完整版或使用网页。不会裁掉内容来强行缩成一页。</p>
  <main class="sheet"><header><p>家庭实验站 · 第 ${h(e.day)} 天 · ${h(age)}岁 · 看图卡</p><h1>${h(e.title)}</h1></header>
  <section class="safety"><h2>${icon('safety')}安全要点</h2>${safetyCopy}</section>
  <section class="materials"><h2>1｜准备材料</h2>${materials}</section>
@@ -463,16 +501,21 @@ function openExperimentPrintSheet(){
    try{
     const max=281*96/25.4;
     const tooLarge=()=>sheet.scrollHeight>max+1||sheet.scrollWidth>sheet.clientWidth+1;
+    sheet.classList.remove('paper-tight');
     let size=11;sheet.style.setProperty('--body-size',size+'pt');
     if(visual){
      sheet.style.setProperty('--art-height','45mm');
      if(tooLarge())sheet.style.setProperty('--art-height','38mm');
     }
     while(sheet.scrollHeight>max+1&&size>10){size-=.25;sheet.style.setProperty('--body-size',size+'pt');}
+    if(visual&&tooLarge()){
+     sheet.classList.add('paper-tight');
+     sheet.style.setProperty('--art-height','32mm');
+    }
     overflow=tooLarge();
    }finally{doc.body.classList.remove('paper-measure');}
    doc.body.classList.toggle('print-overflow',overflow);printButton.disabled=overflow;
-   status.textContent=overflow?'本课尚不能在可读字号下排入单张 A4，暂不提供单页打印。未删减安全内容，请切换另一版或返回网页。':'已排为一张 A4。请选择 A4、100% 缩放，关闭浏览器页眉页脚。';
+   status.textContent=overflow?'本课尚不能在可读字号下排入单张 A4，暂不提供单页打印。请切换另一版或返回网页。':'已排为一张 A4。请选择 A4、100% 缩放，关闭浏览器页眉页脚。';
    return !overflow;
   };
   printButton.addEventListener('click',()=>{if(!fit())return;popup.focus();popup.print();});doc.querySelector('#close-print').addEventListener('click',()=>popup.close());
