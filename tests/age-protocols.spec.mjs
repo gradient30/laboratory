@@ -25,6 +25,54 @@ test('four genuine protocol views share no old instructions and keep old records
  for(const age of ['4-6','7-9','10-12','13-16'])expect(r.state.protocolProgress[`1:${age}:v1`].completed).toBe(true);
  await page.reload();await expect(page.locator('#open-safety')).toBeVisible();await page.locator('#tab-observations').click();await expect(page.locator('[data-field="field0"]')).toHaveValue('QA new 13-16');expect(errors).toEqual([]);
 });
+test('slow original record read survives editing the current observation',async({page})=>{
+ await resetServer(page);
+ await fixture(page,{children:[{nickname:'合成慢速记录',ageBand:'4-6',state:{records:{'1:4-6':{spoken:'QA retained original'}}}}]});
+ await loginAPI(page);await page.goto('/');await expect(page.locator('#open-safety')).toBeVisible();
+ await page.locator('#tab-observations').click();
+ const original=page.locator('[data-history-key="1:4-6:v0"]'),url='**/progress/records/1%3A4-6%3Av0/history';
+ let release;const blocked=new Promise(resolve=>{release=resolve});
+ await page.route(url,async route=>{const response=await route.fetch();await blocked;await route.fulfill({response});});
+ try{
+  await original.locator('summary').click();
+  const requested=page.waitForRequest(url,{timeout:10000});
+  await original.locator('[data-read-history]').click();
+  await requested;
+  await expect(original.locator('[data-read-history]')).toHaveAttribute('aria-busy','true');
+  const chip=page.locator('[data-choice="0"]');
+  await chip.click();
+  await expect(chip).toHaveAttribute('aria-pressed','true');
+  release();
+  await expect(original.locator('.saved-history-entry')).toContainText('QA retained original');
+  await expect(page.locator('[data-field="spoken"]')).toHaveValue('');
+  await cloudSaved(page);
+ }finally{release();}
+});
+
+test('a history snapshot changed by autosave restarts once and keeps the original record',async({page})=>{
+ await resetServer(page);await fixture(page,{children:[{nickname:'合成历史快照',ageBand:'4-6',state:{records:{'1:4-6':{spoken:'QA snapshot original'}}}}]});
+ await loginAPI(page);await page.goto('/');await expect(page.locator('#open-safety')).toBeVisible();
+ await page.locator('#tab-observations').click();
+ let requests=0,conflictsRemaining=2;
+ await page.route('**/progress/records/1%3A4-6%3Av0/history',async route=>{
+  requests++;
+  if(conflictsRemaining-->0)await route.fulfill({status:409,json:{ok:false,error:{code:'HISTORY_CHANGED',message:'保留记录已更新，请重新读取。'}}});
+  else await route.continue();
+ });
+ const original=page.locator('[data-history-key="1:4-6:v0"]');
+ await original.locator('summary').click();
+ await original.locator('[data-read-history]').click();
+ await expect(page.locator('#toast')).toContainText('保留记录已更新，请重新读取。');
+ await expect(original.locator('[data-read-history]')).toBeEnabled();
+ expect(requests).toBe(2);
+ conflictsRemaining=1;
+ await original.locator('[data-read-history]').click();
+ await expect(original.locator('.saved-history-entry')).toContainText('QA snapshot original');
+ await expect(original.locator('.saved-history-entry')).toHaveCount(1);
+ await expect(page.locator('[data-field="spoken"]')).toHaveValue('');
+ expect(requests).toBe(4);
+});
+
 for(const initialChild of ['owner','sibling'])test(`unmigrated activity stays honest and sibling isolation holds with ${initialChild} initially listed first`,async({page},info)=>{
  await resetServer(page);
  const seeded=await fixture(page,{children:[{nickname:'合成一',ageBand:'4-6',state:{protocolProgress:{'1:4-6:v1':{records:{spoken:'QA sibling secret'},step:3,viewedSteps:15,completed:true}}}},{nickname:'合成二',ageBand:'4-6'}]});

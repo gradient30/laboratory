@@ -570,7 +570,32 @@ function renderProgressHistory(){
  return `<section class="legacy-record protocol-history" aria-label="原方案与保留记录"><h5>原方案与保留记录</h5><p>每个方案保留最新记录，原始旧记录另行保留，不保存被覆盖的自动保存草稿。原方案或导入的完成记录不用于新开放活动；可在“我的家庭”完整导出。</p>${older.map(item=>`<details data-history-key="${escapeHTML(item.key)}"><summary>原方案 v${item.protocolVersion} · ${item.hasNotes?'有观察记录':'进度记录'} · ${item.completed?'已完成':'未完成'}</summary><button class="text-button" data-read-history="${escapeHTML(item.key)}">读取原方案记录</button><div class="history-content"></div></details>`).join('')}<details data-history-key="${escapeHTML(key)}"><summary>当前方案保留的记录</summary><button class="text-button" data-read-history="${escapeHTML(key)}">读取保留记录</button><div class="history-content"></div></details></section>`;
 }
 function bindProgressHistory(){
- $$('[data-read-history]').forEach(button=>{let after,through,snapshot;button.addEventListener('click',()=>action(button,async()=>{const owner=progressClient,epoch=contextEpoch,selected=progressKey(),target=button.dataset.readHistory,root=button.parentElement.querySelector('.history-content');const page=await owner.history(target,{after,through,snapshot});if(owner!==progressClient||epoch!==contextEpoch||selected!==progressKey()||!root.isConnected)return;through=page.through;snapshot=page.snapshot;after=page.nextCursor;root.insertAdjacentHTML('beforeend',page.items.length?page.items.map(item=>`<article class="saved-history-entry">${savedRecordHTML(item)}</article>`).join(''):'<p>这一方案还没有保留记录。</p>');button.hidden=after===null;button.textContent='读取更多保留记录';}))});
+ $$('[data-read-history]').forEach(button=>{
+  let after,through,snapshot;
+  button.addEventListener('click',async()=>{
+   if(button.disabled)return;
+   const owner=progressClient,epoch=contextEpoch,selected=progressKey(),target=button.dataset.readHistory,root=button.parentElement.querySelector('.history-content');
+   const current=()=>owner===progressClient&&epoch===contextEpoch&&selected===progressKey()&&root.isConnected;
+   button.disabled=true;button.setAttribute('aria-busy','true');
+   try{
+    let page;
+    try{page=await owner.history(target,{after,through,snapshot});}
+    catch(error){
+     if(!current())return;
+     if(error.code!=='HISTORY_CHANGED')throw error;
+     // Autosave can advance the child snapshot while reading a different record.
+     // Restart at page one once; never append data from a different snapshot.
+     after=through=snapshot=undefined;root.replaceChildren();button.textContent='重新读取保留记录';
+     page=await owner.history(target);
+    }
+    if(!current())return;
+    through=page.through;snapshot=page.snapshot;after=page.nextCursor;
+    root.insertAdjacentHTML('beforeend',page.items.length?page.items.map(item=>`<article class="saved-history-entry">${savedRecordHTML(item)}</article>`).join(''):'<p>这一方案还没有保留记录。</p>');
+    button.hidden=after===null;button.textContent='读取更多保留记录';
+   }catch(error){if(current())toast(error.message);}
+   finally{if(button.isConnected){button.disabled=false;button.removeAttribute('aria-busy');}}
+  });
+ });
 }
 function renderRecord(){
  const g=guide(),key=recordKey(),protocol=!!current().activeAgeProtocol,container=protocol?activeProtocolProgress(true).records:state.records;
@@ -582,7 +607,10 @@ function renderRecord(){
  if(state.age==='4-6'||Object.hasOwn(rec,'spoken'))html+=`<div class="record-fields"><label>请成人代记一句孩子的原话（可留空）<textarea data-field="spoken" maxlength="4000" placeholder="我看到……">${escapeHTML(rec.spoken||'')}</textarea></label></div>`;
  html+=`<div class="record-fields">${[...fields].map((field,i)=>{const label=labelMap.get(field)||labels[Number(/^field(\d+)$/.exec(field)?.[1])]||'原字段 '+field;return `<label>${escapeHTML(label)}<textarea data-field="${escapeHTML(field)}" maxlength="4000" placeholder="${state.age==='4-6'||state.age==='7-9'?'可请大人代记，如实描述……':'如实写下条件、结果或疑问……'}">${escapeHTML(rec[field]||'')}</textarea></label>`}).join('')}</div>`;
  $('#record-area').innerHTML=renderLegacyRecord(key)+html+renderProgressHistory();
- $$('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=getRecord();currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;save();renderRecord()}));
+ // Only update the choice controls. Rebuilding the record area drops in-flight history reads,
+ // closes opened history lists, and detaches the current observation fields.
+ const choices=$$('[data-choice]');
+ choices.forEach(btn=>btn.addEventListener('click',()=>{const currentRecord=getRecord();currentRecord.choice=currentRecord.choice===+btn.dataset.choice?null:+btn.dataset.choice;choices.forEach(chip=>chip.setAttribute('aria-pressed',String(currentRecord.choice===+chip.dataset.choice)));save()}));
  if(progressReadOnly){$$('[data-field],[data-choice]').forEach(input=>input.disabled=true);if($('#complete-day'))$('#complete-day').disabled=true;}
  $$('[data-field]').forEach(input=>input.addEventListener('input',()=>{getRecord()[input.dataset.field]=input.value;save();updateCloudStatus()}));bindProgressHistory();
 }
