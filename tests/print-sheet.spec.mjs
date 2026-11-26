@@ -70,9 +70,12 @@ for(const [age,prompt] of [['4-6',/等一样久.*5圈和20圈/],['10-12',/同一
   const opening=page.waitForEvent('popup');await page.locator('#print-experiment').click();const popup=await opening;
   await expect(popup.locator('h1')).toHaveText('轻搅和多搅后的油滴');
   await expect(popup.locator('.discovery p')).toHaveText(prompt);await expect(popup.locator('.safety')).toContainText('护目镜');
-  await expect(popup.locator('.step-art svg.science-diagram[viewBox="24 65 592 235"]')).toHaveCount(4);
+  await expect(popup.locator('.step-art svg.science-diagram')).toHaveCount(4);
+  for(const n of [2,3,4])await expect(popup.locator(`[data-a4-action="${n}"]`)).toBeVisible();
+  await expect(popup.locator('[data-a4-action="3"] text')).toContainText(['10 秒','60 秒','180 秒']);
   await expect(popup.locator('#print-now')).toBeEnabled();
   await popup.emulateMedia({media:'print'});await expect(popup.locator('.sheet')).toBeVisible();
+  for(const art of await popup.locator('.step-art > svg').all())await expect(art).toBeVisible();
   expect(await popup.locator('.discovery .lines').evaluate(el=>el.getBoundingClientRect().height)).toBeGreaterThanOrEqual(90);
   const pdf=await popup.pdf({format:'A4',preferCSSPageSize:true,displayHeaderFooter:false,scale:1});
   expect((pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length).toBe(1);
@@ -82,9 +85,9 @@ for(const [age,prompt] of [['4-6',/等一样久.*5圈和20圈/],['10-12',/同一
  });
 }
 
-for(const [day,icons] of [[9,['measure','book','measure']],[14,['cup']]]){
- test(`Day ${day} uses recognizable materials and prints on one A4 page`,async({page})=>{
-  await resetServer(page);await fixture(page,{children:[{nickname:'合成探险家',ageBand:'4-6'}]});await loginAPI(page);await page.goto('/');
+for(const [day,age,icons] of [[9,'4-6',['measure','book','measure']],[14,'4-6',['cup']],[7,'10-12',['paper']],[14,'13-16',['cup']]]){
+ test(`Day ${day} ${age} uses recognizable materials and prints on one A4 page`,async({page})=>{
+  await resetServer(page);await fixture(page,{children:[{nickname:'合成探险家',ageBand:age}]});await loginAPI(page);await page.goto('/');
   await page.locator('#navigator-handle').click();await expect(page.locator('#day-map')).toBeVisible();
   await page.locator('#map-month').selectOption('all');await page.locator('[data-filter="all"]').click();
   await page.locator('#map-search').fill(String(day));await page.locator(`#map-grid [data-day="${day}"]`).click();
@@ -96,6 +99,10 @@ for(const [day,icons] of [[9,['measure','book','measure']],[14,['cup']]]){
    const actual=await materials.locator('li svg').evaluateAll(nodes=>nodes.map(node=>node.getAttribute('data-icon')));
    expect(actual).toEqual(icons);
    await expect(materials).toContainText('厚书1本');
+  }else if(day===7){
+   const cardboard=materials.locator('li').filter({hasText:'硬纸板1张'});
+   await expect(cardboard.locator('[data-icon="paper"]')).toBeVisible();
+   await expect(cardboard).toContainText('成人裁');
   }else{
    await expect(materials.locator('.recognize [data-icon="cup"]')).toBeVisible();
    await expect(materials).toContainText('请成人按完整版的材料表准备');
@@ -105,10 +112,15 @@ for(const [day,icons] of [[9,['measure','book','measure']],[14,['cup']]]){
   await expect(popup.locator('#print-now')).toBeEnabled();
   if(test.info().project.name==='mobile-chromium')await expectPhonePreview(popup);
   await popup.emulateMedia({media:'print'});
+  await expect(materials).toBeVisible();
+  await expect(popup.locator('.safety')).toBeVisible();
+  if(day===7)await expect(materials.locator('li').filter({hasText:'硬纸板1张'}).locator('[data-icon="paper"]')).toBeVisible();
+  else for(const icon of new Set(icons))await expect(materials.locator(`[data-icon="${icon}"]`).first()).toBeVisible();
+  for(const artwork of await popup.locator('.step-art > svg').all())await expect(artwork).toBeVisible();
   const pdf=await popup.pdf({format:'A4',preferCSSPageSize:true,displayHeaderFooter:false,scale:1});
   expect((pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length).toBe(1);
   await mkdir('test-results/visual-review',{recursive:true});
-  await popup.locator('.sheet').screenshot({path:`test-results/visual-review/a4-day${day}-materials-${test.info().project.name}.png`});
+  await popup.locator('.sheet').screenshot({path:`test-results/visual-review/a4-day${day}-${age}-materials-${test.info().project.name}.png`});
   await popup.close();
  });
 }

@@ -60,10 +60,10 @@ test('illustrated card has four age-correct scenes, adult safety and space to dr
  for(const [day,age] of [[1,'4-6'],[172,'10-12'],[255,'13-16'],[365,'7-9']]){
   const e=resolveAgeProtocol(data.experiments[day-1],age),g=e.ageGuides[age];
   const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{assert.equal(args[3]?.sceneOnly,true);actual.push(args.slice(1,3));return renderActivityDiagram(...args);});
-  assert.deepEqual(actual,[[0,age],[1,age],[2,age],[3,age]]);
+  assert.deepEqual(actual,day===172?[[0,age]]:[[0,age],[1,age],[2,age],[3,age]]);
   assert.equal((html.match(/class="science-diagram"/g)||[]).length,4);
   assert.ok(html.includes(escape(e.safety)));
-  assert.equal((html.match(/viewBox="24 65 592 235"/g)||[]).length,4);
+  assert.equal((html.match(/viewBox="24 65 592 235"/g)||[]).length,day===172?1:4);
   assert.doesNotMatch(html,/分龄操作图/);
   assert.ok(html.includes('先请成人读完整版'));assert.ok(html.includes('图是示意'));
   assert.match(html,/height:24mm/);assert.match(html,/我的发现/);assert.doesNotMatch(html,/record-area|儿童姓名/);
@@ -82,10 +82,14 @@ test('Day 172 illustrated discovery preserves age-specific comparisons and full 
   const discovery=html.match(/<section class="discovery">[^]*?<p>([^<]+)<\/p>/)[1];
   assert.match(discovery,comparison);assert.ok(html.includes(escape(e.safety)));assert.match(html,/height:24mm/);
   assert.ok(ctx.render(e,g,age).includes(escape(ctx.cards['172:'+age].discovery)));
+  assert.deepEqual([...html.matchAll(/data-a4-action="(\d)"/g)].map(m=>m[1]),['2','3','4']);
+  assert.match(html,/10 秒[\s\S]*60 秒[\s\S]*180 秒/);
+  assert.match(html,/成人收废液/);
+  if(age==='10-12')assert.match(html,/1 cm · 5 圈[\s\S]*3 cm · 20 圈[\s\S]*水杯参照/);
   g.observe='新的实际观察问题？';
   assert.notEqual(ctx.sourceCheck(e,g,age),ctx.cards['172:'+age].sourceCheck);
   const revised=ctx.renderVisual(e,g,age,renderActivityDiagram);
-  assert.ok(revised.includes(g.observe));assert.ok(!revised.includes(discovery));
+  assert.ok(revised.includes(g.observe));assert.ok(!revised.includes(discovery));assert.doesNotMatch(revised,/data-a4-action/);
  }
 });
 
@@ -103,6 +107,15 @@ test('material drawings identify anchored objects without replacing original dir
    assert.ok(ctx.render(e,g,age).includes('至少200毫升的敞口透明塑料杯1个'));
   }
   assert.ok(html.includes(escape(e.safety)));
+ }
+ for(const age of ['10-12','13-16']){
+  const e=resolveAgeProtocol(data.experiments[6],age),g=e.ageGuides[age];
+  assert.match(ctx.renderVisual(e,g,age,renderActivityDiagram),/<li><svg [^>]*data-icon="paper"[^]*?<span>硬纸板1张（/);
+ }
+ for(const age of ['7-9','10-12','13-16']){
+  const e=resolveAgeProtocol(data.experiments[13],age),g=e.ageGuides[age];
+  assert.match(ctx.renderVisual(e,g,age,renderActivityDiagram),/class="recognize"><svg [^>]*data-icon="cup"/);
+  assert.ok(ctx.render(e,g,age).includes(escape(e.materials[2])));
  }
  const e=structuredClone(resolveAgeProtocol(data.experiments[8],'4-6'));
  e.materials=['不用透明塑料杯；不要以书本替代','替代品不是直尺'];
