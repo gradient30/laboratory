@@ -321,7 +321,7 @@ function renderDay172PrintScene(step,band){
     label(213,24,'同一观察时窗',20)+label(161,54,'5 圈',20)+label(263,54,'20 圈',20)+label(57,96,'1 cm',19)+label(57,167,'3 cm',19)+compare(109,62,204)+compare(109,133,204);
   a+=arrow(335,110)+round(388,35,175,155,sky)+jar(475,66)+label(475,155,'成人收废液',22)+label(475,180,'最后洗手',19);
  }
- return `<svg xmlns="http://www.w3.org/2000/svg" class="science-diagram" data-a4-action="${step+1}" viewBox="0 0 592 235" role="img" aria-label="${name}" style="display:block;max-width:100%;height:auto;font-family:system-ui,'Noto Sans CJK SC',sans-serif"><title>${name}</title>${a}</svg>`;
+ return `<svg class="science-diagram" data-a4-action="${step+1}" viewBox="0 0 592 235" role="img" aria-label="${name}" style="display:block;max-width:100%;height:auto;font-family:system-ui,'Noto Sans CJK SC',sans-serif"><title>${name}</title>${a}</svg>`;
 }
 // The illustrated card is a child-facing companion, not a substitute for the
 // age-specific procedure. Never shorten safety copy or guess measurements.
