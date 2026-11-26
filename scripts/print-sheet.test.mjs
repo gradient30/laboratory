@@ -62,10 +62,10 @@ test('illustrated card has four age-correct scenes, adult safety and space to dr
   const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{assert.equal(args[3]?.sceneOnly,true);actual.push(args.slice(1,3));return renderActivityDiagram(...args);});
   assert.deepEqual(actual,day===172?[[0,age]]:[[0,age],[1,age],[2,age],[3,age]]);
   assert.equal((html.match(/class="science-diagram"/g)||[]).length,4);
-  assert.ok(html.includes(escape(e.safety)));
+  if(day!==1)assert.ok(html.includes(escape(e.safety)));
   assert.equal((html.match(/viewBox="24 65 592 235"/g)||[]).length,day===172?1:4);
   assert.doesNotMatch(html,/分龄操作图/);
-  assert.ok(html.includes('先请成人读完整版'));assert.ok(html.includes('图是示意'));
+  assert.ok(html.includes('安全要点'));assert.ok(html.includes('图是示意'));
   assert.match(html,/height:24mm/);assert.match(html,/我的发现/);assert.doesNotMatch(html,/record-area|儿童姓名/);
   if(day===1)for(const item of e.materials)assert.ok(html.includes(escape(item)));
   if(day===172||day===255){
@@ -75,8 +75,23 @@ test('illustrated card has four age-correct scenes, adult safety and space to dr
  }
 });
 
+test('Day 1 print keeps concrete limits and stop conditions without repeating adult guidance',()=>{
+ for(const age of ['4-6','7-9','10-12','13-16']){
+  const e=structuredClone(resolveAgeProtocol(data.experiments[0],age)),g=e.ageGuides[age];
+  const safety=markup=>markup.match(/<section class="safety">[^]*?<\/section>/)[0];
+  const quick=safety(ctx.renderVisual(e,g,age,renderActivityDiagram));
+  assert.doesNotMatch(quick,/先请成人读完整版|全程近距离陪伴/);
+  assert.ok(!quick.includes(escape(g.support)));
+  assert.match(quick,age==='4-6'?/不放任何重物/:/只用纸包.*不加硬币/);
+  assert.match(quick,/不按压或固定桥头.*滑落.*书移动就停.*材料不入口.*收好剪刀/);
+  assert.ok(safety(ctx.render(e,g,age)).includes(escape(e.safety)));
+  e.safety+='新增停止条件。';
+  assert.ok(safety(ctx.renderVisual(e,g,age,renderActivityDiagram)).includes(escape(e.safety)));
+ }
+});
+
 test('Day 172 illustrated discovery preserves age-specific comparisons and full safety',()=>{
- for(const [age,comparison] of [['4-6',/等一样久.*5圈和20圈.*一样吗/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/]]){
+ for(const [age,comparison] of [['4-6',/等一样久.*5圈和20圈.*一样吗/],['7-9',/不搅、搅5圈、搅20圈/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/],['13-16',/搅10圈的B和C.*缺测或无差别/]]){
   const e=structuredClone(resolveAgeProtocol(data.experiments[171],age)),g=e.ageGuides[age];
   const html=ctx.renderVisual(e,g,age,renderActivityDiagram);
   const discovery=html.match(/<section class="discovery">[^]*?<p>([^<]+)<\/p>/)[1];
@@ -86,6 +101,11 @@ test('Day 172 illustrated discovery preserves age-specific comparisons and full 
   assert.match(html,/10 秒[\s\S]*60 秒[\s\S]*180 秒/);
   assert.match(html,/成人收废液/);
   if(age==='10-12')assert.match(html,/1 cm · 5 圈[\s\S]*3 cm · 20 圈[\s\S]*水杯参照/);
+  if(age==='7-9')assert.match(html,/C0 · 不搅[\s\S]*S5 · 5 圈[\s\S]*M20 · 20 圈[\s\S]*指定零点/);
+  if(age==='13-16'){
+   assert.match(html,/A1 → D1 → B1 → C1 → C2 → B2 → D2 → A2/);
+   assert.match(html,/B1[\s\S]*B2[\s\S]*C1[\s\S]*C2[\s\S]*同为 10 圈/);
+  }
   g.observe='新的实际观察问题？';
   assert.notEqual(ctx.sourceCheck(e,g,age),ctx.cards['172:'+age].sourceCheck);
   const revised=ctx.renderVisual(e,g,age,renderActivityDiagram);

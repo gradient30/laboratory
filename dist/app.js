@@ -293,8 +293,8 @@ const EXPERIMENT_PRINT_CARDS={"130:10-12":{"id":130,"age":"10-12","title":"分�
 // Draw only the source-matched child card. The regular experiment illustrations
 // and the full instructions are unchanged. Empty records invite actual observations.
 function renderDay172PrintScene(step,band){
- if(step<1||!['4-6','10-12'].includes(band))return '';
- const young=band==='4-6',ink='#234641',teal='#21685e',gold='#936017',sky='#e2f3f5',paper='#fffdf4';
+ if(step<1||!['4-6','7-9','10-12','13-16'].includes(band))return '';
+ const young=band==='4-6',middle=band==='7-9',teen=band==='13-16',ink='#234641',teal='#21685e',gold='#936017',sky='#e2f3f5',paper='#fffdf4';
  const round=(x,y,w,h,fill=paper)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="13" fill="${fill}" stroke="${ink}" stroke-width="3"/>`;
  const line=(d,c=ink)=>`<path d="${d}" fill="none" stroke="${c}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
  const label=(x,y,value,size=22)=>`<text x="${x}" y="${y}" text-anchor="middle" font-size="${size}" font-weight="700" fill="${ink}">${value}</text>`;
@@ -305,16 +305,36 @@ function renderDay172PrintScene(step,band){
  const arrow=(x,y)=>line(`M${x} ${y}h30m-9 -8 9 8-9 8`,teal);
  const jar=(x,y)=>round(x-27,y,54,61,sky)+round(x-31,y-10,62,14,'#c5dfd6')+line(`M${x-12} ${y+25}h24`,teal);
  let a='',name='';
- if(step===1){
+ if(step===1&&middle){
+  name='C0不插勺。同一个孩子按每秒一圈分别搅S5五圈、M20二十圈，成人扶杯。逐杯完成再轮下一杯。';
+  a=[[108,'C0 · 不搅'],[296,'S5 · 5 圈'],[484,'M20 · 20 圈']].map(([x,t],i)=>
+   round(x-74,18,148,158,i===0?sky:paper)+glass(x,72)+(i?spin(x,77,28):'')+label(x,160,t,23)).join('');
+  a+=arrow(185,99)+arrow(373,99)+label(296,214,'逐杯做 · 成人扶杯 · 每秒 1 圈',21);
+ }else if(step===1&&teen){
+  name='逐杯执行固定次序 A1、D1、B1、C1、C2、B2、D2、A2。A每2秒一圈做10秒，B每2秒一圈做20秒，C每秒一圈做10秒，D每秒一圈做20秒。每杯观察到180秒才换新杯。';
+  a=[['A','2 秒/圈','10 秒 · 5 圈'],['B','2 秒/圈','20 秒 · 10 圈'],['C','1 秒/圈','10 秒 · 10 圈'],['D','1 秒/圈','20 秒 · 20 圈']].map(([key,beat,total],i)=>{
+   const x=77+i*146;
+   return round(x-65,13,130,130,i<2?paper:sky)+label(x,50,key,30)+label(x,84,beat,23)+label(x,117,total,20);
+  }).join('');
+  a+=label(296,174,'A1 → D1 → B1 → C1 → C2 → B2 → D2 → A2',24)+label(296,214,'一杯观察完 180 秒，再换新杯',23);
+ }else if(step===1){
   name=young?'同一位成人逐杯轻搅，下一杯才改圈数。第一杯5圈，第二杯20圈。':'分别用1厘米和3厘米圆，各做5圈和20圈。清水参照单独用3厘米圆搅20圈。';
   const cases=young?[[141,28,'5 圈'],[433,28,'20 圈']]:[[63,19,'1 cm · 5 圈'],[179,19,'1 cm · 20 圈'],[295,34,'3 cm · 5 圈'],[411,34,'3 cm · 20 圈']];
   a=cases.map(([x,r,t])=>round(x-(young?92:54),18,young?184:108,161)+glass(x,74)+spin(x,81,r)+label(x,165,t,young?28:17)).join('');
   a+=young?arrow(282,102)+label(296,213,'成人轻搅 · 孩子数圈',22):round(480,18,103,161,sky)+glass(532,73)+spin(532,81,34)+label(532,155,'水杯参照',17)+label(532,173,'3 cm · 20 圈',15)+label(296,215,'逐杯做 · 每秒 1 圈',22);
  }else if(step===2){
-  name='每杯停搅后从零开始，分别在10、60、180秒的时窗观察并记录，空框不表示实验结果。';
-  a=label(54,129,'停搅',21)+label(54,155,'0 秒',22)+arrow(93,111);
+  name=middle?'搅拌杯停搅、不搅杯由成人指定各自的零点；在10、60、180秒时窗记实际观察。C0不插勺。':'每杯停搅后从零开始，分别在10、60、180秒的时窗观察并记录，空框不表示实验结果。';
+  a=(middle?label(56,100,'停搅 / C0',19)+label(56,128,'指定零点',19):label(54,129,'停搅',21))+label(54,155,'0 秒',22)+arrow(93,111);
   a+=[['10 秒',188],['60 秒',345],['180 秒',502]].map(([t,x])=>round(x-63,18,126,170)+clock(x,57)+label(x,108,t,22)+round(x-43,122,86,49,'#ffffff')).join('');
   a+=label(333,219,young?'看一看 · 画下真的看到的':'在同一观察窗记录 · 看不清也照实记',21);
+ }else if(middle||teen){
+  name=middle?'在相同观察时窗并排比C0、S5、M20三条真实记录。每杯观察完由成人回收，最后洗手。':'同一时窗把B和C的两次原始记录并列。两者均为10圈但节拍与时长不同；异常或缺测照实留记。每杯由成人回收，最后洗手。';
+  a=label(191,30,'同一观察时窗',23);
+  const cells=middle?['C0','S5','M20']:['B1','B2','C1','C2'];
+  const width=middle?87:66;
+  a+=cells.map((t,i)=>{const x=46+i*(width+8);return label(x+width/2,73,t,23)+round(x,89,width,56,'#ffffff');}).join('');
+  a+=label(190,183,middle?'分别比 · 看不清也照实记':'B / C 同为 10 圈',21);
+  a+=arrow(335,110)+round(388,35,175,155,sky)+jar(475,66)+label(475,155,'成人收废液',22)+label(475,180,'最后洗手',19);
  }else{
   name=young?'对齐相同的等待时间，再比较5圈和20圈的记录。成人回收废液，最后洗手。':'同一时窗并排比较两种圆径和两种圈数的四组记录，不把水杯当作油滴的鉴定。成人回收废液，最后洗手。';
   a=young?clock(54,118)+label(54,168,'等一样久',16)+label(151,52,'5 圈',21)+label(251,52,'20 圈',21)+compare(103,66,196):
@@ -322,6 +342,16 @@ function renderDay172PrintScene(step,band){
   a+=arrow(335,110)+round(388,35,175,155,sky)+jar(475,66)+label(475,155,'成人收废液',22)+label(475,180,'最后洗手',19);
  }
  return `<svg class="science-diagram" data-a4-action="${step+1}" viewBox="0 0 592 235" role="img" aria-label="${name}" style="display:block;max-width:100%;height:auto;font-family:system-ui,'Noto Sans CJK SC',sans-serif"><title>${name}</title>${a}</svg>`;
+}
+// Condense only reviewed variants. If a procedure changes, show its full safety text.
+function printBridgeSafety(e,g,band){
+ if(e.id!==1||printSourceCheck(e,g,band)!=={'4-6':'2049:e8935662','7-9':'2668:f854558a','10-12':'3194:e8524cd2','13-16':'3487:19131282'}[band])return null;
+ const young=band==='4-6';
+ return [
+  young?'成人剪裁、折边、搭稳书墩；在托盘内低处做。':'成人剪裁、搭稳书墩、放取纸包；在托盘内低处做。',
+  young?'不放任何重物，不按压或固定桥头。':'只用纸包，不加硬币、积木等重物；不按压或固定桥头。',
+  `纸折坏、滑落、碰托盘或书移动就停，${young?'取走纸桥':'取下纸包'}。材料不入口，收好剪刀。`,
+ ];
 }
 // The illustrated card is a child-facing companion, not a substitute for the
 // age-specific procedure. Never shorten safety copy or guess measurements.
@@ -362,12 +392,16 @@ function renderVisualPrintSheet(e,g,age,draw){
   const art=(currentCompact&&e.id===172&&renderDay172PrintScene(i,band))||draw(e,i,band,{sceneOnly:true});
   return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${art}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁'}</p></section>`;
  }).join('');
+ const bridgeSafety=printBridgeSafety(e,g,band);
  const support=g.support&&!e.safety.includes(g.support)?`<p>${h(g.support)}</p>`:'';
+ const safetyCopy=bridgeSafety?bridgeSafety.map(item=>`<p>${h(item)}</p>`).join(''):`<p>${h(e.safety)}</p>${support}`;
  const prompt=currentCompact?compact.discovery:(g.observe||e.question||'');
  // Keep the age-specific comparison; the separate record reminder stays in the full card.
  const shortDiscovery=currentCompact&&e.id===172&&({
   '4-6':'停下后等一样久。搅5圈和20圈，两杯看起来一样吗？',
+  '7-9':'等一样久：不搅、搅5圈、搅20圈，看起来有什么不同？',
   '10-12':'同一观察时窗，小圆和较大圆各搅5或20圈，外观有何差别？水杯参照提示什么？',
+  '13-16':'同一时窗，搅10圈的B和C看起来一样吗？缺测或无差别也照实记。',
  }[band]);
  const discovery=shortDiscovery||((currentCompact||prompt.length<=54)?prompt:'画下或写下你真的看到的变化。');
  return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(e.title)} · A4 看图卡</title><style>
@@ -390,7 +424,7 @@ function renderVisualPrintSheet(e,g,age,draw){
  </style></head><body><div class="toolbar"><button id="print-now" type="button" disabled>打印 / 保存为 PDF</button> <button id="switch-print" type="button">查看完整版</button> <button id="close-print" type="button">关闭</button><p id="print-fit" role="status">正在排版…</p></div>
  <p class="print-blocker">本课看图卡无法在可读字号下排入单张 A4，请切换完整版或使用网页。没有删减安全说明。</p>
  <main class="sheet"><header><p>家庭实验站 · 第 ${h(e.day)} 天 · ${h(age)}岁 · 看图卡</p><h1>${h(e.title)}</h1></header>
- <section class="safety"><h2>${icon('safety')}先请成人读完整版</h2><p>${h(e.safety)}</p>${support}</section>
+ <section class="safety"><h2>${icon('safety')}安全要点</h2>${safetyCopy}</section>
  <section class="materials"><h2>1｜准备材料</h2>${materials}</section>
  <section><h2>2｜看图跟做</h2><div class="step-grid">${steps}</div></section>
  <section class="discovery"><h2>${icon('eye')}3｜我的发现</h2><p>${h(discovery)}</p><div class="lines" aria-hidden="true"></div></section>

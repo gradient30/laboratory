@@ -9,7 +9,10 @@ test('A4 preview contains all four steps and prints without marking the experime
  await expect(popup.locator('#print-fit')).not.toHaveText('正在排版…');
  await expect(popup.locator('.step-art svg.science-diagram[role="img"]')).toHaveCount(4);
  await expect(popup.locator('.materials li svg')).toHaveCount(4);
- await expect(popup.locator('.safety')).toContainText('先请成人读完整版');
+ await expect(popup.locator('.safety')).toContainText('安全要点');
+ await expect(popup.locator('.safety')).toContainText('不放任何重物');
+ await expect(popup.locator('.safety')).toContainText('滑落、碰托盘或书移动就停');
+ await expect(popup.locator('.safety')).not.toContainText('全程近距离陪伴');
  expect(await popup.locator('.discovery .lines').evaluate(el=>el.getBoundingClientRect().height)).toBeGreaterThanOrEqual(90);
  await expect(popup.locator('#print-now')).toBeEnabled();
  if(test.info().project.name==='mobile-chromium'){
@@ -27,7 +30,7 @@ test('A4 preview contains all four steps and prints without marking the experime
  await popup.emulateMedia({media:'screen'});
  await popup.locator('#switch-print').click();
  await expect(popup.locator('#switch-print')).toHaveText('返回看图卡');
- await expect(popup.locator('#print-fit')).not.toHaveText('正在排版…');await expect(popup.locator('.step')).toHaveCount(4);await expect(popup.locator('.materials li').first()).toBeVisible();await expect(popup.locator('.safety')).toContainText('成人');
+ await expect(popup.locator('#print-fit')).not.toHaveText('正在排版…');await expect(popup.locator('.step')).toHaveCount(4);await expect(popup.locator('.materials li').first()).toBeVisible();await expect(popup.locator('.safety')).toContainText('成人全程近距离陪伴');
  if(test.info().project.name==='mobile-chromium')await expectPhonePreview(popup);
  await popup.emulateMedia({media:'print'});await expect(popup.locator('.toolbar')).toBeHidden();
  const sizes=await popup.locator('.sheet').evaluate(el=>({width:el.scrollWidth,available:el.clientWidth,font:parseFloat(el.style.getPropertyValue('--body-size')),height:el.scrollHeight,blocked:el.ownerDocument.body.classList.contains('print-overflow')}));
@@ -60,7 +63,7 @@ async function expectPhonePreview(popup){
  expect(layout.measuring).toBe(false);
 }
 
-for(const [age,prompt] of [['4-6',/等一样久.*5圈和20圈/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/]]){
+for(const [age,prompt] of [['4-6',/等一样久.*5圈和20圈/],['7-9',/不搅、搅5圈、搅20圈/],['10-12',/同一观察时窗.*小圆和较大圆.*5或20圈.*水杯参照/],['13-16',/搅10圈的B和C.*缺测或无差别/]]){
  test(`Day 172 ${age} illustrated A4 keeps the key comparison, safety and drawing space`,async({page})=>{
   await resetServer(page);await fixture(page,{children:[{nickname:'合成探险家',ageBand:age}]});await loginAPI(page);await page.goto('/');
   await page.locator('#navigator-handle').click();await expect(page.locator('#day-map')).toBeVisible();
@@ -73,6 +76,14 @@ for(const [age,prompt] of [['4-6',/等一样久.*5圈和20圈/],['10-12',/同一
   await expect(popup.locator('.step-art svg.science-diagram')).toHaveCount(4);
   for(const n of [2,3,4])await expect(popup.locator(`[data-a4-action="${n}"]`)).toBeVisible();
   await expect(popup.locator('[data-a4-action="3"] text')).toContainText(['10 秒','60 秒','180 秒']);
+  if(age==='7-9'){
+   await expect(popup.locator('[data-a4-action="2"]')).toContainText('C0 · 不搅');
+   await expect(popup.locator('[data-a4-action="3"]')).toContainText('指定零点');
+  }
+  if(age==='13-16'){
+   await expect(popup.locator('[data-a4-action="2"]')).toContainText('A1 → D1 → B1 → C1 → C2 → B2 → D2 → A2');
+   await expect(popup.locator('[data-a4-action="4"]')).toContainText('B / C 同为 10 圈');
+  }
   await expect(popup.locator('#print-now')).toBeEnabled();
   await popup.emulateMedia({media:'print'});await expect(popup.locator('.sheet')).toBeVisible();
   for(const art of await popup.locator('.step-art > svg').all())await expect(art).toBeVisible();
@@ -107,7 +118,7 @@ for(const [day,age,icons] of [[9,'4-6',['measure','book','measure']],[14,'4-6',[
    await expect(materials.locator('.recognize [data-icon="cup"]')).toBeVisible();
    await expect(materials).toContainText('请成人按完整版的材料表准备');
   }
-  await expect(popup.locator('.safety')).toContainText('先请成人读完整版');
+  await expect(popup.locator('.safety')).toContainText('安全要点');
   await expect(popup.locator('.step-art > svg[viewBox="24 65 592 235"]')).toHaveCount(4);
   await expect(popup.locator('#print-now')).toBeEnabled();
   if(test.info().project.name==='mobile-chromium')await expectPhonePreview(popup);
