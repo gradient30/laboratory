@@ -305,17 +305,26 @@ function renderVisualPrintSheet(e,g,age,draw){
   eye:'<path d="M2 16S7 8 16 8s14 8 14 8-5 8-14 8S2 16 2 16Z"/><circle cx="16" cy="16" r="4"/>',
   safety:'<path d="M16 3 30 28H2zM16 11v8m0 4v1"/>',
  };
- const icon=(name)=>`<svg aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${icons[name]}</svg>`;
- const genericIcon=value=>/^(?:同批A4复印纸|白纸|A4白纸|A3横底纸|成人预裁不透明纸挡片|记录纸)/.test(value)?'paper':/^(?:两本|书本)/.test(value)&&value.includes('书')?'book':/^(?:直尺|30厘米毫米刻度直尺|钝尺)/.test(value)?'measure':/^(?:边缘平整的大托盘|托盘|防漏防滑托盘)/.test(value)?'tray':/^(?:透明塑料杯|杯[0-9一二两]|塑料杯)/.test(value)?'cup':/^(?:计时器|计时钟)/.test(value)?'time':'list';
+ const icon=(name)=>`<svg aria-hidden="true" data-icon="${name}" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${icons[name]}</svg>`;
+ // Recognize affirmative, reviewed material phrases, never incidental mentions or prohibited substitutes.
+ const materialIcon=value=>{
+  if(/^(?:同批A4复印纸|白色A4纸|白纸|A4白纸|A3横底纸|成人预裁不透明纸挡片|记录纸)/.test(value))return 'paper';
+  if((/^(?:两本|书本)/.test(value)&&value.includes('书'))||/^稳固桌子1张；能平稳盖住桌上尺段的厚书1本/.test(value))return 'book';
+  if(/^(?:直尺|30厘米毫米刻度直尺|钝尺|30厘米柔韧、无裂痕、边缘圆滑的塑料尺|另一把毫米刻度尺)/.test(value))return 'measure';
+  if(/^(?:边缘平整的大托盘|托盘|防漏防滑托盘)/.test(value))return 'tray';
+  if(/^(?:透明塑料杯|杯[0-9一二两]|塑料杯|至少200毫升的敞口透明塑料杯1个)/.test(value))return 'cup';
+  if(/^(?:计时器|计时钟)/.test(value))return 'time';
+  return 'list';
+ };
  const dense=e.materials.length>8||e.materials.join('').length>350;
  const names={paper:'纸',book:'书',measure:'尺',tray:'托盘',cup:'杯',time:'计时器'};
- const illustrated=[...new Set(e.materials.map(genericIcon))].filter(key=>names[key]);
+ const illustrated=[...new Set(e.materials.map(materialIcon))].filter(key=>names[key]);
  const materials=dense
   ? `<div class="materials-reference">${icon('list')}<p>请成人按完整版的材料表准备。${illustrated.length?' 先认一认：':''}</p>${illustrated.map(key=>`<span class="recognize">${icon(key)}${names[key]}</span>`).join('')}</div>`
-  : `<ul>${e.materials.map(m=>`<li>${icon(genericIcon(m))}<span>${h(m)}</span></li>`).join('')}</ul>`;
+  : `<ul>${e.materials.map(m=>`<li>${icon(materialIcon(m))}<span>${h(m)}</span></li>`).join('')}</ul>`;
  const steps=e.steps.map((s,i)=>{
   const actor=g.steps?.[i]?.actor||s.actor;
-  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${draw(e,i,band)}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁'}</p></section>`;
+  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${draw(e,i,band,{sceneOnly:true})}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手 · 成人在旁',together:'亲子一起'}[actor]||'成人在旁'}</p></section>`;
  }).join('');
  const support=g.support&&!e.safety.includes(g.support)?`<p>${h(g.support)}</p>`:'';
  const compact=EXPERIMENT_PRINT_CARDS[`${e.id}:${band}`];

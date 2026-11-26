@@ -59,10 +59,12 @@ test('supplemental deduplication removes only exact repeats',()=>{
 test('illustrated card has four age-correct scenes, adult safety and space to draw',()=>{
  for(const [day,age] of [[1,'4-6'],[172,'10-12'],[255,'13-16'],[365,'7-9']]){
   const e=resolveAgeProtocol(data.experiments[day-1],age),g=e.ageGuides[age];
-  const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{actual.push(args.slice(1));return renderActivityDiagram(...args);});
+  const actual=[];const html=ctx.renderVisual(e,g,age.replace('-','–'),(...args)=>{assert.equal(args[3]?.sceneOnly,true);actual.push(args.slice(1,3));return renderActivityDiagram(...args);});
   assert.deepEqual(actual,[[0,age],[1,age],[2,age],[3,age]]);
   assert.equal((html.match(/class="science-diagram"/g)||[]).length,4);
   assert.ok(html.includes(escape(e.safety)));
+  assert.equal((html.match(/viewBox="24 65 592 235"/g)||[]).length,4);
+  assert.doesNotMatch(html,/分龄操作图/);
   assert.ok(html.includes('先请成人读完整版'));assert.ok(html.includes('图是示意'));
   assert.match(html,/height:24mm/);assert.match(html,/我的发现/);assert.doesNotMatch(html,/record-area|儿童姓名/);
   if(day===1)for(const item of e.materials)assert.ok(html.includes(escape(item)));
@@ -85,4 +87,43 @@ test('Day 172 illustrated discovery preserves age-specific comparisons and full 
   const revised=ctx.renderVisual(e,g,age,renderActivityDiagram);
   assert.ok(revised.includes(g.observe));assert.ok(!revised.includes(discovery));
  }
+});
+
+test('material drawings identify anchored objects without replacing original directions',()=>{
+ for(const [day,expected] of [[7,['paper']],[9,['measure','book','measure']],[14,['cup']]]){
+  const age='4-6',e=resolveAgeProtocol(data.experiments[day-1],age),g=e.ageGuides[age];
+  const html=ctx.renderVisual(e,g,age,renderActivityDiagram);
+  const materials=html.match(/<section class="materials">[^]*?<\/section>/)[0];
+  const icons=[...materials.matchAll(/data-icon="([^"]+)"/g)].map(m=>m[1]);
+  if(day===9)assert.deepEqual(icons,expected);
+  else for(const key of expected)assert.ok(icons.includes(key));
+  if(day!==14)for(const item of e.materials)assert.ok(materials.includes(escape(item)));
+  else{
+   assert.match(materials,/按完整版的材料表准备/);
+   assert.ok(ctx.render(e,g,age).includes('至少200毫升的敞口透明塑料杯1个'));
+  }
+  assert.ok(html.includes(escape(e.safety)));
+ }
+ const e=structuredClone(resolveAgeProtocol(data.experiments[8],'4-6'));
+ e.materials=['不用透明塑料杯；不要以书本替代','替代品不是直尺'];
+ const materials=ctx.renderVisual(e,e.ageGuides['4-6'],'4-6',renderActivityDiagram).match(/<section class="materials">[^]*?<\/section>/)[0];
+ assert.deepEqual([...materials.matchAll(/data-icon="([^"]+)"/g)].map(m=>m[1]),['list','list']);
+});
+
+test('print scenes keep exact artwork and accessibility, leaving non-duplicate and legacy framing alone',()=>{
+ const raw=data.experiments[0],e=resolveAgeProtocol(raw,'4-6');
+ const stable=svg=>svg.replace(/science-diagram-(\d+)-(\d+)-\d+/g,'science-diagram-$1-$2-serial');
+ for(let step=0;step<4;step++){
+  const web=stable(renderActivityDiagram(e,step,'4-6'));
+  const print=stable(renderActivityDiagram(e,step,'4-6',{sceneOnly:true}));
+  assert.match(web,/分龄操作图/);assert.doesNotMatch(print,/分龄操作图/);
+  assert.match(print,/viewBox="24 65 592 235"/);
+  for(const start of ['title','desc','defs'])assert.equal(print.match(new RegExp('<'+start+'[\\s\\S]*?</'+start+'>'))[0],web.match(new RegExp('<'+start+'[\\s\\S]*?</'+start+'>'))[0]);
+  const extract=s=>s.slice(s.indexOf('<g clip-path='),s.lastIndexOf('</g>')+4);
+  assert.notEqual(extract(web),'');assert.equal(extract(print),extract(web));
+ }
+ const unresolved=structuredClone(e);unresolved.steps[0].title='不同的外层标题';
+ assert.equal(stable(renderActivityDiagram(unresolved,0,'4-6',{sceneOnly:true})),stable(renderActivityDiagram(unresolved,0,'4-6')));
+ const legacy={...raw,ageProtocols:undefined};
+ assert.equal(stable(renderActivityDiagram(legacy,0,'4-6',{sceneOnly:true})),stable(renderActivityDiagram(legacy,0,'4-6')));
 });
