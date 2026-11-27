@@ -44,7 +44,7 @@ test('actual D1: record CAS conflicts, independent activities, strict idempotenc
 });
 test('actual D1: year of four ages with Chinese notes and more than 1460 retained versions is paged, complete and below row limits',async t=>{
  const h=await fixture(t);await h.call('/api/admin/users/'+h.parent.user.id+'/access',{method:'POST',auth:h.owner,body:{mode:'all'}});await h.activate();const records=Object.fromEntries(Array.from({length:4},(_,i)=>['field'+i,'中'.repeat(250)])),record={...entry(),records};let total=0;
- for(let day=1;day<=365;day++)for(const age of ages){const r=await h.save(key(day,age),record);assert.equal(r.status,200,day+':'+age+' '+JSON.stringify(r.data));total++}
+ for(let day=1;day<=365;day++)for(const age of ages){const r=await h.save(key(day,age),[259,265].includes(day)?{...record,records:{}}:record);assert.equal(r.status,200,day+':'+age+' '+JSON.stringify(r.data));total++}
  for(let n=1;n<=8;n++){const r=await h.save(`${n}:4-6:v998`,record,{importing:true});assert.equal(r.status,200,JSON.stringify(r.data));total++}
  assert.equal(total,1468);let summaryCount=0,after='',snapshot;do{const r=await h.call(h.progress+'?limit=100'+(after?'&after='+after+'&snapshot='+snapshot:''),{auth:h.parent});assert.equal(r.status,200);assert.ok(Buffer.byteLength(JSON.stringify(r.data))<55000);assert.ok(!JSON.stringify(r.data).includes('中'.repeat(20)));summaryCount+=r.data.items.length;after=r.data.nextCursor;snapshot=r.data.snapshot}while(after);assert.equal(summaryCount,total);
  let count=0,through,context,exportedBytes=0;after=0;do{const r=await h.call(h.progress+'/export?limit=4'+(after?'&after='+after+'&through='+through+'&context='+encodeURIComponent(context):''),{auth:h.parent});assert.equal(r.status,200);context=r.data.context;count+=r.data.items.length;exportedBytes+=Buffer.byteLength(JSON.stringify(r.data.items));through=r.data.through;after=r.data.nextCursor}while(after!==null);assert.equal(count,total);assert.ok(exportedBytes>4*1024*1024);assert.equal((await h.get(key(365,'13-16'))).data.record.records.field3,'中'.repeat(250));
@@ -125,4 +125,53 @@ test('actual D1: revoked attempted save cannot prune receipts, and scheduled exp
 test('actual D1: pre-activation legacy completion and imported prefixes cannot create grants carried into v2',async t=>{
  const h=await fixture(t),legacy={records:{'1:4-6':{spoken:'本页未保存草稿'}},steps:{},viewedSteps:{},completed:{'1:4-6':true},protocolProgress:{}};const initial=await h.call(h.base+'/state',{auth:h.parent}),blocked=await h.call(h.base+'/state',{method:'PUT',auth:h.parent,body:{revision:initial.data.revision,state:legacy}});assert.equal(blocked.status,428);assert.equal(blocked.data.error.code,'UPGRADE_REQUIRED');assert.match(blocked.data.error.message,/导出未保存草稿/);assert.equal((await h.call(h.base+'/state',{auth:h.parent})).data.revision,initial.data.revision);await h.activate();assert.equal((await h.call(h.progress,{auth:h.parent})).data.access.unlockedThrough,1);
  const c=await h.child(h.parent,'合成旧版导入前缀'),base='/api/children/'+c.id;await h.db.prepare('UPDATE children SET unlocked_through=2 WHERE id=?').bind(c.id).run();let state=(await h.call(base+'/state',{auth:h.parent})).data;state.state.protocolProgress={[key()]:entry('导入的旧完成',true)};const imported=await h.call(base+'/import',{method:'POST',auth:h.parent,body:{revision:state.revision,state:state.state,confirmed:true}});assert.equal(imported.status,200);assert.equal(imported.data.access.unlockedThrough,2);state=imported.data;state.state.protocolProgress[key(2)]=entry('旧页面新完成第二项',true);const prevented=await h.call(base+'/state',{method:'PUT',auth:h.parent,body:{revision:state.revision,state:state.state}});assert.equal(prevented.data.error.code,'UPGRADE_REQUIRED');const prior=(await h.call(base+'/state',{auth:h.parent})).data;assert.equal(prior.access.unlockedThrough,2);assert.equal(prior.state.protocolProgress[key(2)],undefined);await h.activate(h.parent,c.id);assert.equal((await h.call(base+'/progress',{auth:h.parent})).data.access.unlockedThrough,2);
+});
+
+for(const [day,error] of [[259,'PAPER_INTERVIEW_STATUS_ONLY'],[265,'PAPER_OBSERVERS_STATUS_ONLY']])
+test(`Day ${day} saves only status across ages, keeps existing observations, and blocks new observations via import`,async t=>{
+ const h=await fixture(t);
+ const allowed=await h.call('/api/admin/users/'+h.parent.user.id+'/access',{method:'POST',auth:h.owner,body:{mode:'all'}});
+ assert.equal(allowed.status,200);
+ const legacyKey=key(day,'4-6'),previous={records:{field2:'QA previously stored paper phrase',spoken:'QA prior quote'},step:0,viewedSteps:0,completed:false};
+ const raw=JSON.stringify({protocolProgress:{[legacyKey]:previous}});
+ await h.db.prepare('UPDATE children SET state_json=? WHERE id=?').bind(raw,h.c.id).run();
+ const readonly=await h.call(h.base+'/state',{auth:h.parent});
+ const original=readonly.data.state;
+ const attempts=[
+  {path:'/state',method:'PUT',state:{...original,records:{[day+':4-6']:{spoken:'QA new before activation'}}}},
+  {path:'/import',method:'POST',state:{records:{[day+':7-9']:{field2:'QA attempted old import'}}}},
+  {path:'/import',method:'POST',state:{legacyRecords:{[day+':13-16']:{fields:[{label:'QA new label',value:'QA new archive'}],originalRecord:{}}}}},
+  {path:'/state',method:'PUT',state:{...original,protocolProgress:{[legacyKey]:{...previous,records:{}}}}},
+ ];
+ for(const {path,method,state} of attempts){
+  const r=await h.call(h.base+path,{method,auth:h.parent,body:{revision:readonly.data.revision,confirmed:true,state}});
+  assert.equal(r.status,400,JSON.stringify(r.data));assert.equal(r.data.error.code,error);
+ }
+ const statusWrite=await h.call(h.base+'/state',{method:'PUT',auth:h.parent,body:{revision:readonly.data.revision,state:{...original,steps:{[day+':4-6']:1}}}});
+ assert.equal(statusWrite.status,200,JSON.stringify(statusWrite.data));
+ await h.activate();
+ const blank={records:{},step:2,viewedSteps:7,completed:true};
+ for(const age of ages){
+  const id=key(day,age),before=(await h.get(id)).data;
+  for(const field of ['field2','spoken','feeling','mood','choice']){
+   const bad=await h.save(id,{...blank,records:{...before.record.records,[field]:field==='choice'?1:'QA new text'}});
+   assert.equal(bad.data.error.code,error,JSON.stringify(bad.data));
+  }
+  const rejectedImport=await h.save(id,{...blank,records:{field0:'QA imported text'}},{importing:true});
+  assert.equal(rejectedImport.data.error.code,error);
+  const rejectedArchive=await h.save(id,{...blank,legacyRecord:{fields:[{label:'QA archive',value:'QA new note'}],originalRecord:{}}},{importing:true});
+  assert.equal(rejectedArchive.data.error.code,error);
+  const result=await h.save(id,{...blank,records:before.record.records});assert.equal(result.status,200,JSON.stringify(result.data));
+  const record=(await h.get(id)).data.record;assert.deepEqual(record.records,before.record.records);assert.equal(record.completed,true);
+  const imported=await h.save(id,blank,{revision:1,importing:true});assert.equal(imported.status,200,JSON.stringify(imported.data));
+  assert.deepEqual((await h.get(id)).data.record.records,before.record.records);
+ }
+ const history=await h.call(h.progress+'/records/'+legacyKey+'/history',{auth:h.parent});
+ assert.deepEqual(history.data.items.find(x=>x.revision===0).record,previous);
+ const historical=day+':4-6:v998';
+ assert.equal((await h.save(historical,entry('QA historical import text'),{importing:true})).data.error.code,error);
+ const injectedSchema={fields:[{key:'field0',label:'QA attempted data inside label'}]};
+ assert.equal((await h.save(historical,blank,{importing:true,schema:injectedSchema})).data.error.code,'IMPORT_SCHEMA_CONFLICT');
+ assert.equal((await h.save(historical,blank,{importing:true})).status,200);
+ assert.equal((await h.save(key(day-1),entry('QA neighboring activity still saves'))).status,200);
 });

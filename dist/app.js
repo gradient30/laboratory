@@ -176,8 +176,8 @@ function bindPaperResources(){
    const papers=result.papers;
    if(papers===null){root.textContent='当前方案尚无已确认绑定的在线纸样。请按材料说明准备，不用其他年龄或旧方案代替。';loaded=true;button.hidden=true;return;}
    if(papers.day!==day||papers.age!==age||!Array.isArray(papers.pages)||papers.pages.some(p=>!/^[a-f0-9]{64}\.(svg|pdf)$/.test(p.id)))throw new Error('纸样清单不完整，请重新读取活动。');
-   const rows=papers.pages.map(p=>{const href=base+'/'+p.id+'?'+query;return `<li><div><strong>${escapeHTML(p.title)}</strong><small>${p.optional?'可选 / 成人选读 · ':''}${p.pageCount}页${p.copies>1?' × '+p.copies+'份':''} · ${p.shared?'本题多龄共用（本龄适用）':'本龄选用'} · ${p.type==='application/pdf'?'PDF':'SVG原尺寸纸页'}</small>${p.usage?`<small>${escapeHTML(p.usage)}</small>`:''}</div><div class="paper-links"><a href="${escapeHTML(href)}" target="_blank" rel="noopener noreferrer">打开</a><a href="${escapeHTML(href+'&download=1')}" download="${escapeHTML(p.filename)}">下载</a></div></li>`;}).join('');
-   root.innerHTML=`<p><strong>${escapeHTML(age)}岁 · 方案v${papers.version} · ${papers.pages.length}份文件 · ${papers.printMode==='choose-one'?'二选一打印':papers.pages.filter(p=>!p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页本龄资料 + '+papers.pages.filter(p=>p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页可选成人核验（含重复份数）'}</strong></p><p>${escapeHTML(papers.printInstruction)}</p>${papers.pages.some(p=>p.optional)?'<p>可选成人核验页不必全部打印，按本龄步骤需要选读。</p>':''}${papers.coverage!=='complete'?'<p class="paper-notice">当前仅提供本龄已核对的纸样；未列出的参考页不供本龄使用，不代表整套原稿。</p>':''}${(papers.unprovided||[]).map(p=>`<p class="paper-notice"><strong>暂未提供：${escapeHTML(p.names)}</strong> ${escapeHTML(p.reason)}</p>`).join('')}<details><summary>准备说明与份数</summary><p class="paper-preparation">${escapeHTML(papers.preparation)}</p></details><p class="paper-notice">共用的是空白母版，不是其他年龄的填写结果。参考页请按课程要求完成后再看；原稿静态核查不等于实体打印或儿童试用验收。</p><ul>${rows}</ul>`;
+   const rows=papers.pages.map(p=>{const href=base+'/'+p.id+'?'+query;return `<li><div><strong>${escapeHTML(p.title)}</strong><small>${p.optional?'可选 · ':''}${p.pageCount}页${p.copies>1?' × '+p.copies+'份':''} · ${p.shared?'本题多龄共用（本龄适用）':'本龄选用'} · ${p.type==='application/pdf'?'PDF':'SVG原尺寸纸页'}</small>${p.usage?`<small>${escapeHTML(p.usage)}</small>`:''}</div><div class="paper-links"><a href="${escapeHTML(href)}" target="_blank" rel="noopener noreferrer">打开</a><a href="${escapeHTML(href+'&download=1')}" download="${escapeHTML(p.filename)}">下载</a></div></li>`;}).join('');
+   root.innerHTML=`<p><strong>${escapeHTML(age)}岁 · 方案v${papers.version} · ${papers.pages.length}份文件 · ${papers.printMode==='choose-one'?'二选一打印':papers.pages.filter(p=>!p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页本龄资料 + '+papers.pages.filter(p=>p.optional).reduce((n,p)=>n+p.pageCount*p.copies,0)+'页可选资料（含重复份数）'}</strong></p><p>${escapeHTML(papers.printInstruction)}</p>${papers.pages.some(p=>p.optional)?'<p>可选页不必全部打印，按本龄说明选用。</p>':''}${papers.coverage!=='complete'?'<p class="paper-notice">当前仅提供本龄已核对的纸样；未列出的参考页不供本龄使用，不代表整套原稿。</p>':''}${(papers.unprovided||[]).map(p=>`<p class="paper-notice"><strong>暂未提供：${escapeHTML(p.names)}</strong> ${escapeHTML(p.reason)}</p>`).join('')}<details><summary>准备说明与份数</summary><p class="paper-preparation">${escapeHTML(papers.preparation)}</p></details><p class="paper-notice">共用的是空白母版，不是其他年龄的填写结果。参考页请按课程要求完成后再看；原稿静态核查不等于实体打印或儿童试用验收。</p><ul>${rows}</ul>`;
    loaded=true;button.hidden=true;
   }catch(error){if(isCurrent()){root.textContent=error.message||'纸样读取失败，请重试。';button.textContent='重新读取纸样';}}
   finally{pending=false;if(isCurrent()){button.disabled=false;button.removeAttribute('aria-busy');}}
@@ -185,7 +185,7 @@ function bindPaperResources(){
 }
 
 function renderExperiment(){
- const e=current();if(!e||!e.ageGuides){if(e?.locked)renderLockedActivity(e);else renderDetailUnavailable(e);return}if(e.locked){renderLockedActivity(e);return}if(loadingRecord||loadedRecordKey!==progressKey()){renderProgressLoading();return}restorePreparation();const g=guide(),a=ages[state.age],done=!!currentProgress('completed');
+ const e=current();if(!e||!e.ageGuides){if(e?.locked)renderLockedActivity(e);else renderDetailUnavailable(e);return}if(e.locked){renderLockedActivity(e);return}if(loadingRecord||loadedRecordKey!==progressKey()){renderProgressLoading();return}restorePreparation();const g=guide(),a=ages[state.age],done=!!currentProgress('completed'),paperNote=paperOnlyRecordNote(e.id);
  $('#day-number').textContent=`第 ${monthForDay(e.id)} 月 · DAY ${e.day} / ${totalDays}`;
  $('#today-btn').textContent=`今日推荐 · DAY ${String(recommendation()).padStart(2,'0')}`;
  $('#day-prev').disabled=state.day===1;$('#day-next').disabled=state.day===totalDays;
@@ -196,7 +196,7 @@ function renderExperiment(){
  <section class="materials-section" aria-label="准备材料"><p class="protocol-status" role="note">${e.activeAgeProtocol?'本年龄独立方案 · 候选核查中；旧记录在“记录发现”保留。':'当前为原有分龄引导；独立材料、操作和图示方案仍在补齐。'}</p><h4 class="minor-heading">01 / 把材料摆好 <span>先用家里现成的，不必一次买齐</span></h4><div class="materials">${e.materials.map(m=>`<div class="material"><span class="material-icon">${materialIcon(m)}</span><span>${escapeHTML(m)}</span></div>`).join('')}</div>${renderPaperPanel()}</section>
  <section class="safety-box" aria-labelledby="safety-title"><div class="safety-title"><b id="safety-title"><span aria-hidden="true">◇</span> 开始前，请大人一起确认</b><small>安全不会随年龄降低</small></div><div class="safety-specific"><p><strong>今天特别留意：</strong>${escapeHTML(e.safety)}</p><p>${state.age==='4-6'?'4–6岁：成人全程在触手可及处；小件、剪切与指定准备步骤由成人完成。':state.age==='7-9'?'7–9岁：成人协助摆好两组；剪切、预处理及指定小件由成人负责。':'成人需知情并能及时介入；工具、热水预处理与当天指定成人步骤不能自行省略陪护。'}</p><p>使用纸张时注意纸边；接触材料后不揉眼，操作结束后洗手并收好材料。</p><p>孩子疲倦、不适或不愿继续时，可随时停下；成人仍按本页要求照看材料和安全收尾，不延长停止、留样或清理上限。</p></div><div class="checks"><label><input type="checkbox" data-check="0" ${checks[0]?'checked':''}>${state.age==='4-6'?'我（成人）会全程近距离陪同，并负责今天的成人步骤。':'成人已了解今天的活动、能及时介入，并会完成指定成人步骤。'}</label><label><input type="checkbox" data-check="1" ${checks[1]?'checked':''}>已核对当天材料、用量与安全提醒，选择稳定位置，液体远离插座。</label><label><input type="checkbox" data-check="2" ${checks[2]?'checked':''}>实验材料不入口、不凑近闻；小件远离口鼻，结束后洗手并收好。</label></div><div class="prep-actions"><button id="begin" class="button primary" ${checks.every(Boolean)?'':'disabled'}>准备好了，开始探索 <span aria-hidden="true">→</span></button><button id="preview-steps" class="text-button">仅查看图示，暂不动手</button></div><p id="gate-status" class="gate-status">${gate==='ready'?'✓ 已确认准备；过程中仍需持续判断安全。':gate==='preview'?'当前为图示预览；真正动手前仍需成人完成上方确认。':'完成三项准备确认后，再按步骤动手；也可以先预览图示。'}</p></section>
  <section class="procedure" id="procedure" aria-labelledby="procedure-title"><div class="procedure-header"><h4 class="minor-heading" id="procedure-title">02 / 跟着图，一步一步来</h4><span id="view-state" class="view-state"></span></div><div class="age-method">${g.support?`<p class="age-support"><strong>支持与安全提醒：</strong>${escapeHTML(g.support)}</p>`:''}${g.control?`<p class="age-control-note"><strong>比较条件／证据要求：</strong>${escapeHTML(g.control)}</p>`:''}${g.time?`<p>${escapeHTML(g.time)}</p>`:''}</div><div class="flow" aria-label="四步操作流程">${e.steps.map((step,i)=>`<button class="flow-button" data-step="${i}" aria-label="第${i+1}步：${escapeHTML(step.title)}"><span class="flow-number">${i+1}</span><span class="flow-text">${escapeHTML(step.title)}</span><span class="flow-status">○ 未查看</span></button>`).join('')}</div><div id="step-stage" class="step-stage" tabindex="-1" aria-label="当前步骤"></div><div class="step-controls"><button id="step-prev" class="button outline">← 上一步</button><span id="step-counter" class="step-counter"></span><button id="step-next" class="button primary">下一步 →</button></div><div id="locked-message" class="locked-message">先请成人完成安全准备，或选择“仅查看图示”。</div></section>
- <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${a.recordTitle}</h4><p>${a.recordIntro}</p><div id="record-area"></div><p class="record-note">不填写姓名、生日、住址、联系方式、证件信息或私人访谈，不上传儿童照片，仅记录实验现象。<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
+ <section class="discovery-bottom" id="observations"><h4 class="minor-heading">03 / 把发现留下来 <span>先讲现象，再找解释</span></h4><div class="observe-grid"><div class="observe-prompt"><h4>你注意到了什么？</h4><p>${escapeHTML(g.observe||e.question)}</p><details><summary>观察以后，再看现象提示</summary><div class="observation-answer">${escapeHTML(e.observations)}<p style="margin:10px 0 0">${escapeHTML(e.explanation)}</p><p style="font-size:10px;margin:10px 0 0">你的结果不同，也请保留它。先检查条件，不自行加热或增加用量。</p></div></details><div class="child-task" style="margin-top:17px"><strong>${a.label}岁 / 今天的探索任务</strong>${escapeHTML(g.goal||e.ageTasks[state.age])}</div></div><div class="observe-prompt"><h4>${paperNote?'只标记完成':a.recordTitle}</h4><p>${paperNote?.cue||a.recordIntro}</p><div id="record-area"></div><p class="record-note">${paperNote?.fallback||'不填写姓名、生日、住址、联系方式、证件信息或私人访谈，不上传儿童照片，仅记录实验现象。'}<span id="save-status">${escapeHTML(cloudStatusText())}</span></p></div></div>
  ${renderInquiry(e)}
  <details class="extension"><summary><span class="extension-tag">可选 +1</span>${escapeHTML(e.extension.title||'再试一个小变化')}<span></span></summary><div><p>今天还有兴趣和精力，再选这一个就够了。也可以留给另一天。</p>${e.extension.ageNote?`<p class="extension-age-note"><strong>分龄参与：</strong>${escapeHTML(e.extension.ageNote)}</p>`:''}<div class="mini-flow">${extensionNodes(e).map((node,i)=>`<div class="mini-node"><b><span>${i+1}</span>${['先商量',e.activeAgeProtocol?'纸上想一想':'再试试','说发现'][i]}</b><p>${escapeHTML(node)}</p></div>`).join('')}</div><p class="mini-note">成人提醒：${escapeHTML(e.extension.safety||e.safety)}</p></div></details>
  <div class="finish-row"><button id="complete-day" class="button ${done?'outline':'primary'}" aria-pressed="${done}">${done?'✓ 已自行标记探索完成':'已实际探索，标记完成'} <span aria-hidden="true">✦</span></button><p>看完步骤不等于做过实验。实际探索后再自行标记；无需完成延伸或得到“标准结果”。<br>引导已按孩子的档案年龄准备，旧记录仍会保留。</p></div></section>
@@ -278,6 +278,13 @@ function renderExperimentPrintSheet(e,g,age){
  @page{size:A4 portrait;margin:8mm}*{box-sizing:border-box}body{margin:0;background:#eceeea;color:#17251e;font-family:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif}.toolbar{padding:14px;text-align:center;background:#fff;border-bottom:1px solid #bbb}.toolbar button{font:inherit;padding:8px 16px;cursor:pointer}.toolbar p{margin:8px 0 0;font-size:14px}.sheet{--body-size:11pt;width:194mm;margin:12px auto;padding:0;background:white;font-size:var(--body-size);line-height:1.08;overflow-wrap:anywhere}h1{font-size:15pt;line-height:1.08;margin:0 0 1mm}h2{font-size:1.03em;margin:0 0 .7mm}p{margin:.25mm 0}small,.meta{font-size:1em;font-weight:normal}.meta{padding-bottom:1mm;border-bottom:2px solid #243f31}.safety{border:1.4px solid #344b3c;padding:1mm;margin:1mm 0}.safety b{font-weight:800}.materials{margin:1mm 0}.materials ul{list-style:none;padding:0;margin:.7mm 0}.materials li{display:inline}.materials li::before{content:'□ ';font-weight:bold}.materials li::after{content:'； '}.step{border-top:1px solid #aab5ac;padding:.5mm 0;break-inside:avoid}.discovery{border-top:2px solid #243f31;padding-top:1.5mm;break-inside:avoid}.lines{height:12mm;border-bottom:1px solid #aab5ac}footer{font-size:9pt;margin-top:1mm;border-top:1px solid #aab5ac;padding-top:1mm}.print-blocker{display:none}@media print{body{background:white}.toolbar{display:none}.sheet{width:194mm;margin:0}h1,h2{break-after:avoid}body.print-overflow .sheet{display:none}body.print-overflow .print-blocker{display:block;font-size:12pt}}
  </style></head><body><div class="toolbar"><button id="print-now" type="button" disabled>打印 / 保存为 PDF</button> <button id="close-print" type="button">关闭</button><p id="print-fit" role="status">正在排版…</p></div><p class="print-blocker">本课内容暂不能安全排入单张 A4。没有删减安全信息，也没有打印不完整操作单。请返回网页查看完整步骤。</p><main class="sheet"><h1>${h(e.title)}</h1><div class="meta">家庭实验站 · 第 ${h(e.day)} 项 · ${h(age)}岁 · ${h(e.duration)}${e.wait?' · 等待：'+h(e.wait):''}</div><p><b>探索问题：</b>${h(e.question)}</p><section class="safety"><h2>安全重点 · 开始前成人确认</h2><p><b>${h(e.safety)}</b></p>${paragraph('本年龄支持：',g.support)}</section><section class="materials"><h2>01 / 材料 · 核对用量</h2><ul>${e.materials.map(m=>`<li>${h(m)}</li>`).join('')}</ul></section><h2>02 / 操作步骤 · 按顺序完成</h2>${unique('比较条件：',g.control)}${g.time!==e.duration?paragraph('时间安排：',g.time):''}${steps}<section class="discovery"><h2>03 / 我的发现 · 先记现象，再作解释</h2>${paragraph('',g.observe||e.question)}<p>我观察到：　　　　　　　　　　　我还想知道：</p><div class="lines"></div></section><footer>操作图、原尺寸纸样及详细解释请看网页。只记录实验现象，不填儿童姓名等个人信息。 · labs.996fb.cn</footer></main></body></html>`;
 }
+function paperOnlyRecordNote(day){return day===259?{
+ cue:'访谈只写纸上 · 网页只标记完成',
+ fallback:'对方不愿意，可以改做课内的虚构练习。是否保留纸记，由受访者决定。',
+}:day===265?{
+ cue:'两人的原始清单留在纸上 · 网页只标记完成',
+ fallback:'只用 X/Y，不记姓名。没有第二位自愿观察者，可以做虚构练习，不当成真实双人记录。',
+}:null}
 function printSourceCheck(e,g,age){
  const value=JSON.stringify({id:e.id,age,title:e.title,duration:e.duration,question:e.question,wait:e.wait,materials:e.materials,safety:e.safety,steps:e.steps,guide:g});let hash=2166136261;
  for(let i=0;i<value.length;i++)hash=Math.imul(hash^value.charCodeAt(i),16777619)>>>0;
@@ -299,7 +306,7 @@ function renderDay172PrintScene(step,band){
  const line=(d,c=ink)=>`<path d="${d}" fill="none" stroke="${c}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
  const label=(x,y,value,size=22)=>`<text x="${x}" y="${y}" text-anchor="middle" font-size="${size}" font-weight="700" fill="${ink}">${value}</text>`;
  const glass=(x,y)=>`<g transform="translate(${x} ${y})">${line('M-40 0 L-32 64 Q0 75 32 64 L40 0')}${'<ellipse rx="40" ry="8" fill="#eff9f8" stroke="#234641" stroke-width="3"/>'}${line('M-26 16v36',teal)}</g>`;
- const spin=(x,y,r)=>`<g transform="translate(${x} ${y})">${line('M-3 13 L28 -37',teal)}<ellipse cx="-6" cy="19" rx="8" ry="15" transform="rotate(30 -6 19)" fill="${sky}" stroke="${teal}" stroke-width="3"/>${line(`M ${r} 0 A ${r} 19 0 1 1 ${r-5} -8 l-6 -4 m6 4 l2 -8`,gold)}</g>`;
+ const spin=(x,y,r,stroke=gold)=>`<g transform="translate(${x} ${y})">${line('M-3 13 L28 -37',teal)}<ellipse cx="-6" cy="19" rx="8" ry="15" transform="rotate(30 -6 19)" fill="${sky}" stroke="${teal}" stroke-width="3"/>${line(`M ${r} 0 A ${r} 19 0 1 1 ${r-5} -8 l-6 -4 m6 4 l2 -8`,stroke)}</g>`;
  const clock=(x,y)=>`<g transform="translate(${x} ${y})"><circle r="24" fill="${sky}" stroke="${teal}" stroke-width="4"/>${line('M0 -14V0l12 6',teal)}</g>`;
  const compare=(x,y,w)=>round(x,y,w,61)+line(`M${x+w/2} ${y+7}v47`)+line(`M${x+12} ${y+48}h${w/2-24} m24 0 h${w/2-24}`,'#b2c8c4');
  const arrow=(x,y)=>line(`M${x} ${y}h30m-9 -8 9 8-9 8`,teal);
@@ -321,7 +328,7 @@ function renderDay172PrintScene(step,band){
   name=young?'同一位成人逐杯轻搅，下一杯才改圈数。第一杯5圈，第二杯20圈。':'分别用1厘米和3厘米圆，各做5圈和20圈。清水参照单独用3厘米圆搅20圈。';
   const cases=young?[[141,28,'5 圈'],[433,28,'20 圈']]:[[63,19,'1 cm · 5 圈'],[179,19,'1 cm · 20 圈'],[295,34,'3 cm · 5 圈'],[411,34,'3 cm · 20 圈']];
   a=cases.map(([x,r,t])=>round(x-(young?92:54),18,young?184:108,161)+glass(x,74)+spin(x,81,r)+label(x,165,t,young?28:17)).join('');
-  a+=young?arrow(282,102)+label(296,213,'成人轻搅 · 孩子数圈',22):round(480,18,103,161,sky)+glass(532,73)+spin(532,81,34)+label(532,155,'水杯参照',17)+label(532,173,'3 cm · 20 圈',15)+label(296,215,'逐杯做 · 每秒 1 圈',22);
+  a+=young?arrow(282,102)+label(296,213,'成人轻搅 · 孩子数圈',22):'<g data-a4-water-only>' + round(480,18,103,161,sky)+glass(532,73)+spin(532,81,34,'#246683')+label(532,155,'W · 纯水',17)+label(532,173,'3 cm · 20 圈',15)+'</g>'+label(296,215,'逐杯做 · 每秒 1 圈',22);
  }else if(step===2){
   name=middle?'搅拌杯停搅、不搅杯由成人指定各自的零点；在10、60、180秒时窗记实际观察。C0不插勺。':'每杯停搅后从零开始，分别在10、60、180秒的时窗观察并记录，空框不表示实验结果。';
   a=(middle?label(56,100,'停搅 / C0',19)+label(56,128,'指定零点',19):label(54,129,'停搅',21))+label(54,155,'0 秒',22)+arrow(93,111);
@@ -375,7 +382,9 @@ const PRINT_SUPPORT_CLAUSES=new Map([
 function printVisualSafety(e,g,band){
  const bridge=printBridgeSafety(e,g,band);
  if(bridge)return bridge;
- const safety=e.safety.replace(/[^。！？\n]+[。！？]?/g,part=>PRINT_SAFETY_SENTENCES.get(part)??part);
+ const drySaltSugar=e.id===307&&PRINT_DAY307_SETUP_PINS[band]===printSourceCheck(e,g,band);
+ const safety=(drySaltSugar?e.safety.replace('成人处理小样和水滴','成人处理干样'):e.safety)
+  .replace(/[^。！？\n]+[。！？]?/g,part=>PRINT_SAFETY_SENTENCES.get(part)??part);
  if(!g.support)return [safety];
  const sentences=value=>(value.match(/[^。！？\n]+[。！？]?/g)||[]).map(part=>part.trim());
  const repeated=new Set(sentences(e.safety));
@@ -389,6 +398,228 @@ function printVisualSafety(e,g,band){
  }).join('').trim().replace(/；$/,'。');
  return reduced?[safety,reduced]:[safety];
 }
+// Source-pinned icons for reviewed dense inventories. Always render authored text.
+const PRINT_MATERIAL_PILOTS={
+ "5:7-9":["3039:ff6ca6c3",["leaf","filter","cup","bottle","cup","goggles","measure","paper","drop","spoon"]],
+ "5:10-12":["3104:7ebb2c46",["leaf","filter","cup","bottle","cup","goggles","paper","drop","measure","spoon"]],
+ "5:13-16":["3576:2cbfd271",["leaf","filter","cup","bottle","cup","measure","time","goggles","spoon","paper","spoon"]],
+ "14:4-6":["2580:8ec0ceca",["bottle","spoon","cup","drop","goggles","tray","spoon","measure","time"]],
+ "14:7-9":["2702:4d947aab",["bottle","spoon","cup","drop","goggles","tray","spoon","measure","time"]],
+ "14:10-12":["3014:f925a448",["bottle","spoon","cup","spoon","drop","goggles","tray","spoon","measure","time"]],
+ "14:13-16":["3622:ee4b00ed",["bottle","spoon","cup","spoon","drop","goggles","tray","spoon","measure","time"]],
+};
+// Reviewed Day 228 preparation summary for the two younger bands only.
+// Keep all safety copy; refer to the web card for exact setup and formulas.
+const PRINT_DAY228_SETUP_PINS={"4-6":"4753:15134cbe","7-9":"4864:4a6c4903"};
+const PRINT_DAY228_PREP=[
+ ['list','空杯、量匙、记录纸先贴耐水标签。成人核对全名、配方、日期和“实验用，勿饮用”，才开始配液。每次加液记物名、量、时刻；保留原名。'],
+ ['tray','干区：A4记录纸、A5标签表。湿区：白底托盘、成人配液盘；清理区分开。I/W/V各用同名5毫升量匙，每个试验杯各用一把搅拌匙，不串杯、不回倒。'],
+ ['measure','备相同透明塑料试验杯（≥60毫升）、塑料配液杯、碗、细筛、量杯、1克分度秤、计时器；备红甘蓝、常温饮用水、食用白醋。具体配方、器具尺寸和摆位照网页版。'],
+];
+const PRINT_DAY228_AGE_CUPS={
+ '4-6':'两空杯：清水W＋圆形、稀释白醋V＋方形。每杯5毫升样品＋5毫升I指示液，共10毫升；图形不替代全名。',
+ '7-9':'四空杯：清水W1/W2、稀释白醋V1/V2。每杯5毫升样品＋5毫升I指示液。左至右W1/V1/W2/V2；T仅供成人换位，位置不当杯号。',
+};
+// Family setup aid, not a substitute for the source dimensions and assembly.
+const PRINT_DAY136_SETUP_PINS={"4-6":"4761:7fb65d99","7-9":"5149:e64d0474","10-12":"5400:efaf0103","13-16":"5633:68be8ae5"};
+const PRINT_DAY136_PREP=[
+ ['car','一辆完整自由滚轮玩具车，长8–10厘米；不用回力车或电动车，不加重。P点由成人画在前轴旁。'],
+ ['ramp','在平地搭围挡长托盘（内长≥160、内宽≥36、挡边≥10厘米）；40×14厘米坡板全宽托稳，坡高只有3或6厘米。末端固定毛巾。'],
+ ['tray','平铺棉布≥28×110厘米；B到E过渡平顺，E端与铺面齐平，E后留90厘米测量区。备钝头毫米尺、卷尺、纸笔、计时器。支架、连接片和摆位照网页版。'],
+];
+const PRINT_DAY136_AGE_ROWS={
+ '4-6':'两张A5高／矮坡图卡，一张A4停区卡；成人在跑道外标E后30厘米，不放小标记。孩子指前段、后段、线边或没到出口。',
+ '7-9':'侧面纸尺以E为0，终点90厘米。六行表顺序3/6/6/3/3/6，记P读数、是否全车过E和异常。',
+ '10-12':'A4硬纸读高卡固定在坡外；P的静放和待放高度都从同一铺面量。两张大卡记H3/H6的R线，再备侧尺和六行匹配表。',
+ '13-16':'A棉布；B低绒毛毡（≥28×110厘米、厚≤2毫米），不叠铺。A3/A6/B3/B6各记三次；换面重调H和b、不移B/E，另备计算纸。',
+};
+const PRINT_DAY73_SETUP_PINS={"4-6":"4461:d782ada7","7-9":"4682:100d456","10-12":"4835:8a7b53b5","13-16":"5362:2afabc40"};
+const PRINT_DAY73_PREP=[
+ ['box','轻硬纸盒1个（外高14–15厘米、内净高＞13.5厘米）。完整长方体橡皮1块（20–50克），仅成人固定；闭盒实称≤120克。'],
+ ['ramp','30×22厘米硬板、≥45×35厘米硬底托盘平放地面；低端用柔性胶带铰接，毛巾只护接、不垫在板下。'],
+ ['measure','备1克或更细分度秤、毫米尺、计时器、记录纸、笔和胶带。高度从盒内底量；盒底尺寸、配重间隙和固定方法照网页版。'],
+];
+const PRINT_DAY73_AGE_ROWS={
+ '4-6':'成人只把橡皮中心装在2或12厘米处；板只抬2厘米，不找倾倒点。',
+ '7-9':'橡皮中心只装2或12厘米；纸笔记低／高首次动作出现的1厘米区间。',
+ '10-12':'橡皮中心装2、7或12厘米；另加一张记录纸，记六次。仍用同一块橡皮，不加垫块。',
+ '13-16':'两张8×4厘米方向卡U／D；闭盒平转180°，不换底。加两张表记四条件各两次；不加第二块配重。',
+};
+// The 10–12 card stages the reveal: never put catalog answers in its print inventory.
+const PRINT_DAY203_SETUP_PINS={"10-12":"3722:99eaa3b1","13-16":"4309:9d988133"};
+const PRINT_DAY203_PREP=[
+ ['photo','馆藏照 2003-19574 ×1：A4横印，24×19厘米框内等比放全图；不裁、不拉伸，背面记出处。打不开或印不清，记未实施。'],
+ ['list','A4档案字段抄件 ×1；馆藏入口、图框位置和字段抄法照网页版。'],
+];
+const PRINT_DAY203_AGE_ROWS={
+ '10-12':'A4遮罩 ×1（开窗12×8厘米）、字段盖纸 ×1、C／F／M记录纸各1张。先盖字段，依次看局部、全图、全图＋字段；窗位照网页版，不移动照片。',
+ '13-16':'备A3四行时间轴、20×5厘米大纸条4张、A4六字段证据表、钝尺、铅笔、计算器。对象／照片／扫描／上传分行；未列日期不落点。刻度照网页版。',
+};
+// Preparation for dry observation; optional optical aid stays adult-only.
+const PRINT_DAY307_SETUP_PINS={"4-6":"3023:f68690c7","7-9":"3056:571f7ee8","10-12":"3227:4f620c54","13-16":"3458:28bf86e8"};
+const PRINT_DAY307_PREP=[
+ ['bottle','有原标签的食盐、白砂糖各1份，不用糖粉。每种最多约1毫升干颗粒；两把干燥5毫升量勺分开用，仅成人取放。只做干样观察，不加水。'],
+ ['dishes','托盘×1、浅碟×2。碟沿分别贴“食盐｜仅观察，不入口”“白糖｜仅观察，不入口”，原包装盖好放各自碟后。'],
+ ['paper','A4白纸×2、铅笔×1、计时器×1（只提醒时长）。湿纸巾×2和垃圾容器×1，仅成人清理用。放大镜可不备，使用限制照安全要点。'],
+];
+const PRINT_DAY307_AGE_ROWS={
+ '4-6':'纸①画看到的，也可指或说。纸②分“标签告诉我／眼睛看到／还不知道”。看不清就照实记。',
+ '7-9':'纸①对比两碟的颜色、粗细、轮廓，先留空。纸②记相同、不同和不能断定的事，区分标签与外观。',
+ '10-12':'纸①记光照、位置和是否用镜；同两碟看两次，分别记颜色、粗细、轮廓。纸②保留一致、改口或看不清，追问原因。',
+ '13-16':'纸①分“实际观察”和“假设数据”，假设输入到第2步才抄，不能写进观察区。纸②留两个候选集、证据来源和仅在纸上设计的比较。',
+};
+// The exercise, unlike the on-screen explanation, does not reveal either candidate set.
+function renderDay307PrintAudit(){
+ return `<svg class="science-diagram" viewBox="0 0 592 235" width="592" height="235" role="img" aria-labelledby="d307-print-audit" style="font-family:system-ui,sans-serif">
+  <title id="d307-print-audit">审计假设数据：分别圈出只符合白色、以及同时符合白色和颗粒粗的候选。再比较两组。</title>
+  <rect x="8" y="8" width="576" height="219" rx="14" fill="#fffdf4" stroke="#234641" stroke-width="3"/>
+  <path d="M295 53v126" stroke="#8aa39d" stroke-width="2"/>
+  <g fill="#234641" text-anchor="middle" font-weight="700">
+   <text x="296" y="38" font-size="22">假设数据 · 不是实测</text>
+   <text x="151" y="81" font-size="25">只看颜色</text><text x="441" y="81" font-size="25">再加粗细</text>
+   <text x="151" y="112" font-size="19">白色</text><text x="441" y="112" font-size="19">白、粗</text>
+   <text x="296" y="207" font-size="22">哪几项仍符合？圈出来，再比一比。</text>
+  </g>
+  <g fill="none" stroke="#236961" stroke-width="2"><circle cx="72" cy="147" r="23"/><circle cx="151" cy="147" r="23"/><circle cx="230" cy="147" r="23"/><circle cx="362" cy="147" r="23"/><circle cx="441" cy="147" r="23"/><circle cx="520" cy="147" r="23"/></g>
+  <g fill="#234641" text-anchor="middle" font-size="17" font-weight="700"><text x="72" y="153">S1</text><text x="151" y="153">S2</text><text x="230" y="153">T1</text><text x="362" y="153">S1</text><text x="441" y="153">S2</text><text x="520" y="153">T1</text></g>
+ </svg>`;
+}
+// Shared apparatus, with the appropriate empty forms for each age.
+const PRINT_DAY240_SETUP_PINS={"4-6":"5669:e9bdbc20","7-9":"5612:cd8adc1c","10-12":"5766:b99c8a8e","13-16":"5935:843ca6c3"};
+const PRINT_DAY240_PREP=[
+ ['tray','浅盒×1贴牢在带沿托盘×1内。盒内底180–185×140–145毫米、高30–40毫米；托盘内平底至少230×190毫米。外廓与贴法照网页版。'],
+ ['box','空心纸模型×1（60×60×20毫米）、空心软纸填充×2（每件50×60×15毫米）。成人按网页版用纸规格制作；模板100%打印，核对100毫米标线。'],
+ ['measure','备毫米尺、三角尺、计时器、铅笔、纸胶带及桌面行程纸/盒内坐标纸。托盘距桌边至少150毫米；纸不垫盘底，需强推就只做纸上。'],
+];
+const PRINT_DAY240_AGE_ROWS={
+ '4-6':'F0、F2各1轮：备两张单轮记录表，以及F0、F2画纸各一张。每轮用本龄装置、比较、结论与位置图空表。',
+ '7-9':'F0、F2、F1各1轮：备3张单轮记录表，每轮用本龄装置、比较、结论与位置图空表。',
+ '10-12':'F0/F2/F1/F1/F2/F0共6轮：备6张单轮记录表、本龄每轮空表和配对复核表。',
+ '13-16':'F0、F2、F1各1轮：备3张单轮记录表及本龄每轮空表；实测和收整完再打开虚构模型输入、演算和结论复核表。',
+};
+// Oil/water prep keeps W (water only) distinct from C0 (oil and water, no spoon).
+const PRINT_DAY172_SETUP_PINS={"4-6":"7193:9c5297f5","7-9":"8951:e46fbe80","10-12":"9490:caf772c6","13-16":"9533:b76c3b61"};
+const PRINT_DAY172_PREP=[
+ ['tray','防滑防漏盘内≥35×25厘米；防飞溅护目镜各1副、100毫升刻度杯量水、2.5毫升量勺量油、读秒计时器。备钝尺、笔、纸胶带、A4白硬卡和模板/记录纸、封口袋。杯勺尺寸、分区与贴标照网页版。'],
+];
+const PRINT_DAY172_AGE_ROWS={
+ '4-6':'2杯2专勺，每杯水50＋油2.5毫升。另备清理水50毫升、纸巾6张、废液罐≥500毫升、2厘米圆模板2张。',
+ '7-9':'3杯2专勺，C0不插勺。每杯水50＋油2.5毫升；另备清理水50毫升、纸巾8张、废液罐≥500毫升、2厘米圆模板3张。',
+ '10-12':'5杯5专勺；W只有50毫升水也搅，另外4杯水50＋油2.5毫升。另备清理水50毫升、纸巾12张、废液罐≥500毫升；1厘米圆2张、3厘米圆3张。',
+ '13-16':'8杯8专勺，各杯水50＋油2.5毫升；不补试。另备清理水50毫升、纸巾16张、废液罐≥1升、2厘米圆模板8张，另加1张A4记录纸。',
+};
+const PRINT_DAY250_PINS={"4-6":"3307:5707ffb4","7-9":"3542:c8566542","10-12":"3804:667523dc","13-16":"3954:7f2a37ef"};
+const PRINT_DAY250_PREP=[
+ ['measure','备整张A4纸、铅笔、毫米直尺（连续量程≥10厘米、分度1毫米）。只在纸上找点，不剪小卡、不藏实物、不做真实导航。'],
+];
+const PRINT_DAY250_FORMS={
+ '4-6':'照网页版备两张0–2空格图和记录纸：先画星，再画叉。孩子可指出位置，成人代画时记下帮助。',
+ '7-9':'照网页版备本龄预测纸、两张0–4空格图、点位和互读记录。保留初图；先猜、再画，最后看示例。',
+ '10-12':'照网页版备本龄预测、A/B/C/D读点、边界、交换和复画用纸。先留初答，再用记录纸核对。',
+ '13-16':'照网页版备S/T两系空图、预测、换算和复核纸。同一点不移动，先猜T标签，再换算。',
+};
+// The whole handout is visible at once. Leave the child's assigned marks blank.
+function renderDay250PrintExercise(step,age){
+ const young=age==='4-6',middle=age==='7-9',older=age==='10-12',teen=age==='13-16';
+ const ink='#234641',teal='#21685e';
+ const txt=(x,y,t,size=22)=>`<text x="${x}" y="${y}" font-size="${size}" text-anchor="middle" font-weight="650" fill="${ink}">${t}</text>`;
+ function grid(n,translated=false){
+  const left=57,y=38,w=152,d=w/n,end=left+w,bottom=y+w;
+  const ticks=Array.from({length:n+1},(_,i)=>{
+   const v=translated?i-2:i;
+   return `<path d="M${left+d*i} ${y}v${w} M${left} ${bottom-d*i}h${w}"/>`+
+    txt(left+d*i,bottom+21,v,16)+txt(left-18,bottom-d*i+6,v,16);
+  }).join('');
+  const ax=translated?left+w/2:left,ay=translated?y+w/2:bottom;
+  return `<g stroke="#9eb7af" stroke-width="1.5" fill="none">${ticks.replaceAll('<text ','<text stroke="none" ')}</g>
+   <path d="M${left} ${ay}H${end+18}m-8 -5 8 5-8 5 M${ax} ${bottom}V${y-17}m-5 8 5-8 5 8" fill="none" stroke="${teal}" stroke-width="3"/>`+
+   txt(end+31,ay+6,translated?'u':'x',18)+txt(ax+16,y-15,translated?'v':'y',18)+txt(ax+13,ay-9,'O',15);
+ }
+ let label='',content='';
+ if(young&&(step===1||step===2)){
+  label=step===1?'从O向右两个间隔，再向上一个间隔，在交点画星。':'另用一张图，从O向右一个间隔，再向上两个间隔，在交点画叉。';
+  content=grid(2)+txt(409,49,step===1?'第一张 · 画星':'第二张 · 画叉',25)+
+   txt(409,95,step===1?'→ 右 2 格':'→ 右 1 格',26)+txt(409,135,step===1?'↑ 上 1 格':'↑ 上 2 格',26)+txt(409,183,'画在交点',22);
+ }else if(middle&&(step===1||step===2)){
+  label=step===1?'在空格图定位P，保留初画。':'用同一方向定位Q，再和P比较，核对前先保留初答。';
+  content=grid(4)+txt(407,62,step===1?'P：(3,1)':'Q：(1,3)',30)+txt(407,112,step===1?'先向右，再向上':'和P是同一点吗？',25)+txt(407,171,step===1?'保留初画':'相同 / 不同 / 不确定',22);
+ }else if(older&&step===2){
+  label='先猜交换坐标后的点是否重合，再在空格图验证。';
+  content=grid(4)+txt(408,45,'先猜，再描点核对',24)+
+   ['(3,1) ↔ (1,3)','(2,2) ↔ (2,2)','(0,4) ↔ (4,0)','(0,0) ↔ (0,0)'].map((t,i)=>txt(408,82+i*31,t,21)).join('');
+ }else if(teen&&(step===1||step===2)){
+  label=step===1?'从同一纸面交点读取T坐标；先预测，再换算。':'保留初算与逆算，核对S和T里的同名点是否占同一纸面交点。';
+  content=grid(4,true)+txt(403,39,'T 原点 = S(2,2)',24)+txt(403,77,step===1?'P=S(3,1) · Q=S(1,3)':'保留初算与核对',21)+
+   txt(403,123,step===1?'u=x−2，v=y−2':'x=u+2，y=v+2',25)+txt(403,176,'P：____　Q：____',22);
+ }else if(teen&&step===3){
+  label='审查两个说法，写出条件和需要补问的系统信息；不做实际导航。';
+  content=txt(296,49,'判断前先说清条件',27)+txt(296,95,'不同系统的相同数对，一定同点吗？',24)+
+   txt(296,137,'交换两数，一定不同点吗？',24)+txt(296,190,'我还需要知道：________________',23);
+ }else return '';
+ return `<svg class="science-diagram" data-a4-coordinate-exercise viewBox="0 0 592 235" role="img" aria-label="${label}" style="font-family:system-ui,'Noto Sans CJK SC',sans-serif"><title>${label}</title><rect x="6" y="6" width="580" height="223" rx="12" fill="#fffdf4" stroke="#61847a" stroke-width="2"/>${content}</svg>`;
+}
+const PRINT_DAY255_PINS={"4-6":"5535:ede3a947","7-9":"5579:e3c4e78e","10-12":"5578:26354604","13-16":"6119:3a1ba60"};
+const PRINT_DAY255_PREP=[
+ ['lamp','低亮电池LED手电最低档，用稳固夹具。平直塑料安全镜要有刚性背板、稳定轴座。备哑光墙、盖镜卡、硬背靶纸和两块稳定后挡板。'],
+ ['measure','用尺、三角尺、量角器和低粘胶带。底图、墙、靶、盖镜及对准纸样按100%打印，先核100毫米线。位置尺寸照网页版；装置不合格就只做纸上。'],
+];
+const PRINT_DAY255_FORMS={
+ '4-6':'备本龄4张观察空表：灯关O → 盖镜C → 露镜U45 → 再盖C。孩子只看靶纸。',
+ '7-9':'备本龄5张观察空表：O → C → U45 → U40 → U50。先写预测；成人关灯换角。',
+ '10-12':'备本龄8张观察空表：O/C/U45/U40/U45/U50/U45/C。三次U45分别记录、核查复位。',
+ '13-16':'备本龄6张观察空表：O/C/U45/U40/U50/C。先实录或记未做，关灯收妥；再做纸上模型，最后看示例。',
+};
+function renderDay255PrintModel(){
+ const labels=['角度','墙交点','靶交点'];
+ return `<svg class="science-diagram" data-a4-optics-model viewBox="0 0 592 235" role="img" aria-label="关灯收妥后在纸上计算三个角度的墙交点和靶交点；保留真正观察，不用推算回填。" style="font-family:system-ui,'Noto Sans CJK SC',sans-serif">
+  <rect x="9" y="8" width="574" height="219" rx="13" fill="#fffdf4" stroke="#234641" stroke-width="3"/>
+  <g text-anchor="middle" fill="#234641" font-weight="650">
+   <text x="296" y="37" font-size="23">收妥装置后，在纸上算中心光线</text>
+   <text x="296" y="66" font-size="20">r = i − 2(i·n)n　　n 垂直镜面</text>
+   ${labels.map((label,i)=>`<text x="${111+i*185}" y="98" font-size="19">${label}</text>`).join('')}
+   <text x="111" y="127" font-size="18">40°</text><text x="111" y="154" font-size="18">45°</text><text x="111" y="181" font-size="18">50°</text>
+   <text x="296" y="211" font-size="20">推算不回填真实观察</text>
+  </g>
+  <path d="M192 81v107m185-107v107 M28 104h535m-535 27h535m-535 27h535m-535 27h535" fill="none" stroke="#8aa39d" stroke-width="1.5"/>
+ </svg>`;
+}
+const PRINT_DAY248_PINS={"4-6":"4657:7c755d92","7-9":"4869:fb31b5d0","10-12":"4851:e2611380","13-16":"5586:8a148a1e"};
+const PRINT_DAY248_PREP=[
+ ['mirror','塑料平镜（反射区至少240×180毫米），稳固后置镜架。半花母版整张A4不剪；镜架由成人安装与转动。'],
+ ['fold','另备A4折剪母版、铅笔、毫米尺、量角器、低粘胶带和成人圆头剪刀。两张母版均按100%打印，先核100毫米线。'],
+];
+const PRINT_DAY248_FORMS={
+ '4-6':'备两张空白观察表（0°、计划+10°）、画框及折合记录。X框留空。',
+ '7-9':'备两张空白观察表（0°、计划+10°）、画框及折合记录。仅本龄在X框自选位置画≤2×2毫米小叉。',
+ '10-12':'备三张空白观察表（0°、计划+10°、返回0°）和折边量读、返位复核表。X框留空。',
+ '13-16':'备三张空白观察表（0°、计划+10°、返回0°）和折合记录。X框留空；实物观察及折剪完成，再开纸上模型。',
+};
+const PRINT_DAY235_PINS={"4-6":"5862:a86c87","7-9":"5738:d3f764","10-12":"5814:4eb6261a","13-16":"6053:368958fc"};
+const PRINT_DAY235_PREP=[
+ ['tray','紫甘蓝20克、室温饮用水150毫升预算（提取100、稀释4）、无色食品白醋仅1毫升。备带沿托盘、白背景、透明塑料杯A/B/C各1。'],
+ ['cup','成人用碗、钝勺、细滤网、秤、刻度杯、四把专用量勺和三根独立搅拌棒。戴防溅护目镜；干区离湿盘至少40厘米。配制、标签及尺寸照网页版。'],
+];
+const PRINT_DAY235_FORMS={
+ '4-6':'干区备记录纸、计时器和三个空图框。孩子先逐杯说真实颜色或看不清，成人照录，不先给色名。',
+ '7-9':'干区备六行空表和折盖纸。第一轮ABC、第二轮CBA；先盖前次原词，不移动三杯。',
+ '10-12':'干区备成人A、孩子B两张原表和盖纸。A按ABC、B按CBA，各自写完再揭表。',
+ '13-16':'干区备两张独立原表、盖纸；A按ABC、B按CBA，收液后揭表。实录后才打开六行虚构模型，不能回填现场。',
+};
+const PRINT_REVIEWED_ROLES={
+ 248:{
+  '4-6':['成人稳镜 · 孩子指','成人转镜 · 孩子看','成人剪好收剪刀 · 孩子再拿纸','孩子说或画'],
+  '7-9':['孩子画X · 成人稳镜','成人转镜 · 孩子看','成人剪好收剪刀 · 孩子再拿纸','孩子区分两种所见'],
+  '10-12':['成人核镜位 · 孩子登记','成人转镜 · 孩子记录','成人剪好收剪刀 · 孩子再拿纸','孩子对照原记录'],
+  '13-16':['成人转镜并剪好收剪刀 · 孩子再拿纸','收妥装置 · 孩子做纸上模型','孩子核对角度与条件','孩子审查结论'],
+ },
+ 235:{
+  '4-6':['成人备样 · 孩子只在干区看','孩子先说 · 成人记原话','孩子在干区画','成人收液 · 孩子说发现'],
+  '7-9':['成人备样 · 孩子写预测','孩子写完并盖住原表','孩子在干区反向读','成人收液 · 孩子对照'],
+  '10-12':['成人备样 · 孩子只在干区看','成人先写并盖住原表','孩子另写 · 两人写完再揭','成人收液 · 孩子核对'],
+  '13-16':['成人备样 · 孩子在干区写预测','成人与孩子各写 · 收液后揭表','孩子只算纸上虚构数据','孩子分开现场与模型'],
+ },
+};
+const PRINT_REVIEWED_SETUPS={73:[PRINT_DAY73_SETUP_PINS,PRINT_DAY73_PREP,PRINT_DAY73_AGE_ROWS],136:[PRINT_DAY136_SETUP_PINS,PRINT_DAY136_PREP,PRINT_DAY136_AGE_ROWS],172:[PRINT_DAY172_SETUP_PINS,PRINT_DAY172_PREP,PRINT_DAY172_AGE_ROWS],203:[PRINT_DAY203_SETUP_PINS,PRINT_DAY203_PREP,PRINT_DAY203_AGE_ROWS],235:[PRINT_DAY235_PINS,PRINT_DAY235_PREP,PRINT_DAY235_FORMS],240:[PRINT_DAY240_SETUP_PINS,PRINT_DAY240_PREP,PRINT_DAY240_AGE_ROWS],248:[PRINT_DAY248_PINS,PRINT_DAY248_PREP,PRINT_DAY248_FORMS],250:[PRINT_DAY250_PINS,PRINT_DAY250_PREP,PRINT_DAY250_FORMS],255:[PRINT_DAY255_PINS,PRINT_DAY255_PREP,PRINT_DAY255_FORMS],307:[PRINT_DAY307_SETUP_PINS,PRINT_DAY307_PREP,PRINT_DAY307_AGE_ROWS]};
 // The illustrated card is a child-facing companion, not a substitute for the
 // age-specific procedure. Never shorten safety copy or guess measurements.
 function renderVisualPrintSheet(e,g,age,draw){
@@ -399,6 +630,20 @@ function renderVisualPrintSheet(e,g,age,draw){
   measure:'<path d="m5 21 16-16 6 6-16 16zM11 15l3 3m1-7 3 3m1-7 3 3"/>',
   tray:'<path d="m4 11 4 13h16l4-13zM3 11h26m-19 7h12"/>',
   cup:'<path d="M7 5h18l-3 23H10zM9 14h14m-3 4h3m-4 4h3"/>',
+  dishes:'<path d="M2 23h28M3 18h12l-2 3H5zM17 18h12l-2 3h-8zM5 14h6v3H5zM21 14h6v3h-6zM8 10V6m16 4V6"/>',
+  mirror:'<rect x="8" y="3" width="16" height="23" rx="2"/><path d="M10 29h12M12 13l6-6m-6 13 9-9"/>',
+  fold:'<path d="M5 4h22v24H5zM16 5v22m-8-12h16m-3-3 3 3-3 3"/>',
+  lamp:'<path d="M4 12h10l6-5v18l-6-5H4zM24 11h5m-5 5h6m-6 5h5"/>',
+  photo:'<rect x="4" y="5" width="24" height="22" rx="2"/><circle cx="21" cy="12" r="2"/><path d="m5 22 7-7 5 5 3-3 7 6"/>',
+  box:'<path d="M4 9l12-5 12 5v15l-12 5-12-5zM4 9l12 5 12-5M16 14v15M10 7l12 5"/>',
+  car:'<path d="M3 19v-4h4l4-6h10l4 6h4v7h-4m-5 0h-9m-5 0H3v-3m8-4h13"/><circle cx="9" cy="22" r="3"/><circle cx="23" cy="22" r="3"/>',
+  ramp:'<path d="M4 8l23 15H4zM2 26h28m-7-5v5"/>',
+  goggles:'<path d="M2 13l3-3h22l3 3M4 13v6l3 3h6l3-5 3 5h6l3-3v-6M4 14h24M4 15H2m26 0h2"/>',
+  spoon:'<ellipse cx="10" cy="10" rx="5" ry="7" transform="rotate(-35 10 10)"/><path d="m14 15 13 13"/>',
+  bottle:'<path d="M12 3h8v6l4 5v14H8V14l4-5zM12 6h8M8 17h16m-16 6h16"/>',
+  drop:'<path d="M16 3c-4 6-9 11-9 16a9 9 0 1 0 18 0c0-5-5-10-9-16Z"/>',
+  leaf:'<path d="M26 5C9 4 3 12 7 22c8 7 19 2 19-17ZM5 27l17-17m-7 7v-5m0 5h5"/>',
+  filter:'<path d="M4 9h19l-4 12H8zM23 11h7M7 13h13M8 17h11M12 13v8m4-8v8"/>',
   time:'<circle cx="16" cy="17" r="10"/><path d="M13 3h6m-3 0v4m0 5v5l4 3"/>',
   list:'<rect x="6" y="4" width="20" height="24" rx="3"/><path d="m10 11 1 1 2-3m-3 9 1 1 2-3m3-5h6m-6 7h6m-12 5h12"/>',
   eye:'<path d="M2 16S7 8 16 8s14 8 14 8-5 8-14 8S2 16 2 16Z"/><circle cx="16" cy="16" r="4"/>',
@@ -418,15 +663,42 @@ function renderVisualPrintSheet(e,g,age,draw){
  const dense=e.materials.length>8||e.materials.join('').length>350;
  const names={paper:'纸',book:'书',measure:'尺',tray:'托盘',cup:'杯',time:'计时器'};
  const illustrated=[...new Set(e.materials.map(materialIcon))].filter(key=>names[key]);
- const materials=dense
-  ? `<div class="materials-reference">${icon('list')}<p>请成人按完整版的材料表准备。${illustrated.length?' 先认一认：':''}</p>${illustrated.map(key=>`<span class="recognize">${icon(key)}${names[key]}</span>`).join('')}</div>`
-  : `<ul>${e.materials.map(m=>`<li>${icon(materialIcon(m))}<span>${h(m)}</span></li>`).join('')}</ul>`;
+ const pilot=PRINT_MATERIAL_PILOTS[`${e.id}:${band}`];
+ const reviewed=pilot?.[1].length===e.materials.length&&pilot[0]===printSourceCheck(e,g,band);
+ const inventory=e.materials.map((m,i)=>`<li>${icon(reviewed?pilot[1][i]:materialIcon(m))}<span>${h(m)}</span></li>`).join('');
+ const setup=PRINT_REVIEWED_SETUPS[e.id];
+ const setupPin=setup?.[0][band]||(e.id===228?PRINT_DAY228_SETUP_PINS[band]:null);
+ const shortSetup=setupPin&&setupPin===printSourceCheck(e,g,band);
+ const shortRows=shortSetup?(setup?[...setup[1],['paper',setup[2][band]]]:[
+  PRINT_DAY228_PREP[0],['cup',PRINT_DAY228_AGE_CUPS[band]],...PRINT_DAY228_PREP.slice(1),
+ ]):[];
+ const shortInventory=shortRows.map(([name,text])=>`<li>${icon(name)}<span>${h(text)}</span></li>`).join('');
+ const materials=(dense||(e.id===250&&shortSetup))&&!reviewed
+  ? `<div class="materials-reference">${icon('list')}<p>请成人按完整版的材料表准备。${illustrated.length?' 先认一认：':''}</p>${illustrated.map(key=>`<span class="recognize">${icon(key)}${names[key]}</span>`).join('')}</div>${shortSetup?`<ul data-fit-inventory data-review="setup" hidden>${shortInventory}</ul>`:e.materials.length<=8?`<ul data-fit-inventory hidden>${inventory}</ul>`:''}`
+  : `<ul${reviewed?' data-review="full"':''}>${inventory}</ul>`;
  const compact=EXPERIMENT_PRINT_CARDS[`${e.id}:${band}`];
  const currentCompact=compact?.sourceCheck===printSourceCheck(e,g,band);
  const steps=e.steps.map((s,i)=>{
   const actor=g.steps?.[i]?.actor||s.actor;
-  const art=(currentCompact&&e.id===172&&renderDay172PrintScene(i,band))||draw(e,i,band,{sceneOnly:true});
-  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${art}</div><p class="step-role">${{adult:'成人动手',child:'孩子动手',together:'亲子一起'}[actor]||'请成人协助'}</p></section>`;
+  let art=(currentCompact&&e.id===172&&renderDay172PrintScene(i,band))
+   ||(shortSetup&&e.id===250&&renderDay250PrintExercise(i,band))
+   ||(shortSetup&&e.id===255&&band==='13-16'&&i===2&&renderDay255PrintModel())
+   ||(shortSetup&&e.id===307&&band==='13-16'&&i===2&&renderDay307PrintAudit())
+   ||draw(e,i,band,{sceneOnly:true});
+  if(shortSetup&&e.id===240&&band==='4-6'&&i===2){
+   // The two drawings were correct; remove the older-age third condition from the captions.
+   art=art.replace('>计划布局：F2双侧 / F1仅L<','>F0不加，F2左右各一件<')
+    .replace('>F1 不用于本龄<','>只做F0和F2<');
+  }
+  if(shortSetup&&e.id===248&&band==='13-16'){
+   if(i===2)art=art.replaceAll('端点D转到镜背侧','找出D在镜的哪一侧')
+    .replaceAll('10°：d&lt;0，背侧','10°：d的符号？')
+    .replaceAll('不可套正面反射实线','能连正面反射线吗？');
+   if(i===3)art=art.replaceAll('P′=P−2(n·P)n','先写切向和法向').replaceAll('背侧点不是正面物点','再判断能否当作正面物点');
+  }
+  const role=(shortSetup&&PRINT_REVIEWED_ROLES[e.id]?.[band]?.[i])
+   ||({adult:'成人动手',child:'孩子动手',together:'亲子一起'}[actor]||'请成人协助');
+  return `<section class="visual-step"><h3><span class="step-number">${i+1}</span><span>${h(s.title)}</span></h3><div class="step-art">${art}</div><p class="step-role">${h(role)}</p></section>`;
  }).join('');
  const safetyCopy=printVisualSafety(e,g,band).map(item=>`<p>${h(item)}</p>`).join('');
  const prompt=currentCompact?compact.discovery:(g.observe||e.question||'');
@@ -437,7 +709,7 @@ function renderVisualPrintSheet(e,g,age,draw){
   '10-12':'同一观察时窗，小圆和较大圆各搅5或20圈，外观有何差别？水杯参照提示什么？',
   '13-16':'同一时窗，搅10圈的B和C看起来一样吗？缺测或无差别也照实记。',
  }[band]);
- const discovery=shortDiscovery||((currentCompact||prompt.length<=54)?prompt:'画下或写下你真的看到的变化。');
+ const discovery=paperOnlyRecordNote(e.id)?.cue||shortDiscovery||((currentCompact||prompt.length<=54)?prompt:'画下或写下你真的看到的变化。');
  return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(e.title)} · A4 看图卡</title><style>
  @page{size:A4 portrait;margin:8mm}
  *{box-sizing:border-box}body{margin:0;background:#eef3f1;color:#193831;font-family:"Noto Sans CJK SC","Microsoft YaHei",system-ui,sans-serif}
@@ -448,6 +720,11 @@ function renderVisualPrintSheet(e,g,age,draw){
  .safety svg,.discovery svg,.materials svg{width:6mm;height:6mm;flex:none}
  .materials{margin-bottom:1.7mm}.materials ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1mm 2mm}
  .materials li,.materials-reference{display:flex;align-items:flex-start;gap:1.4mm;border:1px solid #88a29a;border-radius:1.8mm;padding:.8mm 1.5mm}.materials svg{color:#315d56}.materials-reference{align-items:center;flex-wrap:wrap}.recognize{display:inline-flex;align-items:center;gap:.4mm;padding:0 .8mm;font-weight:650}
+ .materials [hidden]{display:none}
+ .materials ul[data-review] li{padding:.5mm 1.2mm;gap:1mm}.materials ul[data-review] svg{width:5mm;height:5mm}
+ .materials [data-fit-inventory] li:only-child{grid-column:1/-1}
+ .materials ul[data-balanced]:not([hidden]){display:block;columns:2;column-gap:2mm}
+ .materials ul[data-balanced] li{break-inside:avoid;margin-bottom:1mm}
  .step-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5mm}.visual-step{min-width:0;border:1px solid #7c9b94;border-radius:2mm;padding:1mm;break-inside:avoid}.visual-step h3{display:flex;align-items:center;gap:1.2mm;min-height:6mm}
  .step-number{display:inline-grid;place-items:center;min-width:5.8mm;height:5.8mm;border:1.2pt solid #275b55;border-radius:50%;font-weight:800}
  .step-art{height:var(--art-height,45mm);display:flex;justify-content:center;align-items:center}.step-art>svg{max-width:100%;max-height:100%;width:100%;height:100%!important}
@@ -485,6 +762,7 @@ function openExperimentPrintSheet(){
     .toolbar button{margin:3px;min-height:44px}
     body:not(.paper-measure) .sheet{width:calc(100% - 16px);margin:8px auto;padding:10px;font-size:max(14px,var(--body-size))}
     body:not(.paper-measure) .step-grid,body:not(.paper-measure) .materials ul{grid-template-columns:minmax(0,1fr)}
+    body:not(.paper-measure) .materials ul[data-balanced]:not([hidden]){columns:auto}
     body:not(.paper-measure) .step-art{height:auto;aspect-ratio:16/9}
    }
   `;
@@ -493,6 +771,8 @@ function openExperimentPrintSheet(){
   const switchButton=doc.querySelector('#switch-print')||doc.createElement('button');
   if(!visual){switchButton.type='button';switchButton.id='switch-print';switchButton.textContent='返回看图卡';printButton.after(' ',switchButton);}
   switchButton.addEventListener('click',()=>paint(!visual));
+  const optionalInventory=visual?doc.querySelector('[data-fit-inventory]'):null;
+  const materialReference=optionalInventory?.previousElementSibling;
   const fit=()=>{
    if(popup.closed||!sheet.isConnected)return false;
    doc.body.classList.remove('print-overflow');
@@ -505,6 +785,39 @@ function openExperimentPrintSheet(){
     let size=11;sheet.style.setProperty('--body-size',size+'pt');
     if(visual){
      sheet.style.setProperty('--art-height','45mm');
+     if(optionalInventory){
+      // Try the existing order first. Balance exact source rows only if
+      // needed, without splitting an item or shrinking text or artwork.
+      optionalInventory.hidden=false;materialReference.hidden=true;
+      optionalInventory.removeAttribute('data-balanced');
+      const fitsInventory=()=>{
+       if(!tooLarge())return true;
+       const diagrams=[...sheet.querySelectorAll('.step-art > svg')];
+       const scale=svg=>{
+        const box=svg.viewBox.baseVal,m=svg.getScreenCTM();
+        return box.width>0&&box.height>0&&m?[m.a,m.b,m.c,m.d]:null;
+       };
+       const before=diagrams.map(scale);
+       sheet.style.setProperty('--art-height','38mm');
+       const sameScale=diagrams.length===4&&diagrams.every((svg,i)=>{
+        const previous=before[i],next=scale(svg);
+        return previous&&next&&previous.every((value,j)=>Number.isFinite(value)&&value===next[j]);
+       });
+       if(sameScale&&!tooLarge())return true;
+       sheet.style.setProperty('--art-height','45mm');
+       return false;
+      };
+      if(!fitsInventory()){
+       if(optionalInventory.children.length>2)optionalInventory.setAttribute('data-balanced','');
+       const fitsBalanced=optionalInventory.hasAttribute('data-balanced')&&fitsInventory()
+        &&Array.from(optionalInventory.children).every(li=>li.getClientRects().length===1);
+       if(!fitsBalanced){
+        sheet.style.setProperty('--art-height','45mm');
+        optionalInventory.removeAttribute('data-balanced');
+        optionalInventory.hidden=true;materialReference.hidden=false;
+       }
+      }
+     }
      if(tooLarge())sheet.style.setProperty('--art-height','38mm');
     }
     while(sheet.scrollHeight>max+1&&size>10){size-=.25;sheet.style.setProperty('--body-size',size+'pt');}
@@ -598,7 +911,16 @@ function bindProgressHistory(){
  });
 }
 function renderRecord(){
- const g=guide(),key=recordKey(),protocol=!!current().activeAgeProtocol,container=protocol?activeProtocolProgress(true).records:state.records;
+ const key=recordKey();
+ if(paperOnlyRecordNote(current().id)){
+  // Keep existing stored content reachable through the authenticated read-only history,
+  // but never present an editable observation or quote for this paper-only activity.
+  $('#record-area').innerHTML=renderProgressHistory();
+  if(progressReadOnly&&$('#complete-day'))$('#complete-day').disabled=true;
+  bindProgressHistory();
+  return;
+ }
+ const g=guide(),protocol=!!current().activeAgeProtocol,container=protocol?activeProtocolProgress(true).records:state.records;
  const rec=protocol?container:isRecord(container[key])?container[key]:{};if(!protocol)container[key]=rec;
  const getRecord=()=>protocol?activeProtocolProgress(true).records:(state.records[key]||(state.records[key]={}));
  const saved=progressClient?.peek(progressKey()),labelMap=new Map((saved?.schema?.fields||[]).map(f=>[f.key,f.label]));

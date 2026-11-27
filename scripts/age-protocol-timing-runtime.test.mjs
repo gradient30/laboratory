@@ -27,7 +27,7 @@ function declaration(name){
  assert.ok(next>=0,`Missing function boundary after ${name}`);
  return app.slice(start,start+1+next);
 }
-const script=[line('const escapeHTML='),line('const safeURL='),app.slice(app.indexOf('const ages={'),app.indexOf('\nconst localDate=')),line('const current='),line('const guide='),declaration('renderPaperPanel'),declaration('bindPaperResources'),declaration('renderExperiment'),declaration('renderStep'),declaration('renderInquiry'),declaration('renderReview'),declaration('populateDiagram'),declaration('renderDetailUnavailable'),line('function extensionNodes('),'globalThis.selectedProjection=current;globalThis.htmlEscape=escapeHTML;'].join('\n');
+const script=[declaration('paperOnlyRecordNote'),line('const escapeHTML='),line('const safeURL='),app.slice(app.indexOf('const ages={'),app.indexOf('\nconst localDate=')),line('const current='),line('const guide='),declaration('renderPaperPanel'),declaration('bindPaperResources'),declaration('renderExperiment'),declaration('renderStep'),declaration('renderInquiry'),declaration('renderReview'),declaration('populateDiagram'),declaration('renderDetailUnavailable'),line('function extensionNodes('),'globalThis.selectedProjection=current;globalThis.htmlEscape=escapeHTML;'].join('\n');
 const entries=artifacts.index.days.filter(e=>e.summary.id<=304);assert.equal(entries.length,304);
 for(const entry of entries)for(const age of protocolAges)test(`timing day ${entry.summary.id} ${age}: actual app header never merges legacy wait`,()=>{
  const original=JSON.parse(artifacts.files.get(entry.path.slice(1)));

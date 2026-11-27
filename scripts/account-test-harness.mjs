@@ -27,8 +27,8 @@ export async function createAccountHarness({origin=TEST_ORIGIN,bindings={},initi
     serviceBindings:{ASSETS:async request=>{
       const path=new URL(request.url).pathname;
       const file=path==='/'?'index.html':path.slice(1);
-      if(!/^(?:index\.html|app\.js|progress-client\.js|styles\.css|diagrams\.js|_protected\/curriculum\/[a-f0-9]{64}\/[1-9]\d{0,2}\.json)$/.test(file))return new Response('Not found',{status:404});
-      const types={html:'text/html; charset=utf-8',js:'text/javascript; charset=utf-8',css:'text/css; charset=utf-8',json:'application/json; charset=utf-8'};
+      if(!/^(?:index\.html|app\.js|progress-client\.js|styles\.css|diagrams\.js|_protected\/curriculum\/[a-f0-9]{64}\/[1-9]\d{0,2}\.json|_protected\/papers\/(?:manifests\/[a-f0-9]{64}\.json|[a-f0-9]{64}\.(?:svg|pdf)))$/.test(file))return new Response('Not found',{status:404});
+      const types={html:'text/html; charset=utf-8',js:'text/javascript; charset=utf-8',css:'text/css; charset=utf-8',json:'application/json; charset=utf-8',svg:'image/svg+xml',pdf:'application/pdf'};
       const bytes=assets.get(file);return bytes?new Response(bytes,{headers:{'Content-Type':types[file.split('.').pop()]}}):new Response('Not found',{status:404});
     }},
     outboundService:async request=>{

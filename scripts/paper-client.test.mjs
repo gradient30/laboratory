@@ -32,5 +32,5 @@ test('integration calls paper binding after workspace construction, inside mater
 });
 test('R1 optional adult pages are not all-required; withheld names/reasons render explicitly',async()=>{
  const f=fixture(),response=f.data(),run=f.click();response.papers.pages[0].optional=true;response.papers.unprovided=[{names:'reference, model-input',reason:'年龄适用范围待核对'}];response.papers.coverage='partial';f.resolve(response);await run;
- assert.ok(f.root.innerHTML.includes('不必全部打印'));assert.ok(f.root.innerHTML.includes('0页本龄资料 + 2页可选成人核验'));assert.ok(f.root.innerHTML.includes('暂未提供：reference, model-input'));assert.ok(f.root.innerHTML.includes('年龄适用范围待核对'));
+ assert.ok(f.root.innerHTML.includes('不必全部打印'));assert.ok(f.root.innerHTML.includes('0页本龄资料 + 2页可选资料'));assert.ok(f.root.innerHTML.includes('暂未提供：reference, model-input'));assert.ok(f.root.innerHTML.includes('年龄适用范围待核对'));
 });

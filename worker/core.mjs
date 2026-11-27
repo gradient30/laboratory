@@ -1,6 +1,6 @@
 import {hashPassword,verifyPassword,validPassword} from './password-client.mjs';
 import {curriculumIndex,protocolVersion,readCurriculumDay} from './curriculum.mjs';
-import {routeProgress,ProgressError,progressExportContext,RETRY_RECEIPT_SECONDS} from './progress-store.mjs';
+import {routeProgress,ProgressError,progressExportContext,assertPaperOnlyStatus,isPaperOnlyRecordDay,RETRY_RECEIPT_SECONDS} from './progress-store.mjs';
 import {readPaperManifest,readPaperAsset,paperResponse} from './paper-resources.mjs';
 export const PRIVACY_VERSION='2026-10-25-v1';
 const AGES=['4-6','7-9','10-12','13-16'],MAX_DAYS=365,SESSION_SECONDS=604800,MAX_STATE_BYTES=1048576,COOKIE='__Host-littlelab_session';
@@ -178,7 +178,16 @@ if(cr){const id=cr[1],action=cr[2],c=await child(env,u,id),a=access(u,c,s);
  if(['state','import'].includes(action)&&c.progress_storage_version===2)fail(428,'UPGRADE_REQUIRED','此档案已使用逐项记录。请先导出未保存草稿，再刷新升级页面；旧版整档保存已停用。');
  if(action==='state'&&method==='GET')return response({state:readState(c),revision:c.revision,access:a});
  if(action==='curriculum'&&method==='GET')return response({meta:curriculumIndex.meta,curriculumRevision:curriculumIndex.revision,accessVersion:curriculumAccessVersion(u,c,s),experiments:curriculumIndex.days.map(({summary})=>({...summary,locked:summary.id>a.unlockedThrough})),access:a});
- if((action==='state'&&method==='PUT')||(action==='import'&&method==='POST')){if(env.PROGRESS_READ_ONLY==='true')fail(503,'PROGRESS_READ_ONLY','记录服务正在只读维护，请先导出未保存草稿。');const b=await body(req);if(action==='import'&&b.confirmed!==true)fail(400,'IMPORT_CONFIRMATION_REQUIRED','请选择儿童档案并明确确认导入。');if(!Number.isInteger(b.revision)||b.revision!==c.revision)fail(409,'REVISION_CONFLICT','进度已在其他页面更新，请重新加载后再保存。');const old=readState(c),state=validateState(action==='import'?mergeImport(b.state,old):b.state,old,a);let next=c.unlocked_through;if(s.progressionMode==='sequential'&&action!=='import'&&a.unlockedThrough>0&&!a.unlockAll&&newlyCompleted(state,old,a.unlockedThrough)){let n=0;while(n<365&&dayCompleted(state,n+1))n++;if(n>=a.unlockedThrough)next=Math.max(next,Math.min(365,a.unlockedThrough+1))}
+ if((action==='state'&&method==='PUT')||(action==='import'&&method==='POST')){if(env.PROGRESS_READ_ONLY==='true')fail(503,'PROGRESS_READ_ONLY','记录服务正在只读维护，请先导出未保存草稿。');const b=await body(req);if(action==='import'&&b.confirmed!==true)fail(400,'IMPORT_CONFIRMATION_REQUIRED','请选择儿童档案并明确确认导入。');if(!Number.isInteger(b.revision)||b.revision!==c.revision)fail(409,'REVISION_CONFLICT','进度已在其他页面更新，请重新加载后再保存。');const old=readState(c),state=validateState(action==='import'?mergeImport(b.state,old):b.state,old,a);// A stale browser can still use whole-profile writes before lazy activation.
+ for(const kind of ['records','legacyRecords','protocolProgress']){
+  const keys=new Set([...Object.keys(old[kind]||{}),...Object.keys(state[kind]||{})]);
+  for(const key of keys){const day=Number(key.split(':',1)[0]);if(!isPaperOnlyRecordDay(day))continue;const existing=old[kind]?.[key],incoming=state[kind]?.[key];
+   if(kind==='records')assertPaperOnlyStatus(day,incoming,existing);
+   else if(kind==='legacyRecords')assertPaperOnlyStatus(day,undefined,undefined,incoming,existing);
+   else assertPaperOnlyStatus(day,incoming?.records,existing?.records,incoming?.legacyRecord,existing?.legacyRecord);
+  }
+ }
+ let next=c.unlocked_through;if(s.progressionMode==='sequential'&&action!=='import'&&a.unlockedThrough>0&&!a.unlockAll&&newlyCompleted(state,old,a.unlockedThrough)){let n=0;while(n<365&&dayCompleted(state,n+1))n++;if(n>=a.unlockedThrough)next=Math.max(next,Math.min(365,a.unlockedThrough+1))}
  if(next>a.unlockedThrough)fail(428,'UPGRADE_REQUIRED','旧版整档记录不能新增开放活动。已开放活动和原记录仍保留；请先导出未保存草稿，再刷新升级后完成当前方案。');next=c.unlocked_through;
  // Compare user access_version in the write itself: a concurrent admin lock/disable must invalidate stale authorized work.
  const updated=await first(env,"UPDATE children SET state_json=?,revision=revision+1,unlocked_through=?,updated_at=? WHERE id=? AND user_id=? AND revision=? AND progress_storage_version=1 AND archived_at IS NULL AND EXISTS(SELECT 1 FROM users WHERE id=? AND status='active' AND access_version=? AND auth_version=? AND EXISTS(SELECT 1 FROM sessions WHERE token_hash=? AND user_id=users.id AND auth_version=users.auth_version AND expires_at>CAST(strftime('%s','now') AS INTEGER))) RETURNING *",JSON.stringify(state),next,now(),id,u.id,b.revision,u.id,u.access_version,u.auth_version,u.token_hash);if(!updated)fail(409,'REVISION_CONFLICT','进度或账号权限已更新，请重新加载后重试。');return response({state,revision:updated.revision,access:access(u,updated,s)})}fail(405,'METHOD_NOT_ALLOWED','不支持此操作。');}
