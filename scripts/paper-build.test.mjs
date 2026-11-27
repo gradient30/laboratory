@@ -22,16 +22,27 @@ test('paper build rejects blob corruption, symlinks, invalid id, duplicate age, 
 test('all production entries have original byte-pinned blobs and exact binding; missing catalog fails closed',t=>{
  const bytes=fs.readFileSync('dist/data.json'),data=JSON.parse(bytes),a=paperArtifacts('.',data),sourceSha=digest(bytes);
  const profiles={
-  'e17afb26990b383c30ab549ef076058f9d6b31ff55a7b03c99be4224aab35710':{active:289,files:2998,excluded:8,staged:true},
-  '7f39438a7ad283375a53702c72c9e3c12d3301726522a1955a62a895ecb47073':{active:289,files:2998,excluded:8,staged:true},
-  '8b3e1e712ebdd0ce8b704617cae8a5a34e94e9c12c6763c5662d7676a6b3bd24':{active:289,files:2998,excluded:8,staged:true},
-  '595b4c385189689d0cf3665af615ec11e5ef615ef02faf73ae682657c1abb040':{active:272,files:2845,excluded:25,staged:false},
-  '0a07a57c148077a36052270e9428e800a2c866d00cdcaa06dd7b36d194ad9557':{active:289,files:2998,excluded:8,staged:true}
+  'e17afb26990b383c30ab549ef076058f9d6b31ff55a7b03c99be4224aab35710':{active:289,files:3000,excluded:8,staged:true},
+  '7f39438a7ad283375a53702c72c9e3c12d3301726522a1955a62a895ecb47073':{active:289,files:3000,excluded:8,staged:true},
+  '8b3e1e712ebdd0ce8b704617cae8a5a34e94e9c12c6763c5662d7676a6b3bd24':{active:289,files:3000,excluded:8,staged:true},
+  '595b4c385189689d0cf3665af615ec11e5ef615ef02faf73ae682657c1abb040':{active:272,files:2847,excluded:25,staged:false},
+  '0a07a57c148077a36052270e9428e800a2c866d00cdcaa06dd7b36d194ad9557':{active:289,files:3000,excluded:8,staged:true}
  },expected=profiles[sourceSha];assert.ok(expected,'This regression must use an exact pinned data profile');
  const ages=['4-6','7-9','10-12','13-16'],baseKeys=Array.from({length:68},(_,i)=>i+233).flatMap(day=>ages.map(age=>day+':'+age)),newKeys=['194:13-16',...[301,302,303,304].flatMap(day=>ages.map(age=>day+':'+age))],alternateKeys=[254,268].flatMap(day=>ages.map(age=>day+':'+age));
  assert.equal(Object.keys(a.index.bindings).length,expected.active);assert.equal(a.files.size,expected.files);assert.equal(a.excluded.length,expected.excluded);
  assert.deepEqual(Object.keys(a.index.bindings).sort(),[...baseKeys,...(expected.staged?newKeys:[])].sort());assert.deepEqual(a.excluded.map(b=>b.key).sort(),[...alternateKeys,...(expected.staged?[]:newKeys)].sort());assert.ok(a.excluded.every(b=>b.reason==='exact-protocol-mismatch'));
- const docs=Object.values(a.index.bindings).map(e=>JSON.parse(a.files.get(e.path.slice(1))));assert.equal(docs.filter(m=>m.coverage==='partial').length,6);assert.equal(docs.flatMap(m=>m.pages).filter(p=>p.optional).length,86);
+ const docs=Object.values(a.index.bindings).map(e=>JSON.parse(a.files.get(e.path.slice(1))));assert.equal(docs.filter(m=>m.coverage==='partial').length,6);assert.equal(docs.flatMap(m=>m.pages).filter(p=>p.optional).length,88);
+ const day265=docs.filter(m=>m.day===265);
+ assert.deepEqual(day265.map(m=>m.pages.length),[16,21,23,27]);
+ for(const m of day265){
+  const alternate=m.pages.filter(p=>p.title.includes('单人替代'));
+  assert.equal(alternate.length,['4-6','7-9'].includes(m.age)?1:0);
+  if(alternate.length){const p=alternate[0],svg=a.files.get('_protected/papers/'+p.id).toString();
+   assert.equal(m.pages[0].id,p.id);assert.equal(p.optional,true);assert.equal(p.shared,false);assert.equal(p.pageCount,1);
+   assert.match(svg,/虚构练习 · 没有真人观察/);assert.match(svg,/M12 283H112/);assert.doesNotMatch(svg,/松鼠|答案：/);
+   assert.equal(m.pages[1].id,'5d58465c5be1b78d81065d5b60861bd478cbe967d250011e98e782838dcf84f5.svg');
+  }
+ }
  const emptyRoot=fs.mkdtempSync(path.join(os.tmpdir(),'no-paper-'));t.after(()=>fs.rmSync(emptyRoot,{recursive:true,force:true}));assert.throws(()=>paperArtifacts(emptyRoot,data),/Missing required paper catalog/);
 });
 test('R2 exact staged protocols, including day304 numeric coordinates, bind all 289 ages without Python/JS serialization drift',()=>{

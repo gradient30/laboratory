@@ -69,3 +69,35 @@ test('complete export traverses all record pages, preserves original raw state a
 test('segmented export includes an ordered hashed backup part and allows the same part to be downloaded again',async({page})=>{
  const seed=await ready(page,{children:[{nickname:'分卷合成档案',ageBand:'4-6',state:{records:{'365:4-6':{spoken:'分卷保留旧记录'}}}}]});await openAccount(page);const download=page.waitForEvent('download');await page.locator('#export-account-parts').click();const file=await download,stream=await file.createReadStream();let text='';for await(const chunk of stream)text+=chunk;const data=JSON.parse(text);expect(data.exportVersion).toBe(3);expect(data.part).toBe(1);expect(data.complete).toBe(true);expect(data.previousPartSha256).toBe(null);expect(data.partSha256).toMatch(/^[a-f0-9]{64}$/);expect(data.pages[0].childId).toBe(seed.children[0].id);expect(data.pages[0].legacyStateJSON).toContain('分卷保留旧记录');await expect(page.locator('#family-message')).toContainText('检查浏览器已下载');const again=page.waitForEvent('download');await page.locator('#export-part-again').click();expect((await again).suggestedFilename()).toBe(file.suggestedFilename());
 });
+
+for(const [day,cue] of [[259,'访谈只写纸上 · 网页只标记完成'],[265,'两人的原始清单留在纸上 · 网页只标记完成']])
+for(const ageBand of ['4-6','7-9','10-12','13-16']){
+ test(`Day ${day} ${ageBand} keeps original notes on paper and saves completion only`,async({page})=>{
+  const key=`${day}:${ageBand}:v1`,prior=ageBand==='4-6'?{spoken:'QA retained quote',field2:'QA retained observation'}:{};
+  const seed=await ready(page,{children:[{nickname:'合成纸上练习',ageBand,state:{day,age:ageBand,protocolProgress:{[key]:{records:prior,step:0,viewedSteps:0,completed:false}}}}]});
+  const id=seed.children[0].id;
+  await expect(page.locator('#day-number')).toContainText(`DAY ${day} / 365`);
+  await page.locator('#tab-observations').click();
+  await expect(page.locator('#observations')).toContainText(cue);
+  await expect(page.locator('#observations')).toContainText('虚构练习');
+  if(day===265)await expect(page.locator('#observations')).toContainText('只用 X/Y，不记姓名');
+  await expect(page.locator('#record-area textarea,#record-area input,#record-area [contenteditable],#record-area [data-choice]')).toHaveCount(0);
+  const opening=page.waitForEvent('popup');await page.locator('#print-experiment').click();const popup=await opening;
+  await expect(popup.locator('.discovery')).toContainText(cue);
+  await expect(popup.locator('.discovery')).not.toContainText('QA retained');
+  await expect(popup.locator('#print-now')).toBeEnabled();
+  await popup.emulateMedia({media:'print'});
+  const pdf=await popup.pdf({format:'A4',preferCSSPageSize:true});
+  expect((pdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length).toBe(1);
+  await popup.close();
+  const complete=page.locator('#complete-day');await complete.click();await cloudSaved(page);
+  const current=await stored(page,id,key);expect(current.record.completed).toBe(true);expect(current.record.records).toEqual(prior);
+  await page.reload();await page.locator('#tab-observations').click();
+  await expect(page.locator('#complete-day')).toHaveAttribute('aria-pressed','true');
+  if(ageBand==='4-6'){
+   const history=page.locator(`[data-history-key="${key}"]`);await history.locator('summary').click();
+   await history.locator('[data-read-history]').click();
+   await expect(history).toContainText(prior.spoken);await expect(history).toContainText(prior.field2);
+  }
+ });
+}

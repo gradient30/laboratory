@@ -33,6 +33,21 @@ export function validateProgressRecord(v){
  if(v.legacyRecord!==undefined){const l=v.legacyRecord;if(!object(l)||!Array.isArray(l.fields)||l.fields.length>32||!object(l.originalRecord||{}))fail(400,'INVALID_RECORD','旧版记录格式无效。');result.legacyRecord={fields:l.fields.map(f=>{if(!object(f)||typeof f.label!=='string'||f.label.length>120||typeof f.value!=='string'||f.value.length>4000)fail(400,'INVALID_RECORD','旧版字段无效。');return {label:f.label,value:f.value}}),originalRecord:validateProgressRecord({...empty(),records:l.originalRecord||{}}).records}}
  if(enc.encode(json(result)).length>MAX_RECORD_BYTES)fail(413,'RECORD_TOO_LARGE','单项记录已超过512 KiB，请先导出草稿并缩短本项内容。');return result;
 }
+// These lessons keep original records on paper. Preserve existing content
+// verbatim on status updates, but never accept a new observation or archive.
+export const isPaperOnlyRecordDay=day=>day===259||day===265;
+export function assertPaperOnlyStatus(day,records,previous,archive,previousArchive){
+ const fields=new Set([...Object.keys(records||{}),...Object.keys(previous||{})]);
+ const value=(o,key)=>Object.hasOwn(o||{},key)?o[key]:undefined;
+ const blank=x=>x===undefined||x===null||x==='';
+ if([...fields].some(key=>{
+  const next=value(records,key),old=value(previous,key);
+  return next!==old&&!(blank(next)&&blank(old));
+ })||archive!==previousArchive&&json(archive)!==json(previousArchive)){
+  fail(400,day===259?'PAPER_INTERVIEW_STATUS_ONLY':'PAPER_OBSERVERS_STATUS_ONLY',
+   `第${day}天的${day===259?'访谈':'双人观察清单'}只写在纸上。网页只保存完成状态，原记录不变。`);
+ }
+}
 function validateSchema(v,p){
  if(!object(v)||!Array.isArray(v.fields)||v.fields.length>128)fail(400,'INVALID_SCHEMA','记录字段标签无效。');const seen=new Set();
  const fields=v.fields.map(f=>{if(!object(f)||!/^choice$|^(spoken|feeling|mood|field\d{1,2})$/.test(f.key)||seen.has(f.key)||typeof f.label!=='string'||!f.label.trim()||f.label.length>120)fail(400,'INVALID_SCHEMA','记录字段标签无效。');seen.add(f.key);return {key:f.key,label:f.label}});
@@ -117,7 +132,8 @@ async function saveRecord(ctx,p,importing=false){
  const oldRequest=await first(ctx.env,'SELECT request_hash FROM progress_revisions WHERE child_id=? AND request_id=?',ctx.childId,id);if(oldRequest)fail(409,oldRequest.request_hash===requestHash?'RETRY_WINDOW_EXPIRED':'IDEMPOTENCY_CONFLICT','这次保存的重试凭据不可用，请先导出草稿再重新读取。');
  if(p.day>access(ctx).unlockedThrough)fail(403,'ACTIVITY_LOCKED','此活动尚未解锁，不能保存或导入进度。');if(!importing&&p.version!==(ctx.protocolVersion(p.day,p.age)||0))fail(409,'PROTOCOL_UPDATED','此方案已更新，原记录仍保留；请刷新后使用当前方案。');
  const old=await readRecord(ctx,p);if(old.revision!==expectedRevision)fail(409,'RECORD_CONFLICT','这一项已在另一页面更新。请先导出待保存记录，再重新读取。');let record=validateProgressRecord(b.record);if(!importing&&json(record.legacyRecord)!==json(old.record.legacyRecord))fail(400,'LEGACY_READ_ONLY','旧版归档仅供查看，不能在新记录中删除或改写。');if(importing)record=mergeRecord(record,old.record);
- const currentVersion=ctx.protocolVersion(p.day,p.age)||0;let schema=old.exists?old.schema:await schemaFor(ctx,p,record);if(importing&&b.schema){const supplied=validateSchema(b.schema,p);if(p.version===currentVersion&&json(supplied.fields)!==json(schema.fields))fail(409,'IMPORT_SCHEMA_CONFLICT','当前方案的字段标签必须与已保存的课程版本一致。');if(old.exists&&json(supplied.fields)!==json(old.schema.fields))fail(409,'IMPORT_SCHEMA_CONFLICT','同一方案的原字段标签不同，请保留两份备份并核对。');if(p.version!==currentVersion&&!old.exists)schema={...supplied,source:'imported-historical-labels'};}
+ if(isPaperOnlyRecordDay(p.day))assertPaperOnlyStatus(p.day,record.records,old.record.records,record.legacyRecord,old.record.legacyRecord);
+ const currentVersion=ctx.protocolVersion(p.day,p.age)||0;let schema=old.exists?old.schema:await schemaFor(ctx,p,record);if(importing&&b.schema){const supplied=validateSchema(b.schema,p);if((p.version===currentVersion||isPaperOnlyRecordDay(p.day))&&json(supplied.fields)!==json(schema.fields))fail(409,'IMPORT_SCHEMA_CONFLICT','当前方案的字段标签必须与已保存的课程版本一致。');if(old.exists&&json(supplied.fields)!==json(old.schema.fields))fail(409,'IMPORT_SCHEMA_CONFLICT','同一方案的原字段标签不同，请保留两份备份并核对。');if(p.version!==currentVersion&&!old.exists)schema={...supplied,source:'imported-historical-labels'};}
  const eligible=record.completed&&(old.completionEligible===true||(!importing&&!old.record.completed));
  const guard=`EXISTS(SELECT 1 FROM children c WHERE c.id=? AND c.progress_storage_version=2 AND ${liveGuard()})`,guardValues=[ctx.childId,...guardArgs(ctx)],headCheck='COALESCE((SELECT revision FROM progress_heads WHERE child_id=? AND record_key=?),0)=?',ops=[];
  if(old.exists&&old.revision===0)ops.push(insertRevision(ctx,p,old.record,old.schema,0,null,null,'legacy',false,`${guard} AND NOT EXISTS(SELECT 1 FROM progress_revisions WHERE child_id=? AND record_key=? AND revision=0) AND ${headCheck}`,[...guardValues,ctx.childId,p.key,ctx.childId,p.key,0]));

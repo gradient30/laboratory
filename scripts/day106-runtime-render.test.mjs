@@ -35,7 +35,7 @@ function declaration(name){
  assert.ok(next>=0,`Missing function boundary after ${name}`);
  return app.slice(start,start+1+next);
 }
-const script=[line('const escapeHTML='),line('const safeURL='),app.slice(app.indexOf('const ages={'),app.indexOf('\nconst localDate=')),line('const current='),line('const guide='),declaration('renderPaperPanel'),declaration('bindPaperResources'),declaration('renderExperiment'),declaration('renderStep'),declaration('renderInquiry'),declaration('renderReview'),declaration('populateDiagram'),declaration('renderDetailUnavailable'),line('function extensionNodes('),'globalThis.selectedProjection=current;globalThis.htmlEscape=escapeHTML;'].join('\n');
+const script=[declaration('paperOnlyRecordNote'),line('const escapeHTML='),line('const safeURL='),app.slice(app.indexOf('const ages={'),app.indexOf('\nconst localDate=')),line('const current='),line('const guide='),declaration('renderPaperPanel'),declaration('bindPaperResources'),declaration('renderExperiment'),declaration('renderStep'),declaration('renderInquiry'),declaration('renderReview'),declaration('populateDiagram'),declaration('renderDetailUnavailable'),line('function extensionNodes('),'globalThis.selectedProjection=current;globalThis.htmlEscape=escapeHTML;'].join('\n');
 for(const age of protocolAges)test(`day106 ${age}: generated catalog stays loading until matching detail; actual step, modal and inquiry render reviewed instructions`,()=>{
  const nodes=new Map();
  function node(id){
